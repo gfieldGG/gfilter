@@ -82,6 +82,7 @@ Show
     BaseType "Empower" "Enlighten" "Portal" "Detonate Mines" "Item Quantity" "Enhance"
     SetTextColor 26 162 155 # Gem Text
     SetBackgroundColor 0 25 15 250 # Gem Highlight Background
+    SetBorderColor 26 162 155 # Gem Border
     SetFontSize 38
 
 # Gem Vaal
@@ -92,9 +93,21 @@ Show
     SetBackgroundColor 0 0 0 250 # Default Background
     SetBorderColor 161 27 123 # Vaal Border
 
+# Gem Support
+Show
+    Class "Support Skill Gems"
+    SetTextColor 26 162 155 # Gem Text
+    SetFontSize 38
+
+# Gem Aura
+Show
+    BaseType "Wrath" "Anger" "Hatred" "Clarity" "Determination" "Grace" "Discipline" "Vitality" "Haste" "Purity of" "Herald of" "Arctic Armour" "Blood Rage"
+    SetTextColor 26 162 155 # Gem Text
+    SetFontSize 38
+
 # Gem
 Show
-    Class "Active Skill Gems" "Support Skill Gems"
+    Class "Active Skill Gems"
     SetTextColor 26 162 155 # Gem Text
     SetBackgroundColor 0 0 0 250 # Default Background
 
