@@ -1,11 +1,15 @@
 ﻿# Script edited with Filtration - https://github.com/ben-wallis/Filtration
 
-# Section: Not Gonna Happen Brah
+# Section: yeah sure
 
 # Fishing Rods
 Show
     Class "Fishing Rods"
-    SetFontSize 42
+    SetTextColor 255 0 0
+    SetBackgroundColor 255 255 255
+    SetBorderColor 255 0 0
+    SetFontSize 45
+    PlayAlertSound 8 300
 
 # Section: Currency
 
