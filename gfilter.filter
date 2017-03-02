@@ -1,0 +1,815 @@
+﻿# Script edited with Filtration - https://github.com/ben-wallis/Filtration
+
+# Section: Not Gonna Happen Brah
+
+# Fishing Rods
+Show
+    Class "Fishing Rods"
+    SetFontSize 42
+
+# Section: Currency
+
+# Currency Tier1
+Show
+    BaseType "Albino Rhoa Feather" "Eternal Orb" "Exalted Orb" "Divine Orb" "Mirror of Kalandra"
+    SetTextColor 0 0 0 # Currency Tier1 Text
+    SetBackgroundColor 170 158 130 # Currency Tier1 Background
+    SetBorderColor 0 0 0 # Currency Tier1 Border
+    SetFontSize 42
+    PlayAlertSound 8 300
+
+# Currency Tier2
+Show
+    Class "Currency"
+    BaseType "Chaos Orb" "Fusing" "Orb of Regret" "Orb of Scouring" "Vaal Orb" "Regal Orb" "Gemcutter's Prism" "Prophecy"
+    SetTextColor 170 158 130 # Currency Text
+    SetBackgroundColor 35 30 20 250 # Currency Highlight Background
+    SetBorderColor 170 158 130 # Currency Border
+    SetFontSize 38
+    PlayAlertSound 7 100
+
+# Currency Tier3
+Show
+    Class "Currency"
+    BaseType "Orb of Alchemy" "Jeweller's Orb" "Orb of Chance" "Orb of Alteration" "Chromatic Orb" "Cartographer's Chisel" "Silver Coin" "Perandus Coin" "Blessed Orb"
+    SetTextColor 170 158 130 # Currency Text
+    SetBackgroundColor 0 0 0 250 # Default Background
+    SetFontSize 38
+
+# Currency
+Show
+    Class "Currency"
+    SetTextColor 170 158 130 # Currency Text
+    SetBackgroundColor 0 0 0 250 # Default Background
+
+# Section: Divination Cards
+
+# Divination Card Tier1
+Show
+    Class "Divination Card"
+    BaseType "House of Mirrors" "Wealth and Power" "The Dragon's Heart" "The Brittle Emperor" "Celestial Justicar" "Dark Mage" "Doctor" "Fiend" "The Queen" "The Artist" "The Last One Standing" "The Artist" "Bowyer's Dream" "Hunter's Reward" "The Thaumaturgist" "The Warlord" "The Offering" "The Ethereal" "The Dapper Prodigy" "Abandoned Wealth" "The Enlightened" "Last Hope" "The Devastator" "The Immortal" "The Aesthete" "The Hunger" "Pride Before the Fall" "The King's Heart" "Lysah's Respite" "Cursed King" "Time-Lost Relic"
+    SetTextColor 35 185 235 # Divination Card Text
+    SetBackgroundColor 15 20 20 250 # Divination Card Highlight Background
+    SetBorderColor 35 185 235 # Divination Card Border
+    SetFontSize 42
+    PlayAlertSound 8 300
+
+# Divination Card
+Show
+    Class "Divination Card"
+    SetTextColor 35 185 235 # Divination Card Text
+    SetBackgroundColor 0 0 0 250 # Default Background
+    SetFontSize 38
+
+# Section: Gems
+
+# Gem Quality
+Show
+    Quality > 0
+    Class "Active Skill Gems" "Support Skill Gems"
+    SetTextColor 26 162 155 # Gem Text
+    SetBackgroundColor 0 25 15 250 # Gem Highlight Background
+    SetBorderColor 26 162 155 # Gem Border
+    SetFontSize 38
+
+# Gem Tier1
+Show
+    Class "Active Skill Gems" "Support Skill Gems"
+    BaseType "Empower" "Enlighten" "Portal" "Detonate Mines" "Item Quantity" "Enhance"
+    SetTextColor 26 162 155 # Gem Text
+    SetBackgroundColor 0 25 15 250 # Gem Highlight Background
+    SetFontSize 38
+
+# Gem Vaal
+Show
+    Class "Active Skill Gems" "Support Skill Gems"
+    BaseType "Vaal"
+    SetTextColor 26 162 155 # Gem Text
+    SetBackgroundColor 0 0 0 250 # Default Background
+    SetBorderColor 161 27 123 # Vaal Border
+
+# Gem
+Show
+    Class "Active Skill Gems" "Support Skill Gems"
+    SetTextColor 26 162 155 # Gem Text
+    SetBackgroundColor 0 0 0 250 # Default Background
+
+# Section: 6 Links
+
+# 6 Link Normal
+Show
+    LinkedSockets = 6
+    Rarity = Normal
+    SetTextColor 200 200 200 # Normal Text
+    SetBackgroundColor 30 30 30 250 # Normal Highlight Background
+    SetBorderColor 200 200 200 # Normal Border
+    SetFontSize 38
+
+# 6 Link Magic
+Show
+    LinkedSockets = 6
+    Rarity = Magic
+    SetTextColor 136 136 255 # Magic Text
+    SetBackgroundColor 0 15 30 250 # Magic Highlight Background
+    SetBorderColor 136 136 255 # Magic Border
+    SetFontSize 38
+
+# 6 Link Rare
+Show
+    LinkedSockets = 6
+    Rarity = Rare
+    SetTextColor 255 255 119 # Rare Text
+    SetBackgroundColor 23 23 0 250 # Rare Highlight Background
+    SetBorderColor 255 255 119 # Rare Border
+    SetFontSize 38
+
+# Tabula Rasa
+Show
+    SocketGroup "WWWWWW"
+    BaseType "Simple Robe"
+    SetTextColor 175 96 37 # Unique Text
+    SetFontSize 38
+
+# 6 Link Unique
+Show
+    LinkedSockets = 6
+    Rarity = Unique
+    SetTextColor 175 96 37 # Unique Text
+    SetBackgroundColor 30 15 0 250 # Unique Highlight Background
+    SetBorderColor 175 96 37 # Unique Border
+    SetFontSize 38
+
+# Section: 5 Links
+
+# 5 Link Normal
+Show
+    LinkedSockets = 5
+    Rarity = Normal
+    SetTextColor 255 255 255 # Normal Highlight Text
+    SetBackgroundColor 30 30 30 250 # Normal Highlight Background
+    SetFontSize 38
+
+# 5 Link Magic
+Show
+    LinkedSockets = 5
+    Rarity = Magic
+    SetTextColor 136 136 255 # Magic Text
+    SetBackgroundColor 0 15 30 250 # Magic Highlight Background
+    SetFontSize 38
+
+# 5 Link Rare
+Show
+    LinkedSockets = 5
+    Rarity = Rare
+    SetTextColor 255 255 119 # Rare Text
+    SetBackgroundColor 23 23 0 250 # Rare Highlight Background
+    SetFontSize 38
+
+# 5 Link Unique
+Show
+    LinkedSockets = 5
+    Rarity = Unique
+    SetTextColor 175 96 37 # Unique Text
+    SetBackgroundColor 30 15 0 250 # Unique Highlight Background
+    SetFontSize 38
+
+# Section: 6 Sockets
+
+# 6 Socket Normal
+Show
+    Sockets = 6
+    Rarity = Normal
+    SetTextColor 255 255 255 # Normal Highlight Text
+    SetBackgroundColor 30 30 30 250 # Normal Highlight Background
+    SetFontSize 38
+
+# 6 Socket Magic
+Show
+    Sockets = 6
+    Rarity = Magic
+    SetTextColor 136 136 255 # Magic Text
+    SetBackgroundColor 0 15 30 250 # Magic Highlight Background
+    SetFontSize 38
+
+# 6 Socket Rare
+Show
+    Sockets = 6
+    Rarity = Rare
+    SetTextColor 255 255 119 # Rare Text
+    SetBackgroundColor 23 23 0 250 # Rare Highlight Background
+    SetFontSize 38
+
+# 6 Socket Unique
+Show
+    Sockets = 6
+    Rarity = Unique
+    SetTextColor 175 96 37 # Unique Text
+    SetBackgroundColor 30 15 0 250 # Unique Highlight Background
+    SetFontSize 38
+
+# Section: White Sockets
+
+#Disabled Block Start
+# White Socket Normal
+#Show
+#    SocketGroup "W"
+#    Rarity = Normal
+#Disabled Block End
+
+#Disabled Block Start
+# White Socket Magic
+#Show
+#    SocketGroup "W"
+#    Rarity = Magic
+#Disabled Block End
+
+#Disabled Block Start
+# White Socket Rare
+#Show
+#    SocketGroup "W"
+#    Rarity = Rare
+#Disabled Block End
+
+#Disabled Block Start
+# White Socket Unique
+#Show
+#    SocketGroup "W"
+#    Rarity = Unique
+#Disabled Block End
+
+# Section: Jewels
+
+# Jewel Normal
+Show
+    Class "Jewel"
+    Rarity = Normal
+    SetTextColor 200 200 200 # Normal Text
+    SetFontSize 38
+
+# Jewel Magic
+Show
+    Class "Jewel"
+    Rarity = Magic
+    SetTextColor 136 136 255 # Magic Text
+    SetFontSize 38
+
+# Jewel Rare
+Show
+    Class "Jewel"
+    Rarity = Rare
+    SetTextColor 255 255 119 # Rare Text
+    SetFontSize 38
+
+# Section: Maps
+
+# Vaal Fragment
+Show
+    Class "Map Fragments"
+    BaseType "Sacrifice at"
+    SetTextColor 161 27 123 # Vaal Text
+    SetBackgroundColor 30 0 15 250 # Vaal Highlight Background
+    SetBorderColor 161 27 123 # Vaal Border
+
+# Map Fragments
+Show
+    Class "Map Fragments"
+    SetTextColor 200 200 200 # Normal Text
+    SetBackgroundColor 30 30 30 250 # Normal Highlight Background
+    SetBorderColor 200 200 200 # Normal Border
+
+# Map Normal
+Show
+    Class "Maps"
+    Rarity = Normal
+    SetTextColor 0 0 0 # Map Text
+    SetBackgroundColor 200 200 200 # Map Normal Background
+    SetBorderColor 0 0 0 # Map Border
+
+# Map Magic
+Show
+    Class "Maps"
+    Rarity = Magic
+    SetTextColor 0 0 0 # Map Text
+    SetBackgroundColor 136 136 255 # Map Magic Background
+    SetBorderColor 0 0 0 # Map Border
+
+# Map Rare
+Show
+    Class "Maps"
+    Rarity = Rare
+    SetTextColor 0 0 0 # Map Text
+    SetBackgroundColor 255 255 119 # Map Rare Background
+    SetBorderColor 0 0 0 # Map Border
+
+# Map Unique
+Show
+    Class "Maps"
+    Rarity = Unique
+    SetTextColor 0 0 0 # Map Text
+    SetBackgroundColor 175 96 37 # Map Unique Background
+    SetBorderColor 0 0 0 # Map Border
+
+# Section: Regal Recipe
+
+# Regal Recipe Jewelry
+Show
+    Class "Ring" "Belt" "Amulet"
+    Rarity = Rare
+    ItemLevel >= 75
+    SetTextColor 255 255 119 # Rare Text
+    SetBackgroundColor 23 23 0 250 # Rare Highlight Background
+    SetBorderColor 136 136 255 # Regal Recipe Jewelry Border
+    SetFontSize 38
+
+# Regal Recipe
+Show
+    Class "Body Armours" "Two Hand" "Boots" "Gloves" "Helmets"
+    Rarity = Rare
+    ItemLevel >= 75
+    SetTextColor 255 255 119 # Rare Text
+    SetBackgroundColor 0 0 0 250 # Default Background
+    SetBorderColor 136 136 255 127 # Regal Recipe Border
+
+# Section: Chaos Recipe
+
+# Chaos Recipe Jewelry
+Show
+    Class "Ring" "Belt" "Amulet"
+    Rarity = Rare
+    ItemLevel >= 60
+    SetTextColor 255 255 119 # Rare Text
+    SetBackgroundColor 23 23 0 250 # Rare Highlight Background
+    SetBorderColor 254 170 0 # Chaos Recipe Jewelry Border
+    SetFontSize 38
+
+# Chaos Recipe
+Show
+    Class "Body Armours" "Two Hand" "Boots" "Gloves" "Helmets"
+    Rarity = Rare
+    ItemLevel >= 60
+    SetTextColor 255 255 119 # Rare Text
+    SetBackgroundColor 0 0 0 250 # Default Background
+    SetBorderColor 254 170 0 127 # Chaos Recipe Border
+
+# Section: Chisel Recipe
+
+# Chisel Hammer Normal
+Show
+    BaseType "Gavel" "Rock Breaker" "Stone Hammer"
+    Rarity = Normal
+    SetTextColor 200 200 200 # Normal Text
+    SetBackgroundColor 0 0 0 250 # Default Background
+    SetFontSize 38
+
+# Chisel Hammer Magic
+Show
+    Quality >= 12
+    BaseType "Gavel" "Rock Breaker" "Stone Hammer"
+    Rarity = Magic
+    SetTextColor 136 136 255 # Magic Text
+    SetBackgroundColor 0 0 0 250 # Default Background
+    SetFontSize 38
+
+# Section: RGB Recipe
+
+# RGB Maps 2x2
+Show
+    SocketGroup "RGB"
+    Height <= 2
+    Width <= 2
+    ItemLevel >= 68
+    SetTextColor 255 255 255 # Normal Highlight Text
+    SetBackgroundColor 30 30 30 250 # Normal Highlight Background
+    SetFontSize 38
+
+# RGB Maps 1x3
+Show
+    SocketGroup "RGB"
+    Height <= 3
+    Width <= 1
+    ItemLevel >= 68
+    SetTextColor 255 255 255 # Normal Highlight Text
+    SetBackgroundColor 30 30 30 250 # Normal Highlight Background
+    SetFontSize 38
+
+# RGB Levelling
+Show
+    SocketGroup "RGB"
+    ItemLevel < 68
+    SetTextColor 255 255 255 # Normal Highlight Text
+    SetBackgroundColor 30 30 30 250 # Normal Highlight Background
+    SetFontSize 38
+
+# Section: Perfect Quality Items
+
+# Perfect Quality Item
+Show
+    Quality = 20
+    Class "Body Armours" "Boots" "Gloves" "Bows" "Shields" "Two Hand" "One Hand" "Wands" "Staves" "Helmets" "Sceptres"
+    Rarity = Normal
+    SetBackgroundColor 0 0 0 250 # Default Background
+    SetBorderColor 80 80 80 # Quality Border
+
+# Section: Quality Flasks
+
+# Quality Flask Normal
+Show
+    Quality > 9
+    Class "Flask"
+    Rarity = Normal
+    SetTextColor 200 200 200 # Normal Text
+    SetBorderColor 80 80 80 # Quality Border
+
+# Quality Flask Magic
+Show
+    Quality > 9
+    Class "Flask"
+    Rarity = Magic
+    SetTextColor 136 136 255 # Magic Text
+    SetBorderColor 80 80 80 # Quality Border
+
+# Section: General
+
+# Game Items
+Show
+    Class "Quest" "Hideout" "Micro" "Labyrinth"
+    SetTextColor 74 230 58
+    SetBackgroundColor 0 0 0 250 # Default Background
+    SetFontSize 38
+    PlayAlertSound 2 100
+
+# Rare
+Show
+    Rarity = Rare
+    SetTextColor 255 255 119 # Rare Text
+    SetBackgroundColor 0 0 0 250 # Default Background
+
+# Unique
+Show
+    Rarity = Unique
+    SetTextColor 175 96 37 # Unique Text
+    SetBackgroundColor 0 0 0 250 # Default Background
+    SetFontSize 38
+
+# Section: Flask Upgrade Magic
+
+Show
+    Class "Utility"
+    Rarity = Magic
+    ItemLevel <= 15
+    SetTextColor 136 136 255 # Magic Text
+    SetBackgroundColor 0 0 0 250 # Default Background
+
+Show
+    Class "Flask"
+    BaseType "Medium"
+    Rarity = Magic
+    ItemLevel <= 6
+    ItemLevel >= 3
+    SetTextColor 136 136 255 # Magic Text
+    SetBackgroundColor 0 0 0 250 # Default Background
+
+Show
+    Class "Flask"
+    BaseType "Large"
+    Rarity = Magic
+    ItemLevel <= 9
+    ItemLevel >= 5
+    SetTextColor 136 136 255 # Magic Text
+    SetBackgroundColor 0 0 0 250 # Default Background
+
+Show
+    Class "Flask"
+    BaseType "Greater"
+    Rarity = Magic
+    ItemLevel <= 15
+    ItemLevel >= 12
+    SetTextColor 136 136 255 # Magic Text
+    SetBackgroundColor 0 0 0 250 # Default Background
+
+Show
+    Class "Flask"
+    BaseType "Grand"
+    Rarity = Magic
+    ItemLevel <= 21
+    ItemLevel >= 18
+    SetTextColor 136 136 255 # Magic Text
+    SetBackgroundColor 0 0 0 250 # Default Background
+
+Show
+    Class "Flask"
+    BaseType "Giant"
+    Rarity = Magic
+    ItemLevel <= 27
+    ItemLevel >= 24
+    SetTextColor 136 136 255 # Magic Text
+    SetBackgroundColor 0 0 0 250 # Default Background
+
+Show
+    Class "Flask"
+    BaseType "Colossal"
+    Rarity = Magic
+    ItemLevel <= 33
+    ItemLevel >= 30
+    SetTextColor 136 136 255 # Magic Text
+    SetBackgroundColor 0 0 0 250 # Default Background
+
+Show
+    Class "Flask"
+    BaseType "Sacred"
+    Rarity = Magic
+    ItemLevel <= 39
+    ItemLevel >= 36
+    SetTextColor 136 136 255 # Magic Text
+    SetBackgroundColor 0 0 0 250 # Default Background
+
+Show
+    Class "Flask"
+    BaseType "Hallowed"
+    Rarity = Magic
+    ItemLevel <= 45
+    ItemLevel >= 42
+    SetTextColor 136 136 255 # Magic Text
+    SetBackgroundColor 0 0 0 250 # Default Background
+
+Show
+    Class "Flask"
+    BaseType "Sanctified"
+    Rarity = Magic
+    ItemLevel <= 51
+    ItemLevel >= 48
+    SetTextColor 136 136 255 # Magic Text
+    SetBackgroundColor 0 0 0 250 # Default Background
+
+Show
+    Class "Flask"
+    BaseType "Divine"
+    Rarity = Magic
+    ItemLevel <= 63
+    ItemLevel >= 60
+    SetTextColor 136 136 255 # Magic Text
+    SetBackgroundColor 0 0 0 250 # Default Background
+
+Show
+    Class "Flask"
+    BaseType "Eternal"
+    Rarity = Magic
+    ItemLevel <= 68
+    ItemLevel >= 65
+    SetTextColor 136 136 255 # Magic Text
+    SetBackgroundColor 0 0 0 250 # Default Background
+
+Show
+    Class "Life Flask" "Mana Flask" "Hybrid Flask"
+    Rarity = Magic
+    ItemLevel > 68
+    SetTextColor 136 136 255 # Magic Text
+    SetBackgroundColor 0 0 0 250 # Default Background
+
+# Section: Utility Flasks
+
+Show
+    Class "Utility Flasks"
+    Rarity = Normal
+    ItemLevel >= 70
+    SetTextColor 200 200 200 # Normal Text
+    SetBackgroundColor 0 0 0 250 # Default Background
+    SetFontSize 38
+
+Show
+    Class "Utility Flasks"
+    Rarity = Magic
+    ItemLevel >= 70
+    SetTextColor 136 136 255 # Magic Text
+    SetBackgroundColor 0 0 0 250 # Default Background
+    SetFontSize 38
+
+Show
+    Class "Utility"
+    Rarity = Normal
+    ItemLevel <= 15
+    SetTextColor 200 200 200 # Normal Text
+    SetBackgroundColor 0 0 0 250 # Default Background
+
+Show
+    Class "Utility"
+    SetBackgroundColor 0 0 0 250 # Default Background
+
+# Section: Obsolete Flasks
+
+Hide
+    DropLevel <= 6
+    Class "Life Flask" "Mana Flask" "Hybrid Flask"
+    ItemLevel > 12
+    SetBackgroundColor 0 0 0 0 # Hidden Background
+
+Hide
+    DropLevel <= 12
+    Class "Life Flask" "Mana Flask" "Hybrid Flask"
+    ItemLevel > 18
+    SetBackgroundColor 0 0 0 0 # Hidden Background
+
+Hide
+    DropLevel <= 18
+    Class "Life Flask" "Mana Flask" "Hybrid Flask"
+    ItemLevel > 24
+    SetBackgroundColor 0 0 0 0 # Hidden Background
+
+Hide
+    DropLevel <= 24
+    Class "Life Flask" "Mana Flask" "Hybrid Flask"
+    ItemLevel > 30
+    SetBackgroundColor 0 0 0 0 # Hidden Background
+
+Hide
+    DropLevel <= 40
+    Class "Life Flask" "Mana Flask" "Hybrid Flask"
+    ItemLevel > 45
+    SetBackgroundColor 0 0 0 0 # Hidden Background
+
+Hide
+    DropLevel < 45
+    Class "Life Flask" "Mana Flask" "Hybrid Flask"
+    ItemLevel > 50
+    SetBackgroundColor 0 0 0 0 # Hidden Background
+
+Hide
+    DropLevel < 60
+    Class "Life Flask" "Mana Flask" "Hybrid Flask"
+    ItemLevel > 65
+    SetBackgroundColor 0 0 0 0 # Hidden Background
+
+# Section: Obsolete Gear Exception Early Game 3L
+
+Show
+    LinkedSockets >= 3
+    Class "Helm" "Boot" "Glove" "Body"
+    Rarity = Normal
+    ItemLevel < 6
+
+Show
+    LinkedSockets >= 3
+    Class "Helm" "Boot" "Glove" "Body"
+    Rarity = Magic
+    ItemLevel < 6
+
+# Section: Obsolete Exceptions Levelling 4L
+
+Show
+    LinkedSockets = 4
+    DropLevel > 40
+    ItemLevel < 65
+    ItemLevel >= 50
+
+Show
+    LinkedSockets = 4
+    DropLevel > 27
+    ItemLevel < 50
+    ItemLevel >= 40
+
+Show
+    LinkedSockets = 4
+    DropLevel > 15
+    ItemLevel < 40
+    ItemLevel >= 30
+
+Show
+    LinkedSockets = 4
+    Class "Helm" "Boot" "Body" "Glove"
+    ItemLevel < 30
+
+# Section: Levelling Jewelry
+
+Show
+    Class "Ring" "Amulet" "Belt"
+    Rarity = Normal
+    ItemLevel <= 7
+
+Show
+    Class "Ring" "Amulet" "Belt"
+    Rarity = Magic
+    ItemLevel <= 7
+
+Show
+    Class "Ring" "Amulet" "Belt"
+    Rarity = Magic
+    ItemLevel <= 68
+
+Show
+    Class "Ring" "Amulet" "Belt"
+    Rarity = Normal
+    ItemLevel <= 68
+
+Show
+    Class "Ring" "Amulet" "Belt"
+    Rarity = Normal
+    ItemLevel > 68
+
+Show
+    Class "Ring" "Amulet" "Belt"
+    Rarity = Magic
+    ItemLevel > 68
+
+Show
+    Class "Quiver"
+    Rarity = Normal
+
+Show
+    Class "Quiver"
+    Rarity = Magic
+
+# Section: Obsolete Gear
+
+Hide
+    Sockets < 3
+    DropLevel <= 5
+    ItemLevel >= 10
+    SetBackgroundColor 0 0 0 0 # Hidden Background
+
+Hide
+    Sockets < 3
+    DropLevel <= 10
+    ItemLevel >= 15
+    SetBackgroundColor 0 0 0 0 # Hidden Background
+
+Hide
+    DropLevel <= 13
+    ItemLevel >= 20
+    SetBackgroundColor 0 0 0 0 # Hidden Background
+
+Hide
+    DropLevel <= 20
+    ItemLevel >= 25
+    SetBackgroundColor 0 0 0 0 # Hidden Background
+
+Hide
+    DropLevel <= 25
+    ItemLevel >= 30
+    SetBackgroundColor 0 0 0 0 # Hidden Background
+
+Hide
+    DropLevel <= 30
+    ItemLevel >= 35
+    SetBackgroundColor 0 0 0 0 # Hidden Background
+
+Hide
+    DropLevel <= 35
+    ItemLevel >= 40
+    SetBackgroundColor 0 0 0 0 # Hidden Background
+
+Hide
+    DropLevel <= 40
+    ItemLevel >= 45
+    SetBackgroundColor 0 0 0 0 # Hidden Background
+
+Hide
+    DropLevel <= 46
+    ItemLevel >= 50
+    SetBackgroundColor 0 0 0 0 # Hidden Background
+
+Hide
+    DropLevel <= 52
+    ItemLevel >= 55
+    SetBackgroundColor 0 0 0 0 # Hidden Background
+
+Hide
+    DropLevel < 57
+    ItemLevel >= 60
+    SetBackgroundColor 0 0 0 0 # Hidden Background
+
+Hide
+    DropLevel < 59
+    ItemLevel >= 65
+    SetBackgroundColor 0 0 0 0 # Hidden Background
+
+Hide
+    DropLevel < 60
+    ItemLevel >= 70
+    SetBackgroundColor 0 0 0 0 # Hidden Background
+
+Hide
+    Rarity = Magic
+    ItemLevel >= 72
+    SetBackgroundColor 0 0 0 0 # Hidden Background
+
+Hide
+    Sockets < 3
+    Class "Shield" "One Hand" "Dagger" "Claw" "Wand" "Sceptre" "Helmet" "Glove" "Boots"
+    Rarity = Normal
+    ItemLevel >= 74
+    SetBackgroundColor 0 0 0 0 # Hidden Background
+
+Hide
+    LinkedSockets < 3
+    Class "Shield" "One Hand" "Dagger" "Claw" "Wand" "Sceptre"
+    Rarity = Normal
+    ItemLevel >= 78
+    SetBackgroundColor 0 0 0 0 # Hidden Background
+
+Hide
+    LinkedSockets < 4
+    Class "Helmet" "Glove" "Boots" "Body"
+    Rarity = Normal
+    ItemLevel >= 78
+    SetBackgroundColor 0 0 0 0 # Hidden Background
+
