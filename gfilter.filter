@@ -11,6 +11,30 @@ Show
     SetFontSize 45
     PlayAlertSound 8 300
 
+# Section: League Stuff
+
+# Pale Court Key
+Show
+    BaseType "Eber's Key" "Inya's Key" "Volkuur's Key" "Yriel's Key"
+    SetTextColor 125 0 175 # Prophecy Text
+    SetBackgroundColor 18 0 25 # Prophecy Highlight Background
+    SetBorderColor 125 0 175 # Prophecy Border
+    SetFontSize 38
+
+# Prophecy
+Show
+    Class "Currency"
+    BaseType "Prophecy"
+    SetTextColor 125 0 175 # Prophecy Text
+    SetFontSize 38
+
+# Silver Coin
+Show
+    Class "Currency"
+    BaseType "Silver Coin"
+    SetTextColor 170 158 130 # Currency Text
+    SetBackgroundColor 18 0 25 # Prophecy Highlight Background
+
 # Section: Currency
 
 # Currency Tier1
@@ -36,6 +60,7 @@ Show
 Show
     Class "Currency"
     BaseType "Orb of Alchemy" "Jeweller's Orb" "Orb of Chance" "Orb of Alteration" "Chromatic Orb" "Cartographer's Chisel" "Silver Coin" "Perandus Coin" "Blessed Orb"
+    BaseType "Orb of Alchemy" "Jeweller's Orb" "Orb of Chance" "Orb of Alteration" "Chromatic Orb" "Cartographer's Chisel" "Perandus Coin" "Blessed Orb"
     SetTextColor 170 158 130 # Currency Text
     SetBackgroundColor 0 0 0 250 # Default Background
     SetFontSize 38
