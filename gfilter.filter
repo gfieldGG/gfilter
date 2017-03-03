@@ -37,6 +37,37 @@ Show
     SetBackgroundColor 18 0 25 # Prophecy Highlight Background
     SetFontSize 38
 
+# Breach Blessing
+Show
+    Class "Stackable Currency"
+    BaseType "Blessing of"
+    SetTextColor 100 0 0 # Breach Text
+    SetBackgroundColor 0 0 0 250 # Default Background
+    SetFontSize 38
+
+# Breachstone
+Show
+    Class "Misc Map Items"
+    BaseType "Breachstone"
+    SetTextColor 200 200 200 # Normal Text
+    SetBackgroundColor 100 0 0 # Breach Background
+    SetBorderColor 74 0 160 # League Border
+    SetFontSize 38
+
+# Breach Splinter
+Show
+    Class "Stackable Currency"
+    BaseType "Splinter of"
+    SetTextColor 170 158 130 # Currency Text
+    SetBackgroundColor 20 0 0 # Breach Highlight Background
+    SetFontSize 38
+
+# Leaguestone
+Show
+    Class "Leaguestone"
+    SetBorderColor 74 0 160
+    SetFontSize 38
+
 # Section: Currency
 
 # Currency Tier1
