@@ -92,7 +92,6 @@ Show
 # Currency Tier3
 Show
     Class "Currency"
-    BaseType "Orb of Alchemy" "Jeweller's Orb" "Orb of Chance" "Orb of Alteration" "Chromatic Orb" "Cartographer's Chisel" "Silver Coin" "Perandus Coin" "Blessed Orb"
     BaseType "Orb of Alchemy" "Jeweller's Orb" "Orb of Chance" "Orb of Alteration" "Chromatic Orb" "Cartographer's Chisel" "Perandus Coin" "Blessed Orb"
     SetTextColor 170 158 130 # Currency Text
     SetBackgroundColor 0 0 0 250 # Default Background
