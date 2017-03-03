@@ -26,6 +26,7 @@ Show
     Class "Currency"
     BaseType "Prophecy"
     SetTextColor 125 0 175 # Prophecy Text
+    SetBackgroundColor 0 0 0 250 # Default Background
     SetFontSize 38
 
 # Silver Coin
@@ -34,6 +35,7 @@ Show
     BaseType "Silver Coin"
     SetTextColor 170 158 130 # Currency Text
     SetBackgroundColor 18 0 25 # Prophecy Highlight Background
+    SetFontSize 38
 
 # Section: Currency
 
