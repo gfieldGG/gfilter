@@ -59,7 +59,7 @@ Show
     Class "Stackable Currency"
     BaseType "Splinter of"
     SetTextColor 170 158 130 # Currency Text
-    SetBackgroundColor 20 0 0 # Breach Highlight Background
+    SetBackgroundColor 30 0 15 # Breach Highlight Background
     SetFontSize 38
 
 # Leaguestone
