@@ -52,16 +52,16 @@ Show
 Show
     Class "Divination Card"
     BaseType "House of Mirrors" "Wealth and Power" "The Dragon's Heart" "The Brittle Emperor" "Celestial Justicar" "Dark Mage" "Doctor" "Fiend" "The Queen" "The Artist" "The Last One Standing" "The Artist" "Bowyer's Dream" "Hunter's Reward" "The Thaumaturgist" "The Warlord" "The Offering" "The Ethereal" "The Dapper Prodigy" "Abandoned Wealth" "The Enlightened" "Last Hope" "The Devastator" "The Immortal" "The Aesthete" "The Hunger" "Pride Before the Fall" "The King's Heart" "Lysah's Respite" "Cursed King" "Time-Lost Relic"
-    SetTextColor 35 185 235 # Divination Card Text
+    SetTextColor 14 186 255 # Divination Card Text
     SetBackgroundColor 15 20 20 250 # Divination Card Highlight Background
-    SetBorderColor 35 185 235 # Divination Card Border
+    SetBorderColor 14 186 255 # Divination Card Border
     SetFontSize 42
     PlayAlertSound 8 300
 
 # Divination Card
 Show
     Class "Divination Card"
-    SetTextColor 35 185 235 # Divination Card Text
+    SetTextColor 14 186 255 # Divination Card Text
     SetBackgroundColor 0 0 0 250 # Default Background
     SetFontSize 38
 
