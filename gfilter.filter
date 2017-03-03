@@ -51,7 +51,7 @@ Show
     BaseType "Breachstone"
     SetTextColor 200 200 200 # Normal Text
     SetBackgroundColor 100 0 0 # Breach Background
-    SetBorderColor 74 0 160 # League Border
+    SetBorderColor 74 0 160 # Breach Border
     SetFontSize 38
 
 # Breach Splinter
@@ -65,7 +65,14 @@ Show
 # Leaguestone
 Show
     Class "Leaguestone"
-    SetBorderColor 74 0 160
+    SetTextColor 255 200 0 # Legacy Text
+    SetBorderColor 255 200 0 # Legacy Border
+    SetFontSize 38
+
+# Talisman
+Show
+    BaseType "Talisman"
+    SetBorderColor 50 230 100 # Talisman Border
     SetFontSize 38
 
 # Section: Currency
