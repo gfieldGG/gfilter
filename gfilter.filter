@@ -41,7 +41,7 @@ Show
     Class "Currency"
     BaseType "Prophecy"
     SetTextColor 125 0 175 # Prophecy Text
-    SetBackgroundColor 0 0 0 250 # Default Background
+    SetBackgroundColor 18 0 25 # Prophecy Highlight Background
     SetFontSize 38
 
 # Silver Coin
@@ -81,7 +81,7 @@ Show
 Show
     Class "Leaguestone"
     SetTextColor 255 200 0 # Legacy Text
-    SetBorderColor 255 200 0 # Legacy Border
+    SetBackgroundColor 25 20 0 # Legacy Highlight Background
     SetFontSize 38
 
 # Talisman
@@ -456,7 +456,6 @@ Show
     Rarity = Normal
     SetTextColor 200 200 200 # Normal Text
     SetBackgroundColor 0 0 0 250 # Default Background
-    SetFontSize 38
 
 # Chisel Hammer Magic
 Show
