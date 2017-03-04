@@ -21,6 +21,13 @@ Show
     SetBackgroundColor 13 18 25 # Essence Highlight Background
     SetFontSize 38
 
+# Perandus Coin
+Show
+    Class "Currency"
+    BaseType "Perandus Coin"
+    SetTextColor 254 213 0 # Perandus Text
+    SetBackgroundColor 112 88 2 # Perandus Background
+
 # Pale Court Key
 Show
     BaseType "Eber's Key" "Inya's Key" "Volkuur's Key" "Yriel's Key"
@@ -107,7 +114,7 @@ Show
 # Currency Tier3
 Show
     Class "Currency"
-    BaseType "Orb of Alchemy" "Jeweller's Orb" "Orb of Chance" "Orb of Alteration" "Chromatic Orb" "Cartographer's Chisel" "Perandus Coin" "Blessed Orb"
+    BaseType "Orb of Alchemy" "Jeweller's Orb" "Orb of Chance" "Orb of Alteration" "Chromatic Orb" "Cartographer's Chisel" "Blessed Orb"
     SetTextColor 170 158 130 # Currency Text
     SetBackgroundColor 0 0 0 250 # Default Background
     SetFontSize 38
