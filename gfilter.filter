@@ -18,21 +18,21 @@ Show
     Class "Currency"
     BaseType "Essence of"
     SetTextColor 128 179 254 # Essence Text
-    SetBackgroundColor 25 36 51 # Essence Highlight Background
+    SetBackgroundColor 25 36 51 250 # Essence Highlight Background
     SetFontSize 38
 
 # Perandus Coin
 Show
     Class "Currency"
-    BaseType "Perandus Coin"
+    BaseType "Perandus"
     SetTextColor 254 213 0 # Perandus Text
-    SetBackgroundColor 112 88 2 # Perandus Background
+    SetBackgroundColor 112 88 2 250 # Perandus Background
 
 # Pale Court Key
 Show
     BaseType "Eber's Key" "Inya's Key" "Volkuur's Key" "Yriel's Key"
     SetTextColor 125 0 175 # Prophecy Text
-    SetBackgroundColor 18 0 25 # Prophecy Highlight Background
+    SetBackgroundColor 18 0 25 250 # Prophecy Highlight Background
     SetBorderColor 125 0 175 # Prophecy Border
     SetFontSize 38
 
@@ -41,7 +41,7 @@ Show
     Class "Currency"
     BaseType "Prophecy"
     SetTextColor 125 0 175 # Prophecy Text
-    SetBackgroundColor 18 0 25 # Prophecy Highlight Background
+    SetBackgroundColor 18 0 25 250 # Prophecy Highlight Background
     SetFontSize 38
 
 # Silver Coin
@@ -49,7 +49,7 @@ Show
     Class "Currency"
     BaseType "Silver Coin"
     SetTextColor 170 158 130 # Currency Text
-    SetBackgroundColor 18 0 25 # Prophecy Highlight Background
+    SetBackgroundColor 18 0 25 250 # Prophecy Highlight Background
     SetFontSize 38
 
 # Breach Blessing
@@ -57,7 +57,7 @@ Show
     Class "Stackable Currency"
     BaseType "Blessing of"
     SetTextColor 100 0 0 # Breach Text
-    SetBackgroundColor 0 0 0 250 # Default Background
+    SetBackgroundColor 30 0 0 250 # Breach Highlight Background
     SetFontSize 38
 
 # Breachstone
@@ -74,21 +74,21 @@ Show
     Class "Stackable Currency"
     BaseType "Splinter of"
     SetTextColor 170 158 130 # Currency Text
-    SetBackgroundColor 30 0 15 # Breach Highlight Background
+    SetBackgroundColor 30 0 0 250 # Breach Highlight Background
     SetFontSize 38
 
 # Leaguestone
 Show
     Class "Leaguestone"
     SetTextColor 255 200 0 # Legacy Text
-    SetBackgroundColor 25 20 0 # Legacy Highlight Background
+    SetBackgroundColor 30 24 0 250 # Legacy Highlight Background
     SetFontSize 38
 
 # Ancient Reliquary Key
 Show
     BaseType "Ancient Reliquary Key"
     SetTextColor 255 200 0 # Legacy Text
-    SetBackgroundColor 25 20 0 # Legacy Highlight Background
+    SetBackgroundColor 30 24 0 250 # Legacy Highlight Background
     SetBorderColor 255 200 0 # Legacy Border
     SetFontSize 42
     PlayAlertSound 8 300
@@ -917,4 +917,12 @@ Hide
     Rarity = Normal
     ItemLevel >= 78
     SetBackgroundColor 0 0 0 0 # Hidden Background
+
+# Section: Everything else
+
+#Disabled Block Start
+# Everything not hidden or shown
+#Show
+#    SetBackgroundColor 0 0 0 250 # Default Background
+#Disabled Block End
 
