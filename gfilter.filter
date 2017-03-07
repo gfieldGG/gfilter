@@ -18,7 +18,7 @@ Show
     Class "Currency"
     BaseType "Essence of"
     SetTextColor 128 179 254 # Essence Text
-    SetBackgroundColor 13 18 25 # Essence Highlight Background
+    SetBackgroundColor 25 36 51 # Essence Highlight Background
     SetFontSize 38
 
 # Perandus Coin
@@ -83,6 +83,15 @@ Show
     SetTextColor 255 200 0 # Legacy Text
     SetBackgroundColor 25 20 0 # Legacy Highlight Background
     SetFontSize 38
+
+# Ancient Reliquary Key
+Show
+    BaseType "Ancient Reliquary Key"
+    SetTextColor 255 200 0 # Legacy Text
+    SetBackgroundColor 25 20 0 # Legacy Highlight Background
+    SetBorderColor 255 200 0 # Legacy Border
+    SetFontSize 42
+    PlayAlertSound 8 300
 
 # Talisman
 Show
@@ -415,7 +424,7 @@ Show
     ItemLevel >= 75
     SetTextColor 255 255 119 # Rare Text
     SetBackgroundColor 23 23 0 250 # Rare Highlight Background
-    SetBorderColor 136 136 255 # Regal Recipe Jewelry Border
+    SetBorderColor 136 136 255 127 # Regal Recipe Border
     SetFontSize 38
 
 # Regal Recipe
@@ -436,7 +445,7 @@ Show
     ItemLevel >= 60
     SetTextColor 255 255 119 # Rare Text
     SetBackgroundColor 23 23 0 250 # Rare Highlight Background
-    SetBorderColor 254 170 0 # Chaos Recipe Jewelry Border
+    SetBorderColor 254 170 0 127 # Chaos Recipe Border
     SetFontSize 38
 
 # Chaos Recipe
