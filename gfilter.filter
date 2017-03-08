@@ -185,6 +185,7 @@ Show
 Show
     Class "Support Skill Gems"
     SetTextColor 26 162 155 # Gem Text
+    SetBackgroundColor 0 0 0 250 # Default Background
     SetFontSize 38
 
 # Gem Aura
@@ -689,16 +690,19 @@ Show
     SetBackgroundColor 0 0 0 250 # Default Background
     SetFontSize 38
 
-Show
-    Class "Utility"
-    Rarity = Normal
-    ItemLevel <= 15
-    SetTextColor 200 200 200 # Normal Text
-    SetBackgroundColor 0 0 0 250 # Default Background
+#Disabled Block Start
+#Show
+#    Class "Utility"
+#    Rarity = Normal
+#    ItemLevel <= 15
+#    SetTextColor 200 200 200 # Normal Text
+#    SetBackgroundColor 0 0 0 250 # Default Background
+#Disabled Block End
 
 Show
     Class "Utility"
     SetBackgroundColor 0 0 0 250 # Default Background
+    SetFontSize 38
 
 # Section: Obsolete Flasks
 
