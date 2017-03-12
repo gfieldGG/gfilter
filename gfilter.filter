@@ -59,6 +59,7 @@ Show
     SetTextColor 100 0 0 # Breach Text
     SetBackgroundColor 30 0 0 250 # Breach Highlight Background
     SetFontSize 38
+    PlayAlertSound 6 100
 
 # Breachstone
 Show
@@ -68,6 +69,7 @@ Show
     SetBackgroundColor 100 0 0 # Breach Background
     SetBorderColor 74 0 160 # Breach Border
     SetFontSize 38
+    PlayAlertSound 6 100
 
 # Breach Splinter
 Show
@@ -163,6 +165,7 @@ Show
     SetBackgroundColor 0 25 15 250 # Gem Highlight Background
     SetBorderColor 26 162 155 # Gem Border
     SetFontSize 38
+    PlayAlertSound 6 100
 
 # Gem Tier1
 Show
@@ -172,6 +175,7 @@ Show
     SetBackgroundColor 0 25 15 250 # Gem Highlight Background
     SetBorderColor 26 162 155 # Gem Border
     SetFontSize 38
+    PlayAlertSound 6 100
 
 # Gem Vaal
 Show
@@ -211,6 +215,7 @@ Show
     SetBackgroundColor 30 30 30 250 # Normal Highlight Background
     SetBorderColor 200 200 200 # Normal Border
     SetFontSize 38
+    PlayAlertSound 6 100
 
 # 6 Link Magic
 Show
@@ -220,6 +225,7 @@ Show
     SetBackgroundColor 0 15 30 250 # Magic Highlight Background
     SetBorderColor 136 136 255 # Magic Border
     SetFontSize 38
+    PlayAlertSound 6 100
 
 # 6 Link Rare
 Show
@@ -229,6 +235,7 @@ Show
     SetBackgroundColor 23 23 0 250 # Rare Highlight Background
     SetBorderColor 255 255 119 # Rare Border
     SetFontSize 38
+    PlayAlertSound 6 100
 
 # Tabula Rasa
 Show
@@ -245,6 +252,7 @@ Show
     SetBackgroundColor 30 15 0 250 # Unique Highlight Background
     SetBorderColor 175 96 37 # Unique Border
     SetFontSize 38
+    PlayAlertSound 6 100
 
 # Section: 5 Links
 
@@ -474,7 +482,6 @@ Show
     Rarity = Magic
     SetTextColor 136 136 255 # Magic Text
     SetBackgroundColor 0 0 0 250 # Default Background
-    SetFontSize 38
 
 # Section: RGB Recipe
 
