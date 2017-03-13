@@ -26,7 +26,8 @@ Show
     SetTextColor 125 0 175 # Prophecy Text
     SetBackgroundColor 18 0 25 250 # Prophecy Highlight Background
     SetBorderColor 125 0 175 # Prophecy Border
-    SetFontSize 38
+    SetFontSize 41
+    PlayAlertSound 6 100
 
 # Prophecy
 Show
@@ -48,10 +49,11 @@ Show
 Show
     Class "Stackable Currency"
     BaseType "Blessing of"
-    SetTextColor 100 0 0 # Breach Text
+    SetTextColor 128 0 0 # Breach Text
     SetBackgroundColor 30 0 0 250 # Breach Highlight Background
-    SetFontSize 38
-    PlayAlertSound 6 100
+    SetBorderColor 74 0 160 # Breach Border
+    SetFontSize 41
+    PlayAlertSound 8 100
 
 # Breachstone
 Show
@@ -60,8 +62,8 @@ Show
     SetTextColor 200 200 200 # Normal Text
     SetBackgroundColor 100 0 0 # Breach Background
     SetBorderColor 74 0 160 # Breach Border
-    SetFontSize 38
-    PlayAlertSound 6 100
+    SetFontSize 41
+    PlayAlertSound 7 100
 
 # Breach Splinter
 Show
@@ -76,6 +78,7 @@ Show
     BaseType "Talisman"
     SetBorderColor 50 230 100 # Talisman Border
     SetFontSize 38
+    PlayAlertSound 6 100
 
 # Section: Essences
 
@@ -290,8 +293,8 @@ Show
     SetTextColor 200 200 200 # Normal Text
     SetBackgroundColor 30 30 30 250 # Normal Highlight Background
     SetBorderColor 200 200 200 # Normal Border
-    SetFontSize 38
-    PlayAlertSound 6 100
+    SetFontSize 41
+    PlayAlertSound 8 100
 
 # 6 Link Magic
 Show
@@ -300,8 +303,8 @@ Show
     SetTextColor 136 136 255 # Magic Text
     SetBackgroundColor 0 15 30 250 # Magic Highlight Background
     SetBorderColor 136 136 255 # Magic Border
-    SetFontSize 38
-    PlayAlertSound 6 100
+    SetFontSize 41
+    PlayAlertSound 8 100
 
 # 6 Link Rare
 Show
@@ -310,8 +313,8 @@ Show
     SetTextColor 255 255 119 # Rare Text
     SetBackgroundColor 23 23 0 250 # Rare Highlight Background
     SetBorderColor 255 255 119 # Rare Border
-    SetFontSize 38
-    PlayAlertSound 6 100
+    SetFontSize 41
+    PlayAlertSound 8 100
 
 # Tabula Rasa
 Show
@@ -327,8 +330,8 @@ Show
     SetTextColor 175 96 37 # Unique Text
     SetBackgroundColor 30 15 0 250 # Unique Highlight Background
     SetBorderColor 175 96 37 # Unique Border
-    SetFontSize 38
-    PlayAlertSound 6 100
+    SetFontSize 41
+    PlayAlertSound 8 100
 
 # Section: 5 Links
 
@@ -339,6 +342,7 @@ Show
     SetTextColor 255 255 255 # Normal Highlight Text
     SetBackgroundColor 30 30 30 250 # Normal Highlight Background
     SetFontSize 38
+    PlayAlertSound 6 100
 
 # 5 Link Magic
 Show
@@ -347,6 +351,7 @@ Show
     SetTextColor 136 136 255 # Magic Text
     SetBackgroundColor 0 15 30 250 # Magic Highlight Background
     SetFontSize 38
+    PlayAlertSound 6 100
 
 # 5 Link Rare
 Show
@@ -355,6 +360,7 @@ Show
     SetTextColor 255 255 119 # Rare Text
     SetBackgroundColor 23 23 0 250 # Rare Highlight Background
     SetFontSize 38
+    PlayAlertSound 6 100
 
 # 5 Link Unique
 Show
@@ -363,6 +369,7 @@ Show
     SetTextColor 175 96 37 # Unique Text
     SetBackgroundColor 30 15 0 250 # Unique Highlight Background
     SetFontSize 38
+    PlayAlertSound 6 100
 
 # Section: 6 Sockets
 
@@ -373,6 +380,7 @@ Show
     SetTextColor 255 255 255 # Normal Highlight Text
     SetBackgroundColor 30 30 30 250 # Normal Highlight Background
     SetFontSize 38
+    PlayAlertSound 6 100
 
 # 6 Socket Magic
 Show
@@ -381,6 +389,7 @@ Show
     SetTextColor 136 136 255 # Magic Text
     SetBackgroundColor 0 15 30 250 # Magic Highlight Background
     SetFontSize 38
+    PlayAlertSound 6 100
 
 # 6 Socket Rare
 Show
@@ -389,6 +398,7 @@ Show
     SetTextColor 255 255 119 # Rare Text
     SetBackgroundColor 23 23 0 250 # Rare Highlight Background
     SetFontSize 38
+    PlayAlertSound 6 100
 
 # 6 Socket Unique
 Show
@@ -397,6 +407,7 @@ Show
     SetTextColor 175 96 37 # Unique Text
     SetBackgroundColor 30 15 0 250 # Unique Highlight Background
     SetFontSize 38
+    PlayAlertSound 6 100
 
 # Section: White Sockets
 
@@ -460,6 +471,7 @@ Show
     SetTextColor 161 27 123 # Vaal Text
     SetBackgroundColor 30 0 15 250 # Vaal Highlight Background
     SetBorderColor 161 27 123 # Vaal Border
+    SetFontSize 38
 
 # Map Fragments
 Show
@@ -467,6 +479,7 @@ Show
     SetTextColor 200 200 200 # Normal Text
     SetBackgroundColor 30 30 30 250 # Normal Highlight Background
     SetBorderColor 200 200 200 # Normal Border
+    SetFontSize 38
 
 # Map Normal
 Show
@@ -475,6 +488,7 @@ Show
     SetTextColor 0 0 0 # Map Text
     SetBackgroundColor 200 200 200 # Map Normal Background
     SetBorderColor 0 0 0 # Map Border
+    SetFontSize 38
 
 # Map Magic
 Show
@@ -483,6 +497,7 @@ Show
     SetTextColor 0 0 0 # Map Text
     SetBackgroundColor 136 136 255 # Map Magic Background
     SetBorderColor 0 0 0 # Map Border
+    SetFontSize 38
 
 # Map Rare
 Show
@@ -491,6 +506,7 @@ Show
     SetTextColor 0 0 0 # Map Text
     SetBackgroundColor 255 255 119 # Map Rare Background
     SetBorderColor 0 0 0 # Map Border
+    SetFontSize 38
 
 # Map Unique
 Show
@@ -499,6 +515,7 @@ Show
     SetTextColor 0 0 0 # Map Text
     SetBackgroundColor 175 96 37 # Map Unique Background
     SetBorderColor 0 0 0 # Map Border
+    SetFontSize 38
 
 # Section: Regal Recipe
 
@@ -511,6 +528,7 @@ Show
     SetBackgroundColor 23 23 0 250 # Rare Highlight Background
     SetBorderColor 136 136 255 127 # Regal Recipe Border
     SetFontSize 38
+    PlayAlertSound 6 100
 
 # Regal Recipe
 Show
@@ -532,6 +550,7 @@ Show
     SetBackgroundColor 23 23 0 250 # Rare Highlight Background
     SetBorderColor 254 170 0 127 # Chaos Recipe Border
     SetFontSize 38
+    PlayAlertSound 6 100
 
 # Chaos Recipe
 Show
@@ -608,6 +627,7 @@ Show
     Rarity = Normal
     SetTextColor 200 200 200 # Normal Text
     SetBorderColor 80 80 80 # Quality Border
+    SetFontSize 38
 
 # Quality Flask Magic
 Show
@@ -616,6 +636,7 @@ Show
     Rarity = Magic
     SetTextColor 136 136 255 # Magic Text
     SetBorderColor 80 80 80 # Quality Border
+    SetFontSize 38
 
 # Section: General
 
