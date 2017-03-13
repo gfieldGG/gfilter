@@ -159,8 +159,8 @@ Show
 Show
     BaseType "Albino Rhoa Feather" "Eternal Orb" "Exalted Orb" "Divine Orb" "Mirror of Kalandra"
     SetTextColor 0 0 0 # Currency Tier1 Text
-    SetBackgroundColor 170 158 130 # Currency Tier1 Background
-    SetBorderColor 0 0 0 # Currency Tier1 Border
+    SetBackgroundColor 200 186 153 # Currency Tier1 Background
+    SetBorderColor 255 255 255 # Currency Tier1 Border
     SetFontSize 45
     PlayAlertSound 8 300
 
@@ -177,11 +177,11 @@ Show
 # Currency Tier3
 Show
     Class "Currency"
-    BaseType "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel"
+    BaseType "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble"
     SetTextColor 170 158 130 # Currency Text
     SetBackgroundColor 35 30 20 250 # Currency Highlight Background
     SetBorderColor 170 158 130 # Currency Border
-    SetFontSize 38
+    SetFontSize 37
     PlayAlertSound 6 100
 
 # Currency Tier4
@@ -261,8 +261,9 @@ Show
     Class "Active Skill Gems" "Support Skill Gems"
     BaseType "Vaal"
     SetTextColor 26 162 155 # Gem Text
-    SetBackgroundColor 0 0 0 250 # Default Background
+    SetBackgroundColor 0 25 15 250 # Gem Highlight Background
     SetBorderColor 161 27 123 # Vaal Border
+    SetFontSize 38
 
 # Gem Support
 Show
