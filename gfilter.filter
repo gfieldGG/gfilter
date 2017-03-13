@@ -79,12 +79,47 @@ Show
     SetBackgroundColor 30 0 0 250 # Breach Highlight Background
     SetFontSize 38
 
+# Talisman
+Show
+    BaseType "Talisman"
+    SetBorderColor 50 230 100 # Talisman Border
+    SetFontSize 38
+
+# Section: Leaguestones
+
+# Leaguestone Magic Tier1
+Show
+    Class "Leaguestone"
+    BaseType "Perandus" "Breach" "Beyond"
+    Rarity >= Magic
+    SetTextColor 255 200 0 # Legacy Text
+    SetBackgroundColor 30 24 0 250 # Legacy Highlight Background
+    SetFontSize 41
+    PlayAlertSound 7 100
+
+# Leaguestone Magic
+Show
+    Class "Leaguestone"
+    Rarity >= Magic
+    SetTextColor 255 200 0 # Legacy Text
+    SetBackgroundColor 30 24 0 250 # Legacy Highlight Background
+    SetFontSize 38
+    PlayAlertSound 6 100
+
+# Leaguestone Tier1
+Show
+    Class "Leaguestone"
+    BaseType "Perandus" "Breach" "Beyond"
+    SetTextColor 255 200 0 # Legacy Text
+    SetBackgroundColor 30 24 0 250 # Legacy Highlight Background
+    SetFontSize 38
+    PlayAlertSound 6 100
+
 # Leaguestone
 Show
     Class "Leaguestone"
     SetTextColor 255 200 0 # Legacy Text
     SetBackgroundColor 30 24 0 250 # Legacy Highlight Background
-    SetFontSize 38
 
 # Ancient Reliquary Key
 Show
@@ -92,14 +127,8 @@ Show
     SetTextColor 255 200 0 # Legacy Text
     SetBackgroundColor 30 24 0 250 # Legacy Highlight Background
     SetBorderColor 255 200 0 # Legacy Border
-    SetFontSize 42
+    SetFontSize 45
     PlayAlertSound 8 300
-
-# Talisman
-Show
-    BaseType "Talisman"
-    SetBorderColor 50 230 100 # Talisman Border
-    SetFontSize 38
 
 # Section: Currency
 
