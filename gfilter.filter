@@ -164,17 +164,27 @@ Show
 # Currency Tier2
 Show
     Class "Currency"
-    BaseType "Chaos Orb" "Fusing" "Orb of Regret" "Orb of Scouring" "Vaal Orb" "Regal Orb" "Gemcutter's Prism" "Prophecy"
+    BaseType "Chaos Orb" "Orb of Regret" "Orb of Scouring" "Vaal Orb" "Regal Orb" "Gemcutter's Prism"
     SetTextColor 170 158 130 # Currency Text
     SetBackgroundColor 35 30 20 250 # Currency Highlight Background
     SetBorderColor 170 158 130 # Currency Border
-    SetFontSize 38
+    SetFontSize 41
     PlayAlertSound 7 100
 
 # Currency Tier3
 Show
     Class "Currency"
-    BaseType "Orb of Alchemy" "Jeweller's Orb" "Orb of Chance" "Orb of Alteration" "Chromatic Orb" "Cartographer's Chisel" "Blessed Orb"
+    BaseType "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel"
+    SetTextColor 170 158 130 # Currency Text
+    SetBackgroundColor 35 30 20 250 # Currency Highlight Background
+    SetBorderColor 170 158 130 # Currency Border
+    SetFontSize 38
+    PlayAlertSound 6 100
+
+# Currency Tier4
+Show
+    Class "Currency"
+    BaseType "Jeweller's Orb" "Orb of Chance" "Orb of Alteration" "Chromatic Orb" "Blessed Orb"
     SetTextColor 170 158 130 # Currency Text
     SetBackgroundColor 0 0 0 250 # Default Background
     SetFontSize 38
