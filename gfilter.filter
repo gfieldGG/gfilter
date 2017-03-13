@@ -141,19 +141,36 @@ Show
 # Divination Card Tier1
 Show
     Class "Divination Card"
-    BaseType "House of Mirrors" "Wealth and Power" "The Dragon's Heart" "The Brittle Emperor" "Celestial Justicar" "Dark Mage" "Doctor" "Fiend" "The Queen" "The Artist" "The Last One Standing" "The Artist" "Bowyer's Dream" "Hunter's Reward" "The Thaumaturgist" "The Warlord" "The Offering" "The Ethereal" "The Dapper Prodigy" "Abandoned Wealth" "The Enlightened" "Last Hope" "The Devastator" "The Immortal" "The Aesthete" "The Hunger" "Pride Before the Fall" "The King's Heart" "Lysah's Respite" "Cursed King" "Time-Lost Relic"
+    BaseType "House of Mirrors" "The Doctor" "The Fiend" "Hunter's Reward" "The Dragon's Heart" "Mawr Blaidd" "The Last One Standing" "The Offering" "The Ethereal" "The Queen" "Abandoned Wealth" "The Brittle Emperor" "The Immortal" "The Artist" "Wealth and Power" "Pride Before the Fall" "The Enlightened" "The King's Heart" "Bowyer's Dream" "The Hunger" "The Celestial Justicar" "Spark and the Flame" "Emperor of Purity" "Polymath"
     SetTextColor 14 186 255 # Divination Card Text
     SetBackgroundColor 15 20 20 250 # Divination Card Highlight Background
     SetBorderColor 14 186 255 # Divination Card Border
     SetFontSize 45
     PlayAlertSound 8 300
 
+# Divination Card Tier2
+Show
+    Class "Divination Card"
+    BaseType "Chaotic Disposition" "The Void" "The Cartographer" "The Dapper Prodigy" "The Vast" "The Dark Mage" "Last Hope" "The Valkyrie" "The Sephirot" "The Hoarder" "The Chains that Bind" "The Warlord" "The Aesthete" "Saint's Treasure" "The Thaumaturgist" "Heterochromia" "The Porcupine" "The Stormcaller" "The Soul"
+    SetTextColor 14 186 255 # Divination Card Text
+    SetBackgroundColor 15 20 20 250 # Divination Card Highlight Background
+    SetBorderColor 14 186 255 # Divination Card Border
+    SetFontSize 41
+    PlayAlertSound 7 100
+
+# Divination Card Tier3
+Show
+    Class "Divination Card"
+    BaseType "The Road to Power" "The Arena Champion" "The Gladiator" "Glimmer of Hope" "The Tyrant" "The Union" "The Risk" "The Trial" "Scholar of the Seas" "Lucky Deck" "Humility" "The Penitent" "The Penitent" "The Surveyor" "Lysah's Respite" "The Inventor" "The Jester" "Vinia's Token" "Rats" "The Wrath" "Hope" "Treasure Hunter" "The Explorer" "The Body" "The Encroaching Darkness" "Jack in the Box" "The Traitor" "Valley of Steel Boxes" "Wolven King's Bite" "Wretched" "The Opulent" "Might is Right" "The Fletcher" "The Forsaken" "The Formless Sea" "The Demoness" "Time-Lost Relic" "The Wolf" "Earth Drinker" "Standoff" "Merciless Armament"
+    SetTextColor 14 186 255 # Divination Card Text
+    SetBackgroundColor 15 20 20 250 # Divination Card Highlight Background
+    SetFontSize 38
+
 # Divination Card
 Show
     Class "Divination Card"
     SetTextColor 14 186 255 # Divination Card Text
     SetBackgroundColor 0 0 0 250 # Default Background
-    SetFontSize 38
 
 # Section: Gems
 
