@@ -656,12 +656,44 @@ Show
     SetTextColor 255 255 119 # Rare Text
     SetBackgroundColor 0 0 0 250 # Default Background
 
+# Section: Uniques
+
+# Unique Tier1
+Show
+    BaseType "Stibnite Flask" "Ruby Flask" "Topaz Flask" "Sapphire Flask" "Silver Flask" "Void Axe" "Prophecy Wand" "Jewelled Foil" "Royal Axe" "Cutlass" "Sorcerer Boots" "Occultist's Vestment" "Crusader Boots" "Rawhide Boots" "Ezomyte Tower Shield" "Deicide Mask" "Glorious Plate" "Ezomyte Burgonet" "Assassin's Garb" "Greatwolf Talisman"
+    Rarity = Unique
+    SetTextColor 175 96 37 # Unique Text
+    SetBackgroundColor 30 15 0 250 # Unique Highlight Background
+    SetBorderColor 175 96 37 # Unique Border
+    SetFontSize 45
+    PlayAlertSound 8 300
+
+# Unique Tier2
+Show
+    BaseType "Granite Flask" "Bismuth Flask" "Fiend Dagger" "Imperial Staff" "Carnal Sceptre" "Siege Axe" "Abyssal Axe" "Sacrificial Garb" "Leather Cap" "Ritual Sceptre" "Judgement Staff" "Vaal Sceptre" "Imperial Maul" "Steelhead" "Carnal Sceptre" "Terror Maul" "Jingling Spirit Shield" "Savant's Robe" "Gladiator Plate" "Vaal Regalia" "Sacrificial Garb" "Archon Kite Shield" "Legion Gloves" "Raven Mask" "Champion Kite Shield" "Nightmare Bascinet" "Clasped Mitts" "Penetrating Arrow Quiver" "Two-Stone Ring" "Gold Ring" "Crystal Belt" "Citrine Amulet"
+    Rarity = Unique
+    SetTextColor 175 96 37 # Unique Text
+    SetBackgroundColor 30 15 0 250 # Unique Highlight Background
+    SetBorderColor 175 96 37 # Unique Border
+    SetFontSize 41
+    PlayAlertSound 7 100
+
+# Unique Tier?
+Show
+    BaseType "Ebony Tower Shield" "Onyx Amulet" "Goathide Boots" 
+    Rarity = Unique
+    SetTextColor 175 96 37 # Unique Text
+    SetBackgroundColor 30 15 0 250 # Unique Highlight Background
+    SetBorderColor 175 96 37 # Unique Border
+    SetFontSize 41
+    PlayAlertSound 6 100
+
 # Unique
 Show
     Rarity = Unique
     SetTextColor 175 96 37 # Unique Text
-    SetBackgroundColor 0 0 0 250 # Default Background
-    SetFontSize 38
+    SetBackgroundColor 30 15 0 250 # Unique Highlight Background
+    SetFontSize 37
 
 # Section: Flask Upgrade Magic
 
