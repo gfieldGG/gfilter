@@ -60,7 +60,7 @@ Show
     Class "Misc Map Items"
     BaseType "Breachstone"
     SetTextColor 200 200 200 # Normal Text
-    SetBackgroundColor 100 0 0 # Breach Background
+    SetBackgroundColor 100 0 0 250 # Breach Background
     SetBorderColor 74 0 160 # Breach Border
     SetFontSize 41
     PlayAlertSound 7 100
@@ -486,7 +486,7 @@ Show
     Class "Maps"
     Rarity = Normal
     SetTextColor 0 0 0 # Map Text
-    SetBackgroundColor 200 200 200 # Map Normal Background
+    SetBackgroundColor 200 200 200 250 # Map Normal Background
     SetBorderColor 0 0 0 # Map Border
     SetFontSize 38
 
@@ -495,7 +495,7 @@ Show
     Class "Maps"
     Rarity = Magic
     SetTextColor 0 0 0 # Map Text
-    SetBackgroundColor 136 136 255 # Map Magic Background
+    SetBackgroundColor 136 136 255 250 # Map Magic Background
     SetBorderColor 0 0 0 # Map Border
     SetFontSize 38
 
@@ -504,7 +504,7 @@ Show
     Class "Maps"
     Rarity = Rare
     SetTextColor 0 0 0 # Map Text
-    SetBackgroundColor 255 255 119 # Map Rare Background
+    SetBackgroundColor 255 255 119 250 # Map Rare Background
     SetBorderColor 0 0 0 # Map Border
     SetFontSize 38
 
@@ -513,7 +513,7 @@ Show
     Class "Maps"
     Rarity = Unique
     SetTextColor 0 0 0 # Map Text
-    SetBackgroundColor 175 96 37 # Map Unique Background
+    SetBackgroundColor 175 96 37 250 # Map Unique Background
     SetBorderColor 0 0 0 # Map Border
     SetFontSize 38
 
@@ -617,6 +617,7 @@ Show
     Rarity = Normal
     SetBackgroundColor 0 0 0 250 # Default Background
     SetBorderColor 80 80 80 # Quality Border
+    SetFontSize 38
 
 # Section: Quality Flasks
 
