@@ -35,7 +35,7 @@ Show
     BaseType "Prophecy"
     SetTextColor 125 0 175 # Prophecy Text
     SetBackgroundColor 18 0 25 250 # Prophecy Highlight Background
-    SetFontSize 38
+    SetFontSize 37
 
 # Silver Coin
 Show
@@ -43,7 +43,7 @@ Show
     BaseType "Silver Coin"
     SetTextColor 170 158 130 # Currency Text
     SetBackgroundColor 18 0 25 250 # Prophecy Highlight Background
-    SetFontSize 38
+    SetFontSize 37
 
 # Breach Blessing
 Show
@@ -71,13 +71,13 @@ Show
     BaseType "Splinter of"
     SetTextColor 170 158 130 # Currency Text
     SetBackgroundColor 30 0 0 250 # Breach Highlight Background
-    SetFontSize 38
+    SetFontSize 37
 
 # Talisman
 Show
     BaseType "Talisman"
     SetBorderColor 50 230 100 # Talisman Border
-    SetFontSize 38
+    SetFontSize 37
     PlayAlertSound 6 100
 
 # Section: Essences
@@ -98,7 +98,7 @@ Show
     BaseType "Wailing Essence of" "Screaming Essence of"
     SetTextColor 128 179 254 # Essence Text
     SetBackgroundColor 25 36 51 250 # Essence Highlight Background
-    SetFontSize 38
+    SetFontSize 37
     PlayAlertSound 6 100
 
 # Essence
@@ -126,7 +126,7 @@ Show
     Rarity >= Magic
     SetTextColor 255 200 0 # Legacy Text
     SetBackgroundColor 30 24 0 250 # Legacy Highlight Background
-    SetFontSize 38
+    SetFontSize 37
     PlayAlertSound 6 100
 
 # Leaguestone Tier1
@@ -135,7 +135,7 @@ Show
     BaseType "Perandus" "Breach" "Beyond"
     SetTextColor 255 200 0 # Legacy Text
     SetBackgroundColor 30 24 0 250 # Legacy Highlight Background
-    SetFontSize 38
+    SetFontSize 37
     PlayAlertSound 6 100
 
 # Leaguestone
@@ -190,7 +190,7 @@ Show
     BaseType "Jeweller's Orb" "Orb of Chance" "Orb of Alteration" "Chromatic Orb" "Blessed Orb"
     SetTextColor 170 158 130 # Currency Text
     SetBackgroundColor 0 0 0 250 # Default Background
-    SetFontSize 38
+    SetFontSize 37
 
 # Currency
 Show
@@ -226,7 +226,7 @@ Show
     BaseType "The Road to Power" "The Arena Champion" "The Gladiator" "Glimmer of Hope" "The Tyrant" "The Union" "The Risk" "The Trial" "Scholar of the Seas" "Lucky Deck" "Humility" "The Penitent" "The Penitent" "The Surveyor" "Lysah's Respite" "The Inventor" "The Jester" "Vinia's Token" "Rats" "The Wrath" "Hope" "Treasure Hunter" "The Explorer" "The Body" "The Encroaching Darkness" "Jack in the Box" "The Traitor" "Valley of Steel Boxes" "Wolven King's Bite" "Wretched" "The Opulent" "Might is Right" "The Fletcher" "The Forsaken" "The Formless Sea" "The Demoness" "Time-Lost Relic" "The Wolf" "Earth Drinker" "Standoff" "Merciless Armament"
     SetTextColor 14 186 255 # Divination Card Text
     SetBackgroundColor 15 20 20 250 # Divination Card Highlight Background
-    SetFontSize 38
+    SetFontSize 37
 
 # Divination Card
 Show
@@ -243,7 +243,7 @@ Show
     SetTextColor 26 162 155 # Gem Text
     SetBackgroundColor 0 25 15 250 # Gem Highlight Background
     SetBorderColor 26 162 155 # Gem Border
-    SetFontSize 38
+    SetFontSize 37
     PlayAlertSound 6 100
 
 # Gem Tier1
@@ -253,7 +253,7 @@ Show
     SetTextColor 26 162 155 # Gem Text
     SetBackgroundColor 0 25 15 250 # Gem Highlight Background
     SetBorderColor 26 162 155 # Gem Border
-    SetFontSize 38
+    SetFontSize 37
     PlayAlertSound 6 100
 
 # Gem Vaal
@@ -263,21 +263,21 @@ Show
     SetTextColor 26 162 155 # Gem Text
     SetBackgroundColor 0 25 15 250 # Gem Highlight Background
     SetBorderColor 161 27 123 # Vaal Border
-    SetFontSize 38
+    SetFontSize 37
 
 # Gem Support
 Show
     Class "Support Skill Gems"
     SetTextColor 26 162 155 # Gem Text
     SetBackgroundColor 0 0 0 250 # Default Background
-    SetFontSize 38
+    SetFontSize 37
 
 # Gem Aura
 Show
     Class "Skill Gems"
     BaseType "Wrath" "Anger" "Hatred" "Clarity" "Determination" "Grace" "Discipline" "Vitality" "Haste" "Purity of" "Herald of" "Arctic Armour" "Blood Rage"
     SetTextColor 26 162 155 # Gem Text
-    SetFontSize 38
+    SetFontSize 37
 
 # Gem
 Show
@@ -322,7 +322,7 @@ Show
     SocketGroup "WWWWWW"
     BaseType "Simple Robe"
     SetTextColor 175 96 37 # Unique Text
-    SetFontSize 38
+    SetFontSize 37
 
 # 6 Link Unique
 Show
@@ -342,7 +342,7 @@ Show
     Rarity = Normal
     SetTextColor 255 255 255 # Normal Highlight Text
     SetBackgroundColor 30 30 30 250 # Normal Highlight Background
-    SetFontSize 38
+    SetFontSize 37
     PlayAlertSound 6 100
 
 # 5 Link Magic
@@ -351,7 +351,7 @@ Show
     Rarity = Magic
     SetTextColor 136 136 255 # Magic Text
     SetBackgroundColor 0 15 30 250 # Magic Highlight Background
-    SetFontSize 38
+    SetFontSize 37
     PlayAlertSound 6 100
 
 # 5 Link Rare
@@ -360,7 +360,7 @@ Show
     Rarity = Rare
     SetTextColor 255 255 119 # Rare Text
     SetBackgroundColor 23 23 0 250 # Rare Highlight Background
-    SetFontSize 38
+    SetFontSize 37
     PlayAlertSound 6 100
 
 # 5 Link Unique
@@ -369,7 +369,7 @@ Show
     Rarity = Unique
     SetTextColor 175 96 37 # Unique Text
     SetBackgroundColor 30 15 0 250 # Unique Highlight Background
-    SetFontSize 38
+    SetFontSize 37
     PlayAlertSound 6 100
 
 # Section: 6 Sockets
@@ -380,7 +380,7 @@ Show
     Rarity = Normal
     SetTextColor 255 255 255 # Normal Highlight Text
     SetBackgroundColor 30 30 30 250 # Normal Highlight Background
-    SetFontSize 38
+    SetFontSize 37
     PlayAlertSound 6 100
 
 # 6 Socket Magic
@@ -389,7 +389,7 @@ Show
     Rarity = Magic
     SetTextColor 136 136 255 # Magic Text
     SetBackgroundColor 0 15 30 250 # Magic Highlight Background
-    SetFontSize 38
+    SetFontSize 37
     PlayAlertSound 6 100
 
 # 6 Socket Rare
@@ -398,7 +398,7 @@ Show
     Rarity = Rare
     SetTextColor 255 255 119 # Rare Text
     SetBackgroundColor 23 23 0 250 # Rare Highlight Background
-    SetFontSize 38
+    SetFontSize 37
     PlayAlertSound 6 100
 
 # 6 Socket Unique
@@ -407,7 +407,7 @@ Show
     Rarity = Unique
     SetTextColor 175 96 37 # Unique Text
     SetBackgroundColor 30 15 0 250 # Unique Highlight Background
-    SetFontSize 38
+    SetFontSize 37
     PlayAlertSound 6 100
 
 # Section: White Sockets
@@ -447,21 +447,21 @@ Show
     Class "Jewel"
     Rarity = Normal
     SetTextColor 200 200 200 # Normal Text
-    SetFontSize 38
+    SetFontSize 37
 
 # Jewel Magic
 Show
     Class "Jewel"
     Rarity = Magic
     SetTextColor 136 136 255 # Magic Text
-    SetFontSize 38
+    SetFontSize 37
 
 # Jewel Rare
 Show
     Class "Jewel"
     Rarity = Rare
     SetTextColor 255 255 119 # Rare Text
-    SetFontSize 38
+    SetFontSize 37
 
 # Section: Maps
 
@@ -472,7 +472,7 @@ Show
     SetTextColor 161 27 123 # Vaal Text
     SetBackgroundColor 30 0 15 250 # Vaal Highlight Background
     SetBorderColor 161 27 123 # Vaal Border
-    SetFontSize 38
+    SetFontSize 37
 
 # Map Fragments
 Show
@@ -480,7 +480,7 @@ Show
     SetTextColor 200 200 200 # Normal Text
     SetBackgroundColor 30 30 30 250 # Normal Highlight Background
     SetBorderColor 200 200 200 # Normal Border
-    SetFontSize 38
+    SetFontSize 37
 
 # Map Normal
 Show
@@ -489,7 +489,7 @@ Show
     SetTextColor 0 0 0 # Map Text
     SetBackgroundColor 200 200 200 250 # Map Normal Background
     SetBorderColor 0 0 0 # Map Border
-    SetFontSize 38
+    SetFontSize 37
 
 # Map Magic
 Show
@@ -498,7 +498,7 @@ Show
     SetTextColor 0 0 0 # Map Text
     SetBackgroundColor 136 136 255 250 # Map Magic Background
     SetBorderColor 0 0 0 # Map Border
-    SetFontSize 38
+    SetFontSize 37
 
 # Map Rare
 Show
@@ -507,7 +507,7 @@ Show
     SetTextColor 0 0 0 # Map Text
     SetBackgroundColor 255 255 119 250 # Map Rare Background
     SetBorderColor 0 0 0 # Map Border
-    SetFontSize 38
+    SetFontSize 37
 
 # Map Unique
 Show
@@ -516,7 +516,7 @@ Show
     SetTextColor 0 0 0 # Map Text
     SetBackgroundColor 175 96 37 250 # Map Unique Background
     SetBorderColor 0 0 0 # Map Border
-    SetFontSize 38
+    SetFontSize 37
 
 # Section: Regal Recipe
 
@@ -528,7 +528,7 @@ Show
     SetTextColor 255 255 119 # Rare Text
     SetBackgroundColor 23 23 0 250 # Rare Highlight Background
     SetBorderColor 136 136 255 127 # Regal Recipe Border
-    SetFontSize 38
+    SetFontSize 37
     PlayAlertSound 6 100
 
 # Regal Recipe
@@ -550,7 +550,7 @@ Show
     SetTextColor 255 255 119 # Rare Text
     SetBackgroundColor 23 23 0 250 # Rare Highlight Background
     SetBorderColor 254 170 0 127 # Chaos Recipe Border
-    SetFontSize 38
+    SetFontSize 37
     PlayAlertSound 6 100
 
 # Chaos Recipe
@@ -589,7 +589,7 @@ Show
     ItemLevel >= 68
     SetTextColor 255 255 255 # Normal Highlight Text
     SetBackgroundColor 30 30 30 250 # Normal Highlight Background
-    SetFontSize 38
+    SetFontSize 37
 
 # RGB Maps 1x3
 Show
@@ -599,7 +599,7 @@ Show
     ItemLevel >= 68
     SetTextColor 255 255 255 # Normal Highlight Text
     SetBackgroundColor 30 30 30 250 # Normal Highlight Background
-    SetFontSize 38
+    SetFontSize 37
 
 # RGB Levelling
 Show
@@ -607,7 +607,7 @@ Show
     ItemLevel < 68
     SetTextColor 255 255 255 # Normal Highlight Text
     SetBackgroundColor 30 30 30 250 # Normal Highlight Background
-    SetFontSize 38
+    SetFontSize 37
 
 # Section: Perfect Quality Items
 
@@ -618,7 +618,7 @@ Show
     Rarity = Normal
     SetBackgroundColor 0 0 0 250 # Default Background
     SetBorderColor 80 80 80 # Quality Border
-    SetFontSize 38
+    SetFontSize 37
 
 # Section: Quality Flasks
 
@@ -629,7 +629,7 @@ Show
     Rarity = Normal
     SetTextColor 200 200 200 # Normal Text
     SetBorderColor 80 80 80 # Quality Border
-    SetFontSize 38
+    SetFontSize 37
 
 # Quality Flask Magic
 Show
@@ -638,7 +638,7 @@ Show
     Rarity = Magic
     SetTextColor 136 136 255 # Magic Text
     SetBorderColor 80 80 80 # Quality Border
-    SetFontSize 38
+    SetFontSize 37
 
 # Section: General
 
@@ -647,7 +647,7 @@ Show
     Class "Quest" "Hideout" "Micro" "Labyrinth"
     SetTextColor 74 230 58
     SetBackgroundColor 0 0 0 250 # Default Background
-    SetFontSize 38
+    SetFontSize 37
     PlayAlertSound 2 100
 
 # Rare
@@ -786,7 +786,7 @@ Show
     ItemLevel >= 70
     SetTextColor 200 200 200 # Normal Text
     SetBackgroundColor 0 0 0 250 # Default Background
-    SetFontSize 38
+    SetFontSize 37
 
 Show
     Class "Utility Flasks"
@@ -794,7 +794,7 @@ Show
     ItemLevel >= 70
     SetTextColor 136 136 255 # Magic Text
     SetBackgroundColor 0 0 0 250 # Default Background
-    SetFontSize 38
+    SetFontSize 37
 
 #Disabled Block Start
 #Show
