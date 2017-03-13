@@ -13,14 +13,6 @@ Show
 
 # Section: League Stuff
 
-# Essence
-Show
-    Class "Currency"
-    BaseType "Essence of" "Remnant of Corruption"
-    SetTextColor 128 179 254 # Essence Text
-    SetBackgroundColor 25 36 51 250 # Essence Highlight Background
-    SetFontSize 38
-
 # Perandus Coin
 Show
     Class "Currency"
@@ -84,6 +76,34 @@ Show
     BaseType "Talisman"
     SetBorderColor 50 230 100 # Talisman Border
     SetFontSize 38
+
+# Section: Essences
+
+# Essence Tier1
+Show
+    Class "Currency"
+    BaseType "Shrieking Essence of" "Deafening Essence of" "Essence of Hysteria" "Essence of Insanity" "Essence of Horror" "Essence of Delirium" "Remnant of Corruption"
+    SetTextColor 128 179 254 # Essence Text
+    SetBackgroundColor 25 36 51 250 # Essence Highlight Background
+    SetBorderColor 128 179 254 # Essence Border
+    SetFontSize 41
+    PlayAlertSound 7 100
+
+# Essence Tier2
+Show
+    Class "Currency"
+    BaseType "Wailing Essence of" "Screaming Essence of"
+    SetTextColor 128 179 254 # Essence Text
+    SetBackgroundColor 25 36 51 250 # Essence Highlight Background
+    SetFontSize 38
+    PlayAlertSound 6 100
+
+# Essence
+Show
+    Class "Currency"
+    BaseType "Essence of"
+    SetTextColor 128 179 254 # Essence Text
+    SetBackgroundColor 25 36 51 250 # Essence Highlight Background
 
 # Section: Leaguestones
 
