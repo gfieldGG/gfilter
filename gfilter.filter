@@ -75,6 +75,7 @@ Show
 
 # Talisman
 Show
+    Class "Amulets"
     BaseType "Talisman"
     SetBorderColor 50 230 100 # Talisman Border
     SetFontSize 37
