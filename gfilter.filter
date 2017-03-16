@@ -671,7 +671,7 @@ Show
 
 # Unique Tier2
 Show
-    BaseType "Granite Flask" "Bismuth Flask" "Fiend Dagger" "Imperial Staff" "Carnal Sceptre" "Siege Axe" "Abyssal Axe" "Sacrificial Garb" "Leather Cap" "Ritual Sceptre" "Judgement Staff" "Vaal Sceptre" "Imperial Maul" "Steelhead" "Carnal Sceptre" "Terror Maul" "Jingling Spirit Shield" "Savant's Robe" "Gladiator Plate" "Vaal Regalia" "Sacrificial Garb" "Archon Kite Shield" "Legion Gloves" "Raven Mask" "Champion Kite Shield" "Nightmare Bascinet" "Clasped Mitts" "Penetrating Arrow Quiver" "Two-Stone Ring" "Gold Ring" "Crystal Belt" "Citrine Amulet"
+    BaseType "Granite Flask" "Bismuth Flask" "Fiend Dagger" "Imperial Staff" "Carnal Sceptre" "Siege Axe" "Abyssal Axe" "Sacrificial Garb" "Leather Cap" "Ritual Sceptre" "Judgement Staff" "Vaal Sceptre" "Imperial Maul" "Steelhead" "Carnal Sceptre" "Terror Maul" "Jingling Spirit Shield" "Savant's Robe" "Gladiator Plate" "Vaal Regalia" "Sacrificial Garb" "Archon Kite Shield" "Legion Gloves" "Raven Mask" "Champion Kite Shield" "Nightmare Bascinet" "Clasped Mitts" "Wyrmscale Doublet" "Gold Ring" "Crystal Belt" "Citrine Amulet"
     Rarity = Unique
     SetTextColor 175 96 37 # Unique Text
     SetBackgroundColor 30 15 0 250 # Unique Highlight Background
@@ -681,7 +681,7 @@ Show
 
 # Unique Tier?
 Show
-    BaseType "Ebony Tower Shield" "Onyx Amulet" "Goathide Boots" 
+    BaseType "Two-Stone Ring" "Ebony Tower Shield" "Onyx Amulet" "Goathide Boots" 
     Rarity = Unique
     SetTextColor 175 96 37 # Unique Text
     SetBackgroundColor 30 15 0 250 # Unique Highlight Background
