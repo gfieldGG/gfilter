@@ -154,6 +154,38 @@ Show
     SetFontSize 45
     PlayAlertSound 8 300
 
+# Section: Atlas of Worlds
+
+# Apprentice Cartographer
+Show
+    Class "Currency"
+    BaseType "Apprentice Cartographer's Seal" "Apprentice Cartographer's Sextant"
+    SetTextColor 255 255 255 # Normal Highlight Text
+    SetBackgroundColor 30 30 30 250 # Normal Highlight Background
+    SetBorderColor 200 200 200 # Normal Border
+    SetFontSize 37
+    PlayAlertSound 6 150
+
+# Journeyman Cartographer
+Show
+    Class "Currency"
+    BaseType "Journeyman Cartographer's Seal" "Journeyman Cartographer's Sextant"
+    SetTextColor 254 170 0 # Journeyman Text
+    SetBackgroundColor 30 30 30 250 # Normal Highlight Background
+    SetBorderColor 254 170 0 # Journeyman Border
+    SetFontSize 37
+    PlayAlertSound 7 150
+
+# Master Cartographer
+Show
+    Class "Currency"
+    BaseType "Master Cartographer's Seal" "Master Cartographer's Sextant"
+    SetTextColor 191 0 0 # Master Text
+    SetBackgroundColor 30 30 30 250 # Normal Highlight Background
+    SetBorderColor 191 0 0 # Master Border
+    SetFontSize 41
+    PlayAlertSound 7 150
+
 # Section: Currency
 
 # Currency Tier1
