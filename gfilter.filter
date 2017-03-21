@@ -27,7 +27,7 @@ Show
     SetBackgroundColor 18 0 25 250 # Prophecy Highlight Background
     SetBorderColor 125 0 175 # Prophecy Border
     SetFontSize 41
-    PlayAlertSound 6 100
+    PlayAlertSound 6 150
 
 # Prophecy
 Show
@@ -53,7 +53,7 @@ Show
     SetBackgroundColor 30 0 0 250 # Breach Highlight Background
     SetBorderColor 74 0 160 # Breach Border
     SetFontSize 41
-    PlayAlertSound 8 100
+    PlayAlertSound 8 300
 
 # Breachstone
 Show
@@ -63,7 +63,7 @@ Show
     SetBackgroundColor 100 0 0 250 # Breach Background
     SetBorderColor 74 0 160 # Breach Border
     SetFontSize 41
-    PlayAlertSound 7 100
+    PlayAlertSound 7 150
 
 # Breach Splinter
 Show
@@ -79,7 +79,7 @@ Show
     BaseType "Talisman"
     SetBorderColor 50 230 100 # Talisman Border
     SetFontSize 37
-    PlayAlertSound 6 100
+    PlayAlertSound 6 150
 
 # Section: Essences
 
@@ -91,7 +91,7 @@ Show
     SetBackgroundColor 25 36 51 250 # Essence Highlight Background
     SetBorderColor 128 179 254 # Essence Border
     SetFontSize 41
-    PlayAlertSound 7 100
+    PlayAlertSound 7 150
 
 # Essence Tier2
 Show
@@ -100,7 +100,7 @@ Show
     SetTextColor 128 179 254 # Essence Text
     SetBackgroundColor 25 36 51 250 # Essence Highlight Background
     SetFontSize 37
-    PlayAlertSound 6 100
+    PlayAlertSound 6 150
 
 # Essence
 Show
@@ -119,7 +119,7 @@ Show
     SetTextColor 255 200 0 # Legacy Text
     SetBackgroundColor 30 24 0 250 # Legacy Highlight Background
     SetFontSize 41
-    PlayAlertSound 7 100
+    PlayAlertSound 7 150
 
 # Leaguestone Magic
 Show
@@ -128,7 +128,7 @@ Show
     SetTextColor 255 200 0 # Legacy Text
     SetBackgroundColor 30 24 0 250 # Legacy Highlight Background
     SetFontSize 37
-    PlayAlertSound 6 100
+    PlayAlertSound 6 150
 
 # Leaguestone Tier1
 Show
@@ -137,7 +137,7 @@ Show
     SetTextColor 255 200 0 # Legacy Text
     SetBackgroundColor 30 24 0 250 # Legacy Highlight Background
     SetFontSize 37
-    PlayAlertSound 6 100
+    PlayAlertSound 6 150
 
 # Leaguestone
 Show
@@ -173,7 +173,7 @@ Show
     SetBackgroundColor 35 30 20 250 # Currency Highlight Background
     SetBorderColor 170 158 130 # Currency Border
     SetFontSize 41
-    PlayAlertSound 7 100
+    PlayAlertSound 7 150
 
 # Currency Tier3
 Show
@@ -183,7 +183,7 @@ Show
     SetBackgroundColor 35 30 20 250 # Currency Highlight Background
     SetBorderColor 170 158 130 # Currency Border
     SetFontSize 37
-    PlayAlertSound 6 100
+    PlayAlertSound 6 150
 
 # Currency Tier4
 Show
@@ -219,7 +219,7 @@ Show
     SetBackgroundColor 15 20 20 250 # Divination Card Highlight Background
     SetBorderColor 14 186 255 # Divination Card Border
     SetFontSize 41
-    PlayAlertSound 7 100
+    PlayAlertSound 7 150
 
 # Divination Card Tier3
 Show
@@ -245,7 +245,7 @@ Show
     SetBackgroundColor 0 25 15 250 # Gem Highlight Background
     SetBorderColor 26 162 155 # Gem Border
     SetFontSize 37
-    PlayAlertSound 6 100
+    PlayAlertSound 6 150
 
 # Gem Tier1
 Show
@@ -255,7 +255,7 @@ Show
     SetBackgroundColor 0 25 15 250 # Gem Highlight Background
     SetBorderColor 26 162 155 # Gem Border
     SetFontSize 37
-    PlayAlertSound 6 100
+    PlayAlertSound 6 150
 
 # Gem Vaal
 Show
@@ -296,7 +296,7 @@ Show
     SetBackgroundColor 30 30 30 250 # Normal Highlight Background
     SetBorderColor 200 200 200 # Normal Border
     SetFontSize 41
-    PlayAlertSound 8 100
+    PlayAlertSound 8 300
 
 # 6 Link Magic
 Show
@@ -306,7 +306,7 @@ Show
     SetBackgroundColor 0 15 30 250 # Magic Highlight Background
     SetBorderColor 136 136 255 # Magic Border
     SetFontSize 41
-    PlayAlertSound 8 100
+    PlayAlertSound 8 300
 
 # 6 Link Rare
 Show
@@ -316,7 +316,7 @@ Show
     SetBackgroundColor 23 23 0 250 # Rare Highlight Background
     SetBorderColor 255 255 119 # Rare Border
     SetFontSize 41
-    PlayAlertSound 8 100
+    PlayAlertSound 8 300
 
 # Tabula Rasa
 Show
@@ -333,7 +333,7 @@ Show
     SetBackgroundColor 30 15 0 250 # Unique Highlight Background
     SetBorderColor 175 96 37 # Unique Border
     SetFontSize 41
-    PlayAlertSound 8 100
+    PlayAlertSound 8 300
 
 # Section: 5 Links
 
@@ -344,7 +344,7 @@ Show
     SetTextColor 255 255 255 # Normal Highlight Text
     SetBackgroundColor 30 30 30 250 # Normal Highlight Background
     SetFontSize 37
-    PlayAlertSound 6 100
+    PlayAlertSound 6 150
 
 # 5 Link Magic
 Show
@@ -353,7 +353,7 @@ Show
     SetTextColor 136 136 255 # Magic Text
     SetBackgroundColor 0 15 30 250 # Magic Highlight Background
     SetFontSize 37
-    PlayAlertSound 6 100
+    PlayAlertSound 6 150
 
 # 5 Link Rare
 Show
@@ -362,7 +362,7 @@ Show
     SetTextColor 255 255 119 # Rare Text
     SetBackgroundColor 23 23 0 250 # Rare Highlight Background
     SetFontSize 37
-    PlayAlertSound 6 100
+    PlayAlertSound 6 150
 
 # 5 Link Unique
 Show
@@ -371,7 +371,7 @@ Show
     SetTextColor 175 96 37 # Unique Text
     SetBackgroundColor 30 15 0 250 # Unique Highlight Background
     SetFontSize 37
-    PlayAlertSound 6 100
+    PlayAlertSound 6 150
 
 # Section: 6 Sockets
 
@@ -382,7 +382,7 @@ Show
     SetTextColor 255 255 255 # Normal Highlight Text
     SetBackgroundColor 30 30 30 250 # Normal Highlight Background
     SetFontSize 37
-    PlayAlertSound 6 100
+    PlayAlertSound 6 150
 
 # 6 Socket Magic
 Show
@@ -391,7 +391,7 @@ Show
     SetTextColor 136 136 255 # Magic Text
     SetBackgroundColor 0 15 30 250 # Magic Highlight Background
     SetFontSize 37
-    PlayAlertSound 6 100
+    PlayAlertSound 6 150
 
 # 6 Socket Rare
 Show
@@ -400,7 +400,7 @@ Show
     SetTextColor 255 255 119 # Rare Text
     SetBackgroundColor 23 23 0 250 # Rare Highlight Background
     SetFontSize 37
-    PlayAlertSound 6 100
+    PlayAlertSound 6 150
 
 # 6 Socket Unique
 Show
@@ -409,7 +409,7 @@ Show
     SetTextColor 175 96 37 # Unique Text
     SetBackgroundColor 30 15 0 250 # Unique Highlight Background
     SetFontSize 37
-    PlayAlertSound 6 100
+    PlayAlertSound 6 150
 
 # Section: White Sockets
 
@@ -530,7 +530,7 @@ Show
     SetBackgroundColor 23 23 0 250 # Rare Highlight Background
     SetBorderColor 136 136 255 127 # Regal Recipe Border
     SetFontSize 37
-    PlayAlertSound 6 100
+    PlayAlertSound 6 150
 
 # Regal Recipe
 Show
@@ -552,7 +552,7 @@ Show
     SetBackgroundColor 23 23 0 250 # Rare Highlight Background
     SetBorderColor 254 170 0 127 # Chaos Recipe Border
     SetFontSize 37
-    PlayAlertSound 6 100
+    PlayAlertSound 6 150
 
 # Chaos Recipe
 Show
@@ -677,17 +677,17 @@ Show
     SetBackgroundColor 30 15 0 250 # Unique Highlight Background
     SetBorderColor 175 96 37 # Unique Border
     SetFontSize 41
-    PlayAlertSound 7 100
+    PlayAlertSound 7 150
 
 # Unique Tier?
 Show
-    BaseType "Ebony Tower Shield" "Onyx Amulet" "Goathide Boots" 
+    BaseType "Ebony Tower Shield" "Onyx Amulet" "Goathide Boots"
     Rarity = Unique
     SetTextColor 175 96 37 # Unique Text
     SetBackgroundColor 30 15 0 250 # Unique Highlight Background
     SetBorderColor 175 96 37 # Unique Border
     SetFontSize 41
-    PlayAlertSound 6 100
+    PlayAlertSound 6 150
 
 # Unique
 Show
