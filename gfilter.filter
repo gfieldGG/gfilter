@@ -627,36 +627,6 @@ Show
     SetTextColor 136 136 255 # Magic Text
     SetBackgroundColor 0 0 0 250 # Default Background
 
-# Section: RGB Recipe
-
-# RGB Maps 2x2
-Show
-    SocketGroup "RGB"
-    Height <= 2
-    Width <= 2
-    ItemLevel >= 68
-    SetTextColor 255 255 255 # Normal Highlight Text
-    SetBackgroundColor 30 30 30 250 # Normal Highlight Background
-    SetFontSize 37
-
-# RGB Maps 1x3
-Show
-    SocketGroup "RGB"
-    Height <= 3
-    Width <= 1
-    ItemLevel >= 68
-    SetTextColor 255 255 255 # Normal Highlight Text
-    SetBackgroundColor 30 30 30 250 # Normal Highlight Background
-    SetFontSize 37
-
-# RGB Levelling
-Show
-    SocketGroup "RGB"
-    ItemLevel < 68
-    SetTextColor 255 255 255 # Normal Highlight Text
-    SetBackgroundColor 30 30 30 250 # Normal Highlight Background
-    SetFontSize 37
-
 # Section: Perfect Quality Items
 
 # Perfect Quality Item
@@ -744,6 +714,35 @@ Show
     SetTextColor 175 96 37 # Unique Text
     SetBackgroundColor 30 15 0 250 # Unique Highlight Background
     SetFontSize 37
+    # Section: RGB Recipe
+    
+    # RGB Maps 2x2
+    Show
+        SocketGroup "RGB"
+        Height <= 2
+        Width <= 2
+        ItemLevel >= 68
+        SetTextColor 255 255 255 # Normal Highlight Text
+        SetBackgroundColor 30 30 30 250 # Normal Highlight Background
+        SetFontSize 37
+    
+    # RGB Maps 1x3
+    Show
+        SocketGroup "RGB"
+        Height <= 3
+        Width <= 1
+        ItemLevel >= 68
+        SetTextColor 255 255 255 # Normal Highlight Text
+        SetBackgroundColor 30 30 30 250 # Normal Highlight Background
+        SetFontSize 37
+    
+    # RGB Levelling
+    Show
+        SocketGroup "RGB"
+        ItemLevel < 68
+        SetTextColor 255 255 255 # Normal Highlight Text
+        SetBackgroundColor 30 30 30 250 # Normal Highlight Background
+        SetFontSize 37
 
 # Section: Flask Upgrade Magic
 
