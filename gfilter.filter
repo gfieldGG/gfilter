@@ -284,6 +284,26 @@ Show
 
 # Section: Gems
 
+# Gem Quality 20
+Show
+    Quality = 20
+    Class "Active Skill Gems" "Support Skill Gems"
+    SetTextColor 26 162 155 # Gem Text
+    SetBackgroundColor 0 25 15 250 # Gem Highlight Background
+    SetBorderColor 26 162 155 # Gem Border
+    SetFontSize 41
+    PlayAlertSound 7 150
+
+# Gem Quality High
+Show
+    Quality >= 10
+    Class "Active Skill Gems" "Support Skill Gems"
+    SetTextColor 26 162 155 # Gem Text
+    SetBackgroundColor 0 25 15 250 # Gem Highlight Background
+    SetBorderColor 26 162 155 # Gem Border
+    SetFontSize 37
+    PlayAlertSound 6 150
+
 # Gem Quality
 Show
     Quality > 0
@@ -292,7 +312,6 @@ Show
     SetBackgroundColor 0 25 15 250 # Gem Highlight Background
     SetBorderColor 26 162 155 # Gem Border
     SetFontSize 37
-    PlayAlertSound 6 150
 
 # Gem Tier1
 Show
