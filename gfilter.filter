@@ -507,9 +507,55 @@ Show
 #    Rarity = Unique
 #Disabled Block End
 
+# Section: Rares
+
+# T1 ilvl84 Rares
+Show
+    Rarity = Rare
+    ItemLevel >= 84
+
+# Section: Uniques
+
+# Unique Tier1
+Show
+    BaseType "Stibnite Flask" "Ruby Flask" "Topaz Flask" "Sapphire Flask" "Silver Flask" "Void Axe" "Prophecy Wand" "Jewelled Foil" "Royal Axe" "Cutlass" "Sorcerer Boots" "Occultist's Vestment" "Crusader Boots" "Rawhide Boots" "Ezomyte Tower Shield" "Deicide Mask" "Glorious Plate" "Ezomyte Burgonet" "Assassin's Garb" "Greatwolf Talisman"
+    Rarity = Unique
+    SetTextColor 175 96 37 # Unique Text
+    SetBackgroundColor 30 15 0 250 # Unique Highlight Background
+    SetBorderColor 175 96 37 # Unique Border
+    SetFontSize 45
+    PlayAlertSound 8 300
+
+# Unique Tier2
+Show
+    BaseType "Granite Flask" "Bismuth Flask" "Fiend Dagger" "Imperial Staff" "Carnal Sceptre" "Siege Axe" "Abyssal Axe" "Sacrificial Garb" "Leather Cap" "Ritual Sceptre" "Judgement Staff" "Vaal Sceptre" "Imperial Maul" "Steelhead" "Carnal Sceptre" "Terror Maul" "Jingling Spirit Shield" "Savant's Robe" "Gladiator Plate" "Vaal Regalia" "Sacrificial Garb" "Archon Kite Shield" "Legion Gloves" "Raven Mask" "Champion Kite Shield" "Nightmare Bascinet" "Clasped Mitts" "Wyrmscale Doublet" "Gold Ring" "Crystal Belt" "Citrine Amulet"
+    Rarity = Unique
+    SetTextColor 175 96 37 # Unique Text
+    SetBackgroundColor 30 15 0 250 # Unique Highlight Background
+    SetBorderColor 175 96 37 # Unique Border
+    SetFontSize 41
+    PlayAlertSound 7 150
+
+# Unique Tier?
+Show
+    BaseType "Two-Stone Ring" "Ebony Tower Shield" "Onyx Amulet" "Goathide Boots"
+    Rarity = Unique
+    SetTextColor 175 96 37 # Unique Text
+    SetBackgroundColor 30 15 0 250 # Unique Highlight Background
+    SetBorderColor 175 96 37 # Unique Border
+    SetFontSize 41
+    PlayAlertSound 6 150
+
+# Unique
+Show
+    Rarity = Unique
+    SetTextColor 175 96 37 # Unique Text
+    SetBackgroundColor 30 15 0 250 # Unique Highlight Background
+    SetFontSize 37
+
 # Section: Jewels
 
-# Jewel Normal
+# Jewel Normal lvling
 Show
     Class "Jewel"
     Rarity = Normal
@@ -648,11 +694,12 @@ Show
 
 # Section: Perfect Quality Items
 
-# Perfect Quality Item
+# Perfect Quality Item lvling
 Show
     Quality = 20
     Class "Body Armours" "Boots" "Gloves" "Bows" "Shields" "Two Hand" "One Hand" "Wands" "Staves" "Helmets" "Sceptres"
     Rarity = Normal
+    ItemLevel < 67
     SetBackgroundColor 0 0 0 250 # Default Background
     SetBorderColor 80 80 80 # Quality Border
     SetFontSize 37
@@ -694,45 +741,6 @@ Show
     Rarity = Rare
     SetTextColor 255 255 119 # Rare Text
     SetBackgroundColor 0 0 0 250 # Default Background
-
-# Section: Uniques
-
-# Unique Tier1
-Show
-    BaseType "Stibnite Flask" "Ruby Flask" "Topaz Flask" "Sapphire Flask" "Silver Flask" "Void Axe" "Prophecy Wand" "Jewelled Foil" "Royal Axe" "Cutlass" "Sorcerer Boots" "Occultist's Vestment" "Crusader Boots" "Rawhide Boots" "Ezomyte Tower Shield" "Deicide Mask" "Glorious Plate" "Ezomyte Burgonet" "Assassin's Garb" "Greatwolf Talisman"
-    Rarity = Unique
-    SetTextColor 175 96 37 # Unique Text
-    SetBackgroundColor 30 15 0 250 # Unique Highlight Background
-    SetBorderColor 175 96 37 # Unique Border
-    SetFontSize 45
-    PlayAlertSound 8 300
-
-# Unique Tier2
-Show
-    BaseType "Granite Flask" "Bismuth Flask" "Fiend Dagger" "Imperial Staff" "Carnal Sceptre" "Siege Axe" "Abyssal Axe" "Sacrificial Garb" "Leather Cap" "Ritual Sceptre" "Judgement Staff" "Vaal Sceptre" "Imperial Maul" "Steelhead" "Carnal Sceptre" "Terror Maul" "Jingling Spirit Shield" "Savant's Robe" "Gladiator Plate" "Vaal Regalia" "Sacrificial Garb" "Archon Kite Shield" "Legion Gloves" "Raven Mask" "Champion Kite Shield" "Nightmare Bascinet" "Clasped Mitts" "Wyrmscale Doublet" "Gold Ring" "Crystal Belt" "Citrine Amulet"
-    Rarity = Unique
-    SetTextColor 175 96 37 # Unique Text
-    SetBackgroundColor 30 15 0 250 # Unique Highlight Background
-    SetBorderColor 175 96 37 # Unique Border
-    SetFontSize 41
-    PlayAlertSound 7 150
-
-# Unique Tier?
-Show
-    BaseType "Two-Stone Ring" "Ebony Tower Shield" "Onyx Amulet" "Goathide Boots"
-    Rarity = Unique
-    SetTextColor 175 96 37 # Unique Text
-    SetBackgroundColor 30 15 0 250 # Unique Highlight Background
-    SetBorderColor 175 96 37 # Unique Border
-    SetFontSize 41
-    PlayAlertSound 6 150
-
-# Unique
-Show
-    Rarity = Unique
-    SetTextColor 175 96 37 # Unique Text
-    SetBackgroundColor 30 15 0 250 # Unique Highlight Background
-    SetFontSize 37
 
 # Section: RGB Recipe
 
