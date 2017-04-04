@@ -361,7 +361,7 @@ Show
     SetTextColor 200 200 200 # Normal Text
     SetBackgroundColor 30 30 30 250 # Normal Highlight Background
     SetBorderColor 200 200 200 # Normal Border
-    SetFontSize 41
+    SetFontSize 45
     PlayAlertSound 8 300
 
 # 6 Link Magic
@@ -371,7 +371,7 @@ Show
     SetTextColor 136 136 255 # Magic Text
     SetBackgroundColor 0 15 30 250 # Magic Highlight Background
     SetBorderColor 136 136 255 # Magic Border
-    SetFontSize 41
+    SetFontSize 45
     PlayAlertSound 8 300
 
 # 6 Link Rare
@@ -381,7 +381,7 @@ Show
     SetTextColor 255 255 119 # Rare Text
     SetBackgroundColor 23 23 0 250 # Rare Highlight Background
     SetBorderColor 255 255 119 # Rare Border
-    SetFontSize 41
+    SetFontSize 45
     PlayAlertSound 8 300
 
 # Tabula Rasa
@@ -389,7 +389,10 @@ Show
     SocketGroup "WWWWWW"
     BaseType "Simple Robe"
     SetTextColor 175 96 37 # Unique Text
-    SetFontSize 37
+    SetBackgroundColor 30 15 0 250 # Unique Highlight Background
+    SetBorderColor 175 96 37 # Unique Border
+    SetFontSize 41
+    PlayAlertSound 7 150
 
 # 6 Link Unique
 Show
@@ -398,7 +401,7 @@ Show
     SetTextColor 175 96 37 # Unique Text
     SetBackgroundColor 30 15 0 250 # Unique Highlight Background
     SetBorderColor 175 96 37 # Unique Border
-    SetFontSize 41
+    SetFontSize 45
     PlayAlertSound 8 300
 
 # Section: 5 Links
@@ -409,8 +412,8 @@ Show
     Rarity = Normal
     SetTextColor 255 255 255 # Normal Highlight Text
     SetBackgroundColor 30 30 30 250 # Normal Highlight Background
-    SetFontSize 37
-    PlayAlertSound 6 150
+    SetFontSize 41
+    PlayAlertSound 7 150
 
 # 5 Link Magic
 Show
@@ -418,8 +421,8 @@ Show
     Rarity = Magic
     SetTextColor 136 136 255 # Magic Text
     SetBackgroundColor 0 15 30 250 # Magic Highlight Background
-    SetFontSize 37
-    PlayAlertSound 6 150
+    SetFontSize 41
+    PlayAlertSound 7 150
 
 # 5 Link Rare
 Show
@@ -427,8 +430,8 @@ Show
     Rarity = Rare
     SetTextColor 255 255 119 # Rare Text
     SetBackgroundColor 23 23 0 250 # Rare Highlight Background
-    SetFontSize 37
-    PlayAlertSound 6 150
+    SetFontSize 41
+    PlayAlertSound 7 150
 
 # 5 Link Unique
 Show
@@ -436,8 +439,8 @@ Show
     Rarity = Unique
     SetTextColor 175 96 37 # Unique Text
     SetBackgroundColor 30 15 0 250 # Unique Highlight Background
-    SetFontSize 37
-    PlayAlertSound 6 150
+    SetFontSize 41
+    PlayAlertSound 7 150
 
 # Section: 6 Sockets
 
