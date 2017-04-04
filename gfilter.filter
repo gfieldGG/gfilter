@@ -841,6 +841,7 @@ Show
     Class "Flask"
     Rarity = Normal
     SetTextColor 200 200 200 # Normal Text
+    SetBackgroundColor 0 0 0 250 # Default Background
     SetBorderColor 80 80 80 # Quality Border
     SetFontSize 37
 
