@@ -1135,21 +1135,18 @@ Show
 
 Show
     LinkedSockets = 4
-    DropLevel > 40
-    ItemLevel < 65
-    ItemLevel >= 50
+    DropLevel > 15
+    ItemLevel < 40
 
 Show
     LinkedSockets = 4
     DropLevel > 27
     ItemLevel < 50
-    ItemLevel >= 40
 
 Show
     LinkedSockets = 4
-    DropLevel > 15
-    ItemLevel < 40
-    ItemLevel >= 30
+    DropLevel > 40
+    ItemLevel < 65
 
 Show
     LinkedSockets = 4
@@ -1171,30 +1168,36 @@ Show
 Show
     Class "Ring" "Amulet" "Belt"
     Rarity = Magic
-    ItemLevel <= 68
+    ItemLevel < 67
 
 Show
     Class "Ring" "Amulet" "Belt"
     Rarity = Normal
-    ItemLevel <= 68
+    ItemLevel < 67
 
-Show
-    Class "Ring" "Amulet" "Belt"
-    Rarity = Normal
-    ItemLevel > 68
+#Disabled Block Start
+#Show
+#    Class "Ring" "Amulet" "Belt"
+#    Rarity = Normal
+#    ItemLevel > 68
+#Disabled Block End
 
-Show
-    Class "Ring" "Amulet" "Belt"
-    Rarity = Magic
-    ItemLevel > 68
+#Disabled Block Start
+#Show
+#    Class "Ring" "Amulet" "Belt"
+#    Rarity = Magic
+#    ItemLevel > 68
+#Disabled Block End
 
 Show
     Class "Quiver"
     Rarity = Normal
+    ItemLevel < 67
 
 Show
     Class "Quiver"
     Rarity = Magic
+    ItemLevel < 67
 
 # Section: Obsolete Gear
 
@@ -1293,9 +1296,7 @@ Hide
 
 # Section: Everything else
 
-#Disabled Block Start
 # Everything not hidden or shown
-#Show
-#    SetBackgroundColor 0 0 0 250 # Default Background
-#Disabled Block End
+Hide
+    SetBackgroundColor 0 0 0 0 # Hidden Background
 
