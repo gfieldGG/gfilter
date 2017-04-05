@@ -1195,12 +1195,7 @@ Show
 Show
     Class "Ring" "Amulet" "Belt"
     Rarity = Magic
-    ItemLevel < 67
-
-Show
-    Class "Ring" "Amulet" "Belt"
-    Rarity = Normal
-    ItemLevel < 67
+    ItemLevel < 35
 
 #Disabled Block Start
 #Show
