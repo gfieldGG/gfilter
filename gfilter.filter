@@ -827,6 +827,7 @@ Show
     Rarity = Normal
     SetTextColor 200 200 200 # Normal Text
     SetBackgroundColor 0 0 0 250 # Default Background
+    SetBorderColor 80 80 80 # Quality Border
 
 # Chisel Hammer Magic
 Show
@@ -835,6 +836,7 @@ Show
     Rarity = Magic
     SetTextColor 136 136 255 # Magic Text
     SetBackgroundColor 0 0 0 250 # Default Background
+    SetBorderColor 80 80 80 # Quality Border
 
 # Section: Perfect Quality Items
 
