@@ -934,6 +934,7 @@ Show
     ItemLevel <= 15
     SetTextColor 136 136 255 # Magic Text
     SetBackgroundColor 0 0 0 250 # Default Background
+    SetFontSize 37
 
 Show
     Class "Flask"
@@ -943,6 +944,7 @@ Show
     ItemLevel >= 3
     SetTextColor 136 136 255 # Magic Text
     SetBackgroundColor 0 0 0 250 # Default Background
+    SetFontSize 37
 
 Show
     Class "Flask"
@@ -952,6 +954,7 @@ Show
     ItemLevel >= 5
     SetTextColor 136 136 255 # Magic Text
     SetBackgroundColor 0 0 0 250 # Default Background
+    SetFontSize 37
 
 Show
     Class "Flask"
@@ -961,6 +964,7 @@ Show
     ItemLevel >= 12
     SetTextColor 136 136 255 # Magic Text
     SetBackgroundColor 0 0 0 250 # Default Background
+    SetFontSize 37
 
 Show
     Class "Flask"
@@ -970,6 +974,7 @@ Show
     ItemLevel >= 18
     SetTextColor 136 136 255 # Magic Text
     SetBackgroundColor 0 0 0 250 # Default Background
+    SetFontSize 37
 
 Show
     Class "Flask"
@@ -979,6 +984,7 @@ Show
     ItemLevel >= 24
     SetTextColor 136 136 255 # Magic Text
     SetBackgroundColor 0 0 0 250 # Default Background
+    SetFontSize 37
 
 Show
     Class "Flask"
@@ -988,6 +994,7 @@ Show
     ItemLevel >= 30
     SetTextColor 136 136 255 # Magic Text
     SetBackgroundColor 0 0 0 250 # Default Background
+    SetFontSize 37
 
 Show
     Class "Flask"
@@ -997,6 +1004,7 @@ Show
     ItemLevel >= 36
     SetTextColor 136 136 255 # Magic Text
     SetBackgroundColor 0 0 0 250 # Default Background
+    SetFontSize 37
 
 Show
     Class "Flask"
@@ -1006,6 +1014,7 @@ Show
     ItemLevel >= 42
     SetTextColor 136 136 255 # Magic Text
     SetBackgroundColor 0 0 0 250 # Default Background
+    SetFontSize 37
 
 Show
     Class "Flask"
@@ -1015,6 +1024,7 @@ Show
     ItemLevel >= 48
     SetTextColor 136 136 255 # Magic Text
     SetBackgroundColor 0 0 0 250 # Default Background
+    SetFontSize 37
 
 Show
     Class "Flask"
@@ -1024,6 +1034,7 @@ Show
     ItemLevel >= 60
     SetTextColor 136 136 255 # Magic Text
     SetBackgroundColor 0 0 0 250 # Default Background
+    SetFontSize 37
 
 Show
     Class "Flask"
@@ -1033,6 +1044,7 @@ Show
     ItemLevel >= 65
     SetTextColor 136 136 255 # Magic Text
     SetBackgroundColor 0 0 0 250 # Default Background
+    SetFontSize 37
 
 Show
     Class "Life Flask" "Mana Flask" "Hybrid Flask"
@@ -1046,7 +1058,7 @@ Show
 Show
     Class "Utility Flasks"
     Rarity = Normal
-    ItemLevel >= 70
+    ItemLevel >= 18
     SetTextColor 200 200 200 # Normal Text
     SetBackgroundColor 0 0 0 250 # Default Background
     SetFontSize 37
@@ -1054,7 +1066,7 @@ Show
 Show
     Class "Utility Flasks"
     Rarity = Magic
-    ItemLevel >= 70
+    ItemLevel >= 18
     SetTextColor 136 136 255 # Magic Text
     SetBackgroundColor 0 0 0 250 # Default Background
     SetFontSize 37
@@ -1069,47 +1081,58 @@ Show
 #Disabled Block End
 
 Show
-    Class "Utility"
+    Class "Utility Flasks"
     SetBackgroundColor 0 0 0 250 # Default Background
-    SetFontSize 38
 
 # Section: Obsolete Flasks
 
-Hide
-    DropLevel <= 6
-    Class "Life Flask" "Mana Flask" "Hybrid Flask"
-    ItemLevel > 12
-    SetBackgroundColor 0 0 0 0 # Hidden Background
+#Disabled Block Start
+#Hide
+#    DropLevel <= 6
+#    Class "Life Flask" "Mana Flask" "Hybrid Flask"
+#    ItemLevel > 12
+#    SetBackgroundColor 0 0 0 0 # Hidden Background
+#Disabled Block End
 
-Hide
-    DropLevel <= 12
-    Class "Life Flask" "Mana Flask" "Hybrid Flask"
-    ItemLevel > 18
-    SetBackgroundColor 0 0 0 0 # Hidden Background
+#Disabled Block Start
+#Hide
+#    DropLevel <= 12
+#    Class "Life Flask" "Mana Flask" "Hybrid Flask"
+#    ItemLevel > 18
+#    SetBackgroundColor 0 0 0 0 # Hidden Background
+#Disabled Block End
 
-Hide
-    DropLevel <= 18
-    Class "Life Flask" "Mana Flask" "Hybrid Flask"
-    ItemLevel > 24
-    SetBackgroundColor 0 0 0 0 # Hidden Background
+#Disabled Block Start
+#Hide
+#    DropLevel <= 18
+#    Class "Life Flask" "Mana Flask" "Hybrid Flask"
+#    ItemLevel > 24
+#    SetBackgroundColor 0 0 0 0 # Hidden Background
+#Disabled Block End
 
-Hide
-    DropLevel <= 24
-    Class "Life Flask" "Mana Flask" "Hybrid Flask"
-    ItemLevel > 30
-    SetBackgroundColor 0 0 0 0 # Hidden Background
+#Disabled Block Start
+#Hide
+#    DropLevel <= 24
+#    Class "Life Flask" "Mana Flask" "Hybrid Flask"
+#    ItemLevel > 30
+#    SetBackgroundColor 0 0 0 0 # Hidden Background
+#Disabled Block End
 
-Hide
-    DropLevel <= 40
-    Class "Life Flask" "Mana Flask" "Hybrid Flask"
-    ItemLevel > 45
-    SetBackgroundColor 0 0 0 0 # Hidden Background
+#Disabled Block Start
+#Hide
+#    DropLevel <= 40
+#    Class "Life Flask" "Mana Flask" "Hybrid Flask"
+#    ItemLevel > 45
+#    SetBackgroundColor 0 0 0 0 # Hidden Background
+#Disabled Block End
 
-Hide
-    DropLevel < 45
-    Class "Life Flask" "Mana Flask" "Hybrid Flask"
-    ItemLevel > 50
-    SetBackgroundColor 0 0 0 0 # Hidden Background
+#Disabled Block Start
+#Hide
+#    DropLevel < 45
+#    Class "Life Flask" "Mana Flask" "Hybrid Flask"
+#    ItemLevel > 50
+#    SetBackgroundColor 0 0 0 0 # Hidden Background
+#Disabled Block End
 
 Hide
     DropLevel < 60
@@ -1158,12 +1181,16 @@ Show
 Show
     Class "Ring" "Amulet" "Belt"
     Rarity = Normal
-    ItemLevel <= 7
+    ItemLevel <= 16
+    SetBackgroundColor 0 0 0 250 # Default Background
+    SetFontSize 37
 
 Show
     Class "Ring" "Amulet" "Belt"
     Rarity = Magic
-    ItemLevel <= 7
+    ItemLevel <= 16
+    SetBackgroundColor 0 0 0 250 # Default Background
+    SetFontSize 37
 
 Show
     Class "Ring" "Amulet" "Belt"
@@ -1189,15 +1216,19 @@ Show
 #    ItemLevel > 68
 #Disabled Block End
 
-Show
-    Class "Quiver"
-    Rarity = Normal
-    ItemLevel < 67
+#Disabled Block Start
+#Show
+#    Class "Quiver"
+#    Rarity = Normal
+#    ItemLevel < 16
+#Disabled Block End
 
-Show
-    Class "Quiver"
-    Rarity = Magic
-    ItemLevel < 67
+#Disabled Block Start
+#Show
+#    Class "Quiver"
+#    Rarity = Magic
+#    ItemLevel < 16
+#Disabled Block End
 
 # Section: Obsolete Gear
 
