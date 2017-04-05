@@ -1156,20 +1156,26 @@ Show
 
 # Section: Obsolete Exceptions Levelling 4L
 
-Show
-    LinkedSockets = 4
-    DropLevel > 15
-    ItemLevel < 40
+#Disabled Block Start
+#Show
+#    LinkedSockets = 4
+#    DropLevel > 15
+#    ItemLevel < 38
+#Disabled Block End
 
-Show
-    LinkedSockets = 4
-    DropLevel > 27
-    ItemLevel < 50
+#Disabled Block Start
+#Show
+#    LinkedSockets = 4
+#    DropLevel > 27
+#    ItemLevel < 50
+#Disabled Block End
 
-Show
-    LinkedSockets = 4
-    DropLevel > 40
-    ItemLevel < 65
+#Disabled Block Start
+#Show
+#    LinkedSockets = 4
+#    DropLevel > 40
+#    ItemLevel < 65
+#Disabled Block End
 
 Show
     LinkedSockets = 4
