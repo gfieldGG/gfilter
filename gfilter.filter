@@ -50,7 +50,7 @@ Show
     Class "Stackable Currency"
     BaseType "Blessing of"
     SetTextColor 255 255 255 # Normal Highlight Text
-    SetBackgroundColor 100 0 0 250 # Breach Background
+    SetBackgroundColor 100 0 0 254 # Breach Background
     SetBorderColor 74 0 160 # Breach Border
     SetFontSize 45
     PlayAlertSound 8 300
@@ -78,7 +78,7 @@ Show
 Show
     Class "Amulets"
     BaseType "Talisman"
-    SetBackgroundColor 0 0 0 250 # Default Background
+    SetBackgroundColor 5 23 10 250 # Talisman Hightlight Background
     SetBorderColor 50 230 100 # Talisman Border
     SetFontSize 37
     PlayAlertSound 6 150
@@ -117,8 +117,8 @@ Show
 Show
     BaseType "Ancient Reliquary Key"
     SetTextColor 0 0 0 # Map Text
-    SetBackgroundColor 255 200 0 # Legacy Background
-    SetBorderColor 255 255 255 # Currency Tier1 Border
+    SetBackgroundColor 255 200 0 254 # Legacy Background
+    SetBorderColor 255 255 255 # Tier1 Border
     SetFontSize 45
     PlayAlertSound 8 300
 
@@ -207,8 +207,8 @@ Show
 Show
     BaseType "Albino Rhoa Feather" "Eternal Orb" "Exalted Orb" "Divine Orb" "Mirror of Kalandra"
     SetTextColor 0 0 0 # Currency Tier1 Text
-    SetBackgroundColor 200 186 153 # Currency Tier1 Background
-    SetBorderColor 255 255 255 # Currency Tier1 Border
+    SetBackgroundColor 200 186 153 254 # Currency Tier1 Background
+    SetBorderColor 255 255 255 # Tier1 Border
     SetFontSize 45
     PlayAlertSound 8 300
 
@@ -253,8 +253,8 @@ Show
     Class "Divination Card"
     BaseType "House of Mirrors" "The Doctor" "The Fiend" "Hunter's Reward" "The Dragon's Heart" "Mawr Blaidd" "The Last One Standing" "The Offering" "The Ethereal" "The Queen" "Abandoned Wealth" "The Brittle Emperor" "The Immortal" "The Artist" "Wealth and Power" "Pride Before the Fall" "The Enlightened" "The King's Heart" "Bowyer's Dream" "The Hunger" "The Celestial Justicar" "Spark and the Flame" "Polymath"
     SetTextColor 0 0 0 # Currency Tier1 Text
-    SetBackgroundColor 14 186 255 # Divination Background
-    SetBorderColor 255 255 255 # Currency Tier1 Border
+    SetBackgroundColor 14 186 255 254 # Divination Background
+    SetBorderColor 255 255 255 # Tier1 Border
     SetFontSize 45
     PlayAlertSound 8 300
 
@@ -351,6 +351,74 @@ Show
     Class "Active Skill Gems"
     SetTextColor 26 162 155 # Gem Text
     SetBackgroundColor 0 0 0 250 # Default Background
+
+# Section: Maps
+
+Show
+    Class "Map Fragments"
+    BaseType "Mortal Grief" "Mortal Hope" "Mortal Ignorance" "Mortal Rage"
+    SetTextColor 0 0 0 # Map Text
+    SetBackgroundColor 161 27 123 254 # Vaal Background
+    SetBorderColor 0 0 0 # Map Border
+    SetFontSize 41
+    PlayAlertSound 7 150
+
+# Vaal Fragment
+Show
+    Class "Map Fragments"
+    BaseType "Sacrifice at"
+    SetTextColor 161 27 123 # Vaal Text
+    SetBackgroundColor 30 0 15 250 # Vaal Highlight Background
+    SetBorderColor 161 27 123 # Vaal Border
+    SetFontSize 37
+
+# Map Fragments
+Show
+    Class "Map Fragments"
+    SetTextColor 200 200 200 # Normal Text
+    SetBackgroundColor 30 30 30 250 # Normal Highlight Background
+    SetBorderColor 200 200 200 # Normal Border
+    SetFontSize 37
+
+# Map Normal
+Show
+    Class "Maps"
+    Rarity = Normal
+    SetTextColor 0 0 0 # Map Text
+    SetBackgroundColor 200 200 200 254 # Map Normal Background
+    SetBorderColor 100 100 100 # Map Normal Border
+    SetFontSize 37
+    PlayAlertSound 6 150
+
+# Map Magic
+Show
+    Class "Maps"
+    Rarity = Magic
+    SetTextColor 0 0 0 # Map Text
+    SetBackgroundColor 136 136 255 254 # Map Magic Background
+    SetBorderColor 68 68 128 250 # Map Magic Border
+    SetFontSize 37
+    PlayAlertSound 6 150
+
+# Map Rare
+Show
+    Class "Maps"
+    Rarity = Rare
+    SetTextColor 0 0 0 # Map Text
+    SetBackgroundColor 255 255 119 254 # Map Rare Background
+    SetBorderColor 128 128 60 250 # Map Rare Border
+    SetFontSize 37
+    PlayAlertSound 6 150
+
+# Map Unique
+Show
+    Class "Maps"
+    Rarity = Unique
+    SetTextColor 0 0 0 # Map Text
+    SetBackgroundColor 175 96 37 254 # Map Unique Background
+    SetBorderColor 88 48 19 250 # Map Unique Border
+    SetFontSize 37
+    PlayAlertSound 7 150
 
 # Section: 6 Links
 
@@ -518,8 +586,8 @@ Show
     Rarity < Rare
     ItemLevel >= 84
     SetTextColor 255 255 255 # Normal Highlight Text
-    SetBackgroundColor 0 0 255 # Crafting Background
-    SetBorderColor 255 255 255 # Currency Tier1 Border
+    SetBackgroundColor 0 0 254 254 # Crafting Background
+    SetBorderColor 255 255 255 # Tier1 Border
     SetFontSize 45
     PlayAlertSound 8 300
 
@@ -531,7 +599,7 @@ Show
 #    ItemLevel >= 84
 #    SetTextColor 136 136 255 # Magic Text
 #    SetBackgroundColor 0 15 30 250 # Magic Highlight Background
-#    SetBorderColor 0 0 255 # Crafting Border
+#    SetBorderColor 0 0 254 # Crafting Border
 #    SetFontSize 45
 #    PlayAlertSound 8 300
 #Disabled Block End
@@ -542,7 +610,7 @@ Show
     Rarity < Rare
     SetTextColor 255 255 255 # Normal Highlight Text
     SetBackgroundColor 30 30 30 250 # Normal Highlight Background
-    SetBorderColor 0 0 255 # Crafting Border
+    SetBorderColor 0 0 254 # Crafting Border
     SetFontSize 41
     PlayAlertSound 8 300
 
@@ -553,7 +621,7 @@ Show
 #    Rarity = Magic
 #    SetTextColor 136 136 255 # Magic Text
 #    SetBackgroundColor 0 15 30 250 # Magic Highlight Background
-#    SetBorderColor 0 0 255 # Crafting Border
+#    SetBorderColor 0 0 254 # Crafting Border
 #    SetFontSize 41
 #    PlayAlertSound 8 300
 #Disabled Block End
@@ -565,7 +633,7 @@ Show
     ItemLevel >= 84
     SetTextColor 255 255 255 # Normal Highlight Text
     SetBackgroundColor 30 30 30 250 # Normal Highlight Background
-    SetBorderColor 0 0 255 # Crafting Border
+    SetBorderColor 0 0 254 # Crafting Border
     SetFontSize 41
     PlayAlertSound 7 150
 
@@ -577,7 +645,7 @@ Show
 #    ItemLevel >= 84
 #    SetTextColor 136 136 255 # Magic Text
 #    SetBackgroundColor 0 15 30 250 # Magic Highlight Background
-#    SetBorderColor 0 0 255 # Crafting Border
+#    SetBorderColor 0 0 254 # Crafting Border
 #    SetFontSize 41
 #    PlayAlertSound 7 150
 #Disabled Block End
@@ -590,7 +658,7 @@ Show
     Rarity = Normal
     SetTextColor 200 200 200 # Normal Text
     SetBackgroundColor 0 0 0 250 # Default Background
-    SetBorderColor 0 0 255 # Crafting Border
+    SetBorderColor 0 0 254 # Crafting Border
     SetFontSize 37
 
 # Section: Rares
@@ -656,8 +724,8 @@ Show
     BaseType "Stibnite Flask" "Ruby Flask" "Topaz Flask" "Sapphire Flask" "Silver Flask" "Void Axe" "Prophecy Wand" "Jewelled Foil" "Royal Axe" "Cutlass" "Sorcerer Boots" "Occultist's Vestment" "Crusader Boots" "Rawhide Boots" "Ezomyte Tower Shield" "Deicide Mask" "Glorious Plate" "Ezomyte Burgonet" "Assassin's Garb" "Greatwolf Talisman"
     Rarity = Unique
     SetTextColor 255 255 255 # Normal Highlight Text
-    SetBackgroundColor 175 96 37 250 # Map Unique Background
-    SetBorderColor 255 255 255 # Currency Tier1 Border
+    SetBackgroundColor 175 96 37 254 # Map Unique Background
+    SetBorderColor 255 255 255 # Tier1 Border
     SetFontSize 45
     PlayAlertSound 8 300
 
@@ -709,70 +777,6 @@ Show
     Class "Jewel"
     Rarity = Rare
     SetTextColor 255 255 119 # Rare Text
-    SetFontSize 37
-
-# Section: Maps
-
-Show
-    Class "Map Fragments"
-    BaseType "Mortal Grief" "Mortal Hope" "Mortal Ignorance" "Mortal Rage"
-    SetTextColor 0 0 0 # Currency Tier1 Text
-    SetBackgroundColor 161 27 123 # Vaal Background
-    SetBorderColor 0 0 0 # Map Border
-    SetFontSize 41
-    PlayAlertSound 7 150
-
-# Vaal Fragment
-Show
-    Class "Map Fragments"
-    BaseType "Sacrifice at"
-    SetTextColor 161 27 123 # Vaal Text
-    SetBackgroundColor 30 0 15 250 # Vaal Highlight Background
-    SetBorderColor 161 27 123 # Vaal Border
-    SetFontSize 37
-
-# Map Fragments
-Show
-    Class "Map Fragments"
-    SetTextColor 200 200 200 # Normal Text
-    SetBackgroundColor 30 30 30 250 # Normal Highlight Background
-    SetBorderColor 200 200 200 # Normal Border
-    SetFontSize 37
-
-# Map Normal
-Show
-    Class "Maps"
-    Rarity = Normal
-    SetTextColor 0 0 0 # Map Text
-    SetBackgroundColor 200 200 200 250 # Map Normal Background
-    SetBorderColor 0 0 0 # Map Border
-    SetFontSize 37
-
-# Map Magic
-Show
-    Class "Maps"
-    Rarity = Magic
-    SetTextColor 0 0 0 # Map Text
-    SetBackgroundColor 136 136 255 250 # Map Magic Background
-    SetBorderColor 0 0 0 # Map Border
-    SetFontSize 37
-
-# Map Rare
-Show
-    Class "Maps"
-    Rarity = Rare
-    SetTextColor 0 0 0 # Map Text
-    SetBackgroundColor 255 255 119 250 # Map Rare Background
-    SetBorderColor 0 0 0 # Map Border
-    SetFontSize 37
-
-# Map Unique
-Show
-    Class "Maps"
-    Rarity = Unique
-    SetTextColor 0 0 0 # Map Text
-    SetBackgroundColor 175 96 37 250 # Map Unique Background
-    SetBorderColor 0 0 0 # Map Border
     SetFontSize 37
 
 # Section: Regal Recipe
@@ -879,7 +883,7 @@ Show
 Show
     BaseType "Offering to the Goddess"
     SetTextColor 0 0 0 # Currency Tier1 Text
-    SetBackgroundColor 74 230 58 # Quest Background
+    SetBackgroundColor 74 230 58 254 # Quest Background
     SetBorderColor 0 0 0 # Map Border
     SetFontSize 41
     PlayAlertSound 7 150
