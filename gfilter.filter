@@ -1336,5 +1336,6 @@ Hide
 
 # Everything not hidden or shown
 Hide
+    ItemLevel >= 38
     SetBackgroundColor 0 0 0 0 # Hidden Background
 
