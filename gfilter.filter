@@ -225,7 +225,7 @@ Show
 # Currency Tier3
 Show
     Class "Currency"
-    BaseType "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble"
+    BaseType "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb"
     SetTextColor 170 158 130 # Currency Text
     SetBackgroundColor 35 30 20 250 # Currency Highlight Background
     SetBorderColor 170 158 130 # Currency Border
@@ -235,7 +235,7 @@ Show
 # Currency Tier4
 Show
     Class "Currency"
-    BaseType "Jeweller's Orb" "Orb of Chance" "Orb of Alteration" "Chromatic Orb" "Blessed Orb"
+    BaseType "Jeweller's Orb" "Orb of Chance" "Orb of Alteration" "Chromatic Orb"
     SetTextColor 170 158 130 # Currency Text
     SetBackgroundColor 0 0 0 250 # Default Background
     SetFontSize 37
