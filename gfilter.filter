@@ -291,6 +291,16 @@ Hide
 
 # Section: Gems
 
+# Gem Tier1
+Show
+    Class "Skill Gems"
+    BaseType "Item Quantity Support"
+    SetTextColor 0 0 0 # Currency Tier1 Text
+    SetBackgroundColor 26 162 155 254 # Gem Background
+    SetBorderColor 255 255 255 # Tier1 Border
+    SetFontSize 45
+    PlayAlertSound 8 300
+
 # Gem Quality 20
 Show
     Quality = 20
@@ -323,7 +333,7 @@ Show
 # Gem Tier1
 Show
     Class "Active Skill Gems" "Support Skill Gems"
-    BaseType "Empower" "Enlighten" "Portal" "Item Quantity"
+    BaseType "Empower" "Enlighten" "Portal"
     SetTextColor 26 162 155 # Gem Text
     SetBackgroundColor 0 25 15 254 # Gem Highlight Background
     SetBorderColor 26 162 155 # Gem Border
