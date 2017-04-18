@@ -241,7 +241,7 @@ Show
     SetFontSize 37
 
 # Currency Trash
-Show
+Hide
     Class "Currency"
     BaseType "Alteration Shard" "Transmutation Shard" "Alchemy Shard" "Scroll of Wisdom" "Portal Scroll" "Orb of Transmutation" "Blacksmith's Whetstone" "Armourer's Scrap" "Scroll Fragment" "Orb of Augmentation"
     SetTextColor 200 186 153 # Currency Text
