@@ -41,7 +41,7 @@ Show
 Show
     Class "Currency"
     BaseType "Silver Coin"
-    SetTextColor 170 158 130 # Currency Text
+    SetTextColor 200 186 153 # Currency Text
     SetBackgroundColor 18 0 25 254 # Prophecy Highlight Background
     SetFontSize 37
 
@@ -69,7 +69,7 @@ Show
 Show
     Class "Stackable Currency"
     BaseType "Splinter of"
-    SetTextColor 170 158 130 # Currency Text
+    SetTextColor 200 186 153 # Currency Text
     SetBackgroundColor 30 0 0 254 # Breach Highlight Background
     SetBorderColor 74 0 160 # Breach Border
     SetFontSize 37
@@ -207,7 +207,7 @@ Show
 Show
     BaseType "Albino Rhoa Feather" "Eternal Orb" "Exalted Orb" "Divine Orb" "Mirror of Kalandra"
     SetTextColor 0 0 0 # Currency Tier1 Text
-    SetBackgroundColor 200 186 153 254 # Currency Tier1 Background
+    SetBackgroundColor 200 186 153 254 # Currency Background
     SetBorderColor 255 255 255 # Tier1 Border
     SetFontSize 45
     PlayAlertSound 8 300
@@ -216,9 +216,9 @@ Show
 Show
     Class "Currency"
     BaseType "Chaos Orb" "Orb of Regret" "Regal Orb" "Gemcutter's Prism"
-    SetTextColor 170 158 130 # Currency Text
+    SetTextColor 200 186 153 # Currency Text
     SetBackgroundColor 35 30 20 254 # Currency Highlight Background
-    SetBorderColor 170 158 130 # Currency Border
+    SetBorderColor 200 186 153 # Currency Border
     SetFontSize 41
     PlayAlertSound 7 150
 
@@ -226,9 +226,9 @@ Show
 Show
     Class "Currency"
     BaseType "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Vaal Orb" "Orb of Scouring"
-    SetTextColor 170 158 130 # Currency Text
+    SetTextColor 200 186 153 # Currency Text
     SetBackgroundColor 35 30 20 254 # Currency Highlight Background
-    SetBorderColor 170 158 130 # Currency Border
+    SetBorderColor 200 186 153 # Currency Border
     SetFontSize 37
     PlayAlertSound 6 150
 
@@ -236,14 +236,21 @@ Show
 Show
     Class "Currency"
     BaseType "Jeweller's Orb" "Orb of Chance" "Orb of Alteration" "Chromatic Orb"
-    SetTextColor 170 158 130 # Currency Text
+    SetTextColor 200 186 153 # Currency Text
     SetBackgroundColor 0 0 0 254 # Default Background
     SetFontSize 37
+
+# Currency Trash
+Show
+    Class "Currency"
+    BaseType "Alteration Shard" "Transmutation Shard" "Alchemy Shard" "Scroll of Wisdom" "Portal Scroll" "Orb of Transmutation" "Blacksmith's Whetstone" "Armourer's Scrap" "Scroll Fragment" "Orb of Augmentation"
+    SetTextColor 200 186 153 # Currency Text
+    SetBackgroundColor 0 0 0 254 # Default Background
 
 # Currency
 Show
     Class "Currency"
-    SetTextColor 170 158 130 # Currency Text
+    SetTextColor 200 186 153 # Currency Text
     SetBackgroundColor 0 0 0 254 # Default Background
 
 # Section: Divination Cards
