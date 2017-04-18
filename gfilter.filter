@@ -251,7 +251,7 @@ Show
 # Divination Card Tier1
 Show
     Class "Divination Card"
-    BaseType "House of Mirrors" "The Doctor" "The Fiend" "Hunter's Reward" "The Dragon's Heart" "Mawr Blaidd" "The Last One Standing" "The Offering" "The Ethereal" "The Queen" "Abandoned Wealth" "The Brittle Emperor" "The Immortal" "The Artist" "Wealth and Power" "Pride Before the Fall" "The Enlightened" "The King's Heart" "Bowyer's Dream" "The Hunger" "The Celestial Justicar" "Spark and the Flame" "Polymath"
+    BaseType "House of Mirrors" "The Doctor" "The Immortal" "The Fiend" "The Offering" "The Last One Standing" "The Dragon's Heart" "Abandoned Wealth" "Mawr Blaidd" "The Celestial Justicar" "The Spark and the Flame" "The Ethereal" "Wealth and Power" "Pride Before the Fall" "The Polymath" "The King's Heart" "Hunter's Reward"
     SetTextColor 0 0 0 # Currency Tier1 Text
     SetBackgroundColor 14 186 255 254 # Divination Background
     SetBorderColor 255 255 255 # Tier1 Border
@@ -261,7 +261,7 @@ Show
 # Divination Card Tier2
 Show
     Class "Divination Card"
-    BaseType "Chaotic Disposition" "The Void" "Emperor of Purity" "The Cartographer" "The Dapper Prodigy" "The Vast" "The Dark Mage" "Last Hope" "The Valkyrie" "The Sephirot" "The Hoarder" "The Chains that Bind" "The Warlord" "The Aesthete" "Saint's Treasure" "The Thaumaturgist" "Heterochromia" "The Porcupine" "The Stormcaller" "The Soul"
+    BaseType "The Artist" "The Queen" "The Enlightened" "The Hunger" "The Thaumaturgist" "The Brittle Emperor" "Bowyer's Dream" "The Saint's Treasure" "The Sephirot" "Chaotic Disposition" "The Dapper Prodigy" "The Void" "The Porcupine" "The Wolf" "The Warlord" "The Aesthete" "The Valkyrie" "The Hoarder" "Last Hope" "The Chains that Bind" "Heterochromia" "The Formless Sea" "The Soul" "The Stormcaller"
     SetTextColor 14 186 255 # Divination Card Text
     SetBackgroundColor 15 20 20 250 # Divination Card Highlight Background
     SetBorderColor 14 186 255 # Divination Card Border
@@ -271,16 +271,16 @@ Show
 # Divination Card Tier3
 Show
     Class "Divination Card"
-    BaseType "The Road to Power" "The Arena Champion" "The Gladiator" "Glimmer of Hope" "The Tyrant" "The Union" "The Risk" "The Trial" "Scholar of the Seas" "Lucky Deck" "Humility" "The Penitent" "The Penitent" "The Surveyor" "Lysah's Respite" "The Inventor" "The Jester" "Vinia's Token" "Rats" "The Wrath" "Hope" "Treasure Hunter" "The Explorer" "The Body" "The Encroaching Darkness" "Jack in the Box" "The Traitor" "Valley of Steel Boxes" "Wolven King's Bite" "Wretched" "The Opulent" "Might is Right" "The Fletcher" "The Forsaken" "The Formless Sea" "The Demoness" "Time-Lost Relic" "The Wolf" "Earth Drinker" "Standoff" "Merciless Armament"
+    BaseType "Merciless Armament" "The Dark Mage" "A Mother's Parting Gift" "The Valley of Steel Boxes" "The Forsaken" "Lucky Deck" "The Risk" "Emperor of Purity" "The Cursed King" "The Poet" "Time-Lost Relic" "The Harvester" "The Wretched" "Earth Drinker" "Vinia's Token" "The Conduit" "The Cartographer" "The Spoiled Prince" "The Jester" "The Arena Champion" "The Siren" "The Explorer" "The Survivalist" "The Avenger" "Atziri's Arsenal" "The Pact" "The Wolven King's Bite" "Lucky Connections" "The Wrath" "The Opulent" "Dialla's Subjugation" "Gift of the Gemling Queen" "The Union" "The Demoness" "The Road to Power" "Lingering Remnants" "The King's Blade" "The Fletcher" "Blind Venture" "Grave Knowledge" "Humility" "The Summoner" "Mitts" "The Lion" "The Gladiator" "The Penitent" "The Tower" "Might is Right" "The Tyrant" "The Surveyor" "Lysah's Respite" "The Drunken Aristocrat" "The Body" "Jack in the Box" "The Traitor" "The Scarred Meadow" "Glimmer of Hope" "The Standoff" "The Visionary" "Audacity" "The Inoculated" "Scholar of the Seas" "The Throne" "The Doppelganger" "Lost Worlds" "Rain Tempter"
     SetTextColor 14 186 255 # Divination Card Text
     SetBackgroundColor 15 20 20 250 # Divination Card Highlight Background
     SetFontSize 37
 
 # Divination Card
-Show
+Hide
     Class "Divination Card"
     SetTextColor 14 186 255 # Divination Card Text
-    SetBackgroundColor 0 0 0 250 # Default Background
+    SetBackgroundColor 0 0 0 0 # Hidden Background
 
 # Section: Gems
 
