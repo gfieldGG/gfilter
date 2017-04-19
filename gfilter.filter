@@ -20,40 +20,25 @@ Show
     SetTextColor 254 213 0 # Perandus Text
     SetBackgroundColor 112 88 2 254 # Perandus Background
 
-# Pale Court Key
+# Talisman
 Show
-    BaseType "Eber's Key" "Inya's Key" "Volkuur's Key" "Yriel's Key"
-    SetTextColor 125 0 175 # Prophecy Text
-    SetBackgroundColor 18 0 25 254 # Prophecy Highlight Background
-    SetBorderColor 125 0 175 # Prophecy Border
-    SetFontSize 41
+    Class "Amulets"
+    BaseType "Talisman"
+    SetBackgroundColor 5 23 10 254 # Talisman Hightlight Background
+    SetBorderColor 50 230 100 # Talisman Border
+    SetFontSize 37
     PlayAlertSound 6 150
 
-# Prophecy
-Show
-    Class "Currency"
-    BaseType "Prophecy"
-    SetTextColor 125 0 175 # Prophecy Text
-    SetBackgroundColor 18 0 25 254 # Prophecy Highlight Background
-    SetFontSize 37
+# Section: Breach
 
-# Silver Coin
-Show
-    Class "Currency"
-    BaseType "Silver Coin"
-    SetTextColor 200 186 153 # Currency Text
-    SetBackgroundColor 18 0 25 254 # Prophecy Highlight Background
-    SetFontSize 37
-
-# Breach Blessing
+# Breach Splinter
 Show
     Class "Stackable Currency"
-    BaseType "Blessing of"
-    SetTextColor 255 255 255 # Normal Highlight Text
-    SetBackgroundColor 100 0 0 254 # Breach Background
+    BaseType "Splinter of"
+    SetTextColor 200 186 153 # Currency Text
+    SetBackgroundColor 30 0 0 254 # Breach Highlight Background
     SetBorderColor 74 0 160 # Breach Border
-    SetFontSize 45
-    PlayAlertSound 8 300
+    SetFontSize 37
 
 # Breachstone
 Show
@@ -65,22 +50,41 @@ Show
     SetFontSize 41
     PlayAlertSound 7 150
 
-# Breach Splinter
+# Breach Blessing
 Show
     Class "Stackable Currency"
-    BaseType "Splinter of"
-    SetTextColor 200 186 153 # Currency Text
-    SetBackgroundColor 30 0 0 254 # Breach Highlight Background
+    BaseType "Blessing of"
+    SetTextColor 255 255 255 # Normal Highlight Text
+    SetBackgroundColor 100 0 0 254 # Breach Background
     SetBorderColor 74 0 160 # Breach Border
+    SetFontSize 45
+    PlayAlertSound 8 300
+
+# Section: Prophecy
+
+# Silver Coin
+Show
+    Class "Currency"
+    BaseType "Silver Coin"
+    SetTextColor 200 186 153 # Currency Text
+    SetBackgroundColor 18 0 25 254 # Prophecy Highlight Background
     SetFontSize 37
 
-# Talisman
+# Prophecy
 Show
-    Class "Amulets"
-    BaseType "Talisman"
-    SetBackgroundColor 5 23 10 254 # Talisman Hightlight Background
-    SetBorderColor 50 230 100 # Talisman Border
+    Class "Currency"
+    BaseType "Prophecy"
+    SetTextColor 125 0 175 # Prophecy Text
+    SetBackgroundColor 18 0 25 254 # Prophecy Highlight Background
     SetFontSize 37
+
+# Pale Court Key
+Show
+    BaseType "Eber's Key" "Inya's Key" "Volkuur's Key" "Yriel's Key"
+    SetTextColor 125 0 175 # Prophecy Text
+    SetBackgroundColor 18 0 25 254 # Prophecy Highlight Background
+    SetBorderColor 125 0 175 # Prophecy Border
+    SetFontSize 41
     PlayAlertSound 6 150
 
 # Section: Essences
