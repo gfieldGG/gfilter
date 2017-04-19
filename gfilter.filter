@@ -63,7 +63,7 @@ Show
 # Section: Prophecy
 
 # Silver Coin
-Show
+Hide
     Class "Currency"
     BaseType "Silver Coin"
     SetTextColor 200 186 153 # Currency Text
@@ -312,7 +312,7 @@ Show
     SetTextColor 26 162 155 # Gem Text
     SetBackgroundColor 0 25 15 254 # Gem Highlight Background
     SetBorderColor 26 162 155 # Gem Border
-    SetFontSize 41
+    SetFontSize 45
     PlayAlertSound 7 150
 
 # Gem Quality High
@@ -322,7 +322,7 @@ Show
     SetTextColor 26 162 155 # Gem Text
     SetBackgroundColor 0 25 15 254 # Gem Highlight Background
     SetBorderColor 26 162 155 # Gem Border
-    SetFontSize 37
+    SetFontSize 41
     PlayAlertSound 6 150
 
 # Gem Quality
@@ -354,21 +354,21 @@ Show
     SetFontSize 37
 
 # Gem Support
-Show
+Hide
     Class "Support Skill Gems"
     SetTextColor 26 162 155 # Gem Text
     SetBackgroundColor 0 0 0 254 # Default Background
     SetFontSize 37
 
 # Gem Aura
-Show
+Hide
     Class "Skill Gems"
     BaseType "Wrath" "Anger" "Hatred" "Clarity" "Determination" "Grace" "Discipline" "Vitality" "Haste" "Purity of" "Herald of" "Arctic Armour" "Blood Rage"
     SetTextColor 26 162 155 # Gem Text
     SetFontSize 37
 
 # Gem
-Show
+Hide
     Class "Active Skill Gems"
     SetTextColor 26 162 155 # Gem Text
     SetBackgroundColor 0 0 0 254 # Default Background
@@ -922,8 +922,15 @@ Show
     SetFontSize 41
     PlayAlertSound 2 100
 
-# Rare
+# Rare Levelling
 Show
+    Rarity = Rare
+    ItemLevel < 67
+    SetTextColor 255 255 119 # Rare Text
+    SetBackgroundColor 0 0 0 254 # Default Background
+
+# Rare
+Hide
     Rarity = Rare
     SetTextColor 255 255 119 # Rare Text
     SetBackgroundColor 0 0 0 254 # Default Background
