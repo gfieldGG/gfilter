@@ -402,7 +402,7 @@ Show
     Class "Maps"
     Rarity = Normal
     SetTextColor 0 0 0 # Map Text
-    SetBackgroundColor 200 200 200 254 # Map Normal Background
+    SetBackgroundColor 200 200 200 254 # Normal Background
     SetBorderColor 100 100 100 # Map Normal Border
     SetFontSize 37
     PlayAlertSound 6 150
@@ -412,7 +412,7 @@ Show
     Class "Maps"
     Rarity = Magic
     SetTextColor 0 0 0 # Map Text
-    SetBackgroundColor 136 136 255 254 # Map Magic Background
+    SetBackgroundColor 136 136 255 254 # Magic Background
     SetBorderColor 68 68 128 250 # Map Magic Border
     SetFontSize 37
     PlayAlertSound 6 150
@@ -422,7 +422,7 @@ Show
     Class "Maps"
     Rarity = Rare
     SetTextColor 0 0 0 # Map Text
-    SetBackgroundColor 255 255 119 254 # Map Rare Background
+    SetBackgroundColor 255 255 119 254 # Rare Background
     SetBorderColor 128 128 60 250 # Map Rare Border
     SetFontSize 37
     PlayAlertSound 6 150
@@ -432,7 +432,7 @@ Show
     Class "Maps"
     Rarity = Unique
     SetTextColor 0 0 0 # Map Text
-    SetBackgroundColor 175 96 37 254 # Map Unique Background
+    SetBackgroundColor 175 96 37 254 # Unique Background
     SetBorderColor 88 48 19 250 # Map Unique Border
     SetFontSize 37
     PlayAlertSound 7 150
@@ -443,9 +443,9 @@ Show
 Show
     LinkedSockets = 6
     Rarity = Normal
-    SetTextColor 200 200 200 # Normal Text
-    SetBackgroundColor 30 30 30 254 # Normal Highlight Background
-    SetBorderColor 200 200 200 # Normal Border
+    SetTextColor 0 0 0 # Currency Tier1 Text
+    SetBackgroundColor 200 200 200 254 # Normal Background
+    SetBorderColor 255 255 255 # Tier1 Border
     SetFontSize 45
     PlayAlertSound 8 300
 
@@ -453,9 +453,9 @@ Show
 Show
     LinkedSockets = 6
     Rarity = Magic
-    SetTextColor 136 136 255 # Magic Text
-    SetBackgroundColor 0 15 30 254 # Magic Highlight Background
-    SetBorderColor 136 136 255 # Magic Border
+    SetTextColor 255 255 255 # Normal Highlight Text
+    SetBackgroundColor 136 136 255 254 # Magic Background
+    SetBorderColor 255 255 255 # Tier1 Border
     SetFontSize 45
     PlayAlertSound 8 300
 
@@ -463,9 +463,9 @@ Show
 Show
     LinkedSockets = 6
     Rarity = Rare
-    SetTextColor 255 255 119 # Rare Text
-    SetBackgroundColor 23 23 0 254 # Rare Highlight Background
-    SetBorderColor 255 255 119 # Rare Border
+    SetTextColor 0 0 0 # Currency Tier1 Text
+    SetBackgroundColor 255 255 119 254 # Rare Background
+    SetBorderColor 255 255 255 # Tier1 Border
     SetFontSize 45
     PlayAlertSound 8 300
 
@@ -483,9 +483,9 @@ Show
 Show
     LinkedSockets = 6
     Rarity = Unique
-    SetTextColor 175 96 37 # Unique Text
-    SetBackgroundColor 30 15 0 254 # Unique Highlight Background
-    SetBorderColor 175 96 37 # Unique Border
+    SetTextColor 255 255 255 # Normal Highlight Text
+    SetBackgroundColor 175 96 37 254 # Unique Background
+    SetBorderColor 255 255 255 # Tier1 Border
     SetFontSize 45
     PlayAlertSound 8 300
 
@@ -497,6 +497,7 @@ Show
     Rarity = Normal
     SetTextColor 255 255 255 # Normal Highlight Text
     SetBackgroundColor 30 30 30 254 # Normal Highlight Background
+    SetBorderColor 200 200 200 # Normal Border
     SetFontSize 41
     PlayAlertSound 7 150
 
@@ -506,6 +507,7 @@ Show
     Rarity = Magic
     SetTextColor 136 136 255 # Magic Text
     SetBackgroundColor 0 15 30 254 # Magic Highlight Background
+    SetBorderColor 136 136 255 # Magic Border
     SetFontSize 41
     PlayAlertSound 7 150
 
@@ -515,6 +517,7 @@ Show
     Rarity = Rare
     SetTextColor 255 255 119 # Rare Text
     SetBackgroundColor 23 23 0 254 # Rare Highlight Background
+    SetBorderColor 255 255 119 # Rare Border
     SetFontSize 41
     PlayAlertSound 7 150
 
@@ -524,6 +527,7 @@ Show
     Rarity = Unique
     SetTextColor 175 96 37 # Unique Text
     SetBackgroundColor 30 15 0 254 # Unique Highlight Background
+    SetBorderColor 175 96 37 # Unique Border
     SetFontSize 41
     PlayAlertSound 7 150
 
@@ -685,9 +689,9 @@ Show
     BaseType "Steel Ring" "Opal Ring" "Crystal Belt"
     Rarity = Rare
     ItemLevel >= 84
-    SetTextColor 255 255 119 # Rare Text
-    SetBackgroundColor 23 23 0 254 # Rare Highlight Background
-    SetBorderColor 255 255 119 # Rare Border
+    SetTextColor 0 0 0 # Currency Tier1 Text
+    SetBackgroundColor 255 255 119 254 # Rare Background
+    SetBorderColor 255 255 255 # Tier1 Border
     SetFontSize 45
     PlayAlertSound 8 300
 
@@ -697,7 +701,7 @@ Show
     Rarity = Rare
     SetTextColor 255 255 119 # Rare Text
     SetBackgroundColor 23 23 0 254 # Rare Highlight Background
-    SetBorderColor 255 255 119 # Rare Border
+    SetBorderColor 255 255 255 # Tier1 Border
     SetFontSize 41
     PlayAlertSound 8 300
 
@@ -741,7 +745,7 @@ Show
     BaseType "Stibnite Flask" "Ruby Flask" "Topaz Flask" "Sapphire Flask" "Silver Flask" "Void Axe" "Prophecy Wand" "Jewelled Foil" "Royal Axe" "Cutlass" "Sorcerer Boots" "Occultist's Vestment" "Crusader Boots" "Rawhide Boots" "Ezomyte Tower Shield" "Deicide Mask" "Glorious Plate" "Ezomyte Burgonet" "Assassin's Garb" "Greatwolf Talisman"
     Rarity = Unique
     SetTextColor 255 255 255 # Normal Highlight Text
-    SetBackgroundColor 175 96 37 254 # Map Unique Background
+    SetBackgroundColor 175 96 37 254 # Unique Background
     SetBorderColor 255 255 255 # Tier1 Border
     SetFontSize 45
     PlayAlertSound 8 300
