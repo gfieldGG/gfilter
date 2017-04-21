@@ -331,7 +331,6 @@ Show
     Class "Active Skill Gems" "Support Skill Gems"
     SetTextColor 26 162 155 # Gem Text
     SetBackgroundColor 0 25 15 254 # Gem Highlight Background
-    SetBorderColor 26 162 155 # Gem Border
     SetFontSize 37
 
 # Gem Tier1
