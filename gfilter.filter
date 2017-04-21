@@ -63,7 +63,7 @@ Show
 # Section: Prophecy
 
 # Silver Coin
-Hide
+Show
     Class "Currency"
     BaseType "Silver Coin"
     SetTextColor 200 186 153 # Currency Text
@@ -245,7 +245,7 @@ Show
     SetFontSize 37
 
 # Currency Trash
-Hide
+Show
     Class "Currency"
     BaseType "Alteration Shard" "Transmutation Shard" "Alchemy Shard" "Scroll of Wisdom" "Portal Scroll" "Orb of Transmutation" "Blacksmith's Whetstone" "Armourer's Scrap" "Scroll Fragment" "Orb of Augmentation"
     SetTextColor 200 186 153 # Currency Text
@@ -282,7 +282,7 @@ Show
 # Divination Card Tier3
 Show
     Class "Divination Card"
-    BaseType "Merciless Armament" "The Dark Mage" "A Mother's Parting Gift" "The Valley of Steel Boxes" "The Forsaken" "Lucky Deck" "The Risk" "Emperor of Purity" "The Cursed King" "The Poet" "Time-Lost Relic" "The Harvester" "The Wretched" "Earth Drinker" "Vinia's Token" "The Conduit" "The Cartographer" "The Spoiled Prince" "The Jester" "The Arena Champion" "The Siren" "The Explorer" "The Survivalist" "The Avenger" "Atziri's Arsenal" "The Pact" "The Wolven King's Bite" "Lucky Connections" "The Wrath" "The Opulent" "Dialla's Subjugation" "Gift of the Gemling Queen" "The Union" "The Demoness" "The Road to Power" "Lingering Remnants" "The King's Blade" "The Fletcher" "Blind Venture" "Grave Knowledge" "Humility" "The Summoner" "Mitts" "The Lion" "The Gladiator" "The Penitent" "The Tower" "Might is Right" "The Tyrant" "The Surveyor" "Lysah's Respite" "The Drunken Aristocrat" "The Body" "Jack in the Box" "The Traitor" "The Scarred Meadow" "Glimmer of Hope" "The Standoff" "The Visionary" "Audacity" "The Inoculated" "Scholar of the Seas" "The Throne" "The Doppelganger" "Lost Worlds" "Rain Tempter"
+    BaseType "Merciless Armament" "The Dark Mage" "A Mother's Parting Gift" "The Valley of Steel Boxes" "The Forsaken" "Lucky Deck" "The Risk" "Emperor of Purity" "The Cursed King" "The Poet" "Time-Lost Relic" "The Harvester" "The Wretched" "Earth Drinker" "Vinia's Token" "The Conduit" "The Cartographer" "The Spoiled Prince" "The Jester" "The Arena Champion" "The Siren" "The Explorer" "The Survivalist" "The Avenger" "Atziri's Arsenal" "The Pact" "The Wolven King's Bite" "Lucky Connections" "The Wrath" "The Opulent" "Dialla's Subjugation" "Gift of the Gemling Queen" "The Union" "The Demoness" "The Road to Power" "Lingering Remnants" "The King's Blade" "The Fletcher" "Blind Venture" "Grave Knowledge" "Humility" "The Summoner" "Mitts" "The Lion" "The Gladiator" "The Penitent" "The Tower" "Might is Right" "The Tyrant" "The Surveyor" "Lysah's Respite" "The Drunken Aristocrat" "The Body" "Jack in the Box" "The Traitor" "The Scarred Meadow" "Glimmer of Hope" "The Standoff" "The Visionary" "Audacity" "The Inoculated" "Scholar of the Seas" "The Throne" "The Doppelganger" "Lost Worlds" "Rain Tempter" "The Gambler"
     SetTextColor 14 186 255 # Divination Card Text
     SetBackgroundColor 15 20 20 254 # Divination Card Highlight Background
     SetFontSize 37
@@ -456,7 +456,7 @@ Show
 Show
     LinkedSockets = 6
     Rarity = Magic
-    SetTextColor 255 255 255 # Normal Highlight Text
+    SetTextColor 0 0 0 # Currency Tier1 Text
     SetBackgroundColor 136 136 255 254 # Magic Background
     SetBorderColor 255 255 255 # Tier1 Border
     SetFontSize 45
@@ -486,7 +486,7 @@ Show
 Show
     LinkedSockets = 6
     Rarity = Unique
-    SetTextColor 255 255 255 # Normal Highlight Text
+    SetTextColor 0 0 0 # Currency Tier1 Text
     SetBackgroundColor 175 96 37 254 # Unique Background
     SetBorderColor 255 255 255 # Tier1 Border
     SetFontSize 45
@@ -747,7 +747,7 @@ Show
 Show
     BaseType "Stibnite Flask" "Ruby Flask" "Topaz Flask" "Sapphire Flask" "Silver Flask" "Void Axe" "Prophecy Wand" "Jewelled Foil" "Royal Axe" "Cutlass" "Sorcerer Boots" "Occultist's Vestment" "Crusader Boots" "Rawhide Boots" "Ezomyte Tower Shield" "Deicide Mask" "Glorious Plate" "Ezomyte Burgonet" "Assassin's Garb" "Greatwolf Talisman"
     Rarity = Unique
-    SetTextColor 255 255 255 # Normal Highlight Text
+    SetTextColor 0 0 0 # Currency Tier1 Text
     SetBackgroundColor 175 96 37 254 # Unique Background
     SetBorderColor 255 255 255 # Tier1 Border
     SetFontSize 45
@@ -787,6 +787,7 @@ Show
     Class "Jewel"
     Rarity = Normal
     SetTextColor 200 200 200 # Normal Text
+    SetBackgroundColor 0 0 0 254 # Default Background
     SetFontSize 37
 
 # Jewel Magic
@@ -795,6 +796,7 @@ Show
     Rarity = Magic
     ItemLevel < 67
     SetTextColor 136 136 255 # Magic Text
+    SetBackgroundColor 0 0 0 254 # Default Background
     SetFontSize 37
 
 # Jewel Rare
@@ -802,6 +804,7 @@ Show
     Class "Jewel"
     Rarity = Rare
     SetTextColor 255 255 119 # Rare Text
+    SetBackgroundColor 0 0 0 254 # Default Background
     SetFontSize 37
 
 # Section: Regal Recipe
