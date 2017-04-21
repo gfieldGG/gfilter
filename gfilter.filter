@@ -409,7 +409,7 @@ Show
     SetBackgroundColor 200 200 200 254 # Normal Background
     SetBorderColor 100 100 100 # Map Normal Border
     SetFontSize 37
-    PlayAlertSound 6 150
+    PlayAlertSound 4 150
 
 # Map Magic
 Show
@@ -419,7 +419,7 @@ Show
     SetBackgroundColor 136 136 255 254 # Magic Background
     SetBorderColor 68 68 128 250 # Map Magic Border
     SetFontSize 37
-    PlayAlertSound 6 150
+    PlayAlertSound 4 150
 
 # Map Rare
 Show
@@ -429,7 +429,7 @@ Show
     SetBackgroundColor 255 255 119 254 # Rare Background
     SetBorderColor 128 128 60 250 # Map Rare Border
     SetFontSize 37
-    PlayAlertSound 6 150
+    PlayAlertSound 4 150
 
 # Map Unique
 Show
