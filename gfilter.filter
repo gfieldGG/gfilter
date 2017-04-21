@@ -60,6 +60,14 @@ Show
     SetFontSize 45
     PlayAlertSound 8 300
 
+# Breach Ring
+Show
+    Class "Rings"
+    BaseType "Breach Ring"
+    SetTextColor 255 255 119 # Rare Text
+    SetBackgroundColor 30 0 0 254 # Breach Highlight Background
+    SetBorderColor 74 0 160 # Breach Border
+
 # Section: Prophecy
 
 # Silver Coin
@@ -126,21 +134,29 @@ Show
     SetFontSize 45
     PlayAlertSound 8 300
 
+# Leaguestone Trash
+Show
+    Class "Leaguestone"
+    BaseType "Warbands" "Prophecy" "Ambush" "Anarchy" "Essence" "Talisman" "Torment"
+    Rarity = Normal
+    SetTextColor 255 200 0 # Legacy Text
+    SetBackgroundColor 30 24 0 254 # Legacy Highlight Background
+
 # Leveling Leaguestone Magic Tier1
 Show
     Class "Leaguestone"
-    BaseType "Perandus" "Breach" "Beyond"
+    BaseType "Perandus" "Breach" "Beyond" "Domination"
     Rarity >= Magic
     ItemLevel < 68
     SetTextColor 255 200 0 # Legacy Text
     SetBackgroundColor 30 24 0 254 # Legacy Highlight Background
-    SetFontSize 41
+    SetFontSize 37
     PlayAlertSound 6 150
 
 # Leaguestone Magic Tier1
 Show
     Class "Leaguestone"
-    BaseType "Perandus" "Breach" "Beyond"
+    BaseType "Perandus" "Breach" "Beyond" "Onslaught" "Domination"
     Rarity >= Magic
     SetTextColor 255 200 0 # Legacy Text
     SetBackgroundColor 30 24 0 254 # Legacy Highlight Background
@@ -160,7 +176,7 @@ Show
 # Leaguestone Tier1
 Show
     Class "Leaguestone"
-    BaseType "Perandus" "Breach" "Beyond"
+    BaseType "Perandus" "Breach" "Beyond" "Onslaught" "Domination"
     ItemLevel >= 68
     SetTextColor 255 200 0 # Legacy Text
     SetBackgroundColor 30 24 0 254 # Legacy Highlight Background
@@ -245,9 +261,9 @@ Show
     SetFontSize 37
 
 # Currency Trash
-Show
+Hide
     Class "Currency"
-    BaseType "Alteration Shard" "Transmutation Shard" "Alchemy Shard" "Scroll of Wisdom" "Portal Scroll" "Orb of Transmutation" "Blacksmith's Whetstone" "Armourer's Scrap" "Scroll Fragment" "Orb of Augmentation"
+    BaseType "Alteration Shard" "Transmutation Shard" "Alchemy Shard" "Scroll of Wisdom" "Portal Scroll" "Orb of Transmutation" "Scroll Fragment" "Orb of Augmentation"
     SetTextColor 200 186 153 # Currency Text
     SetBackgroundColor 0 0 0 254 # Default Background
 
@@ -678,7 +694,7 @@ Show
 
 # Chance Base
 Show
-    BaseType "Leather Belt" "Sorcerer Boots" "Occultist's Vestment"
+    BaseType "Leather Belt" "Sorcerer Boots"
     Rarity = Normal
     SetTextColor 200 200 200 # Normal Text
     SetBackgroundColor 0 0 0 254 # Default Background
@@ -833,7 +849,7 @@ Show
 
 # Chaos Recipe Jewelry
 Show
-    Class "Ring" "Belt" "Amulet"
+    Class "Ring" "Amulet"
     Rarity = Rare
     ItemLevel >= 60
     SetTextColor 255 255 119 # Rare Text
@@ -841,6 +857,15 @@ Show
     SetBorderColor 254 170 0 127 # Chaos Recipe Border
     SetFontSize 37
     PlayAlertSound 6 150
+
+# Chaos Recipe Belt
+Show
+    Class "Belt"
+    Rarity = Rare
+    ItemLevel >= 60
+    SetTextColor 255 255 119 # Rare Text
+    SetBackgroundColor 23 23 0 254 # Rare Highlight Background
+    SetBorderColor 254 170 0 127 # Chaos Recipe Border
 
 # Chaos Recipe
 Show
