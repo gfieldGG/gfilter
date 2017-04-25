@@ -694,7 +694,7 @@ Show
 
 # Chance Base
 Show
-    BaseType "Leather Belt" "Sorcerer Boots"
+    BaseType "Leather Belt"
     Rarity = Normal
     SetTextColor 200 200 200 # Normal Text
     SetBackgroundColor 0 0 0 254 # Default Background
@@ -781,7 +781,7 @@ Show
 
 # Unique Tier?
 Show
-    BaseType "Two-Stone Ring" "Ebony Tower Shield" "Onyx Amulet" "Goathide Boots"
+    BaseType "Two-Stone Ring" "Ebony Tower Shield" "Onyx Amulet" "Goathide Boots" "Moonstone Ring"
     Rarity = Unique
     SetTextColor 175 96 37 # Unique Text
     SetBackgroundColor 30 15 0 254 # Unique Highlight Background
@@ -834,7 +834,6 @@ Show
     SetBackgroundColor 23 23 0 254 # Rare Highlight Background
     SetBorderColor 136 136 255 127 # Regal Recipe Border
     SetFontSize 37
-    PlayAlertSound 6 150
 
 # Regal Recipe
 Show
@@ -856,7 +855,6 @@ Show
     SetBackgroundColor 23 23 0 254 # Rare Highlight Background
     SetBorderColor 254 170 0 127 # Chaos Recipe Border
     SetFontSize 37
-    PlayAlertSound 6 150
 
 # Chaos Recipe Belt
 Show
@@ -1112,7 +1110,7 @@ Show
     SetBackgroundColor 0 0 0 254 # Default Background
     SetFontSize 37
 
-Show
+Hide
     Class "Life Flask" "Mana Flask" "Hybrid Flask"
     Rarity = Magic
     ItemLevel > 68
