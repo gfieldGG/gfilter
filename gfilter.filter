@@ -199,7 +199,7 @@ Show
     SetBackgroundColor 30 30 30 254 # Normal Highlight Background
     SetBorderColor 200 200 200 # Normal Border
     SetFontSize 37
-    PlayAlertSound 6 150
+    PlayAlertSound 7 150
 
 # Journeyman Cartographer
 Show
@@ -781,7 +781,7 @@ Show
 
 # Unique Tier?
 Show
-    BaseType "Two-Stone Ring" "Ebony Tower Shield" "Onyx Amulet" "Goathide Boots" "Moonstone Ring"
+    BaseType "Two-Stone Ring" "Ebony Tower Shield" "Onyx Amulet" "Goathide Boots" "Moonstone Ring" "Gold Amulet"
     Rarity = Unique
     SetTextColor 175 96 37 # Unique Text
     SetBackgroundColor 30 15 0 254 # Unique Highlight Background
