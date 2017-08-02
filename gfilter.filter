@@ -223,24 +223,21 @@ Show
 
 # Section: Currency
 
-# Currency Tier1
-Show
-    BaseType "Albino Rhoa Feather" "Eternal Orb" "Exalted Orb" "Divine Orb" "Mirror of Kalandra"
-    SetTextColor 0 0 0 # Currency Tier1 Text
-    SetBackgroundColor 200 186 153 254 # Currency Background
-    SetBorderColor 255 255 255 # Tier1 Border
-    SetFontSize 45
-    PlayAlertSound 8 300
-
-# Currency Tier2
+# Currency Trash
 Show
     Class "Currency"
-    BaseType "Chaos Orb" "Orb of Regret" "Regal Orb" "Gemcutter's Prism"
+    BaseType "Alteration Shard" "Transmutation Shard" "Alchemy Shard" "Scroll of Wisdom" "Portal Scroll" "Orb of Transmutation" "Scroll Fragment" "Orb of Augmentation"
     SetTextColor 200 186 153 # Currency Text
-    SetBackgroundColor 35 30 20 254 # Currency Highlight Background
-    SetBorderColor 200 186 153 # Currency Border
-    SetFontSize 41
-    PlayAlertSound 7 150
+    SetBackgroundColor 0 0 0 254 # Default Background
+    PlayAlertSound 12 150
+
+# Currency Tier4
+Show
+    Class "Currency"
+    BaseType "Jeweller's Orb" "Orb of Chance" "Orb of Alteration" "Chromatic Orb"
+    SetTextColor 200 186 153 # Currency Text
+    SetBackgroundColor 0 0 0 254 # Default Background
+    SetFontSize 37
 
 # Currency Tier3
 Show
@@ -252,20 +249,24 @@ Show
     SetFontSize 37
     PlayAlertSound 6 150
 
-# Currency Tier4
+# Currency Tier2
 Show
     Class "Currency"
-    BaseType "Jeweller's Orb" "Orb of Chance" "Orb of Alteration" "Chromatic Orb"
+    BaseType "Chaos Orb" "Orb of Regret" "Regal Orb" "Gemcutter's Prism"
     SetTextColor 200 186 153 # Currency Text
-    SetBackgroundColor 0 0 0 254 # Default Background
-    SetFontSize 37
+    SetBackgroundColor 35 30 20 254 # Currency Highlight Background
+    SetBorderColor 200 186 153 # Currency Border
+    SetFontSize 41
+    PlayAlertSound 7 150
 
-# Currency Trash
+# Currency Tier1
 Show
-    Class "Currency"
-    BaseType "Alteration Shard" "Transmutation Shard" "Alchemy Shard" "Scroll of Wisdom" "Portal Scroll" "Orb of Transmutation" "Scroll Fragment" "Orb of Augmentation"
-    SetTextColor 200 186 153 # Currency Text
-    SetBackgroundColor 0 0 0 254 # Default Background
+    BaseType "Albino Rhoa Feather" "Eternal Orb" "Exalted Orb" "Divine Orb" "Mirror of Kalandra"
+    SetTextColor 0 0 0 # Currency Tier1 Text
+    SetBackgroundColor 200 186 153 254 # Currency Background
+    SetBorderColor 255 255 255 # Tier1 Border
+    SetFontSize 45
+    PlayAlertSound 8 300
 
 # Currency
 Show
