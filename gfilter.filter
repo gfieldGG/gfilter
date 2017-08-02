@@ -1216,7 +1216,7 @@ Show
 # MS Boots
 Show
     Class "Boots"
-    Rarity <= Magic
+    Rarity >= Magic
     ItemLevel <= 28
     SetBackgroundColor 0 0 0 254 # Default Background
     SetBorderColor 192 255 203 # Levelling Border
