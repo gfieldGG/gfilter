@@ -990,22 +990,110 @@ Show
     SetBackgroundColor 30 30 30 254 # Normal Highlight Background
     SetFontSize 37
 
-# Section: Flask Upgrade Magic
+# Section: Levelling
 
-Hide
-    Class "Life Flask" "Mana Flask" "Hybrid Flask"
-    Rarity = Magic
-    ItemLevel >= 67
-    SetTextColor 136 136 255 # Magic Text
-    SetBackgroundColor 0 0 0 254 # Default Background
+# Section: Flask Upgrade Normal
 
 Show
-    Class "Utility"
-    Rarity = Magic
-    ItemLevel <= 15
-    SetTextColor 136 136 255 # Magic Text
+    Class "Flask"
+    BaseType "Medium"
+    Rarity = Normal
+    ItemLevel <= 6
+    SetTextColor 200 200 200 # Normal Text
     SetBackgroundColor 0 0 0 254 # Default Background
     SetFontSize 37
+
+Show
+    Class "Flask"
+    BaseType "Large"
+    Rarity = Normal
+    ItemLevel <= 12
+    SetTextColor 200 200 200 # Normal Text
+    SetBackgroundColor 0 0 0 254 # Default Background
+    SetFontSize 37
+
+Show
+    Class "Flask"
+    BaseType "Greater"
+    Rarity = Normal
+    ItemLevel <= 18
+    SetTextColor 200 200 200 # Normal Text
+    SetBackgroundColor 0 0 0 254 # Default Background
+    SetFontSize 37
+
+Show
+    Class "Flask"
+    BaseType "Grand"
+    Rarity = Normal
+    ItemLevel <= 24
+    SetTextColor 200 200 200 # Normal Text
+    SetBackgroundColor 0 0 0 254 # Default Background
+    SetFontSize 37
+
+Show
+    Class "Flask"
+    BaseType "Giant"
+    Rarity = Normal
+    ItemLevel <= 30
+    SetTextColor 200 200 200 # Normal Text
+    SetBackgroundColor 0 0 0 254 # Default Background
+    SetFontSize 37
+
+Show
+    Class "Flask"
+    BaseType "Colossal"
+    Rarity = Normal
+    ItemLevel <= 36
+    SetTextColor 200 200 200 # Normal Text
+    SetBackgroundColor 0 0 0 254 # Default Background
+    SetFontSize 37
+
+Show
+    Class "Flask"
+    BaseType "Sacred"
+    Rarity = Normal
+    ItemLevel <= 42
+    SetTextColor 200 200 200 # Normal Text
+    SetBackgroundColor 0 0 0 254 # Default Background
+    SetFontSize 37
+
+Show
+    Class "Flask"
+    BaseType "Hallowed"
+    Rarity = Normal
+    ItemLevel <= 50
+    SetTextColor 200 200 200 # Normal Text
+    SetBackgroundColor 0 0 0 254 # Default Background
+    SetFontSize 37
+
+Show
+    Class "Flask"
+    BaseType "Sanctified"
+    Rarity = Normal
+    ItemLevel <= 51
+    SetTextColor 200 200 200 # Normal Text
+    SetBackgroundColor 0 0 0 254 # Default Background
+    SetFontSize 37
+
+Show
+    Class "Flask"
+    BaseType "Divine"
+    Rarity = Normal
+    ItemLevel < 67
+    SetTextColor 200 200 200 # Normal Text
+    SetBackgroundColor 0 0 0 254 # Default Background
+    SetFontSize 37
+
+Show
+    Class "Flask"
+    BaseType "Eternal"
+    Rarity = Normal
+    ItemLevel < 67
+    SetTextColor 200 200 200 # Normal Text
+    SetBackgroundColor 0 0 0 254 # Default Background
+    SetFontSize 37
+
+# Section: Flask Upgrade Magic
 
 Show
     Class "Flask"
@@ -1106,283 +1194,82 @@ Show
     SetBackgroundColor 0 0 0 254 # Default Background
     SetFontSize 37
 
+# Section: Early Levelling
+
+# Flask Utility
+Show
+    Class "Utility Flasks"
+    BaseType "Bismuth Flask" "Quicksilver Flask"
+    ItemLevel <= 28
+    SetBackgroundColor 0 0 0 254 # Default Background
+    SetBorderColor 192 255 203 # Levelling Border
+    SetFontSize 41
+
+# Piety Ring
+Show
+    BaseType "Sapphire Ring"
+    ItemLevel <= 18
+    SetBackgroundColor 0 0 0 254 # Default Background
+    SetBorderColor 192 255 203 # Levelling Border
+    SetFontSize 41
+
+# MS Boots
+Show
+    Class "Boots"
+    Rarity <= Magic
+    ItemLevel <= 28
+    SetBackgroundColor 0 0 0 254 # Default Background
+    SetBorderColor 192 255 203 # Levelling Border
+    SetFontSize 41
+
+# 3 Links
+Show
+    LinkedSockets >= 3
+    Class "Helm" "Body" "Boots" "Gloves"
+    ItemLevel < 6
+    SetBackgroundColor 0 0 0 254 # Default Background
+    SetFontSize 37
+
+# 4 Links
+Show
+    LinkedSockets = 4
+    Class "Helm" "Body" "Boots" "Gloves"
+    ItemLevel < 38
+    SetBackgroundColor 0 0 0 254 # Default Background
+    SetFontSize 37
+
 # Section: Utility Flasks
 
 Show
     Class "Utility Flasks"
-    Rarity = Normal
-    ItemLevel >= 18
-    SetTextColor 200 200 200 # Normal Text
     SetBackgroundColor 0 0 0 254 # Default Background
     SetFontSize 37
-
-Show
-    Class "Utility Flasks"
-    Rarity = Magic
-    ItemLevel >= 18
-    SetTextColor 136 136 255 # Magic Text
-    SetBackgroundColor 0 0 0 254 # Default Background
-    SetFontSize 37
-
-#Disabled Block Start
-#Show
-#    Class "Utility"
-#    Rarity = Normal
-#    ItemLevel <= 15
-#    SetTextColor 200 200 200 # Normal Text
-#    SetBackgroundColor 0 0 0 254 # Default Background
-#Disabled Block End
-
-Show
-    Class "Utility Flasks"
-    SetBackgroundColor 0 0 0 254 # Default Background
-
-# Section: Obsolete Flasks
-
-#Disabled Block Start
-#Hide
-#    DropLevel <= 6
-#    Class "Life Flask" "Mana Flask" "Hybrid Flask"
-#    ItemLevel > 12
-#    SetBackgroundColor 0 0 0 0 # Hidden Background
-#Disabled Block End
-
-#Disabled Block Start
-#Hide
-#    DropLevel <= 12
-#    Class "Life Flask" "Mana Flask" "Hybrid Flask"
-#    ItemLevel > 18
-#    SetBackgroundColor 0 0 0 0 # Hidden Background
-#Disabled Block End
-
-#Disabled Block Start
-#Hide
-#    DropLevel <= 18
-#    Class "Life Flask" "Mana Flask" "Hybrid Flask"
-#    ItemLevel > 24
-#    SetBackgroundColor 0 0 0 0 # Hidden Background
-#Disabled Block End
-
-#Disabled Block Start
-#Hide
-#    DropLevel <= 24
-#    Class "Life Flask" "Mana Flask" "Hybrid Flask"
-#    ItemLevel > 30
-#    SetBackgroundColor 0 0 0 0 # Hidden Background
-#Disabled Block End
-
-#Disabled Block Start
-#Hide
-#    DropLevel <= 40
-#    Class "Life Flask" "Mana Flask" "Hybrid Flask"
-#    ItemLevel > 45
-#    SetBackgroundColor 0 0 0 0 # Hidden Background
-#Disabled Block End
-
-#Disabled Block Start
-#Hide
-#    DropLevel < 45
-#    Class "Life Flask" "Mana Flask" "Hybrid Flask"
-#    ItemLevel > 50
-#    SetBackgroundColor 0 0 0 0 # Hidden Background
-#Disabled Block End
-
-Hide
-    DropLevel < 60
-    Class "Life Flask" "Mana Flask" "Hybrid Flask"
-    ItemLevel > 65
-    SetBackgroundColor 0 0 0 0 # Hidden Background
-
-# Section: Obsolete Gear Exception Early Game 3L
-
-Show
-    LinkedSockets >= 3
-    Class "Helm" "Boot" "Glove" "Body"
-    Rarity = Normal
-    ItemLevel < 6
-
-Show
-    LinkedSockets >= 3
-    Class "Helm" "Boot" "Glove" "Body"
-    Rarity = Magic
-    ItemLevel < 6
-
-# Section: Obsolete Exceptions Levelling 4L
-
-#Disabled Block Start
-#Show
-#    LinkedSockets = 4
-#    DropLevel > 15
-#    ItemLevel < 38
-#Disabled Block End
-
-#Disabled Block Start
-#Show
-#    LinkedSockets = 4
-#    DropLevel > 27
-#    ItemLevel < 50
-#Disabled Block End
-
-#Disabled Block Start
-#Show
-#    LinkedSockets = 4
-#    DropLevel > 40
-#    ItemLevel < 65
-#Disabled Block End
-
-Show
-    LinkedSockets = 4
-    Class "Helm" "Boot" "Body" "Glove"
-    ItemLevel < 30
 
 # Section: Levelling Jewelry
 
 Show
     Class "Ring" "Amulet" "Belt"
     Rarity = Normal
-    ItemLevel <= 16
+    ItemLevel <= 18
     SetBackgroundColor 0 0 0 254 # Default Background
     SetFontSize 37
 
 Show
     Class "Ring" "Amulet" "Belt"
     Rarity = Magic
-    ItemLevel <= 16
+    ItemLevel <= 18
     SetBackgroundColor 0 0 0 254 # Default Background
     SetFontSize 37
 
 Show
     Class "Ring" "Amulet" "Belt"
     Rarity = Magic
-    ItemLevel < 35
-
-#Disabled Block Start
-#Show
-#    Class "Ring" "Amulet" "Belt"
-#    Rarity = Normal
-#    ItemLevel > 68
-#Disabled Block End
-
-#Disabled Block Start
-#Show
-#    Class "Ring" "Amulet" "Belt"
-#    Rarity = Magic
-#    ItemLevel > 68
-#Disabled Block End
-
-#Disabled Block Start
-#Show
-#    Class "Quiver"
-#    Rarity = Normal
-#    ItemLevel < 16
-#Disabled Block End
-
-#Disabled Block Start
-#Show
-#    Class "Quiver"
-#    Rarity = Magic
-#    ItemLevel < 16
-#Disabled Block End
-
-# Section: Obsolete Gear
-
-Hide
-    Sockets < 3
-    DropLevel <= 5
-    ItemLevel >= 10
-    SetBackgroundColor 0 0 0 0 # Hidden Background
-
-Hide
-    Sockets < 3
-    DropLevel <= 10
-    ItemLevel >= 15
-    SetBackgroundColor 0 0 0 0 # Hidden Background
-
-Hide
-    DropLevel <= 13
-    ItemLevel >= 20
-    SetBackgroundColor 0 0 0 0 # Hidden Background
-
-Hide
-    DropLevel <= 20
-    ItemLevel >= 25
-    SetBackgroundColor 0 0 0 0 # Hidden Background
-
-Hide
-    DropLevel <= 25
-    ItemLevel >= 30
-    SetBackgroundColor 0 0 0 0 # Hidden Background
-
-Hide
-    DropLevel <= 30
-    ItemLevel >= 35
-    SetBackgroundColor 0 0 0 0 # Hidden Background
-
-Hide
-    DropLevel <= 35
-    ItemLevel >= 40
-    SetBackgroundColor 0 0 0 0 # Hidden Background
-
-Hide
-    DropLevel <= 40
-    ItemLevel >= 45
-    SetBackgroundColor 0 0 0 0 # Hidden Background
-
-Hide
-    DropLevel <= 46
-    ItemLevel >= 50
-    SetBackgroundColor 0 0 0 0 # Hidden Background
-
-Hide
-    DropLevel <= 52
-    ItemLevel >= 55
-    SetBackgroundColor 0 0 0 0 # Hidden Background
-
-Hide
-    DropLevel < 57
-    ItemLevel >= 60
-    SetBackgroundColor 0 0 0 0 # Hidden Background
-
-Hide
-    DropLevel < 59
-    ItemLevel >= 65
-    SetBackgroundColor 0 0 0 0 # Hidden Background
-
-Hide
-    DropLevel < 60
-    ItemLevel >= 70
-    SetBackgroundColor 0 0 0 0 # Hidden Background
-
-Hide
-    Rarity = Magic
-    ItemLevel >= 72
-    SetBackgroundColor 0 0 0 0 # Hidden Background
-
-Hide
-    Sockets < 3
-    Class "Shield" "One Hand" "Dagger" "Claw" "Wand" "Sceptre" "Helmet" "Glove" "Boots"
-    Rarity = Normal
-    ItemLevel >= 74
-    SetBackgroundColor 0 0 0 0 # Hidden Background
-
-Hide
-    LinkedSockets < 3
-    Class "Shield" "One Hand" "Dagger" "Claw" "Wand" "Sceptre"
-    Rarity = Normal
-    ItemLevel >= 78
-    SetBackgroundColor 0 0 0 0 # Hidden Background
-
-Hide
-    LinkedSockets < 4
-    Class "Helmet" "Glove" "Boots" "Body"
-    Rarity = Normal
-    ItemLevel >= 78
-    SetBackgroundColor 0 0 0 0 # Hidden Background
+    ItemLevel < 38
+    SetBackgroundColor 0 0 0 254 # Default Background
 
 # Section: Everything else
 
 # Everything not hidden or shown
 Hide
-    ItemLevel >= 12
     SetBackgroundColor 0 0 0 0 # Hidden Background
 
