@@ -1238,15 +1238,6 @@ Show
     SetBackgroundColor 0 0 0 254 # Default Background
     SetFontSize 37
 
-# Section: Utility Flasks
-
-Show
-    Class "Utility Flasks"
-    SetBackgroundColor 0 0 0 254 # Default Background
-    SetFontSize 37
-
-# Section: Levelling Jewelry
-
 Show
     Class "Ring" "Amulet" "Belt"
     Rarity = Normal
@@ -1260,6 +1251,20 @@ Show
     ItemLevel <= 18
     SetBackgroundColor 0 0 0 254 # Default Background
     SetFontSize 37
+
+# Pre-Brutus Everything
+Show
+    ItemLevel < 10
+    SetBackgroundColor 0 0 0 254 # Default Background
+
+# Section: Utility Flasks
+
+Show
+    Class "Utility Flasks"
+    SetBackgroundColor 0 0 0 254 # Default Background
+    SetFontSize 37
+
+# Section: Levelling Jewelry
 
 Show
     Class "Ring" "Amulet" "Belt"
