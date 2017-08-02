@@ -261,7 +261,7 @@ Show
     SetFontSize 37
 
 # Currency Trash
-Hide
+Show
     Class "Currency"
     BaseType "Alteration Shard" "Transmutation Shard" "Alchemy Shard" "Scroll of Wisdom" "Portal Scroll" "Orb of Transmutation" "Scroll Fragment" "Orb of Augmentation"
     SetTextColor 200 186 153 # Currency Text
@@ -369,21 +369,21 @@ Show
     SetFontSize 37
 
 # Gem Support
-Hide
+Show
     Class "Support Skill Gems"
     SetTextColor 26 162 155 # Gem Text
     SetBackgroundColor 0 0 0 254 # Default Background
     SetFontSize 37
 
 # Gem Aura
-Hide
+Show
     Class "Skill Gems"
     BaseType "Wrath" "Anger" "Hatred" "Clarity" "Determination" "Grace" "Discipline" "Vitality" "Haste" "Purity of" "Herald of" "Arctic Armour" "Blood Rage"
     SetTextColor 26 162 155 # Gem Text
     SetFontSize 37
 
 # Gem
-Hide
+Show
     Class "Active Skill Gems"
     SetTextColor 26 162 155 # Gem Text
     SetBackgroundColor 0 0 0 254 # Default Background
@@ -692,14 +692,16 @@ Show
 
 # Section: Chancing
 
-# Chance Base
-Show
-    BaseType "Leather Belt"
-    Rarity = Normal
-    SetTextColor 200 200 200 # Normal Text
-    SetBackgroundColor 0 0 0 254 # Default Background
-    SetBorderColor 0 0 254 # Crafting Border
-    SetFontSize 37
+#Disabled Block Start
+# Chance Headhunter
+#Show
+#    BaseType "Leather Belt"
+#    Rarity = Normal
+#    SetTextColor 200 200 200 # Normal Text
+#    SetBackgroundColor 0 0 0 254 # Default Background
+#    SetBorderColor 0 0 254 # Crafting Border
+#    SetFontSize 37
+#Disabled Block End
 
 # Section: Rares
 
