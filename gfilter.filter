@@ -759,6 +759,19 @@ Show
 #    SetTextColor 0 0 0 0
 #Disabled Block End
 
+# Rare Levelling
+Show
+    Rarity = Rare
+    ItemLevel < 67
+    SetTextColor 255 255 119 # Rare Text
+    SetBackgroundColor 0 0 0 254 # Default Background
+
+# Rare
+Hide
+    Rarity = Rare
+    SetTextColor 255 255 119 # Rare Text
+    SetBackgroundColor 0 0 0 254 # Default Background
+
 # Section: Uniques
 
 # Unique Tier1
@@ -827,6 +840,15 @@ Show
 
 # Section: Regal Recipe
 
+# Regal Recipe
+Show
+    Class "Body Armours" "Two Hand" "Boots" "Gloves" "Helmets"
+    Rarity = Rare
+    ItemLevel >= 75
+    SetTextColor 255 255 119 # Rare Text
+    SetBackgroundColor 0 0 0 254 # Default Background
+    SetBorderColor 136 136 255 127 # Regal Recipe Border
+
 # Regal Recipe Jewelry
 Show
     Class "Ring" "Belt" "Amulet"
@@ -837,26 +859,16 @@ Show
     SetBorderColor 136 136 255 127 # Regal Recipe Border
     SetFontSize 37
 
-# Regal Recipe
+# Section: Chaos Recipe
+
+# Chaos Recipe
 Show
     Class "Body Armours" "Two Hand" "Boots" "Gloves" "Helmets"
     Rarity = Rare
-    ItemLevel >= 75
-    SetTextColor 255 255 119 # Rare Text
-    SetBackgroundColor 0 0 0 254 # Default Background
-    SetBorderColor 136 136 255 127 # Regal Recipe Border
-
-# Section: Chaos Recipe
-
-# Chaos Recipe Jewelry
-Show
-    Class "Ring" "Amulet"
-    Rarity = Rare
     ItemLevel >= 60
     SetTextColor 255 255 119 # Rare Text
-    SetBackgroundColor 23 23 0 254 # Rare Highlight Background
+    SetBackgroundColor 0 0 0 254 # Default Background
     SetBorderColor 254 170 0 127 # Chaos Recipe Border
-    SetFontSize 37
 
 # Chaos Recipe Belt
 Show
@@ -867,14 +879,15 @@ Show
     SetBackgroundColor 23 23 0 254 # Rare Highlight Background
     SetBorderColor 254 170 0 127 # Chaos Recipe Border
 
-# Chaos Recipe
+# Chaos Recipe Jewelry
 Show
-    Class "Body Armours" "Two Hand" "Boots" "Gloves" "Helmets"
+    Class "Ring" "Amulet"
     Rarity = Rare
     ItemLevel >= 60
     SetTextColor 255 255 119 # Rare Text
-    SetBackgroundColor 0 0 0 254 # Default Background
+    SetBackgroundColor 23 23 0 254 # Rare Highlight Background
     SetBorderColor 254 170 0 127 # Chaos Recipe Border
+    SetFontSize 37
 
 # Section: Chisel Recipe
 
@@ -949,40 +962,7 @@ Show
     SetFontSize 41
     PlayAlertSound 2 100
 
-# Rare Levelling
-Show
-    Rarity = Rare
-    ItemLevel < 67
-    SetTextColor 255 255 119 # Rare Text
-    SetBackgroundColor 0 0 0 254 # Default Background
-
-# Rare
-Hide
-    Rarity = Rare
-    SetTextColor 255 255 119 # Rare Text
-    SetBackgroundColor 0 0 0 254 # Default Background
-
 # Section: RGB Recipe
-
-# RGB Maps 2x2
-Show
-    SocketGroup "RGB"
-    Height <= 2
-    Width <= 2
-    ItemLevel >= 67
-    SetTextColor 255 255 255 # Normal Highlight Text
-    SetBackgroundColor 30 30 30 254 # Normal Highlight Background
-    SetFontSize 37
-
-# RGB Maps 1x3
-Show
-    SocketGroup "RGB"
-    Height <= 3
-    Width <= 1
-    ItemLevel >= 67
-    SetTextColor 255 255 255 # Normal Highlight Text
-    SetBackgroundColor 30 30 30 254 # Normal Highlight Background
-    SetFontSize 37
 
 # RGB Levelling
 Show
@@ -992,7 +972,32 @@ Show
     SetBackgroundColor 30 30 30 254 # Normal Highlight Background
     SetFontSize 37
 
+# RGB Maps 2x2
+Show
+    SocketGroup "RGB"
+    Height <= 2
+    Width <= 2
+    SetTextColor 255 255 255 # Normal Highlight Text
+    SetBackgroundColor 30 30 30 254 # Normal Highlight Background
+    SetFontSize 37
+
+# RGB Maps 1x3
+Show
+    SocketGroup "RGB"
+    Height <= 3
+    Width <= 1
+    SetTextColor 255 255 255 # Normal Highlight Text
+    SetBackgroundColor 30 30 30 254 # Normal Highlight Background
+    SetFontSize 37
+
 # Section: Flask Upgrade Magic
+
+Hide
+    Class "Life Flask" "Mana Flask" "Hybrid Flask"
+    Rarity = Magic
+    ItemLevel >= 67
+    SetTextColor 136 136 255 # Magic Text
+    SetBackgroundColor 0 0 0 254 # Default Background
 
 Show
     Class "Utility"
@@ -1007,7 +1012,6 @@ Show
     BaseType "Medium"
     Rarity = Magic
     ItemLevel <= 6
-    ItemLevel >= 3
     SetTextColor 136 136 255 # Magic Text
     SetBackgroundColor 0 0 0 254 # Default Background
     SetFontSize 37
@@ -1016,8 +1020,7 @@ Show
     Class "Flask"
     BaseType "Large"
     Rarity = Magic
-    ItemLevel <= 9
-    ItemLevel >= 5
+    ItemLevel <= 12
     SetTextColor 136 136 255 # Magic Text
     SetBackgroundColor 0 0 0 254 # Default Background
     SetFontSize 37
@@ -1026,8 +1029,7 @@ Show
     Class "Flask"
     BaseType "Greater"
     Rarity = Magic
-    ItemLevel <= 15
-    ItemLevel >= 12
+    ItemLevel <= 18
     SetTextColor 136 136 255 # Magic Text
     SetBackgroundColor 0 0 0 254 # Default Background
     SetFontSize 37
@@ -1036,8 +1038,7 @@ Show
     Class "Flask"
     BaseType "Grand"
     Rarity = Magic
-    ItemLevel <= 21
-    ItemLevel >= 18
+    ItemLevel <= 24
     SetTextColor 136 136 255 # Magic Text
     SetBackgroundColor 0 0 0 254 # Default Background
     SetFontSize 37
@@ -1046,8 +1047,7 @@ Show
     Class "Flask"
     BaseType "Giant"
     Rarity = Magic
-    ItemLevel <= 27
-    ItemLevel >= 24
+    ItemLevel <= 30
     SetTextColor 136 136 255 # Magic Text
     SetBackgroundColor 0 0 0 254 # Default Background
     SetFontSize 37
@@ -1056,8 +1056,7 @@ Show
     Class "Flask"
     BaseType "Colossal"
     Rarity = Magic
-    ItemLevel <= 33
-    ItemLevel >= 30
+    ItemLevel <= 36
     SetTextColor 136 136 255 # Magic Text
     SetBackgroundColor 0 0 0 254 # Default Background
     SetFontSize 37
@@ -1066,8 +1065,7 @@ Show
     Class "Flask"
     BaseType "Sacred"
     Rarity = Magic
-    ItemLevel <= 39
-    ItemLevel >= 36
+    ItemLevel <= 42
     SetTextColor 136 136 255 # Magic Text
     SetBackgroundColor 0 0 0 254 # Default Background
     SetFontSize 37
@@ -1076,8 +1074,7 @@ Show
     Class "Flask"
     BaseType "Hallowed"
     Rarity = Magic
-    ItemLevel <= 45
-    ItemLevel >= 42
+    ItemLevel <= 50
     SetTextColor 136 136 255 # Magic Text
     SetBackgroundColor 0 0 0 254 # Default Background
     SetFontSize 37
@@ -1087,7 +1084,6 @@ Show
     BaseType "Sanctified"
     Rarity = Magic
     ItemLevel <= 51
-    ItemLevel >= 48
     SetTextColor 136 136 255 # Magic Text
     SetBackgroundColor 0 0 0 254 # Default Background
     SetFontSize 37
@@ -1096,8 +1092,7 @@ Show
     Class "Flask"
     BaseType "Divine"
     Rarity = Magic
-    ItemLevel <= 63
-    ItemLevel >= 60
+    ItemLevel < 67
     SetTextColor 136 136 255 # Magic Text
     SetBackgroundColor 0 0 0 254 # Default Background
     SetFontSize 37
@@ -1106,18 +1101,10 @@ Show
     Class "Flask"
     BaseType "Eternal"
     Rarity = Magic
-    ItemLevel <= 68
-    ItemLevel >= 65
+    ItemLevel < 67
     SetTextColor 136 136 255 # Magic Text
     SetBackgroundColor 0 0 0 254 # Default Background
     SetFontSize 37
-
-Hide
-    Class "Life Flask" "Mana Flask" "Hybrid Flask"
-    Rarity = Magic
-    ItemLevel > 68
-    SetTextColor 136 136 255 # Magic Text
-    SetBackgroundColor 0 0 0 254 # Default Background
 
 # Section: Utility Flasks
 
