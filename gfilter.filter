@@ -632,19 +632,6 @@ Show
     SetFontSize 45
     PlayAlertSound 8 300
 
-#Disabled Block Start
-# Tier1 Bases ilvl84 Magic
-#Show
-#    BaseType "Steel Ring" "Opal Ring" "Crystal Belt"
-#    Rarity = Magic
-#    ItemLevel >= 84
-#    SetTextColor 136 136 255 # Magic Text
-#    SetBackgroundColor 0 15 30 254 # Magic Highlight Background
-#    SetBorderColor 0 0 254 # Crafting Border
-#    SetFontSize 45
-#    PlayAlertSound 8 300
-#Disabled Block End
-
 # Tier1 Bases Normal
 Show
     BaseType "Steel Ring" "Opal Ring" "Crystal Belt"
@@ -654,18 +641,6 @@ Show
     SetBorderColor 0 0 254 # Crafting Border
     SetFontSize 41
     PlayAlertSound 8 300
-
-#Disabled Block Start
-# Tier1 Bases Magic
-#Show
-#    BaseType "Steel Ring" "Opal Ring" "Crystal Belt"
-#    Rarity = Magic
-#    SetTextColor 136 136 255 # Magic Text
-#    SetBackgroundColor 0 15 30 254 # Magic Highlight Background
-#    SetBorderColor 0 0 254 # Crafting Border
-#    SetFontSize 41
-#    PlayAlertSound 8 300
-#Disabled Block End
 
 # T2 Bases ilvl84 Normal
 Show
@@ -677,19 +652,6 @@ Show
     SetBorderColor 0 0 254 # Crafting Border
     SetFontSize 41
     PlayAlertSound 7 150
-
-#Disabled Block Start
-# T2 Bases ilvl84 Magic
-#Show
-#    BaseType "Hubris Circlet" "Vaal Regalia"
-#    Rarity = Magic
-#    ItemLevel >= 84
-#    SetTextColor 136 136 255 # Magic Text
-#    SetBackgroundColor 0 15 30 254 # Magic Highlight Background
-#    SetBorderColor 0 0 254 # Crafting Border
-#    SetFontSize 41
-#    PlayAlertSound 7 150
-#Disabled Block End
 
 # Section: Chancing
 
@@ -727,45 +689,19 @@ Show
     SetFontSize 41
     PlayAlertSound 8 300
 
+# Rare Endgame
+Show
+    Rarity = Rare
+    ItemLevel >= 67
+    SetTextColor 255 255 119 # Rare Text
+    SetBackgroundColor 0 0 0 180 # Junk Background
+
 # Rare Levelling
 Show
     Rarity = Rare
     ItemLevel < 67
     SetTextColor 255 255 119 # Rare Text
     SetBackgroundColor 0 0 0 254 # Default Background
-
-#Disabled Block Start
-# T2 ilvl75 Rares
-#Show
-#    Rarity = Rare
-#    ItemLevel >= 67
-#Disabled Block End
-
-#Disabled Block Start
-# T2 ilvl75 Rares
-#Show
-#    DropLevel >= 58
-#    Rarity = Rare
-#    ItemLevel >= 67
-#Disabled Block End
-
-#Disabled Block Start
-# Bad Rare Daggers
-#Hide
-#    DropLevel < 57
-#    Rarity = Rare
-#    ItemLevel >= 67
-#    SetBackgroundColor 0 0 0 0 # Hidden Background
-#Disabled Block End
-
-#Disabled Block Start
-# Rare Rest
-#Hide
-#    Class "Two Hand"
-#    Rarity = Rare
-#    ItemLevel >= 67
-#    SetTextColor 0 0 0 0
-#Disabled Block End
 
 #Disabled Block Start
 # Rare
@@ -933,17 +869,6 @@ Show
     SetBackgroundColor 0 0 0 254 # Default Background
     SetBorderColor 80 80 80 # Quality Border
     SetFontSize 37
-
-#Disabled Block Start
-# Quality Flask Magic
-#Show
-#    Quality > 9
-#    Class "Flask"
-#    Rarity = Magic
-#    SetTextColor 136 136 255 # Magic Text
-#    SetBorderColor 80 80 80 # Quality Border
-#    SetFontSize 37
-#Disabled Block End
 
 # Section: General
 
