@@ -706,13 +706,6 @@ Show
 
 # Section: Rares
 
-# Rare Levelling
-Show
-    Rarity = Rare
-    ItemLevel < 67
-    SetTextColor 255 255 119 # Rare Text
-    SetBackgroundColor 0 0 0 254 # Default Background
-
 # T1 ilvl84 Rares
 Show
     BaseType "Steel Ring" "Opal Ring" "Crystal Belt"
@@ -733,6 +726,13 @@ Show
     SetBorderColor 255 255 255 # Tier1 Border
     SetFontSize 41
     PlayAlertSound 8 300
+
+# Rare Levelling
+Show
+    Rarity = Rare
+    ItemLevel < 67
+    SetTextColor 255 255 119 # Rare Text
+    SetBackgroundColor 0 0 0 254 # Default Background
 
 #Disabled Block Start
 # T2 ilvl75 Rares
