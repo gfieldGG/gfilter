@@ -1132,6 +1132,13 @@ Show
     SetBorderColor 192 255 203 # Levelling Border
     SetFontSize 41
 
+Show
+    Class "Utility Flasks"
+    BaseType "Sapphire Flask" "Ruby Flask" "Amethyst Flask" "Topaz Flask"
+    ItemLevel <= 28
+    SetBackgroundColor 0 0 0 254 # Default Background
+    SetFontSize 37
+
 # Piety Ring
 Show
     BaseType "Sapphire Ring"
@@ -1185,8 +1192,13 @@ Show
 
 Show
     Class "Utility Flasks"
+    ItemLevel < 67
     SetBackgroundColor 0 0 0 254 # Default Background
     SetFontSize 37
+
+Show
+    Class "Utility Flasks"
+    SetBackgroundColor 0 0 0 180 # Junk Background
 
 # Section: Levelling Jewelry
 
