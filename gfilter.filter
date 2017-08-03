@@ -228,7 +228,7 @@ Show
     Class "Currency"
     BaseType "Alteration Shard" "Transmutation Shard" "Alchemy Shard" "Scroll of Wisdom" "Portal Scroll" "Orb of Transmutation" "Scroll Fragment" "Orb of Augmentation"
     SetTextColor 200 186 153 # Currency Text
-    SetBackgroundColor 0 0 0 254 # Default Background
+    SetBackgroundColor 0 0 0 180 # Junk Background
 
 # Currency Tier4
 Show
@@ -307,7 +307,7 @@ Show
 Show
     Class "Divination Card"
     SetTextColor 14 186 255 # Divination Card Text
-    SetBackgroundColor 0 0 0 254 # Default Background
+    SetBackgroundColor 0 0 0 180 # Junk Background
 
 # Section: Gems
 
