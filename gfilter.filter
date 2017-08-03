@@ -229,7 +229,6 @@ Show
     BaseType "Alteration Shard" "Transmutation Shard" "Alchemy Shard" "Scroll of Wisdom" "Portal Scroll" "Orb of Transmutation" "Scroll Fragment" "Orb of Augmentation"
     SetTextColor 200 186 153 # Currency Text
     SetBackgroundColor 0 0 0 254 # Default Background
-    PlayAlertSound 12 150
 
 # Currency Tier4
 Show
