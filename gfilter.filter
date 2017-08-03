@@ -305,7 +305,7 @@ Show
     SetFontSize 37
 
 # Divination Card
-Hide
+Show
     Class "Divination Card"
     SetTextColor 14 186 255 # Divination Card Text
     SetBackgroundColor 0 0 0 254 # Default Background
@@ -767,11 +767,13 @@ Show
     SetTextColor 255 255 119 # Rare Text
     SetBackgroundColor 0 0 0 254 # Default Background
 
+#Disabled Block Start
 # Rare
-Hide
-    Rarity = Rare
-    SetTextColor 255 255 119 # Rare Text
-    SetBackgroundColor 0 0 0 254 # Default Background
+#Hide
+#    Rarity = Rare
+#    SetTextColor 255 255 119 # Rare Text
+#    SetBackgroundColor 0 0 0 254 # Default Background
+#Disabled Block End
 
 # Section: Uniques
 
@@ -1238,24 +1240,21 @@ Show
     SetBackgroundColor 0 0 0 254 # Default Background
     SetFontSize 37
 
-Show
-    Class "Ring" "Amulet" "Belt"
-    Rarity = Normal
-    ItemLevel <= 18
-    SetBackgroundColor 0 0 0 254 # Default Background
-    SetFontSize 37
-
-Show
-    Class "Ring" "Amulet" "Belt"
-    Rarity = Magic
-    ItemLevel <= 18
-    SetBackgroundColor 0 0 0 254 # Default Background
-    SetFontSize 37
-
 # Pre-Brutus Everything
 Show
     ItemLevel < 10
     SetBackgroundColor 0 0 0 254 # Default Background
+
+Show
+    Class "Ring" "Amulet" "Belt"
+    ItemLevel <= 18
+    SetBackgroundColor 0 0 0 180 # Junk Background
+
+# Normal Boots MS
+Show
+    Class "Boots"
+    ItemLevel <= 28
+    SetBackgroundColor 0 0 0 180 # Junk Background
 
 # Section: Utility Flasks
 
@@ -1270,7 +1269,81 @@ Show
     Class "Ring" "Amulet" "Belt"
     Rarity = Magic
     ItemLevel < 38
-    SetBackgroundColor 0 0 0 254 # Default Background
+    SetBackgroundColor 0 0 0 180 # Junk Background
+
+# Section: Weapon Upgrades
+
+Show
+    DropLevel >= 0
+    Class "Swords" "Bows" "Daggers" "Claws" "Wands" "Sceptres" "Axes" "Maces" "Staves"
+    ItemLevel < 10
+    SetBackgroundColor 0 0 0 180 # Junk Background
+
+Show
+    DropLevel >= 5
+    Class "Swords" "Bows" "Daggers" "Claws" "Wands" "Sceptres" "Axes" "Maces" "Staves"
+    ItemLevel < 15
+    SetBackgroundColor 0 0 0 180 # Junk Background
+
+Show
+    DropLevel >= 10
+    Class "Swords" "Bows" "Daggers" "Claws" "Wands" "Sceptres" "Axes" "Maces" "Staves"
+    ItemLevel < 20
+    SetBackgroundColor 0 0 0 180 # Junk Background
+
+Show
+    DropLevel >= 15
+    Class "Swords" "Bows" "Daggers" "Claws" "Wands" "Sceptres" "Axes" "Maces" "Staves"
+    ItemLevel < 25
+    SetBackgroundColor 0 0 0 180 # Junk Background
+
+Show
+    DropLevel >= 20
+    Class "Swords" "Bows" "Daggers" "Claws" "Wands" "Sceptres" "Axes" "Maces" "Staves"
+    ItemLevel < 30
+    SetBackgroundColor 0 0 0 180 # Junk Background
+
+Show
+    DropLevel >= 25
+    Class "Swords" "Bows" "Daggers" "Claws" "Wands" "Sceptres" "Axes" "Maces" "Staves"
+    ItemLevel < 35
+    SetBackgroundColor 0 0 0 180 # Junk Background
+
+Show
+    DropLevel >= 30
+    Class "Swords" "Bows" "Daggers" "Claws" "Wands" "Sceptres" "Axes" "Maces" "Staves"
+    ItemLevel < 40
+    SetBackgroundColor 0 0 0 180 # Junk Background
+
+Show
+    DropLevel >= 35
+    Class "Swords" "Bows" "Daggers" "Claws" "Wands" "Sceptres" "Axes" "Maces" "Staves"
+    ItemLevel < 45
+    SetBackgroundColor 0 0 0 180 # Junk Background
+
+Show
+    DropLevel >= 40
+    Class "Swords" "Bows" "Daggers" "Claws" "Wands" "Sceptres" "Axes" "Maces" "Staves"
+    ItemLevel < 50
+    SetBackgroundColor 0 0 0 180 # Junk Background
+
+Show
+    DropLevel >= 45
+    Class "Swords" "Bows" "Daggers" "Claws" "Wands" "Sceptres" "Axes" "Maces" "Staves"
+    ItemLevel < 55
+    SetBackgroundColor 0 0 0 180 # Junk Background
+
+Show
+    DropLevel >= 50
+    Class "Swords" "Bows" "Daggers" "Claws" "Wands" "Sceptres" "Axes" "Maces" "Staves"
+    ItemLevel < 60
+    SetBackgroundColor 0 0 0 180 # Junk Background
+
+Show
+    DropLevel >= 55
+    Class "Swords" "Bows" "Daggers" "Claws" "Wands" "Sceptres" "Axes" "Maces" "Staves"
+    ItemLevel < 67
+    SetBackgroundColor 0 0 0 180 # Junk Background
 
 # Section: Everything else
 
