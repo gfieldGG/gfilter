@@ -321,34 +321,6 @@ Show
     SetFontSize 45
     PlayAlertSound 8 300
 
-# Gem Quality 20
-Show
-    Quality = 20
-    Class "Active Skill Gems" "Support Skill Gems"
-    SetTextColor 26 162 155 # Gem Text
-    SetBackgroundColor 0 25 15 254 # Gem Highlight Background
-    SetBorderColor 26 162 155 # Gem Border
-    SetFontSize 45
-    PlayAlertSound 7 150
-
-# Gem Quality High
-Show
-    Quality >= 10
-    Class "Active Skill Gems" "Support Skill Gems"
-    SetTextColor 26 162 155 # Gem Text
-    SetBackgroundColor 0 25 15 254 # Gem Highlight Background
-    SetBorderColor 26 162 155 # Gem Border
-    SetFontSize 41
-    PlayAlertSound 6 150
-
-# Gem Quality
-Show
-    Quality > 0
-    Class "Active Skill Gems" "Support Skill Gems"
-    SetTextColor 26 162 155 # Gem Text
-    SetBackgroundColor 0 25 15 254 # Gem Highlight Background
-    SetFontSize 37
-
 # Gem Tier1
 Show
     Class "Active Skill Gems" "Support Skill Gems"
@@ -367,6 +339,34 @@ Show
     SetBackgroundColor 0 25 15 254 # Gem Highlight Background
     SetBorderColor 161 27 123 # Vaal Border
     SetFontSize 37
+
+# Gem Quality
+Show
+    Quality > 0
+    Class "Active Skill Gems" "Support Skill Gems"
+    SetTextColor 26 162 155 # Gem Text
+    SetBackgroundColor 0 25 15 254 # Gem Highlight Background
+    SetFontSize 37
+
+# Gem Quality High
+Show
+    Quality >= 10
+    Class "Active Skill Gems" "Support Skill Gems"
+    SetTextColor 26 162 155 # Gem Text
+    SetBackgroundColor 0 25 15 254 # Gem Highlight Background
+    SetBorderColor 26 162 155 # Gem Border
+    SetFontSize 41
+    PlayAlertSound 6 150
+
+# Gem Quality 20
+Show
+    Quality = 20
+    Class "Active Skill Gems" "Support Skill Gems"
+    SetTextColor 26 162 155 # Gem Text
+    SetBackgroundColor 0 25 15 254 # Gem Highlight Background
+    SetBorderColor 26 162 155 # Gem Border
+    SetFontSize 45
+    PlayAlertSound 7 150
 
 #Disabled Block Start
 # Gem Aura
@@ -777,15 +777,15 @@ Show
 
 # Section: Uniques
 
-# Unique Tier1
+# Unique Tier?
 Show
-    BaseType "Stibnite Flask" "Ruby Flask" "Topaz Flask" "Sapphire Flask" "Silver Flask" "Void Axe" "Prophecy Wand" "Jewelled Foil" "Royal Axe" "Cutlass" "Sorcerer Boots" "Occultist's Vestment" "Crusader Boots" "Rawhide Boots" "Ezomyte Tower Shield" "Deicide Mask" "Glorious Plate" "Ezomyte Burgonet" "Assassin's Garb" "Greatwolf Talisman"
+    BaseType "Two-Stone Ring" "Ebony Tower Shield" "Onyx Amulet" "Goathide Boots" "Moonstone Ring" "Gold Amulet"
     Rarity = Unique
-    SetTextColor 0 0 0 # Currency Tier1 Text
-    SetBackgroundColor 175 96 37 254 # Unique Background
-    SetBorderColor 255 255 255 # Tier1 Border
-    SetFontSize 45
-    PlayAlertSound 8 300
+    SetTextColor 175 96 37 # Unique Text
+    SetBackgroundColor 30 15 0 254 # Unique Highlight Background
+    SetBorderColor 175 96 37 # Unique Border
+    SetFontSize 41
+    PlayAlertSound 6 150
 
 # Unique Tier2
 Show
@@ -797,15 +797,15 @@ Show
     SetFontSize 41
     PlayAlertSound 7 150
 
-# Unique Tier?
+# Unique Tier1
 Show
-    BaseType "Two-Stone Ring" "Ebony Tower Shield" "Onyx Amulet" "Goathide Boots" "Moonstone Ring" "Gold Amulet"
+    BaseType "Stibnite Flask" "Ruby Flask" "Topaz Flask" "Sapphire Flask" "Silver Flask" "Void Axe" "Prophecy Wand" "Jewelled Foil" "Royal Axe" "Cutlass" "Sorcerer Boots" "Occultist's Vestment" "Crusader Boots" "Rawhide Boots" "Ezomyte Tower Shield" "Deicide Mask" "Glorious Plate" "Ezomyte Burgonet" "Assassin's Garb" "Greatwolf Talisman"
     Rarity = Unique
-    SetTextColor 175 96 37 # Unique Text
-    SetBackgroundColor 30 15 0 254 # Unique Highlight Background
-    SetBorderColor 175 96 37 # Unique Border
-    SetFontSize 41
-    PlayAlertSound 6 150
+    SetTextColor 0 0 0 # Currency Tier1 Text
+    SetBackgroundColor 175 96 37 254 # Unique Background
+    SetBorderColor 255 255 255 # Tier1 Border
+    SetFontSize 45
+    PlayAlertSound 8 300
 
 # Unique
 Show
