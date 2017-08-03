@@ -826,7 +826,6 @@ Show
 Show
     Class "Jewel"
     Rarity = Magic
-    ItemLevel < 67
     SetTextColor 136 136 255 # Magic Text
     SetBackgroundColor 0 0 0 254 # Default Background
     SetFontSize 37
