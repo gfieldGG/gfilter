@@ -455,7 +455,7 @@ Show
     SetBackgroundColor 175 96 37 254 # Unique Background
     SetBorderColor 88 48 19 250 # Map Unique Border
     SetFontSize 37
-    PlayAlertSound 7 150
+    PlayAlertSound 4 150
 
 # Section: 6 Links
 
