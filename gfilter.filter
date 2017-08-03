@@ -1212,78 +1212,225 @@ Show
     ItemLevel < 38
     SetBackgroundColor 0 0 0 180 # Junk Background
 
-# Section: Weapon Upgrades
+# Section: Obsolete Levelling Bases
+
+Hide
+    Sockets < 3
+    DropLevel <= 5
+    ItemLevel >= 10
+    SetBackgroundColor 0 0 0 0 # Hidden Background
+
+Hide
+    Sockets < 3
+    DropLevel <= 10
+    ItemLevel >= 15
+    SetBackgroundColor 0 0 0 0 # Hidden Background
+
+Hide
+    DropLevel <= 13
+    ItemLevel >= 20
+    SetBackgroundColor 0 0 0 0 # Hidden Background
+
+Hide
+    DropLevel <= 20
+    ItemLevel >= 25
+    SetBackgroundColor 0 0 0 0 # Hidden Background
+
+Hide
+    DropLevel <= 25
+    ItemLevel >= 30
+    SetBackgroundColor 0 0 0 0 # Hidden Background
+
+Hide
+    DropLevel <= 30
+    ItemLevel >= 35
+    SetBackgroundColor 0 0 0 0 # Hidden Background
+
+Hide
+    DropLevel <= 36
+    ItemLevel >= 40
+    SetBackgroundColor 0 0 0 0 # Hidden Background
+
+Hide
+    DropLevel <= 41
+    ItemLevel >= 45
+    SetBackgroundColor 0 0 0 0 # Hidden Background
+
+Hide
+    DropLevel <= 46
+    ItemLevel >= 50
+    SetBackgroundColor 0 0 0 0 # Hidden Background
+
+Hide
+    DropLevel <= 52
+    ItemLevel >= 55
+    SetBackgroundColor 0 0 0 0 # Hidden Background
+
+Hide
+    DropLevel < 57
+    ItemLevel >= 60
+    SetBackgroundColor 0 0 0 0 # Hidden Background
+
+Hide
+    DropLevel < 59
+    ItemLevel >= 65
+    SetBackgroundColor 0 0 0 0 # Hidden Background
+
+Hide
+    ItemLevel >= 67
+    SetBackgroundColor 0 0 0 0 # Hidden Background
+
+# Section: Specific Weapon Upgrade Toggles
 
 Show
-    DropLevel >= 0
-    Class "Swords" "Bows" "Daggers" "Claws" "Wands" "Sceptres" "Axes" "Maces" "Staves"
-    ItemLevel < 10
+    Class "Bow"
+    Rarity <= Magic
     SetBackgroundColor 0 0 0 180 # Junk Background
 
 Show
-    DropLevel >= 5
-    Class "Swords" "Bows" "Daggers" "Claws" "Wands" "Sceptres" "Axes" "Maces" "Staves"
-    ItemLevel < 15
+    Class "Stave"
+    Rarity <= Magic
     SetBackgroundColor 0 0 0 180 # Junk Background
 
 Show
-    DropLevel >= 10
-    Class "Swords" "Bows" "Daggers" "Claws" "Wands" "Sceptres" "Axes" "Maces" "Staves"
-    ItemLevel < 20
+    Class "Wand"
+    Rarity <= Magic
     SetBackgroundColor 0 0 0 180 # Junk Background
 
 Show
-    DropLevel >= 15
-    Class "Swords" "Bows" "Daggers" "Claws" "Wands" "Sceptres" "Axes" "Maces" "Staves"
-    ItemLevel < 25
+    Class "Two Hand Axe"
+    Rarity <= Magic
     SetBackgroundColor 0 0 0 180 # Junk Background
 
 Show
-    DropLevel >= 20
-    Class "Swords" "Bows" "Daggers" "Claws" "Wands" "Sceptres" "Axes" "Maces" "Staves"
-    ItemLevel < 30
+    Class "Axe"
+    Rarity <= Magic
     SetBackgroundColor 0 0 0 180 # Junk Background
 
 Show
-    DropLevel >= 25
-    Class "Swords" "Bows" "Daggers" "Claws" "Wands" "Sceptres" "Axes" "Maces" "Staves"
-    ItemLevel < 35
+    Class "Dagger"
+    Rarity <= Magic
     SetBackgroundColor 0 0 0 180 # Junk Background
 
 Show
-    DropLevel >= 30
-    Class "Swords" "Bows" "Daggers" "Claws" "Wands" "Sceptres" "Axes" "Maces" "Staves"
-    ItemLevel < 40
+    Class "Two Hand Sword"
+    Rarity <= Magic
     SetBackgroundColor 0 0 0 180 # Junk Background
 
 Show
-    DropLevel >= 35
-    Class "Swords" "Bows" "Daggers" "Claws" "Wands" "Sceptres" "Axes" "Maces" "Staves"
-    ItemLevel < 45
+    Class "Thrusting"
+    Rarity <= Magic
     SetBackgroundColor 0 0 0 180 # Junk Background
 
 Show
-    DropLevel >= 40
-    Class "Swords" "Bows" "Daggers" "Claws" "Wands" "Sceptres" "Axes" "Maces" "Staves"
-    ItemLevel < 50
+    Class "Sword"
+    Rarity <= Magic
     SetBackgroundColor 0 0 0 180 # Junk Background
 
 Show
-    DropLevel >= 45
-    Class "Swords" "Bows" "Daggers" "Claws" "Wands" "Sceptres" "Axes" "Maces" "Staves"
-    ItemLevel < 55
+    Class "Two Hand Mace"
+    Rarity <= Magic
     SetBackgroundColor 0 0 0 180 # Junk Background
 
 Show
-    DropLevel >= 50
-    Class "Swords" "Bows" "Daggers" "Claws" "Wands" "Sceptres" "Axes" "Maces" "Staves"
-    ItemLevel < 60
+    Class "Mace"
+    Rarity <= Magic
     SetBackgroundColor 0 0 0 180 # Junk Background
 
 Show
-    DropLevel >= 55
-    Class "Swords" "Bows" "Daggers" "Claws" "Wands" "Sceptres" "Axes" "Maces" "Staves"
-    ItemLevel < 67
+    Class "Claw"
+    Rarity <= Magic
+    SetBackgroundColor 0 0 0 180 # Junk Background
+
+Show
+    Class "Sceptre"
+    Rarity <= Magic
+    SetBackgroundColor 0 0 0 180 # Junk Background
+
+# Section: Specific Armor Upgrade Toggles
+
+# Two-Toned Boots
+Show
+    BaseType "Two-Toned"
+    Rarity <= Magic
+    SetBackgroundColor 0 0 0 180 # Junk Background
+
+# STR Armor
+Show
+    BaseType "Plate" "Greave" "Burgonet" "Goliath" "Gladiator" "Antique" "Vaal Gauntlet" "Titan Gauntlet" "Steel Gauntlet" "Siege" "Reaver" "Iron Gauntlet" "Hat" "Cone" "Close" "Chestplate" "Bronze Gauntlet" "Barbute" "Ancient Gauntlet" "Samite Helmet" "Spiked Gloves"
+    Rarity <= Magic
+    SetBackgroundColor 0 0 0 180 # Junk Background
+
+# DEX Armor
+Show
+    BaseType "Tricorne" "Sharkskin" "Pelt" "Hood" "Goathide" "Eelskin" "Stealth" "Slink" "Shagreen" "Rawhide" "Nubuck" "Deerskin" "Zodiac" "Wild" "Thief" "Sun" "Shabby" "Glorious" "Frontier" "Exquisite" "Destiny" "Cutthroat" "Coronal" "Cap" "Buckskin" "Strapped Leather" "Full Leather" "Assassin's Garb" "Gripped Gloves"
+    Rarity <= Magic
+    SetBackgroundColor 0 0 0 180 # Junk Background
+
+# INT Armor
+Show
+    BaseType "Circlet" "Robe" "Slipper" "Silk" "Vestment" "Regalia" "Conjurer" "Wool" "Velvet" "Sorcerer" "Scholar" "Satin" "Samite" "Cage" "Arcanist" "Embroidered" "Bone Helmet"
+    Rarity <= Magic
+    SetBackgroundColor 0 0 0 180 # Junk Background
+
+# STR/INT Armor
+Show
+    BaseType "Chainmail" "Ringmail" "Glove" "Crusader" "Crown" "Zealot" "Chain" "Riveted" "Mesh" "Legion" "Hauberk" "Great" "Soldier Boot" "Coif" "Aventail" "Soldier Helmet"
+    Rarity <= Magic
+    SetBackgroundColor 0 0 0 180 # Junk Background
+
+# STR/DEX Armor
+Show
+    BaseType "Gauntlet" "Brigandine" "Wyrmscale" "Dragonscale" "Scale" "Sallet" "Lamellar" "Helm" "Full" "Bascinet" "Steelscale" "Serpentscale" "Ironscale" "Hydrascale" "Bronzescale" "Leatherscale"
+    Rarity <= Magic
+    SetBackgroundColor 0 0 0 180 # Junk Background
+
+# INT/DEX Armor
+Show
+    BaseType "Mask" "Boot" "Mitt" "Raiment" "Oiled" "Jacket" "Coat" "Armour" "Padded" "Waxed" "Sadist" "Lacquered"
+    Rarity <= Magic
+    SetBackgroundColor 0 0 0 180 # Junk Background
+
+# STR Armor - Shields
+Show
+    Class "Shield"
+    BaseType "Tower"
+    Rarity <= Magic
+    SetBackgroundColor 0 0 0 180 # Junk Background
+
+# DEX Armor - Shields
+Show
+    Class "Shield"
+    BaseType "Buckler"
+    Rarity <= Magic
+    SetBackgroundColor 0 0 0 180 # Junk Background
+
+# INT Armor - Shields
+Show
+    Class "Shield"
+    BaseType "Spirit"
+    Rarity <= Magic
+    SetBackgroundColor 0 0 0 180 # Junk Background
+
+# STR/INT Armor - Shields
+Show
+    Class "Shield"
+    BaseType "Kite"
+    Rarity <= Magic
+    SetBackgroundColor 0 0 0 180 # Junk Background
+
+# STR/DEX Armor - Shields
+Show
+    Class "Shield"
+    BaseType "Round"
+    Rarity <= Magic
+    SetBackgroundColor 0 0 0 180 # Junk Background
+
+# INT/DEX Armor - Shields
+Show
+    Class "Shield"
+    BaseType "Spike"
+    Rarity <= Magic
     SetBackgroundColor 0 0 0 180 # Junk Background
 
 # Section: Everything else
