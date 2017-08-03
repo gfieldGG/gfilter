@@ -666,51 +666,6 @@ Show
 #    SetFontSize 37
 #Disabled Block End
 
-# Section: Rares
-
-# T1 ilvl84 Rares
-Show
-    BaseType "Steel Ring" "Opal Ring" "Crystal Belt"
-    Rarity = Rare
-    ItemLevel >= 84
-    SetTextColor 0 0 0 # Currency Tier1 Text
-    SetBackgroundColor 255 255 119 254 # Rare Background
-    SetBorderColor 255 255 255 # Tier1 Border
-    SetFontSize 45
-    PlayAlertSound 8 300
-
-# T1 Rares
-Show
-    BaseType "Steel Ring" "Opal Ring" "Crystal Belt"
-    Rarity = Rare
-    SetTextColor 255 255 119 # Rare Text
-    SetBackgroundColor 23 23 0 254 # Rare Highlight Background
-    SetBorderColor 255 255 255 # Tier1 Border
-    SetFontSize 41
-    PlayAlertSound 8 300
-
-# Rare Endgame
-Show
-    Rarity = Rare
-    ItemLevel >= 67
-    SetTextColor 255 255 119 # Rare Text
-    SetBackgroundColor 0 0 0 180 # Junk Background
-
-# Rare Levelling
-Show
-    Rarity = Rare
-    ItemLevel < 67
-    SetTextColor 255 255 119 # Rare Text
-    SetBackgroundColor 0 0 0 254 # Default Background
-
-#Disabled Block Start
-# Rare
-#Hide
-#    Rarity = Rare
-#    SetTextColor 255 255 119 # Rare Text
-#    SetBackgroundColor 0 0 0 254 # Default Background
-#Disabled Block End
-
 # Section: Uniques
 
 # Unique Tier?
@@ -778,14 +733,52 @@ Show
 
 # Section: Regal Recipe
 
+#Disabled Block Start
 # Regal Recipe
+#Show
+#    Class "Body Armours" "Two Hand" "Boots" "Gloves" "Helmets"
+#    Rarity = Rare
+#    ItemLevel >= 75
+#    SetTextColor 255 255 119 # Rare Text
+#    SetBackgroundColor 0 0 0 254 # Default Background
+#    SetBorderColor 136 136 255 127 # Regal Recipe Border
+#Disabled Block End
+
+# Section: Chaos Recipe
+
+#Disabled Block Start
+# Chaos Recipe
+#Show
+#    Class "Body Armours" "Two Hand" "Boots" "Gloves" "Helmets"
+#    Rarity = Rare
+#    ItemLevel >= 60
+#    SetTextColor 255 255 119 # Rare Text
+#    SetBackgroundColor 0 0 0 254 # Default Background
+#    SetBorderColor 254 170 0 127 # Chaos Recipe Border
+#Disabled Block End
+
+# Section: Rares
+
+# T1 ilvl84 Rares
 Show
-    Class "Body Armours" "Two Hand" "Boots" "Gloves" "Helmets"
+    BaseType "Steel Ring" "Opal Ring" "Crystal Belt"
     Rarity = Rare
-    ItemLevel >= 75
+    ItemLevel >= 84
+    SetTextColor 0 0 0 # Currency Tier1 Text
+    SetBackgroundColor 255 255 119 254 # Rare Background
+    SetBorderColor 255 255 255 # Tier1 Border
+    SetFontSize 45
+    PlayAlertSound 8 300
+
+# T1 Rares
+Show
+    BaseType "Steel Ring" "Opal Ring" "Crystal Belt"
+    Rarity = Rare
     SetTextColor 255 255 119 # Rare Text
-    SetBackgroundColor 0 0 0 254 # Default Background
-    SetBorderColor 136 136 255 127 # Regal Recipe Border
+    SetBackgroundColor 23 23 0 254 # Rare Highlight Background
+    SetBorderColor 255 255 255 # Tier1 Border
+    SetFontSize 41
+    PlayAlertSound 8 300
 
 # Regal Recipe Jewelry
 Show
@@ -796,17 +789,6 @@ Show
     SetBackgroundColor 23 23 0 254 # Rare Highlight Background
     SetBorderColor 136 136 255 127 # Regal Recipe Border
     SetFontSize 37
-
-# Section: Chaos Recipe
-
-# Chaos Recipe
-Show
-    Class "Body Armours" "Two Hand" "Boots" "Gloves" "Helmets"
-    Rarity = Rare
-    ItemLevel >= 60
-    SetTextColor 255 255 119 # Rare Text
-    SetBackgroundColor 0 0 0 254 # Default Background
-    SetBorderColor 254 170 0 127 # Chaos Recipe Border
 
 # Chaos Recipe Belt
 Show
@@ -826,6 +808,28 @@ Show
     SetBackgroundColor 23 23 0 254 # Rare Highlight Background
     SetBorderColor 254 170 0 127 # Chaos Recipe Border
     SetFontSize 37
+
+# Rare Endgame
+Show
+    Rarity = Rare
+    ItemLevel >= 67
+    SetTextColor 255 255 119 # Rare Text
+    SetBackgroundColor 0 0 0 180 # Junk Background
+
+# Rare Levelling
+Show
+    Rarity = Rare
+    ItemLevel < 67
+    SetTextColor 255 255 119 # Rare Text
+    SetBackgroundColor 0 0 0 254 # Default Background
+
+#Disabled Block Start
+# Rare
+#Hide
+#    Rarity = Rare
+#    SetTextColor 255 255 119 # Rare Text
+#    SetBackgroundColor 0 0 0 254 # Default Background
+#Disabled Block End
 
 # Section: Chisel Recipe
 
