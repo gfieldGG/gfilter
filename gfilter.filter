@@ -352,7 +352,7 @@ Show
 # Gem Tier1
 Show
     Class "Active Skill Gems" "Support Skill Gems"
-    BaseType "Empower" "Enlighten" "Portal"
+    BaseType "Empower" "Enlighten" "Portal" "Added Chaos Damage Support" "Detonate Mines"
     SetTextColor 26 162 155 # Gem Text
     SetBackgroundColor 0 25 15 254 # Gem Highlight Background
     SetBorderColor 26 162 155 # Gem Border
@@ -368,25 +368,26 @@ Show
     SetBorderColor 161 27 123 # Vaal Border
     SetFontSize 37
 
+#Disabled Block Start
+# Gem Aura
+#Show
+#    Class "Skill Gems"
+#    BaseType "Wrath" "Anger" "Hatred" "Clarity" "Determination" "Grace" "Discipline" "Vitality" "Haste" "Purity of" "Herald of" "Arctic Armour" "Blood Rage"
+#    SetTextColor 26 162 155 # Gem Text
+#    SetFontSize 37
+#Disabled Block End
+
 # Gem Support
 Show
     Class "Support Skill Gems"
     SetTextColor 26 162 155 # Gem Text
-    SetBackgroundColor 0 0 0 254 # Default Background
-    SetFontSize 37
-
-# Gem Aura
-Show
-    Class "Skill Gems"
-    BaseType "Wrath" "Anger" "Hatred" "Clarity" "Determination" "Grace" "Discipline" "Vitality" "Haste" "Purity of" "Herald of" "Arctic Armour" "Blood Rage"
-    SetTextColor 26 162 155 # Gem Text
-    SetFontSize 37
+    SetBackgroundColor 0 0 0 180 # Junk Background
 
 # Gem
 Show
     Class "Active Skill Gems"
     SetTextColor 26 162 155 # Gem Text
-    SetBackgroundColor 0 0 0 254 # Default Background
+    SetBackgroundColor 0 0 0 180 # Junk Background
 
 # Section: Maps
 
@@ -1249,7 +1250,7 @@ Show
     ItemLevel <= 18
     SetBackgroundColor 0 0 0 180 # Junk Background
 
-# Normal Boots MS
+# MS Boots Normal
 Show
     Class "Boots"
     ItemLevel <= 28
