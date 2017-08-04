@@ -24,7 +24,7 @@ Show
 Show
     Class "Amulets"
     BaseType "Talisman"
-    SetBackgroundColor 5 23 10 254 # Talisman Hightlight Background
+    SetBackgroundColor 10 46 20 254 # Talisman Hightlight Background
     SetBorderColor 50 230 100 # Talisman Border
     SetFontSize 37
     PlayAlertSound 6 150
