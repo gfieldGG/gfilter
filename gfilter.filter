@@ -83,6 +83,15 @@ Show
     SetFontSize 45
     PlayAlertSound 8 300
 
+# Piece
+Show
+    Class "Piece"
+    SetTextColor 175 96 37 # Unique Text
+    SetBackgroundColor 15 21 42 254 # Harbinger Highlight Background
+    SetBorderColor 88 124 244 # Harbinger Border
+    SetFontSize 41
+    PlayAlertSound 7 150
+
 # Section: Breach
 
 # Breach Splinter
@@ -966,6 +975,15 @@ Show
     SetBackgroundColor 0 0 0 254 # Default Background
     SetFontSize 41
     PlayAlertSound 2 100
+
+# Pantheon Soul
+Show
+    Class "Pantheon Soul"
+    SetTextColor 0 0 0 # Tier1 Text
+    SetBackgroundColor 255 255 119
+    SetBorderColor 255 255 255 # Tier1 Border
+    SetFontSize 45
+    PlayAlertSound 2 300
 
 # Section: RGB Recipe
 
