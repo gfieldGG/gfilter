@@ -39,6 +39,18 @@ Hide
     SetBackgroundColor 0 15 30 254 # Magic Highlight Background
     SetFontSize 37
 
+# Section: Harbinger
+
+#Disabled Block Start
+#Show
+#    Class "Map Fragments"
+#    BaseType "Divine Vessel"
+#    SetTextColor 0 0 0 # Tier1 Text
+#    SetBackgroundColor 88 124 244 # Harbinger Background
+#    SetBorderColor 255 255 255 # Tier1 Border
+#    SetFontSize 45
+#Disabled Block End
+
 # Section: Breach
 
 # Breach Splinter
@@ -309,6 +321,16 @@ Show
 Show
     Class "Divination Card"
     BaseType "The Artist" "The Queen" "The Enlightened" "The Hunger" "The Thaumaturgist" "The Brittle Emperor" "Bowyer's Dream" "The Saint's Treasure" "The Sephirot" "Chaotic Disposition" "The Dapper Prodigy" "The Void" "The Porcupine" "The Wolf" "The Warlord" "The Aesthete" "The Valkyrie" "The Hoarder" "Last Hope" "The Chains that Bind" "Heterochromia" "The Formless Sea" "The Soul" "The Stormcaller"
+    SetTextColor 14 186 255 # Divination Card Text
+    SetBackgroundColor 15 20 20 254 # Divination Card Highlight Background
+    SetBorderColor 14 186 255 # Divination Card Border
+    SetFontSize 41
+    PlayAlertSound 7 150
+
+# Divination Card Tier2
+Show
+    Class "Currency"
+    BaseType "Stacked Deck"
     SetTextColor 14 186 255 # Divination Card Text
     SetBackgroundColor 15 20 20 254 # Divination Card Highlight Background
     SetBorderColor 14 186 255 # Divination Card Border
