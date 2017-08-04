@@ -29,6 +29,16 @@ Show
     SetFontSize 37
     PlayAlertSound 6 150
 
+# Warbands
+Hide
+    Identified True
+    Corrupted False
+    Class "Helmets" Boots Gloves Bow Claw Dagger "One Hand Axe" "One Hand Mace" "One Hand Sword" Sceptre Staves "Thrusting One Hand Sword" "Two Hand Axe" "Two Hand Mace" "Two Hand Sword" Wand
+    Rarity = Magic
+    SetTextColor 136 136 255 # Magic Text
+    SetBackgroundColor 0 15 30 254 # Magic Highlight Background
+    SetFontSize 37
+
 # Section: Breach
 
 # Breach Splinter
