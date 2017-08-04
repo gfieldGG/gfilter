@@ -265,7 +265,6 @@ Show
     BaseType "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Vaal Orb" "Orb of Scouring"
     SetTextColor 200 186 153 # Currency Text
     SetBackgroundColor 35 30 20 254 # Currency Highlight Background
-    SetBorderColor 200 186 153 # Currency Border
     SetFontSize 37
     PlayAlertSound 6 150
 
