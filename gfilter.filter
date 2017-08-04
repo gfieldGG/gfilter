@@ -206,7 +206,7 @@ Show
 Show
     Class "Currency"
     BaseType "Apprentice Cartographer's Seal" "Apprentice Cartographer's Sextant"
-    SetTextColor 255 233 200 # Atlas Text
+    SetTextColor 200 186 153 # Currency Text
     SetBackgroundColor 0 0 0 254 # Default Background
     SetBorderColor 200 200 200 # Apprentice Border
     SetFontSize 37
@@ -216,7 +216,7 @@ Show
 Show
     Class "Currency"
     BaseType "Journeyman Cartographer's Seal" "Journeyman Cartographer's Sextant"
-    SetTextColor 255 233 200 # Atlas Text
+    SetTextColor 200 186 153 # Currency Text
     SetBackgroundColor 0 0 0 254 # Default Background
     SetBorderColor 254 170 0 # Journeyman Border
     SetFontSize 37
@@ -226,7 +226,7 @@ Show
 Show
     Class "Currency"
     BaseType "Master Cartographer's Seal" "Master Cartographer's Sextant"
-    SetTextColor 255 233 200 # Atlas Text
+    SetTextColor 200 186 153 # Currency Text
     SetBackgroundColor 0 0 0 254 # Default Background
     SetBorderColor 191 0 0 # Master Border
     SetFontSize 41
