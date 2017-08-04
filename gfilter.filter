@@ -42,14 +42,46 @@ Hide
 # Section: Harbinger
 
 #Disabled Block Start
+# Harbinger Currency Trash
 #Show
-#    Class "Map Fragments"
-#    BaseType "Divine Vessel"
-#    SetTextColor 0 0 0 # Tier1 Text
-#    SetBackgroundColor 88 124 244 # Harbinger Background
-#    SetBorderColor 255 255 255 # Tier1 Border
-#    SetFontSize 45
+#    Class "Currency"
 #Disabled Block End
+
+# Harbinger Currency T3
+Show
+    Class "Currency"
+    BaseType "Regal Shard" "Chaos Shard" "Horizon Shard" "Engineer's Shard" "Ancient Shard" "Binding Shard" "Engineer's Orb"
+    SetTextColor 88 124 244 # Harbinger Text
+    SetBackgroundColor 15 21 42 254 # Harbinger Highlight Background
+
+# Harbinger Currency T2
+Show
+    Class "Currency"
+    BaseType "Exalted Shard" "Annulment Shard" "Harbinger's Shard" "Ancient Orb" "Orb of Horizons" "Orb of Binding"
+    SetTextColor 88 124 244 # Harbinger Text
+    SetBackgroundColor 15 21 42 254 # Harbinger Highlight Background
+    SetBorderColor 88 124 244 # Harbinger Border
+    SetFontSize 41
+    PlayAlertSound 7 150
+
+# Harbinger Currency T1
+Show
+    Class "Currency"
+    BaseType "Orb of Annulment" "Mirror Shard" "Harbinger's Orb"
+    SetTextColor 0 0 0 # Map Text
+    SetBackgroundColor 200 186 153 254 # Currency Background
+    SetBorderColor 88 124 244 # Harbinger Border
+    SetFontSize 45
+    PlayAlertSound 8 300
+
+Show
+    Class "Map Fragments"
+    BaseType "Divine Vessel"
+    SetTextColor 0 0 0 # Tier1 Text
+    SetBackgroundColor 88 124 244 254 # Harbinger Background
+    SetBorderColor 255 255 255 # Tier1 Border
+    SetFontSize 45
+    PlayAlertSound 8 300
 
 # Section: Breach
 
