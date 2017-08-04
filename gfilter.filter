@@ -763,7 +763,7 @@ Show
 
 # Unique Tier2
 Show
-    BaseType "Granite Flask" "Bismuth Flask" "Fiend Dagger" "Imperial Staff" "Carnal Sceptre" "Siege Axe" "Abyssal Axe" "Sacrificial Garb" "Leather Cap" "Ritual Sceptre" "Judgement Staff" "Vaal Sceptre" "Imperial Maul" "Steelhead" "Carnal Sceptre" "Terror Maul" "Jingling Spirit Shield" "Savant's Robe" "Gladiator Plate" "Vaal Regalia" "Sacrificial Garb" "Archon Kite Shield" "Legion Gloves" "Raven Mask" "Champion Kite Shield" "Nightmare Bascinet" "Clasped Mitts" "Wyrmscale Doublet" "Gold Ring" "Steel Ring" "Opal Ring" "Crystal Belt" "Citrine Amulet"
+    BaseType "Abyssal Axe" "Arcanist Gloves" "Assassin's Garb" "Carnal Sceptre" "Citrine Amulet" "Crystal Belt" "Deicide Mask" "Gold Ring" "Highborn Staff" "Imperial Staff" "Jingling Spirit Shield" "Sacrificial Garb" "Sacrificial Garb" "Silver Flask" "Stibnite Flask" "Trapper Boots" "Ursine Pelt" "Vaal Axe" "Close Helmet"
     Rarity = Unique
     SetTextColor 175 96 37 # Unique Text
     SetBackgroundColor 30 15 0 254 # Unique Highlight Background
@@ -773,7 +773,7 @@ Show
 
 # Unique Tier1
 Show
-    BaseType "Stibnite Flask" "Ruby Flask" "Topaz Flask" "Sapphire Flask" "Silver Flask" "Void Axe" "Prophecy Wand" "Jewelled Foil" "Royal Axe" "Cutlass" "Sorcerer Boots" "Occultist's Vestment" "Crusader Boots" "Rawhide Boots" "Ezomyte Tower Shield" "Deicide Mask" "Glorious Plate" "Ezomyte Burgonet" "Assassin's Garb" "Greatwolf Talisman"
+    BaseType "Bismuth Flask" "Clasped Mitts" "Clutching Talisman" "Crusader Boots" "Cutlass" "Ezomyte Tower Shield" "Full Wyrmscale" "Gladiator Plate" "Glorious Plate" "Greatwolf Talisman" "Hubris Circlet" "Imperial Maul" "Jewelled Foil" "Legion Gloves" "Occultist's Vestment" "Prophecy Wand" "Rawhide Boots" "Ritual Sceptre" "Rotfeather Talisman" "Royal Axe" "Ruby Flask" "Sapphire Flask" "Siege Axe" "Sorcerer Boots" "Topaz Flask" "Vaal Mask" "Void Axe" "Wereclaw Talisman" "Wyrmscale Doublet"
     Rarity = Unique
     SetTextColor 0 0 0 # Tier1 Text
     SetBackgroundColor 175 96 37 254 # Unique Background
