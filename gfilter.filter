@@ -1232,13 +1232,11 @@ Show
 # Section: Obsolete Levelling Bases
 
 Hide
-    Sockets < 3
     DropLevel <= 5
     ItemLevel >= 10
     SetBackgroundColor 0 0 0 0 # Hidden Background
 
 Hide
-    Sockets < 3
     DropLevel <= 10
     ItemLevel >= 15
     SetBackgroundColor 0 0 0 0 # Hidden Background
