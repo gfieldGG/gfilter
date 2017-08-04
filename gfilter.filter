@@ -300,7 +300,7 @@ Show
 # Currency Trash
 Show
     Class "Currency"
-    BaseType "Alteration Shard" "Transmutation Shard" "Alchemy Shard" "Scroll of Wisdom" "Portal Scroll" "Orb of Transmutation" "Scroll Fragment" "Orb of Augmentation"
+    BaseType "Alteration Shard" "Transmutation Shard" "Alchemy Shard" "Scroll of Wisdom" "Portal Scroll" "Orb of Transmutation" "Scroll Fragment" "Orb of Augmentation" "Blacksmith's Whetstone" "Armourer's Scrap"
     SetTextColor 200 186 153 # Currency Text
     SetBackgroundColor 0 0 0 210 # Junk Background
 
