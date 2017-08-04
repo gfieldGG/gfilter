@@ -85,7 +85,7 @@ Show
     Class "Currency"
     BaseType "Silver Coin"
     SetTextColor 200 186 153 # Currency Text
-    SetBackgroundColor 18 0 25 254 # Prophecy Highlight Background
+    SetBackgroundColor 30 0 30 254 # Prophecy Highlight Background
     SetFontSize 37
 
 # Prophecy
@@ -93,7 +93,7 @@ Show
     Class "Currency"
     BaseType "Prophecy"
     SetTextColor 125 0 175 # Prophecy Text
-    SetBackgroundColor 18 0 25 254 # Prophecy Highlight Background
+    SetBackgroundColor 30 0 30 254 # Prophecy Highlight Background
     SetFontSize 37
 
 # Pale Court Key
@@ -101,7 +101,7 @@ Show
     Class "Map Fragments"
     BaseType "Eber's Key" "Inya's Key" "Volkuur's Key" "Yriel's Key"
     SetTextColor 125 0 175 # Prophecy Text
-    SetBackgroundColor 18 0 25 254 # Prophecy Highlight Background
+    SetBackgroundColor 30 0 30 254 # Prophecy Highlight Background
     SetBorderColor 125 0 175 # Prophecy Border
     SetFontSize 41
     PlayAlertSound 6 150
