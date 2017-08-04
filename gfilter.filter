@@ -1206,6 +1206,12 @@ Show
 
 # Section: Levelling Jewelry
 
+# Quiver Levelling
+Show
+    Class "Quivers"
+    ItemLevel < 67
+    SetBackgroundColor 0 0 0 180 # Junk Background
+
 Show
     Class "Ring" "Amulet" "Belt"
     Rarity = Magic
