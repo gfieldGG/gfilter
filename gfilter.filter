@@ -302,7 +302,7 @@ Show
     Class "Currency"
     BaseType "Alteration Shard" "Transmutation Shard" "Alchemy Shard" "Scroll of Wisdom" "Portal Scroll" "Orb of Transmutation" "Scroll Fragment" "Orb of Augmentation"
     SetTextColor 200 186 153 # Currency Text
-    SetBackgroundColor 0 0 0 180 # Junk Background
+    SetBackgroundColor 0 0 0 210 # Junk Background
 
 # Currency Tier4
 Show
@@ -390,7 +390,7 @@ Show
 Show
     Class "Divination Card"
     SetTextColor 14 186 255 # Divination Card Text
-    SetBackgroundColor 0 0 0 180 # Junk Background
+    SetBackgroundColor 0 0 0 210 # Junk Background
 
 # Section: Gems
 
@@ -464,13 +464,13 @@ Show
 Show
     Class "Support Skill Gems"
     SetTextColor 26 162 155 # Gem Text
-    SetBackgroundColor 0 0 0 180 # Junk Background
+    SetBackgroundColor 0 0 0 210 # Junk Background
 
 # Gem
 Show
     Class "Active Skill Gems"
     SetTextColor 26 162 155 # Gem Text
-    SetBackgroundColor 0 0 0 180 # Junk Background
+    SetBackgroundColor 0 0 0 210 # Junk Background
 
 # Section: Maps
 
@@ -897,7 +897,7 @@ Show
     Rarity = Rare
     ItemLevel >= 67
     SetTextColor 255 255 119 # Rare Text
-    SetBackgroundColor 0 0 0 180 # Junk Background
+    SetBackgroundColor 0 0 0 210 # Junk Background
 
 # Rare Levelling
 Show
@@ -1238,7 +1238,7 @@ Show
 # Piety Ring
 Show
     BaseType "Sapphire Ring"
-    ItemLevel <= 18
+    ItemLevel <= 12
     SetBackgroundColor 0 0 0 254 # Default Background
     SetBorderColor 192 255 203 # Levelling Border
     SetFontSize 41
@@ -1276,13 +1276,13 @@ Show
 Show
     Class "Ring" "Amulet" "Belt"
     ItemLevel <= 18
-    SetBackgroundColor 0 0 0 180 # Junk Background
+    SetBackgroundColor 0 0 0 210 # Junk Background
 
 # MS Boots Normal
 Show
     Class "Boots"
     ItemLevel <= 28
-    SetBackgroundColor 0 0 0 180 # Junk Background
+    SetBackgroundColor 0 0 0 210 # Junk Background
 
 # Section: Utility Flasks
 
@@ -1294,7 +1294,7 @@ Show
 
 Show
     Class "Utility Flasks"
-    SetBackgroundColor 0 0 0 180 # Junk Background
+    SetBackgroundColor 0 0 0 210 # Junk Background
 
 # Section: Levelling Jewelry
 
@@ -1302,13 +1302,13 @@ Show
 Show
     Class "Quivers"
     ItemLevel < 67
-    SetBackgroundColor 0 0 0 180 # Junk Background
+    SetBackgroundColor 0 0 0 210 # Junk Background
 
 Show
     Class "Ring" "Amulet" "Belt"
     Rarity = Magic
     ItemLevel < 38
-    SetBackgroundColor 0 0 0 180 # Junk Background
+    SetBackgroundColor 0 0 0 210 # Junk Background
 
 # Section: Obsolete Levelling Bases
 
@@ -1381,67 +1381,67 @@ Hide
 Show
     Class "Bow"
     Rarity <= Magic
-    SetBackgroundColor 0 0 0 180 # Junk Background
+    SetBackgroundColor 0 0 0 210 # Junk Background
 
 Show
     Class "Stave"
     Rarity <= Magic
-    SetBackgroundColor 0 0 0 180 # Junk Background
+    SetBackgroundColor 0 0 0 210 # Junk Background
 
 Show
     Class "Wand"
     Rarity <= Magic
-    SetBackgroundColor 0 0 0 180 # Junk Background
+    SetBackgroundColor 0 0 0 210 # Junk Background
 
 Show
     Class "Two Hand Axe"
     Rarity <= Magic
-    SetBackgroundColor 0 0 0 180 # Junk Background
+    SetBackgroundColor 0 0 0 210 # Junk Background
 
 Show
     Class "Axe"
     Rarity <= Magic
-    SetBackgroundColor 0 0 0 180 # Junk Background
+    SetBackgroundColor 0 0 0 210 # Junk Background
 
 Show
     Class "Dagger"
     Rarity <= Magic
-    SetBackgroundColor 0 0 0 180 # Junk Background
+    SetBackgroundColor 0 0 0 210 # Junk Background
 
 Show
     Class "Two Hand Sword"
     Rarity <= Magic
-    SetBackgroundColor 0 0 0 180 # Junk Background
+    SetBackgroundColor 0 0 0 210 # Junk Background
 
 Show
     Class "Thrusting"
     Rarity <= Magic
-    SetBackgroundColor 0 0 0 180 # Junk Background
+    SetBackgroundColor 0 0 0 210 # Junk Background
 
 Show
     Class "Sword"
     Rarity <= Magic
-    SetBackgroundColor 0 0 0 180 # Junk Background
+    SetBackgroundColor 0 0 0 210 # Junk Background
 
 Show
     Class "Two Hand Mace"
     Rarity <= Magic
-    SetBackgroundColor 0 0 0 180 # Junk Background
+    SetBackgroundColor 0 0 0 210 # Junk Background
 
 Show
     Class "Mace"
     Rarity <= Magic
-    SetBackgroundColor 0 0 0 180 # Junk Background
+    SetBackgroundColor 0 0 0 210 # Junk Background
 
 Show
     Class "Claw"
     Rarity <= Magic
-    SetBackgroundColor 0 0 0 180 # Junk Background
+    SetBackgroundColor 0 0 0 210 # Junk Background
 
 Show
     Class "Sceptre"
     Rarity <= Magic
-    SetBackgroundColor 0 0 0 180 # Junk Background
+    SetBackgroundColor 0 0 0 210 # Junk Background
 
 # Section: Specific Armor Upgrade Toggles
 
@@ -1449,85 +1449,85 @@ Show
 Show
     BaseType "Two-Toned"
     Rarity <= Magic
-    SetBackgroundColor 0 0 0 180 # Junk Background
+    SetBackgroundColor 0 0 0 210 # Junk Background
 
 # STR Armor
 Show
     BaseType "Plate" "Greave" "Burgonet" "Goliath" "Gladiator" "Antique" "Vaal Gauntlet" "Titan Gauntlet" "Steel Gauntlet" "Siege" "Reaver" "Iron Gauntlet" "Hat" "Cone" "Close" "Chestplate" "Bronze Gauntlet" "Barbute" "Ancient Gauntlet" "Samite Helmet" "Spiked Gloves"
     Rarity <= Magic
-    SetBackgroundColor 0 0 0 180 # Junk Background
+    SetBackgroundColor 0 0 0 210 # Junk Background
 
 # DEX Armor
 Show
     BaseType "Tricorne" "Sharkskin" "Pelt" "Hood" "Goathide" "Eelskin" "Stealth" "Slink" "Shagreen" "Rawhide" "Nubuck" "Deerskin" "Zodiac" "Wild" "Thief" "Sun" "Shabby" "Glorious" "Frontier" "Exquisite" "Destiny" "Cutthroat" "Coronal" "Cap" "Buckskin" "Strapped Leather" "Full Leather" "Assassin's Garb" "Gripped Gloves"
     Rarity <= Magic
-    SetBackgroundColor 0 0 0 180 # Junk Background
+    SetBackgroundColor 0 0 0 210 # Junk Background
 
 # INT Armor
 Show
     BaseType "Circlet" "Robe" "Slipper" "Silk" "Vestment" "Regalia" "Conjurer" "Wool" "Velvet" "Sorcerer" "Scholar" "Satin" "Samite" "Cage" "Arcanist" "Embroidered" "Bone Helmet"
     Rarity <= Magic
-    SetBackgroundColor 0 0 0 180 # Junk Background
+    SetBackgroundColor 0 0 0 210 # Junk Background
 
 # STR/INT Armor
 Show
     BaseType "Chainmail" "Ringmail" "Glove" "Crusader" "Crown" "Zealot" "Chain" "Riveted" "Mesh" "Legion" "Hauberk" "Great" "Soldier Boot" "Coif" "Aventail" "Soldier Helmet"
     Rarity <= Magic
-    SetBackgroundColor 0 0 0 180 # Junk Background
+    SetBackgroundColor 0 0 0 210 # Junk Background
 
 # STR/DEX Armor
 Show
     BaseType "Gauntlet" "Brigandine" "Wyrmscale" "Dragonscale" "Scale" "Sallet" "Lamellar" "Helm" "Full" "Bascinet" "Steelscale" "Serpentscale" "Ironscale" "Hydrascale" "Bronzescale" "Leatherscale"
     Rarity <= Magic
-    SetBackgroundColor 0 0 0 180 # Junk Background
+    SetBackgroundColor 0 0 0 210 # Junk Background
 
 # INT/DEX Armor
 Show
     BaseType "Mask" "Boot" "Mitt" "Raiment" "Oiled" "Jacket" "Coat" "Armour" "Padded" "Waxed" "Sadist" "Lacquered"
     Rarity <= Magic
-    SetBackgroundColor 0 0 0 180 # Junk Background
+    SetBackgroundColor 0 0 0 210 # Junk Background
 
 # STR Armor - Shields
 Show
     Class "Shield"
     BaseType "Tower"
     Rarity <= Magic
-    SetBackgroundColor 0 0 0 180 # Junk Background
+    SetBackgroundColor 0 0 0 210 # Junk Background
 
 # DEX Armor - Shields
 Show
     Class "Shield"
     BaseType "Buckler"
     Rarity <= Magic
-    SetBackgroundColor 0 0 0 180 # Junk Background
+    SetBackgroundColor 0 0 0 210 # Junk Background
 
 # INT Armor - Shields
 Show
     Class "Shield"
     BaseType "Spirit"
     Rarity <= Magic
-    SetBackgroundColor 0 0 0 180 # Junk Background
+    SetBackgroundColor 0 0 0 210 # Junk Background
 
 # STR/INT Armor - Shields
 Show
     Class "Shield"
     BaseType "Kite"
     Rarity <= Magic
-    SetBackgroundColor 0 0 0 180 # Junk Background
+    SetBackgroundColor 0 0 0 210 # Junk Background
 
 # STR/DEX Armor - Shields
 Show
     Class "Shield"
     BaseType "Round"
     Rarity <= Magic
-    SetBackgroundColor 0 0 0 180 # Junk Background
+    SetBackgroundColor 0 0 0 210 # Junk Background
 
 # INT/DEX Armor - Shields
 Show
     Class "Shield"
     BaseType "Spike"
     Rarity <= Magic
-    SetBackgroundColor 0 0 0 180 # Junk Background
+    SetBackgroundColor 0 0 0 210 # Junk Background
 
 # Section: Everything else
 
