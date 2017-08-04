@@ -88,6 +88,7 @@ Show
 
 # Pale Court Key
 Show
+    Class "Map Fragments"
     BaseType "Eber's Key" "Inya's Key" "Volkuur's Key" "Yriel's Key"
     SetTextColor 125 0 175 # Prophecy Text
     SetBackgroundColor 18 0 25 254 # Prophecy Highlight Background
@@ -195,9 +196,9 @@ Show
 Show
     Class "Currency"
     BaseType "Apprentice Cartographer's Seal" "Apprentice Cartographer's Sextant"
-    SetTextColor 255 255 255 # Normal Highlight Text
-    SetBackgroundColor 30 30 30 254 # Normal Highlight Background
-    SetBorderColor 200 200 200 # Normal Border
+    SetTextColor 255 233 200 # Atlas Text
+    SetBackgroundColor 0 0 0 254 # Default Background
+    SetBorderColor 200 200 200 # Apprentice Border
     SetFontSize 37
     PlayAlertSound 7 150
 
@@ -205,8 +206,8 @@ Show
 Show
     Class "Currency"
     BaseType "Journeyman Cartographer's Seal" "Journeyman Cartographer's Sextant"
-    SetTextColor 254 170 0 # Journeyman Text
-    SetBackgroundColor 30 30 30 254 # Normal Highlight Background
+    SetTextColor 255 233 200 # Atlas Text
+    SetBackgroundColor 0 0 0 254 # Default Background
     SetBorderColor 254 170 0 # Journeyman Border
     SetFontSize 37
     PlayAlertSound 7 150
@@ -215,11 +216,21 @@ Show
 Show
     Class "Currency"
     BaseType "Master Cartographer's Seal" "Master Cartographer's Sextant"
-    SetTextColor 191 0 0 # Master Text
-    SetBackgroundColor 30 30 30 254 # Normal Highlight Background
+    SetTextColor 255 233 200 # Atlas Text
+    SetBackgroundColor 0 0 0 254 # Default Background
     SetBorderColor 191 0 0 # Master Border
     SetFontSize 41
     PlayAlertSound 7 150
+
+# Guarding Fragments
+Show
+    Class "Map Fragments"
+    BaseType "Fragment of the Chimera" "Fragment of the Hydra" "Fragment of the Minotaur" "Fragment of the Phoenix"
+    SetTextColor 0 0 0 # Map Text
+    SetBackgroundColor 255 233 200 254 # Atlas Background
+    SetBorderColor 0 0 0 # Map Border
+    SetFontSize 45
+    PlayAlertSound 8 300
 
 # Section: Currency
 
@@ -261,7 +272,7 @@ Show
 # Currency Tier1
 Show
     BaseType "Albino Rhoa Feather" "Eternal Orb" "Exalted Orb" "Divine Orb" "Mirror of Kalandra"
-    SetTextColor 0 0 0 # Currency Tier1 Text
+    SetTextColor 0 0 0 # Tier1 Text
     SetBackgroundColor 200 186 153 254 # Currency Background
     SetBorderColor 255 255 255 # Tier1 Border
     SetFontSize 45
@@ -279,7 +290,7 @@ Show
 Show
     Class "Divination Card"
     BaseType "House of Mirrors" "The Doctor" "The Immortal" "The Fiend" "The Offering" "The Last One Standing" "The Dragon's Heart" "Abandoned Wealth" "Mawr Blaidd" "The Celestial Justicar" "The Spark and the Flame" "The Ethereal" "Wealth and Power" "Pride Before the Fall" "The Polymath" "The King's Heart" "Hunter's Reward"
-    SetTextColor 0 0 0 # Currency Tier1 Text
+    SetTextColor 0 0 0 # Tier1 Text
     SetBackgroundColor 14 186 255 254 # Divination Background
     SetBorderColor 255 255 255 # Tier1 Border
     SetFontSize 45
@@ -315,7 +326,7 @@ Show
 Show
     Class "Skill Gems"
     BaseType "Item Quantity Support"
-    SetTextColor 0 0 0 # Currency Tier1 Text
+    SetTextColor 0 0 0 # Tier1 Text
     SetBackgroundColor 26 162 155 254 # Gem Background
     SetBorderColor 255 255 255 # Tier1 Border
     SetFontSize 45
@@ -463,7 +474,7 @@ Show
 Show
     LinkedSockets = 6
     Rarity = Normal
-    SetTextColor 0 0 0 # Currency Tier1 Text
+    SetTextColor 0 0 0 # Tier1 Text
     SetBackgroundColor 200 200 200 254 # Normal Background
     SetBorderColor 255 255 255 # Tier1 Border
     SetFontSize 45
@@ -473,7 +484,7 @@ Show
 Show
     LinkedSockets = 6
     Rarity = Magic
-    SetTextColor 0 0 0 # Currency Tier1 Text
+    SetTextColor 0 0 0 # Tier1 Text
     SetBackgroundColor 136 136 255 254 # Magic Background
     SetBorderColor 255 255 255 # Tier1 Border
     SetFontSize 45
@@ -483,7 +494,7 @@ Show
 Show
     LinkedSockets = 6
     Rarity = Rare
-    SetTextColor 0 0 0 # Currency Tier1 Text
+    SetTextColor 0 0 0 # Tier1 Text
     SetBackgroundColor 255 255 119 254 # Rare Background
     SetBorderColor 255 255 255 # Tier1 Border
     SetFontSize 45
@@ -503,7 +514,7 @@ Show
 Show
     LinkedSockets = 6
     Rarity = Unique
-    SetTextColor 0 0 0 # Currency Tier1 Text
+    SetTextColor 0 0 0 # Tier1 Text
     SetBackgroundColor 175 96 37 254 # Unique Background
     SetBorderColor 255 255 255 # Tier1 Border
     SetFontSize 45
@@ -692,7 +703,7 @@ Show
 Show
     BaseType "Stibnite Flask" "Ruby Flask" "Topaz Flask" "Sapphire Flask" "Silver Flask" "Void Axe" "Prophecy Wand" "Jewelled Foil" "Royal Axe" "Cutlass" "Sorcerer Boots" "Occultist's Vestment" "Crusader Boots" "Rawhide Boots" "Ezomyte Tower Shield" "Deicide Mask" "Glorious Plate" "Ezomyte Burgonet" "Assassin's Garb" "Greatwolf Talisman"
     Rarity = Unique
-    SetTextColor 0 0 0 # Currency Tier1 Text
+    SetTextColor 0 0 0 # Tier1 Text
     SetBackgroundColor 175 96 37 254 # Unique Background
     SetBorderColor 255 255 255 # Tier1 Border
     SetFontSize 45
@@ -764,7 +775,7 @@ Show
     BaseType "Steel Ring" "Opal Ring" "Crystal Belt"
     Rarity = Rare
     ItemLevel >= 84
-    SetTextColor 0 0 0 # Currency Tier1 Text
+    SetTextColor 0 0 0 # Tier1 Text
     SetBackgroundColor 255 255 119 254 # Rare Background
     SetBorderColor 255 255 255 # Tier1 Border
     SetFontSize 45
@@ -879,7 +890,7 @@ Show
 # Offering to the Goddess
 Show
     BaseType "Offering to the Goddess"
-    SetTextColor 0 0 0 # Currency Tier1 Text
+    SetTextColor 0 0 0 # Tier1 Text
     SetBackgroundColor 74 230 58 254 # Quest Background
     SetBorderColor 0 0 0 # Map Border
     SetFontSize 41
