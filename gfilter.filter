@@ -318,7 +318,7 @@ Show
     BaseType "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Vaal Orb" "Orb of Scouring"
     SetTextColor 200 186 153 # Currency Text
     SetBackgroundColor 35 30 20 254 # Currency Highlight Background
-    SetFontSize 37
+    SetFontSize 41
     PlayAlertSound 6 150
 
 # Currency Tier2
@@ -1264,8 +1264,9 @@ Show
 Show
     LinkedSockets = 4
     Class "Helm" "Body" "Boots" "Gloves"
-    ItemLevel < 38
+    ItemLevel <= 28
     SetBackgroundColor 0 0 0 254 # Default Background
+    SetBorderColor 192 255 203 # Levelling Border
     SetFontSize 37
 
 # Pre-Brutus Everything
