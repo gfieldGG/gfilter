@@ -50,38 +50,31 @@ Hide
 # Harbinger Currency T3
 Show
     Class "Currency"
-    BaseType "Regal Shard" "Chaos Shard" "Horizon Shard" "Engineer's Shard" "Ancient Shard" "Binding Shard" "Engineer's Orb"
+    BaseType "Annulment Shard" "Orb of Horizons" "Engineer's Orb" "Orb of Binding"
     SetTextColor 88 124 244 # Harbinger Text
     SetBackgroundColor 15 21 42 254 # Harbinger Highlight Background
+    PlayAlertSound 6 79
 
 # Harbinger Currency T2
 Show
     Class "Currency"
-    BaseType "Exalted Shard" "Annulment Shard" "Harbinger's Shard" "Ancient Orb" "Orb of Horizons" "Orb of Binding"
+    BaseType "Ancient Orb" "Orb of Annulment" "Harbinger's Orb"
     SetTextColor 88 124 244 # Harbinger Text
     SetBackgroundColor 15 21 42 254 # Harbinger Highlight Background
     SetBorderColor 88 124 244 # Harbinger Border
     SetFontSize 41
     PlayAlertSound 7 150
 
+#Disabled Block Start
 # Harbinger Currency T1
-Show
-    Class "Currency"
-    BaseType "Orb of Annulment" "Mirror Shard" "Harbinger's Orb"
-    SetTextColor 0 0 0 # Map Text
-    SetBackgroundColor 200 186 153 254 # Currency Background
-    SetBorderColor 88 124 244 # Harbinger Border
-    SetFontSize 45
-    PlayAlertSound 8 300
-
-Show
-    Class "Map Fragments"
-    BaseType "Divine Vessel"
-    SetTextColor 0 0 0 # Tier1 Text
-    SetBackgroundColor 88 124 244 254 # Harbinger Background
-    SetBorderColor 255 255 255 # Tier1 Border
-    SetFontSize 45
-    PlayAlertSound 8 300
+#Show
+#    Class "Currency"
+#    SetTextColor 0 0 0 # Map Text
+#    SetBackgroundColor 200 186 153 254 # Currency Background
+#    SetBorderColor 88 124 244 # Harbinger Border
+#    SetFontSize 45
+#    PlayAlertSound 8 300
+#Disabled Block End
 
 # Piece
 Show
@@ -157,7 +150,7 @@ Show
     SetBackgroundColor 30 0 30 254 # Prophecy Highlight Background
     SetBorderColor 125 0 175 # Prophecy Border
     SetFontSize 41
-    PlayAlertSound 6 150
+    PlayAlertSound 7 150
 
 # Section: Essences
 
@@ -324,7 +317,7 @@ Show
 # Currency Tier2
 Show
     Class "Currency"
-    BaseType "Chaos Orb" "Orb of Regret" "Regal Orb" "Gemcutter's Prism"
+    BaseType "Chaos Orb" "Orb of Regret" "Regal Orb" "Gemcutter's Prism" "Exalted Shard"
     SetTextColor 200 186 153 # Currency Text
     SetBackgroundColor 35 30 20 254 # Currency Highlight Background
     SetBorderColor 200 186 153 # Currency Border
@@ -333,7 +326,7 @@ Show
 
 # Currency Tier1
 Show
-    BaseType "Albino Rhoa Feather" "Eternal Orb" "Exalted Orb" "Divine Orb" "Mirror of Kalandra"
+    BaseType "Albino Rhoa Feather" "Eternal Orb" "Exalted Orb" "Divine Orb" "Mirror of Kalandra" "Mirror Shard"
     SetTextColor 0 0 0 # Tier1 Text
     SetBackgroundColor 200 186 153 254 # Currency Background
     SetBorderColor 255 255 255 # Tier1 Border
@@ -491,6 +484,17 @@ Show
     SetBackgroundColor 30 0 15 254 # Vaal Highlight Background
     SetBorderColor 161 27 123 # Vaal Border
     SetFontSize 37
+    PlayAlertSound 6 79
+
+# Divine Vessel
+Show
+    Class "Map Fragments"
+    BaseType "Divine Vessel"
+    SetTextColor 255 255 119
+    SetBackgroundColor 0 0 0 254 # Default Background
+    SetBorderColor 255 255 119
+    SetFontSize 41
+    PlayAlertSound 7 300
 
 # Map Fragments
 Show
@@ -753,7 +757,7 @@ Show
 
 # Unique Tier?
 Show
-    BaseType "Ebony Tower Shield" "Goathide Boots" "Gold Amulet" "Moonstone Ring" "Onyx Amulet" "Two-Stone Ring"  "Vaal Axe"
+    BaseType "Ebony Tower Shield" "Goathide Boots" "Gold Amulet" "Moonstone Ring" "Onyx Amulet" "Two-Stone Ring" "Vaal Axe"
     Rarity = Unique
     SetTextColor 175 96 37 # Unique Text
     SetBackgroundColor 30 15 0 254 # Unique Highlight Background
