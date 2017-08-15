@@ -368,7 +368,7 @@ Show
     SetFontSize 41
     PlayAlertSound 7 150
 
-# Divination Card Tier2
+# Divination Card Stacked Deck
 Show
     Class "Currency"
     BaseType "Stacked Deck"
@@ -753,7 +753,7 @@ Show
 
 # Unique Tier?
 Show
-    BaseType "Two-Stone Ring" "Ebony Tower Shield" "Onyx Amulet" "Goathide Boots" "Moonstone Ring" "Gold Amulet"
+    BaseType "Ebony Tower Shield" "Goathide Boots" "Gold Amulet" "Moonstone Ring" "Onyx Amulet" "Two-Stone Ring"  "Vaal Axe"
     Rarity = Unique
     SetTextColor 175 96 37 # Unique Text
     SetBackgroundColor 30 15 0 254 # Unique Highlight Background
@@ -763,7 +763,7 @@ Show
 
 # Unique Tier2
 Show
-    BaseType "Abyssal Axe" "Arcanist Gloves" "Assassin's Garb" "Carnal Sceptre" "Citrine Amulet" "Crystal Belt" "Deicide Mask" "Gold Ring" "Highborn Staff" "Imperial Staff" "Jingling Spirit Shield" "Sacrificial Garb" "Sacrificial Garb" "Silver Flask" "Stibnite Flask" "Trapper Boots" "Ursine Pelt" "Vaal Axe" "Close Helmet"
+    BaseType "Abyssal Axe" "Ancient Gauntlets" "Arcanist Gloves" "Arcanist Slippers" "Assassin's Garb" "Auric Mace" "Bismuth Flask" "Carnal Sceptre" "Champion Kite Shield" "Citrine Amulet" "Cloth Belt Piece" "Corrugated Buckler" "Crystal Belt" "Deicide Mask" "Despot Axe" "Exquisite Leather" "Ezomyte Burgonet" "Highborn Staff" "Imperial Skean" "Imperial Staff" "Jewelled Foil" "Jingling Spirit Shield" "Meatgrinder" "Mosaic Kite Shield" "Nightmare Bascinet" "Opal Wand" "Pinnacle Tower Shield" "Rawhide Tower Shield" "Sacrificial Garb" "Sacrificial Garb" "Stibnite Flask" "Terror Maul" "Ursine Pelt" "Vaal Mask" "Vaal Sceptre" "Vanguard Belt" "Varnished Coat" "War Sword" "Wereclaw Talisman" "Wyrmscale Doublet" "Zealot Gloves" "Maelstr"
     Rarity = Unique
     SetTextColor 175 96 37 # Unique Text
     SetBackgroundColor 30 15 0 254 # Unique Highlight Background
@@ -773,7 +773,7 @@ Show
 
 # Unique Tier1
 Show
-    BaseType "Bismuth Flask" "Clasped Mitts" "Clutching Talisman" "Crusader Boots" "Cutlass" "Ezomyte Tower Shield" "Full Wyrmscale" "Gladiator Plate" "Glorious Plate" "Greatwolf Talisman" "Hubris Circlet" "Imperial Maul" "Jewelled Foil" "Legion Gloves" "Occultist's Vestment" "Prophecy Wand" "Rawhide Boots" "Ritual Sceptre" "Rotfeather Talisman" "Royal Axe" "Ruby Flask" "Sapphire Flask" "Siege Axe" "Sorcerer Boots" "Topaz Flask" "Vaal Mask" "Void Axe" "Wereclaw Talisman" "Wyrmscale Doublet"
+    BaseType "Clasped Mitts" "Close Helmet" "Clutching Talisman" "Crusader Boots" "Cutlass" "Eternal Sword" "Ezomyte Tower Shield" "Full Wyrmscale" "Gladiator Plate" "Glorious Plate" "Greatwolf Talisman" "Imperial Maul" "Legion Gloves" "Occultist's Vestment" "Prophecy Wand" "Rawhide Boots" "Ritual Sceptre" "Rotfeather Talisman" "Royal Axe" "Ruby Flask" "Sapphire Flask" "Siege Axe" "Sorcerer Boots" "Topaz Flask" "Void Axe"
     Rarity = Unique
     SetTextColor 0 0 0 # Tier1 Text
     SetBackgroundColor 175 96 37 254 # Unique Background
