@@ -49,11 +49,12 @@ Show
 
 # Section: Harbinger
 
-#Disabled Block Start
 # Harbinger Currency Trash
-#Show
-#    Class "Currency"
-#Disabled Block End
+Show
+    Class "Currency"
+    BaseType "Binding Shard" "Horizon Shard" "Harbinger's Shard" "Engineer's Shard" "Ancient Shard" "Chaos Shard" "Regal Shard"
+    SetTextColor 88 124 244 # Harbinger Text
+    SetBackgroundColor 0 0 0 254 # Default Background
 
 # Harbinger Currency T3
 Show
