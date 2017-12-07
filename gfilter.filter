@@ -29,7 +29,7 @@ Show
     SetFontSize 37
     PlayAlertSound 6 150
 
-# Warbands
+# Warband Item
 Hide
     Identified True
     Corrupted False
@@ -66,23 +66,22 @@ Show
 # Harbinger Currency T2
 Show
     Class "Currency"
-    BaseType "Ancient Orb" "Orb of Annulment" "Harbinger's Orb"
+    BaseType "Ancient Orb" "Harbinger's Orb" "Exalted Shard"
     SetTextColor 88 124 244 # Harbinger Text
     SetBackgroundColor 15 21 42 254 # Harbinger Highlight Background
     SetBorderColor 88 124 244 # Harbinger Border
     SetFontSize 41
     PlayAlertSound 7 150
 
-#Disabled Block Start
 # Harbinger Currency T1
-#Show
-#    Class "Currency"
-#    SetTextColor 0 0 0 # Map Text
-#    SetBackgroundColor 200 186 153 254 # Currency Background
-#    SetBorderColor 88 124 244 # Harbinger Border
-#    SetFontSize 45
-#    PlayAlertSound 8 300
-#Disabled Block End
+Show
+    Class "Currency"
+    BaseType "Mirror Shard"
+    SetTextColor 88 124 244 # Harbinger Text
+    SetBackgroundColor 15 21 42 254 # Harbinger Highlight Background
+    SetBorderColor 255 255 255 # Tier1 Border
+    SetFontSize 45
+    PlayAlertSound 8 300
 
 # Piece
 Show
@@ -325,7 +324,7 @@ Show
 # Currency Tier2
 Show
     Class "Currency"
-    BaseType "Chaos Orb" "Orb of Regret" "Regal Orb" "Gemcutter's Prism" "Exalted Shard"
+    BaseType "Chaos Orb" "Orb of Regret" "Regal Orb" "Gemcutter's Prism" "Orb of Annulment"
     SetTextColor 200 186 153 # Currency Text
     SetBackgroundColor 35 30 20 254 # Currency Highlight Background
     SetBorderColor 200 186 153 # Currency Border
@@ -334,7 +333,7 @@ Show
 
 # Currency Tier1
 Show
-    BaseType "Albino Rhoa Feather" "Eternal Orb" "Exalted Orb" "Divine Orb" "Mirror of Kalandra" "Mirror Shard"
+    BaseType "Albino Rhoa Feather" "Eternal Orb" "Exalted Orb" "Divine Orb" "Mirror of Kalandra"
     SetTextColor 0 0 0 # Tier1 Text
     SetBackgroundColor 200 186 153 254 # Currency Background
     SetBorderColor 255 255 255 # Tier1 Border
