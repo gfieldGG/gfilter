@@ -165,7 +165,7 @@ Show
 	SetBackgroundColor 30 34 26 255 # Abyss Highlight Background
 	SetBorderColor 169 189 149 255 # Abyss Border
 	SetFontSize 45
-	PlayAlertSound 14 300
+	PlayAlertSound 7 150
 
 # Stygian Vise
 Show
@@ -174,7 +174,7 @@ Show
 	SetBackgroundColor 30 34 26 255 # Abyss Highlight Background
 	SetBorderColor 169 189 149 255 # Abyss Border
 	SetFontSize 41
-	PlayAlertSound 7 150
+	PlayAlertSound 6 150
 
 # Section: Harbinger
 
@@ -995,7 +995,7 @@ Show
 
 # Section: Rares
 
-# Rare Atlas ilvl84 
+# Rare Atlas ilvl84
 Show
 	BaseType "Steel Ring" "Opal Ring" "Crystal Belt"
 	Rarity = Rare
