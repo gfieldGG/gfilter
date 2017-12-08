@@ -41,7 +41,7 @@ Hide
 
 # Section: WAR FOR THE ATLAS
 
-# Elder Atlas Tier1
+# Elder Atlas
 Show
 	ElderItem True
 	BaseType "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Crystal Belt"
@@ -52,7 +52,7 @@ Show
 	SetFontSize 45
 	PlayAlertSound 8 300
 
-# Shaper Atlas Tier1
+# Shaper Atlas
 Show
 	ShaperItem True
 	BaseType "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Crystal Belt"
@@ -63,7 +63,7 @@ Show
 	SetFontSize 45
 	PlayAlertSound 8 300
 
-# Elder Bases Tier1
+# Elder Base Tier1
 Show
 	ElderItem True
 	BaseType "Onyx Amulet" "Diamond" "Two-Stone" "Titan Gauntlets" "Slink Gloves" "Royal Burgonet" "Lion Pelt" "Titan Greaves" "Slink Boots" "Hubris Circlet" "Profane Wand" "Sambar Sceptre" "Void Sceptre" "Imbued Wand" "Pinnacle Tower Shield" "Kris" "Prismatic" "Astral Plate" "Assassin's Garb" "Vaal Axe" "Coronal Maul" "Exquisite Blade" "Fleshripper" "Harbinger Bow" "Gemini Claw" "Ambusher" "Siege Axe" "Harpy Rapier" "Demon Dagger" "Skean" "Spiraled Foil" "Jewelled Foil" "Profane Wand" "Sambar Sceptre" "Void Sceptre" "Imbued Wand" "Pinnacle Tower Shield" "Kris" "Prismatic" "Astral Plate" "Assassin's Garb"
@@ -75,7 +75,7 @@ Show
 	SetFontSize 45
 	PlayAlertSound 8 300
 
-# Shaper Bases Tier1
+# Shaper Base Tier1
 Show
 	ShaperItem True
 	BaseType "Onyx Amulet" "Diamond" "Two-Stone" "Titan Gauntlets" "Slink Gloves" "Royal Burgonet" "Lion Pelt" "Titan Greaves" "Slink Boots" "Hubris Circlet" "Profane Wand" "Sambar Sceptre" "Void Sceptre" "Imbued Wand" "Pinnacle Tower Shield" "Kris" "Prismatic" "Astral Plate" "Assassin's Garb" "Vaal Axe" "Coronal Maul" "Exquisite Blade" "Fleshripper" "Harbinger Bow" "Gemini Claw" "Ambusher" "Siege Axe" "Harpy Rapier" "Demon Dagger" "Skean" "Spiraled Foil" "Jewelled Foil" "Profane Wand" "Sambar Sceptre" "Void Sceptre" "Imbued Wand" "Pinnacle Tower Shield" "Kris" "Prismatic" "Astral Plate" "Assassin's Garb"
