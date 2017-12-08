@@ -39,6 +39,94 @@ Hide
 	SetBackgroundColor 0 15 30 254 # Magic Highlight Background
 	SetFontSize 37
 
+# Section: WAR FOR THE ATLAS
+
+# Elder Atlas Tier1
+Show
+	ElderItem True
+	BaseType "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Crystal Belt"
+	Rarity <= Rare
+	SetTextColor 159 0 0 255 # Shelder Text
+	SetBackgroundColor 50 0 50 254 # Shelder Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45
+	PlayAlertSound 8 300
+
+# Shaper Atlas Tier1
+Show
+	ShaperItem True
+	BaseType "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Crystal Belt"
+	Rarity <= Rare
+	SetTextColor 159 0 0 255 # Shelder Text
+	SetBackgroundColor 50 0 50 254 # Shelder Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45
+	PlayAlertSound 8 300
+
+# Elder Bases Tier1
+Show
+	ElderItem True
+	BaseType "Onyx Amulet" "Diamond" "Two-Stone" "Titan Gauntlets" "Slink Gloves" "Royal Burgonet" "Lion Pelt" "Titan Greaves" "Slink Boots" "Hubris Circlet" "Profane Wand" "Sambar Sceptre" "Void Sceptre" "Imbued Wand" "Pinnacle Tower Shield" "Kris" "Prismatic" "Astral Plate" "Assassin's Garb" "Vaal Axe" "Coronal Maul" "Exquisite Blade" "Fleshripper" "Harbinger Bow" "Gemini Claw" "Ambusher" "Siege Axe" "Harpy Rapier" "Demon Dagger" "Skean" "Spiraled Foil" "Jewelled Foil" "Profane Wand" "Sambar Sceptre" "Void Sceptre" "Imbued Wand" "Pinnacle Tower Shield" "Kris" "Prismatic" "Astral Plate" "Assassin's Garb"
+	Rarity <= Rare
+	ItemLevel >= 84
+	SetTextColor 159 0 0 255 # Shelder Text
+	SetBackgroundColor 50 0 50 254 # Shelder Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45
+	PlayAlertSound 8 300
+
+# Shaper Bases Tier1
+Show
+	ShaperItem True
+	BaseType "Onyx Amulet" "Diamond" "Two-Stone" "Titan Gauntlets" "Slink Gloves" "Royal Burgonet" "Lion Pelt" "Titan Greaves" "Slink Boots" "Hubris Circlet" "Profane Wand" "Sambar Sceptre" "Void Sceptre" "Imbued Wand" "Pinnacle Tower Shield" "Kris" "Prismatic" "Astral Plate" "Assassin's Garb" "Vaal Axe" "Coronal Maul" "Exquisite Blade" "Fleshripper" "Harbinger Bow" "Gemini Claw" "Ambusher" "Siege Axe" "Harpy Rapier" "Demon Dagger" "Skean" "Spiraled Foil" "Jewelled Foil" "Profane Wand" "Sambar Sceptre" "Void Sceptre" "Imbued Wand" "Pinnacle Tower Shield" "Kris" "Prismatic" "Astral Plate" "Assassin's Garb"
+	Rarity <= Rare
+	ItemLevel >= 84
+	SetTextColor 159 0 0 255 # Shelder Text
+	SetBackgroundColor 50 0 50 254 # Shelder Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45
+	PlayAlertSound 8 300
+
+# Elder Tier2
+Show
+	ElderItem True
+	Class "Boots" "Gloves" "Belt" "Ring" "Amulet" "Helmet" "Dagger" "Sceptre" "Wand"
+	Rarity <= Rare
+	ItemLevel >= 84
+	SetTextColor 159 0 0 255 # Shelder Text
+	SetBackgroundColor 50 0 50 254 # Shelder Background
+	SetFontSize 45
+	PlayAlertSound 14 300
+
+# Shaper Tier2
+Show
+	ShaperItem True
+	Class "Boots" "Gloves" "Belt" "Ring" "Amulet" "Helmet" "Dagger" "Sceptre" "Wand"
+	Rarity <= Rare
+	ItemLevel >= 84
+	SetTextColor 159 0 0 255 # Shelder Text
+	SetBackgroundColor 50 0 50 254 # Shelder Background
+	SetFontSize 45
+	PlayAlertSound 14 300
+
+# Elder
+Show
+	ElderItem True
+	Rarity <= Rare
+	SetTextColor 159 0 0 255 # Shelder Text
+	SetBackgroundColor 50 0 50 254 # Shelder Background
+	SetFontSize 41
+	PlayAlertSound 7 150
+
+# Shaper
+Show
+	ShaperItem True
+	Rarity <= Rare
+	SetTextColor 159 0 0 255 # Shelder Text
+	SetBackgroundColor 50 0 50 254 # Shelder Background
+	SetFontSize 41
+	PlayAlertSound 7 150
+
 # Section: ABYSS
 
 # Abyss Jewel ilvl84
