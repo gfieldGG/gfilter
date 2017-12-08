@@ -521,7 +521,7 @@ Show
 	SetBackgroundColor 0 0 0 254 # Default Background
 	SetBorderColor 255 255 119 255
 	SetFontSize 41
-	PlayAlertSound 7 300
+	PlayAlertSound 7 150
 
 # Map Fragments
 Show
@@ -581,7 +581,7 @@ Show
 	SetBackgroundColor 200 200 200 254 # Normal Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
-	PlayAlertSound 8 300
+	PlayAlertSound 14 300
 
 # 6 Link Magic
 Show
@@ -591,7 +591,7 @@ Show
 	SetBackgroundColor 136 136 255 254 # Magic Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
-	PlayAlertSound 8 300
+	PlayAlertSound 14 300
 
 # 6 Link Rare
 Show
@@ -601,7 +601,7 @@ Show
 	SetBackgroundColor 255 255 119 254 # Rare Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
-	PlayAlertSound 8 300
+	PlayAlertSound 14 300
 
 # Tabula Rasa
 Show
@@ -621,7 +621,7 @@ Show
 	SetBackgroundColor 175 96 37 254 # Unique Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
-	PlayAlertSound 8 300
+	PlayAlertSound 14 300
 
 # Section: 5 Links
 
@@ -769,22 +769,20 @@ Show
 
 # Section: Chancing
 
-#Disabled Block Start
-# Chance Headhunter
-#Show
-#	BaseType "Leather Belt"
-#	Rarity = Normal
-#	SetTextColor 200 200 200 255 # Normal Text
-#	SetBackgroundColor 0 0 0 254 # Default Background
-#	SetBorderColor 0 0 254 255 # Crafting Border
-#	SetFontSize 37
-#Disabled Block End
+# Chance Bases
+Show
+	BaseType "Ebony Tower Shield" "Glorious Plate" "Gold Amulet" "Rawhide Tower Shield" "Sorcerer Boots" "Full Wyrmscale"
+	Rarity = Normal
+	SetTextColor 200 200 200 255 # Normal Text
+	SetBackgroundColor 0 0 0 254 # Default Background
+	SetBorderColor 0 0 254 255 # Crafting Border
+	SetFontSize 37
 
 # Section: Uniques
 
 # Unique Tier?
 Show
-	BaseType "Ebony Tower Shield" "Goathide Boots" "Gold Amulet" "Moonstone Ring" "Onyx Amulet" "Two-Stone Ring" "Vaal Axe"
+	BaseType "Ebony Tower Shield" "Exquisite Leather" "Goathide Boots" "Gold Amulet" "Gold Ring" "Imperial Bow" "Onyx Amulet" "Sorcerer Boots" "Stibnite Flask" "Carved Wand" "Unset Ring"
 	Rarity = Unique
 	SetTextColor 175 96 37 255 # Unique Text
 	SetBackgroundColor 30 15 0 254 # Unique Highlight Background
@@ -794,7 +792,7 @@ Show
 
 # Unique Tier2
 Show
-	BaseType "Abyssal Axe" "Ancient Gauntlets" "Arcanist Gloves" "Arcanist Slippers" "Assassin's Garb" "Auric Mace" "Bismuth Flask" "Carnal Sceptre" "Champion Kite Shield" "Citrine Amulet" "Cloth Belt Piece" "Corrugated Buckler" "Crystal Belt" "Deicide Mask" "Despot Axe" "Exquisite Leather" "Ezomyte Burgonet" "Highborn Staff" "Imperial Skean" "Imperial Staff" "Jewelled Foil" "Jingling Spirit Shield" "Meatgrinder" "Mosaic Kite Shield" "Nightmare Bascinet" "Opal Wand" "Pinnacle Tower Shield" "Rawhide Tower Shield" "Sacrificial Garb" "Sacrificial Garb" "Stibnite Flask" "Terror Maul" "Ursine Pelt" "Vaal Mask" "Vaal Sceptre" "Vanguard Belt" "Varnished Coat" "War Sword" "Wereclaw Talisman" "Wyrmscale Doublet" "Zealot Gloves" "Maelstr"
+	BaseType "Abyssal Axe" "Arcanist Gloves" "Assassin's Garb" "Bismuth Flask" "Champion Kite Shield" "Citrine Amulet" "Corrugated Buckler" "Crystal Belt" "Cutlass" "Deicide Mask" "Ezomyte Burgonet" "Granite Flask" "Hellion's Paw" "Highborn Staff" "Imperial Claw" "Imperial Staff" "Ironscale Gauntlets" "Jewelled Foil" "Jingling Spirit Shield" "Maelstr" "Meatgrinder" "Mosaic Kite Shield" "Necromancer Silks" "Nightmare Bascinet" "Penetrating Arrow Quiver" "Regicide Mask" "Sacrificial Garb" "Sacrificial Garb" "Sharkskin Tunic" "Terror Maul" "Tornado Wand" "Ursine Pelt" "Vaal Sceptre" "Vanguard Belt" "Nubuck Gloves"
 	Rarity = Unique
 	SetTextColor 175 96 37 255 # Unique Text
 	SetBackgroundColor 30 15 0 254 # Unique Highlight Background
@@ -804,7 +802,7 @@ Show
 
 # Unique Tier1
 Show
-	BaseType "Clasped Mitts" "Close Helmet" "Clutching Talisman" "Crusader Boots" "Cutlass" "Eternal Sword" "Ezomyte Tower Shield" "Full Wyrmscale" "Gladiator Plate" "Glorious Plate" "Greatwolf Talisman" "Imperial Maul" "Legion Gloves" "Occultist's Vestment" "Prophecy Wand" "Rawhide Boots" "Ritual Sceptre" "Rotfeather Talisman" "Royal Axe" "Ruby Flask" "Sapphire Flask" "Siege Axe" "Sorcerer Boots" "Topaz Flask" "Void Axe"
+	BaseType "Arcanist Slippers" "Callous Mask" "Carnal Sceptre" "Cedar Tower Shield" "Clasped Mitts" "Close Helmet" "Clutching Talisman" "Crusader Boots" "Ezomyte Tower Shield" "Full Wyrmscale" "Glorious Plate" "Grand Mana Flask" "Greatwolf Talisman" "Imperial Maul" "Legion Gloves" "Occultist's Vestment" "Prophecy Wand" "Raven Mask" "Rawhide Boots" "Rawhide Tower Shield" "Ritual Sceptre" "Rotfeather Talisman" "Royal Axe" "Ruby Flask" "Sanctified Life Flask" "Sanctified Mana Flask" "Sapphire Flask" "Siege Axe" "Steelhead" "Thorium Spirit Shield" "Topaz Flask" "Varnished Coat" "Void Axe" "Wereclaw Talisman" "Wyrmscale Doublet"
 	Rarity = Unique
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 175 96 37 254 # Unique Background

@@ -22,6 +22,7 @@ rgb(255,255,0,0)
 
 
 Style Tiers
+	Sounds should be strict, visuals can be adjusted depending on item type (e.g. Font Size for easier pickup or using solid backgrounds for items ~1ex if there's few high tier items of that class)
 	T1 ]1ex
 		Solid Color Background
 		White Border
