@@ -134,7 +134,7 @@ Show
 	SetBackgroundColor 100 0 0 254 # Breach Background
 	SetBorderColor 74 0 160 255 # Breach Border
 	SetFontSize 45
-	PlayAlertSound 8 300
+	PlayAlertSound 14 300
 
 # Breach Ring
 Show
@@ -306,7 +306,7 @@ Show
 	SetBackgroundColor 255 233 200 254 # Atlas Background
 	SetBorderColor 0 0 0 255 # Map Border
 	SetFontSize 45
-	PlayAlertSound 8 300
+	PlayAlertSound 14 300
 
 # Section: Currency
 
@@ -317,36 +317,43 @@ Show
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
 
-# Currency Tier4
+# Currency Tier5
 Show
 	Class "Currency"
 	BaseType "Jeweller's Orb" "Orb of Chance" "Orb of Alteration" "Chromatic Orb"
 	SetTextColor 200 186 153 255 # Currency Text
-	SetBackgroundColor 0 0 0 254 # Default Background
-	SetFontSize 37
+	SetBackgroundColor 35 30 20 254 # Currency Highlight Background
 
-# Currency Tier3
+# Currency Tier4
 Show
 	Class "Currency"
 	BaseType "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Vaal Orb" "Orb of Scouring"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 254 # Currency Highlight Background
-	SetFontSize 41
+	SetFontSize 37
 	PlayAlertSound 6 150
 
-# Currency Tier2
+# Currency Tier3
 Show
 	Class "Currency"
 	BaseType "Chaos Orb" "Orb of Regret" "Regal Orb" "Gemcutter's Prism" "Orb of Annulment"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 254 # Currency Highlight Background
-	SetBorderColor 200 186 153 255 # Currency Border
 	SetFontSize 41
 	PlayAlertSound 7 150
 
+# Currency Tier2
+Show
+	BaseType "Divine Orb" "Exalted Orb"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 35 30 20 254 # Currency Highlight Background
+	SetBorderColor 200 186 153 255 # Currency Border
+	SetFontSize 45
+	PlayAlertSound 14 300
+
 # Currency Tier1
 Show
-	BaseType "Albino Rhoa Feather" "Eternal Orb" "Exalted Orb" "Divine Orb" "Mirror of Kalandra"
+	BaseType "Albino Rhoa Feather" "Eternal Orb" "Mirror of Kalandra"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 200 186 153 254 # Currency Background
 	SetBorderColor 255 255 255 255 # Tier1 Border

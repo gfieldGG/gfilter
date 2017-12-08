@@ -1,0 +1,60 @@
+ilvl <67: Before Dried Lake (levelling)
+ilvl >=67: Start in Dried Lake (farming/mapping)
+ilvl >=68: Start in Maps (mapping)
+ilvl <68: Before Maps (levelling/farming)
+
+Font Size
+32 (Default/Unchanged)
+37
+41
+45
+
+Sounds
+6 (T4)
+7 (T3)
+14(T2)
+8 (T1)
+4 (Map)
+2 (Quest)
+
+Colors
+rgb(255,255,0,0)
+
+
+Style Tiers
+	T1 ]1ex
+		Solid Color Background
+		White Border
+		Black Text
+		Size 45
+		Sound 8 300
+
+	T2 [10c-1ex]
+		Highlight Background
+		Color Border
+		Color Text
+		Size 45
+		Sound 14 300
+
+	T3 [1c-10c[
+		Highlight Background
+		Color Text
+		Size 41
+		Sound 7 150
+		
+
+	T4 [1alch-1c[
+		Highlight Background
+		Color Text
+		Size 37
+		Sound 6 150
+
+	T5 (meh but small)
+		Highlight Background
+		Color Text
+		Size 32
+
+	Trash
+		Transparent Background
+		Color Text
+		Size 32
