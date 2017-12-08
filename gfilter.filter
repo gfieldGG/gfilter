@@ -371,7 +371,7 @@ Show
 # Divination Card Tier1
 Show
 	Class "Divination Card"
-	BaseType "House of Mirrors" "The Doctor" "The Immortal" "The Fiend" "The Offering" "The Last One Standing" "The Dragon's Heart" "Abandoned Wealth" "Mawr Blaidd" "The Celestial Justicar" "The Spark and the Flame" "The Ethereal" "Wealth and Power" "Pride Before the Fall" "The Polymath" "The King's Heart" "Hunter's Reward"
+	BaseType "Abandoned Wealth" "Bowyer's Dream" "House of Mirrors" "Hunter's Reward" "Mawr Blaidd" "Polymath" "Pride Before the Fall" "Spark and the Flame" "The Artist" "The Brittle Emperor" "The Celestial Justicar" "The Doctor" "The Dragon's Heart" "The Enlightened" "The Fiend" "The Formless Sea" "The Hunger" "The Immortal" "The King's Heart" "The Last One Standing" "The Offering" "The Queen" "The Spark and the Flame" "The Standoff" "The Thaumaturgist" "The Valkyrie" "The Vast" "Wealth and Power"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 14 186 255 254 # Divination Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -381,7 +381,7 @@ Show
 # Divination Card Tier2
 Show
 	Class "Divination Card"
-	BaseType "The Artist" "The Queen" "The Enlightened" "The Hunger" "The Thaumaturgist" "The Brittle Emperor" "Bowyer's Dream" "The Saint's Treasure" "The Sephirot" "Chaotic Disposition" "The Dapper Prodigy" "The Void" "The Porcupine" "The Wolf" "The Warlord" "The Aesthete" "The Valkyrie" "The Hoarder" "Last Hope" "The Chains that Bind" "Heterochromia" "The Formless Sea" "The Soul" "The Stormcaller"
+	BaseType "Chaotic Disposition" "Emperor of Purity" "Heterochromia" "Last Hope" "Lucky Deck" "Saint's Treasure" "The Cartographer" "The Chains that Bind" "The Dapper Prodigy" "The Ethereal" "The Forsaken" "The Hoarder" "The Risk" "The Saint's Treasure" "The Sephirot" "The Soul" "The Valley of Steel Boxes" "The Void" "The Wind" "The Wolf" "The Wolven King's Bite" "The Wretched"
 	SetTextColor 14 186 255 255 # Divination Card Text
 	SetBackgroundColor 15 20 20 254 # Divination Card Highlight Background
 	SetBorderColor 14 186 255 255 # Divination Card Border
@@ -401,10 +401,17 @@ Show
 # Divination Card Tier3
 Show
 	Class "Divination Card"
-	BaseType "Merciless Armament" "The Dark Mage" "A Mother's Parting Gift" "The Valley of Steel Boxes" "The Forsaken" "Lucky Deck" "The Risk" "Emperor of Purity" "The Cursed King" "The Poet" "Time-Lost Relic" "The Harvester" "The Wretched" "Earth Drinker" "Vinia's Token" "The Conduit" "The Cartographer" "The Spoiled Prince" "The Jester" "The Arena Champion" "The Siren" "The Explorer" "The Survivalist" "The Avenger" "Atziri's Arsenal" "The Pact" "The Wolven King's Bite" "Lucky Connections" "The Wrath" "The Opulent" "Dialla's Subjugation" "Gift of the Gemling Queen" "The Union" "The Demoness" "The Road to Power" "Lingering Remnants" "The King's Blade" "The Fletcher" "Blind Venture" "Grave Knowledge" "Humility" "The Summoner" "Mitts" "The Lion" "The Gladiator" "The Penitent" "The Tower" "Might is Right" "The Tyrant" "The Surveyor" "Lysah's Respite" "The Drunken Aristocrat" "The Body" "Jack in the Box" "The Traitor" "The Scarred Meadow" "Glimmer of Hope" "The Standoff" "The Visionary" "Audacity" "The Inoculated" "Scholar of the Seas" "The Throne" "The Doppelganger" "Lost Worlds" "Rain Tempter" "The Gambler"
+	BaseType "Dialla's Subjugation" "Earth Drinker" "Humility" "Jack in the Box" "Left to Fate" "Merciless Armament" "No Traces" "Scholar of the Seas" "Standoff" "The Body" "The Cursed King" "The Dark Mage" "The Fletcher" "The Gladiator" "The Inventor" "The Jester" "The Porcupine" "The Scavenger" "The Stormcaller" "The Warlord" "Time-Lost Relic" "Valley of Steel Boxes" "Vinia's Token" "Wolven King's Bite"
 	SetTextColor 14 186 255 255 # Divination Card Text
 	SetBackgroundColor 15 20 20 254 # Divination Card Highlight Background
 	SetFontSize 37
+
+# Divination Card Trash
+Hide
+	Class "Divination Card"
+	BaseType "Carrion Crow" "Cartographer's Delight" "Death" "Destined to Crumble" "Dying Anguish" "Hermit" "King's Blade" "Lantador's Lost Love" "Metalsmith's Gift" "Other Cheek" "Prosperity" "Rain of Chaos" "Struck by Lightning" "The Feast" "The Incantation" "The Lover" "The Lunaris Priestess" "The Oath" "The Rabid Rhoa" "The Scholar" "The Sigil" "The Surgeon" "The Twins" "The Warden" "Thunderous Skies"
+	SetTextColor 14 186 255 255 # Divination Card Text
+	SetBackgroundColor 0 0 0 210 # Junk Background
 
 # Divination Card
 Show
