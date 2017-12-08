@@ -39,13 +39,25 @@ Hide
 	SetBackgroundColor 0 15 30 254 # Magic Highlight Background
 	SetFontSize 37
 
+# Section: ABYSS
+
+# Abyss Jewel ilvl84
+Show
+	Class "Abyss Jewel"
+	ItemLevel >= 84
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 169 189 149 255 # Abyss Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45
+	PlayAlertSound 14 300
+
 # Abyss Jewel
 Show
 	Class "Abyss Jewel"
 	SetTextColor 169 189 149 255 # Abyss Text
 	SetBackgroundColor 30 34 26 255 # Abyss Highlight Background
 	SetFontSize 41
-	PlayAlertSound 6 150
+	PlayAlertSound 7 150
 
 # Section: Harbinger
 
