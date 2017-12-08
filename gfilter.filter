@@ -655,16 +655,6 @@ Show
 	SetFontSize 41
 	PlayAlertSound 7 150
 
-# 5 Link Unique
-Show
-	LinkedSockets = 5
-	Rarity = Unique
-	SetTextColor 175 96 37 255 # Unique Text
-	SetBackgroundColor 30 15 0 254 # Unique Highlight Background
-	SetBorderColor 175 96 37 255 # Unique Border
-	SetFontSize 41
-	PlayAlertSound 7 150
-
 # Section: 6 Sockets
 
 # 6 Socket Normal
@@ -691,15 +681,6 @@ Show
 	Rarity = Rare
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 254 # Rare Highlight Background
-	SetFontSize 37
-	PlayAlertSound 6 150
-
-# 6 Socket Unique
-Show
-	Sockets = 6
-	Rarity = Unique
-	SetTextColor 175 96 37 255 # Unique Text
-	SetBackgroundColor 30 15 0 254 # Unique Highlight Background
 	SetFontSize 37
 	PlayAlertSound 6 150
 
@@ -809,6 +790,25 @@ Show
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	PlayAlertSound 8 300
+
+# 5 Link Unique
+Show
+	LinkedSockets = 5
+	Rarity = Unique
+	SetTextColor 175 96 37 255 # Unique Text
+	SetBackgroundColor 30 15 0 254 # Unique Highlight Background
+	SetBorderColor 175 96 37 255 # Unique Border
+	SetFontSize 41
+	PlayAlertSound 7 150
+
+# 6 Socket Unique
+Show
+	Sockets = 6
+	Rarity = Unique
+	SetTextColor 175 96 37 255 # Unique Text
+	SetBackgroundColor 30 15 0 254 # Unique Highlight Background
+	SetFontSize 37
+	PlayAlertSound 6 150
 
 # Unique
 Show
