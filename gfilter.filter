@@ -145,7 +145,6 @@ Show
 	SetTextColor 169 189 149 255 # Abyss Text
 	SetBackgroundColor 30 34 26 255 # Abyss Highlight Background
 	SetFontSize 41
-	PlayAlertSound 7 150
 
 # Stygian Vise ilvl84
 Show
