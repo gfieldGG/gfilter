@@ -30,30 +30,31 @@ Style Tiers
 		Size 45
 		Sound 8 300
 
-	T2 [10c-1ex]
-		Highlight Background
-		Color Border
+	T1.5 [10c-1ex]
+		Solid Color Background
+		White Border
 		Color Text
 		Size 45
 		Sound 14 300
 
-	T3 [1c-10c[
+	T2 [1c-10c[
 		Highlight Background
+		Color Border
 		Color Text
 		Size 41
 		Sound 7 150
 		
 
-	T4 [1alch-1c[
+	T3 [1alch-1c[
+		Highlight Background
+		Color Text
+		Size 41
+		Sound 6 150
+
+	T4 (meh but small)
 		Highlight Background
 		Color Text
 		Size 37
-		Sound 6 150
-
-	T5 (meh but small)
-		Highlight Background
-		Color Text
-		Size 32
 
 	Trash
 		Transparent Background

@@ -1,4 +1,4 @@
-﻿# Script edited with Filtration - https://github.com/ben-wallis/Filtration
+﻿# gfilter by gfield
 
 # Section: yeah sure
 
@@ -164,7 +164,7 @@ Show
 	SetBackgroundColor 30 34 26 255 # Abyss Highlight Background
 	SetBorderColor 169 189 149 255 # Abyss Border
 	SetFontSize 45
-	PlayAlertSound 7 150
+	PlayAlertSound 6 150
 
 # Stygian Vise
 Show
@@ -173,7 +173,6 @@ Show
 	SetBackgroundColor 30 34 26 255 # Abyss Highlight Background
 	SetBorderColor 169 189 149 255 # Abyss Border
 	SetFontSize 41
-	PlayAlertSound 6 150
 
 # Section: Harbinger
 
@@ -433,37 +432,39 @@ Show
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
 
-# Currency Tier5
+# Currency Tier4
 Show
 	Class "Currency"
 	BaseType "Jeweller's Orb" "Orb of Chance" "Orb of Alteration" "Chromatic Orb"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 254 # Currency Highlight Background
+	SetFontSize 37
 
-# Currency Tier4
+# Currency Tier3
 Show
 	Class "Currency"
 	BaseType "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Vaal Orb" "Orb of Scouring"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 254 # Currency Highlight Background
-	SetFontSize 37
+	SetFontSize 41
 	PlayAlertSound 6 150
 
-# Currency Tier3
+# Currency Tier2
 Show
 	Class "Currency"
 	BaseType "Chaos Orb" "Orb of Regret" "Regal Orb" "Gemcutter's Prism" "Orb of Annulment"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 254 # Currency Highlight Background
+	SetBorderColor 200 186 153 255 # Currency Border
 	SetFontSize 41
 	PlayAlertSound 7 150
 
-# Currency Tier2
+# Currency Tier1.5
 Show
 	BaseType "Divine Orb" "Exalted Orb"
-	SetTextColor 200 186 153 255 # Currency Text
-	SetBackgroundColor 35 30 20 254 # Currency Highlight Background
-	SetBorderColor 200 186 153 255 # Currency Border
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 200 186 153 254 # Currency Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	PlayAlertSound 14 300
 
@@ -1474,7 +1475,7 @@ Show
 Show
 	Class "Boots"
 	Rarity >= Magic
-	ItemLevel <= 28
+	ItemLevel <= 20
 	SetBackgroundColor 0 0 0 254 # Default Background
 	SetBorderColor 192 255 203 255 # Levelling Border
 	SetFontSize 41
@@ -1491,7 +1492,7 @@ Show
 Show
 	LinkedSockets = 4
 	Class "Helm" "Body" "Boots" "Gloves"
-	ItemLevel <= 28
+	ItemLevel <= 38
 	SetBackgroundColor 0 0 0 254 # Default Background
 	SetBorderColor 192 255 203 255 # Levelling Border
 	SetFontSize 37
