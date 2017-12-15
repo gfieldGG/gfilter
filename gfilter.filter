@@ -116,7 +116,7 @@ Show
 	SetTextColor 159 0 0 255 # Shelder Text
 	SetBackgroundColor 50 0 50 254 # Shelder Background
 	SetFontSize 41
-	PlayAlertSound 7 150
+	PlayAlertSound 6 150
 
 # Shaper
 Show
@@ -125,7 +125,7 @@ Show
 	SetTextColor 159 0 0 255 # Shelder Text
 	SetBackgroundColor 50 0 50 254 # Shelder Background
 	SetFontSize 41
-	PlayAlertSound 7 150
+	PlayAlertSound 6 150
 
 # Section: ABYSS
 
@@ -144,7 +144,7 @@ Show
 	Class "Abyss Jewel"
 	SetTextColor 169 189 149 255 # Abyss Text
 	SetBackgroundColor 30 34 26 255 # Abyss Highlight Background
-	SetFontSize 41
+	SetFontSize 37
 
 # Stygian Vise ilvl84
 Show
@@ -163,7 +163,7 @@ Show
 	SetTextColor 169 189 149 255 # Abyss Text
 	SetBackgroundColor 30 34 26 255 # Abyss Highlight Background
 	SetBorderColor 169 189 149 255 # Abyss Border
-	SetFontSize 45
+	SetFontSize 41
 	PlayAlertSound 6 150
 
 # Stygian Vise
@@ -172,7 +172,7 @@ Show
 	SetTextColor 169 189 149 255 # Abyss Text
 	SetBackgroundColor 30 34 26 255 # Abyss Highlight Background
 	SetBorderColor 169 189 149 255 # Abyss Border
-	SetFontSize 41
+	SetFontSize 37
 
 # Section: Harbinger
 
@@ -461,6 +461,7 @@ Show
 
 # Currency Tier1.5
 Show
+	Class "Currency"
 	BaseType "Divine Orb" "Exalted Orb"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 200 186 153 254 # Currency Background
@@ -787,7 +788,7 @@ Show
 	Rarity = Normal
 	SetTextColor 255 255 255 255 # Normal Highlight Text
 	SetBackgroundColor 30 30 30 254 # Normal Highlight Background
-	SetFontSize 37
+	SetFontSize 41
 	PlayAlertSound 6 150
 
 # 6 Socket Magic
@@ -796,7 +797,7 @@ Show
 	Rarity = Magic
 	SetTextColor 136 136 255 255 # Magic Text
 	SetBackgroundColor 0 15 30 254 # Magic Highlight Background
-	SetFontSize 37
+	SetFontSize 41
 	PlayAlertSound 6 150
 
 # 6 Socket Rare
@@ -805,7 +806,7 @@ Show
 	Rarity = Rare
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 254 # Rare Highlight Background
-	SetFontSize 37
+	SetFontSize 41
 	PlayAlertSound 6 150
 
 # Section: White Sockets
@@ -876,7 +877,7 @@ Show
 
 # Chance Bases
 Show
-	BaseType "Ebony Tower Shield" "Glorious Plate" "Gold Amulet" "Rawhide Tower Shield" "Sorcerer Boots" "Full Wyrmscale"
+	BaseType "Ebony Tower Shield" "Gold Amulet" "Sorcerer Boots"
 	Rarity = Normal
 	SetTextColor 200 200 200 255 # Normal Text
 	SetBackgroundColor 0 0 0 254 # Default Background
@@ -1147,6 +1148,7 @@ Show
 
 # Chisel Hammer Normal
 Show
+	Quality >= 10
 	BaseType "Gavel" "Rock Breaker" "Stone Hammer"
 	Rarity = Normal
 	SetTextColor 200 200 200 255 # Normal Text
@@ -1155,7 +1157,7 @@ Show
 
 # Chisel Hammer Magic
 Show
-	Quality >= 12
+	Quality >= 16
 	BaseType "Gavel" "Rock Breaker" "Stone Hammer"
 	Rarity = Magic
 	SetTextColor 136 136 255 255 # Magic Text
@@ -1177,7 +1179,7 @@ Show
 # Section: Quality Flasks
 
 Show
-	Quality > 9
+	Quality >= 10
 	Class "Flask"
 	Rarity = Normal
 	SetTextColor 200 200 200 255 # Normal Text
