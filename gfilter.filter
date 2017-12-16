@@ -489,7 +489,7 @@ Show
 # Divination Card Tier1
 Show
 	Class "Divination Card"
-	BaseType "Abandoned Wealth" "House of Mirrors" "Hunter's Reward" "Mawr Blaidd" "Polymath" "Pride Before the Fall" "Spark and the Flame" "The Artist" "The Brittle Emperor" "The Celestial Justicar" "The Doctor" "The Dragon's Heart" "The Fiend" "The Formless Sea" "The Hunger" "The Immortal" "The King's Heart" "The Last One Standing" "The Offering" "The Queen" "The Soul" "The Spark and the Flame" "The Thaumaturgist" "The Vast" "The Wind" "The Wolven King's Bite" "Wealth and Power"
+	BaseType "Abandoned Wealth" "House of Mirrors" "Hunter's Reward" "Mawr Blaidd" "Polymath" "Pride Before the Fall" "Spark and the Flame" "The Artist" "The Brittle Emperor" "The Celestial Justicar" "The Doctor" "The Dragon's Heart" "The Fiend" "The Formless Sea" "The Hunger" "The Immortal" "The King's Heart" "The Last One Standing" "The Offering" "The Queen" "The Soul" "The Spark and the Flame" "The Thaumaturgist" "The Vast" "The Void" "The Wind" "The Wolven King's Bite" "Time-Lost Relic" "Wealth and Power"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 14 186 255 254 # Divination Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -499,9 +499,9 @@ Show
 # Divination Card Tier2
 Show
 	Class "Divination Card"
-	BaseType "Bowyer's Dream" "Chaotic Disposition" "Emperor of Purity" "Heterochromia" "Last Hope" "Left to Fate" "Saint's Treasure" "The Cartographer" "The Chains that Bind" "The Dapper Prodigy" "The Dragon" "The Enlightened" "The Ethereal" "The Forsaken" "The Hoarder" "The Polymath" "The Risk" "The Saint's Treasure" "The Sephirot" "The Standoff" "The Throne" "The Valkyrie" "The Valley of Steel Boxes" "The Void" "The Wolf" "The Wretched"
+	BaseType "Bowyer's Dream" "Chaotic Disposition" "Emperor of Purity" "Heterochromia" "Last Hope" "Left to Fate" "Saint's Treasure" "The Cartographer" "The Chains that Bind" "The Dapper Prodigy" "The Enlightened" "The Ethereal" "The Hoarder" "The Polymath" "The Risk" "The Saint's Treasure" "The Sephirot" "The Standoff" "The Throne" "The Valkyrie" "The Wolf"
 	SetTextColor 14 186 255 255 # Divination Card Text
-	SetBackgroundColor 15 20 20 254 # Divination Card Highlight Background
+	SetBackgroundColor 25 33 33 254 # Divination Card Highlight Background
 	SetBorderColor 14 186 255 255 # Divination Card Border
 	SetFontSize 41
 	PlayAlertSound 7 150
@@ -511,7 +511,7 @@ Show
 	Class "Currency"
 	BaseType "Stacked Deck"
 	SetTextColor 14 186 255 255 # Divination Card Text
-	SetBackgroundColor 15 20 20 254 # Divination Card Highlight Background
+	SetBackgroundColor 25 33 33 254 # Divination Card Highlight Background
 	SetBorderColor 14 186 255 255 # Divination Card Border
 	SetFontSize 41
 	PlayAlertSound 7 150
@@ -519,9 +519,9 @@ Show
 # Divination Card Tier3
 Show
 	Class "Divination Card"
-	BaseType "Dialla's Subjugation" "Earth Drinker" "Humility" "Jack in the Box" "Lost Worlds" "Lucky Deck" "Merciless Armament" "No Traces" "Scholar of the Seas" "Standoff" "The Arena Champion" "The Body" "The Cursed King" "The Dark Mage" "The Demoness" "The Fletcher" "The Gladiator" "The Harvester" "The Inventor" "The Jester" "The Porcupine" "The Scavenger" "The Surveyor" "The Trial" "The Tyrant" "The Warlord" "Time-Lost Relic" "Valley of Steel Boxes" "Vinia's Token" "Wolven King's Bite"
+	BaseType "Earth Drinker" "Jack in the Box" "No Traces" "Scholar of the Seas" "Standoff" "The Cursed King" "The Dark Mage" "The Fletcher" "The Forsaken" "The Inventor" "The Porcupine" "The Trial" "The Valley of Steel Boxes" "The Warlord" "The Wretched" "Valley of Steel Boxes" "Wolven King's Bite"
 	SetTextColor 14 186 255 255 # Divination Card Text
-	SetBackgroundColor 15 20 20 254 # Divination Card Highlight Background
+	SetBackgroundColor 25 33 33 254 # Divination Card Highlight Background
 	SetFontSize 37
 
 # Divination Card Trash
@@ -595,15 +595,6 @@ Show
 	SetBorderColor 26 162 155 255 # Gem Border
 	SetFontSize 45
 	PlayAlertSound 7 150
-
-#Disabled Block Start
-# Gem Aura
-#Show
-#	Class "Skill Gems"
-#	BaseType "Wrath" "Anger" "Hatred" "Clarity" "Determination" "Grace" "Discipline" "Vitality" "Haste" "Purity of" "Herald of" "Arctic Armour" "Blood Rage"
-#	SetTextColor 26 162 155 255 # Gem Text
-#	SetFontSize 37
-#Disabled Block End
 
 # Gem Support
 Show
@@ -809,36 +800,6 @@ Show
 	SetFontSize 41
 	PlayAlertSound 6 150
 
-# Section: White Sockets
-
-#Disabled Block Start
-# White Socket Normal
-#Show
-#	SocketGroup "W"
-#	Rarity = Normal
-#Disabled Block End
-
-#Disabled Block Start
-# White Socket Magic
-#Show
-#	SocketGroup "W"
-#	Rarity = Magic
-#Disabled Block End
-
-#Disabled Block Start
-# White Socket Rare
-#Show
-#	SocketGroup "W"
-#	Rarity = Rare
-#Disabled Block End
-
-#Disabled Block Start
-# White Socket Unique
-#Show
-#	SocketGroup "W"
-#	Rarity = Unique
-#Disabled Block End
-
 # Section: Crafting Bases
 
 # Tier1 Bases ilvl84 Normal
@@ -888,7 +849,7 @@ Show
 
 # Unique Tier?
 Show
-	BaseType "Carved Wand" "Ebony Tower Shield" "Exquisite Leather" "Goathide Boots" "Gold Amulet" "Gold Ring" "Imperial Bow" "Onyx Amulet" "Sorcerer Boots" "Stibnite Flask" "Unset Ring"
+	BaseType "Carved Wand" "Ebony Tower Shield" "Exquisite Leather" "Goathide Boots" "Gold Amulet" "Gold Ring" "Imperial Bow" "Nightmare Bascinet" "Onyx Amulet" "Sorcerer Boots" "Stibnite Flask" "Unset Ring"
 	Rarity = Unique
 	SetTextColor 175 96 37 255 # Unique Text
 	SetBackgroundColor 30 15 0 254 # Unique Highlight Background
@@ -898,7 +859,7 @@ Show
 
 # Unique Tier2
 Show
-	BaseType "Arcanist Gloves" "Bismuth Flask" "Cardinal Round Shield" "Champion Kite Shield" "Citrine Amulet" "Corrugated Buckler" "Corsair Sword" "Deicide Mask" "Destiny Leather" "Ezomyte Burgonet" "Granite Flask" "Harlequin Mask" "Hellion's Paw" "Highborn Staff" "Imperial Claw" "Imperial Staff" "Ironscale Gauntlets" "Jewelled Foil" "Jingling Spirit Shield" "Karui Sceptre" "Maelstr" "Meatgrinder" "Nightmare Bascinet" "Nubuck Gloves" "Penetrating Arrow Quiver" "Regicide Mask" "Sacrificial Garb" "Sacrificial Garb" "Sharkskin Tunic" "Silken Hood" "Sorcerer Gloves" "Stygian Vise" "Titan Greaves" "Titanium Spirit Shield" "Tornado Wand" "Ursine Pelt" "Vaal Mask" "Vaal Sceptre" "Vanguard Belt"
+	BaseType "Abyssal Axe" "Bismuth Flask" "Cardinal Round Shield" "Citadel Bow" "Citrine Amulet" "Demon Dagger" "Destiny Leather" "Ezomyte Burgonet" "Granite Flask" "Highborn Staff" "Imperial Maul" "Imperial Staff" "Ironscale Gauntlets" "Jasper Chopper" "Jewelled Foil" "Jingling Spirit Shield" "Maelstr" "Murder Boots" "Necromancer Silks" "Nubuck Gloves" "Penetrating Arrow Quiver" "Regicide Mask" "Sacrificial Garb" "Sharkskin Tunic" "Titan Greaves" "Titanium Spirit Shield" "Topaz Flask" "Ursine Pelt" "Vaal Mask" "Varnished Coat" "Wyrmscale Doublet" "Zealot Gloves"
 	Rarity = Unique
 	SetTextColor 175 96 37 255 # Unique Text
 	SetBackgroundColor 30 15 0 254 # Unique Highlight Background
@@ -908,7 +869,7 @@ Show
 
 # Unique Tier1
 Show
-	BaseType "Abyssal Axe" "Arcanist Slippers" "Callous Mask" "Carnal Sceptre" "Cedar Tower Shield" "Clasped Mitts" "Clutching Talisman" "Crusader Boots" "Cutlass" "Ezomyte Tower Shield" "Full Wyrmscale" "Gladiator Plate" "Glorious Plate" "Grand Mana Flask" "Greatwolf Talisman" "Imperial Maul" "Legion Gloves" "Murder Boots" "Necromancer Silks" "Nightmare Mace" "Occultist's Vestment" "Prophecy Wand" "Raven Mask" "Rawhide Boots" "Rawhide Tower Shield" "Ritual Sceptre" "Rotfeather Talisman" "Royal Axe" "Ruby Flask" "Sanctified Life Flask" "Sanctified Mana Flask" "Sapphire Flask" "Siege Axe" "Steelhead" "Thorium Spirit Shield" "Topaz Flask" "Varnished Coat" "Void Axe" "Wereclaw Talisman" "Wyrmscale Doublet" "Zealot Gloves"
+	BaseType "Arcanist Gloves" "Arcanist Slippers" "Callous Mask" "Carnal Sceptre" "Cedar Tower Shield" "Clasped Mitts" "Clutching Talisman" "Crusader Boots" "Cutlass" "Ezomyte Tower Shield" "Full Wyrmscale" "Gladiator Plate" "Glorious Plate" "Grand Mana Flask" "Greatwolf Talisman" "Legion Gloves" "Occultist's Vestment" "Prophecy Wand" "Raven Mask" "Rawhide Boots" "Rawhide Tower Shield" "Ritual Sceptre" "Rotfeather Talisman" "Royal Axe" "Ruby Flask" "Sanctified Life Flask" "Sanctified Mana Flask" "Sapphire Flask" "Siege Axe" "Steelhead" "Thorium Spirit Shield" "Vaal Spirit Shield" "Void Axe" "Wereclaw Talisman"
 	Rarity = Unique
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 175 96 37 254 # Unique Background
@@ -967,32 +928,6 @@ Show
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 0 0 0 254 # Default Background
 	SetFontSize 37
-
-# Section: Regal Recipe
-
-#Disabled Block Start
-# Regal Recipe
-#Show
-#	Class "Body Armours" "Two Hand" "Boots" "Gloves" "Helmets"
-#	Rarity = Rare
-#	ItemLevel >= 75
-#	SetTextColor 255 255 119 255 # Rare Text
-#	SetBackgroundColor 0 0 0 254 # Default Background
-#	SetBorderColor 136 136 255 127 # Regal Recipe Border
-#Disabled Block End
-
-# Section: Chaos Recipe
-
-#Disabled Block Start
-# Chaos Recipe
-#Show
-#	Class "Body Armours" "Two Hand" "Boots" "Gloves" "Helmets"
-#	Rarity = Rare
-#	ItemLevel >= 60
-#	SetTextColor 255 255 119 255 # Rare Text
-#	SetBackgroundColor 0 0 0 254 # Default Background
-#	SetBorderColor 254 170 0 127 # Chaos Recipe Border
-#Disabled Block End
 
 # Section: Rares
 
@@ -1252,8 +1187,8 @@ Show
 	BaseType "Medium"
 	Rarity = Normal
 	ItemLevel <= 6
-	SetTextColor 200 200 200 255 # Normal Text
-	SetBackgroundColor 0 0 0 254 # Default Background
+	SetTextColor 255 255 255 255 # Normal Highlight Text
+	SetBackgroundColor 30 30 30 254 # Normal Highlight Background
 	SetFontSize 37
 
 Show
@@ -1261,8 +1196,8 @@ Show
 	BaseType "Large"
 	Rarity = Normal
 	ItemLevel <= 12
-	SetTextColor 200 200 200 255 # Normal Text
-	SetBackgroundColor 0 0 0 254 # Default Background
+	SetTextColor 255 255 255 255 # Normal Highlight Text
+	SetBackgroundColor 30 30 30 254 # Normal Highlight Background
 	SetFontSize 37
 
 Show
@@ -1270,8 +1205,8 @@ Show
 	BaseType "Greater"
 	Rarity = Normal
 	ItemLevel <= 18
-	SetTextColor 200 200 200 255 # Normal Text
-	SetBackgroundColor 0 0 0 254 # Default Background
+	SetTextColor 255 255 255 255 # Normal Highlight Text
+	SetBackgroundColor 30 30 30 254 # Normal Highlight Background
 	SetFontSize 37
 
 Show
@@ -1279,8 +1214,8 @@ Show
 	BaseType "Grand"
 	Rarity = Normal
 	ItemLevel <= 24
-	SetTextColor 200 200 200 255 # Normal Text
-	SetBackgroundColor 0 0 0 254 # Default Background
+	SetTextColor 255 255 255 255 # Normal Highlight Text
+	SetBackgroundColor 30 30 30 254 # Normal Highlight Background
 	SetFontSize 37
 
 Show
@@ -1288,8 +1223,8 @@ Show
 	BaseType "Giant"
 	Rarity = Normal
 	ItemLevel <= 30
-	SetTextColor 200 200 200 255 # Normal Text
-	SetBackgroundColor 0 0 0 254 # Default Background
+	SetTextColor 255 255 255 255 # Normal Highlight Text
+	SetBackgroundColor 30 30 30 254 # Normal Highlight Background
 	SetFontSize 37
 
 Show
@@ -1297,8 +1232,8 @@ Show
 	BaseType "Colossal"
 	Rarity = Normal
 	ItemLevel <= 36
-	SetTextColor 200 200 200 255 # Normal Text
-	SetBackgroundColor 0 0 0 254 # Default Background
+	SetTextColor 255 255 255 255 # Normal Highlight Text
+	SetBackgroundColor 30 30 30 254 # Normal Highlight Background
 	SetFontSize 37
 
 Show
@@ -1306,8 +1241,8 @@ Show
 	BaseType "Sacred"
 	Rarity = Normal
 	ItemLevel <= 42
-	SetTextColor 200 200 200 255 # Normal Text
-	SetBackgroundColor 0 0 0 254 # Default Background
+	SetTextColor 255 255 255 255 # Normal Highlight Text
+	SetBackgroundColor 30 30 30 254 # Normal Highlight Background
 	SetFontSize 37
 
 Show
@@ -1315,8 +1250,8 @@ Show
 	BaseType "Hallowed"
 	Rarity = Normal
 	ItemLevel <= 50
-	SetTextColor 200 200 200 255 # Normal Text
-	SetBackgroundColor 0 0 0 254 # Default Background
+	SetTextColor 255 255 255 255 # Normal Highlight Text
+	SetBackgroundColor 30 30 30 254 # Normal Highlight Background
 	SetFontSize 37
 
 Show
@@ -1324,8 +1259,8 @@ Show
 	BaseType "Sanctified"
 	Rarity = Normal
 	ItemLevel <= 51
-	SetTextColor 200 200 200 255 # Normal Text
-	SetBackgroundColor 0 0 0 254 # Default Background
+	SetTextColor 255 255 255 255 # Normal Highlight Text
+	SetBackgroundColor 30 30 30 254 # Normal Highlight Background
 	SetFontSize 37
 
 Show
@@ -1333,8 +1268,8 @@ Show
 	BaseType "Divine"
 	Rarity = Normal
 	ItemLevel < 67
-	SetTextColor 200 200 200 255 # Normal Text
-	SetBackgroundColor 0 0 0 254 # Default Background
+	SetTextColor 255 255 255 255 # Normal Highlight Text
+	SetBackgroundColor 30 30 30 254 # Normal Highlight Background
 	SetFontSize 37
 
 Show
@@ -1342,8 +1277,8 @@ Show
 	BaseType "Eternal"
 	Rarity = Normal
 	ItemLevel < 67
-	SetTextColor 200 200 200 255 # Normal Text
-	SetBackgroundColor 0 0 0 254 # Default Background
+	SetTextColor 255 255 255 255 # Normal Highlight Text
+	SetBackgroundColor 30 30 30 254 # Normal Highlight Background
 	SetFontSize 37
 
 # Section: Flask Upgrade Magic
