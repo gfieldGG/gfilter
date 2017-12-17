@@ -227,17 +227,17 @@ Show
 	Class "Stackable Currency"
 	BaseType "Splinter of"
 	SetTextColor 200 186 153 255 # Currency Text
-	SetBackgroundColor 30 0 0 254 # Breach Highlight Background
-	SetBorderColor 74 0 160 255 # Breach Border
+	SetBackgroundColor 21 12 30 254 # Breach Highlight Background
+	SetBorderColor 182 20 0 255 # Breach Border
 	SetFontSize 37
 
 # Breachstone
 Show
 	Class "Misc Map Items"
 	BaseType "Breachstone"
-	SetTextColor 128 0 0 255 # Breach Text
-	SetBackgroundColor 30 0 0 254 # Breach Highlight Background
-	SetBorderColor 74 0 160 255 # Breach Border
+	SetTextColor 166 95 244 255 # Breach Text
+	SetBackgroundColor 21 12 30 254 # Breach Highlight Background
+	SetBorderColor 182 20 0 255 # Breach Border
 	SetFontSize 41
 	PlayAlertSound 7 150
 
@@ -245,9 +245,9 @@ Show
 Show
 	Class "Stackable Currency"
 	BaseType "Blessing of"
-	SetTextColor 255 255 255 255 # Normal Highlight Text
-	SetBackgroundColor 100 0 0 254 # Breach Background
-	SetBorderColor 74 0 160 255 # Breach Border
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 167 95 244 255 # Breach Background
+	SetBorderColor 182 20 0 255 # Breach Border
 	SetFontSize 45
 	PlayAlertSound 14 300
 
@@ -256,8 +256,8 @@ Show
 	Class "Rings"
 	BaseType "Breach Ring"
 	SetTextColor 255 255 119 255 # Rare Text
-	SetBackgroundColor 30 0 0 254 # Breach Highlight Background
-	SetBorderColor 74 0 160 255 # Breach Border
+	SetBackgroundColor 21 12 30 254 # Breach Highlight Background
+	SetBorderColor 182 20 0 255 # Breach Border
 
 # Section: Prophecy
 
