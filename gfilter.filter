@@ -226,9 +226,8 @@ Show
 Show
 	Class "Stackable Currency"
 	BaseType "Splinter of"
-	SetTextColor 200 186 153 255 # Currency Text
-	SetBackgroundColor 21 12 30 254 # Breach Highlight Background
-	SetBorderColor 182 20 0 255 # Breach Border
+	SetTextColor 166 95 244 255 # Breach Text
+	SetBackgroundColor 40 4 0 254 # Breach Red Highlight Background
 	SetFontSize 37
 
 # Breachstone
@@ -239,7 +238,27 @@ Show
 	SetBackgroundColor 21 12 30 254 # Breach Highlight Background
 	SetBorderColor 182 20 0 255 # Breach Border
 	SetFontSize 41
-	PlayAlertSound 7 150
+	PlayAlertSound 1 150
+
+# Xoph Blessing
+Show
+	Class "Stackable Currency"
+	BaseType "Blessing of Xoph"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 167 95 244 255 # Breach Background
+	SetBorderColor 182 20 0 255 # Breach Border
+	SetFontSize 45
+	PlayAlertSound 1 150
+
+# Chayula Blessing
+Show
+	Class "Stackable Currency"
+	BaseType "Blessing of Chayula"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 167 95 244 255 # Breach Background
+	SetBorderColor 182 20 0 255 # Breach Border
+	SetFontSize 45
+	PlayAlertSound 8 300
 
 # Breach Blessing
 Show
@@ -610,14 +629,35 @@ Show
 
 # Section: Maps
 
+# Uber Atziri Fragments Tier2
 Show
 	Class "Map Fragments"
-	BaseType "Mortal Grief" "Mortal Hope" "Mortal Ignorance" "Mortal Rage"
-	SetTextColor 0 0 0 255 # Map Text
+	BaseType "Mortal Rage" "Mortal Grief"
+	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 161 27 123 254 # Vaal Background
 	SetBorderColor 0 0 0 255 # Map Border
 	SetFontSize 41
 	PlayAlertSound 1 150
+
+# Uber Atziri Fragments Tier1
+Show
+	Class "Map Fragments"
+	BaseType "Mortal Hope" "Mortal Ignorance"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 161 27 123 254 # Vaal Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45
+	PlayAlertSound 7 300
+
+# Vaal Fragment
+Show
+	Class "Map Fragments"
+	BaseType "Sacrifice at"
+	SetTextColor 161 27 123 255 # Vaal Text
+	SetBackgroundColor 30 0 15 254 # Vaal Highlight Background
+	SetBorderColor 161 27 123 255 # Vaal Border
+	SetFontSize 37
+	PlayAlertSound 6 79
 
 # Vaal Fragment
 Show
