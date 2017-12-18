@@ -96,7 +96,7 @@ Show
 	SetTextColor 159 0 0 255 # Shelder Text
 	SetBackgroundColor 50 0 50 254 # Shelder Background
 	SetFontSize 45
-	PlayAlertSound 14 300
+	PlayAlertSound 7 300
 
 # Shaper Tier2
 Show
@@ -107,7 +107,7 @@ Show
 	SetTextColor 159 0 0 255 # Shelder Text
 	SetBackgroundColor 50 0 50 254 # Shelder Background
 	SetFontSize 45
-	PlayAlertSound 14 300
+	PlayAlertSound 7 300
 
 # Elder
 Show
@@ -137,7 +137,7 @@ Show
 	SetBackgroundColor 169 189 149 255 # Abyss Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
-	PlayAlertSound 14 300
+	PlayAlertSound 7 300
 
 # Abyss Jewel
 Show
@@ -199,7 +199,7 @@ Show
 	SetBackgroundColor 15 21 42 254 # Harbinger Highlight Background
 	SetBorderColor 88 124 244 255 # Harbinger Border
 	SetFontSize 41
-	PlayAlertSound 7 150
+	PlayAlertSound 1 150
 
 # Harbinger Currency T1
 Show
@@ -218,7 +218,7 @@ Show
 	SetBackgroundColor 15 21 42 254 # Harbinger Highlight Background
 	SetBorderColor 88 124 244 255 # Harbinger Border
 	SetFontSize 41
-	PlayAlertSound 7 150
+	PlayAlertSound 1 150
 
 # Section: Breach
 
@@ -249,7 +249,7 @@ Show
 	SetBackgroundColor 167 95 244 255 # Breach Background
 	SetBorderColor 182 20 0 255 # Breach Border
 	SetFontSize 45
-	PlayAlertSound 14 300
+	PlayAlertSound 7 300
 
 # Breach Ring
 Show
@@ -285,7 +285,7 @@ Show
 	SetBackgroundColor 30 0 30 254 # Prophecy Highlight Background
 	SetBorderColor 125 0 175 255 # Prophecy Border
 	SetFontSize 41
-	PlayAlertSound 7 150
+	PlayAlertSound 1 150
 
 # Section: Essences
 
@@ -297,7 +297,7 @@ Show
 	SetBackgroundColor 25 36 51 254 # Essence Highlight Background
 	SetBorderColor 128 179 254 255 # Essence Border
 	SetFontSize 41
-	PlayAlertSound 7 150
+	PlayAlertSound 1 150
 
 # Essence Tier2
 Show
@@ -353,7 +353,7 @@ Show
 	SetTextColor 255 200 0 255 # Legacy Text
 	SetBackgroundColor 30 24 0 254 # Legacy Highlight Background
 	SetFontSize 41
-	PlayAlertSound 7 150
+	PlayAlertSound 1 150
 
 # Leaguestone Magic
 Show
@@ -391,7 +391,7 @@ Show
 	SetBackgroundColor 0 0 0 254 # Default Background
 	SetBorderColor 200 200 200 255 # Apprentice Border
 	SetFontSize 37
-	PlayAlertSound 7 150
+	PlayAlertSound 1 150
 
 # Journeyman Cartographer
 Show
@@ -401,7 +401,7 @@ Show
 	SetBackgroundColor 0 0 0 254 # Default Background
 	SetBorderColor 254 170 0 255 # Journeyman Border
 	SetFontSize 37
-	PlayAlertSound 7 150
+	PlayAlertSound 1 150
 
 # Master Cartographer
 Show
@@ -411,7 +411,7 @@ Show
 	SetBackgroundColor 0 0 0 254 # Default Background
 	SetBorderColor 191 0 0 255 # Master Border
 	SetFontSize 41
-	PlayAlertSound 7 150
+	PlayAlertSound 1 150
 
 # Guarding Fragments
 Show
@@ -421,12 +421,12 @@ Show
 	SetBackgroundColor 255 233 200 254 # Atlas Background
 	SetBorderColor 0 0 0 255 # Map Border
 	SetFontSize 45
-	PlayAlertSound 14 300
+	PlayAlertSound 7 300
 
 # Section: Currency
 
 # Currency Trash
-Show
+Hide
 	Class "Currency"
 	BaseType "Alteration Shard" "Transmutation Shard" "Alchemy Shard" "Scroll of Wisdom" "Portal Scroll" "Orb of Transmutation" "Scroll Fragment" "Orb of Augmentation" "Blacksmith's Whetstone" "Armourer's Scrap"
 	SetTextColor 200 186 153 255 # Currency Text
@@ -457,7 +457,7 @@ Show
 	SetBackgroundColor 35 30 20 254 # Currency Highlight Background
 	SetBorderColor 200 186 153 255 # Currency Border
 	SetFontSize 41
-	PlayAlertSound 7 150
+	PlayAlertSound 1 150
 
 # Currency Tier1.5
 Show
@@ -467,7 +467,7 @@ Show
 	SetBackgroundColor 200 186 153 254 # Currency Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
-	PlayAlertSound 14 300
+	PlayAlertSound 7 300
 
 # Currency Tier1
 Show
@@ -504,7 +504,7 @@ Show
 	SetBackgroundColor 25 33 33 254 # Divination Card Highlight Background
 	SetBorderColor 14 186 255 255 # Divination Card Border
 	SetFontSize 41
-	PlayAlertSound 7 150
+	PlayAlertSound 1 150
 
 # Divination Card Stacked Deck
 Show
@@ -514,12 +514,12 @@ Show
 	SetBackgroundColor 25 33 33 254 # Divination Card Highlight Background
 	SetBorderColor 14 186 255 255 # Divination Card Border
 	SetFontSize 41
-	PlayAlertSound 7 150
+	PlayAlertSound 1 150
 
 # Divination Card Tier3
 Show
 	Class "Divination Card"
-	BaseType "Earth Drinker" "Jack in the Box" "No Traces" "Scholar of the Seas" "Standoff" "The Cursed King" "The Dark Mage" "The Fletcher" "The Forsaken" "The Inventor" "The Porcupine" "The Trial" "The Valley of Steel Boxes" "The Warlord" "The Wretched" "Valley of Steel Boxes" "Wolven King's Bite"
+	BaseType "Earth Drinker" "Jack in the Box" "No Traces" "Scholar of the Seas" "Standoff" "The Cursed King" "The Dark Mage" "The Fletcher" "The Forsaken" "The Inventor" "The Porcupine" "The Trial" "The Valley of Steel Boxes" "The Warlord" "The Wretched" "Valley of Steel Boxes" "Wolven King's Bite" "Humility"
 	SetTextColor 14 186 255 255 # Divination Card Text
 	SetBackgroundColor 25 33 33 254 # Divination Card Highlight Background
 	SetFontSize 37
@@ -594,7 +594,7 @@ Show
 	SetBackgroundColor 0 25 15 254 # Gem Highlight Background
 	SetBorderColor 26 162 155 255 # Gem Border
 	SetFontSize 45
-	PlayAlertSound 7 150
+	PlayAlertSound 1 150
 
 # Gem Support
 Show
@@ -617,7 +617,7 @@ Show
 	SetBackgroundColor 161 27 123 254 # Vaal Background
 	SetBorderColor 0 0 0 255 # Map Border
 	SetFontSize 41
-	PlayAlertSound 7 150
+	PlayAlertSound 1 150
 
 # Vaal Fragment
 Show
@@ -637,7 +637,7 @@ Show
 	SetBackgroundColor 0 0 0 254 # Default Background
 	SetBorderColor 255 255 119 255
 	SetFontSize 41
-	PlayAlertSound 7 150
+	PlayAlertSound 1 150
 
 # Map Fragments
 Show
@@ -697,7 +697,7 @@ Show
 	SetBackgroundColor 200 200 200 254 # Normal Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
-	PlayAlertSound 14 300
+	PlayAlertSound 7 300
 
 # 6 Link Magic
 Show
@@ -707,7 +707,7 @@ Show
 	SetBackgroundColor 136 136 255 254 # Magic Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
-	PlayAlertSound 14 300
+	PlayAlertSound 7 300
 
 # 6 Link Rare
 Show
@@ -717,7 +717,7 @@ Show
 	SetBackgroundColor 255 255 119 254 # Rare Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
-	PlayAlertSound 14 300
+	PlayAlertSound 7 300
 
 # Tabula Rasa
 Show
@@ -727,7 +727,7 @@ Show
 	SetBackgroundColor 30 15 0 254 # Unique Highlight Background
 	SetBorderColor 175 96 37 255 # Unique Border
 	SetFontSize 41
-	PlayAlertSound 7 150
+	PlayAlertSound 1 150
 
 # 6 Link Unique
 Show
@@ -737,7 +737,7 @@ Show
 	SetBackgroundColor 175 96 37 254 # Unique Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
-	PlayAlertSound 14 300
+	PlayAlertSound 7 300
 
 # Section: 5 Links
 
@@ -749,7 +749,7 @@ Show
 	SetBackgroundColor 30 30 30 254 # Normal Highlight Background
 	SetBorderColor 200 200 200 255 # Normal Border
 	SetFontSize 41
-	PlayAlertSound 7 150
+	PlayAlertSound 1 150
 
 # 5 Link Magic
 Show
@@ -759,7 +759,7 @@ Show
 	SetBackgroundColor 0 15 30 254 # Magic Highlight Background
 	SetBorderColor 136 136 255 255 # Magic Border
 	SetFontSize 41
-	PlayAlertSound 7 150
+	PlayAlertSound 1 150
 
 # 5 Link Rare
 Show
@@ -769,7 +769,7 @@ Show
 	SetBackgroundColor 23 23 0 254 # Rare Highlight Background
 	SetBorderColor 255 255 119 255 # Rare Border
 	SetFontSize 41
-	PlayAlertSound 7 150
+	PlayAlertSound 1 150
 
 # Section: 6 Sockets
 
@@ -832,7 +832,7 @@ Show
 	SetBackgroundColor 30 30 30 254 # Normal Highlight Background
 	SetBorderColor 0 0 254 255 # Crafting Border
 	SetFontSize 41
-	PlayAlertSound 7 150
+	PlayAlertSound 1 150
 
 # Section: Chancing
 
@@ -865,7 +865,7 @@ Show
 	SetBackgroundColor 30 15 0 254 # Unique Highlight Background
 	SetBorderColor 175 96 37 255 # Unique Border
 	SetFontSize 41
-	PlayAlertSound 7 150
+	PlayAlertSound 1 150
 
 # Unique Tier1
 Show
@@ -885,7 +885,7 @@ Show
 	SetBackgroundColor 30 15 0 254 # Unique Highlight Background
 	SetBorderColor 175 96 37 255 # Unique Border
 	SetFontSize 41
-	PlayAlertSound 7 150
+	PlayAlertSound 1 150
 
 # 6 Socket Unique
 Show
@@ -950,7 +950,7 @@ Show
 	SetBackgroundColor 23 23 0 254 # Rare Highlight Background
 	SetBorderColor 255 255 119 255 # Rare Border
 	SetFontSize 45
-	PlayAlertSound 14 300
+	PlayAlertSound 7 300
 
 # Rare Base Small Tier1 ilvl75
 Show
@@ -961,7 +961,7 @@ Show
 	SetBackgroundColor 23 23 0 254 # Rare Highlight Background
 	SetBorderColor 255 255 119 255 # Rare Border
 	SetFontSize 41
-	PlayAlertSound 7 150
+	PlayAlertSound 1 150
 
 # Rare Base Small Tier1
 Show
@@ -1131,7 +1131,7 @@ Show
 	SetBackgroundColor 74 230 58 254 # Quest Background
 	SetBorderColor 0 0 0 255 # Map Border
 	SetFontSize 41
-	PlayAlertSound 7 150
+	PlayAlertSound 1 150
 
 # Game Items
 Show
