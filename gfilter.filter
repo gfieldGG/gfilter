@@ -199,7 +199,7 @@ Show
 	SetBackgroundColor 15 21 42 254 # Harbinger Highlight Background
 	SetBorderColor 88 124 244 255 # Harbinger Border
 	SetFontSize 41
-	PlayAlertSound 1 150
+	PlayAlertSound 3 200
 
 # Harbinger Currency T1
 Show
@@ -218,7 +218,7 @@ Show
 	SetBackgroundColor 15 21 42 254 # Harbinger Highlight Background
 	SetBorderColor 88 124 244 255 # Harbinger Border
 	SetFontSize 41
-	PlayAlertSound 1 150
+	PlayAlertSound 3 200
 
 # Section: Breach
 
@@ -238,7 +238,7 @@ Show
 	SetBackgroundColor 21 12 30 254 # Breach Highlight Background
 	SetBorderColor 182 20 0 255 # Breach Border
 	SetFontSize 41
-	PlayAlertSound 1 150
+	PlayAlertSound 3 200
 
 # Xoph Blessing
 Show
@@ -248,7 +248,7 @@ Show
 	SetBackgroundColor 167 95 244 255 # Breach Background
 	SetBorderColor 182 20 0 255 # Breach Border
 	SetFontSize 45
-	PlayAlertSound 1 150
+	PlayAlertSound 3 200
 
 # Chayula Blessing
 Show
@@ -304,7 +304,7 @@ Show
 	SetBackgroundColor 30 0 30 254 # Prophecy Highlight Background
 	SetBorderColor 125 0 175 255 # Prophecy Border
 	SetFontSize 41
-	PlayAlertSound 1 150
+	PlayAlertSound 3 200
 
 # Section: Essences
 
@@ -316,7 +316,7 @@ Show
 	SetBackgroundColor 25 36 51 254 # Essence Highlight Background
 	SetBorderColor 128 179 254 255 # Essence Border
 	SetFontSize 41
-	PlayAlertSound 1 150
+	PlayAlertSound 3 200
 
 # Essence Tier2
 Show
@@ -372,7 +372,7 @@ Show
 	SetTextColor 255 200 0 255 # Legacy Text
 	SetBackgroundColor 30 24 0 254 # Legacy Highlight Background
 	SetFontSize 41
-	PlayAlertSound 1 150
+	PlayAlertSound 3 200
 
 # Leaguestone Magic
 Show
@@ -410,7 +410,7 @@ Show
 	SetBackgroundColor 0 0 0 254 # Default Background
 	SetBorderColor 200 200 200 255 # Apprentice Border
 	SetFontSize 37
-	PlayAlertSound 1 150
+	PlayAlertSound 3 200
 
 # Journeyman Cartographer
 Show
@@ -420,7 +420,7 @@ Show
 	SetBackgroundColor 0 0 0 254 # Default Background
 	SetBorderColor 254 170 0 255 # Journeyman Border
 	SetFontSize 37
-	PlayAlertSound 1 150
+	PlayAlertSound 3 200
 
 # Master Cartographer
 Show
@@ -430,7 +430,7 @@ Show
 	SetBackgroundColor 0 0 0 254 # Default Background
 	SetBorderColor 191 0 0 255 # Master Border
 	SetFontSize 41
-	PlayAlertSound 1 150
+	PlayAlertSound 3 200
 
 # Guarding Fragments
 Show
@@ -476,7 +476,7 @@ Show
 	SetBackgroundColor 35 30 20 254 # Currency Highlight Background
 	SetBorderColor 200 186 153 255 # Currency Border
 	SetFontSize 41
-	PlayAlertSound 1 150
+	PlayAlertSound 3 200
 
 # Currency Tier1.5
 Show
@@ -523,7 +523,7 @@ Show
 	SetBackgroundColor 25 33 33 254 # Divination Card Highlight Background
 	SetBorderColor 14 186 255 255 # Divination Card Border
 	SetFontSize 41
-	PlayAlertSound 1 150
+	PlayAlertSound 3 200
 
 # Divination Card Stacked Deck
 Show
@@ -533,7 +533,7 @@ Show
 	SetBackgroundColor 25 33 33 254 # Divination Card Highlight Background
 	SetBorderColor 14 186 255 255 # Divination Card Border
 	SetFontSize 41
-	PlayAlertSound 1 150
+	PlayAlertSound 3 200
 
 # Divination Card Tier3
 Show
@@ -574,8 +574,7 @@ Show
 	BaseType "Empower" "Enlighten" "Portal" "Added Chaos Damage Support" "Detonate Mines"
 	SetTextColor 26 162 155 255 # Gem Text
 	SetBackgroundColor 0 25 15 254 # Gem Highlight Background
-	SetBorderColor 26 162 155 255 # Gem Border
-	SetFontSize 37
+	SetFontSize 41
 	PlayAlertSound 6 150
 
 # Gem Vaal
@@ -613,7 +612,7 @@ Show
 	SetBackgroundColor 0 25 15 254 # Gem Highlight Background
 	SetBorderColor 26 162 155 255 # Gem Border
 	SetFontSize 45
-	PlayAlertSound 1 150
+	PlayAlertSound 3 200
 
 # Gem Support
 Show
@@ -637,7 +636,7 @@ Show
 	SetBackgroundColor 161 27 123 254 # Vaal Background
 	SetBorderColor 0 0 0 255 # Map Border
 	SetFontSize 41
-	PlayAlertSound 1 150
+	PlayAlertSound 3 200
 
 # Uber Atziri Fragments Tier1
 Show
@@ -677,7 +676,7 @@ Show
 	SetBackgroundColor 0 0 0 254 # Default Background
 	SetBorderColor 255 255 119 255
 	SetFontSize 41
-	PlayAlertSound 1 150
+	PlayAlertSound 3 200
 
 # Map Fragments
 Show
@@ -767,7 +766,7 @@ Show
 	SetBackgroundColor 30 15 0 254 # Unique Highlight Background
 	SetBorderColor 175 96 37 255 # Unique Border
 	SetFontSize 41
-	PlayAlertSound 1 150
+	PlayAlertSound 3 200
 
 # 6 Link Unique
 Show
@@ -789,7 +788,7 @@ Show
 	SetBackgroundColor 30 30 30 254 # Normal Highlight Background
 	SetBorderColor 200 200 200 255 # Normal Border
 	SetFontSize 41
-	PlayAlertSound 1 150
+	PlayAlertSound 3 200
 
 # 5 Link Magic
 Show
@@ -799,7 +798,7 @@ Show
 	SetBackgroundColor 0 15 30 254 # Magic Highlight Background
 	SetBorderColor 136 136 255 255 # Magic Border
 	SetFontSize 41
-	PlayAlertSound 1 150
+	PlayAlertSound 3 200
 
 # 5 Link Rare
 Show
@@ -809,7 +808,7 @@ Show
 	SetBackgroundColor 23 23 0 254 # Rare Highlight Background
 	SetBorderColor 255 255 119 255 # Rare Border
 	SetFontSize 41
-	PlayAlertSound 1 150
+	PlayAlertSound 3 200
 
 # Section: 6 Sockets
 
@@ -872,7 +871,7 @@ Show
 	SetBackgroundColor 30 30 30 254 # Normal Highlight Background
 	SetBorderColor 0 0 254 255 # Crafting Border
 	SetFontSize 41
-	PlayAlertSound 1 150
+	PlayAlertSound 3 200
 
 # Section: Chancing
 
@@ -905,7 +904,7 @@ Show
 	SetBackgroundColor 30 15 0 254 # Unique Highlight Background
 	SetBorderColor 175 96 37 255 # Unique Border
 	SetFontSize 41
-	PlayAlertSound 1 150
+	PlayAlertSound 3 200
 
 # Unique Tier1
 Show
@@ -925,7 +924,7 @@ Show
 	SetBackgroundColor 30 15 0 254 # Unique Highlight Background
 	SetBorderColor 175 96 37 255 # Unique Border
 	SetFontSize 41
-	PlayAlertSound 1 150
+	PlayAlertSound 3 200
 
 # 6 Socket Unique
 Show
@@ -1001,7 +1000,7 @@ Show
 	SetBackgroundColor 23 23 0 254 # Rare Highlight Background
 	SetBorderColor 255 255 119 255 # Rare Border
 	SetFontSize 41
-	PlayAlertSound 1 150
+	PlayAlertSound 3 200
 
 # Rare Base Small Tier1
 Show
@@ -1171,7 +1170,7 @@ Show
 	SetBackgroundColor 74 230 58 254 # Quest Background
 	SetBorderColor 0 0 0 255 # Map Border
 	SetFontSize 41
-	PlayAlertSound 1 150
+	PlayAlertSound 3 200
 
 # Game Items
 Show
