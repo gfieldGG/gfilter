@@ -1067,36 +1067,70 @@ Show
 	Rarity = Rare
 	ItemLevel >= 65
 	SetTextColor 255 255 119 255 # Rare Text
-	SetBackgroundColor 23 23 0 254 # Rare Highlight Background
+	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 
-# Regal Recipe Jewelry
+# Rare Jewelry Trash Base
 Show
-	Class "Ring" "Belt" "Amulet"
+	Class "Belts" "Amulets" "Rings"
+	BaseType "Iron Ring" "Paua Ring" "Moonstone Ring" "Amethyst Ring" "Chain Belt" "Cloth Belt" "Studded Belt" "Coral Amulet" "Paua Amulet"
+	Rarity = Rare
+	ItemLevel >= 65
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 0 0 0 210 # Junk Background
+
+# Rare Jewelry ilvl75
+Show
+	Class "Belts" "Amulets" "Rings"
 	Rarity = Rare
 	ItemLevel >= 75
 	SetTextColor 255 255 119 255 # Rare Text
-	SetBackgroundColor 23 23 0 254 # Rare Highlight Background
-	SetBorderColor 136 136 255 127 # Regal Recipe Border
+	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+	SetFontSize 41
+	PlayAlertSound 6 150
+
+# Rare Jewelry
+Show
+	Class "Belts" "Amulets" "Rings"
+	Rarity = Rare
+	ItemLevel >= 65
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 	SetFontSize 37
 
+#Disabled Block Start
+# Regal Recipe Jewelry
+#Show
+#	Class "Ring" "Belt" "Amulet"
+#	Rarity = Rare
+#	ItemLevel >= 75
+#	SetTextColor 255 255 119 255 # Rare Text
+#	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+#	SetBorderColor 136 136 255 127 # Regal Recipe Border
+#	SetFontSize 37
+#Disabled Block End
+
+#Disabled Block Start
 # Chaos Recipe Belt
-Show
-	Class "Belt"
-	Rarity = Rare
-	ItemLevel >= 60
-	SetTextColor 255 255 119 255 # Rare Text
-	SetBackgroundColor 23 23 0 254 # Rare Highlight Background
-	SetBorderColor 254 170 0 127 # Chaos Recipe Border
+#Show
+#	Class "Belt"
+#	Rarity = Rare
+#	ItemLevel >= 60
+#	SetTextColor 255 255 119 255 # Rare Text
+#	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+#	SetBorderColor 254 170 0 127 # Chaos Recipe Border
+#Disabled Block End
 
+#Disabled Block Start
 # Chaos Recipe Jewelry
-Show
-	Class "Ring" "Amulet"
-	Rarity = Rare
-	ItemLevel >= 60
-	SetTextColor 255 255 119 255 # Rare Text
-	SetBackgroundColor 23 23 0 254 # Rare Highlight Background
-	SetBorderColor 254 170 0 127 # Chaos Recipe Border
-	SetFontSize 37
+#Show
+#	Class "Ring" "Amulet"
+#	Rarity = Rare
+#	ItemLevel >= 60
+#	SetTextColor 255 255 119 255 # Rare Text
+#	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+#	SetBorderColor 254 170 0 127 # Chaos Recipe Border
+#	SetFontSize 37
+#Disabled Block End
 
 # Rare Endgame
 Show
