@@ -593,37 +593,37 @@ Show
 	Class "Active Skill Gems" "Support Skill Gems"
 	BaseType "Vaal"
 	SetTextColor 26 162 155 255 # Gem Text
-	SetBackgroundColor 0 25 15 254 # Gem Highlight Background
+	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
 	SetBorderColor 161 27 123 255 # Vaal Border
 	SetFontSize 37
-
-# Gem Quality
-Show
-	Quality > 0
-	Class "Active Skill Gems" "Support Skill Gems"
-	SetTextColor 26 162 155 255 # Gem Text
-	SetBackgroundColor 0 25 15 254 # Gem Highlight Background
-	SetFontSize 37
-
-# Gem Quality High
-Show
-	Quality >= 10
-	Class "Active Skill Gems" "Support Skill Gems"
-	SetTextColor 26 162 155 255 # Gem Text
-	SetBackgroundColor 0 25 15 254 # Gem Highlight Background
-	SetBorderColor 26 162 155 255 # Gem Border
-	SetFontSize 41
-	PlayAlertSound 6 150
 
 # Gem Quality 20
 Show
 	Quality = 20
 	Class "Active Skill Gems" "Support Skill Gems"
 	SetTextColor 26 162 155 255 # Gem Text
-	SetBackgroundColor 0 25 15 254 # Gem Highlight Background
+	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
 	SetBorderColor 26 162 155 255 # Gem Border
 	SetFontSize 45
 	PlayAlertSound 3 200
+
+# Gem Quality High
+Show
+	Quality >= 10
+	Class "Active Skill Gems" "Support Skill Gems"
+	SetTextColor 26 162 155 255 # Gem Text
+	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
+	SetBorderColor 26 162 155 255 # Gem Border
+	SetFontSize 41
+	PlayAlertSound 6 150
+
+# Gem Quality
+Show
+	Quality > 0
+	Class "Active Skill Gems" "Support Skill Gems"
+	SetTextColor 26 162 155 255 # Gem Text
+	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
+	SetFontSize 37
 
 # Gem Support
 Show
@@ -704,7 +704,7 @@ Show
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 200 200 200 255 # Normal Background
 	SetBorderColor 100 100 100 255 # Map Normal Border
-	SetFontSize 37
+	SetFontSize 42
 	PlayAlertSound 4 150
 
 # Map Magic
@@ -714,7 +714,7 @@ Show
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 136 136 255 255 # Magic Background
 	SetBorderColor 68 68 128 250 # Map Magic Border
-	SetFontSize 37
+	SetFontSize 42
 	PlayAlertSound 4 150
 
 # Map Rare
@@ -724,7 +724,7 @@ Show
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 255 119 255 # Rare Background
 	SetBorderColor 128 128 60 250 # Map Rare Border
-	SetFontSize 37
+	SetFontSize 42
 	PlayAlertSound 4 150
 
 # Map Unique
@@ -734,7 +734,7 @@ Show
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 175 96 37 255 # Unique Background
 	SetBorderColor 88 48 19 250 # Map Unique Border
-	SetFontSize 37
+	SetFontSize 42
 	PlayAlertSound 4 150
 
 # Section: 6 Links
@@ -888,7 +888,7 @@ Show
 
 # Chance Bases
 Show
-	BaseType "Ebony Tower Shield" "Gold Amulet" "Sorcerer Boots"
+	BaseType "Gold Amulet"
 	Rarity = Normal
 	SetTextColor 200 200 200 255 # Normal Text
 	SetBackgroundColor 0 0 0 255 # Default Background
@@ -1191,20 +1191,31 @@ Show
 	Class "Body Armours" "Boots" "Gloves" "Bows" "Shields" "Two Hand" "One Hand" "Wands" "Staves" "Helmets" "Sceptres"
 	Rarity = Normal
 	ItemLevel < 67
-	SetBackgroundColor 0 0 0 254 # Default Background
+	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 80 80 80 255 # Quality Border
 	SetFontSize 37
 
 # Section: Quality Flasks
 
+# Quality Flask Levelling
+Show
+	Quality >= 10
+	Class "Flask"
+	Rarity = Normal
+	ItemLevel < 67
+	SetTextColor 200 200 200 255 # Normal Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBorderColor 80 80 80 255 # Quality Border
+	SetFontSize 37
+
+# Quality Flask Endgame
 Show
 	Quality >= 10
 	Class "Flask"
 	Rarity = Normal
 	SetTextColor 200 200 200 255 # Normal Text
-	SetBackgroundColor 0 0 0 254 # Default Background
+	SetBackgroundColor 0 0 0 210 # Junk Background
 	SetBorderColor 80 80 80 255 # Quality Border
-	SetFontSize 37
 
 # Section: General
 
@@ -1212,7 +1223,7 @@ Show
 Show
 	BaseType "Offering to the Goddess"
 	SetTextColor 0 0 0 255 # Tier1 Text
-	SetBackgroundColor 74 230 58 254 # Quest Background
+	SetBackgroundColor 74 230 58 255 # Quest Background
 	SetBorderColor 0 0 0 255 # Map Border
 	SetFontSize 41
 	PlayAlertSound 3 200
@@ -1250,8 +1261,7 @@ Show
 	Height <= 2
 	Width <= 2
 	SetTextColor 255 255 255 255 # Normal Highlight Text
-	SetBackgroundColor 30 30 30 254 # Normal Highlight Background
-	SetFontSize 37
+	SetBackgroundColor 0 0 0 210 # Junk Background
 
 # RGB Maps 1x3
 Show
@@ -1259,8 +1269,7 @@ Show
 	Height <= 3
 	Width <= 1
 	SetTextColor 255 255 255 255 # Normal Highlight Text
-	SetBackgroundColor 30 30 30 254 # Normal Highlight Background
-	SetFontSize 37
+	SetBackgroundColor 0 0 0 210 # Junk Background
 
 # Section: Levelling
 
