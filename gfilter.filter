@@ -1197,7 +1197,7 @@ Show
 
 # Section: Quality Flasks
 
-# Quality Flask Levelling
+# Flask Quality Levelling
 Show
 	Quality >= 10
 	Class "Flask"
@@ -1208,7 +1208,7 @@ Show
 	SetBorderColor 80 80 80 255 # Quality Border
 	SetFontSize 37
 
-# Quality Flask Endgame
+# Flask Quality Endgame
 Show
 	Quality >= 10
 	Class "Flask"
