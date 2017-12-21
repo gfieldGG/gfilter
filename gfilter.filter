@@ -1011,7 +1011,7 @@ Show
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 	SetBorderColor 255 255 119 255 # Rare Border
 	SetFontSize 41
-	PlayAlertSound 3 200
+	PlayAlertSound 6 150
 
 # Rare Base Small Tier1
 Show
@@ -1031,7 +1031,6 @@ Show
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 	SetBorderColor 255 255 119 255 # Rare Border
 	SetFontSize 41
-	PlayAlertSound 6 150
 
 # Rare Base Big Tier1
 Show
@@ -1050,7 +1049,6 @@ Show
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 	SetFontSize 41
-	PlayAlertSound 6 150
 
 # Rare Base Small Tier2
 Show
@@ -1095,7 +1093,6 @@ Show
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 	SetFontSize 41
-	PlayAlertSound 6 150
 
 # Rare Jewelry
 Show
