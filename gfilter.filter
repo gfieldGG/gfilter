@@ -514,20 +514,30 @@ Show
 
 # Section: Divination Cards
 
-# Divination Card Tier1
+# Divination Card Tier0
 Show
 	Class "Divination Card"
-	BaseType "Abandoned Wealth" "House of Mirrors" "Hunter's Reward" "Mawr Blaidd" "Polymath" "Pride Before the Fall" "Spark and the Flame" "The Artist" "The Brittle Emperor" "The Celestial Justicar" "The Doctor" "The Dragon's Heart" "The Fiend" "The Formless Sea" "The Hunger" "The Immortal" "The King's Heart" "The Last One Standing" "The Queen" "The Spark and the Flame" "The Wind" "The Wolven King's Bite" "Wealth and Power"
+	BaseType "House of Mirrors" "The Doctor" "The Fiend"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 14 186 255 255 # Divination Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	PlayAlertSound 8 300
 
+# Divination Card Tier1
+Show
+	Class "Divination Card"
+	BaseType "Abandoned Wealth" "Hunter's Reward" "Mawr Blaidd" "Pride Before the Fall" "Spark and the Flame" "The Artist" "The Brittle Emperor" "The Celestial Justicar" "The Dragon's Heart" "The Formless Sea" "The Hunger" "The Immortal" "The King's Heart" "The Last One Standing" "The Queen" "The Spark and the Flame" "The Wind" "The Wolven King's Bite" "Wealth and Power"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 14 186 255 255 # Divination Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45
+	PlayAlertSound 7 300
+
 # Divination Card Tier2
 Show
 	Class "Divination Card"
-	BaseType "Bowyer's Dream" "Chaotic Disposition" "Emperor of Purity" "Heterochromia" "Last Hope" "Left to Fate" "Saint's Treasure" "The Cartographer" "The Chains that Bind" "The Dapper Prodigy" "The Enlightened" "The Ethereal" "The Hoarder" "The Offering" "The Saint's Treasure" "The Sephirot" "The Soul" "The Standoff" "The Thaumaturgist" "The Throne" "The Valkyrie" "The Vast" "The Void" "The Wolf" "Time-Lost Relic"
+	BaseType "Bowyer's Dream" "Chaotic Disposition" "Emperor of Purity" "Heterochromia" "Last Hope" "Left to Fate" "Saint's Treasure" "The Cartographer" "The Chains that Bind" "The Dapper Prodigy" "The Enlightened" "The Ethereal" "The Hoarder" "The Offering" "The Saint's Treasure" "The Sephirot" "The Soul" "The Standoff" "The Thaumaturgist" "The Throne" "The Valkyrie" "The Vast" "The Void" "The Wolf" "Time-Lost Relic" "Polymath"
 	SetTextColor 14 186 255 255 # Divination Card Text
 	SetBackgroundColor 25 33 33 255 # Divination Card Highlight Background
 	SetBorderColor 14 186 255 255 # Divination Card Border
