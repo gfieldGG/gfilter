@@ -619,7 +619,7 @@ Show
 
 # Gem Quality High
 Show
-	Quality >= 10
+	Quality >= 16
 	Class "Active Skill Gems" "Support Skill Gems"
 	SetTextColor 26 162 155 255 # Gem Text
 	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
