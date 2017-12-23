@@ -696,7 +696,7 @@ Show
 	SetTextColor 255 255 119 255
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 255 255 119 255
-	SetFontSize 41
+	SetFontSize 37
 	PlayAlertSound 3 200
 
 # Map Fragments
@@ -724,7 +724,7 @@ Show
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 136 136 255 255 # Magic Background
 	SetBorderColor 68 68 128 250 # Map Magic Border
-	SetFontSize 42
+	SetFontSize 37
 	PlayAlertSound 4 150
 
 # Map Rare
@@ -734,7 +734,7 @@ Show
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 255 119 255 # Rare Background
 	SetBorderColor 128 128 60 250 # Map Rare Border
-	SetFontSize 42
+	SetFontSize 37
 	PlayAlertSound 4 150
 
 # Map Unique
@@ -744,7 +744,7 @@ Show
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 175 96 37 255 # Unique Background
 	SetBorderColor 88 48 19 250 # Map Unique Border
-	SetFontSize 42
+	SetFontSize 41
 	PlayAlertSound 4 150
 
 # Section: 6 Links
