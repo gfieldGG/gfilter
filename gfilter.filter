@@ -669,15 +669,15 @@ Show
 	SetFontSize 45
 	PlayAlertSound 7 300
 
-# Vaal Fragment
+# Vaal Fragment Midnight
 Show
 	Class "Map Fragments"
-	BaseType "Sacrifice at"
+	BaseType "Sacrifice at Midnight"
 	SetTextColor 161 27 123 255 # Vaal Text
 	SetBackgroundColor 30 0 15 255 # Vaal Highlight Background
 	SetBorderColor 161 27 123 255 # Vaal Border
-	SetFontSize 37
-	PlayAlertSound 6 79
+	SetFontSize 41
+	PlayAlertSound 3 200
 
 # Vaal Fragment
 Show
@@ -687,7 +687,7 @@ Show
 	SetBackgroundColor 30 0 15 255 # Vaal Highlight Background
 	SetBorderColor 161 27 123 255 # Vaal Border
 	SetFontSize 37
-	PlayAlertSound 6 79
+	PlayAlertSound 6 150
 
 # Divine Vessel
 Show
