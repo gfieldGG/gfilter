@@ -714,7 +714,7 @@ Show
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 200 200 200 255 # Normal Background
 	SetBorderColor 100 100 100 255 # Map Normal Border
-	SetFontSize 42
+	SetFontSize 37
 	PlayAlertSound 4 150
 
 # Map Magic
