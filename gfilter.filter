@@ -426,7 +426,7 @@ Show
 	Class "Currency"
 	BaseType "Apprentice Cartographer's Seal" "Apprentice Cartographer's Sextant"
 	SetTextColor 200 186 153 255 # Currency Text
-	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetBorderColor 200 200 200 255 # Apprentice Border
 	SetFontSize 37
 	PlayAlertSound 3 200
@@ -436,7 +436,7 @@ Show
 	Class "Currency"
 	BaseType "Journeyman Cartographer's Seal" "Journeyman Cartographer's Sextant"
 	SetTextColor 200 186 153 255 # Currency Text
-	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetBorderColor 254 170 0 255 # Journeyman Border
 	SetFontSize 37
 	PlayAlertSound 3 200
@@ -446,7 +446,7 @@ Show
 	Class "Currency"
 	BaseType "Master Cartographer's Seal" "Master Cartographer's Sextant"
 	SetTextColor 200 186 153 255 # Currency Text
-	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetBorderColor 191 0 0 255 # Master Border
 	SetFontSize 41
 	PlayAlertSound 3 200
