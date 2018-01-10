@@ -22,15 +22,15 @@ rgb(255,255,0,0)
 
 
 Style Tiers
-	Sounds should be strict, visuals can be adjusted depending on item type (e.g. Font Size for easier pickup or using solid backgrounds for items ~1ex if there's few high tier items of that class)
-	T1 ]1ex
-		Solid Color Background
-		White Border
-		Black Text
+Sounds should be strict, visuals can be adjusted depending on item type (e.g. Font Size for easier pickup)
+	T0 ]1ex
+		Solid White Background
+		Color Border
+		Color Text
 		Size 45
 		Sound 8 300
 
-	T1.5 [10c-1ex]
+	T1 [10c-1ex]
 		Solid Color Background
 		White Border
 		Color Text
@@ -44,7 +44,6 @@ Style Tiers
 		Size 41
 		Sound 7 150
 		
-
 	T3 [1alch-1c[
 		Highlight Background
 		Color Text
@@ -60,3 +59,11 @@ Style Tiers
 		Transparent Background
 		Color Text
 		Size 32
+
+
+rework essence tiers
+use solid white background for tier0
+T0 for Uniques (have to adjust Neversink's tiers :/)
+	Might also warrant a rework for the Div Card Tiers?
+improve shelder tiers
+improve crafting base tiers (Atlas bases not actually that worth anymore?)
