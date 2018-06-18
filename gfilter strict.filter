@@ -51,7 +51,6 @@ Show
 Show
 	Identified True
 	HasExplicitMod "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's"
-	Rarity = Magic
 	SetTextColor 136 136 255 255 # Magic Text
 	SetBackgroundColor 0 15 30 255 # Magic Highlight Background
 	SetFontSize 37
@@ -60,7 +59,6 @@ Show
 Show
 	Identified True
 	HasExplicitMod "Tacati" "Citaqualotl" "Matatl" "Topotante" "Xopec" "Guatelitzi" "Puhuarte"
-	Rarity = Magic
 	SetTextColor 136 136 255 255 # Magic Text
 	SetBackgroundColor 0 15 30 255 # Magic Highlight Background
 	SetFontSize 37
@@ -174,7 +172,7 @@ Hide
 	Class "Abyss Jewel"
 	Rarity <= Magic
 	SetTextColor 169 189 149 255 # Abyss Text
-	SetBackgroundColor 0 0 0 210 # Junk Background
+	SetBackgroundColor 30 34 26 255 # Abyss Highlight Background
 
 # Abyss Jewel Rare
 Show

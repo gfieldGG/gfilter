@@ -49,10 +49,8 @@ Show
 
 # Warband Item
 Hide
-	Corrupted False
 	Identified True
-	Class "Helmets" "Boots" "Gloves" "Bow" "Claw" "Dagger" "One Hand Axe" "One Hand Mace" "One Hand Sword" "Sceptre" "Staves" "Thrusting One Hand Sword" "Two Hand Axe" "Two Hand Mace" "Two Hand Sword" "Wand"
-	Rarity = Magic
+	HasExplicitMod "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's"
 	SetTextColor 136 136 255 255 # Magic Text
 	SetBackgroundColor 0 15 30 255 # Magic Highlight Background
 	SetFontSize 37
@@ -61,7 +59,6 @@ Hide
 Show
 	Identified True
 	HasExplicitMod "Tacati" "Citaqualotl" "Matatl" "Topotante" "Xopec" "Guatelitzi" "Puhuarte"
-	Rarity = Magic
 	SetTextColor 136 136 255 255 # Magic Text
 	SetBackgroundColor 0 15 30 255 # Magic Highlight Background
 	SetFontSize 37
@@ -166,7 +163,8 @@ Show
 	ItemLevel >= 84
 	SetTextColor 169 189 149 255 # Abyss Text
 	SetBackgroundColor 30 34 26 255 # Abyss Highlight Background
-	SetFontSize 45
+	SetBorderColor 169 189 149 255 # Abyss Border
+	SetFontSize 41
 	PlayAlertSound 6 150
 
 # Abyss Jewel Magic
@@ -192,7 +190,7 @@ Show
 	SetTextColor 169 189 149 255 # Abyss Text
 	SetBackgroundColor 30 34 26 255 # Abyss Highlight Background
 	SetBorderColor 169 189 149 255 # Abyss Border
-	SetFontSize 45
+	SetFontSize 41
 	PlayAlertSound 6 150
 
 # Stygian Vise ilvl75
@@ -284,22 +282,12 @@ Show
 	SetFontSize 41
 	PlayAlertSound 3 200
 
-# Xoph Blessing
-Show
-	Class "Stackable Currency"
-	BaseType "Blessing of Xoph"
-	SetTextColor 0 0 0 255 # Tier1 Text
-	SetBackgroundColor 167 95 244 255 # Breach Background
-	SetBorderColor 182 20 0 255 # Breach Border
-	SetFontSize 45
-	PlayAlertSound 3 200
-
 # Chayula Blessing
 Show
 	Class "Stackable Currency"
 	BaseType "Blessing of Chayula"
-	SetTextColor 0 0 0 255 # Tier1 Text
-	SetBackgroundColor 167 95 244 255 # Breach Background
+	SetTextColor 166 95 244 255 # Breach Text
+	SetBackgroundColor 255 255 255 255 # Tier0 Background
 	SetBorderColor 182 20 0 255 # Breach Border
 	SetFontSize 45
 	PlayAlertSound 8 300
@@ -312,7 +300,7 @@ Show
 	SetBackgroundColor 167 95 244 255 # Breach Background
 	SetBorderColor 182 20 0 255 # Breach Border
 	SetFontSize 45
-	PlayAlertSound 7 300
+	PlayAlertSound 3 200
 
 # Breach Ring
 Show
@@ -512,9 +500,9 @@ Show
 Show
 	Class "Divination Card"
 	BaseType "House of Mirrors" "The Doctor" "The Fiend"
-	SetTextColor 0 0 0 255 # Tier1 Text
-	SetBackgroundColor 14 186 255 255 # Divination Background
-	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetTextColor 14 186 255 255 # Divination Card Text
+	SetBackgroundColor 255 255 255 255 # Tier0 Background
+	SetBorderColor 14 186 255 255 # Divination Card Border
 	SetFontSize 45
 	PlayAlertSound 8 300
 
@@ -578,7 +566,14 @@ Show
 # Currency Trash
 Show
 	Class "Currency"
-	BaseType "Alteration Shard" "Transmutation Shard" "Alchemy Shard" "Scroll of Wisdom" "Portal Scroll" "Orb of Transmutation" "Scroll Fragment" "Orb of Augmentation" "Blacksmith's Whetstone" "Armourer's Scrap"
+	BaseType "Alteration Shard" "Transmutation Shard" "Alchemy Shard" "Scroll of Wisdom" "Portal Scroll" "Scroll Fragment" "Blacksmith's Whetstone" "Armourer's Scrap"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 0 0 0 210 # Junk Background
+
+# Currency Tier5
+Hide
+	Class "Currency"
+	BaseType "Orb of Transmutation" "Orb of Augmentation"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
 
@@ -622,9 +617,9 @@ Show
 # Currency Tier1
 Show
 	BaseType "Albino Rhoa Feather" "Eternal Orb" "Mirror of Kalandra"
-	SetTextColor 0 0 0 255 # Tier1 Text
-	SetBackgroundColor 200 186 153 255 # Currency Background
-	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 255 255 255 255 # Tier0 Background
+	SetBorderColor 200 186 153 255 # Currency Border
 	SetFontSize 45
 	PlayAlertSound 8 300
 
@@ -654,7 +649,7 @@ Show
 # Gem Tier1
 Show
 	Class "Active Skill Gems" "Support Skill Gems"
-	BaseType "Empower" "Enlighten" "Portal" "Added Chaos Damage Support" "Detonate Mines"
+	BaseType "Empower" "Enlighten" "Portal" "Detonate Mines"
 	SetTextColor 26 162 155 255 # Gem Text
 	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
 	SetFontSize 41
@@ -770,6 +765,26 @@ Show
 	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
 	SetBorderColor 200 200 200 255 # Normal Border
 	SetFontSize 37
+
+# Shaped Maps
+Show
+	ShapedMap True
+	Class "Maps"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 200 200 200 255 # Normal Background
+	SetBorderColor 0 191 0 255
+	SetFontSize 37
+	PlayAlertSound 4 150
+
+# Nice Maps
+Show
+	Class "Maps"
+	BaseType "Iceberg Map" "Spider Forest Map" "Vault Map" "Burial Chambers Map" "Canyon Map" "Strand Map" "Toxic Sewer Map" "Fields Map" "Racecourse Map" "Lookout Map" "Jungle Valley Map" "Mesa Map" "Gorge Map" "Phantasmagoria Map" "Beach Map" "City Square Map" "Channel Map" "Alleyways Map" "Arid Lake Map" "Shore Map" "Ashen Wood Map"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 200 200 200 255 # Normal Background
+	SetBorderColor 0 194 0 255
+	SetFontSize 37
+	PlayAlertSound 4 150
 
 # Map Normal
 Show
@@ -903,30 +918,13 @@ Show
 # Section: 6 Sockets
 #-------------------------------------------------------------------------------
 
-# 6 Socket Normal
+# 6 Socket
 Show
 	Sockets = 6
-	Rarity = Normal
+	Rarity <= Rare
 	SetTextColor 255 255 255 255 # Normal Highlight Text
 	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
-	SetFontSize 41
-	PlayAlertSound 6 150
-
-# 6 Socket Magic
-Show
-	Sockets = 6
-	Rarity = Magic
-	SetTextColor 136 136 255 255 # Magic Text
-	SetBackgroundColor 0 15 30 255 # Magic Highlight Background
-	SetFontSize 41
-	PlayAlertSound 6 150
-
-# 6 Socket Rare
-Show
-	Sockets = 6
-	Rarity = Rare
-	SetTextColor 255 255 119 255 # Rare Text
-	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+	SetBorderColor 200 186 153 255 # Currency Border
 	SetFontSize 41
 	PlayAlertSound 6 150
 
@@ -937,18 +935,18 @@ Show
 # Tier1 Bases ilvl84 Normal
 Show
 	BaseType "Steel Ring" "Opal Ring" "Crystal Belt"
-	Rarity < Rare
+	Rarity <= Magic
 	ItemLevel >= 84
 	SetTextColor 255 255 255 255 # Normal Highlight Text
 	SetBackgroundColor 0 0 254 255 # Crafting Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
-	PlayAlertSound 8 300
+	PlayAlertSound 7 300
 
 # Tier1 Bases Normal
 Show
 	BaseType "Steel Ring" "Opal Ring" "Crystal Belt"
-	Rarity < Rare
+	Rarity <= Magic
 	SetTextColor 255 255 255 255 # Normal Highlight Text
 	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
 	SetBorderColor 0 0 254 255 # Crafting Border
@@ -958,7 +956,7 @@ Show
 # T2 Bases ilvl84 Normal
 Show
 	BaseType "Hubris Circlet" "Vaal Regalia"
-	Rarity < Rare
+	Rarity <= Magic
 	ItemLevel >= 84
 	SetTextColor 255 255 255 255 # Normal Highlight Text
 	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
@@ -982,6 +980,16 @@ Show
 #-------------------------------------------------------------------------------
 # Section: Uniques
 #-------------------------------------------------------------------------------
+
+# Unique Tier0
+Show
+	BaseType "Glorious Plate" "Sapphire Flask" "Rawhide Tower Shield" "Occultist's Vestment"
+	Rarity = Unique
+	SetTextColor 175 96 37 255 # Unique Text
+	SetBackgroundColor 255 255 255 255 # Tier0 Background
+	SetBorderColor 175 96 37 255 # Unique Border
+	SetFontSize 45
+	PlayAlertSound 8 300
 
 # Unique Tier?
 Show
@@ -1011,17 +1019,7 @@ Show
 	SetBackgroundColor 175 96 37 255 # Unique Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
-	PlayAlertSound 8 300
-
-# 5 Link Unique
-Show
-	LinkedSockets = 5
-	Rarity = Unique
-	SetTextColor 175 96 37 255 # Unique Text
-	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
-	SetBorderColor 175 96 37 255 # Unique Border
-	SetFontSize 41
-	PlayAlertSound 3 200
+	PlayAlertSound 7 300
 
 # 6 Socket Unique
 Show
