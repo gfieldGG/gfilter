@@ -1,6 +1,22 @@
-﻿# gfilter by gfield
+﻿#===============================================================================
+# GFILTER
+#===============================================================================
+#
+# NAME:          gfilter
+# VERSION:
+# AUTHOR:        gfield
+# CONTACT:
+# WEB PAGE:
+#
+# Created with Filter Master at https://grinding.zone
+#
+#-------------------------------------------------------------------------------
 
+
+
+#-------------------------------------------------------------------------------
 # Section: yeah sure
+#-------------------------------------------------------------------------------
 
 # Fishing Rods
 Show
@@ -11,7 +27,9 @@ Show
 	SetFontSize 45
 	PlayAlertSound 8 300
 
+#-------------------------------------------------------------------------------
 # Section: League Stuff
+#-------------------------------------------------------------------------------
 
 # Perandus Coin
 Show
@@ -48,7 +66,9 @@ Show
 	SetBackgroundColor 0 15 30 255 # Magic Highlight Background
 	SetFontSize 37
 
+#-------------------------------------------------------------------------------
 # Section: WAR FOR THE ATLAS
+#-------------------------------------------------------------------------------
 
 # Elder Atlas
 Show
@@ -136,7 +156,9 @@ Show
 	SetFontSize 41
 	PlayAlertSound 6 150
 
+#-------------------------------------------------------------------------------
 # Section: ABYSS
+#-------------------------------------------------------------------------------
 
 # Abyss Jewel ilvl84
 Show
@@ -192,7 +214,9 @@ Show
 	SetBorderColor 169 189 149 255 # Abyss Border
 	SetFontSize 37
 
+#-------------------------------------------------------------------------------
 # Section: Harbinger
+#-------------------------------------------------------------------------------
 
 # Harbinger Currency Trash
 Show
@@ -238,7 +262,9 @@ Show
 	SetFontSize 41
 	PlayAlertSound 3 200
 
+#-------------------------------------------------------------------------------
 # Section: Breach
+#-------------------------------------------------------------------------------
 
 # Breach Splinter
 Show
@@ -296,7 +322,9 @@ Show
 	SetBackgroundColor 21 12 30 255 # Breach Highlight Background
 	SetBorderColor 182 20 0 255 # Breach Border
 
+#-------------------------------------------------------------------------------
 # Section: Prophecy
+#-------------------------------------------------------------------------------
 
 # Silver Coin
 Show
@@ -324,7 +352,9 @@ Show
 	SetFontSize 41
 	PlayAlertSound 3 200
 
+#-------------------------------------------------------------------------------
 # Section: Essences
+#-------------------------------------------------------------------------------
 
 # Essence Tier1
 Show
@@ -362,7 +392,9 @@ Show
 	SetTextColor 128 179 254 255 # Essence Text
 	SetBackgroundColor 25 36 51 255 # Essence Highlight Background
 
+#-------------------------------------------------------------------------------
 # Section: Leaguestones
+#-------------------------------------------------------------------------------
 
 # Ancient Reliquary Key
 Show
@@ -428,7 +460,9 @@ Show
 	SetTextColor 255 200 0 255 # Legacy Text
 	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
 
+#-------------------------------------------------------------------------------
 # Section: Atlas of Worlds
+#-------------------------------------------------------------------------------
 
 # Apprentice Cartographer
 Show
@@ -470,7 +504,9 @@ Show
 	SetFontSize 45
 	PlayAlertSound 7 300
 
+#-------------------------------------------------------------------------------
 # Section: Divination Cards
+#-------------------------------------------------------------------------------
 
 # Divination Card Tier0
 Show
@@ -535,7 +571,9 @@ Show
 	SetBackgroundColor 0 0 0 210 # Junk Background
 	SetFontSize 37
 
+#-------------------------------------------------------------------------------
 # Section: Currency
+#-------------------------------------------------------------------------------
 
 # Currency Trash
 Show
@@ -599,7 +637,9 @@ Show
 	SetFontSize 45
 	PlayAlertSound 15 300
 
+#-------------------------------------------------------------------------------
 # Section: Gems
+#-------------------------------------------------------------------------------
 
 # Gem Tier1
 Show
@@ -669,7 +709,9 @@ Show
 	SetTextColor 26 162 155 255 # Gem Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
 
+#-------------------------------------------------------------------------------
 # Section: Maps
+#-------------------------------------------------------------------------------
 
 # Uber Atziri Fragments Tier2
 Show
@@ -769,7 +811,9 @@ Show
 	SetFontSize 41
 	PlayAlertSound 4 150
 
+#-------------------------------------------------------------------------------
 # Section: 6 Links
+#-------------------------------------------------------------------------------
 
 # 6 Link Normal
 Show
@@ -821,7 +865,9 @@ Show
 	SetFontSize 45
 	PlayAlertSound 7 300
 
+#-------------------------------------------------------------------------------
 # Section: 5 Links
+#-------------------------------------------------------------------------------
 
 # 5 Link Normal
 Show
@@ -853,7 +899,9 @@ Show
 	SetFontSize 41
 	PlayAlertSound 3 200
 
+#-------------------------------------------------------------------------------
 # Section: 6 Sockets
+#-------------------------------------------------------------------------------
 
 # 6 Socket Normal
 Show
@@ -882,7 +930,9 @@ Show
 	SetFontSize 41
 	PlayAlertSound 6 150
 
+#-------------------------------------------------------------------------------
 # Section: Crafting Bases
+#-------------------------------------------------------------------------------
 
 # Tier1 Bases ilvl84 Normal
 Show
@@ -916,7 +966,9 @@ Show
 	SetFontSize 41
 	PlayAlertSound 3 200
 
+#-------------------------------------------------------------------------------
 # Section: Chancing
+#-------------------------------------------------------------------------------
 
 # Chance Bases
 Show
@@ -927,7 +979,9 @@ Show
 	SetBorderColor 0 0 254 255 # Crafting Border
 	SetFontSize 37
 
+#-------------------------------------------------------------------------------
 # Section: Uniques
+#-------------------------------------------------------------------------------
 
 # Unique Tier?
 Show
@@ -985,7 +1039,9 @@ Show
 	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
 	SetFontSize 37
 
+#-------------------------------------------------------------------------------
 # Section: Jewels
+#-------------------------------------------------------------------------------
 
 # Jewel Normal
 Show
@@ -1011,7 +1067,9 @@ Show
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetFontSize 37
 
+#-------------------------------------------------------------------------------
 # Section: Rares
+#-------------------------------------------------------------------------------
 
 # Rare Atlas ilvl84
 Show
@@ -1135,7 +1193,6 @@ Show
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 	SetFontSize 37
 
-#Disabled Block Start
 # Regal Recipe Jewelry
 #Show
 #	Class "Ring" "Belt" "Amulet"
@@ -1145,9 +1202,7 @@ Show
 #	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 #	SetBorderColor 136 136 255 127 # Regal Recipe Border
 #	SetFontSize 37
-#Disabled Block End
 
-#Disabled Block Start
 # Chaos Recipe Belt
 #Show
 #	Class "Belt"
@@ -1156,9 +1211,7 @@ Show
 #	SetTextColor 255 255 119 255 # Rare Text
 #	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 #	SetBorderColor 254 170 0 127 # Chaos Recipe Border
-#Disabled Block End
 
-#Disabled Block Start
 # Chaos Recipe Jewelry
 #Show
 #	Class "Ring" "Amulet"
@@ -1168,7 +1221,6 @@ Show
 #	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 #	SetBorderColor 254 170 0 127 # Chaos Recipe Border
 #	SetFontSize 37
-#Disabled Block End
 
 # Rare Endgame
 Show
@@ -1184,15 +1236,15 @@ Show
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 0 0 0 255 # Default Background
 
-#Disabled Block Start
 # Rare
 #Hide
 #	Rarity = Rare
 #	SetTextColor 255 255 119 255 # Rare Text
 #	SetBackgroundColor 0 0 0 255 # Default Background
-#Disabled Block End
 
+#-------------------------------------------------------------------------------
 # Section: Chisel Recipe
+#-------------------------------------------------------------------------------
 
 # Chisel Hammer Normal
 Show
@@ -1212,7 +1264,9 @@ Show
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 80 80 80 255 # Quality Border
 
+#-------------------------------------------------------------------------------
 # Section: Perfect Quality Items
+#-------------------------------------------------------------------------------
 
 # Perfect Quality Item lvling
 Show
@@ -1224,7 +1278,9 @@ Show
 	SetBorderColor 80 80 80 255 # Quality Border
 	SetFontSize 37
 
+#-------------------------------------------------------------------------------
 # Section: Quality Flasks
+#-------------------------------------------------------------------------------
 
 # Flask Quality Levelling
 Show
@@ -1246,7 +1302,9 @@ Show
 	SetBackgroundColor 0 0 0 210 # Junk Background
 	SetBorderColor 80 80 80 255 # Quality Border
 
+#-------------------------------------------------------------------------------
 # Section: General
+#-------------------------------------------------------------------------------
 
 # Offering to the Goddess
 Show
@@ -1274,7 +1332,9 @@ Show
 	SetFontSize 45
 	PlayAlertSound 2 300
 
+#-------------------------------------------------------------------------------
 # Section: RGB Recipe
+#-------------------------------------------------------------------------------
 
 # RGB Levelling
 Show
@@ -1300,9 +1360,13 @@ Show
 	SetTextColor 255 255 255 255 # Normal Highlight Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
 
+#-------------------------------------------------------------------------------
 # Section: Levelling
+#-------------------------------------------------------------------------------
 
+#-------------------------------------------------------------------------------
 # Section: Flask Upgrade Normal
+#-------------------------------------------------------------------------------
 
 Show
 	Class "Flask"
@@ -1403,7 +1467,9 @@ Show
 	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
 	SetFontSize 37
 
+#-------------------------------------------------------------------------------
 # Section: Flask Upgrade Magic
+#-------------------------------------------------------------------------------
 
 Show
 	Class "Flask"
@@ -1504,7 +1570,9 @@ Show
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetFontSize 37
 
+#-------------------------------------------------------------------------------
 # Section: Early Levelling
+#-------------------------------------------------------------------------------
 
 # Flask Utility
 Show
@@ -1572,7 +1640,9 @@ Show
 	ItemLevel <= 28
 	SetBackgroundColor 0 0 0 210 # Junk Background
 
+#-------------------------------------------------------------------------------
 # Section: Utility Flasks
+#-------------------------------------------------------------------------------
 
 Show
 	Class "Utility Flasks"
@@ -1584,7 +1654,9 @@ Show
 	Class "Utility Flasks"
 	SetBackgroundColor 0 0 0 210 # Junk Background
 
+#-------------------------------------------------------------------------------
 # Section: Levelling Jewelry
+#-------------------------------------------------------------------------------
 
 # Quiver Levelling
 Show
@@ -1598,7 +1670,9 @@ Show
 	ItemLevel < 38
 	SetBackgroundColor 0 0 0 210 # Junk Background
 
+#-------------------------------------------------------------------------------
 # Section: Obsolete Levelling Bases
+#-------------------------------------------------------------------------------
 
 Hide
 	DropLevel <= 5
@@ -1664,7 +1738,9 @@ Hide
 	ItemLevel >= 67
 	SetBackgroundColor 0 0 0 0 # Hidden Background
 
+#-------------------------------------------------------------------------------
 # Section: Specific Weapon Upgrade Toggles
+#-------------------------------------------------------------------------------
 
 Show
 	Class "Bow"
@@ -1731,7 +1807,9 @@ Show
 	Rarity <= Magic
 	SetBackgroundColor 0 0 0 210 # Junk Background
 
+#-------------------------------------------------------------------------------
 # Section: Specific Armor Upgrade Toggles
+#-------------------------------------------------------------------------------
 
 # Two-Toned Boots
 Show
@@ -1817,7 +1895,9 @@ Show
 	Rarity <= Magic
 	SetBackgroundColor 0 0 0 210 # Junk Background
 
+#-------------------------------------------------------------------------------
 # Section: Everything else
+#-------------------------------------------------------------------------------
 
 # Everything not hidden or shown
 Hide
