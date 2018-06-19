@@ -3,10 +3,10 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:
+# VERSION:       
 # AUTHOR:        gfield
-# CONTACT:
-# WEB PAGE:
+# CONTACT:       
+# WEB PAGE:      
 #
 # Created with Filter Master at https://grinding.zone
 #
@@ -37,6 +37,7 @@ Show
 	BaseType "Perandus"
 	SetTextColor 254 213 0 255 # Perandus Text
 	SetBackgroundColor 112 88 2 255 # Perandus Background
+	SetFontSize 37
 
 # Talisman
 Show
@@ -44,7 +45,7 @@ Show
 	BaseType "Talisman"
 	SetBackgroundColor 10 46 20 255 # Talisman Hightlight Background
 	SetBorderColor 50 230 100 255 # Talisman Border
-	SetFontSize 37
+	SetFontSize 41
 	PlayAlertSound 6 150
 
 # Warband Item
@@ -53,7 +54,7 @@ Hide
 	HasExplicitMod "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's"
 	SetTextColor 136 136 255 255 # Magic Text
 	SetBackgroundColor 0 15 30 255 # Magic Highlight Background
-	SetFontSize 37
+	SetFontSize 41
 
 # Incursion Item
 Show
@@ -61,7 +62,7 @@ Show
 	HasExplicitMod "Tacati" "Citaqualotl" "Matatl" "Topotante" "Xopec" "Guatelitzi" "Puhuarte"
 	SetTextColor 136 136 255 255 # Magic Text
 	SetBackgroundColor 0 15 30 255 # Magic Highlight Background
-	SetFontSize 37
+	SetFontSize 41
 
 #-------------------------------------------------------------------------------
 # Section: WAR FOR THE ATLAS
@@ -164,7 +165,7 @@ Show
 	SetTextColor 169 189 149 255 # Abyss Text
 	SetBackgroundColor 30 34 26 255 # Abyss Highlight Background
 	SetBorderColor 169 189 149 255 # Abyss Border
-	SetFontSize 41
+	SetFontSize 45
 	PlayAlertSound 6 150
 
 # Abyss Jewel Magic
@@ -173,6 +174,7 @@ Show
 	Rarity <= Magic
 	SetTextColor 169 189 149 255 # Abyss Text
 	SetBackgroundColor 30 34 26 255 # Abyss Highlight Background
+	SetFontSize 37
 
 # Abyss Jewel Rare
 Show
@@ -180,7 +182,7 @@ Show
 	Rarity = Rare
 	SetTextColor 169 189 149 255 # Abyss Text
 	SetBackgroundColor 30 34 26 255 # Abyss Highlight Background
-	SetFontSize 37
+	SetFontSize 41
 
 # Stygian Vise ilvl84
 Show
@@ -190,7 +192,7 @@ Show
 	SetTextColor 169 189 149 255 # Abyss Text
 	SetBackgroundColor 30 34 26 255 # Abyss Highlight Background
 	SetBorderColor 169 189 149 255 # Abyss Border
-	SetFontSize 41
+	SetFontSize 45
 	PlayAlertSound 6 150
 
 # Stygian Vise ilvl75
@@ -201,7 +203,7 @@ Show
 	SetTextColor 169 189 149 255 # Abyss Text
 	SetBackgroundColor 30 34 26 255 # Abyss Highlight Background
 	SetBorderColor 169 189 149 255 # Abyss Border
-	SetFontSize 41
+	SetFontSize 45
 
 # Stygian Vise
 Show
@@ -210,7 +212,7 @@ Show
 	SetTextColor 169 189 149 255 # Abyss Text
 	SetBackgroundColor 30 34 26 255 # Abyss Highlight Background
 	SetBorderColor 169 189 149 255 # Abyss Border
-	SetFontSize 37
+	SetFontSize 41
 
 #-------------------------------------------------------------------------------
 # Section: Harbinger
@@ -221,7 +223,8 @@ Show
 	Class "Currency"
 	BaseType "Binding Shard" "Horizon Shard" "Harbinger's Shard" "Engineer's Shard" "Ancient Shard" "Chaos Shard" "Regal Shard"
 	SetTextColor 88 124 244 255 # Harbinger Text
-	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBackgroundColor 0 0 0 210 # Junk Background
+	SetFontSize 37
 
 # Harbinger Currency T3
 Show
@@ -229,6 +232,7 @@ Show
 	BaseType "Annulment Shard" "Orb of Horizons" "Engineer's Orb" "Orb of Binding"
 	SetTextColor 88 124 244 255 # Harbinger Text
 	SetBackgroundColor 15 21 42 255 # Harbinger Highlight Background
+	SetFontSize 41
 	PlayAlertSound 6 79
 
 # Harbinger Currency T2
@@ -238,7 +242,7 @@ Show
 	SetTextColor 88 124 244 255 # Harbinger Text
 	SetBackgroundColor 15 21 42 255 # Harbinger Highlight Background
 	SetBorderColor 88 124 244 255 # Harbinger Border
-	SetFontSize 41
+	SetFontSize 45
 	PlayAlertSound 3 200
 
 # Harbinger Currency T1
@@ -257,7 +261,7 @@ Show
 	SetTextColor 175 96 37 255 # Unique Text
 	SetBackgroundColor 15 21 42 255 # Harbinger Highlight Background
 	SetBorderColor 88 124 244 255 # Harbinger Border
-	SetFontSize 41
+	SetFontSize 45
 	PlayAlertSound 3 200
 
 #-------------------------------------------------------------------------------
@@ -270,7 +274,7 @@ Show
 	BaseType "Splinter of"
 	SetTextColor 166 95 244 255 # Breach Text
 	SetBackgroundColor 40 4 0 255 # Breach Red Highlight Background
-	SetFontSize 37
+	SetFontSize 41
 
 # Breachstone
 Show
@@ -279,7 +283,7 @@ Show
 	SetTextColor 166 95 244 255 # Breach Text
 	SetBackgroundColor 21 12 30 255 # Breach Highlight Background
 	SetBorderColor 182 20 0 255 # Breach Border
-	SetFontSize 41
+	SetFontSize 45
 	PlayAlertSound 3 200
 
 # Chayula Blessing
@@ -309,6 +313,7 @@ Show
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 21 12 30 255 # Breach Highlight Background
 	SetBorderColor 182 20 0 255 # Breach Border
+	SetFontSize 37
 
 #-------------------------------------------------------------------------------
 # Section: Prophecy
@@ -320,7 +325,7 @@ Show
 	BaseType "Silver Coin"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 30 0 30 255 # Prophecy Highlight Background
-	SetFontSize 37
+	SetFontSize 41
 
 # Prophecy
 Show
@@ -328,7 +333,7 @@ Show
 	BaseType "Prophecy"
 	SetTextColor 125 0 175 255 # Prophecy Text
 	SetBackgroundColor 30 0 30 255 # Prophecy Highlight Background
-	SetFontSize 37
+	SetFontSize 41
 
 # Pale Court Key
 Show
@@ -337,7 +342,7 @@ Show
 	SetTextColor 125 0 175 255 # Prophecy Text
 	SetBackgroundColor 30 0 30 255 # Prophecy Highlight Background
 	SetBorderColor 125 0 175 255 # Prophecy Border
-	SetFontSize 41
+	SetFontSize 45
 	PlayAlertSound 3 200
 
 #-------------------------------------------------------------------------------
@@ -361,7 +366,7 @@ Show
 	SetTextColor 128 179 254 255 # Essence Text
 	SetBackgroundColor 25 36 51 255 # Essence Highlight Background
 	SetBorderColor 128 179 254 255 # Essence Border
-	SetFontSize 41
+	SetFontSize 45
 	PlayAlertSound 3 200
 
 # Essence Tier3
@@ -370,7 +375,7 @@ Show
 	BaseType "Wailing Essence of" "Screaming Essence of"
 	SetTextColor 128 179 254 255 # Essence Text
 	SetBackgroundColor 25 36 51 255 # Essence Highlight Background
-	SetFontSize 37
+	SetFontSize 41
 	PlayAlertSound 6 150
 
 # Essence
@@ -400,6 +405,7 @@ Show
 	Rarity = Normal
 	SetTextColor 255 200 0 255 # Legacy Text
 	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
+	SetFontSize 37
 
 # Leveling Leaguestone Magic Tier1
 Show
@@ -409,7 +415,7 @@ Show
 	ItemLevel < 68
 	SetTextColor 255 200 0 255 # Legacy Text
 	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
-	SetFontSize 37
+	SetFontSize 41
 	PlayAlertSound 6 150
 
 # Leaguestone Magic Tier1
@@ -419,7 +425,7 @@ Show
 	Rarity >= Magic
 	SetTextColor 255 200 0 255 # Legacy Text
 	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
-	SetFontSize 41
+	SetFontSize 45
 	PlayAlertSound 3 200
 
 # Leaguestone Magic
@@ -429,7 +435,7 @@ Show
 	ItemLevel >= 68
 	SetTextColor 255 200 0 255 # Legacy Text
 	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
-	SetFontSize 37
+	SetFontSize 41
 	PlayAlertSound 6 150
 
 # Leaguestone Tier1
@@ -439,7 +445,7 @@ Show
 	ItemLevel >= 68
 	SetTextColor 255 200 0 255 # Legacy Text
 	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
-	SetFontSize 37
+	SetFontSize 41
 	PlayAlertSound 6 150
 
 # Leaguestone
@@ -447,6 +453,7 @@ Show
 	Class "Leaguestone"
 	SetTextColor 255 200 0 255 # Legacy Text
 	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
+	SetFontSize 37
 
 #-------------------------------------------------------------------------------
 # Section: Atlas of Worlds
@@ -459,7 +466,7 @@ Show
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetBorderColor 200 200 200 255 # Apprentice Border
-	SetFontSize 37
+	SetFontSize 45
 	PlayAlertSound 3 200
 
 # Journeyman Cartographer
@@ -469,7 +476,7 @@ Show
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetBorderColor 254 170 0 255 # Journeyman Border
-	SetFontSize 37
+	SetFontSize 45
 	PlayAlertSound 3 200
 
 # Master Cartographer
@@ -479,7 +486,7 @@ Show
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetBorderColor 191 0 0 255 # Master Border
-	SetFontSize 41
+	SetFontSize 45
 	PlayAlertSound 3 200
 
 # Guarding Fragments
@@ -523,7 +530,7 @@ Show
 	SetTextColor 14 186 255 255 # Divination Card Text
 	SetBackgroundColor 25 33 33 255 # Divination Card Highlight Background
 	SetBorderColor 14 186 255 255 # Divination Card Border
-	SetFontSize 41
+	SetFontSize 45
 	PlayAlertSound 3 200
 
 # Divination Card Stacked Deck
@@ -533,7 +540,7 @@ Show
 	SetTextColor 14 186 255 255 # Divination Card Text
 	SetBackgroundColor 25 33 33 255 # Divination Card Highlight Background
 	SetBorderColor 14 186 255 255 # Divination Card Border
-	SetFontSize 41
+	SetFontSize 45
 	PlayAlertSound 3 200
 
 # Divination Card Tier3
@@ -542,7 +549,7 @@ Show
 	BaseType "Blessing of God" "Boundless Realms" "Bowyer's Dream" "Coveted Possession" "Earth Drinker" "Emperor of Purity" "Gemcutter's Promise" "Harmony of Souls" "Hope" "Humility" "Jack in the Box" "Left to Fate" "Lingering Remnants" "Lost Worlds" "Lucky Connections" "Lucky Deck" "Merciless Armament" "No Traces" "Rebirth" "Scholar of the Seas" "Shard of Fate" "Standoff" "The Admirer" "The Aesthete" "The Beast" "The Body" "The Breach" "The Chains that Bind" "The Cursed King" "The Dark Mage" "The Darkest Dream" "The Dragon" "The Dreamland" "The Encroaching Darkness" "The Fletcher" "The Formless Sea" "The Forsaken" "The Hale Heart" "The Insatiable" "The Inventor" "The Jester" "The Jeweller's Boon" "The Obscured" "The Offering" "The Penitent" "The Poet" "The Polymath" "The Porcupine" "The Realm" "The Road to Power" "The Soul" "The Standoff" "The Surveyor" "The Survivalist" "The Sword King's Salute" "The Thaumaturgist" "The Throne" "The Trial" "The Tyrant" "The Union" "The Valley of Steel Boxes" "The Warlord" "The Wrath" "The Wretched" "Time-Lost Relic" "Valley of Steel Boxes" "Vinia's Token" "Wolven King's Bite"
 	SetTextColor 14 186 255 255 # Divination Card Text
 	SetBackgroundColor 25 33 33 255 # Divination Card Highlight Background
-	SetFontSize 41
+	SetFontSize 45
 	PlayAlertSound 6 150
 
 # Divination Card Trash
@@ -557,7 +564,7 @@ Show
 	Class "Divination Card"
 	SetTextColor 14 186 255 255 # Divination Card Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
-	SetFontSize 37
+	SetFontSize 41
 
 #-------------------------------------------------------------------------------
 # Section: Currency
@@ -566,16 +573,26 @@ Show
 # Currency Trash
 Show
 	Class "Currency"
-	BaseType "Alteration Shard" "Transmutation Shard" "Alchemy Shard" "Scroll of Wisdom" "Portal Scroll" "Scroll Fragment" "Blacksmith's Whetstone" "Armourer's Scrap"
+	BaseType "Alteration Shard" "Transmutation Shard" "Alchemy Shard" "Scroll Fragment"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
+	SetFontSize 37
+
+# Currency Scrolls
+Show
+	Class "Currency"
+	BaseType "Scroll of Wisdom" "Portal Scroll"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 0 0 0 210 # Junk Background
+	SetFontSize 37
 
 # Currency Tier5
 Hide
 	Class "Currency"
-	BaseType "Orb of Transmutation" "Orb of Augmentation"
+	BaseType "Orb of Transmutation" "Orb of Augmentation" "Blacksmith's Whetstone" "Armourer's Scrap"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
+	SetFontSize 37
 
 # Currency Tier4
 Show
@@ -583,7 +600,7 @@ Show
 	BaseType "Jeweller's Orb" "Orb of Chance" "Orb of Alteration" "Chromatic Orb"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
-	SetFontSize 37
+	SetFontSize 41
 
 # Currency Tier3
 Show
@@ -591,8 +608,8 @@ Show
 	BaseType "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Vaal Orb" "Orb of Scouring"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
-	SetFontSize 41
-	PlayAlertSound 6 150
+	SetFontSize 45
+	PlayAlertSound 6 150 # Tier3
 
 # Currency Tier2
 Show
@@ -601,8 +618,8 @@ Show
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetBorderColor 200 186 153 255 # Currency Border
-	SetFontSize 41
-	PlayAlertSound 3 200
+	SetFontSize 45
+	PlayAlertSound 3 200 # Tier2
 
 # Currency Tier1.5
 Show
@@ -612,7 +629,7 @@ Show
 	SetBackgroundColor 200 186 153 255 # Currency Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
-	PlayAlertSound 7 300
+	PlayAlertSound 7 300 # Tier1
 
 # Currency Tier1
 Show
@@ -621,7 +638,7 @@ Show
 	SetBackgroundColor 255 255 255 255 # Tier0 Background
 	SetBorderColor 200 186 153 255 # Currency Border
 	SetFontSize 45
-	PlayAlertSound 8 300
+	PlayAlertSound 8 300 # Tier0
 
 # Currency
 Show
@@ -649,10 +666,10 @@ Show
 # Gem Tier1
 Show
 	Class "Active Skill Gems" "Support Skill Gems"
-	BaseType "Empower" "Enlighten" "Portal" "Detonate Mines"
+	BaseType "Empower" "Enlighten" "Portal"
 	SetTextColor 26 162 155 255 # Gem Text
 	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
-	SetFontSize 41
+	SetFontSize 45
 	PlayAlertSound 6 150
 
 # Gem Vaal
@@ -662,7 +679,7 @@ Show
 	SetTextColor 26 162 155 255 # Gem Text
 	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
 	SetBorderColor 161 27 123 255 # Vaal Border
-	SetFontSize 37
+	SetFontSize 41
 
 # Gem Quality 20
 Show
@@ -690,19 +707,21 @@ Show
 	Class "Active Skill Gems" "Support Skill Gems"
 	SetTextColor 26 162 155 255 # Gem Text
 	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
-	SetFontSize 37
+	SetFontSize 41
 
 # Gem Support
 Show
 	Class "Support Skill Gems"
 	SetTextColor 26 162 155 255 # Gem Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
+	SetFontSize 37
 
 # Gem
 Show
 	Class "Active Skill Gems"
 	SetTextColor 26 162 155 255 # Gem Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
+	SetFontSize 37
 
 #-------------------------------------------------------------------------------
 # Section: Maps
@@ -715,7 +734,7 @@ Show
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 161 27 123 255 # Vaal Background
 	SetBorderColor 0 0 0 255 # Map Border
-	SetFontSize 41
+	SetFontSize 45
 	PlayAlertSound 3 200
 
 # Uber Atziri Fragments Tier1
@@ -735,7 +754,7 @@ Show
 	SetTextColor 161 27 123 255 # Vaal Text
 	SetBackgroundColor 30 0 15 255 # Vaal Highlight Background
 	SetBorderColor 161 27 123 255 # Vaal Border
-	SetFontSize 41
+	SetFontSize 45
 	PlayAlertSound 3 200
 
 # Vaal Fragment
@@ -745,7 +764,7 @@ Show
 	SetTextColor 161 27 123 255 # Vaal Text
 	SetBackgroundColor 30 0 15 255 # Vaal Highlight Background
 	SetBorderColor 161 27 123 255 # Vaal Border
-	SetFontSize 37
+	SetFontSize 41
 	PlayAlertSound 6 150
 
 # Divine Vessel
@@ -755,7 +774,7 @@ Show
 	SetTextColor 255 255 119 255
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 255 255 119 255
-	SetFontSize 37
+	SetFontSize 41
 	PlayAlertSound 3 200
 
 # Map Fragments
@@ -764,7 +783,7 @@ Show
 	SetTextColor 200 200 200 255 # Normal Text
 	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
 	SetBorderColor 200 200 200 255 # Normal Border
-	SetFontSize 37
+	SetFontSize 41
 
 # Shaped Maps
 Show
@@ -773,7 +792,7 @@ Show
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 200 200 200 255 # Normal Background
 	SetBorderColor 0 191 0 255
-	SetFontSize 37
+	SetFontSize 45
 	PlayAlertSound 4 150
 
 # Nice Maps
@@ -783,7 +802,7 @@ Show
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 200 200 200 255 # Normal Background
 	SetBorderColor 0 194 0 255
-	SetFontSize 37
+	SetFontSize 45
 	PlayAlertSound 4 150
 
 # Map Normal
@@ -793,7 +812,7 @@ Show
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 200 200 200 255 # Normal Background
 	SetBorderColor 100 100 100 255 # Map Normal Border
-	SetFontSize 37
+	SetFontSize 41
 	PlayAlertSound 4 150
 
 # Map Magic
@@ -803,7 +822,7 @@ Show
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 136 136 255 255 # Magic Background
 	SetBorderColor 68 68 128 250 # Map Magic Border
-	SetFontSize 37
+	SetFontSize 41
 	PlayAlertSound 4 150
 
 # Map Rare
@@ -813,7 +832,7 @@ Show
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 255 119 255 # Rare Background
 	SetBorderColor 128 128 60 250 # Map Rare Border
-	SetFontSize 37
+	SetFontSize 41
 	PlayAlertSound 4 150
 
 # Map Unique
@@ -867,7 +886,7 @@ Show
 	SetTextColor 175 96 37 255 # Unique Text
 	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
 	SetBorderColor 175 96 37 255 # Unique Border
-	SetFontSize 41
+	SetFontSize 45
 	PlayAlertSound 3 200
 
 # 6 Link Unique
@@ -925,7 +944,7 @@ Show
 	SetTextColor 255 255 255 255 # Normal Highlight Text
 	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
 	SetBorderColor 200 186 153 255 # Currency Border
-	SetFontSize 41
+	SetFontSize 45
 	PlayAlertSound 6 150
 
 #-------------------------------------------------------------------------------
@@ -969,13 +988,13 @@ Show
 #-------------------------------------------------------------------------------
 
 # Chance Bases
-Show
-	BaseType "Gold Amulet"
-	Rarity = Normal
-	SetTextColor 200 200 200 255 # Normal Text
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetBorderColor 0 0 254 255 # Crafting Border
-	SetFontSize 37
+#Show
+#	BaseType "Gold Amulet"
+#	Rarity = Normal
+#	SetTextColor 200 200 200 255 # Normal Text
+#	SetBackgroundColor 0 0 0 255 # Default Background
+#	SetBorderColor 0 0 254 255 # Crafting Border
+#	SetFontSize 37
 
 #-------------------------------------------------------------------------------
 # Section: Uniques
@@ -998,7 +1017,7 @@ Show
 	SetTextColor 175 96 37 255 # Unique Text
 	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
 	SetBorderColor 175 96 37 255 # Unique Border
-	SetFontSize 41
+	SetFontSize 45
 	PlayAlertSound 6 150
 
 # Unique Tier2
@@ -1008,7 +1027,7 @@ Show
 	SetTextColor 175 96 37 255 # Unique Text
 	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
 	SetBorderColor 175 96 37 255 # Unique Border
-	SetFontSize 41
+	SetFontSize 45
 	PlayAlertSound 3 200
 
 # Unique Tier1
@@ -1027,7 +1046,7 @@ Show
 	Rarity = Unique
 	SetTextColor 175 96 37 255 # Unique Text
 	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
-	SetFontSize 37
+	SetFontSize 45
 	PlayAlertSound 6 150
 
 # Unique
@@ -1047,7 +1066,7 @@ Show
 	Rarity = Normal
 	SetTextColor 200 200 200 255 # Normal Text
 	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 37
+	SetFontSize 41
 
 # Jewel Magic
 Show
@@ -1055,7 +1074,7 @@ Show
 	Rarity = Magic
 	SetTextColor 136 136 255 255 # Magic Text
 	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 37
+	SetFontSize 41
 
 # Jewel Rare
 Show
@@ -1063,7 +1082,7 @@ Show
 	Rarity = Rare
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 37
+	SetFontSize 41
 
 #-------------------------------------------------------------------------------
 # Section: Rares
@@ -1098,7 +1117,7 @@ Show
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 	SetBorderColor 255 255 119 255 # Rare Border
-	SetFontSize 41
+	SetFontSize 45
 	PlayAlertSound 6 150
 
 # Rare Base Small Tier1
@@ -1108,7 +1127,7 @@ Show
 	ItemLevel >= 65
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
-	SetFontSize 41
+	SetFontSize 45
 
 # Rare Base Big Tier1 ilvl75
 Show
@@ -1127,7 +1146,7 @@ Show
 	ItemLevel >= 65
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
-	SetFontSize 37
+	SetFontSize 41
 
 # Rare Base Small Tier2 ilvl75
 Show
@@ -1145,7 +1164,7 @@ Show
 	ItemLevel >= 65
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
-	SetFontSize 37
+	SetFontSize 41
 
 # Rare Base Big Tier2 ilvl75
 Show
@@ -1163,6 +1182,7 @@ Show
 	ItemLevel >= 65
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+	SetFontSize 37
 
 # Rare Jewelry Trash Base
 Show
@@ -1180,7 +1200,7 @@ Show
 	ItemLevel >= 75
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
-	SetFontSize 41
+	SetFontSize 45
 
 # Rare Jewelry
 Show
@@ -1189,7 +1209,7 @@ Show
 	ItemLevel >= 65
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
-	SetFontSize 37
+	SetFontSize 41
 
 # Regal Recipe Jewelry
 #Show
@@ -1226,6 +1246,7 @@ Show
 	ItemLevel >= 67
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
+	SetFontSize 37
 
 # Rare Levelling
 Show
@@ -1233,6 +1254,7 @@ Show
 	ItemLevel < 67
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 0 0 0 255 # Default Background
+	SetFontSize 41
 
 # Rare
 #Hide
@@ -1252,6 +1274,7 @@ Show
 	SetTextColor 200 200 200 255 # Normal Text
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 80 80 80 255 # Quality Border
+	SetFontSize 37
 
 # Chisel Hammer Magic
 Show
@@ -1261,6 +1284,7 @@ Show
 	SetTextColor 136 136 255 255 # Magic Text
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 80 80 80 255 # Quality Border
+	SetFontSize 37
 
 #-------------------------------------------------------------------------------
 # Section: Perfect Quality Items
@@ -1289,7 +1313,7 @@ Show
 	SetTextColor 200 200 200 255 # Normal Text
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 80 80 80 255 # Quality Border
-	SetFontSize 37
+	SetFontSize 41
 
 # Flask Quality Endgame
 Show
@@ -1299,6 +1323,7 @@ Show
 	SetTextColor 200 200 200 255 # Normal Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
 	SetBorderColor 80 80 80 255 # Quality Border
+	SetFontSize 37
 
 #-------------------------------------------------------------------------------
 # Section: General
@@ -1310,7 +1335,7 @@ Show
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 74 230 58 255 # Quest Background
 	SetBorderColor 0 0 0 255 # Map Border
-	SetFontSize 41
+	SetFontSize 45
 	PlayAlertSound 3 200
 
 # Game Items
@@ -1318,7 +1343,7 @@ Show
 	Class "Quest" "Hideout" "Micro" "Labyrinth" "Incursion Item"
 	SetTextColor 74 230 58 255 # Quest Text
 	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 41
+	SetFontSize 45
 	PlayAlertSound 2 100
 
 # Pantheon Soul
@@ -1340,7 +1365,7 @@ Show
 	ItemLevel < 67
 	SetTextColor 255 255 255 255 # Normal Highlight Text
 	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
-	SetFontSize 37
+	SetFontSize 41
 
 # RGB Maps 2x2
 Show
@@ -1349,6 +1374,7 @@ Show
 	Width <= 2
 	SetTextColor 255 255 255 255 # Normal Highlight Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
+	SetFontSize 37
 
 # RGB Maps 1x3
 Show
@@ -1357,6 +1383,7 @@ Show
 	Width <= 1
 	SetTextColor 255 255 255 255 # Normal Highlight Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
+	SetFontSize 37
 
 #-------------------------------------------------------------------------------
 # Section: Levelling
@@ -1373,7 +1400,7 @@ Show
 	ItemLevel <= 6
 	SetTextColor 255 255 255 255 # Normal Highlight Text
 	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
-	SetFontSize 37
+	SetFontSize 41
 
 Show
 	Class "Flask"
@@ -1382,7 +1409,7 @@ Show
 	ItemLevel <= 12
 	SetTextColor 255 255 255 255 # Normal Highlight Text
 	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
-	SetFontSize 37
+	SetFontSize 41
 
 Show
 	Class "Flask"
@@ -1391,7 +1418,7 @@ Show
 	ItemLevel <= 18
 	SetTextColor 255 255 255 255 # Normal Highlight Text
 	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
-	SetFontSize 37
+	SetFontSize 41
 
 Show
 	Class "Flask"
@@ -1400,7 +1427,7 @@ Show
 	ItemLevel <= 24
 	SetTextColor 255 255 255 255 # Normal Highlight Text
 	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
-	SetFontSize 37
+	SetFontSize 41
 
 Show
 	Class "Flask"
@@ -1409,7 +1436,7 @@ Show
 	ItemLevel <= 30
 	SetTextColor 255 255 255 255 # Normal Highlight Text
 	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
-	SetFontSize 37
+	SetFontSize 41
 
 Show
 	Class "Flask"
@@ -1418,7 +1445,7 @@ Show
 	ItemLevel <= 36
 	SetTextColor 255 255 255 255 # Normal Highlight Text
 	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
-	SetFontSize 37
+	SetFontSize 41
 
 Show
 	Class "Flask"
@@ -1427,7 +1454,7 @@ Show
 	ItemLevel <= 42
 	SetTextColor 255 255 255 255 # Normal Highlight Text
 	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
-	SetFontSize 37
+	SetFontSize 41
 
 Show
 	Class "Flask"
@@ -1436,7 +1463,7 @@ Show
 	ItemLevel <= 50
 	SetTextColor 255 255 255 255 # Normal Highlight Text
 	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
-	SetFontSize 37
+	SetFontSize 41
 
 Show
 	Class "Flask"
@@ -1445,7 +1472,7 @@ Show
 	ItemLevel <= 51
 	SetTextColor 255 255 255 255 # Normal Highlight Text
 	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
-	SetFontSize 37
+	SetFontSize 41
 
 Show
 	Class "Flask"
@@ -1454,7 +1481,7 @@ Show
 	ItemLevel < 67
 	SetTextColor 255 255 255 255 # Normal Highlight Text
 	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
-	SetFontSize 37
+	SetFontSize 41
 
 Show
 	Class "Flask"
@@ -1463,7 +1490,7 @@ Show
 	ItemLevel < 67
 	SetTextColor 255 255 255 255 # Normal Highlight Text
 	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
-	SetFontSize 37
+	SetFontSize 41
 
 #-------------------------------------------------------------------------------
 # Section: Flask Upgrade Magic
@@ -1476,7 +1503,7 @@ Show
 	ItemLevel <= 6
 	SetTextColor 136 136 255 255 # Magic Text
 	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 37
+	SetFontSize 41
 
 Show
 	Class "Flask"
@@ -1485,7 +1512,7 @@ Show
 	ItemLevel <= 12
 	SetTextColor 136 136 255 255 # Magic Text
 	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 37
+	SetFontSize 41
 
 Show
 	Class "Flask"
@@ -1494,7 +1521,7 @@ Show
 	ItemLevel <= 18
 	SetTextColor 136 136 255 255 # Magic Text
 	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 37
+	SetFontSize 41
 
 Show
 	Class "Flask"
@@ -1503,7 +1530,7 @@ Show
 	ItemLevel <= 24
 	SetTextColor 136 136 255 255 # Magic Text
 	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 37
+	SetFontSize 41
 
 Show
 	Class "Flask"
@@ -1512,7 +1539,7 @@ Show
 	ItemLevel <= 30
 	SetTextColor 136 136 255 255 # Magic Text
 	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 37
+	SetFontSize 41
 
 Show
 	Class "Flask"
@@ -1521,7 +1548,7 @@ Show
 	ItemLevel <= 36
 	SetTextColor 136 136 255 255 # Magic Text
 	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 37
+	SetFontSize 41
 
 Show
 	Class "Flask"
@@ -1530,7 +1557,7 @@ Show
 	ItemLevel <= 42
 	SetTextColor 136 136 255 255 # Magic Text
 	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 37
+	SetFontSize 41
 
 Show
 	Class "Flask"
@@ -1539,7 +1566,7 @@ Show
 	ItemLevel <= 50
 	SetTextColor 136 136 255 255 # Magic Text
 	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 37
+	SetFontSize 41
 
 Show
 	Class "Flask"
@@ -1548,7 +1575,7 @@ Show
 	ItemLevel <= 51
 	SetTextColor 136 136 255 255 # Magic Text
 	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 37
+	SetFontSize 41
 
 Show
 	Class "Flask"
@@ -1557,7 +1584,7 @@ Show
 	ItemLevel < 67
 	SetTextColor 136 136 255 255 # Magic Text
 	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 37
+	SetFontSize 41
 
 Show
 	Class "Flask"
@@ -1566,7 +1593,7 @@ Show
 	ItemLevel < 67
 	SetTextColor 136 136 255 255 # Magic Text
 	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 37
+	SetFontSize 41
 
 #-------------------------------------------------------------------------------
 # Section: Early Levelling
@@ -1579,14 +1606,14 @@ Show
 	ItemLevel <= 28
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 192 255 203 255 # Levelling Border
-	SetFontSize 41
+	SetFontSize 45
 
 Show
 	Class "Utility Flasks"
 	BaseType "Sapphire Flask" "Ruby Flask" "Amethyst Flask" "Topaz Flask"
 	ItemLevel <= 28
 	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 37
+	SetFontSize 41
 
 # Piety Ring
 Show
@@ -1594,7 +1621,7 @@ Show
 	ItemLevel <= 12
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 192 255 203 255 # Levelling Border
-	SetFontSize 41
+	SetFontSize 45
 
 # MS Boots
 Show
@@ -1603,7 +1630,7 @@ Show
 	ItemLevel <= 20
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 192 255 203 255 # Levelling Border
-	SetFontSize 41
+	SetFontSize 45
 
 # 3 Links
 Show
@@ -1611,7 +1638,7 @@ Show
 	Class "Helm" "Body" "Boots" "Gloves"
 	ItemLevel < 6
 	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 37
+	SetFontSize 41
 
 # 4 Links
 Show
@@ -1620,7 +1647,7 @@ Show
 	ItemLevel <= 38
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 192 255 203 255 # Levelling Border
-	SetFontSize 37
+	SetFontSize 41
 
 # Pre-Brutus Everything
 Show
@@ -1631,12 +1658,13 @@ Show
 	Class "Ring" "Amulet" "Belt"
 	ItemLevel <= 18
 	SetBackgroundColor 0 0 0 210 # Junk Background
+	SetFontSize 37
 
 # MS Boots Normal
-Show
-	Class "Boots"
-	ItemLevel <= 28
-	SetBackgroundColor 0 0 0 210 # Junk Background
+#Show
+#	Class "Boots"
+#	ItemLevel <= 28
+#	SetBackgroundColor 0 0 0 210 # Junk Background
 
 #-------------------------------------------------------------------------------
 # Section: Utility Flasks
@@ -1646,11 +1674,12 @@ Show
 	Class "Utility Flasks"
 	ItemLevel < 67
 	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 37
+	SetFontSize 41
 
 Show
 	Class "Utility Flasks"
 	SetBackgroundColor 0 0 0 210 # Junk Background
+	SetFontSize 37
 
 #-------------------------------------------------------------------------------
 # Section: Levelling Jewelry
