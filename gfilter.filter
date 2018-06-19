@@ -219,7 +219,7 @@ Show
 # Harbinger Currency Trash
 Show
 	Class "Currency"
-	BaseType "Binding Shard" "Horizon Shard" "Harbinger's Shard" "Engineer's Shard" "Ancient Shard" "Chaos Shard" "Regal Shard"
+	BaseType "Binding Shard" "Horizon Shard" "Engineer's Shard" "Chaos Shard" "Regal Shard"
 	SetTextColor 88 124 244 255 # Harbinger Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
 	SetFontSize 37
@@ -227,31 +227,31 @@ Show
 # Harbinger Currency T3
 Show
 	Class "Currency"
-	BaseType "Annulment Shard" "Orb of Horizons" "Engineer's Orb" "Orb of Binding"
+	BaseType "Annulment Shard" "Harbinger's Shard" "Ancient Shard"
 	SetTextColor 88 124 244 255 # Harbinger Text
 	SetBackgroundColor 15 21 42 255 # Harbinger Highlight Background
 	SetFontSize 41
 	PlayAlertSound 6 79
 
 # Harbinger Currency T2
-Show
-	Class "Currency"
-	BaseType "Ancient Orb" "Harbinger's Orb" "Exalted Shard"
-	SetTextColor 88 124 244 255 # Harbinger Text
-	SetBackgroundColor 15 21 42 255 # Harbinger Highlight Background
-	SetBorderColor 88 124 244 255 # Harbinger Border
-	SetFontSize 45
-	PlayAlertSound 3 200 # Tier2
+#Show
+#	Class "Currency"
+#	BaseType "Exalted Shard"
+#	SetTextColor 88 124 244 255 # Harbinger Text
+#	SetBackgroundColor 15 21 42 255 # Harbinger Highlight Background
+#	SetBorderColor 88 124 244 255 # Harbinger Border
+#	SetFontSize 45
+#	PlayAlertSound 3 200 # Tier2
 
 # Harbinger Currency T1
-Show
-	Class "Currency"
-	BaseType "Mirror Shard"
-	SetTextColor 88 124 244 255 # Harbinger Text
-	SetBackgroundColor 15 21 42 255 # Harbinger Highlight Background
-	SetBorderColor 255 255 255 255 # Tier1 Border
-	SetFontSize 45
-	PlayAlertSound 8 300 # Tier0
+#Show
+#	Class "Currency"
+#	BaseType "Mirror Shard" "Ancient Orb"
+#	SetTextColor 88 124 244 255 # Harbinger Text
+#	SetBackgroundColor 15 21 42 255 # Harbinger Highlight Background
+#	SetBorderColor 255 255 255 255 # Tier1 Border
+#	SetFontSize 45
+#	PlayAlertSound 8 300 # Tier0
 
 # Piece
 Show
@@ -569,25 +569,17 @@ Show
 #-------------------------------------------------------------------------------
 
 # Currency Trash
-Show
+Hide
 	Class "Currency"
 	BaseType "Alteration Shard" "Transmutation Shard" "Alchemy Shard" "Scroll Fragment"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
 	SetFontSize 37
 
-# Currency Scrolls
+# Currency Tier5
 Show
 	Class "Currency"
-	BaseType "Scroll of Wisdom" "Portal Scroll"
-	SetTextColor 200 186 153 255 # Currency Text
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	SetFontSize 37
-
-# Currency Tier5
-Hide
-	Class "Currency"
-	BaseType "Orb of Transmutation" "Orb of Augmentation" "Blacksmith's Whetstone" "Armourer's Scrap"
+	BaseType "Orb of Transmutation" "Orb of Augmentation" "Blacksmith's Whetstone" "Armourer's Scrap" "Scroll of Wisdom" "Portal Scroll"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
 	SetFontSize 37
@@ -603,7 +595,7 @@ Show
 # Currency Tier3
 Show
 	Class "Currency"
-	BaseType "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Vaal Orb" "Orb of Scouring"
+	BaseType "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Orb of Scouring" "Orb of Binding"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetFontSize 45
@@ -612,24 +604,24 @@ Show
 # Currency Tier2
 Show
 	Class "Currency"
-	BaseType "Chaos Orb" "Orb of Regret" "Regal Orb" "Gemcutter's Prism" "Orb of Annulment"
+	BaseType "Chaos Orb" "Orb of Regret" "Regal Orb" "Gemcutter's Prism" "Vaal Orb" "Orb of Horizons" "Engineer's Orb" "Exalted Shard"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetBorderColor 200 186 153 255 # Currency Border
 	SetFontSize 45
 	PlayAlertSound 3 200 # Tier2
 
-# Currency Tier1.5
+# Currency Tier1
 Show
 	Class "Currency"
-	BaseType "Divine Orb" "Exalted Orb"
+	BaseType "Divine Orb" "Exalted Orb" "Orb of Annulment" "Ancient Orb" "Mirror Shard" "Harbinger's Orb"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 200 186 153 255 # Currency Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	PlayAlertSound 7 300 # Tier1
 
-# Currency Tier1
+# Currency Tier0
 Show
 	BaseType "Albino Rhoa Feather" "Eternal Orb" "Mirror of Kalandra"
 	SetTextColor 200 186 153 255 # Currency Text
