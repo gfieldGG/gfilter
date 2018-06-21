@@ -758,6 +758,15 @@ Show
 	SetFontSize 41
 	PlayAlertSound 6 150 # Tier3
 
+# Offering to the Goddess
+Show
+	BaseType "Offering to the Goddess"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 74 230 58 255 # Quest Background
+	SetBorderColor 0 0 0 255 # Map Border
+	SetFontSize 45
+	PlayAlertSound 3 200 # Tier2
+
 # Divine Vessel
 Show
 	Class "Map Fragments"
@@ -1310,15 +1319,6 @@ Hide
 #-------------------------------------------------------------------------------
 # Section: General
 #-------------------------------------------------------------------------------
-
-# Offering to the Goddess
-Show
-	BaseType "Offering to the Goddess"
-	SetTextColor 0 0 0 255 # Tier1 Text
-	SetBackgroundColor 74 230 58 255 # Quest Background
-	SetBorderColor 0 0 0 255 # Map Border
-	SetFontSize 45
-	PlayAlertSound 3 200 # Tier2
 
 # Game Items
 Show
