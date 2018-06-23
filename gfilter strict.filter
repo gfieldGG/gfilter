@@ -799,6 +799,7 @@ Show
 Show
 	Class "Maps"
 	BaseType "Iceberg Map" "Spider Forest Map" "Vault Map" "Burial Chambers Map" "Canyon Map" "Strand Map" "Toxic Sewer Map" "Fields Map" "Racecourse Map" "Lookout Map" "Jungle Valley Map" "Mesa Map" "Gorge Map" "Phantasmagoria Map" "Beach Map" "City Square Map" "Channel Map" "Alleyways Map" "Arid Lake Map" "Shore Map" "Ashen Wood Map"
+	Rarity <= Rare
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 200 200 200 255 # Normal Background
 	SetBorderColor 0 194 0 255
@@ -1112,7 +1113,6 @@ Show
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 	SetBorderColor 255 255 119 255 # Rare Border
 	SetFontSize 45
-	PlayAlertSound 6 150 # Tier3
 
 # Rare Base Small Tier1
 Show
