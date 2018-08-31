@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.4.2
+# VERSION:       3.4.3
 # AUTHOR:        gfield
 # CONTACT:       
 # WEB PAGE:      
@@ -1391,6 +1391,7 @@ Show
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetFontSize 45
 	PlayAlertSound 2 150 # Quest
+	MinimapIcon 0 Green Triangle
 
 # Pantheon Soul
 Show
