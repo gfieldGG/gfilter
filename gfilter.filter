@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       
+# VERSION:       3.4.2
 # AUTHOR:        gfield
 # CONTACT:       
 # WEB PAGE:      
@@ -400,6 +400,7 @@ Show
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	PlayAlertSound 7 300
+	MinimapIcon 2 Yellow Diamond
 
 # Essence Tier2
 Show
@@ -440,6 +441,7 @@ Show
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	PlayAlertSound 8 300 # Tier0
+	MinimapIcon 0 Red Circle
 
 # Leaguestone Trash
 Show
@@ -555,6 +557,7 @@ Show
 	SetBorderColor 14 186 255 255 # Divination Card Border
 	SetFontSize 45
 	CustomAlertSound "gfT0.mp3"
+	MinimapIcon 0 Red Star
 
 # Divination Card Tier1
 Show
@@ -565,6 +568,7 @@ Show
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	CustomAlertSound "gfT1.mp3"
+	MinimapIcon 1 Red Star
 
 # Divination Card Tier2
 Show
@@ -575,6 +579,7 @@ Show
 	SetBorderColor 14 186 255 255 # Divination Card Border
 	SetFontSize 45
 	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 2 Yellow Star
 
 # Divination Card Stacked Deck
 Show
@@ -655,6 +660,7 @@ Show
 	SetBorderColor 200 186 153 255 # Currency Border
 	SetFontSize 45
 	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 2 Yellow Hexagon
 
 # Currency Tier1
 Show
@@ -665,6 +671,7 @@ Show
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	CustomAlertSound "gfT1.mp3"
+	MinimapIcon 1 Red Hexagon
 
 # Currency Tier0
 Show
@@ -674,6 +681,7 @@ Show
 	SetBorderColor 200 186 153 255 # Currency Border
 	SetFontSize 45
 	CustomAlertSound "gfT0.mp3"
+	MinimapIcon 0 Red Hexagon
 
 # Currency
 Show
@@ -683,6 +691,7 @@ Show
 	SetBorderColor 255 0 255 255
 	SetFontSize 45
 	PlayAlertSound 15 300
+	MinimapIcon 0 Red Star
 
 #-------------------------------------------------------------------------------
 # Section: Gems
@@ -1034,6 +1043,7 @@ Show
 	SetBorderColor 175 96 37 255 # Unique Border
 	SetFontSize 45
 	CustomAlertSound "gfT0.mp3"
+	MinimapIcon 0 Red Diamond
 
 # Unique Tier1
 Show
@@ -1044,6 +1054,7 @@ Show
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	CustomAlertSound "gfT1.mp3"
+	MinimapIcon 0 Red Diamond
 
 # Tabula Rasa
 Show
