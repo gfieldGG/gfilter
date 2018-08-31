@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.4.3
+# VERSION:       3.4.4
 # AUTHOR:        gfield
 # CONTACT:       
 # WEB PAGE:      
@@ -400,7 +400,7 @@ Show
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	PlayAlertSound 7 300
-	MinimapIcon 2 Yellow Diamond
+	MinimapIcon 1 Red Star
 
 # Essence Tier2
 Show
@@ -411,6 +411,7 @@ Show
 	SetBorderColor 128 179 254 255 # Essence Border
 	SetFontSize 45
 	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 2 Yellow Star
 
 # Essence Tier3
 Show
@@ -543,6 +544,7 @@ Show
 	SetBorderColor 0 0 0 255 # Map Border
 	SetFontSize 45
 	PlayAlertSound 7 300
+	MinimapIcon 1 Yellow Square
 
 #-------------------------------------------------------------------------------
 # Section: Divination Cards
@@ -660,7 +662,7 @@ Show
 	SetBorderColor 200 186 153 255 # Currency Border
 	SetFontSize 45
 	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 2 Yellow Hexagon
+	MinimapIcon 2 Yellow Diamond
 
 # Currency Tier1
 Show
@@ -671,7 +673,7 @@ Show
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	CustomAlertSound "gfT1.mp3"
-	MinimapIcon 1 Red Hexagon
+	MinimapIcon 1 Red Diamond
 
 # Currency Tier0
 Show
@@ -681,7 +683,7 @@ Show
 	SetBorderColor 200 186 153 255 # Currency Border
 	SetFontSize 45
 	CustomAlertSound "gfT0.mp3"
-	MinimapIcon 0 Red Hexagon
+	MinimapIcon 0 Red Diamond
 
 # Currency
 Show
@@ -691,7 +693,7 @@ Show
 	SetBorderColor 255 0 255 255
 	SetFontSize 45
 	PlayAlertSound 15 300
-	MinimapIcon 0 Red Star
+	MinimapIcon 0 Red Diamond
 
 #-------------------------------------------------------------------------------
 # Section: Gems
@@ -706,6 +708,7 @@ Show
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	CustomAlertSound "gfT0.mp3"
+	MinimapIcon 0 Red Circle
 
 # Gem Tier1
 Show
@@ -780,6 +783,7 @@ Show
 	SetBorderColor 0 0 0 255 # Map Border
 	SetFontSize 45
 	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 2 Yellow Circle
 
 # Uber Atziri Fragments Tier1
 Show
@@ -790,6 +794,7 @@ Show
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	PlayAlertSound 7 300
+	MinimapIcon 2 Red Circle
 
 # Vaal Fragment Midnight
 Show
@@ -800,6 +805,7 @@ Show
 	SetBorderColor 161 27 123 255 # Vaal Border
 	SetFontSize 45
 	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 2 Yellow Circle
 
 # Vaal Fragment
 Show
@@ -819,6 +825,7 @@ Show
 	SetBorderColor 0 0 0 255 # Map Border
 	SetFontSize 45
 	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 2 Yellow Circle
 
 # Divine Vessel
 Show
@@ -847,6 +854,7 @@ Show
 	SetBorderColor 0 191 0 255
 	SetFontSize 45
 	PlayAlertSound 4 150 # Map
+	MinimapIcon 1 Yellow Square
 
 # Nice Maps
 Show
@@ -858,6 +866,7 @@ Show
 	SetBorderColor 0 194 0 255
 	SetFontSize 45
 	PlayAlertSound 4 150 # Map
+	MinimapIcon 1 Yellow Square
 
 # Map Normal
 Show
@@ -868,6 +877,7 @@ Show
 	SetBorderColor 100 100 100 255 # Map Normal Border
 	SetFontSize 41
 	PlayAlertSound 4 150 # Map
+	MinimapIcon 2 White Square
 
 # Map Magic
 Show
@@ -878,6 +888,7 @@ Show
 	SetBorderColor 68 68 128 250 # Map Magic Border
 	SetFontSize 41
 	PlayAlertSound 4 150 # Map
+	MinimapIcon 2 White Square
 
 # Map Rare
 Show
@@ -888,6 +899,7 @@ Show
 	SetBorderColor 128 128 60 250 # Map Rare Border
 	SetFontSize 41
 	PlayAlertSound 4 150 # Map
+	MinimapIcon 2 White Square
 
 # Map Unique
 Show
@@ -898,6 +910,7 @@ Show
 	SetBorderColor 88 48 19 250 # Map Unique Border
 	SetFontSize 41
 	PlayAlertSound 4 150 # Map
+	MinimapIcon 1 Yellow Square
 
 #-------------------------------------------------------------------------------
 # Section: 6 Links
@@ -912,6 +925,7 @@ Show
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	PlayAlertSound 7 300
+	MinimapIcon 2 Red Hexagon
 
 # 6 Link Magic
 Show
@@ -922,6 +936,7 @@ Show
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	PlayAlertSound 7 300
+	MinimapIcon 2 Red Hexagon
 
 # 6 Link Rare
 Show
@@ -932,6 +947,7 @@ Show
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	PlayAlertSound 7 300
+	MinimapIcon 2 Red Hexagon
 
 #-------------------------------------------------------------------------------
 # Section: 5 Links
@@ -1043,7 +1059,7 @@ Show
 	SetBorderColor 175 96 37 255 # Unique Border
 	SetFontSize 45
 	CustomAlertSound "gfT0.mp3"
-	MinimapIcon 0 Red Diamond
+	MinimapIcon 0 Red Hexagon
 
 # Unique Tier1
 Show
@@ -1054,7 +1070,7 @@ Show
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	CustomAlertSound "gfT1.mp3"
-	MinimapIcon 0 Red Diamond
+	MinimapIcon 1 Red Hexagon
 
 # Tabula Rasa
 Show
@@ -1065,6 +1081,7 @@ Show
 	SetBorderColor 175 96 37 255 # Unique Border
 	SetFontSize 45
 	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 2 Yellow Hexagon
 
 # 6 Link Unique
 Show
@@ -1075,6 +1092,7 @@ Show
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	PlayAlertSound 7 300
+	MinimapIcon 2 Red Hexagon
 
 # Unique Tier2
 Show
@@ -1085,6 +1103,7 @@ Show
 	SetBorderColor 175 96 37 255 # Unique Border
 	SetFontSize 45
 	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 2 Yellow Hexagon
 
 # Unique Tier?
 Show
@@ -1095,6 +1114,7 @@ Show
 	SetBorderColor 175 96 37 255 # Unique Border
 	SetFontSize 45
 	PlayAlertSound 6 150 # Tier3
+	MinimapIcon 2 White Hexagon
 
 # 6 Socket Unique
 Show
@@ -1154,6 +1174,7 @@ Show
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	PlayAlertSound 8 300 # Tier0
+	MinimapIcon 1 Red Hexagon
 
 # Rare Atlas
 Show
