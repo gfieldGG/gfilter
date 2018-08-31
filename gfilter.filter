@@ -554,7 +554,7 @@ Show
 	SetBackgroundColor 255 255 255 255 # Tier0 Background
 	SetBorderColor 14 186 255 255 # Divination Card Border
 	SetFontSize 45
-	PlayAlertSound 8 300 # Tier0
+	CustomAlertSound "gfT0.mp3"
 
 # Divination Card Tier1
 Show
@@ -564,7 +564,7 @@ Show
 	SetBackgroundColor 14 186 255 255 # Divination Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
-	PlayAlertSound 7 300
+	CustomAlertSound "gfT1.mp3"
 
 # Divination Card Tier2
 Show
@@ -664,7 +664,7 @@ Show
 	SetBackgroundColor 200 186 153 255 # Currency Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
-	PlayAlertSound 7 300 # Tier1
+	CustomAlertSound "gfT1.mp3"
 
 # Currency Tier0
 Show
@@ -673,7 +673,7 @@ Show
 	SetBackgroundColor 255 255 255 255 # Tier0 Background
 	SetBorderColor 200 186 153 255 # Currency Border
 	SetFontSize 45
-	PlayAlertSound 8 300 # Tier0
+	CustomAlertSound "gfT0.mp3"
 
 # Currency
 Show
@@ -696,7 +696,7 @@ Show
 	SetBackgroundColor 26 162 155 255 # Gem Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
-	PlayAlertSound 8 300 # Tier0
+	CustomAlertSound "gfT0.mp3"
 
 # Gem Tier1
 Show
@@ -1033,7 +1033,7 @@ Show
 	SetBackgroundColor 255 255 255 255 # Tier0 Background
 	SetBorderColor 175 96 37 255 # Unique Border
 	SetFontSize 45
-	PlayAlertSound 8 300 # Tier0
+	CustomAlertSound "gfT0.mp3"
 
 # Unique Tier1
 Show
@@ -1043,7 +1043,7 @@ Show
 	SetBackgroundColor 175 96 37 255 # Unique Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
-	PlayAlertSound 7 300
+	CustomAlertSound "gfT1.mp3"
 
 # Tabula Rasa
 Show
