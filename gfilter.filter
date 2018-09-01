@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.4.6
+# VERSION:       3.4.7
 # AUTHOR:        gfield
 # CONTACT:       
 # WEB PAGE:      
@@ -516,6 +516,7 @@ Show
 	SetBorderColor 200 200 200 255 # Apprentice Border
 	SetFontSize 45
 	PlayAlertSound 3 200 # Tier2
+	PlayEffect Yellow Temp
 
 # Journeyman Cartographer
 Show
@@ -549,6 +550,7 @@ Show
 	SetFontSize 45
 	PlayAlertSound 7 300
 	MinimapIcon 1 Yellow Square
+	PlayEffect Red
 
 #-------------------------------------------------------------------------------
 # Section: Divination Cards
@@ -695,6 +697,7 @@ Show
 	SetFontSize 45
 	CustomAlertSound "gfT0.mp3"
 	MinimapIcon 0 Red Diamond
+	PlayEffect Red
 
 # Currency
 Show
@@ -705,6 +708,7 @@ Show
 	SetFontSize 45
 	PlayAlertSound 15 300
 	MinimapIcon 0 Red Diamond
+	PlayEffect Red
 
 #-------------------------------------------------------------------------------
 # Section: Gems
@@ -720,6 +724,7 @@ Show
 	SetFontSize 45
 	CustomAlertSound "gfT0.mp3"
 	MinimapIcon 0 Red Circle
+	PlayEffect Red
 
 # Gem Tier1
 Show
@@ -794,7 +799,8 @@ Show
 	SetBorderColor 0 0 0 255 # Map Border
 	SetFontSize 45
 	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 2 Yellow Circle
+	MinimapIcon 1 Yellow Circle
+	PlayEffect Yellow
 
 # Uber Atziri Fragments Tier1
 Show
@@ -806,6 +812,7 @@ Show
 	SetFontSize 45
 	PlayAlertSound 7 300
 	MinimapIcon 1 Red Circle
+	PlayEffect Red
 
 # Vaal Fragment Midnight
 Show
@@ -817,6 +824,7 @@ Show
 	SetFontSize 45
 	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 1 Yellow Circle
+	PlayEffect Yellow
 
 # Vaal Fragment
 Show
@@ -836,7 +844,7 @@ Show
 	SetBorderColor 0 0 0 255 # Map Border
 	SetFontSize 45
 	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 2 Yellow Circle
+	MinimapIcon 1 Yellow Circle
 
 # Divine Vessel
 Show
@@ -866,6 +874,7 @@ Show
 	SetFontSize 45
 	PlayAlertSound 4 150 # Map
 	MinimapIcon 1 Yellow Square
+	PlayEffect Yellow
 
 # Nice Maps
 Show
@@ -878,6 +887,7 @@ Show
 	SetFontSize 45
 	PlayAlertSound 4 150 # Map
 	MinimapIcon 1 Yellow Square
+	PlayEffect Yellow
 
 # Map Normal
 Show
@@ -922,6 +932,7 @@ Show
 	SetFontSize 41
 	PlayAlertSound 4 150 # Map
 	MinimapIcon 1 Yellow Square
+	PlayEffect Red
 
 #-------------------------------------------------------------------------------
 # Section: 6 Links
@@ -937,6 +948,7 @@ Show
 	SetFontSize 45
 	PlayAlertSound 7 300
 	MinimapIcon 1 Red Hexagon
+	PlayEffect Red
 
 # 6 Link Magic
 Show
@@ -948,6 +960,7 @@ Show
 	SetFontSize 45
 	PlayAlertSound 7 300
 	MinimapIcon 1 Red Hexagon
+	PlayEffect Red
 
 # 6 Link Rare
 Show
@@ -959,6 +972,7 @@ Show
 	SetFontSize 45
 	PlayAlertSound 7 300
 	MinimapIcon 1 Red Hexagon
+	PlayEffect Red
 
 #-------------------------------------------------------------------------------
 # Section: 5 Links
@@ -1071,6 +1085,7 @@ Show
 	SetFontSize 45
 	CustomAlertSound "gfT0.mp3"
 	MinimapIcon 0 Red Hexagon
+	PlayEffect Red
 
 # Unique Tier1
 Show
@@ -1082,6 +1097,7 @@ Show
 	SetFontSize 45
 	CustomAlertSound "gfT1.mp3"
 	MinimapIcon 1 Red Hexagon
+	PlayEffect Red
 
 # Tabula Rasa
 Show
@@ -1093,6 +1109,7 @@ Show
 	SetFontSize 45
 	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 1 Yellow Hexagon
+	PlayEffect Yellow
 
 # 6 Link Unique
 Show
@@ -1104,6 +1121,7 @@ Show
 	SetFontSize 45
 	PlayAlertSound 7 300
 	MinimapIcon 1 Red Hexagon
+	PlayEffect Red
 
 # Unique Tier2
 Show
@@ -1115,6 +1133,7 @@ Show
 	SetFontSize 45
 	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 1 Yellow Hexagon
+	PlayEffect Yellow Temp
 
 # Unique Tier?
 Show
