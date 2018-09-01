@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.4.5
+# VERSION:       3.4.6
 # AUTHOR:        gfield
 # CONTACT:       
 # WEB PAGE:      
@@ -526,6 +526,7 @@ Show
 	SetBorderColor 254 170 0 255 # Journeyman Border
 	SetFontSize 45
 	PlayAlertSound 3 200 # Tier2
+	PlayEffect Yellow Temp
 
 # Master Cartographer
 Show
@@ -536,6 +537,7 @@ Show
 	SetBorderColor 191 0 0 255 # Master Border
 	SetFontSize 45
 	PlayAlertSound 3 200 # Tier2
+	PlayEffect Yellow Temp
 
 # Guarding Fragments
 Show
@@ -562,6 +564,7 @@ Show
 	SetFontSize 45
 	CustomAlertSound "gfT0.mp3"
 	MinimapIcon 0 Red Star
+	PlayEffect Red
 
 # Divination Card Tier1
 Show
@@ -573,6 +576,7 @@ Show
 	SetFontSize 45
 	CustomAlertSound "gfT1.mp3"
 	MinimapIcon 0 Red Star
+	PlayEffect Red
 
 # Divination Card Tier2
 Show
@@ -584,6 +588,7 @@ Show
 	SetFontSize 45
 	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 1 Yellow Star
+	PlayEffect Yellow
 
 # Divination Card Stacked Deck
 Show
@@ -594,6 +599,7 @@ Show
 	SetBorderColor 14 186 255 255 # Divination Card Border
 	SetFontSize 45
 	PlayAlertSound 3 200 # Tier2
+	PlayEffect Yellow Temp
 
 # Divination Card Tier3
 Show
@@ -654,6 +660,7 @@ Show
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetFontSize 45
 	PlayAlertSound 6 150 # Tier3
+	PlayEffect Yellow Temp
 
 # Currency Tier2
 Show
@@ -665,6 +672,7 @@ Show
 	SetFontSize 45
 	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 1 Yellow Diamond
+	PlayEffect Yellow
 
 # Currency Tier1
 Show
@@ -676,6 +684,7 @@ Show
 	SetFontSize 45
 	CustomAlertSound "gfT1.mp3"
 	MinimapIcon 1 Red Diamond
+	PlayEffect Red
 
 # Currency Tier0
 Show
