@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.4.8
+# VERSION:       3.4.9
 # AUTHOR:        gfield
 # CONTACT:       
 # WEB PAGE:      
@@ -190,6 +190,7 @@ Show
 	PlayAlertSound 6 150 # Tier3
 
 Show
+	Class "Currency"
 	BaseType "Fossil"
 	SetTextColor 102 193 245 255 # Delve Text
 	SetBackgroundColor 5 18 36 255 # Delve Highlight Background
