@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.4.4
+# VERSION:       3.4.5
 # AUTHOR:        gfield
 # CONTACT:       
 # WEB PAGE:      
@@ -336,7 +336,8 @@ Show
 	SetBackgroundColor 255 255 255 255 # Tier0 Background
 	SetBorderColor 182 20 0 255 # Breach Border
 	SetFontSize 45
-	PlayAlertSound 8 300 # Tier0
+	CustomAlertSound "gfT1.mp3"
+	MinimapIcon 0 Red Circle
 
 # Breach Blessing
 Show
@@ -386,6 +387,7 @@ Show
 	SetBorderColor 125 0 175 255 # Prophecy Border
 	SetFontSize 45
 	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Red Circle
 
 #-------------------------------------------------------------------------------
 # Section: Essences
@@ -400,7 +402,7 @@ Show
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	PlayAlertSound 7 300
-	MinimapIcon 1 Red Star
+	MinimapIcon 0 Red Star
 
 # Essence Tier2
 Show
@@ -411,7 +413,7 @@ Show
 	SetBorderColor 128 179 254 255 # Essence Border
 	SetFontSize 45
 	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 2 Yellow Star
+	MinimapIcon 1 Yellow Star
 
 # Essence Tier3
 Show
@@ -570,7 +572,7 @@ Show
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	CustomAlertSound "gfT1.mp3"
-	MinimapIcon 1 Red Star
+	MinimapIcon 0 Red Star
 
 # Divination Card Tier2
 Show
@@ -581,7 +583,7 @@ Show
 	SetBorderColor 14 186 255 255 # Divination Card Border
 	SetFontSize 45
 	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 2 Yellow Star
+	MinimapIcon 1 Yellow Star
 
 # Divination Card Stacked Deck
 Show
@@ -662,7 +664,7 @@ Show
 	SetBorderColor 200 186 153 255 # Currency Border
 	SetFontSize 45
 	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 2 Yellow Diamond
+	MinimapIcon 1 Yellow Diamond
 
 # Currency Tier1
 Show
@@ -794,7 +796,7 @@ Show
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	PlayAlertSound 7 300
-	MinimapIcon 2 Red Circle
+	MinimapIcon 1 Red Circle
 
 # Vaal Fragment Midnight
 Show
@@ -805,7 +807,7 @@ Show
 	SetBorderColor 161 27 123 255 # Vaal Border
 	SetFontSize 45
 	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 2 Yellow Circle
+	MinimapIcon 1 Yellow Circle
 
 # Vaal Fragment
 Show
@@ -925,7 +927,7 @@ Show
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	PlayAlertSound 7 300
-	MinimapIcon 2 Red Hexagon
+	MinimapIcon 1 Red Hexagon
 
 # 6 Link Magic
 Show
@@ -936,7 +938,7 @@ Show
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	PlayAlertSound 7 300
-	MinimapIcon 2 Red Hexagon
+	MinimapIcon 1 Red Hexagon
 
 # 6 Link Rare
 Show
@@ -947,7 +949,7 @@ Show
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	PlayAlertSound 7 300
-	MinimapIcon 2 Red Hexagon
+	MinimapIcon 1 Red Hexagon
 
 #-------------------------------------------------------------------------------
 # Section: 5 Links
@@ -1081,7 +1083,7 @@ Show
 	SetBorderColor 175 96 37 255 # Unique Border
 	SetFontSize 45
 	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 2 Yellow Hexagon
+	MinimapIcon 1 Yellow Hexagon
 
 # 6 Link Unique
 Show
@@ -1092,7 +1094,7 @@ Show
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	PlayAlertSound 7 300
-	MinimapIcon 2 Red Hexagon
+	MinimapIcon 1 Red Hexagon
 
 # Unique Tier2
 Show
@@ -1103,7 +1105,7 @@ Show
 	SetBorderColor 175 96 37 255 # Unique Border
 	SetFontSize 45
 	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 2 Yellow Hexagon
+	MinimapIcon 1 Yellow Hexagon
 
 # Unique Tier?
 Show
@@ -1174,7 +1176,7 @@ Show
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	PlayAlertSound 8 300 # Tier0
-	MinimapIcon 1 Red Hexagon
+	MinimapIcon 0 Red Hexagon
 
 # Rare Atlas
 Show
@@ -1412,7 +1414,7 @@ Show
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetFontSize 45
 	PlayAlertSound 2 150 # Quest
-	MinimapIcon 0 Green Triangle
+	MinimapIcon 0 Green Star
 
 # Pantheon Soul
 Show
