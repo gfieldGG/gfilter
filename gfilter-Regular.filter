@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.4.11
+# VERSION:       3.4.12
 # AUTHOR:        gfield
 # CONTACT:       
 # WEB PAGE:      
@@ -31,6 +31,7 @@ Show
 	SetFontSize 45
 	PlayAlertSound 8 300 # Tier0
 	MinimapIcon 0 Red Star
+	PlayEffect Red
 
 #-------------------------------------------------------------------------------
 # Section: League Stuff
@@ -325,6 +326,7 @@ Show
 	SetFontSize 45
 	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 0 Red Hexagon
+	PlayEffect Blue
 
 #-------------------------------------------------------------------------------
 # Section: Breach
@@ -348,6 +350,7 @@ Show
 	SetFontSize 45
 	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 0 Yellow Diamond
+	PlayEffect Red Temp
 
 # Chayula Blessing
 Show
@@ -359,6 +362,7 @@ Show
 	SetFontSize 45
 	CustomAlertSound "gfT1.mp3"
 	MinimapIcon 0 Red Diamond
+	PlayEffect Red
 
 # Breach Blessing
 Show
@@ -370,6 +374,7 @@ Show
 	SetFontSize 45
 	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 1 Yellow Diamond
+	PlayEffect Red
 
 # Breach Ring
 Show
@@ -413,6 +418,7 @@ Show
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 1 Red Diamond
+	PlayEffect Red
 
 #-------------------------------------------------------------------------------
 # Section: Essences
@@ -429,6 +435,7 @@ Show
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 7 300
 	MinimapIcon 0 Red Circle
+	PlayEffect Blue
 
 # Essence Tier2
 Show
@@ -441,6 +448,7 @@ Show
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 1 Yellow Circle
+	PlayEffect Blue
 
 # Essence Tier3
 Show
@@ -452,6 +460,7 @@ Show
 	#SetFontSizeTag 41 # Big
 	PlayAlertSound 6 150 # Tier3
 	MinimapIcon 2 White Circle
+	PlayEffect Blue Temp
 
 # Essence
 Show
@@ -612,7 +621,7 @@ Show
 	#SetFontSizeTag 45 # Yuge
 	CustomAlertSound "gfT0.mp3"
 	MinimapIcon 0 Red Star
-	PlayEffect Red
+	PlayEffect Blue
 
 # Divination Card Tier1
 Show
@@ -625,7 +634,7 @@ Show
 	#SetFontSizeTag 45 # Yuge
 	CustomAlertSound "gfT1.mp3"
 	MinimapIcon 0 Red Star
-	PlayEffect Red
+	PlayEffect Blue
 
 # Divination Card Tier2
 Show
@@ -638,7 +647,7 @@ Show
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 1 Yellow Star
-	PlayEffect Yellow
+	PlayEffect Blue
 
 # Divination Card Stacked Deck
 Show
@@ -651,7 +660,7 @@ Show
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 1 Yellow Star
-	PlayEffect Yellow Temp
+	PlayEffect Blue
 
 # Divination Card Tier3
 Show
@@ -663,6 +672,7 @@ Show
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 6 150 # Tier3
 	MinimapIcon 2 White Star
+	PlayEffect Blue Temp
 
 # Divination Card Trash
 Hide
@@ -750,7 +760,7 @@ Show
 	#SetFontSizeTag 45 # Yuge
 	CustomAlertSound "gfT1.mp3"
 	MinimapIcon 0 Red Circle
-	PlayEffect Red
+	PlayEffect Yellow
 
 # Currency Tier0
 Show
@@ -762,7 +772,7 @@ Show
 	#SetFontSizeTag 45 # Yuge
 	CustomAlertSound "gfT0.mp3"
 	MinimapIcon 0 Red Circle
-	PlayEffect Red
+	PlayEffect Yellow
 
 # Currency
 Show
@@ -773,7 +783,7 @@ Show
 	SetFontSize 45
 	PlayAlertSound 15 300
 	MinimapIcon 0 Red Circle
-	PlayEffect Red
+	PlayEffect Yellow
 
 #-------------------------------------------------------------------------------
 # Section: Gems
@@ -790,7 +800,7 @@ Show
 	#SetFontSizeTag 45 # Yuge
 	CustomAlertSound "gfT0.mp3"
 	MinimapIcon 0 Red Diamond
-	PlayEffect Red
+	PlayEffect Yellow
 
 # Gem Tier1
 Show
@@ -880,7 +890,7 @@ Show
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 1 Yellow Diamond
-	PlayEffect Yellow
+	PlayEffect Red
 
 # Uber Atziri Fragments Tier1
 Show
@@ -906,7 +916,7 @@ Show
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 1 Yellow Diamond
-	PlayEffect Yellow
+	PlayEffect Red
 
 # Vaal Fragment
 Show
@@ -919,6 +929,7 @@ Show
 	#SetFontSizeTag 41 # Big
 	PlayAlertSound 6 150 # Tier3
 	MinimapIcon 2 White Diamond
+	PlayEffect Red Temp
 
 # Offering to the Goddess
 Show
@@ -930,6 +941,7 @@ Show
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 1 Yellow Diamond
+	PlayEffect Green
 
 # Divine Vessel
 Show
@@ -963,7 +975,7 @@ Show
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 4 150 # Map
 	MinimapIcon 1 Yellow Square
-	PlayEffect Yellow
+	PlayEffect White
 
 # Nice Maps
 Show
@@ -977,7 +989,7 @@ Show
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 4 150 # Map
 	MinimapIcon 1 Yellow Square
-	PlayEffect Yellow
+	PlayEffect White
 
 # Map Normal
 Show
@@ -990,6 +1002,7 @@ Show
 	#SetFontSizeTag 41 # Big
 	PlayAlertSound 4 150 # Map
 	MinimapIcon 2 White Square
+	PlayEffect White Temp
 
 # Map Magic
 Show
@@ -1002,6 +1015,7 @@ Show
 	#SetFontSizeTag 41 # Big
 	PlayAlertSound 4 150 # Map
 	MinimapIcon 2 White Square
+	PlayEffect Blue Temp
 
 # Map Rare
 Show
@@ -1014,6 +1028,7 @@ Show
 	#SetFontSizeTag 41 # Big
 	PlayAlertSound 4 150 # Map
 	MinimapIcon 2 White Square
+	PlayEffect Yellow Temp
 
 # Map Unique
 Show
@@ -1026,7 +1041,7 @@ Show
 	#SetFontSizeTag 41 # Big
 	PlayAlertSound 4 150 # Map
 	MinimapIcon 1 Yellow Square
-	PlayEffect Red
+	PlayEffect Brown
 
 #-------------------------------------------------------------------------------
 # Section: 6 Links
@@ -1042,7 +1057,7 @@ Show
 	SetFontSize 45
 	PlayAlertSound 7 300
 	MinimapIcon 1 Red Hexagon
-	PlayEffect Red
+	PlayEffect White
 
 # 6 Link Magic
 Show
@@ -1054,7 +1069,7 @@ Show
 	SetFontSize 45
 	PlayAlertSound 7 300
 	MinimapIcon 1 Red Hexagon
-	PlayEffect Red
+	PlayEffect Blue
 
 # 6 Link Rare
 Show
@@ -1066,7 +1081,7 @@ Show
 	SetFontSize 45
 	PlayAlertSound 7 300
 	MinimapIcon 1 Red Hexagon
-	PlayEffect Red
+	PlayEffect Yellow
 
 #-------------------------------------------------------------------------------
 # Section: 5 Links
@@ -1116,6 +1131,8 @@ Show
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 6 150 # Tier3
+	MinimapIcon 1 White Circle
+	PlayEffect Yellow Temp
 
 #-------------------------------------------------------------------------------
 # Section: Crafting Bases
@@ -1132,6 +1149,7 @@ Show
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 7 300
+	PlayEffect Blue
 
 # Tier1 Bases Normal
 Show
@@ -1184,7 +1202,7 @@ Show
 	#SetFontSizeTag 45 # Yuge
 	CustomAlertSound "gfT0.mp3"
 	MinimapIcon 0 Red Hexagon
-	PlayEffect Red
+	PlayEffect Brown
 
 # Unique Tier1
 Show
@@ -1197,7 +1215,7 @@ Show
 	#SetFontSizeTag 45 # Yuge
 	CustomAlertSound "gfT1.mp3"
 	MinimapIcon 1 Red Hexagon
-	PlayEffect Red
+	PlayEffect Brown
 
 # Tabula Rasa
 Show
@@ -1210,7 +1228,7 @@ Show
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 1 Yellow Hexagon
-	PlayEffect Yellow
+	PlayEffect Brown
 
 # 6 Link Unique
 Show
@@ -1223,7 +1241,7 @@ Show
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 7 300
 	MinimapIcon 1 Red Hexagon
-	PlayEffect Red
+	PlayEffect Brown
 
 # Unique Tier2
 Show
@@ -1236,7 +1254,7 @@ Show
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 1 Yellow Hexagon
-	PlayEffect Yellow Temp
+	PlayEffect Brown Temp
 
 # Unique Tier?
 Show
@@ -1248,7 +1266,8 @@ Show
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 6 150 # Tier3
-	MinimapIcon 2 White Hexagon
+	MinimapIcon 1 Yellow Hexagon
+	PlayEffect Brown
 
 # 6 Socket Unique
 Show
@@ -1260,6 +1279,7 @@ Show
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 6 150 # Tier3
 	MinimapIcon 1 Yellow Circle
+	PlayEffect Brown Temp
 
 # Unique
 Show
@@ -1318,6 +1338,7 @@ Show
 	SetFontSize 45
 	PlayAlertSound 8 300 # Tier0
 	MinimapIcon 0 Red Hexagon
+	PlayEffect Yellow
 
 # Rare Atlas
 Show
@@ -1570,6 +1591,7 @@ Show
 	SetFontSize 45
 	PlayAlertSound 2 150 # Quest
 	MinimapIcon 0 Green Star
+	PlayEffect Green
 
 # Pantheon Soul
 Show
@@ -1580,6 +1602,7 @@ Show
 	SetFontSize 45
 	PlayAlertSound 2 150 # Quest
 	MinimapIcon 0 Green Triangle
+	PlayEffect Yellow
 
 #-------------------------------------------------------------------------------
 # Section: RGB Recipe
