@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.4.15
+# VERSION:       3.4.16
 # AUTHOR:        gfield
 # CONTACT:       
 # WEB PAGE:      
@@ -1477,6 +1477,51 @@ Show
 	SetBackgroundColor 0 0 0 210 # Junk Background
 	#BlockStrictness 2 Hide
 
+# Rare Jewelry T1 ilvl86
+Show
+	BaseType "Onyx Amulet" "Diamond Ring" "Two-Stone Ring"
+	Rarity = Rare
+	ItemLevel >= 86
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+	SetBorderColor 255 255 119 255 # Rare Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Hexagon
+
+# Rare Jewelry T1 ilvl84
+Show
+	BaseType "Onyx Amulet" "Diamond Ring" "Two-Stone Ring"
+	Rarity = Rare
+	ItemLevel >= 84
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+
+# Rare Jewelry T2 ilvl86
+Show
+	BaseType "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Prismatic" "Unset Ring" "Gold Ring" "Citrine Amulet" "Turquoise Amulet" "Agate Amulet" "Coral Ring" "Moonstone Ring" "Leather Belt" "Heavy Belt" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Rustic Sash"
+	Rarity = Rare
+	ItemLevel >= 86
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 6 150 # Tier3
+	MinimapIcon 2 White Hexagon
+
+# Rare Jewelry T2 ilvl84
+Show
+	BaseType "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Prismatic" "Unset Ring" "Gold Ring" "Citrine Amulet" "Turquoise Amulet" "Agate Amulet" "Coral Ring" "Moonstone Ring" "Leather Belt" "Heavy Belt" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Rustic Sash"
+	Rarity = Rare
+	ItemLevel >= 84
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+
 # Rare Jewelry ilvl75
 Show
 	Class "Belts" "Amulets" "Rings"
@@ -1484,7 +1529,8 @@ Show
 	ItemLevel >= 75
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
-	SetFontSize 45
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
 
 # Rare Jewelry
 Show
