@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.4.16
+# VERSION:       3.4.17
 # AUTHOR:        gfield
 # CONTACT:       
 # WEB PAGE:      
@@ -484,7 +484,7 @@ Show
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 8 300 # Tier0
+	CustomAlertSound "gfT0.mp3"
 	MinimapIcon 0 Red Diamond
 
 # Leaguestone Trash
@@ -953,7 +953,7 @@ Show
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
 	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 1 Yellow Triangle
+	MinimapIcon 1 Yellow Circle
 
 # Map Fragments
 Show
@@ -1138,9 +1138,9 @@ Show
 # Section: Crafting Bases
 #-------------------------------------------------------------------------------
 
-# Tier1 Bases ilvl84 Normal
+# Tier1 Crafting Bases ilvl84
 Show
-	BaseType "Steel Ring" "Opal Ring" "Crystal Belt"
+	BaseType "Steel Ring" "Opal Ring"
 	Rarity <= Magic
 	ItemLevel >= 84
 	SetTextColor 255 255 255 255 # Normal Highlight Text
@@ -1148,23 +1148,59 @@ Show
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 7 300
-	PlayEffect Blue
+	PlayAlertSound 7 300 # Tier1
+	MinimapIcon 0 Red Hexagon
 
-# Tier1 Bases Normal
+# Tier1 Crafting Bases
 Show
-	BaseType "Steel Ring" "Opal Ring" "Crystal Belt"
+	BaseType "Steel Ring" "Opal Ring"
+	Rarity <= Magic
+	SetTextColor 255 255 255 255 # Normal Highlight Text
+	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
+	SetBorderColor 0 0 254 255 # Crafting Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Hexagon
+
+# Tier2 Crafting Bases ilvl84
+Show
+	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt"
+	Rarity <= Magic
+	ItemLevel >= 84
+	SetTextColor 255 255 255 255 # Normal Highlight Text
+	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
+	SetBorderColor 0 0 254 255 # Crafting Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 6 150 # Tier3
+	MinimapIcon 2 White Hexagon
+
+# Tier2 Crafting Bases ilvl75
+Show
+	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
+	Rarity <= Magic
+	ItemLevel >= 75
+	SetTextColor 255 255 255 255 # Normal Highlight Text
+	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
+	SetBorderColor 0 0 254 255 # Crafting Border
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+
+# Tier2 Crafting Bases
+Hide
+	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
 	Rarity <= Magic
 	SetTextColor 255 255 255 255 # Normal Highlight Text
 	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
 	SetBorderColor 0 0 254 255 # Crafting Border
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
-	PlayAlertSound 7 300
+	#BlockStrictness 2 Hide
 
-# T2 Bases ilvl84 Normal
-Show
-	BaseType "Hubris Circlet" "Vaal Regalia"
+# Tier3 Crafting Bases ilvl84
+Hide
+	BaseType "Onyx Amulet" "Diamond Ring" "Two-Stone" "Eternal Burgonet"
 	Rarity <= Magic
 	ItemLevel >= 84
 	SetTextColor 255 255 255 255 # Normal Highlight Text
@@ -1172,20 +1208,21 @@ Show
 	SetBorderColor 0 0 254 255 # Crafting Border
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
-	PlayAlertSound 3 200 # Tier2
+	#BlockStrictness 2 Hide
 
 #-------------------------------------------------------------------------------
 # Section: Chancing
 #-------------------------------------------------------------------------------
 
 # Chance Bases
-#Show
-#	BaseType "Gold Amulet"
-#	Rarity = Normal
-#	SetTextColor 200 200 200 255 # Normal Text
-#	SetBackgroundColor 0 0 0 255 # Default Background
-#	SetBorderColor 0 0 254 255 # Crafting Border
-#	SetFontSize 37
+Show
+	BaseType "Gold Amulet" "Leather Belt"
+	Rarity = Normal
+	SetTextColor 200 200 200 255 # Normal Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBorderColor 0 0 254 255 # Crafting Border
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
 
 #-------------------------------------------------------------------------------
 # Section: Uniques
