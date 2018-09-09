@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.4.13
+# VERSION:       3.4.14
 # AUTHOR:        gfield
 # CONTACT:       
 # WEB PAGE:      
@@ -1321,7 +1321,6 @@ Show
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
-	#BlockStrictness 2 Hide
 
 #-------------------------------------------------------------------------------
 # Section: Rares
@@ -1336,7 +1335,7 @@ Show
 	SetBackgroundColor 255 255 119 255 # Rare Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
-	PlayAlertSound 8 300 # Tier0
+	PlayAlertSound 7 300 # Tier1
 	MinimapIcon 0 Red Hexagon
 	PlayEffect Yellow
 
@@ -1348,12 +1347,24 @@ Show
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 	SetBorderColor 255 255 119 255 # Rare Border
 	SetFontSize 45
-	PlayAlertSound 7 300
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 0 Yellow Hexagon
+
+Show
+	BaseType "Gripped Gloves" "Two-Toned Boots" "Bone Helmet" "Spiked Gloves" "Fingerless Silk Gloves"
+	Rarity = Rare
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+	SetBorderColor 255 255 119 255 # Rare Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 6 150 # Tier3
+	MinimapIcon 2 White Hexagon
 
 # Rare Base Small Tier1 ilvl75
 Show
-	BaseType "Imperial Claw" "Gemini Claw" "Imbued Wand" "Ambusher" "Jewelled Foil" "Spiraled Foil" "Titan Gauntlets" "Lion Pelt" "Slink Boots" "Titan Greaves" "Royal Burgonet" "Slink Gloves" "Hubris Circlet" "Titanium Spirit Shield" "Imperial Buckler"
+	BaseType "Imperial Claw" "Gemini Claw" "Imbued Wand" "Platinum Kris" "Jewelled Foil" "Spiraled Foil" "Corsair Sword" "Titan Gauntlets" "Lion Pelt" "Slink Boots" "Titan Greaves" "Royal Burgonet" "Slink Gloves" "Hubris Circlet" "Fossilised Spirit Shield" "Titanium Spirit Shield" "Crusader Buckler" "Eternal Burgonet" "Goliath Greaves" "Vaal Gauntlets"
 	Rarity = Rare
 	ItemLevel >= 75
 	SetTextColor 255 255 119 255 # Rare Text
@@ -1363,7 +1374,7 @@ Show
 
 # Rare Base Small Tier1
 Show
-	BaseType "Imperial Claw" "Gemini Claw" "Imbued Wand" "Ambusher" "Jewelled Foil" "Spiraled Foil" "Titan Gauntlets" "Lion Pelt" "Slink Boots" "Titan Greaves" "Royal Burgonet" "Slink Gloves" "Hubris Circlet" "Titanium Spirit Shield" "Imperial Buckler"
+	BaseType "Imperial Claw" "Gemini Claw" "Imbued Wand" "Platinum Kris" "Jewelled Foil" "Spiraled Foil" "Corsair Sword" "Titan Gauntlets" "Lion Pelt" "Slink Boots" "Titan Greaves" "Royal Burgonet" "Slink Gloves" "Hubris Circlet" "Fossilised Spirit Shield" "Titanium Spirit Shield" "Crusader Buckler" "Eternal Burgonet" "Goliath Greaves" "Vaal Gauntlets"
 	Rarity = Rare
 	ItemLevel >= 65
 	SetTextColor 255 255 119 255 # Rare Text
@@ -1372,7 +1383,7 @@ Show
 
 # Rare Base Big Tier1 ilvl75
 Show
-	BaseType "Siege Axe" "Sambar Sceptre" "Opal Sceptre" "Astral Plate" "Archon Kite Shield" "Colossal Tower Shield"
+	BaseType "Siege Axe" "Opal Sceptre" "Void Sceptre" "Astral Plate" "Archon Kite Shield"
 	Rarity = Rare
 	ItemLevel >= 75
 	SetTextColor 255 255 119 255 # Rare Text
@@ -1383,7 +1394,7 @@ Show
 
 # Rare Base Big Tier1
 Show
-	BaseType "Siege Axe" "Sambar Sceptre" "Opal Sceptre" "Astral Plate" "Archon Kite Shield" "Colossal Tower Shield"
+	BaseType "Siege Axe" "Opal Sceptre" "Void Sceptre" "Astral Plate" "Archon Kite Shield"
 	Rarity = Rare
 	ItemLevel >= 65
 	SetTextColor 255 255 119 255 # Rare Text
@@ -1393,7 +1404,7 @@ Show
 
 # Rare Base Small Tier2 ilvl75
 Show
-	BaseType "Terror Claw" "Eye Gouger" "Tornado Wand" "Engraved Wand" "Opal Wand" "Kris" "Vaal Rapier" "Fancy Foil" "Dragoon Sword" "Corsair Sword" "Profane Wand" "Skean" "Crusader Boots" "Nightmare Bascinet" "Murder Boots" "Dragonscale Boots" "Vaal Greaves" "Stealth Boots" "Murder Mitts" "Dragonscale Gauntlets" "Crusader Gloves" "Vaal Gauntlets" "Praetor Crown" "Deicide Mask" "Eternal Burgonet" "Sinner Tricorne" "Arcanist Slippers" "Arcanist Gloves" "Mind Cage" "Sorcerer Boots" "Sorcerer Gloves" "Harmonic Spirit Shield" "Supreme Spiked Shield" "Goliath Greaves" "Shagreen Boots"
+	BaseType "Terror Claw" "Eye Gouger" "Tornado Wand" "Opal Wand" "Kris" "Vaal Rapier" "Fancy Foil" "Dragoon Sword" "Profane Wand" "Skean" "Ambusher" "Crusader Boots" "Nightmare Bascinet" "Murder Boots" "Dragonscale Boots" "Vaal Greaves" "Stealth Boots" "Murder Mitts" "Dragonscale Gauntlets" "Crusader Gloves" "Praetor Crown" "Deicide Mask" "Sinner Tricorne" "Arcanist Slippers" "Arcanist Gloves" "Mind Cage" "Sorcerer Boots" "Sorcerer Gloves" "Harmonic Spirit Shield" "Supreme Spiked Shield" "Shagreen Boots" "Imperial Buckler" "Ancient Greaves" "Ancient Gauntlets" "Ezomyte Burgonet" "Vaal Spirit Shield"
 	Rarity = Rare
 	ItemLevel >= 75
 	SetTextColor 255 255 119 255 # Rare Text
@@ -1402,7 +1413,7 @@ Show
 
 # Rare Base Small Tier2
 Show
-	BaseType "Terror Claw" "Eye Gouger" "Tornado Wand" "Engraved Wand" "Opal Wand" "Kris" "Vaal Rapier" "Fancy Foil" "Dragoon Sword" "Corsair Sword" "Profane Wand" "Skean" "Crusader Boots" "Nightmare Bascinet" "Murder Boots" "Dragonscale Boots" "Vaal Greaves" "Stealth Boots" "Murder Mitts" "Dragonscale Gauntlets" "Crusader Gloves" "Vaal Gauntlets" "Praetor Crown" "Deicide Mask" "Eternal Burgonet" "Sinner Tricorne" "Arcanist Slippers" "Arcanist Gloves" "Mind Cage" "Sorcerer Boots" "Sorcerer Gloves" "Harmonic Spirit Shield" "Supreme Spiked Shield" "Goliath Greaves" "Shagreen Boots"
+	BaseType "Terror Claw" "Eye Gouger" "Tornado Wand" "Opal Wand" "Kris" "Vaal Rapier" "Fancy Foil" "Dragoon Sword" "Profane Wand" "Skean" "Ambusher" "Crusader Boots" "Nightmare Bascinet" "Murder Boots" "Dragonscale Boots" "Vaal Greaves" "Stealth Boots" "Murder Mitts" "Dragonscale Gauntlets" "Crusader Gloves" "Praetor Crown" "Deicide Mask" "Sinner Tricorne" "Arcanist Slippers" "Arcanist Gloves" "Mind Cage" "Sorcerer Boots" "Sorcerer Gloves" "Harmonic Spirit Shield" "Supreme Spiked Shield" "Shagreen Boots" "Imperial Buckler" "Ancient Greaves" "Ancient Gauntlets" "Ezomyte Burgonet" "Vaal Spirit Shield"
 	Rarity = Rare
 	ItemLevel >= 65
 	SetTextColor 255 255 119 255 # Rare Text
@@ -1412,7 +1423,7 @@ Show
 
 # Rare Base Big Tier2 ilvl75
 Show
-	BaseType "Vaal Axe" "Harbinger Bow" "Vaal Sceptre" "Void Sceptre" "Eternal Sword" "Behemoth Mace" "Vaal Hatchet" "Runic Hatchet" "Glorious Plate" "Saintly Chainmail" "Spike-Point Arrow Quiver" "Vaal Regalia" "Carnal Armour" "Elegant Round Shield" "Pinnacle Tower Shield" "Assassin's Garb" "Broadhead Arrow Quiver" "Mosaic Kite Shield"
+	BaseType "Vaal Axe" "Harbinger Bow" "Vaal Sceptre" "Eternal Sword" "Behemoth Mace" "Vaal Hatchet" "Runic Hatchet" "Sambar Sceptre" "Glorious Plate" "Spike-Point Arrow Quiver" "Vaal Regalia" "Elegant Round Shield" "Pinnacle Tower Shield" "Assassin's Garb" "Broadhead Arrow Quiver" "Mosaic Kite Shield" "Colossal Tower Shield" "Cardinal Round Shield"
 	Rarity = Rare
 	ItemLevel >= 75
 	SetTextColor 255 255 119 255 # Rare Text
@@ -1422,7 +1433,7 @@ Show
 
 # Rare Base Big Tier2
 Show
-	BaseType "Vaal Axe" "Harbinger Bow" "Vaal Sceptre" "Void Sceptre" "Eternal Sword" "Behemoth Mace" "Vaal Hatchet" "Runic Hatchet" "Glorious Plate" "Saintly Chainmail" "Spike-Point Arrow Quiver" "Vaal Regalia" "Carnal Armour" "Elegant Round Shield" "Pinnacle Tower Shield" "Assassin's Garb" "Broadhead Arrow Quiver" "Mosaic Kite Shield"
+	BaseType "Vaal Axe" "Harbinger Bow" "Vaal Sceptre" "Eternal Sword" "Behemoth Mace" "Vaal Hatchet" "Runic Hatchet" "Sambar Sceptre" "Glorious Plate" "Spike-Point Arrow Quiver" "Vaal Regalia" "Elegant Round Shield" "Pinnacle Tower Shield" "Assassin's Garb" "Broadhead Arrow Quiver" "Mosaic Kite Shield" "Colossal Tower Shield" "Cardinal Round Shield"
 	Rarity = Rare
 	ItemLevel >= 65
 	SetTextColor 255 255 119 255 # Rare Text
