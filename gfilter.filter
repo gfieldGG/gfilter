@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.5.1
+# VERSION:       3.5.2
 # AUTHOR:        gfield
 # CONTACT:       
 # WEB PAGE:      
@@ -177,12 +177,14 @@ Show
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
 	CustomAlertSound "gfT1.mp3"
+	PlayEffect Blue Temp
 
+# T1 Resonator
 Show
 	Class "Delve Socketable Currency"
 	BaseType "Prime Alchemical Resonator" "Prime Chaotic Resonator"
-	SetTextColor 200 186 153 255 # Currency Text
-	SetBackgroundColor 5 18 36 255 # Delve Highlight Background
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 200 186 153 255 # Currency Background
 	SetBorderColor 102 193 245 255 # Delve Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
@@ -190,6 +192,7 @@ Show
 	MinimapIcon 0 Blue Circle
 	PlayEffect Blue
 
+# Resonator
 Show
 	Class "Delve Socketable Currency"
 	SetTextColor 200 186 153 255 # Currency Text
@@ -198,9 +201,44 @@ Show
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
 	PlayAlertSound 6 150 # Tier3
-	MinimapIcon 0 Blue Circle
+	MinimapIcon 2 Blue Circle
 	PlayEffect Blue Temp
 
+# T1 Fossil
+Show
+	Class "Currency"
+	BaseType "Glyphic Fossil" "Hollow Fossil" "Faceted Fossil" "Bloodstained Fossil" "Tangled Fossil" "Fractured Fossil"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 102 193 245 255 # Delve Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	CustomAlertSound "gfT1.mp3"
+	MinimapIcon 0 Blue Circle
+	PlayEffect Blue
+
+# T1.5 Fossil
+Show
+	Class "Currency"
+	BaseType "Sanctified Fossil" "Encrusted Fossil" "Gilded Fossil"
+	SetTextColor 102 193 245 255 # Delve Text
+	SetBackgroundColor 5 18 36 255 # Delve Highlight Background
+	SetBorderColor 102 193 245 255 # Delve Border
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	PlayAlertSound 7 300 # Tier1
+	MinimapIcon 1 Blue Circle
+	PlayEffect Blue
+
+# Fossil Trash
+Show
+	Class "Currency"
+	BaseType "Frigid Fossil" "Scorched Fossil" "Aberrant Fossil"
+	SetTextColor 102 193 245 255 # Delve Text
+	SetBackgroundColor 0 0 0 210 # Junk Background
+	#BlockStrictness 2 Hide
+
+# Fossil
 Show
 	Class "Currency"
 	BaseType "Fossil"
@@ -209,8 +247,8 @@ Show
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
 	PlayAlertSound 6 150 # Tier3
-	MinimapIcon 0 Blue Circle
-	PlayEffect Blue
+	MinimapIcon 2 White Circle
+	PlayEffect Blue Temp
 
 #-------------------------------------------------------------------------------
 # Section: ABYSS
@@ -605,7 +643,7 @@ Show
 	MinimapIcon 1 Yellow Diamond
 	PlayEffect Red
 
-# T1 Scarab
+# T1.5 Scarab
 Show
 	Class "Map Fragments"
 	BaseType "Gilded Cartography Scarab" "Gilded Breach Scarab"
@@ -613,11 +651,11 @@ Show
 	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 3 200 # Tier2
+	PlayAlertSound 7 300 # Tier1
 	MinimapIcon 1 Yellow Diamond
-	PlayEffect Yellow Temp
+	PlayEffect Yellow
 
-# T2 Scarab
+# T3 Scarab
 Show
 	Class "Map Fragments"
 	BaseType "Polished Breach Scarab" "Rusted Cartography Scarab" "Polished Cartography Scarab" "Rusted Breach Scarab" "Gilded Reliquary Scarab" "Gilded Divination Scarab" "Polished Divination Scarab" "Gilded Ambush Scarab" "Gilded Perandus Scarab" "Polished Perandus Scarab" "Polished Ambush Scarab"
@@ -626,6 +664,7 @@ Show
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 6 150 # Tier3
+	MinimapIcon 2 White Diamond
 
 # Scarab
 Show
@@ -779,10 +818,23 @@ Show
 	MinimapIcon 1 Yellow Circle
 	PlayEffect Yellow
 
+# Currency Tier1.5
+Show
+	Class "Currency"
+	BaseType "Divine Orb" "Orb of Annulment" "Ancient Orb" "Harbinger's Orb"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 200 186 153 255 # Currency Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 7 300 # Tier1
+	MinimapIcon 1 Red Circle
+	PlayEffect Yellow
+
 # Currency Tier1
 Show
 	Class "Currency"
-	BaseType "Divine Orb" "Exalted Orb" "Orb of Annulment" "Ancient Orb" "Mirror Shard" "Harbinger's Orb"
+	BaseType "Exalted Orb" "Mirror Shard"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 200 186 153 255 # Currency Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -829,8 +881,8 @@ Show
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
 	CustomAlertSound "gfT0.mp3"
-	MinimapIcon 0 Red Diamond
-	PlayEffect Yellow
+	MinimapIcon 0 Red Hexagon
+	PlayEffect Red
 
 # Gem Tier1
 Show
@@ -841,7 +893,7 @@ Show
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 6 150 # Tier3
-	MinimapIcon 1 Yellow Diamond
+	MinimapIcon 1 Yellow Hexagon
 
 # Gem Vaal
 Show
@@ -863,7 +915,7 @@ Show
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 1 Yellow Diamond
+	MinimapIcon 1 Yellow Hexagon
 
 # Gem Quality High
 Show
@@ -875,7 +927,7 @@ Show
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
 	PlayAlertSound 6 150 # Tier3
-	MinimapIcon 2 White Diamond
+	MinimapIcon 2 White Hexagon
 
 # Gem Quality
 Show
@@ -959,7 +1011,6 @@ Show
 	#SetFontSizeTag 41 # Big
 	PlayAlertSound 6 150 # Tier3
 	MinimapIcon 2 White Diamond
-	PlayEffect Red Temp
 
 # Offering to the Goddess
 Show
@@ -1755,7 +1806,7 @@ Show
 	PlayEffect Yellow
 
 #-------------------------------------------------------------------------------
-# Section: RGB Recipe
+# Section: Chroma Recipe
 #-------------------------------------------------------------------------------
 
 # RGB Levelling
