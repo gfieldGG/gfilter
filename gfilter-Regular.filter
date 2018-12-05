@@ -72,7 +72,7 @@ Show
 	SetFontSize 41
 
 #-------------------------------------------------------------------------------
-# Section: WAR FOR THE ATLAS
+# Section: War for the Atlas
 #-------------------------------------------------------------------------------
 
 # Elder Atlas
@@ -614,8 +614,9 @@ Show
 	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 7 300 # Tier1
-	PlayEffect Yellow
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Diamond
+	PlayEffect Yellow Temp
 
 # T2 Scarab
 Show
@@ -625,7 +626,7 @@ Show
 	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 3 200 # Tier2
+	PlayAlertSound 6 150 # Tier3
 
 # Scarab
 Show
