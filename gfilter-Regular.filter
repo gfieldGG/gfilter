@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.4.17
+# VERSION:       3.5.0
 # AUTHOR:        gfield
 # CONTACT:       
 # WEB PAGE:      
@@ -551,7 +551,7 @@ Show
 	#SetFontSizeTag 37 # Medium
 
 #-------------------------------------------------------------------------------
-# Section: Atlas of Worlds
+# Section: Atlas
 #-------------------------------------------------------------------------------
 
 # Apprentice Cartographer
@@ -605,6 +605,36 @@ Show
 	PlayAlertSound 7 300
 	MinimapIcon 1 Yellow Diamond
 	PlayEffect Red
+
+# T1 Scarab
+Show
+	Class "Map Fragments"
+	BaseType "Gilded Cartography Scarab" "Gilded Breach Scarab"
+	SetTextColor 255 200 0 255 # Legacy Text
+	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 7 300 # Tier1
+	PlayEffect Yellow
+
+# T2 Scarab
+Show
+	Class "Map Fragments"
+	BaseType "Polished Breach Scarab" "Rusted Cartography Scarab" "Polished Cartography Scarab" "Rusted Breach Scarab" "Gilded Reliquary Scarab" "Gilded Divination Scarab" "Polished Divination Scarab" "Gilded Ambush Scarab" "Gilded Perandus Scarab" "Polished Perandus Scarab" "Polished Ambush Scarab"
+	SetTextColor 255 200 0 255 # Legacy Text
+	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
+
+# Scarab
+Show
+	Class "Map Fragments"
+	BaseType "Scarab"
+	SetTextColor 255 200 0 255 # Legacy Text
+	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
+	SetFontSize 37
+	#SetFontSizeTag 37 # Medium
 
 #-------------------------------------------------------------------------------
 # Section: Divination Cards
@@ -1165,7 +1195,7 @@ Show
 
 # Tier2 Crafting Bases ilvl84
 Show
-	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt"
+	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
 	Rarity <= Magic
 	ItemLevel >= 84
 	SetTextColor 255 255 255 255 # Normal Highlight Text
