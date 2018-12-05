@@ -23,14 +23,14 @@ rgb(255,255,0,0)
 
 Style Tiers
 Sounds should be strict, visuals can be adjusted depending on item type (e.g. Font Size for easier pickup)
-	T0 ]1ex
+	T0 ]5ex
 		Solid White Background
 		Color Border
 		Color Text
 		Size 45
 		Sound 8 300
 
-	T1 [10c-1ex]
+	T1 [10c-5ex]
 		Solid Color Background
 		White Border
 		Color Text
