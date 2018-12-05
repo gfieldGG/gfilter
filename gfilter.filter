@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.5.0
+# VERSION:       3.5.1
 # AUTHOR:        gfield
 # CONTACT:       
 # WEB PAGE:      
@@ -12,7 +12,6 @@
 #
 # Strictness 1:  Regular
 # Strictness 2:  Strict
-# Strictness 3:  adhd
 # Default strictness:  1
 #-------------------------------------------------------------------------------
 
