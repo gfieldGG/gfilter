@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.5.4
+# VERSION:       3.5.5
 # AUTHOR:        gfield
 # CONTACT:       
 # WEB PAGE:      
@@ -1521,6 +1521,7 @@ Show
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 6 150 # Tier3
 	MinimapIcon 2 White Hexagon
+	#BlockStrictness 3 Hide
 
 # Rare Atlas T2
 Show
@@ -1533,6 +1534,7 @@ Show
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 6 150 # Tier3
 	MinimapIcon 2 White Hexagon
+	#BlockStrictness 3 Hide
 
 # Rare Base Small Tier1 ilvl75
 Show
@@ -1543,6 +1545,7 @@ Show
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 	SetBorderColor 255 255 119 255 # Rare Border
 	SetFontSize 45
+	#BlockStrictness 3 Hide
 
 # Rare Base Small Tier1
 Show
@@ -1552,6 +1555,7 @@ Show
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 	SetFontSize 45
+	#BlockStrictness 3 Hide
 
 # Rare Base Big Tier1 ilvl75
 Hide
@@ -1582,6 +1586,7 @@ Show
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 	SetFontSize 41
+	#BlockStrictness 3 Hide
 
 # Rare Base Small Tier2
 Hide

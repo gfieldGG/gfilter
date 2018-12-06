@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.5.4
+# VERSION:       3.5.5
 # AUTHOR:        gfield
 # CONTACT:       
 # WEB PAGE:      
@@ -1511,7 +1511,7 @@ Show
 	MinimapIcon 1 Yellow Hexagon
 
 # Rare Atlas T1
-Show
+Hide
 	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt"
 	Rarity = Rare
 	SetTextColor 255 255 119 255 # Rare Text
@@ -1521,9 +1521,10 @@ Show
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 6 150 # Tier3
 	MinimapIcon 2 White Hexagon
+	#BlockStrictness 3 Hide
 
 # Rare Atlas T2
-Show
+Hide
 	BaseType "Gripped Gloves" "Two-Toned Boots" "Bone Helmet" "Spiked Gloves" "Fingerless Silk Gloves"
 	Rarity = Rare
 	SetTextColor 255 255 119 255 # Rare Text
@@ -1533,9 +1534,10 @@ Show
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 6 150 # Tier3
 	MinimapIcon 2 White Hexagon
+	#BlockStrictness 3 Hide
 
 # Rare Base Small Tier1 ilvl75
-Show
+Hide
 	BaseType "Imperial Claw" "Gemini Claw" "Imbued Wand" "Platinum Kris" "Jewelled Foil" "Spiraled Foil" "Corsair Sword" "Titan Gauntlets" "Lion Pelt" "Slink Boots" "Titan Greaves" "Royal Burgonet" "Slink Gloves" "Hubris Circlet" "Fossilised Spirit Shield" "Titanium Spirit Shield" "Crusader Buckler" "Eternal Burgonet" "Goliath Greaves" "Vaal Gauntlets"
 	Rarity = Rare
 	ItemLevel >= 75
@@ -1543,15 +1545,17 @@ Show
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 	SetBorderColor 255 255 119 255 # Rare Border
 	SetFontSize 45
+	#BlockStrictness 3 Hide
 
 # Rare Base Small Tier1
-Show
+Hide
 	BaseType "Imperial Claw" "Gemini Claw" "Imbued Wand" "Platinum Kris" "Jewelled Foil" "Spiraled Foil" "Corsair Sword" "Titan Gauntlets" "Lion Pelt" "Slink Boots" "Titan Greaves" "Royal Burgonet" "Slink Gloves" "Hubris Circlet" "Fossilised Spirit Shield" "Titanium Spirit Shield" "Crusader Buckler" "Eternal Burgonet" "Goliath Greaves" "Vaal Gauntlets"
 	Rarity = Rare
 	ItemLevel >= 65
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 	SetFontSize 45
+	#BlockStrictness 3 Hide
 
 # Rare Base Big Tier1 ilvl75
 Hide
@@ -1575,13 +1579,14 @@ Hide
 	#BlockStrictness 2 Hide
 
 # Rare Base Small Tier2 ilvl75
-Show
+Hide
 	BaseType "Terror Claw" "Eye Gouger" "Tornado Wand" "Opal Wand" "Kris" "Vaal Rapier" "Fancy Foil" "Dragoon Sword" "Profane Wand" "Skean" "Ambusher" "Crusader Boots" "Nightmare Bascinet" "Murder Boots" "Dragonscale Boots" "Vaal Greaves" "Stealth Boots" "Murder Mitts" "Dragonscale Gauntlets" "Crusader Gloves" "Praetor Crown" "Deicide Mask" "Sinner Tricorne" "Arcanist Slippers" "Arcanist Gloves" "Mind Cage" "Sorcerer Boots" "Sorcerer Gloves" "Harmonic Spirit Shield" "Supreme Spiked Shield" "Shagreen Boots" "Imperial Buckler" "Ancient Greaves" "Ancient Gauntlets" "Ezomyte Burgonet" "Vaal Spirit Shield"
 	Rarity = Rare
 	ItemLevel >= 75
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 	SetFontSize 41
+	#BlockStrictness 3 Hide
 
 # Rare Base Small Tier2
 Hide
