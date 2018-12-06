@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.5.3
+# VERSION:       3.5.4
 # AUTHOR:        gfield
 # CONTACT:       
 # WEB PAGE:      
@@ -12,6 +12,7 @@
 #
 # Strictness 1:  Regular
 # Strictness 2:  Strict
+# Strictness 3:  Very Strict
 # Default strictness:  1
 #-------------------------------------------------------------------------------
 
@@ -280,6 +281,7 @@ Show
 	SetTextColor 169 189 149 255 # Abyss Text
 	SetBackgroundColor 30 34 26 255 # Abyss Highlight Background
 	SetFontSize 41
+	#BlockStrictness 3 Hide
 
 # Stygian Vise ilvl84
 Show
@@ -301,6 +303,7 @@ Show
 	SetBackgroundColor 30 34 26 255 # Abyss Highlight Background
 	SetBorderColor 169 189 149 255 # Abyss Border
 	SetFontSize 45
+	#BlockStrictness 3 Hide
 
 # Stygian Vise
 Show
@@ -310,6 +313,7 @@ Show
 	SetBackgroundColor 30 34 26 255 # Abyss Highlight Background
 	SetBorderColor 169 189 149 255 # Abyss Border
 	SetFontSize 41
+	#BlockStrictness 2 Hide
 
 #-------------------------------------------------------------------------------
 # Section: Harbinger
@@ -333,6 +337,7 @@ Show
 	SetFontSize 41
 	PlayAlertSound 6 150 # Tier3
 	MinimapIcon 2 White Circle
+	#BlockStrictness 3 Hide
 
 # Harbinger Currency T2
 #Show
@@ -372,7 +377,16 @@ Show
 # Breach Splinter
 Show
 	Class "Stackable Currency"
-	BaseType "Splinter of"
+	BaseType "Splinter of Esh" "Splinter of Tul" "Splinter of Uul-Netol" "Splinter of Xoph"
+	SetTextColor 166 95 244 255 # Breach Text
+	SetBackgroundColor 40 4 0 255 # Breach Red Highlight Background
+	SetFontSize 41
+	#BlockStrictness 3 Hide
+
+# Breach Splinter
+Show
+	Class "Stackable Currency"
+	BaseType "Splinter of Chayula"
 	SetTextColor 166 95 244 255 # Breach Text
 	SetBackgroundColor 40 4 0 255 # Breach Red Highlight Background
 	SetFontSize 41
@@ -421,6 +435,7 @@ Show
 	SetBackgroundColor 21 12 30 255 # Breach Highlight Background
 	SetBorderColor 182 20 0 255 # Breach Border
 	SetFontSize 37
+	#BlockStrictness 2 Hide
 
 #-------------------------------------------------------------------------------
 # Section: Prophecy
@@ -434,6 +449,7 @@ Show
 	SetBackgroundColor 30 0 30 255 # Prophecy Highlight Background
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
+	#BlockStrictness 3 Hide
 
 # Prophecy
 Show
@@ -498,6 +514,7 @@ Show
 	PlayAlertSound 6 150 # Tier3
 	MinimapIcon 2 White Circle
 	PlayEffect Blue Temp
+	#BlockStrictness 3 Hide
 
 # Essence
 Show
@@ -674,6 +691,7 @@ Show
 	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
 	SetFontSize 37
 	#SetFontSizeTag 37 # Medium
+	#BlockStrictness 3 Hide
 
 #-------------------------------------------------------------------------------
 # Section: Divination Cards
@@ -742,6 +760,7 @@ Show
 	PlayAlertSound 6 150 # Tier3
 	MinimapIcon 2 White Star
 	PlayEffect Blue Temp
+	#BlockStrictness 3 Hide
 
 # Divination Card Trash
 Hide
@@ -792,6 +811,7 @@ Show
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
+	#BlockStrictness 3 Hide
 
 # Currency Tier3
 Show
@@ -884,6 +904,18 @@ Show
 	MinimapIcon 0 Red Hexagon
 	PlayEffect Red
 
+# Gem Quality 20
+Show
+	Quality = 20
+	Class "Active Skill Gems" "Support Skill Gems"
+	SetTextColor 26 162 155 255 # Gem Text
+	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
+	SetBorderColor 26 162 155 255 # Gem Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Hexagon
+
 # Gem Tier1
 Show
 	Class "Active Skill Gems" "Support Skill Gems"
@@ -905,18 +937,6 @@ Show
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
 
-# Gem Quality 20
-Show
-	Quality = 20
-	Class "Active Skill Gems" "Support Skill Gems"
-	SetTextColor 26 162 155 255 # Gem Text
-	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
-	SetBorderColor 26 162 155 255 # Gem Border
-	SetFontSize 45
-	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 1 Yellow Hexagon
-
 # Gem Quality High
 Show
 	Quality >= 16
@@ -928,6 +948,7 @@ Show
 	#SetFontSizeTag 41 # Big
 	PlayAlertSound 6 150 # Tier3
 	MinimapIcon 2 White Hexagon
+	#BlockStrictness 3 Hide
 
 # Gem Quality
 Show
@@ -1035,6 +1056,7 @@ Show
 	#SetFontSizeTag 41 # Big
 	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 1 Yellow Circle
+	#BlockStrictness 3 Hide
 
 # Map Fragments
 Show
@@ -1308,6 +1330,7 @@ Show
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
 	#CustomizableValues "basetype"
+	#BlockStrictness 3 Hide
 
 #-------------------------------------------------------------------------------
 # Section: Uniques
@@ -1443,6 +1466,7 @@ Show
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
+	#BlockStrictness 3 Hide
 
 #-------------------------------------------------------------------------------
 # Section: Rares
@@ -1653,6 +1677,7 @@ Show
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
+	#BlockStrictness 3 Hide
 
 # Rare Jewelry
 Show
