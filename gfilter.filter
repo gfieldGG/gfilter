@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.5.2
+# VERSION:       3.5.3
 # AUTHOR:        gfield
 # CONTACT:       
 # WEB PAGE:      
@@ -1042,8 +1042,8 @@ Show
 	SetTextColor 200 200 200 255 # Normal Text
 	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
 	SetBorderColor 200 200 200 255 # Normal Border
-	SetFontSize 41
-	#SetFontSizeTag 41 # Big
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
 
 # Shaped Maps
 Show
@@ -1051,7 +1051,7 @@ Show
 	Class "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 200 200 200 255 # Normal Background
-	SetBorderColor 0 191 0 255
+	SetBorderColor 100 100 100 255 # Map Normal Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 4 150 # Map
@@ -1065,7 +1065,7 @@ Show
 	Rarity <= Rare
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 200 200 200 255 # Normal Background
-	SetBorderColor 0 194 0 255
+	SetBorderColor 100 100 100 255 # Map Normal Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 4 150 # Map
@@ -1165,40 +1165,6 @@ Show
 	PlayEffect Yellow
 
 #-------------------------------------------------------------------------------
-# Section: 5 Links
-#-------------------------------------------------------------------------------
-
-# 5 Link Normal
-Show
-	LinkedSockets = 5
-	Rarity = Normal
-	SetTextColor 255 255 255 255 # Normal Highlight Text
-	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
-	SetFontSize 41
-	#SetFontSizeTag 41 # Big
-	PlayAlertSound 3 200 # Tier2
-
-# 5 Link Magic
-Show
-	LinkedSockets = 5
-	Rarity = Magic
-	SetTextColor 136 136 255 255 # Magic Text
-	SetBackgroundColor 0 15 30 255 # Magic Highlight Background
-	SetFontSize 41
-	#SetFontSizeTag 41 # Big
-	PlayAlertSound 3 200 # Tier2
-
-# 5 Link Rare
-Show
-	LinkedSockets = 5
-	Rarity = Rare
-	SetTextColor 255 255 119 255 # Rare Text
-	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
-	SetFontSize 41
-	#SetFontSizeTag 41 # Big
-	PlayAlertSound 3 200 # Tier2
-
-#-------------------------------------------------------------------------------
 # Section: 6 Sockets
 #-------------------------------------------------------------------------------
 
@@ -1292,6 +1258,43 @@ Show
 	#BlockStrictness 2 Hide
 
 #-------------------------------------------------------------------------------
+# Section: 5 Links
+#-------------------------------------------------------------------------------
+
+# 5 Link Normal
+Show
+	LinkedSockets = 5
+	Rarity = Normal
+	SetTextColor 255 255 255 255 # Normal Highlight Text
+	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	PlayAlertSound 3 200 # Tier2
+	#BlockStrictness 2 Disable
+
+# 5 Link Magic
+Show
+	LinkedSockets = 5
+	Rarity = Magic
+	SetTextColor 136 136 255 255 # Magic Text
+	SetBackgroundColor 0 15 30 255 # Magic Highlight Background
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	PlayAlertSound 3 200 # Tier2
+	#BlockStrictness 2 Disable
+
+# 5 Link Rare
+Show
+	LinkedSockets = 5
+	Rarity = Rare
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	PlayAlertSound 3 200 # Tier2
+	#BlockStrictness 2 Disable
+
+#-------------------------------------------------------------------------------
 # Section: Chancing
 #-------------------------------------------------------------------------------
 
@@ -1304,6 +1307,7 @@ Show
 	SetBorderColor 0 0 254 255 # Crafting Border
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
+	#CustomizableValues "basetype"
 
 #-------------------------------------------------------------------------------
 # Section: Uniques
