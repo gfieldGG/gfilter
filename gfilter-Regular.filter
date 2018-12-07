@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.5.7
+# VERSION:       3.5.8
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -102,7 +102,7 @@ Show
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
-	CustomAlertSound gfT0.mp3
+	CustomAlertSound "gfT0.mp3"
 	MinimapIcon 0 Red Hexagon
 
 # Shaper Tier1 Economy
@@ -228,7 +228,7 @@ Show
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
-	CustomAlertSound gfT0.mp3
+	CustomAlertSound "gfT0.mp3"
 	MinimapIcon 0 Red Hexagon
 
 # Elder Tier1 Economy
@@ -356,7 +356,7 @@ Show
 	SetBorderColor 102 193 245 255 # Delve Border
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
-	CustomAlertSound gfT1.mp3
+	CustomAlertSound "gfT1.mp3"
 	PlayEffect Blue Temp
 
 # T1 Resonator
@@ -368,7 +368,7 @@ Show
 	SetBorderColor 102 193 245 255 # Delve Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
-	CustomAlertSound gfT1.mp3
+	CustomAlertSound "gfT1.mp3"
 	MinimapIcon 0 Blue Circle
 	PlayEffect Blue 
 
@@ -393,7 +393,7 @@ Show
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
-	CustomAlertSound gfT1.mp3
+	CustomAlertSound "gfT1.mp3"
 	MinimapIcon 0 Blue Circle
 	PlayEffect Blue 
 
@@ -590,7 +590,7 @@ Show
 	SetBackgroundColor 255 255 255 255 # Tier0 Background
 	SetBorderColor 182 20 0 255 # Breach Border
 	SetFontSize 45
-	CustomAlertSound gfT1.mp3
+	CustomAlertSound "gfT1.mp3"
 	MinimapIcon 0 Red Diamond
 	PlayEffect Red 
 
@@ -717,7 +717,7 @@ Show
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
-	CustomAlertSound gfT0.mp3
+	CustomAlertSound "gfT0.mp3"
 	MinimapIcon 0 Red Diamond
 
 # Leaguestone Trash
@@ -895,7 +895,7 @@ Show
 	SetBorderColor 14 186 255 255 # Divination Card Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
-	CustomAlertSound gfT0.mp3
+	CustomAlertSound "gfT0.mp3"
 	MinimapIcon 0 Red Star
 	PlayEffect Blue 
 
@@ -908,7 +908,7 @@ Show
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
-	CustomAlertSound gfT1.mp3
+	CustomAlertSound "gfT1.mp3"
 	MinimapIcon 0 Red Star
 	PlayEffect Blue 
 
@@ -1049,7 +1049,7 @@ Show
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
-	CustomAlertSound gfT1.mp3
+	CustomAlertSound "gfT1.mp3"
 	MinimapIcon 0 Red Circle
 	PlayEffect Yellow 
 
@@ -1061,7 +1061,7 @@ Show
 	SetBorderColor 200 186 153 255 # Currency Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
-	CustomAlertSound gfT0.mp3
+	CustomAlertSound "gfT0.mp3"
 	MinimapIcon 0 Red Circle
 	PlayEffect Yellow 
 
@@ -1089,7 +1089,7 @@ Show
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
-	CustomAlertSound gfT0.mp3
+	CustomAlertSound "gfT0.mp3"
 	MinimapIcon 0 Red Hexagon
 	PlayEffect Red 
 
@@ -1273,7 +1273,7 @@ Show
 Show
 	Rarity <= Rare
 	Class "Maps"
-	BaseType "Iceberg Map" "Spider Forest Map" "Vault Map" "Burial Chambers Map" "Canyon Map" "Strand Map" "Toxic Sewer Map" "Fields Map" "Racecourse Map" "Lookout Map" "Jungle Valley Map" "Mesa Map" "Gorge Map" "Phantasmagoria Map" "Beach Map" "City Square Map" "Channel Map" "Alleyways Map" "Arid Lake Map" "Shore Map" "Ashen Wood Map"
+	BaseType "Iceberg Map" "Spider Forest Map" "Vault Map" "Burial Chambers Map" "Canyon Map" "Strand Map" "Toxic Sewer Map" "Fields Map" "Racecourse Map" "Lookout Map" "Jungle Valley Map" "Mesa Map" "Phantasmagoria Map" "Beach Map" "City Square Map" "Channel Map" "Alleyways Map" "Arid Lake Map" "Shore Map" "Ashen Wood Map"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 200 200 200 255 # Normal Background
 	SetBorderColor 100 100 100 255 # Map Normal Border
@@ -1534,7 +1534,7 @@ Show
 	SetBorderColor 175 96 37 255 # Unique Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
-	CustomAlertSound gfT0.mp3
+	CustomAlertSound "gfT0.mp3"
 	MinimapIcon 0 Red Hexagon
 	PlayEffect Brown 
 
@@ -1547,7 +1547,7 @@ Show
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
-	CustomAlertSound gfT1.mp3
+	CustomAlertSound "gfT1.mp3"
 	MinimapIcon 1 Red Hexagon
 	PlayEffect Brown 
 
