@@ -1,4 +1,4 @@
-#===============================================================================
+﻿#===============================================================================
 # GFILTER
 #===============================================================================
 #
@@ -2519,10 +2519,10 @@ Hide
 # Subsection: Specific Weapon Upgrade Toggles
 #-------------------------------------------------------------------------------
 
-#Show
-#	Rarity <= Magic
-#	Class "Bow"
-#	SetBackgroundColor 0 0 0 210 # Junk Background
+Show
+	Rarity <= Magic
+	Class "Bow"
+	SetBackgroundColor 0 0 0 210 # Junk Background
 
 #Show
 #	Rarity <= Magic
@@ -2539,20 +2539,20 @@ Hide
 #	Class "Two Hand Axe"
 #	SetBackgroundColor 0 0 0 210 # Junk Background
 
-#Show
-#	Rarity <= Magic
-#	Class "Axe"
-#	SetBackgroundColor 0 0 0 210 # Junk Background
+Show
+	Rarity <= Magic
+	Class "Axe"
+	SetBackgroundColor 0 0 0 210 # Junk Background
 
 #Show
 #	Rarity <= Magic
 #	Class "Dagger"
 #	SetBackgroundColor 0 0 0 210 # Junk Background
 
-#Show
-#	Rarity <= Magic
-#	Class "Two Hand Sword"
-#	SetBackgroundColor 0 0 0 210 # Junk Background
+Show
+	Rarity <= Magic
+	Class "Two Hand Sword"
+	SetBackgroundColor 0 0 0 210 # Junk Background
 
 Show
 	Rarity <= Magic
@@ -2564,15 +2564,15 @@ Show
 	Class "Sword"
 	SetBackgroundColor 0 0 0 210 # Junk Background
 
-#Show
-#	Rarity <= Magic
-#	Class "Two Hand Mace"
-#	SetBackgroundColor 0 0 0 210 # Junk Background
+Show
+	Rarity <= Magic
+	Class "Two Hand Mace"
+	SetBackgroundColor 0 0 0 210 # Junk Background
 
-#Show
-#	Rarity <= Magic
-#	Class "Mace"
-#	SetBackgroundColor 0 0 0 210 # Junk Background
+Show
+	Rarity <= Magic
+	Class "Mace"
+	SetBackgroundColor 0 0 0 210 # Junk Background
 
 Show
 	Rarity <= Magic
