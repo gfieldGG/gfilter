@@ -1097,6 +1097,31 @@ Show
 	PlayEffect Yellow 
 
 #-------------------------------------------------------------------------------
+# Section: General
+#-------------------------------------------------------------------------------
+
+# Game Items
+Show
+	Class "Quest" "Hideout" "Micro" "Labyrinth" "Incursion Item"
+	SetTextColor 74 230 58 255 # Quest Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetFontSize 45
+	PlayAlertSound 2 150 # Quest
+	MinimapIcon 0 Green Star
+	PlayEffect Green 
+
+# Pantheon Soul
+Show
+	Class "Pantheon Soul"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 255 255 119 255
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45
+	PlayAlertSound 2 150 # Quest
+	MinimapIcon 0 Green Triangle
+	PlayEffect Yellow 
+
+#-------------------------------------------------------------------------------
 # Section: Gems
 #-------------------------------------------------------------------------------
 
@@ -2150,31 +2175,6 @@ Show
 	SetBorderColor 80 80 80 255 # Quality Border
 	SetFontSize 37
 	#BlockStrictness 2 Hide
-
-#-------------------------------------------------------------------------------
-# Section: General
-#-------------------------------------------------------------------------------
-
-# Game Items
-Show
-	Class "Quest" "Hideout" "Micro" "Labyrinth" "Incursion Item"
-	SetTextColor 74 230 58 255 # Quest Text
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 45
-	PlayAlertSound 2 150 # Quest
-	MinimapIcon 0 Green Star
-	PlayEffect Green 
-
-# Pantheon Soul
-Show
-	Class "Pantheon Soul"
-	SetTextColor 0 0 0 255 # Tier1 Text
-	SetBackgroundColor 255 255 119 255
-	SetBorderColor 255 255 255 255 # Tier1 Border
-	SetFontSize 45
-	PlayAlertSound 2 150 # Quest
-	MinimapIcon 0 Green Triangle
-	PlayEffect Yellow 
 
 #-------------------------------------------------------------------------------
 # Section: Chroma Recipe
