@@ -1,9 +1,9 @@
-﻿#===============================================================================
+#===============================================================================
 # GFILTER
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.5.8
+# VERSION:       3.5.10
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -1671,19 +1671,90 @@ Show
 	#BlockStrictness 3 Hide
 
 #-------------------------------------------------------------------------------
+# Section: Early Levelling
+#-------------------------------------------------------------------------------
+
+# Flask Utility
+Show
+	ItemLevel <= 28
+	Class "Utility Flasks"
+	BaseType "Bismuth Flask" "Quicksilver Flask"
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBorderColor 192 255 203 255 # Levelling Border
+	SetFontSize 45
+
+Show
+	ItemLevel <= 28
+	Class "Utility Flasks"
+	BaseType "Sapphire Flask" "Ruby Flask" "Amethyst Flask" "Topaz Flask"
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetFontSize 41
+
+# Piety Ring
+Show
+	ItemLevel <= 12
+	BaseType "Sapphire Ring"
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBorderColor 192 255 203 255 # Levelling Border
+	SetFontSize 45
+
+# MS Boots
+Show
+	Rarity >= Magic
+	ItemLevel <= 28
+	Class "Boots"
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBorderColor 192 255 203 255 # Levelling Border
+	SetFontSize 45
+
+# 3 Links
+Show
+	LinkedSockets >= 3
+	ItemLevel < 6
+	Class "Helm" "Body" "Boots" "Gloves"
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetFontSize 41
+
+# 4 Links
+Show
+	LinkedSockets = 4
+	ItemLevel <= 38
+	Class "Helm" "Body" "Boots" "Gloves"
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBorderColor 192 255 203 255 # Levelling Border
+	SetFontSize 41
+
+# Pre-Brutus Everything
+Show
+	ItemLevel < 10
+	SetBackgroundColor 0 0 0 255 # Default Background
+
+Show
+	ItemLevel <= 18
+	Class "Ring" "Amulet" "Belt"
+	SetBackgroundColor 0 0 0 210 # Junk Background
+	SetFontSize 37
+
+# MS Boots Normal
+#Show
+#	ItemLevel <= 28
+#	Class "Boots"
+#	SetBackgroundColor 0 0 0 210 # Junk Background
+
+#-------------------------------------------------------------------------------
 # Section: Rares
 #-------------------------------------------------------------------------------
 
-# Rare Atlas T0 ilvl84
+# Rare Atlas T0 ilvl86
 Show
 	Rarity = Rare
-	ItemLevel >= 84
+	ItemLevel >= 86
 	BaseType "Steel Ring" "Opal Ring"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 255 255 119 255 # Rare Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
-	PlayAlertSound 7 300 # Tier1
+	CustomAlertSound "gfT1.mp3"
 	MinimapIcon 0 Red Hexagon
 	PlayEffect Yellow 
 
@@ -1696,7 +1767,7 @@ Show
 	SetBorderColor 255 255 119 255 # Rare Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 3 200 # Tier2
+	PlayAlertSound 7 300 # Tier1
 	MinimapIcon 0 Yellow Hexagon
 
 # Rare Atlas T1 ilvl84
@@ -2282,77 +2353,6 @@ Show
 	SetTextColor 136 136 255 255 # Magic Text
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetFontSize 41
-
-#-------------------------------------------------------------------------------
-# Section: Early Levelling
-#-------------------------------------------------------------------------------
-
-# Flask Utility
-Show
-	ItemLevel <= 28
-	Class "Utility Flasks"
-	BaseType "Bismuth Flask" "Quicksilver Flask"
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetBorderColor 192 255 203 255 # Levelling Border
-	SetFontSize 45
-
-Show
-	ItemLevel <= 28
-	Class "Utility Flasks"
-	BaseType "Sapphire Flask" "Ruby Flask" "Amethyst Flask" "Topaz Flask"
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 41
-
-# Piety Ring
-Show
-	ItemLevel <= 12
-	BaseType "Sapphire Ring"
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetBorderColor 192 255 203 255 # Levelling Border
-	SetFontSize 45
-
-# MS Boots
-Show
-	Rarity >= Magic
-	ItemLevel <= 20
-	Class "Boots"
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetBorderColor 192 255 203 255 # Levelling Border
-	SetFontSize 45
-
-# 3 Links
-Show
-	LinkedSockets >= 3
-	ItemLevel < 6
-	Class "Helm" "Body" "Boots" "Gloves"
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 41
-
-# 4 Links
-Show
-	LinkedSockets = 4
-	ItemLevel <= 38
-	Class "Helm" "Body" "Boots" "Gloves"
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetBorderColor 192 255 203 255 # Levelling Border
-	SetFontSize 41
-
-# Pre-Brutus Everything
-Show
-	ItemLevel < 10
-	SetBackgroundColor 0 0 0 255 # Default Background
-
-Show
-	ItemLevel <= 18
-	Class "Ring" "Amulet" "Belt"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	SetFontSize 37
-
-# MS Boots Normal
-#Show
-#	ItemLevel <= 28
-#	Class "Boots"
-#	SetBackgroundColor 0 0 0 210 # Junk Background
 
 #-------------------------------------------------------------------------------
 # Section: Utility Flasks
