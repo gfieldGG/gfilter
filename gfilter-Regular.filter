@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.5.11
+# VERSION:       3.5.12
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -39,15 +39,6 @@ Show
 
 # Perandus Coin
 Show
-	Class "Currency"
-	BaseType "Perandus"
-	SetTextColor 254 213 0 255 # Perandus Text
-	SetBackgroundColor 112 88 2 255 # Perandus Background
-	SetFontSize 37
-	#SetFontSizeTag 37 # Medium
-
-# Perandus Coin
-Show
 	StackSize >= 4
 	Class "Currency"
 	BaseType "Perandus"
@@ -55,6 +46,15 @@ Show
 	SetBackgroundColor 112 88 2 255 # Perandus Background
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
+
+# Perandus Coin
+Show
+	Class "Currency"
+	BaseType "Perandus"
+	SetTextColor 254 213 0 255 # Perandus Text
+	SetBackgroundColor 112 88 2 255 # Perandus Background
+	SetFontSize 37
+	#SetFontSizeTag 37 # Medium
 
 # Talisman
 Show
@@ -1000,6 +1000,17 @@ Hide
 	SetFontSize 37
 	#SetFontSizeTag 37 # Medium
 	#BlockStrictness 1 Hide
+
+# Currency Tier5 Stacks
+Show
+	StackSize >= 4
+	Class "Currency"
+	BaseType "Orb of Transmutation" "Orb of Augmentation" "Blacksmith's Whetstone" "Armourer's Scrap" "Scroll of Wisdom" "Portal Scroll"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 0 0 0 210 # Junk Background
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	#BlockStrictness 3 Hide
 
 # Currency Tier5
 Show
