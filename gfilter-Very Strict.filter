@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.5.8
+# VERSION:       3.5.11
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -44,6 +44,17 @@ Show
 	SetTextColor 254 213 0 255 # Perandus Text
 	SetBackgroundColor 112 88 2 255 # Perandus Background
 	SetFontSize 37
+	#SetFontSizeTag 37 # Medium
+
+# Perandus Coin
+Show
+	StackSize >= 4
+	Class "Currency"
+	BaseType "Perandus"
+	SetTextColor 254 213 0 255 # Perandus Text
+	SetBackgroundColor 112 88 2 255 # Perandus Background
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
 
 # Talisman
 Show
@@ -90,6 +101,10 @@ Show
 
 #-------------------------------------------------------------------------------
 # Section: War for the Atlas
+#-------------------------------------------------------------------------------
+
+#-------------------------------------------------------------------------------
+# Subsection: Shaper Items
 #-------------------------------------------------------------------------------
 
 # Shaper Tier0
@@ -217,6 +232,10 @@ Show
 	SetBackgroundColor 50 0 50 255 # Shelder Background
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
+
+#-------------------------------------------------------------------------------
+# Subsection: Elder Items
+#-------------------------------------------------------------------------------
 
 # Elder Tier0
 Show
@@ -1065,14 +1084,15 @@ Show
 	MinimapIcon 0 Red Circle
 	PlayEffect Yellow 
 
-# Currency
+# Forgotten Currency
 Show
 	Class "Currency"
-	SetTextColor 255 0 255 255
-	SetBackgroundColor 255 255 255 255
-	SetBorderColor 255 0 255 255
+	SetTextColor 255 0 255 255 # wat
+	SetBackgroundColor 255 255 255 255 # Tier0 Background
+	SetBorderColor 255 0 255 255 # wat
 	SetFontSize 45
-	PlayAlertSound 15 300
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 15 300 # wat
 	MinimapIcon 0 Red Circle
 	PlayEffect Yellow 
 
@@ -1256,7 +1276,20 @@ Show
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
 
-# Shaped Maps
+# Eldered Map
+Show
+	ElderMap True
+	Class "Maps"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 200 200 200 255 # Normal Background
+	SetBorderColor 100 100 100 255 # Map Normal Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 4 150 # Map
+	MinimapIcon 1 Yellow Square
+	PlayEffect White 
+
+# Shaped Map
 Show
 	ShapedMap True
 	Class "Maps"
@@ -1670,20 +1703,105 @@ Hide
 	#SetFontSizeTag 41 # Big
 	#BlockStrictness 3 Hide
 
+Hide
+	Class "Jewel"
+	SetBackgroundColor 0 0 0 0 # Hidden Background
+
+#-------------------------------------------------------------------------------
+# Section: Early Levelling
+#-------------------------------------------------------------------------------
+
+# Flask Utility
+Show
+	ItemLevel <= 28
+	Class "Utility Flasks"
+	BaseType "Bismuth Flask" "Quicksilver Flask"
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBorderColor 192 255 203 255 # Levelling Border
+	SetFontSize 45
+
+Show
+	ItemLevel <= 28
+	Class "Utility Flasks"
+	BaseType "Sapphire Flask" "Ruby Flask" "Amethyst Flask" "Topaz Flask"
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetFontSize 41
+
+# Piety Ring
+Show
+	ItemLevel <= 12
+	BaseType "Sapphire Ring"
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBorderColor 192 255 203 255 # Levelling Border
+	SetFontSize 45
+
+# MS Boots
+Show
+	Rarity >= Magic
+	ItemLevel <= 28
+	Class "Boots"
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBorderColor 192 255 203 255 # Levelling Border
+	SetFontSize 45
+
+# 3 Links
+Show
+	LinkedSockets >= 3
+	ItemLevel < 6
+	Class "Helm" "Body" "Boots" "Gloves"
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetFontSize 41
+
+# 4 Links
+Show
+	LinkedSockets = 4
+	ItemLevel <= 38
+	Class "Helm" "Body" "Boots" "Gloves"
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBorderColor 192 255 203 255 # Levelling Border
+	SetFontSize 41
+
+# Pre-Brutus Everything
+Show
+	ItemLevel < 10
+	SetBackgroundColor 0 0 0 255 # Default Background
+
+Show
+	ItemLevel <= 18
+	Class "Ring" "Amulet" "Belt"
+	SetBackgroundColor 0 0 0 210 # Junk Background
+	SetFontSize 37
+
+Show
+	Rarity = Magic
+	ItemLevel < 28
+	Class "Ring" "Amulet" "Belt"
+	SetBackgroundColor 0 0 0 210 # Junk Background
+
+# MS Boots Normal
+#Show
+#	ItemLevel <= 28
+#	Class "Boots"
+#	SetBackgroundColor 0 0 0 210 # Junk Background
+
 #-------------------------------------------------------------------------------
 # Section: Rares
 #-------------------------------------------------------------------------------
 
-# Rare Atlas T0 ilvl84
+#-------------------------------------------------------------------------------
+# Subsection: Atlas Bases
+#-------------------------------------------------------------------------------
+
+# Rare Atlas T0 ilvl86
 Show
 	Rarity = Rare
-	ItemLevel >= 84
+	ItemLevel >= 86
 	BaseType "Steel Ring" "Opal Ring"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 255 255 119 255 # Rare Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
-	PlayAlertSound 7 300 # Tier1
+	CustomAlertSound "gfT1.mp3"
 	MinimapIcon 0 Red Hexagon
 	PlayEffect Yellow 
 
@@ -1696,7 +1814,7 @@ Show
 	SetBorderColor 255 255 119 255 # Rare Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 3 200 # Tier2
+	PlayAlertSound 7 300 # Tier1
 	MinimapIcon 0 Yellow Hexagon
 
 # Rare Atlas T1 ilvl84
@@ -1709,7 +1827,7 @@ Show
 	SetBorderColor 255 255 119 255 # Rare Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 3 200 # Tier2
+	PlayAlertSound 7 300 # Tier1
 	MinimapIcon 1 Yellow Hexagon
 
 # Rare Atlas T1
@@ -1725,6 +1843,19 @@ Hide
 	MinimapIcon 2 White Hexagon
 	#BlockStrictness 3 Hide
 
+# Rare Atlas T2 ilvl84
+Show
+	Rarity = Rare
+	ItemLevel >= 84
+	BaseType "Gripped Gloves" "Two-Toned Boots" "Bone Helmet" "Spiked Gloves" "Fingerless Silk Gloves"
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+	SetBorderColor 255 255 119 255 # Rare Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 7 300 # Tier1
+	MinimapIcon 1 Yellow Hexagon
+
 # Rare Atlas T2
 Hide
 	Rarity = Rare
@@ -1737,6 +1868,10 @@ Hide
 	PlayAlertSound 6 150 # Tier3
 	MinimapIcon 2 White Hexagon
 	#BlockStrictness 3 Hide
+
+#-------------------------------------------------------------------------------
+# Subsection: Regular Bases
+#-------------------------------------------------------------------------------
 
 # Rare Base Small Tier1 ilvl75
 Hide
@@ -2074,287 +2209,6 @@ Hide
 	#BlockStrictness 2 Hide
 
 #-------------------------------------------------------------------------------
-# Section: Levelling
-#-------------------------------------------------------------------------------
-
-#-------------------------------------------------------------------------------
-# Section: Flask Upgrade Normal
-#-------------------------------------------------------------------------------
-
-Show
-	Rarity = Normal
-	ItemLevel <= 6
-	Class "Flask"
-	BaseType "Medium"
-	SetTextColor 255 255 255 255 # Normal Highlight Text
-	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
-	SetFontSize 41
-
-Show
-	Rarity = Normal
-	ItemLevel <= 12
-	Class "Flask"
-	BaseType "Large"
-	SetTextColor 255 255 255 255 # Normal Highlight Text
-	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
-	SetFontSize 41
-
-Show
-	Rarity = Normal
-	ItemLevel <= 18
-	Class "Flask"
-	BaseType "Greater"
-	SetTextColor 255 255 255 255 # Normal Highlight Text
-	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
-	SetFontSize 41
-
-Show
-	Rarity = Normal
-	ItemLevel <= 24
-	Class "Flask"
-	BaseType "Grand"
-	SetTextColor 255 255 255 255 # Normal Highlight Text
-	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
-	SetFontSize 41
-
-Show
-	Rarity = Normal
-	ItemLevel <= 30
-	Class "Flask"
-	BaseType "Giant"
-	SetTextColor 255 255 255 255 # Normal Highlight Text
-	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
-	SetFontSize 41
-
-Show
-	Rarity = Normal
-	ItemLevel <= 36
-	Class "Flask"
-	BaseType "Colossal"
-	SetTextColor 255 255 255 255 # Normal Highlight Text
-	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
-	SetFontSize 41
-
-Show
-	Rarity = Normal
-	ItemLevel <= 42
-	Class "Flask"
-	BaseType "Sacred"
-	SetTextColor 255 255 255 255 # Normal Highlight Text
-	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
-	SetFontSize 41
-
-Show
-	Rarity = Normal
-	ItemLevel <= 50
-	Class "Flask"
-	BaseType "Hallowed"
-	SetTextColor 255 255 255 255 # Normal Highlight Text
-	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
-	SetFontSize 41
-
-Show
-	Rarity = Normal
-	ItemLevel <= 51
-	Class "Flask"
-	BaseType "Sanctified"
-	SetTextColor 255 255 255 255 # Normal Highlight Text
-	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
-	SetFontSize 41
-
-Show
-	Rarity = Normal
-	ItemLevel < 67
-	Class "Flask"
-	BaseType "Divine"
-	SetTextColor 255 255 255 255 # Normal Highlight Text
-	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
-	SetFontSize 41
-
-Show
-	Rarity = Normal
-	ItemLevel < 67
-	Class "Flask"
-	BaseType "Eternal"
-	SetTextColor 255 255 255 255 # Normal Highlight Text
-	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
-	SetFontSize 41
-
-#-------------------------------------------------------------------------------
-# Section: Flask Upgrade Magic
-#-------------------------------------------------------------------------------
-
-Show
-	Rarity = Magic
-	ItemLevel <= 6
-	Class "Flask"
-	BaseType "Medium"
-	SetTextColor 136 136 255 255 # Magic Text
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 41
-
-Show
-	Rarity = Magic
-	ItemLevel <= 12
-	Class "Flask"
-	BaseType "Large"
-	SetTextColor 136 136 255 255 # Magic Text
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 41
-
-Show
-	Rarity = Magic
-	ItemLevel <= 18
-	Class "Flask"
-	BaseType "Greater"
-	SetTextColor 136 136 255 255 # Magic Text
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 41
-
-Show
-	Rarity = Magic
-	ItemLevel <= 24
-	Class "Flask"
-	BaseType "Grand"
-	SetTextColor 136 136 255 255 # Magic Text
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 41
-
-Show
-	Rarity = Magic
-	ItemLevel <= 30
-	Class "Flask"
-	BaseType "Giant"
-	SetTextColor 136 136 255 255 # Magic Text
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 41
-
-Show
-	Rarity = Magic
-	ItemLevel <= 36
-	Class "Flask"
-	BaseType "Colossal"
-	SetTextColor 136 136 255 255 # Magic Text
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 41
-
-Show
-	Rarity = Magic
-	ItemLevel <= 42
-	Class "Flask"
-	BaseType "Sacred"
-	SetTextColor 136 136 255 255 # Magic Text
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 41
-
-Show
-	Rarity = Magic
-	ItemLevel <= 50
-	Class "Flask"
-	BaseType "Hallowed"
-	SetTextColor 136 136 255 255 # Magic Text
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 41
-
-Show
-	Rarity = Magic
-	ItemLevel <= 51
-	Class "Flask"
-	BaseType "Sanctified"
-	SetTextColor 136 136 255 255 # Magic Text
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 41
-
-Show
-	Rarity = Magic
-	ItemLevel < 67
-	Class "Flask"
-	BaseType "Divine"
-	SetTextColor 136 136 255 255 # Magic Text
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 41
-
-Show
-	Rarity = Magic
-	ItemLevel < 67
-	Class "Flask"
-	BaseType "Eternal"
-	SetTextColor 136 136 255 255 # Magic Text
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 41
-
-#-------------------------------------------------------------------------------
-# Section: Early Levelling
-#-------------------------------------------------------------------------------
-
-# Flask Utility
-Show
-	ItemLevel <= 28
-	Class "Utility Flasks"
-	BaseType "Bismuth Flask" "Quicksilver Flask"
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetBorderColor 192 255 203 255 # Levelling Border
-	SetFontSize 45
-
-Show
-	ItemLevel <= 28
-	Class "Utility Flasks"
-	BaseType "Sapphire Flask" "Ruby Flask" "Amethyst Flask" "Topaz Flask"
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 41
-
-# Piety Ring
-Show
-	ItemLevel <= 12
-	BaseType "Sapphire Ring"
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetBorderColor 192 255 203 255 # Levelling Border
-	SetFontSize 45
-
-# MS Boots
-Show
-	Rarity >= Magic
-	ItemLevel <= 20
-	Class "Boots"
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetBorderColor 192 255 203 255 # Levelling Border
-	SetFontSize 45
-
-# 3 Links
-Show
-	LinkedSockets >= 3
-	ItemLevel < 6
-	Class "Helm" "Body" "Boots" "Gloves"
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 41
-
-# 4 Links
-Show
-	LinkedSockets = 4
-	ItemLevel <= 38
-	Class "Helm" "Body" "Boots" "Gloves"
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetBorderColor 192 255 203 255 # Levelling Border
-	SetFontSize 41
-
-# Pre-Brutus Everything
-Show
-	ItemLevel < 10
-	SetBackgroundColor 0 0 0 255 # Default Background
-
-Show
-	ItemLevel <= 18
-	Class "Ring" "Amulet" "Belt"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	SetFontSize 37
-
-# MS Boots Normal
-#Show
-#	ItemLevel <= 28
-#	Class "Boots"
-#	SetBackgroundColor 0 0 0 210 # Junk Background
-
-#-------------------------------------------------------------------------------
 # Section: Utility Flasks
 #-------------------------------------------------------------------------------
 
@@ -2371,23 +2225,230 @@ Hide
 	#BlockStrictness 2 Hide
 
 #-------------------------------------------------------------------------------
-# Section: Levelling Jewelry
+# Section: Levelling
 #-------------------------------------------------------------------------------
 
-# Quiver Levelling
+#-------------------------------------------------------------------------------
+# Subsection: Flask Upgrade Normal
+#-------------------------------------------------------------------------------
+
 Show
+	Rarity = Normal
+	ItemLevel <= 6
+	Class "Flask"
+	BaseType "Medium"
+	SetTextColor 255 255 255 255 # Normal Highlight Text
+	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
+	SetFontSize 41
+
+Show
+	Rarity = Normal
+	ItemLevel <= 12
+	Class "Flask"
+	BaseType "Large"
+	SetTextColor 255 255 255 255 # Normal Highlight Text
+	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
+	SetFontSize 41
+
+Show
+	Rarity = Normal
+	ItemLevel <= 18
+	Class "Flask"
+	BaseType "Greater"
+	SetTextColor 255 255 255 255 # Normal Highlight Text
+	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
+	SetFontSize 41
+
+Show
+	Rarity = Normal
+	ItemLevel <= 24
+	Class "Flask"
+	BaseType "Grand"
+	SetTextColor 255 255 255 255 # Normal Highlight Text
+	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
+	SetFontSize 41
+
+Show
+	Rarity = Normal
+	ItemLevel <= 30
+	Class "Flask"
+	BaseType "Giant"
+	SetTextColor 255 255 255 255 # Normal Highlight Text
+	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
+	SetFontSize 41
+
+Show
+	Rarity = Normal
+	ItemLevel <= 36
+	Class "Flask"
+	BaseType "Colossal"
+	SetTextColor 255 255 255 255 # Normal Highlight Text
+	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
+	SetFontSize 41
+
+Show
+	Rarity = Normal
+	ItemLevel <= 42
+	Class "Flask"
+	BaseType "Sacred"
+	SetTextColor 255 255 255 255 # Normal Highlight Text
+	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
+	SetFontSize 41
+
+Show
+	Rarity = Normal
+	ItemLevel <= 50
+	Class "Flask"
+	BaseType "Hallowed"
+	SetTextColor 255 255 255 255 # Normal Highlight Text
+	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
+	SetFontSize 41
+
+Show
+	Rarity = Normal
+	ItemLevel <= 51
+	Class "Flask"
+	BaseType "Sanctified"
+	SetTextColor 255 255 255 255 # Normal Highlight Text
+	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
+	SetFontSize 41
+
+Show
+	Rarity = Normal
 	ItemLevel < 67
-	Class "Quivers"
-	SetBackgroundColor 0 0 0 210 # Junk Background
+	Class "Flask"
+	BaseType "Divine"
+	SetTextColor 255 255 255 255 # Normal Highlight Text
+	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
+	SetFontSize 41
+
+Show
+	Rarity = Normal
+	ItemLevel < 67
+	Class "Flask"
+	BaseType "Eternal"
+	SetTextColor 255 255 255 255 # Normal Highlight Text
+	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
+	SetFontSize 41
+
+#-------------------------------------------------------------------------------
+# Subsection: Flask Upgrade Magic
+#-------------------------------------------------------------------------------
 
 Show
 	Rarity = Magic
-	ItemLevel < 38
-	Class "Ring" "Amulet" "Belt"
-	SetBackgroundColor 0 0 0 210 # Junk Background
+	ItemLevel <= 6
+	Class "Flask"
+	BaseType "Medium"
+	SetTextColor 136 136 255 255 # Magic Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetFontSize 41
+
+Show
+	Rarity = Magic
+	ItemLevel <= 12
+	Class "Flask"
+	BaseType "Large"
+	SetTextColor 136 136 255 255 # Magic Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetFontSize 41
+
+Show
+	Rarity = Magic
+	ItemLevel <= 18
+	Class "Flask"
+	BaseType "Greater"
+	SetTextColor 136 136 255 255 # Magic Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetFontSize 41
+
+Show
+	Rarity = Magic
+	ItemLevel <= 24
+	Class "Flask"
+	BaseType "Grand"
+	SetTextColor 136 136 255 255 # Magic Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetFontSize 41
+
+Show
+	Rarity = Magic
+	ItemLevel <= 30
+	Class "Flask"
+	BaseType "Giant"
+	SetTextColor 136 136 255 255 # Magic Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetFontSize 41
+
+Show
+	Rarity = Magic
+	ItemLevel <= 36
+	Class "Flask"
+	BaseType "Colossal"
+	SetTextColor 136 136 255 255 # Magic Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetFontSize 41
+
+Show
+	Rarity = Magic
+	ItemLevel <= 42
+	Class "Flask"
+	BaseType "Sacred"
+	SetTextColor 136 136 255 255 # Magic Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetFontSize 41
+
+Show
+	Rarity = Magic
+	ItemLevel <= 50
+	Class "Flask"
+	BaseType "Hallowed"
+	SetTextColor 136 136 255 255 # Magic Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetFontSize 41
+
+Show
+	Rarity = Magic
+	ItemLevel <= 51
+	Class "Flask"
+	BaseType "Sanctified"
+	SetTextColor 136 136 255 255 # Magic Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetFontSize 41
+
+Show
+	Rarity = Magic
+	ItemLevel < 67
+	Class "Flask"
+	BaseType "Divine"
+	SetTextColor 136 136 255 255 # Magic Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetFontSize 41
+
+Show
+	Rarity = Magic
+	ItemLevel < 67
+	Class "Flask"
+	BaseType "Eternal"
+	SetTextColor 136 136 255 255 # Magic Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetFontSize 41
 
 #-------------------------------------------------------------------------------
-# Section: Obsolete Levelling Bases
+# Subsection: Hide remaining Flasks
+#-------------------------------------------------------------------------------
+
+# Hybrid Flask
+Hide
+	Class "Hybrid Flasks"
+	SetBackgroundColor 0 0 0 0 # Hidden Background
+
+Hide
+	Class "Flask"
+	SetBackgroundColor 0 0 0 0 # Hidden Background
+
+#-------------------------------------------------------------------------------
+# Subsection: Obsolete Levelling Bases
 #-------------------------------------------------------------------------------
 
 Hide
@@ -2455,7 +2516,7 @@ Hide
 	SetBackgroundColor 0 0 0 0 # Hidden Background
 
 #-------------------------------------------------------------------------------
-# Section: Specific Weapon Upgrade Toggles
+# Subsection: Specific Weapon Upgrade Toggles
 #-------------------------------------------------------------------------------
 
 Show
@@ -2524,7 +2585,7 @@ Show
 	SetBackgroundColor 0 0 0 210 # Junk Background
 
 #-------------------------------------------------------------------------------
-# Section: Specific Armor Upgrade Toggles
+# Subsection: Specific Armor Upgrade Toggles
 #-------------------------------------------------------------------------------
 
 # Two-Toned Boots
@@ -2612,9 +2673,22 @@ Show
 	SetBackgroundColor 0 0 0 210 # Junk Background
 
 #-------------------------------------------------------------------------------
+# Subsection: Hide Remaining Equipment
+#-------------------------------------------------------------------------------
+
+# Junk Equipment
+Show
+	Class "Two Hand" "Bows" "One Hand" "Wands" "Sceptres" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Daggers" "Shields" "Belts" "Rings" "Amulets"
+
+#-------------------------------------------------------------------------------
 # Section: Everything else
 #-------------------------------------------------------------------------------
 
 # Everything not hidden or shown
-Hide
-	SetBackgroundColor 0 0 0 0 # Hidden Background
+Show
+	SetTextColor 255 0 255 255 # wat
+	SetBackgroundColor 255 255 255 255 # Tier0 Background
+	SetBorderColor 255 0 255 255 # wat
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 15 300 # wat
