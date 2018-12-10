@@ -1,9 +1,9 @@
-﻿#===============================================================================
+#===============================================================================
 # GFILTER
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.5.12
+# VERSION:       3.5.13
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -448,6 +448,48 @@ Show
 	PlayAlertSound 6 150 # Tier3
 	MinimapIcon 2 White Circle
 	PlayEffect Blue Temp
+
+#-------------------------------------------------------------------------------
+# Section: Incursion
+#-------------------------------------------------------------------------------
+
+# T0 Vial
+Show
+	Class "Currency"
+	BaseType "Vial of Sacrifice" "Vial of the Ghost"
+	SetTextColor 175 45 35 255 # Incursion Text
+	SetBackgroundColor 255 255 255 255 # Tier0 Background
+	SetBorderColor 150 204 130 255 # Incursion Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	CustomAlertSound "gfT0.mp3"
+	MinimapIcon 0 Red Circle
+	PlayEffect Red 
+
+# T1 Vial
+Show
+	Class "Currency"
+	BaseType "Vial of Awakening"
+	SetTextColor 150 204 130 255 # Incursion BG Text
+	SetBackgroundColor 175 45 35 255 # Incursion Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	CustomAlertSound "gfT1.mp3"
+	MinimapIcon 0 Red Circle
+	PlayEffect Red 
+
+# Vial
+Show
+	Class "Currency"
+	BaseType "Vial of Transcendence" "Vial of Summoning" "Vial of the Ritual" "Vial of Fate" "Vial of Consequence" "Vial of Dominance" "Vial of"
+	SetTextColor 175 45 35 255 # Incursion Text
+	SetBackgroundColor 10 35 34 240 # Incursion Highlight Background
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	PlayAlertSound 6 150 # Tier3
+	MinimapIcon 2 White Circle
+	PlayEffect Red Temp
 
 #-------------------------------------------------------------------------------
 # Section: ABYSS
@@ -1136,13 +1178,13 @@ Show
 # Section: Gems
 #-------------------------------------------------------------------------------
 
-# Gem Tier1
+# Gem Tier0
 Show
 	Class "Skill Gems"
 	BaseType "Item Quantity Support"
-	SetTextColor 0 0 0 255 # Tier1 Text
-	SetBackgroundColor 26 162 155 255 # Gem Background
-	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetTextColor 26 162 155 255 # Gem Text
+	SetBackgroundColor 255 255 255 255 # Tier0 Background
+	SetBorderColor 26 162 155 255 # Gem Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
 	CustomAlertSound "gfT0.mp3"
