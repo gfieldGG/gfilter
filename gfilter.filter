@@ -46,26 +46,6 @@ Show
 	#SetFontSizeTag 45 # Yuge
 	MinimapIcon 1 White Hexagon
 
-# Perandus Coin
-Show
-	StackSize >= 4
-	Class "Currency"
-	BaseType "Perandus"
-	SetTextColor 254 213 0 255 # Perandus Text
-	SetBackgroundColor 112 88 2 255 # Perandus Background
-	SetFontSize 41
-	#SetFontSizeTag 41 # Big
-
-# Perandus Coin
-Show
-	Class "Currency"
-	BaseType "Perandus"
-	SetTextColor 254 213 0 255 # Perandus Text
-	SetBackgroundColor 112 88 2 255 # Perandus Background
-	SetFontSize 37
-	#SetFontSizeTag 37 # Medium
-	#BlockStrictness 3 Hide
-
 # Fractured Item
 Show
 	FracturedItem True
@@ -799,6 +779,26 @@ Show
 	CustomAlertSound "gfT0.mp3"
 	MinimapIcon 0 Red Circle
 	PlayEffect Yellow 
+
+# Perandus Coin
+Show
+	StackSize >= 4
+	Class "Currency"
+	BaseType "Perandus"
+	SetTextColor 254 213 0 255 # Perandus Text
+	SetBackgroundColor 112 88 2 255 # Perandus Background
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+
+# Perandus Coin
+Show
+	Class "Currency"
+	BaseType "Perandus"
+	SetTextColor 254 213 0 255 # Perandus Text
+	SetBackgroundColor 112 88 2 255 # Perandus Background
+	SetFontSize 37
+	#SetFontSizeTag 37 # Medium
+	#BlockStrictness 3 Hide
 
 #-------------------------------------------------------------------------------
 # Subsection: Sextants
