@@ -37,6 +37,15 @@ Show
 # Section: League Stuff
 #-------------------------------------------------------------------------------
 
+# Enchants
+Show
+	AnyEnchantment True
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBorderColor 124 178 156 255 # Ascendancy Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	MinimapIcon 1 White Hexagon
+
 # Perandus Coin
 Show
 	StackSize >= 4
