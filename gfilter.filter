@@ -1,4 +1,4 @@
-#===============================================================================
+﻿#===============================================================================
 # GFILTER
 #===============================================================================
 #
@@ -1578,17 +1578,17 @@ Show
 # Section: Crafting Bases
 #-------------------------------------------------------------------------------
 
-# Tier1 Crafting Bases ilvl84
+# Tier1 Crafting Bases ilvl86
 Show
 	Rarity <= Magic
-	ItemLevel >= 84
+	ItemLevel >= 86
 	BaseType "Steel Ring" "Opal Ring"
 	SetTextColor 255 255 255 255 # Normal Highlight Text
 	SetBackgroundColor 0 0 254 255 # Crafting Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 7 300 # Tier1.5
+	CustomAlertSound "gfT0.mp3"
 	MinimapIcon 0 Red Hexagon
 
 # Tier1 Crafting Bases
@@ -1600,7 +1600,20 @@ Show
 	SetBorderColor 0 0 254 255 # Crafting Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 3 200 # Tier2
+	CustomAlertSound "gfT1.mp3"
+	MinimapIcon 1 Yellow Hexagon
+
+# Tier2 Crafting Bases ilvl86
+Show
+	Rarity <= Magic
+	ItemLevel >= 86
+	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
+	SetTextColor 255 255 255 255 # Normal Highlight Text
+	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
+	SetBorderColor 0 0 254 255 # Crafting Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 7 300 # Tier1.5
 	MinimapIcon 1 Yellow Hexagon
 
 # Tier2 Crafting Bases ilvl84
@@ -1637,6 +1650,17 @@ Show
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
 	#BlockStrictness 2 Hide
+
+# Tier3 Crafting Bases ilvl86
+Show
+	Rarity <= Magic
+	ItemLevel >= 86
+	BaseType "Onyx Amulet" "Diamond Ring" "Two-Stone Ring" "Unset Ring" "Eternal Burgonet" "Lion Pelt" "Colossal Tower Shield"
+	SetTextColor 255 255 255 255 # Normal Highlight Text
+	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
+	SetBorderColor 0 0 254 255 # Crafting Border
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
 
 # Tier3 Crafting Bases ilvl84
 Show
@@ -1962,7 +1986,7 @@ Show
 #-------------------------------------------------------------------------------
 
 #-------------------------------------------------------------------------------
-# Subsection: Atlas Bases
+# Subsection: T0
 #-------------------------------------------------------------------------------
 
 # Rare Atlas T0 ilvl86
@@ -1990,6 +2014,10 @@ Show
 	PlayAlertSound 7 300 # Tier1.5
 	MinimapIcon 0 Yellow Hexagon
 
+#-------------------------------------------------------------------------------
+# Subsection: T1
+#-------------------------------------------------------------------------------
+
 # Rare Atlas T1 ilvl84
 Show
 	Rarity = Rare
@@ -2016,11 +2044,11 @@ Show
 	MinimapIcon 2 White Hexagon
 	#BlockStrictness 3 Hide
 
-# Rare Atlas T2 ilvl84
+# Rare Jewelry T1 ilvl86
 Show
 	Rarity = Rare
-	ItemLevel >= 84
-	BaseType "Gripped Gloves" "Two-Toned Boots" "Bone Helmet" "Spiked Gloves" "Fingerless Silk Gloves"
+	ItemLevel >= 86
+	BaseType "Onyx Amulet" "Diamond Ring" "Two-Stone Ring"
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 	SetBorderColor 255 255 119 255 # Rare Border
@@ -2029,22 +2057,17 @@ Show
 	PlayAlertSound 7 300 # Tier1.5
 	MinimapIcon 1 Yellow Hexagon
 
-# Rare Atlas T2
+# Rare Jewelry T1 ilvl84
 Show
 	Rarity = Rare
-	BaseType "Gripped Gloves" "Two-Toned Boots" "Bone Helmet" "Spiked Gloves" "Fingerless Silk Gloves"
+	ItemLevel >= 84
+	BaseType "Onyx Amulet" "Diamond Ring" "Two-Stone Ring"
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
-	SetBorderColor 255 255 119 255 # Rare Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 6 150 # Tier3
+	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 2 White Hexagon
-	#BlockStrictness 3 Hide
-
-#-------------------------------------------------------------------------------
-# Subsection: Regular Bases
-#-------------------------------------------------------------------------------
 
 # Rare Base Small Tier1 ilvl75
 Show
@@ -2088,6 +2111,59 @@ Show
 	SetFontSize 41
 	#BlockStrictness 2 Hide
 
+#-------------------------------------------------------------------------------
+# Subsection: T2
+#-------------------------------------------------------------------------------
+
+# Rare Atlas T2 ilvl84
+Show
+	Rarity = Rare
+	ItemLevel >= 84
+	BaseType "Gripped Gloves" "Two-Toned Boots" "Bone Helmet" "Spiked Gloves" "Fingerless Silk Gloves"
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+	SetBorderColor 255 255 119 255 # Rare Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 7 300 # Tier1.5
+	MinimapIcon 1 Yellow Hexagon
+
+# Rare Atlas T2
+Show
+	Rarity = Rare
+	BaseType "Gripped Gloves" "Two-Toned Boots" "Bone Helmet" "Spiked Gloves" "Fingerless Silk Gloves"
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+	SetBorderColor 255 255 119 255 # Rare Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 6 150 # Tier3
+	MinimapIcon 2 White Hexagon
+	#BlockStrictness 3 Hide
+
+# Rare Jewelry T2 ilvl86
+Show
+	Rarity = Rare
+	ItemLevel >= 86
+	BaseType "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Prismatic" "Unset Ring" "Gold Ring" "Citrine Amulet" "Turquoise Amulet" "Agate Amulet" "Coral Ring" "Moonstone Ring" "Leather Belt" "Heavy Belt" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Rustic Sash"
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 6 150 # Tier3
+	MinimapIcon 2 White Hexagon
+
+# Rare Jewelry T2 ilvl84
+Show
+	Rarity = Rare
+	ItemLevel >= 84
+	BaseType "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Prismatic" "Unset Ring" "Gold Ring" "Citrine Amulet" "Turquoise Amulet" "Agate Amulet" "Coral Ring" "Moonstone Ring" "Leather Belt" "Heavy Belt" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Rustic Sash"
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	#BlockStrictness 3 Hide
+
 # Rare Base Small Tier2 ilvl75
 Show
 	Rarity = Rare
@@ -2112,7 +2188,7 @@ Show
 Show
 	Rarity = Rare
 	ItemLevel >= 75
-	BaseType "Vaal Axe" "Harbinger Bow" "Vaal Sceptre" "Eternal Sword" "Behemoth Mace" "Vaal Hatchet" "Runic Hatchet" "Siege Axe" "Glorious Plate" "Spike-Point Arrow Quiver" "Elegant Round Shield" "Pinnacle Tower Shield" "Assassin's Garb" "Broadhead Arrow Quiver" "Mosaic Kite Shield" "Colossal Tower Shield" "Cardinal Round Shield"
+	BaseType "Vaal Axe" "Harbinger Bow" "Vaal Sceptre" "Eternal Sword" "Behemoth Mace" "Vaal Hatchet" "Runic Hatchet" "Siege Axe" "Glorious Plate" "Spike-Point Arrow Quiver" "Penetrating Arrow Quiver" "Elegant Round Shield" "Pinnacle Tower Shield" "Assassin's Garb" "Broadhead Arrow Quiver" "Mosaic Kite Shield" "Colossal Tower Shield" "Cardinal Round Shield"
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 	SetFontSize 37
@@ -2122,11 +2198,15 @@ Show
 Show
 	Rarity = Rare
 	ItemLevel >= 65
-	BaseType "Vaal Axe" "Harbinger Bow" "Vaal Sceptre" "Eternal Sword" "Behemoth Mace" "Vaal Hatchet" "Runic Hatchet" "Siege Axe" "Glorious Plate" "Spike-Point Arrow Quiver" "Elegant Round Shield" "Pinnacle Tower Shield" "Assassin's Garb" "Broadhead Arrow Quiver" "Mosaic Kite Shield" "Colossal Tower Shield" "Cardinal Round Shield"
+	BaseType "Vaal Axe" "Harbinger Bow" "Vaal Sceptre" "Eternal Sword" "Behemoth Mace" "Vaal Hatchet" "Runic Hatchet" "Siege Axe" "Glorious Plate" "Spike-Point Arrow Quiver" "Penetrating Arrow Quiver" "Elegant Round Shield" "Pinnacle Tower Shield" "Assassin's Garb" "Broadhead Arrow Quiver" "Mosaic Kite Shield" "Colossal Tower Shield" "Cardinal Round Shield"
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 	SetFontSize 37
 	#BlockStrictness 2 Hide
+
+#-------------------------------------------------------------------------------
+# Subsection: Other
+#-------------------------------------------------------------------------------
 
 # Rare Jewelry Trash Base
 Show
@@ -2137,51 +2217,6 @@ Show
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
 	#BlockStrictness 2 Hide
-
-# Rare Jewelry T1 ilvl86
-Show
-	Rarity = Rare
-	ItemLevel >= 86
-	BaseType "Onyx Amulet" "Diamond Ring" "Two-Stone Ring"
-	SetTextColor 255 255 119 255 # Rare Text
-	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
-	SetBorderColor 255 255 119 255 # Rare Border
-	SetFontSize 45
-	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 1 Yellow Hexagon
-
-# Rare Jewelry T1 ilvl84
-Show
-	Rarity = Rare
-	ItemLevel >= 84
-	BaseType "Onyx Amulet" "Diamond Ring" "Two-Stone Ring"
-	SetTextColor 255 255 119 255 # Rare Text
-	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
-	SetFontSize 45
-	#SetFontSizeTag 45 # Yuge
-
-# Rare Jewelry T2 ilvl86
-Show
-	Rarity = Rare
-	ItemLevel >= 86
-	BaseType "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Prismatic" "Unset Ring" "Gold Ring" "Citrine Amulet" "Turquoise Amulet" "Agate Amulet" "Coral Ring" "Moonstone Ring" "Leather Belt" "Heavy Belt" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Rustic Sash"
-	SetTextColor 255 255 119 255 # Rare Text
-	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
-	SetFontSize 45
-	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 6 150 # Tier3
-	MinimapIcon 2 White Hexagon
-
-# Rare Jewelry T2 ilvl84
-Show
-	Rarity = Rare
-	ItemLevel >= 84
-	BaseType "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Prismatic" "Unset Ring" "Gold Ring" "Citrine Amulet" "Turquoise Amulet" "Agate Amulet" "Coral Ring" "Moonstone Ring" "Leather Belt" "Heavy Belt" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Rustic Sash"
-	SetTextColor 255 255 119 255 # Rare Text
-	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
-	SetFontSize 45
-	#SetFontSizeTag 45 # Yuge
 
 # Rare Jewelry ilvl75
 Show
