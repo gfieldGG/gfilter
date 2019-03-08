@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.5.13
+# VERSION:       3.6.0
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -55,6 +55,25 @@ Show
 	SetBackgroundColor 112 88 2 255 # Perandus Background
 	SetFontSize 37
 	#SetFontSizeTag 37 # Medium
+
+# Fractured Item
+Show
+	FracturedItem True
+	Rarity <= Rare
+	SetBackgroundColor 0 0 64 240 # Synthesis Highlight Background
+	SetFontSize 37
+	#SetFontSizeTag 37 # Medium
+	PlayEffect White Temp
+
+# Synthesised Item
+Show
+	SynthesisedItem True
+	Rarity <= Rare
+	SetBackgroundColor 0 0 64 240 # Synthesis Highlight Background
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	PlayEffect Blue 
+	#BlockStrictness 3 Hide
 
 # Talisman
 Show
@@ -1013,7 +1032,7 @@ Show
 	#BlockStrictness 3 Hide
 
 # Divination Card Trash
-Hide
+Show
 	Class "Divination Card"
 	BaseType "A Mother's Parting Gift" "Anarchy's Price" "Audacity" "Birth of the Three" "Carrion Crow" "Cartographer's Delight" "Death" "Destined to Crumble" "Doedre's Madness" "Dying Anguish" "Hermit" "King's Blade" "Lantador's Lost Love" "Light and Truth" "Metalsmith's Gift" "Might is Right" "Other Cheek" "Prosperity" "Rain Tempter" "Struck by Lightning" "The Army of Blood" "The Betrayal" "The Coming Storm" "The Conduit" "The Eye of the Dragon" "The Feast" "The Incantation" "The Inoculated" "The Lich" "The Lover" "The Lunaris Priestess" "The Metalsmith's Gift" "The Oath" "The Rabid Rhoa" "The Ruthless Ceinture" "The Scarred Meadow" "The Sigil" "The Siren" "The Surgeon" "The Tower" "The Twins" "The Warden" "The Wolverine" "Thunderous Skies" "Volatile Power"
 	SetTextColor 14 186 255 255 # Divination Card Text
@@ -1034,7 +1053,7 @@ Show
 #-------------------------------------------------------------------------------
 
 # Currency Trash
-Hide
+Show
 	Class "Currency"
 	BaseType "Alteration Shard" "Transmutation Shard" "Alchemy Shard" "Scroll Fragment"
 	SetTextColor 200 186 153 255 # Currency Text

@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.5.13
+# VERSION:       3.6.0
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -55,6 +55,25 @@ Show
 	SetBackgroundColor 112 88 2 255 # Perandus Background
 	SetFontSize 37
 	#SetFontSizeTag 37 # Medium
+
+# Fractured Item
+Show
+	FracturedItem True
+	Rarity <= Rare
+	SetBackgroundColor 0 0 64 240 # Synthesis Highlight Background
+	SetFontSize 37
+	#SetFontSizeTag 37 # Medium
+	PlayEffect White Temp
+
+# Synthesised Item
+Show
+	SynthesisedItem True
+	Rarity <= Rare
+	SetBackgroundColor 0 0 64 240 # Synthesis Highlight Background
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	PlayEffect Blue 
+	#BlockStrictness 3 Hide
 
 # Talisman
 Show

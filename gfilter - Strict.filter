@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.5.13
+# VERSION:       3.6.0
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -55,6 +55,25 @@ Show
 	SetBackgroundColor 112 88 2 255 # Perandus Background
 	SetFontSize 37
 	#SetFontSizeTag 37 # Medium
+
+# Fractured Item
+Show
+	FracturedItem True
+	Rarity <= Rare
+	SetBackgroundColor 0 0 64 240 # Synthesis Highlight Background
+	SetFontSize 37
+	#SetFontSizeTag 37 # Medium
+	PlayEffect White Temp
+
+# Synthesised Item
+Show
+	SynthesisedItem True
+	Rarity <= Rare
+	SetBackgroundColor 0 0 64 240 # Synthesis Highlight Background
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	PlayEffect Blue 
+	#BlockStrictness 3 Hide
 
 # Talisman
 Show
@@ -515,7 +534,7 @@ Hide
 	#BlockStrictness 2 Hide
 
 # Abyss Jewel Rare
-Hide
+Show
 	Rarity = Rare
 	Class "Abyss Jewel"
 	SetTextColor 169 189 149 255 # Abyss Text
@@ -535,7 +554,7 @@ Show
 	PlayAlertSound 6 150 # Tier3
 
 # Stygian Vise ilvl75
-Hide
+Show
 	Rarity <= Rare
 	ItemLevel >= 75
 	BaseType "Stygian Vise"
@@ -569,7 +588,7 @@ Hide
 	#BlockStrictness 2 Hide
 
 # Harbinger Currency T3
-Hide
+Show
 	Class "Currency"
 	BaseType "Annulment Shard" "Harbinger's Shard" "Ancient Shard"
 	SetTextColor 88 124 244 255 # Harbinger Text
@@ -615,7 +634,7 @@ Show
 #-------------------------------------------------------------------------------
 
 # Breach Splinter
-Hide
+Show
 	Class "Stackable Currency"
 	BaseType "Splinter of Esh" "Splinter of Tul" "Splinter of Uul-Netol" "Splinter of Xoph"
 	SetTextColor 166 95 244 255 # Breach Text
@@ -682,7 +701,7 @@ Hide
 #-------------------------------------------------------------------------------
 
 # Silver Coin
-Hide
+Show
 	Class "Currency"
 	BaseType "Silver Coin"
 	SetTextColor 200 186 153 255 # Currency Text
@@ -744,7 +763,7 @@ Show
 	PlayEffect Blue 
 
 # Essence Tier3
-Hide
+Show
 	Class "Currency"
 	BaseType "Wailing Essence of" "Screaming Essence of"
 	SetTextColor 128 179 254 255 # Essence Text
@@ -924,7 +943,7 @@ Show
 	MinimapIcon 2 White Diamond
 
 # Scarab
-Hide
+Show
 	Class "Map Fragments"
 	BaseType "Scarab"
 	SetTextColor 255 200 0 255 # Legacy Text
@@ -1000,7 +1019,7 @@ Show
 	PlayEffect Blue 
 
 # Divination Card Tier3
-Hide
+Show
 	Class "Divination Card"
 	BaseType "Atziri's Arsenal" "Blessing of God" "Bowyer's Dream" "Emperor of Purity" "Gemcutter's Promise" "Glimmer of Hope" "Harmony of Souls" "Hope" "Hubris" "Humility" "Jack in the Box" "Left to Fate" "Lingering Remnants" "Lucky Connections" "Lucky Deck" "No Traces" "Rebirth" "Scholar of the Seas" "The Admirer" "The Aesthete" "The Beast" "The Body" "The Breach" "The Brittle Emperor" "The Cacophony" "The Chains that Bind" "The Cursed King" "The Dapper Prodigy" "The Dark Mage" "The Darkest Dream" "The Dreamer" "The Dreamland" "The Encroaching Darkness" "The Endless Darkness" "The Ethereal" "The Fletcher" "The Formless Sea" "The Gladiator" "The Hale Heart" "The Innocent" "The Inventor" "The Jester" "The Jeweller's Boon" "The Lion" "The Obscured" "The Penitent" "The Polymath" "The Porcupine" "The Price of Protection" "The Risk" "The Soul" "The Standoff" "The Surveyor" "The Sword King's Salute" "The Thaumaturgist" "The Throne" "The Trial" "The Twilight Moon" "The Valley of Steel Boxes" "The Warlord" "The Wilted Rose" "The Wretched" "Time-Lost Relic" "A Dab of Ink"
 	SetTextColor 14 186 255 255 # Divination Card Text
@@ -1044,7 +1063,7 @@ Hide
 	#BlockStrictness 1 Hide
 
 # Currency Tier5 Stacks
-Hide
+Show
 	StackSize >= 4
 	Class "Currency"
 	BaseType "Orb of Transmutation" "Orb of Augmentation" "Blacksmith's Whetstone" "Armourer's Scrap" "Scroll of Wisdom" "Portal Scroll"
@@ -1065,7 +1084,7 @@ Hide
 	#BlockStrictness 2 Hide
 
 # Currency Tier4
-Hide
+Show
 	Class "Currency"
 	BaseType "Jeweller's Orb" "Orb of Chance" "Orb of Alteration" "Chromatic Orb"
 	SetTextColor 200 186 153 255 # Currency Text
@@ -1225,7 +1244,7 @@ Show
 	#SetFontSizeTag 41 # Big
 
 # Gem Quality High
-Hide
+Show
 	Quality >= 16
 	Class "Active Skill Gems" "Support Skill Gems"
 	SetTextColor 26 162 155 255 # Gem Text
@@ -1333,7 +1352,7 @@ Show
 	PlayEffect Green 
 
 # Divine Vessel
-Hide
+Show
 	Class "Map Fragments"
 	BaseType "Divine Vessel"
 	SetTextColor 255 255 119 255
@@ -1621,7 +1640,7 @@ Hide
 #-------------------------------------------------------------------------------
 
 # Chance Bases
-Hide # Ugrouped Customizable Items
+Show # Ugrouped Customizable Items
 	Rarity = Normal
 	BaseType "Gold Amulet" "Leather Belt"
 	SetTextColor 200 200 200 255 # Normal Text
@@ -1772,7 +1791,7 @@ Hide
 	#BlockStrictness 2 Hide
 
 # Jewel Rare
-Hide
+Show
 	Rarity = Rare
 	Class "Jewel"
 	SetTextColor 255 255 119 255 # Rare Text
@@ -1909,7 +1928,7 @@ Show
 	MinimapIcon 1 Yellow Hexagon
 
 # Rare Atlas T1
-Hide
+Show
 	Rarity = Rare
 	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt"
 	SetTextColor 255 255 119 255 # Rare Text
@@ -1935,7 +1954,7 @@ Show
 	MinimapIcon 1 Yellow Hexagon
 
 # Rare Atlas T2
-Hide
+Show
 	Rarity = Rare
 	BaseType "Gripped Gloves" "Two-Toned Boots" "Bone Helmet" "Spiked Gloves" "Fingerless Silk Gloves"
 	SetTextColor 255 255 119 255 # Rare Text
@@ -1952,7 +1971,7 @@ Hide
 #-------------------------------------------------------------------------------
 
 # Rare Base Small Tier1 ilvl75
-Hide
+Show
 	Rarity = Rare
 	ItemLevel >= 75
 	BaseType "Imperial Claw" "Gemini Claw" "Imbued Wand" "Platinum Kris" "Jewelled Foil" "Spiraled Foil" "Corsair Sword" "Titan Gauntlets" "Lion Pelt" "Slink Boots" "Titan Greaves" "Royal Burgonet" "Slink Gloves" "Hubris Circlet" "Fossilised Spirit Shield" "Titanium Spirit Shield" "Crusader Buckler" "Eternal Burgonet" "Goliath Greaves" "Vaal Gauntlets"
@@ -1963,7 +1982,7 @@ Hide
 	#BlockStrictness 3 Hide
 
 # Rare Base Small Tier1
-Hide
+Show
 	Rarity = Rare
 	ItemLevel >= 65
 	BaseType "Imperial Claw" "Gemini Claw" "Imbued Wand" "Platinum Kris" "Jewelled Foil" "Spiraled Foil" "Corsair Sword" "Titan Gauntlets" "Lion Pelt" "Slink Boots" "Titan Greaves" "Royal Burgonet" "Slink Gloves" "Hubris Circlet" "Fossilised Spirit Shield" "Titanium Spirit Shield" "Crusader Buckler" "Eternal Burgonet" "Goliath Greaves" "Vaal Gauntlets"
@@ -1994,7 +2013,7 @@ Hide
 	#BlockStrictness 2 Hide
 
 # Rare Base Small Tier2 ilvl75
-Hide
+Show
 	Rarity = Rare
 	ItemLevel >= 75
 	BaseType "Terror Claw" "Eye Gouger" "Tornado Wand" "Opal Wand" "Kris" "Vaal Rapier" "Fancy Foil" "Dragoon Sword" "Profane Wand" "Skean" "Ambusher" "Crusader Boots" "Nightmare Bascinet" "Murder Boots" "Dragonscale Boots" "Vaal Greaves" "Stealth Boots" "Murder Mitts" "Dragonscale Gauntlets" "Crusader Gloves" "Praetor Crown" "Deicide Mask" "Sinner Tricorne" "Arcanist Slippers" "Arcanist Gloves" "Mind Cage" "Sorcerer Boots" "Sorcerer Gloves" "Harmonic Spirit Shield" "Supreme Spiked Shield" "Shagreen Boots" "Imperial Buckler" "Ancient Greaves" "Ancient Gauntlets" "Ezomyte Burgonet" "Vaal Spirit Shield"
@@ -2089,7 +2108,7 @@ Show
 	#SetFontSizeTag 45 # Yuge
 
 # Rare Jewelry ilvl75
-Hide
+Show
 	Rarity = Rare
 	ItemLevel >= 75
 	Class "Belts" "Amulets" "Rings"
