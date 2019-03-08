@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.6.2
+# VERSION:       3.6.3
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -58,7 +58,6 @@ Show
 	SetBorderColor 0 0 158 255
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
-	PlayAlertSound 6 150 # Tier3
 	MinimapIcon 2 Blue Hexagon
 	PlayEffect White Temp
 	#BlockStrictness 3 Hide
@@ -67,7 +66,7 @@ Show
 Show
 	SynthesisedItem True
 	Rarity <= Rare
-	SetBackgroundColor 0 0 64 240 # Synthesis Highlight Background
+	SetBackgroundColor 0 0 64 255 # Synthesis Highlight Background
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 3 200 # Tier2
