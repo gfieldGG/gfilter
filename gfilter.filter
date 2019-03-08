@@ -107,14 +107,6 @@ Show
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
 
-# Betrayal Veiled Unid?
-Show
-	HasExplicitMod "Veil"
-	SetBackgroundColor 80 80 80 255 # Veiled Background
-	SetBorderColor 0 0 0 255 # Map Border
-	SetFontSize 45
-	#SetFontSizeTag 45 # Yuge
-
 #-------------------------------------------------------------------------------
 # Subsection: Delve
 #-------------------------------------------------------------------------------
@@ -1735,7 +1727,7 @@ Show
 # Chance Bases
 Show # Ugrouped Customizable Items
 	Rarity = Normal
-	BaseType "Gold Amulet" "Leather Belt"
+	BaseType "Leather Belt"
 	SetTextColor 200 200 200 255 # Normal Text
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 0 0 254 255 # Crafting Border
