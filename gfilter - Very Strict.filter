@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.6.1
+# VERSION:       3.6.2
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -29,7 +29,7 @@ Show
 	SetBackgroundColor 255 255 255 255
 	SetBorderColor 255 0 0 255
 	SetFontSize 45
-	PlayAlertSound 8 300 # Tier0
+	CustomAlertSound "gfT0.mp3"
 	MinimapIcon 0 Red Star
 	PlayEffect Red 
 
@@ -453,7 +453,7 @@ Show
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 7 300
+	PlayAlertSound 7 300 # Tier1.5
 	MinimapIcon 0 Red Circle
 	PlayEffect Blue 
 
