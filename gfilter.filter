@@ -1,9 +1,9 @@
-#===============================================================================
+﻿#===============================================================================
 # GFILTER
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.6.0
+# VERSION:       3.6.1
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -55,15 +55,17 @@ Show
 	SetBackgroundColor 112 88 2 255 # Perandus Background
 	SetFontSize 37
 	#SetFontSizeTag 37 # Medium
+	#BlockStrictness 3 Hide
 
 # Fractured Item
 Show
 	FracturedItem True
 	Rarity <= Rare
 	SetBackgroundColor 0 0 64 240 # Synthesis Highlight Background
-	SetFontSize 37
-	#SetFontSizeTag 37 # Medium
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
 	PlayEffect White Temp
+	#BlockStrictness 3 Hide
 
 # Synthesised Item
 Show
@@ -72,8 +74,9 @@ Show
 	SetBackgroundColor 0 0 64 240 # Synthesis Highlight Background
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Blue Hexagon
 	PlayEffect Blue 
-	#BlockStrictness 3 Hide
 
 # Talisman
 Show
@@ -86,12 +89,13 @@ Show
 	MinimapIcon 1 Yellow Hexagon
 
 # Warband Item
-Hide
+Show
 	Identified True
 	HasExplicitMod "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's"
 	SetTextColor 136 136 255 255 # Magic Text
 	SetBackgroundColor 0 15 30 255 # Magic Highlight Background
 	SetFontSize 41
+	#BlockStrictness 2 Hide
 
 # Incursion Item
 Show
@@ -119,270 +123,6 @@ Show
 	#SetFontSizeTag 45 # Yuge
 
 #-------------------------------------------------------------------------------
-# Section: War for the Atlas
-#-------------------------------------------------------------------------------
-
-#-------------------------------------------------------------------------------
-# Subsection: Shaper Items
-#-------------------------------------------------------------------------------
-
-# Shaper Tier0
-Show
-	ShaperItem True
-	Rarity <= Rare
-	BaseType "Opal Ring" "Steel Ring" "Stygian Vise" "Crystal Belt" "Blue Pearl Amulet" "Marble Amulet" "Fingerless Silk Gloves" "Spiked Gloves" "Gripped Gloves" "Bone Helmet"
-	SetTextColor 159 0 0 255 # Shelder Text
-	SetBackgroundColor 50 0 50 255 # Shelder Background
-	SetBorderColor 255 255 255 255 # Tier1 Border
-	SetFontSize 45
-	#SetFontSizeTag 45 # Yuge
-	CustomAlertSound "gfT0.mp3"
-	MinimapIcon 0 Red Hexagon
-
-# Shaper Tier1 Economy
-Show
-	ShaperItem True
-	Rarity <= Rare
-	ItemLevel >= 80
-	BaseType "Crystal Belt" "Marble Amulet" "Two-Toned Boots" "Opal Ring" "Fingerless Silk Gloves" "Onyx Amulet" "Eclipse Staff" "Colossal Tower Shield" "Penetrating Arrow Quiver" "Fire Arrow Quiver" "Sharktooth Arrow Quiver"
-	SetTextColor 159 0 0 255 # Shelder Text
-	SetBackgroundColor 50 0 50 255 # Shelder Background
-	SetBorderColor 255 255 255 255 # Tier1 Border
-	SetFontSize 45
-	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 7 300 # Tier1
-	MinimapIcon 0 Red Hexagon
-
-# Shaper Tier1 ilvl85
-Show
-	ShaperItem True
-	Rarity <= Rare
-	ItemLevel >= 85
-	BaseType "Titanium Spirit Shield" "Twin Claw" "Astral Plate" "Gold Amulet" "Agate Amulet" "Leather Belt" "Jewelled Foil" "Citrine Amulet" "Lapis Amulet" "Jade Amulet" "Turquoise Amulet" "Spike-Point Arrow Quiver" "Amber Amulet" "Hubris Circlet" "Paua Amulet" "Bronze Tower Shield" "Coral Amulet" "Saint's Hauberk" "Opal Wand" "Imperial Bow" "Imperial Claw" "Archon Kite Shield" "Ancient Greaves" "Broadhead Arrow Quiver" "Ambusher" "Saintly Chainmail" "Maraketh Bow" "Carnal Armour" "Military Staff" "Stealth Boots" "Ivory Spirit Shield" "Royal Burgonet" "Crusader Boots" "Elegant Ringmail" "Moon Staff" "Gouger" "Dragonscale Boots" "Eternal Burgonet" "Vaal Greatsword" "Stag Sceptre" "Lion Pelt" "Sorcerer Gloves" "Diamond Ring" "Nubuck Gloves" "Blunt Arrow Quiver" "Behemoth Mace" "Gladiator Helmet" "Serrated Arrow Quiver" "Vaal Mask" "Dragon Mace" "Gemini Claw" "Coral Ring" "Chain Hauberk" "Prophet Crown" "Trapper Boots" "Sleek Coat" "Hydrascale Boots" "Topaz Ring" "Siege Helmet" "Sniper Bow" "Titan Gauntlets" "Paua Ring" "Heavy Belt" "Sambar Sceptre" "Shadow Sceptre" "Void Sceptre" "Opal Sceptre" "Copper Kris" "Platinum Kris" "Golden Kris"
-	SetTextColor 159 0 0 255 # Shelder Text
-	SetBackgroundColor 50 0 50 255 # Shelder Background
-	SetBorderColor 255 255 255 255 # Tier1 Border
-	SetFontSize 45
-	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 7 300 # Tier1
-	MinimapIcon 0 Red Hexagon
-
-# Shaper Tier1 ilvl85
-Show
-	ShaperItem True
-	Rarity <= Rare
-	ItemLevel >= 85
-	Class "Amulets"
-	SetTextColor 159 0 0 255 # Shelder Text
-	SetBackgroundColor 50 0 50 255 # Shelder Background
-	SetBorderColor 255 255 255 255 # Tier1 Border
-	SetFontSize 45
-	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 7 300 # Tier1
-	MinimapIcon 0 Red Hexagon
-
-# Shaper Tier2 Economy
-Show
-	ShaperItem True
-	Rarity <= Rare
-	ItemLevel >= 75
-	BaseType "Crystal Belt" "Marble Amulet" "Two-Toned Boots" "Shadow Sceptre" "Opal Ring" "Fingerless Silk Gloves" "Onyx Amulet" "Eclipse Staff" "Colossal Tower Shield" "Penetrating Arrow Quiver" "Fire Arrow Quiver" "Sharktooth Arrow Quiver"
-	SetTextColor 159 0 0 255 # Shelder Text
-	SetBackgroundColor 50 0 50 255 # Shelder Background
-	SetFontSize 45
-	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 1 Yellow Hexagon
-
-# Shaper Tier2 Economy
-Show
-	ShaperItem True
-	Rarity <= Rare
-	ItemLevel >= 80
-	BaseType "Bone Helmet" "Vaal Regalia" "Astral Plate" "Agate Amulet" "Serpentscale Gauntlets" "Leather Belt" "Jewelled Foil" "Citrine Amulet" "Lapis Amulet" "Gripped Gloves" "Jade Amulet" "Turquoise Amulet" "Spike-Point Arrow Quiver" "Amber Amulet" "Hubris Circlet" "Coral Amulet" "Opal Wand" "Imperial Bow" "Broadhead Arrow Quiver" "Moon Staff" "Diamond Ring" "Nubuck Gloves" "Blunt Arrow Quiver" "Serrated Arrow Quiver" "Dragon Mace" "Two-Stone Ring" "Spiraled Foil" "Unset Ring" "Tiger Hook" "Aventail Helmet" "Antique Gauntlets" "Grinning Fetish" "Full Wyrmscale" "Burnished Foil" "Courtesan Sword" "Battle Buckler" "Pinnacle Tower Shield" "Murder Mitts" "Iron Ring" "Ivory Bow" "Eelskin Boots"
-	SetTextColor 159 0 0 255 # Shelder Text
-	SetBackgroundColor 50 0 50 255 # Shelder Background
-	SetFontSize 45
-	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 1 Yellow Hexagon
-
-# Shaper Tier2 Economy
-Show
-	ShaperItem True
-	Rarity <= Rare
-	ItemLevel >= 85
-	BaseType "Butcher Knife" "Boot Blade" "Wyrmbone Rapier" "Vaal Sceptre" "Carnal Sceptre" "Poignard" "Ambusher" "Stag Sceptre" "Harpy Rapier" "Demon Dagger" "Blood Sceptre" "Wyrmbone Rapier" "Vaal Sceptre" "Carnal Sceptre" "Serrated Foil" "Abyssal Sceptre" "Poignard" "Ezomyte Dagger" "Arcanist Slippers" "Lunaris Circlet" "Heathen Wand" "Satin Slippers" "Trisula" "Prophecy Wand" "Commander's Brigandine" "Thicket Bow" "Deicide Mask" "Nightmare Bascinet" "Chest Splitter" "Occultist's Vestment" "Sekhem" "Harmonic Spirit Shield" "Runic Hatchet" "Estoc" "Auric Mace" "Highborn Bow" "Platinum Sceptre" "Loricated Ringmail" "Ruby Ring" "Fiend Dagger" "Crusader Buckler" "Satin Gloves" "Fancy Foil" "Zodiac Leather" "Battle Hammer" "Samite Slippers" "Embroidered Gloves" "Praetor Crown" "Wyrmscale Boots" "Chiming Spirit Shield" "Assassin Bow" "Sai" "Slink Gloves" "Imbued Wand" "Murder Boots" "Royal Sceptre" "Antique Greaves" "Tiger's Paw" "Profane Wand" "Reaver Axe" "Steel Circlet" "Legion Boots" "Zealot Gloves" "Terror Maul" "Golden Buckler" "Highborn Staff" "Gilded Sallet" "Karui Sceptre" "Twilight Blade" "Royal Skean" "Devout Chainmail" "Exquisite Blade" "Soldier Boots" "Decimation Bow" "Sapphire Ring" "Crested Tower Shield" "Crusader Gloves" "Goliath Greaves" "Raven Mask" "Trapper Mitts" "Imperial Skean" "Slaughter Knife" "Vaal Axe" "Eye Gouger" "Carnal Boots" "Assassin's Garb" "Baroque Round Shield" "Wrist Chopper" "Lead Sceptre" "Magistrate Crown" "Moonstone Ring" "Sharkskin Boots" "Shagreen Gloves" "Shagreen Tower Shield" "Thorium Spirit Shield" "Primeval Rapier" "Chain Belt" "Rustic Sash" "Tornado Wand" "Tyrant's Sekhem" "Wyrmscale Gauntlets" "Amethyst Ring" "Crystal Sceptre" "Shagreen Boots" "Glorious Plate" "Royal Axe" "Girded Tower Shield" "Enameled Buckler" "Steelscale Gauntlets" "Lacewood Spirit Shield" "Eternal Sword" "Ursine Pelt" "Ambush Boots" "Widowsilk Robe" "Pecoraro" "Spidersilk Robe" "Vaal Rapier" "Vaal Gauntlets" "Noble Axe" "Vaal Greaves" "Ambush Mitts" "Infernal Axe" "Corsair Sword" "Noble Claw" "Triumphant Lamellar" "Sadist Garb" "Sovereign Spiked Shield" "Judgement Staff" "Phantom Mace"
-	SetTextColor 159 0 0 255 # Shelder Text
-	SetBackgroundColor 50 0 50 255 # Shelder Background
-	SetFontSize 45
-	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 1 Yellow Hexagon
-
-# Shaper Tier2 Economy
-Show
-	ShaperItem True
-	Rarity <= Rare
-	ItemLevel >= 86
-	Class "Daggers" "Sceptres" "Quivers" "Gloves" "Boots" "Helmets" "Quivers" "Rings" "Belts"
-	SetTextColor 159 0 0 255 # Shelder Text
-	SetBackgroundColor 50 0 50 255 # Shelder Background
-	SetFontSize 45
-	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 1 Yellow Hexagon
-
-# Shaper Jewelry
-Show
-	ShaperItem True
-	Rarity <= Rare
-	Class "Belts" "Amulet" "Ring"
-	SetTextColor 159 0 0 255 # Shelder Text
-	SetBackgroundColor 50 0 50 255 # Shelder Background
-	SetFontSize 41
-	#SetFontSizeTag 41 # Big
-
-# Shaper
-Show
-	ShaperItem True
-	Rarity <= Rare
-	SetTextColor 159 0 0 255 # Shelder Text
-	SetBackgroundColor 50 0 50 255 # Shelder Background
-	SetFontSize 41
-	#SetFontSizeTag 41 # Big
-
-#-------------------------------------------------------------------------------
-# Subsection: Elder Items
-#-------------------------------------------------------------------------------
-
-# Elder Tier0
-Show
-	ElderItem True
-	Rarity <= Rare
-	BaseType "Opal Ring" "Steel Ring" "Stygian Vise" "Crystal Belt" "Blue Pearl Amulet" "Marble Amulet" "Fingerless Silk Gloves" "Spiked Gloves" "Gripped Gloves" "Bone Helmet"
-	SetTextColor 159 0 0 255 # Shelder Text
-	SetBackgroundColor 50 0 50 255 # Shelder Background
-	SetBorderColor 255 255 255 255 # Tier1 Border
-	SetFontSize 45
-	#SetFontSizeTag 45 # Yuge
-	CustomAlertSound "gfT0.mp3"
-	MinimapIcon 0 Red Hexagon
-
-# Elder Tier1 Economy
-Show
-	ElderItem True
-	Rarity <= Rare
-	ItemLevel >= 80
-	BaseType "Astral Plate" "Eternal Burgonet" "Fingerless Silk Gloves" "Spiked Gloves" "Gripped Gloves" "Royal Burgonet" "Leather Belt" "Ezomyte Burgonet" "Onyx Amulet" "Coral Ring" "Vaal Axe" "Two-Stone Ring" "Gladiator Plate" "Thicket Bow" "Unset Ring" "Topaz Ring" "Sharktooth Arrow Quiver" "Imperial Bow" "Archon Kite Shield" "Titan Gauntlets"
-	SetTextColor 159 0 0 255 # Shelder Text
-	SetBackgroundColor 50 0 50 255 # Shelder Background
-	SetBorderColor 255 255 255 255 # Tier1 Border
-	SetFontSize 45
-	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 7 300 # Tier1
-	MinimapIcon 0 Red Hexagon
-
-# Elder Tier1 Economy
-Show
-	ElderItem True
-	Rarity <= Rare
-	ItemLevel >= 85
-	BaseType "Ezomyte Tower Shield" "Arcanist Gloves" "Secutor Helm" "Sniper Bow" "Glorious Plate" "Amber Amulet" "Baroque Round Shield" "Agate Amulet" "Titanium Spirit Shield" "Colossal Tower Shield" "Hubris Circlet" "Paua Amulet" "Diamond Ring" "Titan Greaves" "Ruby Ring" "Assassin's Garb" "Lion Pelt" "Butcher Axe" "Laminated Kite Shield" "Citrine Amulet" "Wolf Pelt" "Sapphire Ring" "Pig-Faced Bascinet" "Jewelled Foil" "Jade Amulet" "Eelskin Gloves" "Coral Amulet" "Mirrored Spiked Shield" "Turquoise Amulet" "Crusader Buckler" "Nubuck Boots" "Fencer Helm" "Samite Helmet" "Lacquered Helmet" "Steel Circlet" "Gold Amulet" "Nightmare Bascinet" "Gilded Sallet" "Gladiator Helmet" "Heavy Belt" "Sorcerer Gloves" "Golden Mask" "Gemini Claw" "Slink Gloves" "Prophet Crown" "Lapis Amulet" "Silken Hood" "Noble Tricorne" "Imperial Claw" "Siege Helmet" "Vaal Regalia" "Praetor Crown" "Bone Circlet" "Sorcerer Boots" "Vaal Mask" "Deicide Mask" "Mind Cage" "Glorious Leather" "Engraved Wand" "Raven Mask" "Eye Gouger" "Steel Gauntlets" "Polished Spiked Shield" "Fluted Bascinet" "Great Crown" "Reaver Helmet" "Trapper Boots" "Stealth Gloves" "Maraketh Bow" "Exquisite Blade" "Iron Ring" "Regicide Mask" "Saint's Hauberk" "Hunter Hood" "Elder Sword" "Aventail Helmet" "Ambusher" "Opal Wand" "Paua Ring" "Magistrate Crown" "Vaal Gauntlets" "Harmonic Spirit Shield" "Pecoraro" "Ursine Pelt" "Poignard"
-	SetTextColor 159 0 0 255 # Shelder Text
-	SetBackgroundColor 50 0 50 255 # Shelder Background
-	SetBorderColor 255 255 255 255 # Tier1 Border
-	SetFontSize 45
-	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 7 300 # Tier1
-	MinimapIcon 0 Red Hexagon
-
-# Elder Tier1 Class
-Show
-	ElderItem True
-	Rarity <= Rare
-	ItemLevel >= 85
-	Class "Amulet"
-	SetTextColor 159 0 0 255 # Shelder Text
-	SetBackgroundColor 50 0 50 255 # Shelder Background
-	SetBorderColor 255 255 255 255 # Tier1 Border
-	SetFontSize 45
-	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 7 300 # Tier1
-	MinimapIcon 0 Red Hexagon
-
-# Elder Tier2 Economy
-Show
-	ElderItem True
-	Rarity <= Rare
-	ItemLevel >= 75
-	BaseType "Astral Plate" "Eternal Burgonet" "Fingerless Silk Gloves" "Spiked Gloves" "Gripped Gloves" "Royal Burgonet" "Leather Belt" "Ezomyte Burgonet" "Onyx Amulet" "Coral Ring" "Vaal Axe" "Two-Stone Ring" "Gladiator Plate" "Thicket Bow" "Unset Ring" "Topaz Ring" "Sharktooth Arrow Quiver" "Imperial Bow" "Archon Kite Shield" "Titan Gauntlets"
-	SetTextColor 159 0 0 255 # Shelder Text
-	SetBackgroundColor 50 0 50 255 # Shelder Background
-	SetFontSize 45
-	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 1 Red Hexagon
-
-# Elder Tier2 Economy
-Show
-	ElderItem True
-	Rarity <= Rare
-	ItemLevel >= 80
-	BaseType "Arcanist Gloves" "Secutor Helm" "Amber Amulet" "Agate Amulet" "Hubris Circlet" "Paua Amulet" "Diamond Ring" "Ruby Ring" "Citrine Amulet" "Sapphire Ring" "Pig-Faced Bascinet" "Jade Amulet" "Eelskin Gloves" "Coral Amulet" "Turquoise Amulet" "Crusader Buckler" "Nightmare Bascinet" "Gilded Sallet" "Gladiator Helmet" "Heavy Belt" "Sorcerer Gloves" "Gemini Claw" "Slink Gloves" "Lapis Amulet" "Silken Hood" "Noble Tricorne" "Siege Helmet" "Grove Bow" "Reaver Helmet" "Stealth Gloves" "Maraketh Bow" "Exquisite Blade" "Hunter Hood" "Elder Sword" "Aventail Helmet" "Ambusher" "Battle Buckler" "Vaal Gauntlets" "Harmonic Spirit Shield" "Crusader Gloves" "Zealot Gloves" "Moonstone Ring" "Callous Mask" "Despot Axe" "Serpentscale Gauntlets" "Terror Maul" "Highborn Bow" "Full Wyrmscale" "Occultist's Vestment" "Varnished Coat" "Fleshripper" "Golden Kris" "Goliath Gauntlets" "Stealth Boots" "Labrys" "Mesh Gloves" "Crystal Sceptre"
-	SetTextColor 159 0 0 255 # Shelder Text
-	SetBackgroundColor 50 0 50 255 # Shelder Background
-	SetFontSize 45
-	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 1 Red Hexagon
-
-# Elder Tier2 Economy
-Show
-	ElderItem True
-	Rarity <= Rare
-	ItemLevel >= 85
-	BaseType "Two-Point Arrow Quiver" "Necromancer Circlet" "Amethyst Ring" "Legion Hammer" "Steelscale Boots" "Solaris Circlet" "Ancient Spirit Shield" "Harlequin Mask" "Rustic Sash" "Dragonscale Gauntlets" "Imperial Buckler" "General's Brigandine" "Tiger Hook" "Elegant Ringmail" "Exquisite Leather" "Serpent Wand" "Ornate Ringmail" "Thorium Spirit Shield" "Spiraled Foil" "Trapper Mitts" "Dragonscale Boots" "Shagreen Gloves" "Gold Ring" "Hydrascale Gauntlets" "Estoc" "Elegant Round Shield" "Murder Boots" "Harbinger Bow" "Opal Sceptre" "Coronal Maul" "Steelwood Bow" "Prehistoric Claw" "Sun Plate" "Angelic Kite Shield" "Behemoth Mace" "Penetrating Arrow Quiver" "Dragon Mace" "Conquest Chainmail" "Colosseum Plate" "Runic Hatchet" "Headman's Sword" "Murder Mitts" "Infernal Sword" "Clasped Mitts" "Siege Axe" "Coronal Leather" "Saintly Chainmail" "Ceremonial Axe" "Wyrmscale Gauntlets" "Fancy Foil" "Profane Wand" "Embroidered Gloves" "Broadhead Arrow Quiver" "Majestic Plate" "Zealot Helmet" "Eclipse Staff" "Platinum Sceptre" "Satin Gloves" "Supreme Spiked Shield" "Vaal Greaves" "Abyssal Sceptre" "Platinum Kris" "Samite Gloves" "Goliath Greaves" "Sharkskin Gloves" "Crusader Plate" "Ivory Spirit Shield" "Triumphant Lamellar" "Sambar Sceptre" "Void Sceptre" "Cutthroat's Garb" "Hellion's Paw" "Noble Claw" "Lacewood Spirit Shield" "Legion Gloves" "Fossilised Spirit Shield" "Ancient Gauntlets" "Burnished Foil" "Ancient Greaves" "Phantom Mace" "Sadist Garb" "Moon Staff" "Legion Boots" "Ivory Bow" "Chain Belt" "Samite Slippers" "Conjurer Gloves"
-	SetTextColor 159 0 0 255 # Shelder Text
-	SetBackgroundColor 50 0 50 255 # Shelder Background
-	SetFontSize 45
-	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 1 Red Hexagon
-
-# Elder Tier2 Class
-Show
-	ElderItem True
-	Rarity <= Rare
-	ItemLevel >= 86
-	Class "Gloves" "Boots" "Helmets" "Belts" "Amulet" "Ring" "Quiver"
-	SetTextColor 159 0 0 255 # Shelder Text
-	SetBackgroundColor 50 0 50 255 # Shelder Background
-	SetFontSize 45
-	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 1 Red Hexagon
-
-# Elder Jewelry
-Show
-	ElderItem True
-	Rarity <= Rare
-	Class "Belts" "Amulet" "Ring"
-	SetTextColor 159 0 0 255 # Shelder Text
-	SetBackgroundColor 50 0 50 255 # Shelder Background
-	SetFontSize 41
-	#SetFontSizeTag 41 # Big
-
-# Elder
-Show
-	ElderItem True
-	Rarity <= Rare
-	SetTextColor 159 0 0 255 # Shelder Text
-	SetBackgroundColor 50 0 50 255 # Shelder Background
-	SetFontSize 41
-	#SetFontSizeTag 41 # Big
-
-#-------------------------------------------------------------------------------
 # Section: Delve
 #-------------------------------------------------------------------------------
 
@@ -394,7 +134,7 @@ Show
 	SetBorderColor 102 193 245 255 # Delve Border
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
-	CustomAlertSound "gfT1.mp3"
+	PlayAlertSound 7 300 # Tier1.5
 	PlayEffect Blue Temp
 
 # T1 Resonator
@@ -406,7 +146,7 @@ Show
 	SetBorderColor 102 193 245 255 # Delve Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
-	CustomAlertSound "gfT1.mp3"
+	PlayAlertSound 7 300 # Tier1.5
 	MinimapIcon 0 Blue Circle
 	PlayEffect Blue 
 
@@ -425,7 +165,7 @@ Show
 # T1 Fossil
 Show
 	Class "Currency"
-	BaseType "Glyphic Fossil" "Hollow Fossil" "Faceted Fossil" "Bloodstained Fossil" "Tangled Fossil" "Fractured Fossil"
+	BaseType "Glyphic Fossil" "Hollow Fossil" "Faceted Fossil" "Bloodstained Fossil" "Fractured Fossil"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 102 193 245 255 # Delve Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -438,20 +178,20 @@ Show
 # T1.5 Fossil
 Show
 	Class "Currency"
-	BaseType "Sanctified Fossil" "Encrusted Fossil" "Gilded Fossil"
+	BaseType "Sanctified Fossil" "Gilded Fossil" "Tangled Fossil" "Dense Fossil"
 	SetTextColor 102 193 245 255 # Delve Text
 	SetBackgroundColor 5 18 36 255 # Delve Highlight Background
 	SetBorderColor 102 193 245 255 # Delve Border
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
-	PlayAlertSound 7 300 # Tier1
+	PlayAlertSound 7 300 # Tier1.5
 	MinimapIcon 1 Blue Circle
 	PlayEffect Blue 
 
 # Fossil Trash
 Show
 	Class "Currency"
-	BaseType "Frigid Fossil" "Scorched Fossil" "Aberrant Fossil"
+	BaseType "Frigid Fossil" "Scorched Fossil" "Aberrant Fossil" "Lucent Fossil" "Bound Fossil"
 	SetTextColor 102 193 245 255 # Delve Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
 	#BlockStrictness 2 Hide
@@ -597,26 +337,6 @@ Show
 	PlayAlertSound 6 150 # Tier3
 	MinimapIcon 2 White Circle
 	#BlockStrictness 3 Hide
-
-# Harbinger Currency T2
-#Show
-#	Class "Currency"
-#	BaseType "Exalted Shard"
-#	SetTextColor 88 124 244 255 # Harbinger Text
-#	SetBackgroundColor 15 21 42 255 # Harbinger Highlight Background
-#	SetBorderColor 88 124 244 255 # Harbinger Border
-#	SetFontSize 45
-#	PlayAlertSound 3 200 # Tier2
-
-# Harbinger Currency T1
-#Show
-#	Class "Currency"
-#	BaseType "Mirror Shard" "Ancient Orb"
-#	SetTextColor 88 124 244 255 # Harbinger Text
-#	SetBackgroundColor 15 21 42 255 # Harbinger Highlight Background
-#	SetBorderColor 255 255 255 255 # Tier1 Border
-#	SetFontSize 45
-#	PlayAlertSound 8 300 # Tier0
 
 # Piece
 Show
@@ -864,95 +584,6 @@ Show
 	#SetFontSizeTag 37 # Medium
 
 #-------------------------------------------------------------------------------
-# Section: Atlas
-#-------------------------------------------------------------------------------
-
-# Apprentice Cartographer
-Show
-	Class "Currency"
-	BaseType "Apprentice Cartographer's Seal" "Apprentice Cartographer's Sextant"
-	SetTextColor 200 186 153 255 # Currency Text
-	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
-	SetBorderColor 200 200 200 255 # Apprentice Border
-	SetFontSize 45
-	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 0 Yellow Circle
-	PlayEffect Yellow Temp
-
-# Journeyman Cartographer
-Show
-	Class "Currency"
-	BaseType "Journeyman Cartographer's Seal" "Journeyman Cartographer's Sextant"
-	SetTextColor 200 186 153 255 # Currency Text
-	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
-	SetBorderColor 254 170 0 255 # Journeyman Border
-	SetFontSize 45
-	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 1 Yellow Circle
-	PlayEffect Yellow Temp
-
-# Master Cartographer
-Show
-	Class "Currency"
-	BaseType "Master Cartographer's Seal" "Master Cartographer's Sextant"
-	SetTextColor 200 186 153 255 # Currency Text
-	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
-	SetBorderColor 191 0 0 255 # Master Border
-	SetFontSize 45
-	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 1 Yellow Circle
-	PlayEffect Yellow Temp
-
-# Guarding Fragments
-Show
-	Class "Map Fragments"
-	BaseType "Fragment of the Chimera" "Fragment of the Hydra" "Fragment of the Minotaur" "Fragment of the Phoenix"
-	SetTextColor 0 0 0 255 # Map Text
-	SetBackgroundColor 255 233 200 255 # Atlas Background
-	SetBorderColor 0 0 0 255 # Map Border
-	SetFontSize 45
-	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 7 300
-	MinimapIcon 1 Yellow Diamond
-	PlayEffect Red 
-
-# T1.5 Scarab
-Show
-	Class "Map Fragments"
-	BaseType "Gilded Cartography Scarab" "Gilded Breach Scarab"
-	SetTextColor 255 200 0 255 # Legacy Text
-	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
-	SetFontSize 45
-	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 7 300 # Tier1
-	MinimapIcon 1 Yellow Diamond
-	PlayEffect Yellow 
-
-# T3 Scarab
-Show
-	Class "Map Fragments"
-	BaseType "Polished Breach Scarab" "Rusted Cartography Scarab" "Polished Cartography Scarab" "Rusted Breach Scarab" "Gilded Reliquary Scarab" "Gilded Divination Scarab" "Polished Divination Scarab" "Gilded Ambush Scarab" "Gilded Perandus Scarab" "Polished Perandus Scarab" "Polished Ambush Scarab"
-	SetTextColor 255 200 0 255 # Legacy Text
-	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
-	SetFontSize 45
-	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 6 150 # Tier3
-	MinimapIcon 2 White Diamond
-
-# Scarab
-Show
-	Class "Map Fragments"
-	BaseType "Scarab"
-	SetTextColor 255 200 0 255 # Legacy Text
-	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
-	SetFontSize 37
-	#SetFontSizeTag 37 # Medium
-	#BlockStrictness 3 Hide
-
-#-------------------------------------------------------------------------------
 # Section: Divination Cards
 #-------------------------------------------------------------------------------
 
@@ -1052,6 +683,10 @@ Show
 # Section: Currency
 #-------------------------------------------------------------------------------
 
+#-------------------------------------------------------------------------------
+# Subsection: Regular
+#-------------------------------------------------------------------------------
+
 # Currency Trash
 Show
 	Class "Currency"
@@ -1127,7 +762,7 @@ Show
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 7 300 # Tier1
+	PlayAlertSound 7 300 # Tier1.5
 	MinimapIcon 1 Red Circle
 	PlayEffect Yellow 
 
@@ -1155,6 +790,53 @@ Show
 	CustomAlertSound "gfT0.mp3"
 	MinimapIcon 0 Red Circle
 	PlayEffect Yellow 
+
+#-------------------------------------------------------------------------------
+# Subsection: Sextants
+#-------------------------------------------------------------------------------
+
+# Apprentice Cartographer
+Show
+	Class "Currency"
+	BaseType "Apprentice Cartographer's Seal" "Apprentice Cartographer's Sextant"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
+	SetBorderColor 200 200 200 255 # Apprentice Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 0 Yellow Circle
+	PlayEffect Yellow Temp
+
+# Journeyman Cartographer
+Show
+	Class "Currency"
+	BaseType "Journeyman Cartographer's Seal" "Journeyman Cartographer's Sextant"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
+	SetBorderColor 254 170 0 255 # Journeyman Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Circle
+	PlayEffect Yellow Temp
+
+# Master Cartographer
+Show
+	Class "Currency"
+	BaseType "Master Cartographer's Seal" "Master Cartographer's Sextant"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
+	SetBorderColor 191 0 0 255 # Master Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Circle
+	PlayEffect Yellow Temp
+
+#-------------------------------------------------------------------------------
+# Subsection: wtf
+#-------------------------------------------------------------------------------
 
 # Forgotten Currency
 Show
@@ -1285,7 +967,11 @@ Show
 	#BlockStrictness 2 Hide
 
 #-------------------------------------------------------------------------------
-# Section: Maps
+# Section: Map Fragments
+#-------------------------------------------------------------------------------
+
+#-------------------------------------------------------------------------------
+# Subsection: Atziri
 #-------------------------------------------------------------------------------
 
 # Uber Atziri Fragments Tier2
@@ -1339,6 +1025,60 @@ Show
 	PlayAlertSound 6 150 # Tier3
 	MinimapIcon 2 White Diamond
 
+#-------------------------------------------------------------------------------
+# Subsection: Scarabs
+#-------------------------------------------------------------------------------
+
+# T1.5 Scarab
+Show
+	Class "Map Fragments"
+	BaseType "Gilded Cartography Scarab" "Gilded Breach Scarab" "Gilded Ambush Scarab" "Gilded Sulphite Scarab" "Polished Sulphite Scarab" "Rusted Sulphite Scarab" "Gilded Bestiary Scarab" "Gilded Divination Scarab"
+	SetTextColor 255 200 0 255 # Legacy Text
+	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 7 300 # Tier1.5
+	MinimapIcon 1 Yellow Diamond
+	PlayEffect Yellow 
+
+# T2 Scarab
+Show
+	Class "Map Fragments"
+	BaseType "Gilded Harbinger Scarab" "Polished Cartography Scarab" "Polished Divination Scarab" "Polished Breach Scarab" "Gilded Elder Scarab" "Gilded Reliquary Scarab" "Polished Bestiary Scarab" "Polished Bestiary Scarab" "Gilded Perandus Scarab" "Polished Ambush Scarab"
+	SetTextColor 255 200 0 255 # Legacy Text
+	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 2 White Diamond
+
+# Scarab
+Show
+	Class "Map Fragments"
+	BaseType "Scarab"
+	SetTextColor 255 200 0 255 # Legacy Text
+	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
+	SetFontSize 37
+	#SetFontSizeTag 37 # Medium
+	#BlockStrictness 3 Hide
+
+#-------------------------------------------------------------------------------
+# Subsection: Other
+#-------------------------------------------------------------------------------
+
+# Guardian Fragments
+Show
+	Class "Map Fragments"
+	BaseType "Fragment of the Chimera" "Fragment of the Hydra" "Fragment of the Minotaur" "Fragment of the Phoenix"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 255 233 200 255 # Atlas Background
+	SetBorderColor 0 0 0 255 # Map Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 7 300
+	MinimapIcon 1 Yellow Diamond
+	PlayEffect Red 
+
 # Offering to the Goddess
 Show
 	BaseType "Offering to the Goddess"
@@ -1372,6 +1112,10 @@ Show
 	SetBorderColor 200 200 200 255 # Normal Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
+
+#-------------------------------------------------------------------------------
+# Section: Maps
+#-------------------------------------------------------------------------------
 
 # Eldered Map
 Show
@@ -1506,21 +1250,272 @@ Show
 	PlayEffect Yellow 
 
 #-------------------------------------------------------------------------------
-# Section: 6 Sockets
+# Section: War for the Atlas
 #-------------------------------------------------------------------------------
 
-# 6 Socket
+#-------------------------------------------------------------------------------
+# Subsection: Shaper Items
+#-------------------------------------------------------------------------------
+
+# Shaper Tier0
 Show
-	Sockets = 6
+	ShaperItem True
 	Rarity <= Rare
-	SetTextColor 255 255 255 255 # Normal Highlight Text
-	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
-	SetBorderColor 200 186 153 255 # Currency Border
+	BaseType "Opal Ring" "Steel Ring" "Stygian Vise" "Crystal Belt" "Blue Pearl Amulet" "Marble Amulet" "Fingerless Silk Gloves" "Spiked Gloves" "Gripped Gloves" "Bone Helmet"
+	SetTextColor 159 0 0 255 # Shelder Text
+	SetBackgroundColor 50 0 50 255 # Shelder Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 6 150 # Tier3
-	MinimapIcon 1 White Circle
-	PlayEffect Yellow Temp
+	CustomAlertSound "gfT0.mp3"
+	MinimapIcon 0 Red Hexagon
+
+# Shaper Tier1 Economy
+Show
+	ShaperItem True
+	Rarity <= Rare
+	ItemLevel >= 80
+	BaseType "Crystal Belt" "Marble Amulet" "Two-Toned Boots" "Opal Ring" "Fingerless Silk Gloves" "Onyx Amulet" "Eclipse Staff" "Colossal Tower Shield" "Penetrating Arrow Quiver" "Fire Arrow Quiver" "Sharktooth Arrow Quiver"
+	SetTextColor 159 0 0 255 # Shelder Text
+	SetBackgroundColor 50 0 50 255 # Shelder Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 7 300 # Tier1.5
+	MinimapIcon 0 Red Hexagon
+
+# Shaper Tier1 ilvl85
+Show
+	ShaperItem True
+	Rarity <= Rare
+	ItemLevel >= 85
+	BaseType "Titanium Spirit Shield" "Twin Claw" "Astral Plate" "Gold Amulet" "Agate Amulet" "Leather Belt" "Jewelled Foil" "Citrine Amulet" "Lapis Amulet" "Jade Amulet" "Turquoise Amulet" "Spike-Point Arrow Quiver" "Amber Amulet" "Hubris Circlet" "Paua Amulet" "Bronze Tower Shield" "Coral Amulet" "Saint's Hauberk" "Opal Wand" "Imperial Bow" "Imperial Claw" "Archon Kite Shield" "Ancient Greaves" "Broadhead Arrow Quiver" "Ambusher" "Saintly Chainmail" "Maraketh Bow" "Carnal Armour" "Military Staff" "Stealth Boots" "Ivory Spirit Shield" "Royal Burgonet" "Crusader Boots" "Elegant Ringmail" "Moon Staff" "Gouger" "Dragonscale Boots" "Eternal Burgonet" "Vaal Greatsword" "Stag Sceptre" "Lion Pelt" "Sorcerer Gloves" "Diamond Ring" "Nubuck Gloves" "Blunt Arrow Quiver" "Behemoth Mace" "Gladiator Helmet" "Serrated Arrow Quiver" "Vaal Mask" "Dragon Mace" "Gemini Claw" "Coral Ring" "Chain Hauberk" "Prophet Crown" "Trapper Boots" "Sleek Coat" "Hydrascale Boots" "Topaz Ring" "Siege Helmet" "Sniper Bow" "Titan Gauntlets" "Paua Ring" "Heavy Belt" "Sambar Sceptre" "Shadow Sceptre" "Void Sceptre" "Opal Sceptre" "Copper Kris" "Platinum Kris" "Golden Kris"
+	SetTextColor 159 0 0 255 # Shelder Text
+	SetBackgroundColor 50 0 50 255 # Shelder Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 7 300 # Tier1.5
+	MinimapIcon 0 Red Hexagon
+
+# Shaper Tier1 ilvl85
+Show
+	ShaperItem True
+	Rarity <= Rare
+	ItemLevel >= 85
+	Class "Amulets"
+	SetTextColor 159 0 0 255 # Shelder Text
+	SetBackgroundColor 50 0 50 255 # Shelder Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 7 300 # Tier1.5
+	MinimapIcon 0 Red Hexagon
+
+# Shaper Tier2 Economy
+Show
+	ShaperItem True
+	Rarity <= Rare
+	ItemLevel >= 75
+	BaseType "Crystal Belt" "Marble Amulet" "Two-Toned Boots" "Shadow Sceptre" "Opal Ring" "Fingerless Silk Gloves" "Onyx Amulet" "Eclipse Staff" "Colossal Tower Shield" "Penetrating Arrow Quiver" "Fire Arrow Quiver" "Sharktooth Arrow Quiver"
+	SetTextColor 159 0 0 255 # Shelder Text
+	SetBackgroundColor 50 0 50 255 # Shelder Background
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Hexagon
+
+# Shaper Tier2 Economy
+Show
+	ShaperItem True
+	Rarity <= Rare
+	ItemLevel >= 80
+	BaseType "Bone Helmet" "Vaal Regalia" "Astral Plate" "Agate Amulet" "Serpentscale Gauntlets" "Leather Belt" "Jewelled Foil" "Citrine Amulet" "Lapis Amulet" "Gripped Gloves" "Jade Amulet" "Turquoise Amulet" "Spike-Point Arrow Quiver" "Amber Amulet" "Hubris Circlet" "Coral Amulet" "Opal Wand" "Imperial Bow" "Broadhead Arrow Quiver" "Moon Staff" "Diamond Ring" "Nubuck Gloves" "Blunt Arrow Quiver" "Serrated Arrow Quiver" "Dragon Mace" "Two-Stone Ring" "Spiraled Foil" "Unset Ring" "Tiger Hook" "Aventail Helmet" "Antique Gauntlets" "Grinning Fetish" "Full Wyrmscale" "Burnished Foil" "Courtesan Sword" "Battle Buckler" "Pinnacle Tower Shield" "Murder Mitts" "Iron Ring" "Ivory Bow" "Eelskin Boots"
+	SetTextColor 159 0 0 255 # Shelder Text
+	SetBackgroundColor 50 0 50 255 # Shelder Background
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Hexagon
+
+# Shaper Tier2 Economy
+Show
+	ShaperItem True
+	Rarity <= Rare
+	ItemLevel >= 85
+	BaseType "Butcher Knife" "Boot Blade" "Wyrmbone Rapier" "Vaal Sceptre" "Carnal Sceptre" "Poignard" "Ambusher" "Stag Sceptre" "Harpy Rapier" "Demon Dagger" "Blood Sceptre" "Wyrmbone Rapier" "Vaal Sceptre" "Carnal Sceptre" "Serrated Foil" "Abyssal Sceptre" "Poignard" "Ezomyte Dagger" "Arcanist Slippers" "Lunaris Circlet" "Heathen Wand" "Satin Slippers" "Trisula" "Prophecy Wand" "Commander's Brigandine" "Thicket Bow" "Deicide Mask" "Nightmare Bascinet" "Chest Splitter" "Occultist's Vestment" "Sekhem" "Harmonic Spirit Shield" "Runic Hatchet" "Estoc" "Auric Mace" "Highborn Bow" "Platinum Sceptre" "Loricated Ringmail" "Ruby Ring" "Fiend Dagger" "Crusader Buckler" "Satin Gloves" "Fancy Foil" "Zodiac Leather" "Battle Hammer" "Samite Slippers" "Embroidered Gloves" "Praetor Crown" "Wyrmscale Boots" "Chiming Spirit Shield" "Assassin Bow" "Sai" "Slink Gloves" "Imbued Wand" "Murder Boots" "Royal Sceptre" "Antique Greaves" "Tiger's Paw" "Profane Wand" "Reaver Axe" "Steel Circlet" "Legion Boots" "Zealot Gloves" "Terror Maul" "Golden Buckler" "Highborn Staff" "Gilded Sallet" "Karui Sceptre" "Twilight Blade" "Royal Skean" "Devout Chainmail" "Exquisite Blade" "Soldier Boots" "Decimation Bow" "Sapphire Ring" "Crested Tower Shield" "Crusader Gloves" "Goliath Greaves" "Raven Mask" "Trapper Mitts" "Imperial Skean" "Slaughter Knife" "Vaal Axe" "Eye Gouger" "Carnal Boots" "Assassin's Garb" "Baroque Round Shield" "Wrist Chopper" "Lead Sceptre" "Magistrate Crown" "Moonstone Ring" "Sharkskin Boots" "Shagreen Gloves" "Shagreen Tower Shield" "Thorium Spirit Shield" "Primeval Rapier" "Chain Belt" "Rustic Sash" "Tornado Wand" "Tyrant's Sekhem" "Wyrmscale Gauntlets" "Amethyst Ring" "Crystal Sceptre" "Shagreen Boots" "Glorious Plate" "Royal Axe" "Girded Tower Shield" "Enameled Buckler" "Steelscale Gauntlets" "Lacewood Spirit Shield" "Eternal Sword" "Ursine Pelt" "Ambush Boots" "Widowsilk Robe" "Pecoraro" "Spidersilk Robe" "Vaal Rapier" "Vaal Gauntlets" "Noble Axe" "Vaal Greaves" "Ambush Mitts" "Infernal Axe" "Corsair Sword" "Noble Claw" "Triumphant Lamellar" "Sadist Garb" "Sovereign Spiked Shield" "Judgement Staff" "Phantom Mace"
+	SetTextColor 159 0 0 255 # Shelder Text
+	SetBackgroundColor 50 0 50 255 # Shelder Background
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Hexagon
+
+# Shaper Tier2 Economy
+Show
+	ShaperItem True
+	Rarity <= Rare
+	ItemLevel >= 86
+	Class "Daggers" "Sceptres" "Quivers" "Gloves" "Boots" "Helmets" "Quivers" "Rings" "Belts"
+	SetTextColor 159 0 0 255 # Shelder Text
+	SetBackgroundColor 50 0 50 255 # Shelder Background
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Hexagon
+
+# Shaper Jewelry
+Show
+	ShaperItem True
+	Rarity <= Rare
+	Class "Belts" "Amulet" "Ring"
+	SetTextColor 159 0 0 255 # Shelder Text
+	SetBackgroundColor 50 0 50 255 # Shelder Background
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	#BlockStrictness 3 Hide
+
+# Shaper
+Show
+	ShaperItem True
+	Rarity <= Rare
+	SetTextColor 159 0 0 255 # Shelder Text
+	SetBackgroundColor 50 0 50 255 # Shelder Background
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	#BlockStrictness 3 Hide
+
+#-------------------------------------------------------------------------------
+# Subsection: Elder Items
+#-------------------------------------------------------------------------------
+
+# Elder Tier0
+Show
+	ElderItem True
+	Rarity <= Rare
+	BaseType "Opal Ring" "Steel Ring" "Stygian Vise" "Crystal Belt" "Blue Pearl Amulet" "Marble Amulet" "Fingerless Silk Gloves" "Spiked Gloves" "Gripped Gloves" "Bone Helmet"
+	SetTextColor 159 0 0 255 # Shelder Text
+	SetBackgroundColor 50 0 50 255 # Shelder Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	CustomAlertSound "gfT0.mp3"
+	MinimapIcon 0 Red Hexagon
+
+# Elder Tier1 Economy
+Show
+	ElderItem True
+	Rarity <= Rare
+	ItemLevel >= 80
+	BaseType "Astral Plate" "Eternal Burgonet" "Fingerless Silk Gloves" "Spiked Gloves" "Gripped Gloves" "Royal Burgonet" "Leather Belt" "Ezomyte Burgonet" "Onyx Amulet" "Coral Ring" "Vaal Axe" "Two-Stone Ring" "Gladiator Plate" "Thicket Bow" "Unset Ring" "Topaz Ring" "Sharktooth Arrow Quiver" "Imperial Bow" "Archon Kite Shield" "Titan Gauntlets"
+	SetTextColor 159 0 0 255 # Shelder Text
+	SetBackgroundColor 50 0 50 255 # Shelder Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 7 300 # Tier1.5
+	MinimapIcon 0 Red Hexagon
+
+# Elder Tier1 Economy
+Show
+	ElderItem True
+	Rarity <= Rare
+	ItemLevel >= 85
+	BaseType "Ezomyte Tower Shield" "Arcanist Gloves" "Secutor Helm" "Sniper Bow" "Glorious Plate" "Amber Amulet" "Baroque Round Shield" "Agate Amulet" "Titanium Spirit Shield" "Colossal Tower Shield" "Hubris Circlet" "Paua Amulet" "Diamond Ring" "Titan Greaves" "Ruby Ring" "Assassin's Garb" "Lion Pelt" "Butcher Axe" "Laminated Kite Shield" "Citrine Amulet" "Wolf Pelt" "Sapphire Ring" "Pig-Faced Bascinet" "Jewelled Foil" "Jade Amulet" "Eelskin Gloves" "Coral Amulet" "Mirrored Spiked Shield" "Turquoise Amulet" "Crusader Buckler" "Nubuck Boots" "Fencer Helm" "Samite Helmet" "Lacquered Helmet" "Steel Circlet" "Gold Amulet" "Nightmare Bascinet" "Gilded Sallet" "Gladiator Helmet" "Heavy Belt" "Sorcerer Gloves" "Golden Mask" "Gemini Claw" "Slink Gloves" "Prophet Crown" "Lapis Amulet" "Silken Hood" "Noble Tricorne" "Imperial Claw" "Siege Helmet" "Vaal Regalia" "Praetor Crown" "Bone Circlet" "Sorcerer Boots" "Vaal Mask" "Deicide Mask" "Mind Cage" "Glorious Leather" "Engraved Wand" "Raven Mask" "Eye Gouger" "Steel Gauntlets" "Polished Spiked Shield" "Fluted Bascinet" "Great Crown" "Reaver Helmet" "Trapper Boots" "Stealth Gloves" "Maraketh Bow" "Exquisite Blade" "Iron Ring" "Regicide Mask" "Saint's Hauberk" "Hunter Hood" "Elder Sword" "Aventail Helmet" "Ambusher" "Opal Wand" "Paua Ring" "Magistrate Crown" "Vaal Gauntlets" "Harmonic Spirit Shield" "Pecoraro" "Ursine Pelt" "Poignard"
+	SetTextColor 159 0 0 255 # Shelder Text
+	SetBackgroundColor 50 0 50 255 # Shelder Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 7 300 # Tier1.5
+	MinimapIcon 0 Red Hexagon
+
+# Elder Tier1 Class
+Show
+	ElderItem True
+	Rarity <= Rare
+	ItemLevel >= 85
+	Class "Amulet"
+	SetTextColor 159 0 0 255 # Shelder Text
+	SetBackgroundColor 50 0 50 255 # Shelder Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 7 300 # Tier1.5
+	MinimapIcon 0 Red Hexagon
+
+# Elder Tier2 Economy
+Show
+	ElderItem True
+	Rarity <= Rare
+	ItemLevel >= 75
+	BaseType "Astral Plate" "Eternal Burgonet" "Fingerless Silk Gloves" "Spiked Gloves" "Gripped Gloves" "Royal Burgonet" "Leather Belt" "Ezomyte Burgonet" "Onyx Amulet" "Coral Ring" "Vaal Axe" "Two-Stone Ring" "Gladiator Plate" "Thicket Bow" "Unset Ring" "Topaz Ring" "Sharktooth Arrow Quiver" "Imperial Bow" "Archon Kite Shield" "Titan Gauntlets"
+	SetTextColor 159 0 0 255 # Shelder Text
+	SetBackgroundColor 50 0 50 255 # Shelder Background
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Hexagon
+
+# Elder Tier2 Economy
+Show
+	ElderItem True
+	Rarity <= Rare
+	ItemLevel >= 80
+	BaseType "Arcanist Gloves" "Secutor Helm" "Amber Amulet" "Agate Amulet" "Hubris Circlet" "Paua Amulet" "Diamond Ring" "Ruby Ring" "Citrine Amulet" "Sapphire Ring" "Pig-Faced Bascinet" "Jade Amulet" "Eelskin Gloves" "Coral Amulet" "Turquoise Amulet" "Crusader Buckler" "Nightmare Bascinet" "Gilded Sallet" "Gladiator Helmet" "Heavy Belt" "Sorcerer Gloves" "Gemini Claw" "Slink Gloves" "Lapis Amulet" "Silken Hood" "Noble Tricorne" "Siege Helmet" "Grove Bow" "Reaver Helmet" "Stealth Gloves" "Maraketh Bow" "Exquisite Blade" "Hunter Hood" "Elder Sword" "Aventail Helmet" "Ambusher" "Battle Buckler" "Vaal Gauntlets" "Harmonic Spirit Shield" "Crusader Gloves" "Zealot Gloves" "Moonstone Ring" "Callous Mask" "Despot Axe" "Serpentscale Gauntlets" "Terror Maul" "Highborn Bow" "Full Wyrmscale" "Occultist's Vestment" "Varnished Coat" "Fleshripper" "Golden Kris" "Goliath Gauntlets" "Stealth Boots" "Labrys" "Mesh Gloves" "Crystal Sceptre"
+	SetTextColor 159 0 0 255 # Shelder Text
+	SetBackgroundColor 50 0 50 255 # Shelder Background
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Hexagon
+
+# Elder Tier2 Economy
+Show
+	ElderItem True
+	Rarity <= Rare
+	ItemLevel >= 85
+	BaseType "Two-Point Arrow Quiver" "Necromancer Circlet" "Amethyst Ring" "Legion Hammer" "Steelscale Boots" "Solaris Circlet" "Ancient Spirit Shield" "Harlequin Mask" "Rustic Sash" "Dragonscale Gauntlets" "Imperial Buckler" "General's Brigandine" "Tiger Hook" "Elegant Ringmail" "Exquisite Leather" "Serpent Wand" "Ornate Ringmail" "Thorium Spirit Shield" "Spiraled Foil" "Trapper Mitts" "Dragonscale Boots" "Shagreen Gloves" "Gold Ring" "Hydrascale Gauntlets" "Estoc" "Elegant Round Shield" "Murder Boots" "Harbinger Bow" "Opal Sceptre" "Coronal Maul" "Steelwood Bow" "Prehistoric Claw" "Sun Plate" "Angelic Kite Shield" "Behemoth Mace" "Penetrating Arrow Quiver" "Dragon Mace" "Conquest Chainmail" "Colosseum Plate" "Runic Hatchet" "Headman's Sword" "Murder Mitts" "Infernal Sword" "Clasped Mitts" "Siege Axe" "Coronal Leather" "Saintly Chainmail" "Ceremonial Axe" "Wyrmscale Gauntlets" "Fancy Foil" "Profane Wand" "Embroidered Gloves" "Broadhead Arrow Quiver" "Majestic Plate" "Zealot Helmet" "Eclipse Staff" "Platinum Sceptre" "Satin Gloves" "Supreme Spiked Shield" "Vaal Greaves" "Abyssal Sceptre" "Platinum Kris" "Samite Gloves" "Goliath Greaves" "Sharkskin Gloves" "Crusader Plate" "Ivory Spirit Shield" "Triumphant Lamellar" "Sambar Sceptre" "Void Sceptre" "Cutthroat's Garb" "Hellion's Paw" "Noble Claw" "Lacewood Spirit Shield" "Legion Gloves" "Fossilised Spirit Shield" "Ancient Gauntlets" "Burnished Foil" "Ancient Greaves" "Phantom Mace" "Sadist Garb" "Moon Staff" "Legion Boots" "Ivory Bow" "Chain Belt" "Samite Slippers" "Conjurer Gloves"
+	SetTextColor 159 0 0 255 # Shelder Text
+	SetBackgroundColor 50 0 50 255 # Shelder Background
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Hexagon
+
+# Elder Tier2 Class
+Show
+	ElderItem True
+	Rarity <= Rare
+	ItemLevel >= 86
+	Class "Gloves" "Boots" "Helmets" "Belts" "Amulet" "Ring" "Quiver"
+	SetTextColor 159 0 0 255 # Shelder Text
+	SetBackgroundColor 50 0 50 255 # Shelder Background
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Hexagon
+
+# Elder Jewelry
+Show
+	ElderItem True
+	Rarity <= Rare
+	Class "Belts" "Amulet" "Ring"
+	SetTextColor 159 0 0 255 # Shelder Text
+	SetBackgroundColor 50 0 50 255 # Shelder Background
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	#BlockStrictness 3 Hide
+
+# Elder
+Show
+	ElderItem True
+	Rarity <= Rare
+	SetTextColor 159 0 0 255 # Shelder Text
+	SetBackgroundColor 50 0 50 255 # Shelder Background
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	#BlockStrictness 3 Hide
 
 #-------------------------------------------------------------------------------
 # Section: Crafting Bases
@@ -1536,7 +1531,7 @@ Show
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 7 300 # Tier1
+	PlayAlertSound 7 300 # Tier1.5
 	MinimapIcon 0 Red Hexagon
 
 # Tier1 Crafting Bases
@@ -1599,6 +1594,23 @@ Show
 	#BlockStrictness 2 Hide
 
 #-------------------------------------------------------------------------------
+# Section: 6 Sockets
+#-------------------------------------------------------------------------------
+
+# 6 Socket
+Show
+	Sockets = 6
+	Rarity <= Rare
+	SetTextColor 255 255 255 255 # Normal Highlight Text
+	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
+	SetBorderColor 200 186 153 255 # Currency Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 6 150 # Tier3
+	MinimapIcon 1 White Circle
+	PlayEffect Yellow Temp
+
+#-------------------------------------------------------------------------------
 # Section: 5 Links
 #-------------------------------------------------------------------------------
 
@@ -1649,7 +1661,7 @@ Show # Ugrouped Customizable Items
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
 	#CustomizableValues "basetype"
-	#BlockStrictness 3 Hide
+	#BlockStrictness 2 Hide
 
 #-------------------------------------------------------------------------------
 # Section: Uniques
@@ -1832,6 +1844,28 @@ Show
 	SetBorderColor 192 255 203 255 # Levelling Border
 	SetFontSize 45
 
+# 4 Links Specific Colors
+#Show
+#	LinkedSockets = 4
+#	SocketGroup "BBGG"
+#	ItemLevel < 67
+#	Class "Gloves" "Helmets" "Body Armours" "Boots"
+#	SetBackgroundColor 0 0 0 255 # Default Background
+#	SetBorderColor 192 255 203 255 # Levelling Border
+#	SetFontSize 45
+#	#SetFontSizeTag 45 # Yuge
+#	PlayAlertSound 6 150 # Tier3
+#	MinimapIcon 1 White Hexagon
+
+# 4 Links
+Show
+	LinkedSockets = 4
+	ItemLevel <= 38
+	Class "Helmets" "Body Armours" "Boots" "Gloves"
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBorderColor 192 255 203 255 # Levelling Border
+	SetFontSize 41
+
 # MS Boots
 Show
 	Rarity >= Magic
@@ -1844,18 +1878,9 @@ Show
 # 3 Links
 Show
 	LinkedSockets >= 3
-	ItemLevel < 6
+	ItemLevel < 12
 	Class "Helm" "Body" "Boots" "Gloves"
 	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 41
-
-# 4 Links
-Show
-	LinkedSockets = 4
-	ItemLevel <= 38
-	Class "Helm" "Body" "Boots" "Gloves"
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetBorderColor 192 255 203 255 # Levelling Border
 	SetFontSize 41
 
 # Pre-Brutus Everything
@@ -1874,12 +1899,6 @@ Show
 	ItemLevel < 28
 	Class "Ring" "Amulet" "Belt"
 	SetBackgroundColor 0 0 0 210 # Junk Background
-
-# MS Boots Normal
-#Show
-#	ItemLevel <= 28
-#	Class "Boots"
-#	SetBackgroundColor 0 0 0 210 # Junk Background
 
 #-------------------------------------------------------------------------------
 # Section: Rares
@@ -1911,7 +1930,7 @@ Show
 	SetBorderColor 255 255 119 255 # Rare Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 7 300 # Tier1
+	PlayAlertSound 7 300 # Tier1.5
 	MinimapIcon 0 Yellow Hexagon
 
 # Rare Atlas T1 ilvl84
@@ -1924,7 +1943,7 @@ Show
 	SetBorderColor 255 255 119 255 # Rare Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 7 300 # Tier1
+	PlayAlertSound 7 300 # Tier1.5
 	MinimapIcon 1 Yellow Hexagon
 
 # Rare Atlas T1
@@ -1950,7 +1969,7 @@ Show
 	SetBorderColor 255 255 119 255 # Rare Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 7 300 # Tier1
+	PlayAlertSound 7 300 # Tier1.5
 	MinimapIcon 1 Yellow Hexagon
 
 # Rare Atlas T2
@@ -2128,35 +2147,6 @@ Show
 	SetFontSize 41
 	#BlockStrictness 2 Hide
 
-# Regal Recipe Jewelry
-#Show
-#	Rarity = Rare
-#	ItemLevel >= 75
-#	Class "Ring" "Belt" "Amulet"
-#	SetTextColor 255 255 119 255 # Rare Text
-#	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
-#	SetBorderColor 136 136 255 127 # Regal Recipe Border
-#	SetFontSize 37
-
-# Chaos Recipe Belt
-#Show
-#	Rarity = Rare
-#	ItemLevel >= 60
-#	Class "Belt"
-#	SetTextColor 255 255 119 255 # Rare Text
-#	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
-#	SetBorderColor 254 170 0 127 # Chaos Recipe Border
-
-# Chaos Recipe Jewelry
-#Show
-#	Rarity = Rare
-#	ItemLevel >= 60
-#	Class "Ring" "Amulet"
-#	SetTextColor 255 255 119 255 # Rare Text
-#	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
-#	SetBorderColor 254 170 0 127 # Chaos Recipe Border
-#	SetFontSize 37
-
 # Rare Endgame
 Show
 	Rarity = Rare
@@ -2173,12 +2163,6 @@ Show
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetFontSize 41
-
-# Rare
-#Hide
-#	Rarity = Rare
-#	SetTextColor 255 255 119 255 # Rare Text
-#	SetBackgroundColor 0 0 0 255 # Default Background
 
 #-------------------------------------------------------------------------------
 # Section: Chisel Recipe
@@ -2596,30 +2580,30 @@ Show
 	Class "Bow"
 	SetBackgroundColor 0 0 0 210 # Junk Background
 
-#Show
-#	Rarity <= Magic
-#	Class "Stave"
-#	SetBackgroundColor 0 0 0 210 # Junk Background
+Hide
+	Rarity <= Magic
+	Class "Stave"
+	SetBackgroundColor 0 0 0 210 # Junk Background
 
-#Show
-#	Rarity <= Magic
-#	Class "Wand"
-#	SetBackgroundColor 0 0 0 210 # Junk Background
+Hide
+	Rarity <= Magic
+	Class "Wand"
+	SetBackgroundColor 0 0 0 210 # Junk Background
 
-#Show
-#	Rarity <= Magic
-#	Class "Two Hand Axe"
-#	SetBackgroundColor 0 0 0 210 # Junk Background
+Hide
+	Rarity <= Magic
+	Class "Two Hand Axe"
+	SetBackgroundColor 0 0 0 210 # Junk Background
 
 Show
 	Rarity <= Magic
 	Class "Axe"
 	SetBackgroundColor 0 0 0 210 # Junk Background
 
-#Show
-#	Rarity <= Magic
-#	Class "Dagger"
-#	SetBackgroundColor 0 0 0 210 # Junk Background
+Hide
+	Rarity <= Magic
+	Class "Dagger"
+	SetBackgroundColor 0 0 0 210 # Junk Background
 
 Show
 	Rarity <= Magic
@@ -2651,10 +2635,10 @@ Show
 	Class "Claw"
 	SetBackgroundColor 0 0 0 210 # Junk Background
 
-#Show
-#	Rarity <= Magic
-#	Class "Sceptre"
-#	SetBackgroundColor 0 0 0 210 # Junk Background
+Hide
+	Rarity <= Magic
+	Class "Sceptre"
+	SetBackgroundColor 0 0 0 210 # Junk Background
 
 #-------------------------------------------------------------------------------
 # Subsection: Specific Armor Upgrade Toggles
@@ -2667,82 +2651,82 @@ Show
 	SetBackgroundColor 0 0 0 210 # Junk Background
 
 # STR Armor
-#Show
-#	Rarity <= Magic
-#	BaseType "Plate" "Greave" "Burgonet" "Goliath" "Gladiator" "Antique" "Vaal Gauntlet" "Titan Gauntlet" "Steel Gauntlet" "Siege" "Reaver" "Iron Gauntlet" "Hat" "Cone" "Close" "Chestplate" "Bronze Gauntlet" "Barbute" "Ancient Gauntlet" "Samite Helmet" "Spiked Gloves"
-#	SetBackgroundColor 0 0 0 210 # Junk Background
+Hide
+	Rarity <= Magic
+	BaseType "Plate" "Greave" "Burgonet" "Goliath" "Gladiator" "Antique" "Vaal Gauntlet" "Titan Gauntlet" "Steel Gauntlet" "Siege" "Reaver" "Iron Gauntlet" "Hat" "Cone" "Close" "Chestplate" "Bronze Gauntlet" "Barbute" "Ancient Gauntlet" "Samite Helmet" "Spiked Gloves"
+	SetBackgroundColor 0 0 0 210 # Junk Background
 
 # DEX Armor
-#Show
-#	Rarity <= Magic
-#	BaseType "Tricorne" "Sharkskin" "Pelt" "Hood" "Goathide" "Eelskin" "Stealth" "Slink" "Shagreen" "Rawhide" "Nubuck" "Deerskin" "Zodiac" "Wild" "Thief" "Sun" "Shabby" "Glorious" "Frontier" "Exquisite" "Destiny" "Cutthroat" "Coronal" "Cap" "Buckskin" "Strapped Leather" "Full Leather" "Assassin's Garb" "Gripped Gloves"
-#	SetBackgroundColor 0 0 0 210 # Junk Background
+Hide
+	Rarity <= Magic
+	BaseType "Tricorne" "Sharkskin" "Pelt" "Hood" "Goathide" "Eelskin" "Stealth" "Slink" "Shagreen" "Rawhide" "Nubuck" "Deerskin" "Zodiac" "Wild" "Thief" "Sun" "Shabby" "Glorious" "Frontier" "Exquisite" "Destiny" "Cutthroat" "Coronal" "Cap" "Buckskin" "Strapped Leather" "Full Leather" "Assassin's Garb" "Gripped Gloves"
+	SetBackgroundColor 0 0 0 210 # Junk Background
 
 # INT Armor
-#Show
-#	Rarity <= Magic
-#	BaseType "Circlet" "Robe" "Slipper" "Silk" "Vestment" "Regalia" "Conjurer" "Wool" "Velvet" "Sorcerer" "Scholar" "Satin" "Samite" "Cage" "Arcanist" "Embroidered" "Bone Helmet"
-#	SetBackgroundColor 0 0 0 210 # Junk Background
+Hide
+	Rarity <= Magic
+	BaseType "Circlet" "Robe" "Slipper" "Silk" "Vestment" "Regalia" "Conjurer" "Wool" "Velvet" "Sorcerer" "Scholar" "Satin" "Samite" "Cage" "Arcanist" "Embroidered" "Bone Helmet"
+	SetBackgroundColor 0 0 0 210 # Junk Background
 
 # STR/INT Armor
-#Show
-#	Rarity <= Magic
-#	BaseType "Chainmail" "Ringmail" "Glove" "Crusader" "Crown" "Zealot" "Chain" "Riveted" "Mesh" "Legion" "Hauberk" "Great" "Soldier Boot" "Coif" "Aventail" "Soldier Helmet"
-#	SetBackgroundColor 0 0 0 210 # Junk Background
+Hide
+	Rarity <= Magic
+	BaseType "Chainmail" "Ringmail" "Glove" "Crusader" "Crown" "Zealot" "Chain" "Riveted" "Mesh" "Legion" "Hauberk" "Great" "Soldier Boot" "Coif" "Aventail" "Soldier Helmet"
+	SetBackgroundColor 0 0 0 210 # Junk Background
 
 # STR/DEX Armor
-#Show
-#	Rarity <= Magic
-#	BaseType "Gauntlet" "Brigandine" "Wyrmscale" "Dragonscale" "Scale" "Sallet" "Lamellar" "Helm" "Full" "Bascinet" "Steelscale" "Serpentscale" "Ironscale" "Hydrascale" "Bronzescale" "Leatherscale"
-#	SetBackgroundColor 0 0 0 210 # Junk Background
+Hide
+	Rarity <= Magic
+	BaseType "Gauntlet" "Brigandine" "Wyrmscale" "Dragonscale" "Scale" "Sallet" "Lamellar" "Helm" "Full" "Bascinet" "Steelscale" "Serpentscale" "Ironscale" "Hydrascale" "Bronzescale" "Leatherscale"
+	SetBackgroundColor 0 0 0 210 # Junk Background
 
 # INT/DEX Armor
-#Show
-#	Rarity <= Magic
-#	BaseType "Mask" "Boot" "Mitt" "Raiment" "Oiled" "Jacket" "Coat" "Armour" "Padded" "Waxed" "Sadist" "Lacquered"
-#	SetBackgroundColor 0 0 0 210 # Junk Background
+Hide
+	Rarity <= Magic
+	BaseType "Mask" "Boot" "Mitt" "Raiment" "Oiled" "Jacket" "Coat" "Armour" "Padded" "Waxed" "Sadist" "Lacquered"
+	SetBackgroundColor 0 0 0 210 # Junk Background
 
 # STR Armor - Shields
-#Show
-#	Rarity <= Magic
-#	Class "Shield"
-#	BaseType "Tower"
-#	SetBackgroundColor 0 0 0 210 # Junk Background
+Hide
+	Rarity <= Magic
+	Class "Shield"
+	BaseType "Tower"
+	SetBackgroundColor 0 0 0 210 # Junk Background
 
 # DEX Armor - Shields
-#Show
-#	Rarity <= Magic
-#	Class "Shield"
-#	BaseType "Buckler"
-#	SetBackgroundColor 0 0 0 210 # Junk Background
+Hide
+	Rarity <= Magic
+	Class "Shield"
+	BaseType "Buckler"
+	SetBackgroundColor 0 0 0 210 # Junk Background
 
 # INT Armor - Shields
-#Show
-#	Rarity <= Magic
-#	Class "Shield"
-#	BaseType "Spirit"
-#	SetBackgroundColor 0 0 0 210 # Junk Background
+Hide
+	Rarity <= Magic
+	Class "Shield"
+	BaseType "Spirit"
+	SetBackgroundColor 0 0 0 210 # Junk Background
 
 # STR/INT Armor - Shields
-#Show
-#	Rarity <= Magic
-#	Class "Shield"
-#	BaseType "Kite"
-#	SetBackgroundColor 0 0 0 210 # Junk Background
+Hide
+	Rarity <= Magic
+	Class "Shield"
+	BaseType "Kite"
+	SetBackgroundColor 0 0 0 210 # Junk Background
 
 # STR/DEX Armor - Shields
-#Show
-#	Rarity <= Magic
-#	Class "Shield"
-#	BaseType "Round"
-#	SetBackgroundColor 0 0 0 210 # Junk Background
+Hide
+	Rarity <= Magic
+	Class "Shield"
+	BaseType "Round"
+	SetBackgroundColor 0 0 0 210 # Junk Background
 
 # INT/DEX Armor - Shields
-#Show
-#	Rarity <= Magic
-#	Class "Shield"
-#	BaseType "Spike"
-#	SetBackgroundColor 0 0 0 210 # Junk Background
+Hide
+	Rarity <= Magic
+	Class "Shield"
+	BaseType "Spike"
+	SetBackgroundColor 0 0 0 210 # Junk Background
 
 #-------------------------------------------------------------------------------
 # Subsection: Hide Remaining Equipment
