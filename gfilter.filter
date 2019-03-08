@@ -54,9 +54,12 @@ Show
 Show
 	FracturedItem True
 	Rarity <= Rare
-	SetBackgroundColor 0 0 64 240 # Synthesis Highlight Background
+	SetBackgroundColor 64 64 64 255
+	SetBorderColor 0 0 158 255
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
+	PlayAlertSound 6 150 # Tier3
+	MinimapIcon 2 Blue Hexagon
 	PlayEffect White Temp
 	#BlockStrictness 3 Hide
 
@@ -65,10 +68,10 @@ Show
 	SynthesisedItem True
 	Rarity <= Rare
 	SetBackgroundColor 0 0 64 240 # Synthesis Highlight Background
-	SetFontSize 41
-	#SetFontSizeTag 41 # Big
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 1 Blue Hexagon
+	MinimapIcon 0 Blue Hexagon
 	PlayEffect Blue 
 
 # Talisman
