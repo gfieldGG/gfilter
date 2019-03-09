@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.6.4
+# VERSION:       3.6.5
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -232,7 +232,7 @@ Show
 	SetBackgroundColor 10 35 34 240 # Incursion Highlight Background
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
-	PlayAlertSound 6 150 # Tier3
+	CustomAlertSound "gfT3.mp3"
 	MinimapIcon 2 White Circle
 	PlayEffect Red Temp
 
@@ -320,7 +320,7 @@ Hide
 	SetTextColor 88 124 244 255 # Harbinger Text
 	SetBackgroundColor 15 21 42 255 # Harbinger Highlight Background
 	SetFontSize 41
-	PlayAlertSound 6 150 # Tier3
+	CustomAlertSound "gfT3.mp3"
 	MinimapIcon 2 White Circle
 	#BlockStrictness 3 Hide
 
@@ -355,6 +355,7 @@ Show
 	SetTextColor 166 95 244 255 # Breach Text
 	SetBackgroundColor 40 4 0 255 # Breach Red Highlight Background
 	SetFontSize 41
+	CustomAlertSound "gfT2.mp3"
 
 # Breachstone
 Show
@@ -476,7 +477,7 @@ Hide
 	SetBackgroundColor 25 36 51 255 # Essence Highlight Background
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
-	PlayAlertSound 6 150 # Tier3
+	CustomAlertSound "gfT3.mp3"
 	MinimapIcon 2 White Circle
 	PlayEffect Blue Temp
 	#BlockStrictness 3 Hide
@@ -643,7 +644,7 @@ Hide
 	SetBackgroundColor 25 33 33 255 # Divination Card Highlight Background
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 6 150 # Tier3
+	CustomAlertSound "gfT3.mp3"
 	MinimapIcon 2 White Star
 	PlayEffect Blue Temp
 	#BlockStrictness 3 Hide
@@ -722,7 +723,7 @@ Show
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 6 150 # Tier3
+	CustomAlertSound "gfT3.mp3"
 	MinimapIcon 1 White Circle
 	PlayEffect Yellow Temp
 
@@ -918,7 +919,7 @@ Show
 	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 6 150 # Tier3
+	CustomAlertSound "gfT3.mp3"
 	MinimapIcon 1 Yellow Hexagon
 
 # Gem Vaal
@@ -1680,7 +1681,7 @@ Show
 	SetBorderColor 200 186 153 255 # Currency Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 6 150 # Tier3
+	CustomAlertSound "gfT3.mp3"
 	MinimapIcon 1 White Circle
 	PlayEffect Yellow Temp
 
