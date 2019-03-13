@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.6.5
+# VERSION:       3.6.6
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -2119,7 +2119,7 @@ Show
 	SetBorderColor 255 255 119 255 # Rare Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 7 300 # Tier1.5
+	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 1 Yellow Hexagon
 
 # Rare Atlas T2
@@ -2131,7 +2131,6 @@ Show
 	SetBorderColor 255 255 119 255 # Rare Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 6 150 # Tier3
 	MinimapIcon 2 White Hexagon
 	#BlockStrictness 3 Hide
 
