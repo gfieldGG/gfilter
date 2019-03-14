@@ -1170,33 +1170,6 @@ Show
 	MinimapIcon 1 Yellow Square
 	PlayEffect Yellow 
 
-# Nice Maps
-Show
-	Rarity <= Rare
-	Class "Maps"
-	BaseType "Iceberg Map" "Spider Forest Map" "Vault Map" "Burial Chambers Map" "Canyon Map" "Strand Map" "Toxic Sewer Map" "Fields Map" "Racecourse Map" "Lookout Map" "Jungle Valley Map" "Mesa Map" "Phantasmagoria Map" "Beach Map" "City Square Map" "Channel Map" "Alleyways Map" "Arid Lake Map" "Shore Map" "Ashen Wood Map"
-	SetTextColor 0 0 0 255 # Map Text
-	SetBackgroundColor 255 200 0 255 # Map Yellow Background
-	SetBorderColor 127 100 0 255 # Map Yellow Border
-	SetFontSize 45
-	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 4 150 # Map
-	MinimapIcon 1 Yellow Square
-	PlayEffect Yellow 
-
-# Other Maps
-Show
-	Rarity <= Rare
-	Class "Maps"
-	SetTextColor 0 0 0 255 # Map Text
-	SetBackgroundColor 200 200 200 255 # Map White Background
-	SetBorderColor 100 100 100 255 # Map White Border
-	SetFontSize 41
-	#SetFontSizeTag 41 # Big
-	PlayAlertSound 4 150 # Map
-	MinimapIcon 2 White Square
-	PlayEffect White Temp
-
 # Map Unique
 Show
 	Rarity = Unique
@@ -1209,6 +1182,60 @@ Show
 	PlayAlertSound 4 150 # Map
 	MinimapIcon 1 Yellow Square
 	PlayEffect Brown 
+
+# Guardian Map
+Show
+	MapTier >= 16
+	Class "Maps"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 255 233 200 255 # Atlas Background
+	SetBorderColor 128 117 100 255 # Atlas Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 4 150 # Map
+	MinimapIcon 0 Red Square
+	PlayEffect Red 
+
+# Nice Maps
+Show
+	Class "Maps"
+	BaseType "Iceberg Map" "Spider Forest Map" "Vault Map" "Burial Chambers Map" "Canyon Map" "Strand Map" "Toxic Sewer Map" "Fields Map" "Racecourse Map" "Lookout Map" "Jungle Valley Map" "Mesa Map" "Phantasmagoria Map" "Beach Map" "City Square Map" "Channel Map" "Alleyways Map" "Arid Lake Map" "Shore Map" "Ashen Wood Map"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 255 200 0 255 # Map Yellow Background
+	SetBorderColor 127 100 0 255 # Map Yellow Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 4 150 # Map
+	MinimapIcon 1 Yellow Square
+	PlayEffect Yellow 
+
+#-------------------------------------------------------------------------------
+# Subsection: Tiered Highlighting
+#-------------------------------------------------------------------------------
+
+# T9 outleveled
+Show
+	MapTier < 4
+	ItemLevel < 76
+	Class "Maps"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 200 200 200 255 # Map White Background
+	SetBorderColor 100 100 100 255 # Map White Border
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	PlayAlertSound 4 150 # Map
+
+# Other Maps
+Show
+	Class "Maps"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 200 200 200 255 # Map White Background
+	SetBorderColor 100 100 100 255 # Map White Border
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	PlayAlertSound 4 150 # Map
+	MinimapIcon 2 White Square
+	PlayEffect White Temp
 
 #-------------------------------------------------------------------------------
 # Section: 6 Links
