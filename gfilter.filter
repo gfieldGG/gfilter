@@ -1,4 +1,4 @@
-﻿#===============================================================================
+#===============================================================================
 # GFILTER
 #===============================================================================
 #
@@ -1136,9 +1136,11 @@ Show
 	Class "Map Fragments"
 	SetTextColor 200 200 200 255 # Normal Text
 	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
-	SetBorderColor 200 200 200 255 # Normal Border
+	SetBorderColor 255 0 255 255 # wat
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 15 300 # wat
+	MinimapIcon 0 Red Diamond
 
 #-------------------------------------------------------------------------------
 # Section: Maps
@@ -1189,7 +1191,7 @@ Show
 	Class "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 233 200 255 # Atlas Background
-	SetBorderColor 128 117 100 255 # Atlas Border
+	SetBorderColor 122 20 15 255 # Map Red Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 4 150 # Map
