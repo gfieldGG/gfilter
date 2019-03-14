@@ -1,4 +1,4 @@
-#===============================================================================
+﻿#===============================================================================
 # GFILTER
 #===============================================================================
 #
@@ -1979,9 +1979,9 @@ Show
 	SetFontSize 41
 
 # Pre-Brutus Everything
-Show
-	ItemLevel < 10
-	SetBackgroundColor 0 0 0 255 # Default Background
+#Show
+#	ItemLevel < 10
+#	SetBackgroundColor 0 0 0 255 # Default Background
 
 Show
 	ItemLevel <= 18
