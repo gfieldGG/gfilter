@@ -1,4 +1,4 @@
-#===============================================================================
+﻿#===============================================================================
 # GFILTER
 #===============================================================================
 #
@@ -1187,8 +1187,8 @@ Show
 
 # Guardian Map
 Show
-	MapTier >= 16
 	Class "Maps"
+	BaseType "Maze of the Minotaur" "Forge of the Phoenix" "Pit of the Chimera" "Lair of the Hydra"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 233 200 255 # Atlas Background
 	SetBorderColor 122 20 15 255 # Map Red Border
@@ -1199,9 +1199,323 @@ Show
 	PlayEffect Red 
 
 # Nice Maps
-Show
+#Show
+#	Class "Maps"
+#	BaseType "Iceberg Map" "Spider Forest Map" "Vault Map" "Burial Chambers Map" "Canyon Map" "Strand Map" "Toxic Sewer Map" "Fields Map" "Racecourse Map" "Lookout Map" "Jungle Valley Map" "Mesa Map" "Phantasmagoria Map" "Beach Map" "City Square Map" "Channel Map" "Alleyways Map" "Arid Lake Map" "Shore Map" "Ashen Wood Map"
+#	SetTextColor 0 0 0 255 # Map Text
+#	SetBackgroundColor 255 200 0 255 # Map Yellow Background
+#	SetBorderColor 127 100 0 255 # Map Yellow Border
+#	SetFontSize 45
+#	#SetFontSizeTag 45 # Yuge
+#	PlayAlertSound 4 150 # Map
+#	MinimapIcon 1 Yellow Square
+#	PlayEffect Yellow 
+
+#-------------------------------------------------------------------------------
+# Subsection: Map Drops White
+#-------------------------------------------------------------------------------
+
+# Map T1 hide
+Hide
+	MapTier = 1
+	ItemLevel >= 84
 	Class "Maps"
-	BaseType "Iceberg Map" "Spider Forest Map" "Vault Map" "Burial Chambers Map" "Canyon Map" "Strand Map" "Toxic Sewer Map" "Fields Map" "Racecourse Map" "Lookout Map" "Jungle Valley Map" "Mesa Map" "Phantasmagoria Map" "Beach Map" "City Square Map" "Channel Map" "Alleyways Map" "Arid Lake Map" "Shore Map" "Ashen Wood Map"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 200 200 200 255 # Map White Background
+	SetBorderColor 100 100 100 255 # Map White Border
+	SetFontSize 37
+	#SetFontSizeTag 37 # Medium
+	DisableDropSound
+	#BlockStrictness 10 Hide
+	#VariableStrictness itemlevel 77 75 -1 -1 -1 -1 -1 -1 -1
+
+# Map T1 low
+Show
+	MapTier = 1
+	ItemLevel >= 77
+	Class "Maps"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 200 200 200 255 # Map White Background
+	SetBorderColor 100 100 100 255 # Map White Border
+	SetFontSize 37
+	#SetFontSizeTag 37 # Medium
+	DisableDropSound
+	#BlockStrictness 10 Hide
+	#VariableStrictness itemlevel 73 71 -1 -1 -1 -1 -1 -1 -1
+
+# Map T2 hide
+Hide
+	MapTier = 2
+	ItemLevel >= 85
+	Class "Maps"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 200 200 200 255 # Map White Background
+	SetBorderColor 100 100 100 255 # Map White Border
+	SetFontSize 37
+	#SetFontSizeTag 37 # Medium
+	DisableDropSound
+	#BlockStrictness 10 Hide
+	#VariableStrictness itemlevel 78 76 -1 -1 -1 -1 -1 -1 -1
+
+# Map T2 low
+Show
+	MapTier = 2
+	ItemLevel >= 78
+	Class "Maps"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 200 200 200 255 # Map White Background
+	SetBorderColor 100 100 100 255 # Map White Border
+	SetFontSize 37
+	#SetFontSizeTag 37 # Medium
+	DisableDropSound
+	#BlockStrictness 10 Hide
+	#VariableStrictness itemlevel 74 72 -1 -1 -1 -1 -1 -1 -1
+
+# Map T3 hide
+Hide
+	MapTier = 3
+	ItemLevel >= 86
+	Class "Maps"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 200 200 200 255 # Map White Background
+	SetBorderColor 100 100 100 255 # Map White Border
+	SetFontSize 37
+	#SetFontSizeTag 37 # Medium
+	DisableDropSound
+	#BlockStrictness 10 Hide
+	#VariableStrictness itemlevel 79 77 -1 -1 -1 -1 -1 -1 -1
+
+# Map T3 low
+Show
+	MapTier = 3
+	ItemLevel >= 79
+	Class "Maps"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 200 200 200 255 # Map White Background
+	SetBorderColor 100 100 100 255 # Map White Border
+	SetFontSize 37
+	#SetFontSizeTag 37 # Medium
+	DisableDropSound
+	#BlockStrictness 10 Hide
+	#VariableStrictness itemlevel 75 73 -1 -1 -1 -1 -1 -1 -1
+
+# Map T4 hide
+Hide
+	MapTier = 4
+	ItemLevel >= 87
+	Class "Maps"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 200 200 200 255 # Map White Background
+	SetBorderColor 100 100 100 255 # Map White Border
+	SetFontSize 37
+	#SetFontSizeTag 37 # Medium
+	DisableDropSound
+	#BlockStrictness 10 Hide
+	#VariableStrictness itemlevel 80 78 -1 -1 -1 -1 -1 -1 -1
+
+# Map T4 low
+Show
+	MapTier = 4
+	ItemLevel >= 80
+	Class "Maps"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 200 200 200 255 # Map White Background
+	SetBorderColor 100 100 100 255 # Map White Border
+	SetFontSize 37
+	#SetFontSizeTag 37 # Medium
+	DisableDropSound
+	#BlockStrictness 10 Hide
+	#VariableStrictness itemlevel 76 74 -1 -1 -1 -1 -1 -1 -1
+
+# Map T5 hide
+Hide
+	MapTier = 5
+	ItemLevel >= 88
+	Class "Maps"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 200 200 200 255 # Map White Background
+	SetBorderColor 100 100 100 255 # Map White Border
+	SetFontSize 37
+	#SetFontSizeTag 37 # Medium
+	DisableDropSound
+	#BlockStrictness 10 Hide
+	#VariableStrictness itemlevel 81 79 -1 -1 -1 -1 -1 -1 -1
+
+# Map T5 low
+Show
+	MapTier = 5
+	ItemLevel >= 81
+	Class "Maps"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 200 200 200 255 # Map White Background
+	SetBorderColor 100 100 100 255 # Map White Border
+	SetFontSize 37
+	#SetFontSizeTag 37 # Medium
+	DisableDropSound
+	#BlockStrictness 10 Hide
+	#VariableStrictness itemlevel 77 75 -1 -1 -1 -1 -1 -1 -1
+
+# Map White show
+Show
+	MapTier <= 5
+	Class "Maps"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 200 200 200 255 # Map White Background
+	SetBorderColor 100 100 100 255 # Map White Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 4 150 # Map
+	MinimapIcon 1 White Square
+	PlayEffect White Temp
+
+#-------------------------------------------------------------------------------
+# Subsection: Map Drops Yellow
+#-------------------------------------------------------------------------------
+
+# Map T6 hide
+Hide
+	MapTier = 6
+	ItemLevel >= 89
+	Class "Maps"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 255 200 0 255 # Map Yellow Background
+	SetBorderColor 127 100 0 255 # Map Yellow Border
+	SetFontSize 37
+	#SetFontSizeTag 37 # Medium
+	DisableDropSound
+	#BlockStrictness 10 Hide
+	#VariableStrictness itemlevel 82 80 -1 -1 -1 -1 -1 -1 -1
+
+# Map T6 low
+Show
+	MapTier = 6
+	ItemLevel >= 82
+	Class "Maps"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 255 200 0 255 # Map Yellow Background
+	SetBorderColor 127 100 0 255 # Map Yellow Border
+	SetFontSize 37
+	#SetFontSizeTag 37 # Medium
+	DisableDropSound
+	#BlockStrictness 10 Hide
+	#VariableStrictness itemlevel 78 76 -1 -1 -1 -1 -1 -1 -1
+
+# Map T7 hide
+Hide
+	MapTier = 7
+	ItemLevel >= 90
+	Class "Maps"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 255 200 0 255 # Map Yellow Background
+	SetBorderColor 127 100 0 255 # Map Yellow Border
+	SetFontSize 37
+	#SetFontSizeTag 37 # Medium
+	DisableDropSound
+	#BlockStrictness 10 Hide
+	#VariableStrictness itemlevel 83 81 -1 -1 -1 -1 -1 -1 -1
+
+# Map T7 low
+Show
+	MapTier = 7
+	ItemLevel >= 83
+	Class "Maps"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 255 200 0 255 # Map Yellow Background
+	SetBorderColor 127 100 0 255 # Map Yellow Border
+	SetFontSize 37
+	#SetFontSizeTag 37 # Medium
+	DisableDropSound
+	#BlockStrictness 10 Hide
+	#VariableStrictness itemlevel 79 77 -1 -1 -1 -1 -1 -1 -1
+
+# Map T8 hide
+Hide
+	MapTier = 8
+	ItemLevel >= 91
+	Class "Maps"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 255 200 0 255 # Map Yellow Background
+	SetBorderColor 127 100 0 255 # Map Yellow Border
+	SetFontSize 37
+	#SetFontSizeTag 37 # Medium
+	DisableDropSound
+	#BlockStrictness 10 Hide
+	#VariableStrictness itemlevel 84 82 -1 -1 -1 -1 -1 -1 -1
+
+# Map T8 low
+Show
+	MapTier = 8
+	ItemLevel >= 84
+	Class "Maps"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 255 200 0 255 # Map Yellow Background
+	SetBorderColor 127 100 0 255 # Map Yellow Border
+	SetFontSize 37
+	#SetFontSizeTag 37 # Medium
+	DisableDropSound
+	#BlockStrictness 10 Hide
+	#VariableStrictness itemlevel 80 78 -1 -1 -1 -1 -1 -1 -1
+
+# Map T9 hide
+Hide
+	MapTier = 9
+	ItemLevel >= 92
+	Class "Maps"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 255 200 0 255 # Map Yellow Background
+	SetBorderColor 127 100 0 255 # Map Yellow Border
+	SetFontSize 37
+	#SetFontSizeTag 37 # Medium
+	DisableDropSound
+	#BlockStrictness 10 Hide
+	#VariableStrictness itemlevel 85 83 -1 -1 -1 -1 -1 -1 -1
+
+# Map T9 low
+Show
+	MapTier = 9
+	ItemLevel >= 85
+	Class "Maps"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 255 200 0 255 # Map Yellow Background
+	SetBorderColor 127 100 0 255 # Map Yellow Border
+	SetFontSize 37
+	#SetFontSizeTag 37 # Medium
+	DisableDropSound
+	#BlockStrictness 10 Hide
+	#VariableStrictness itemlevel 81 79 -1 -1 -1 -1 -1 -1 -1
+
+# Map T10 hide
+Hide
+	MapTier = 10
+	ItemLevel >= 93
+	Class "Maps"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 255 200 0 255 # Map Yellow Background
+	SetBorderColor 127 100 0 255 # Map Yellow Border
+	SetFontSize 37
+	#SetFontSizeTag 37 # Medium
+	DisableDropSound
+	#BlockStrictness 10 Hide
+	#VariableStrictness itemlevel 86 84 -1 -1 -1 -1 -1 -1 -1
+
+# Map T10 low
+Show
+	MapTier = 10
+	ItemLevel >= 86
+	Class "Maps"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 255 200 0 255 # Map Yellow Background
+	SetBorderColor 127 100 0 255 # Map Yellow Border
+	SetFontSize 37
+	#SetFontSizeTag 37 # Medium
+	DisableDropSound
+	#BlockStrictness 10 Hide
+	#VariableStrictness itemlevel 82 80 -1 -1 -1 -1 -1 -1 -1
+
+# Map Yellow show
+Show
+	MapTier <= 10
+	Class "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 200 0 255 # Map Yellow Background
 	SetBorderColor 127 100 0 255 # Map Yellow Border
@@ -1209,35 +1523,24 @@ Show
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 4 150 # Map
 	MinimapIcon 1 Yellow Square
-	PlayEffect Yellow 
+	PlayEffect Yellow Temp
 
 #-------------------------------------------------------------------------------
-# Subsection: Tiered Highlighting
+# Subsection: Map Drops Red
 #-------------------------------------------------------------------------------
 
-# T9 outleveled
+# Map Red show
 Show
-	MapTier < 4
-	ItemLevel < 76
+	MapTier >= 11
 	Class "Maps"
 	SetTextColor 0 0 0 255 # Map Text
-	SetBackgroundColor 200 200 200 255 # Map White Background
-	SetBorderColor 100 100 100 255 # Map White Border
-	SetFontSize 41
-	#SetFontSizeTag 41 # Big
+	SetBackgroundColor 243 40 29 255 # Map Red Background
+	SetBorderColor 122 20 15 255 # Map Red Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 4 150 # Map
-
-# Other Maps
-Show
-	Class "Maps"
-	SetTextColor 0 0 0 255 # Map Text
-	SetBackgroundColor 200 200 200 255 # Map White Background
-	SetBorderColor 100 100 100 255 # Map White Border
-	SetFontSize 41
-	#SetFontSizeTag 41 # Big
-	PlayAlertSound 4 150 # Map
-	MinimapIcon 2 White Square
-	PlayEffect White Temp
+	MinimapIcon 1 Red Square
+	PlayEffect Red Temp
 
 #-------------------------------------------------------------------------------
 # Section: 6 Links
