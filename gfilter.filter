@@ -1149,26 +1149,26 @@ Show
 	ElderMap True
 	Class "Maps"
 	SetTextColor 0 0 0 255 # Map Text
-	SetBackgroundColor 200 200 200 255 # Normal Background
-	SetBorderColor 100 100 100 255 # Map Normal Border
+	SetBackgroundColor 243 40 29 255 # Map Red Background
+	SetBorderColor 122 20 15 255 # Map Red Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 4 150 # Map
-	MinimapIcon 1 Yellow Square
-	PlayEffect White 
+	MinimapIcon 0 Red Square
+	PlayEffect Red 
 
 # Shaped Map
 Show
 	ShapedMap True
 	Class "Maps"
 	SetTextColor 0 0 0 255 # Map Text
-	SetBackgroundColor 200 200 200 255 # Normal Background
-	SetBorderColor 100 100 100 255 # Map Normal Border
+	SetBackgroundColor 255 200 0 255 # Map Yellow Background
+	SetBorderColor 127 100 0 255 # Map Yellow Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 4 150 # Map
 	MinimapIcon 1 Yellow Square
-	PlayEffect White 
+	PlayEffect Yellow 
 
 # Nice Maps
 Show
@@ -1176,52 +1176,26 @@ Show
 	Class "Maps"
 	BaseType "Iceberg Map" "Spider Forest Map" "Vault Map" "Burial Chambers Map" "Canyon Map" "Strand Map" "Toxic Sewer Map" "Fields Map" "Racecourse Map" "Lookout Map" "Jungle Valley Map" "Mesa Map" "Phantasmagoria Map" "Beach Map" "City Square Map" "Channel Map" "Alleyways Map" "Arid Lake Map" "Shore Map" "Ashen Wood Map"
 	SetTextColor 0 0 0 255 # Map Text
-	SetBackgroundColor 200 200 200 255 # Normal Background
-	SetBorderColor 100 100 100 255 # Map Normal Border
+	SetBackgroundColor 255 200 0 255 # Map Yellow Background
+	SetBorderColor 127 100 0 255 # Map Yellow Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 4 150 # Map
 	MinimapIcon 1 Yellow Square
-	PlayEffect White 
+	PlayEffect Yellow 
 
-# Map Normal
+# Other Maps
 Show
-	Rarity = Normal
+	Rarity <= Rare
 	Class "Maps"
 	SetTextColor 0 0 0 255 # Map Text
-	SetBackgroundColor 200 200 200 255 # Normal Background
-	SetBorderColor 100 100 100 255 # Map Normal Border
+	SetBackgroundColor 200 200 200 255 # Map White Background
+	SetBorderColor 100 100 100 255 # Map White Border
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
 	PlayAlertSound 4 150 # Map
 	MinimapIcon 2 White Square
 	PlayEffect White Temp
-
-# Map Magic
-Show
-	Rarity = Magic
-	Class "Maps"
-	SetTextColor 0 0 0 255 # Map Text
-	SetBackgroundColor 136 136 255 255 # Magic Background
-	SetBorderColor 68 68 128 250 # Map Magic Border
-	SetFontSize 41
-	#SetFontSizeTag 41 # Big
-	PlayAlertSound 4 150 # Map
-	MinimapIcon 2 White Square
-	PlayEffect Blue Temp
-
-# Map Rare
-Show
-	Rarity = Rare
-	Class "Maps"
-	SetTextColor 0 0 0 255 # Map Text
-	SetBackgroundColor 255 255 119 255 # Rare Background
-	SetBorderColor 128 128 60 250 # Map Rare Border
-	SetFontSize 41
-	#SetFontSizeTag 41 # Big
-	PlayAlertSound 4 150 # Map
-	MinimapIcon 2 White Square
-	PlayEffect Yellow Temp
 
 # Map Unique
 Show
@@ -1230,8 +1204,8 @@ Show
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 175 96 37 255 # Unique Background
 	SetBorderColor 88 48 19 250 # Map Unique Border
-	SetFontSize 41
-	#SetFontSizeTag 41 # Big
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 4 150 # Map
 	MinimapIcon 1 Yellow Square
 	PlayEffect Brown 
