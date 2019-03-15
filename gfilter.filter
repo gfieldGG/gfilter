@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.6.6
+# VERSION:       3.6.7
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -127,12 +127,12 @@ Show
 Show
 	Class "Delve Socketable Currency"
 	BaseType "Prime Alchemical Resonator" "Prime Chaotic Resonator"
-	SetTextColor 0 0 0 255 # Tier1 Text
-	SetBackgroundColor 200 186 153 255 # Currency Background
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 5 18 36 255 # Delve Highlight Background
 	SetBorderColor 102 193 245 255 # Delve Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
-	CustomAlertSound "gfT15.mp3"
+	CustomAlertSound "gfT2.mp3"
 	MinimapIcon 0 Blue Circle
 	PlayEffect Blue 
 
@@ -144,9 +144,10 @@ Show
 	SetBorderColor 102 193 245 255 # Delve Border
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
-	PlayAlertSound 6 150 # Tier3
+	CustomAlertSound "gfT3.mp3"
 	MinimapIcon 2 Blue Circle
 	PlayEffect Blue Temp
+	#BlockStrictness 3 Hide
 
 #-------------------------------------------------------------------------------
 # Subsection: Fossils
@@ -155,7 +156,7 @@ Show
 # T1 Fossil
 Show
 	Class "Currency"
-	BaseType "Glyphic Fossil" "Hollow Fossil" "Faceted Fossil" "Bloodstained Fossil" "Fractured Fossil"
+	BaseType "Hollow Fossil" "Faceted Fossil" "Bloodstained Fossil" "Fractured Fossil"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 102 193 245 255 # Delve Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -168,7 +169,7 @@ Show
 # T1.5 Fossil
 Show
 	Class "Currency"
-	BaseType "Sanctified Fossil" "Gilded Fossil" "Tangled Fossil" "Dense Fossil"
+	BaseType "Sanctified Fossil" "Tangled Fossil" "Dense Fossil" "Glyphic Fossil"
 	SetTextColor 102 193 245 255 # Delve Text
 	SetBackgroundColor 5 18 36 255 # Delve Highlight Background
 	SetBorderColor 102 193 245 255 # Delve Border
@@ -181,10 +182,10 @@ Show
 # Fossil Trash
 Show
 	Class "Currency"
-	BaseType "Frigid Fossil" "Scorched Fossil" "Aberrant Fossil" "Lucent Fossil" "Bound Fossil"
+	BaseType "Frigid Fossil" "Scorched Fossil" "Aberrant Fossil" "Lucent Fossil" "Corroded Fossil" "Jagged Fossil"
 	SetTextColor 102 193 245 255 # Delve Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 2 Hide
+	#BlockStrictness 3 Hide
 
 # Fossil
 Show
@@ -194,7 +195,7 @@ Show
 	SetBackgroundColor 5 18 36 255 # Delve Highlight Background
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
-	PlayAlertSound 6 150 # Tier3
+	CustomAlertSound "gfT2.mp3"
 	MinimapIcon 2 White Circle
 	PlayEffect Blue Temp
 
