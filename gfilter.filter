@@ -1060,9 +1060,10 @@ Show
 # T1.5 Scarab
 Show
 	Class "Map Fragments"
-	BaseType "Gilded Cartography Scarab" "Gilded Breach Scarab" "Gilded Ambush Scarab" "Gilded Sulphite Scarab" "Polished Sulphite Scarab" "Rusted Sulphite Scarab" "Gilded Bestiary Scarab" "Gilded Divination Scarab"
+	BaseType "Gilded Cartography Scarab" "Gilded Breach Scarab" "Gilded Ambush Scarab" "Gilded Sulphite Scarab" "Polished Sulphite Scarab" "Rusted Sulphite Scarab" "Gilded Bestiary Scarab" "Gilded Divination Scarab" "Polished Divination Scarab" "Polished Cartography Scarab" "Gilded Harbinger Scarab" "Gilded Elder Scarab" "Rusted Cartography Scarab"
 	SetTextColor 255 200 0 255 # Legacy Text
 	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
+	SetBorderColor 255 200 0 255 # Legacy Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
 	CustomAlertSound "gfT15.mp3"
@@ -1072,9 +1073,10 @@ Show
 # T2 Scarab
 Show
 	Class "Map Fragments"
-	BaseType "Gilded Harbinger Scarab" "Polished Cartography Scarab" "Polished Divination Scarab" "Polished Breach Scarab" "Gilded Elder Scarab" "Gilded Reliquary Scarab" "Polished Bestiary Scarab" "Polished Bestiary Scarab" "Gilded Perandus Scarab" "Polished Ambush Scarab"
+	BaseType "Polished Breach Scarab" "Gilded Reliquary Scarab" "Polished Bestiary Scarab" "Polished Ambush Scarab" "Rusted Divination Scarab" "Polished Harbinger Scarab" "Polished Elder Scarab"
 	SetTextColor 255 200 0 255 # Legacy Text
 	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
+	SetBorderColor 0 0 0 0 # No Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
 	CustomAlertSound "gfT2.mp3"
@@ -1086,8 +1088,10 @@ Show
 	BaseType "Scarab"
 	SetTextColor 255 200 0 255 # Legacy Text
 	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
-	SetFontSize 37
-	#SetFontSizeTag 37 # Medium
+	SetBorderColor 0 0 0 0 # No Border
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	PlayAlertSound 6 150 # Tier3
 	#BlockStrictness 3 Hide
 
 #-------------------------------------------------------------------------------
