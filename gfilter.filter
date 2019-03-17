@@ -1,4 +1,4 @@
-﻿#===============================================================================
+#===============================================================================
 # GFILTER
 #===============================================================================
 #
@@ -45,6 +45,18 @@ Show
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
 	MinimapIcon 1 White Hexagon
+
+# Fractured Item Small
+Show
+	FracturedItem True
+	Rarity <= Rare
+	Class "Jewel" "Rings" "Amulets" "Belts" "Gloves" "Boots" "Shields" "Helmets"
+	SetBackgroundColor 64 64 64 255
+	SetBorderColor 0 0 158 255
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	PlayEffect White Temp
+	#BlockStrictness 3 Hide
 
 # Fractured Item
 Show
