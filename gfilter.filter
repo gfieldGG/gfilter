@@ -1789,12 +1789,12 @@ Show
 # Subsection: Tier1
 #-------------------------------------------------------------------------------
 
-# Elder Tier1 Economy
+# Elder Tier1 ilvl82
 Show
 	ElderItem True
 	Rarity <= Rare
 	ItemLevel >= 82
-	BaseType "Crystal Belt" "Fingerless Silk Gloves" "Spiked Gloves" "Bone Helmet" "Grove Bow" "Elegant Foil" "Two-Toned Boots" "Royal Burgonet" "Diamond Ring" "Two-Stone Ring" "Coral Ring" "Unset Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Iron Ring"
+	BaseType "Crystal Belt" "Fingerless Silk Gloves" "Spiked Gloves" "Bone Helmet" "Royal Burgonet" "Astral Plate" "Two-Stone Ring" "Ezomyte Burgonet" "Coral Ring" "Ruby Ring" "Topaz Ring" "Sapphire Ring" "Diamond Ring"
 	SetTextColor 159 0 0 255 # Shelder Text
 	SetBackgroundColor 50 0 50 255 # Shelder Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -1803,12 +1803,12 @@ Show
 	PlayAlertSound 7 300 # Tier1.5
 	MinimapIcon 0 Red Hexagon
 
-# Elder Tier1 Economy
+# Elder Tier1 ilvl84
 Show
 	ElderItem True
 	Rarity <= Rare
 	ItemLevel >= 84
-	BaseType "Astral Plate" "Skean" "Eternal Burgonet" "Hubris Circlet" "Waxed Garb"
+	BaseType "Eternal Burgonet" "Opal Wand" "Sinner Tricorne" "Citrine Amulet" "Hubris Circlet" "Sorcerer Gloves" "Tempered Foil" "Assassin's Garb"
 	SetTextColor 159 0 0 255 # Shelder Text
 	SetBackgroundColor 50 0 50 255 # Shelder Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -1817,12 +1817,12 @@ Show
 	PlayAlertSound 7 300 # Tier1.5
 	MinimapIcon 0 Red Hexagon
 
-# Elder Tier1 Economy
+# Elder Tier1 ilvl86
 Show
 	ElderItem True
 	Rarity <= Rare
 	ItemLevel >= 86
-	BaseType "Turquoise Amulet" "Onyx Amulet" "Lapis Amulet" "Bronze Gauntlets" "Agate Amulet" "Ironscale Gauntlets" "Jade Amulet" "Lion Pelt" "Amber Amulet" "Leather Belt" "Citrine Amulet" "Moonstone Ring" "Gold Amulet" "Great Helmet" "Coral Amulet" "Paua Amulet" "Amethyst Ring"
+	BaseType "Turquoise Amulet" "Eclipse Staff" "Lacquered Helmet" "Gemini Claw" "Reaver Helmet" "Agate Amulet" "Siege Helmet" "Pig-Faced Bascinet" "Prophet Crown" "Lunaris Circlet" "Callous Mask" "Iron Ring" "Amber Amulet" "Gold Amulet" "Jade Amulet" "Raven Mask" "Amethyst Ring" "Samite Helmet" "Moonstone Ring" "Paua Ring" "Coral Amulet" "Leather Belt" "Unset Ring" "Onyx Amulet"
 	SetTextColor 159 0 0 255 # Shelder Text
 	SetBackgroundColor 50 0 50 255 # Shelder Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -1835,12 +1835,12 @@ Show
 # Subsection: Tier2
 #-------------------------------------------------------------------------------
 
-# Elder Tier2 Economy
+# Elder Tier2 ilvl80
 Show
 	ElderItem True
 	Rarity <= Rare
 	ItemLevel >= 80
-	BaseType "Crystal Belt" "Fingerless Silk Gloves" "Spiked Gloves" "Astral Plate" "Bone Helmet" "Grove Bow" "Elegant Foil" "Two-Toned Boots" "Skean" "Royal Burgonet" "Diamond Ring" "Two-Stone Ring" "Eternal Burgonet" "Coral Ring" "Turquoise Amulet" "Onyx Amulet" "Unset Ring" "Sapphire Ring" "Lapis Amulet" "Topaz Ring" "Ruby Ring" "Hubris Circlet" "Agate Amulet" "Ironscale Gauntlets" "Jade Amulet" "Amber Amulet" "Leather Belt" "Citrine Amulet" "Moonstone Ring" "Iron Ring" "Waxed Garb" "Great Helmet" "Amethyst Ring" "Ezomyte Burgonet" "Close Helmet" "Royal Bow" "Gold Ring" "Paua Ring" "Thicket Bow" "Barbute Helmet" "Splendid Round Shield" "Silken Wrap" "Visored Sallet"
+	BaseType "Crystal Belt" "Fingerless Silk Gloves" "Spiked Gloves" "Astral Plate" "Bone Helmet" "Eternal Burgonet" "Turquoise Amulet" "Royal Burgonet" "Astral Plate" "Serpentscale Boots" "Opal Wand" "Sinner Tricorne" "Eclipse Staff" "Citrine Amulet" "Two-Stone Ring" "Ezomyte Burgonet" "Gemini Claw" "Vaal Gauntlets" "Agate Amulet" "Hubris Circlet" "Sorcerer Gloves" "Siege Helmet" "Coral Ring" "Lunaris Circlet" "Callous Mask" "Iron Ring" "Ruby Ring" "Amber Amulet" "Gold Amulet" "Jade Amulet" "Topaz Ring" "Tempered Foil" "Sapphire Ring" "Diamond Ring" "Raven Mask" "Amethyst Ring" "Samite Helmet" "Ambush Mitts" "Assassin's Garb" "Moonstone Ring" "Paua Ring" "Coral Amulet" "Unset Ring" "Two-Toned Boots" "Onyx Amulet" "Gold Ring" "Slink Gloves" "Lapis Amulet" "Exquisite Blade" "Paua Amulet" "Two-Stone Ring" "Ezomyte Burgonet" "Coral Ring" "Ruby Ring" "Topaz Ring" "Sapphire Ring" "Diamond Ring" "Eternal Burgonet" "Opal Wand" "Sinner Tricorne" "Citrine Amulet" "Hubris Circlet" "Sorcerer Gloves" "Tempered Foil" "Assassin's Garb"
 	SetTextColor 159 0 0 255 # Shelder Text
 	SetBackgroundColor 50 0 50 255 # Shelder Background
 	SetFontSize 45
@@ -1848,12 +1848,12 @@ Show
 	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 1 Yellow Hexagon
 
-# Elder Tier2 Economy
+# Elder Tier2 ilvl85
 Show
 	ElderItem True
 	Rarity <= Rare
 	ItemLevel >= 85
-	BaseType "Ezomyte Tower Shield" "Dragon Mace" "Titanium Spirit Shield" "Glorious Plate" "Assassin's Garb" "Totemic Maul" "Mesh Boots" "Arena Plate" "Vaal Regalia" "Titan Gauntlets" "Samite Helmet" "Sorcerer Boots" "Mind Cage" "Sinner Tricorne" "Tarnished Spirit Shield" "Zodiac Leather" "Slink Boots" "Gladiator Helmet" "Titan Greaves" "Nightmare Bascinet" "Prophet Crown" "Pig-Faced Bascinet" "Thorn Rapier" "Crusader Helmet" "Vaal Axe" "Praetor Crown" "Bone Circlet" "Full Dragonscale" "Gilded Sallet" "Deicide Mask" "Zealot Helmet" "Crescent Staff" "Wolf Pelt" "Gladiator Plate" "Necromancer Circlet" "Triumphant Lamellar" "Siege Helmet" "Opal Sceptre" "Clasped Mitts" "Silken Hood" "Jewelled Foil" "Heavy Belt" "Magistrate Crown" "Steelscale Gauntlets" "Solaris Circlet" "Imperial Claw" "Gemini Claw" "Steel Circlet" "Sorcerer Gloves" "Fencer Helm" "Ursine Pelt" "Fluted Bascinet" "Imperial Bow" "Lacquered Helmet" "Eclipse Staff" "Maraketh Bow" "Hunter Hood" "Lunaris Circlet" "Reaver Helmet" "Festival Mask" "Raven Mask" "Opal Wand" "Slink Gloves" "Secutor Helm" "Aventail Helmet" "Archon Kite Shield" "Great Crown" "Burnished Foil" "Vaal Mask" "Dragonscale Gauntlets" "Stealth Boots" "Lordly Plate" "Noble Tricorne" "Vaal Buckler"
+	BaseType "Noble Tricorne" "Nightmare Bascinet" "Zealot Helmet" "Bone Circlet" "Fencer Helm" "Necromancer Circlet" "Titan Greaves" "Vaal Regalia" "Titan Gauntlets" "Glorious Plate" "Sorcerer Boots" "Occultist's Vestment" "Harlequin Mask" "Mind Cage" "Fluted Bascinet" "Lion Pelt" "Great Crown" "Deicide Mask" "Imperial Skean" "Solaris Circlet" "Magistrate Crown" "Prophecy Wand" "Ursine Pelt" "Murder Mitts" "Thorium Spirit Shield" "Labrys" "Stealth Gloves" "Jewelled Foil" "Conjurer Gloves" "Studded Belt" "Moon Staff" "Thicket Bow" "Satin Slippers" "Maraketh Bow" "Heavy Belt" "Decimation Bow" "Conjurer Boots" "Penetrating Arrow Quiver" "Royal Skean" "Destiny Leather" "Carnal Boots" "Crusader Plate"
 	SetTextColor 159 0 0 255 # Shelder Text
 	SetBackgroundColor 50 0 50 255 # Shelder Background
 	SetFontSize 45
