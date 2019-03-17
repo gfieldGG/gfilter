@@ -208,7 +208,7 @@ Show
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
 	CustomAlertSound "gfT2.mp3"
-	MinimapIcon 2 White Circle
+	MinimapIcon 2 Blue Circle
 	PlayEffect Blue Temp
 
 #-------------------------------------------------------------------------------
