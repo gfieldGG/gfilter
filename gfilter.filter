@@ -1626,12 +1626,12 @@ Show
 # Subsection: Tier1
 #-------------------------------------------------------------------------------
 
-# Shaper Tier1 Economy
+# Shaper Tier1 ilvl82
 Show
 	ShaperItem True
 	Rarity <= Rare
 	ItemLevel >= 82
-	BaseType "Crystal Belt" "Fingerless Silk Gloves" "Steel Ring" "Opal Ring" "Thorn Rapier" "Exquisite Blade" "Two-Toned Boots" "Copper Kris" "Prismatic Ring" "Agate Amulet" "Bone Helmet" "Death Bow" "Elegant Foil"
+	BaseType "Crystal Belt" "Fingerless Silk Gloves" "Steel Ring" "Opal Ring" "Titanium Spirit Shield" "Eclipse Staff" "Crystal Sceptre" "Heathen Wand"
 	SetTextColor 159 0 0 255 # Shelder Text
 	SetBackgroundColor 50 0 50 255 # Shelder Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -1644,8 +1644,8 @@ Show
 Show
 	ShaperItem True
 	Rarity <= Rare
-	ItemLevel >= 85
-	BaseType "Sambar Sceptre" "Antique Rapier" "Vaal Regalia" "Void Sceptre" "Opal Sceptre" "Lapis Amulet" "Platinum Kris" "Golden Kris" "Hubris Circlet" "Silk Gloves" "Turquoise Amulet" "Reflex Bow" "Citrine Amulet" "Gripped Gloves" "Onyx Amulet" "Jade Amulet" "Eclipse Staff" "Titanium Spirit Shield" "Amber Amulet" "Lion Pelt" "Leather Belt" "Lithe Blade" "Sorcerer Gloves" "Diamond Ring"
+	ItemLevel >= 84
+	BaseType "Profane Wand" "Vaal Regalia" "Golden Kris" "Opal Wand" "Citrine Amulet" "Hubris Circlet" "Sorcerer Gloves" "Platinum Kris" "Jade Amulet" "Onyx Amulet" "Sorcerer Boots" "Occultist's Vestment" "Two-Toned Boots" "Widowsilk Robe"
 	SetTextColor 159 0 0 255 # Shelder Text
 	SetBackgroundColor 50 0 50 255 # Shelder Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -1658,8 +1658,8 @@ Show
 Show
 	ShaperItem True
 	Rarity <= Rare
-	ItemLevel >= 85
-	BaseType "Ochre Sceptre" "Sorcerer Boots" "Horned Sceptre" "Gold Amulet" "Poignard" "Opal Wand" "Paua Amulet" "Harbinger Bow" "Coral Amulet" "Ambusher" "Stag Sceptre" "Jewelled Foil" "Royal Bow" "Ezomyte Tower Shield" "Imperial Bow" "Royal Burgonet" "Profane Wand" "Two-Stone Ring" "Moon Staff" "Prong Dagger" "Ritual Sceptre"
+	ItemLevel >= 86
+	BaseType "Agate Amulet" "Sambar Sceptre" "Void Sceptre" "Vaal Sceptre" "Samite Gloves" "Paua Amulet" "Lapis Amulet" "Ambusher" "Gold Amulet" "Amber Amulet" "Turquoise Amulet" "Blood Raiment" "Sharkskin Gloves" "Coral Amulet" "Platinum Sceptre" "Sai" "Tornado Wand" "Abyssal Sceptre" "Vaal Mask" "Lithe Blade" "Lion Pelt" "Astral Plate" "Fossilised Spirit Shield" "Sharkskin Boots" "Exquisite Blade" "Serpentine Staff" "Diamond Ring" "Praetor Crown" "Tiger Hook"
 	SetTextColor 159 0 0 255 # Shelder Text
 	SetBackgroundColor 50 0 50 255 # Shelder Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -1686,12 +1686,12 @@ Show
 # Subsection: Tier2
 #-------------------------------------------------------------------------------
 
-# Shaper Tier2 Economy
+# Shaper Tier2 ilvl80
 Show
 	ShaperItem True
 	Rarity <= Rare
 	ItemLevel >= 80
-	BaseType "Crystal Belt" "Fingerless Silk Gloves" "Petrified Club" "Steel Ring" "Marble Amulet" "Opal Ring" "Sambar Sceptre" "Antique Rapier" "Vaal Regalia" "Thorn Rapier" "Exquisite Blade" "Two-Toned Boots" "Copper Kris" "Void Sceptre" "Opal Sceptre" "Prismatic Ring" "Agate Amulet" "Bone Helmet" "Lapis Amulet" "Platinum Kris" "Golden Kris" "Hubris Circlet" "Death Bow" "Blue Pearl Amulet" "Silk Gloves" "Turquoise Amulet" "Elegant Foil" "Reflex Bow" "Gold Amulet" "Citrine Amulet" "Gripped Gloves" "Onyx Amulet" "Jade Amulet" "Eclipse Staff" "Titanium Spirit Shield" "Amber Amulet" "Paua Amulet" "Lion Pelt" "Coral Amulet" "Leather Belt" "Lithe Blade" "Royal Bow" "Sorcerer Gloves" "Diamond Ring" "Maple Round Shield" "Prong Dagger" "Ritual Sceptre" "Butcher Sword" "Ornate Spiked Shield"
+	BaseType "Profane Wand" "Agate Amulet" "Vaal Regalia" "Sambar Sceptre" "Titanium Spirit Shield" "Golden Kris" "Opal Sceptre" "Void Sceptre" "Opal Wand" "Citrine Amulet" "Hubris Circlet" "Samite Gloves" "Eclipse Staff" "Paua Amulet" "Lapis Amulet" "Sorcerer Gloves" "Platinum Kris" "Jade Amulet" "Ambusher" "Gold Amulet" "Onyx Amulet" "Amber Amulet" "Turquoise Amulet" "Sorcerer Boots" "Occultist's Vestment" "Crystal Sceptre" "Heathen Wand" "Coral Amulet" "Platinum Sceptre" "Two-Toned Boots" "Exquisite Blade" "Serpentine Staff" "Diamond Ring" "Widowsilk Robe" "Military Staff" "Tiger's Paw" "Silken Hood" "Hellion's Paw" "Fleshripper" "Titanium Spirit Shield" "Eclipse Staff" "Crystal Sceptre" "Heathen Wand" "Profane Wand" "Vaal Regalia" "Golden Kris" "Opal Wand" "Citrine Amulet" "Hubris Circlet" "Sorcerer Gloves" "Platinum Kris" "Jade Amulet" "Onyx Amulet" "Sorcerer Boots" "Occultist's Vestment" "Two-Toned Boots" "Widowsilk Robe"
 	SetTextColor 159 0 0 255 # Shelder Text
 	SetBackgroundColor 50 0 50 255 # Shelder Background
 	SetFontSize 45
@@ -1699,12 +1699,12 @@ Show
 	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 1 Yellow Hexagon
 
-# Shaper Tier2 Economy
+# Shaper Tier2 ilvl85
 Show
 	ShaperItem True
 	Rarity <= Rare
 	ItemLevel >= 85
-	BaseType "Sai" "Skean" "Plated Greaves" "Bronze Gauntlets" "Spike-Point Arrow Quiver" "Deerskin Boots" "Vaal Sceptre" "Prophecy Wand" "Coronal Maul" "Penetrating Arrow Quiver" "Wyrmbone Rapier" "Titan Greaves" "Carnal Sceptre" "Vanguard Belt" "Imp Dagger" "Sage Wand" "Demon Dagger" "Slink Gloves" "Astral Plate" "Grove Bow" "Shadow Sceptre" "Great Helmet" "Slink Boots" "Occultist's Vestment" "Crystal Sceptre" "Deerskin Gloves" "Scarlet Round Shield" "Platinum Sceptre" "Heathen Wand" "Fleshripper" "Tribal Circlet" "Fiend Dagger" "Abyssal Sceptre" "Imperial Claw" "Boot Blade" "Imperial Skean" "Holy Chainmail" "Mind Cage" "Eternal Burgonet" "Sinner Tricorne" "Flaying Knife" "Coral Ring" "Harmonic Spirit Shield" "Sapphire Ring" "Nightmare Bascinet" "Dragonscale Boots" "Two-Point Arrow Quiver" "Ruby Ring" "Trisula" "Arcanist Slippers" "Butcher Knife" "Topaz Ring" "Paua Ring" "Apex Rapier" "Sharktooth Arrow Quiver" "Tornado Wand" "Titan Gauntlets" "Crusader Gloves" "Royal Skean" "Maraketh Bow" "Dragon Mace" "Murder Mitts" "Grinning Fetish" "Stealth Gloves" "Engraved Wand" "Unset Ring" "Ezomyte Burgonet" "Stealth Boots" "Deicide Mask" "Broadhead Arrow Quiver" "Karui Sceptre" "Ezomyte Dagger" "Moonstone Ring" "Harpy Rapier" "Heavy Belt" "Gutting Knife" "Imbued Wand" "Gemini Claw" "Assassin's Mitts" "Engraved Greatsword" "Royal Sceptre" "Thicket Bow" "Embroidered Gloves" "Slaughter Knife" "Archon Kite Shield" "Prophet Crown" "Dragonscale Gauntlets" "Serrated Arrow Quiver" "Lunaris Circlet" "Vaal Mask" "Wolf Pelt" "Nubuck Gloves" "Trapper Mitts" "Shagreen Gloves" "Crystal Wand" "Widowsilk Robe" "Fire Arrow Quiver" "Satin Gloves" "Iron Ring" "Silken Hood" "Mesh Gloves" "Colossal Tower Shield" "Conjurer Gloves" "Vaal Greaves" "Golden Mask" "Behemoth Mace" "Samite Gloves" "Ursine Pelt" "Steelscale Gauntlets" "Serpentine Staff" "Thorium Spirit Shield" "Burnished Foil"
+	BaseType "Coral Ring" "Flanged Mace" "Prophecy Wand" "Carnal Sceptre" "Ezomyte Dagger" "Arcanist Slippers" "Steel Gauntlets" "Vaal Claw" "Behemoth Mace" "Crystal Wand" "Decimation Bow" "Sadist Garb" "Carnal Armour" "Engraved Wand" "Imbued Wand" "Paua Ring" "Zodiac Leather" "Serpent Wand" "Spike-Point Arrow Quiver" "Demon's Horn" "Fiend Dagger" "Eternal Burgonet" "Imperial Bow" "Royal Sceptre" "Demon Dagger" "Blood Sceptre" "Royal Skean" "Omen Wand" "Vaal Gauntlets" "Thorium Spirit Shield" "Conjurer Gloves" "Prophet Crown" "Unset Ring" "Lunaris Circlet" "Karui Sceptre" "Embroidered Gloves" "Murder Mitts" "Tyrant's Sekhem" "Imperial Skean" "Eye Gouger" "Shagreen Gloves" "Highborn Staff" "Royal Burgonet" "Topaz Ring" "Samite Helmet" "Jewelled Foil" "Sapphire Ring" "Two-Stone Ring" "Nightmare Bascinet" "Destroyer Regalia" "Soldier Gloves" "Necromancer Circlet" "Hydrascale Gauntlets" "Penetrating Arrow Quiver" "Amethyst Ring" "Broadhead Arrow Quiver" "Shagreen Boots" "Ruby Ring" "Necromancer Silks" "Magistrate Crown" "Gutting Knife" "Leather Belt" "Assassin's Mitts" "Thicket Bow" "Primordial Staff" "Slaughter Knife" "Conjurer Boots" "Apex Rapier" "Foul Staff" "Moonstone Ring" "Imperial Claw" "Rustic Sash" "Harlequin Mask" "Ursine Pelt" "Great White Claw"
 	SetTextColor 159 0 0 255 # Shelder Text
 	SetBackgroundColor 50 0 50 255 # Shelder Background
 	SetFontSize 45
