@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.6.7
+# VERSION:       3.6.8
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -2317,12 +2317,6 @@ Show
 #Show
 #	ItemLevel < 10
 #	SetBackgroundColor 0 0 0 255 # Default Background
-
-Show
-	ItemLevel <= 18
-	Class "Ring" "Amulet" "Belt"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	SetFontSize 37
 
 Show
 	Rarity = Magic
