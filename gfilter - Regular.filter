@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.6.7
+# VERSION:       3.6.8
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -734,8 +734,8 @@ Show
 	BaseType "Orb of Transmutation" "Orb of Augmentation" "Blacksmith's Whetstone" "Armourer's Scrap" "Scroll of Wisdom" "Portal Scroll"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
-	SetFontSize 37
-	#SetFontSizeTag 37 # Medium
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
 	#BlockStrictness 2 Hide
 
 # Currency Tier4
@@ -2319,12 +2319,6 @@ Show
 #	SetBackgroundColor 0 0 0 255 # Default Background
 
 Show
-	ItemLevel <= 18
-	Class "Ring" "Amulet" "Belt"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	SetFontSize 37
-
-Show
 	Rarity = Magic
 	ItemLevel < 28
 	Class "Ring" "Amulet" "Belt"
@@ -3097,7 +3091,7 @@ Hide
 	Class "Stave"
 	SetBackgroundColor 0 0 0 210 # Junk Background
 
-Hide
+Show
 	Rarity <= Magic
 	Class "Wand"
 	SetBackgroundColor 0 0 0 210 # Junk Background
@@ -3107,49 +3101,49 @@ Hide
 	Class "Two Hand Axe"
 	SetBackgroundColor 0 0 0 210 # Junk Background
 
-Show
+Hide
 	Rarity <= Magic
-	Class "Axe"
+	Class "One Hand Axes"
 	SetBackgroundColor 0 0 0 210 # Junk Background
 
-Hide
+Show
 	Rarity <= Magic
 	Class "Dagger"
 	SetBackgroundColor 0 0 0 210 # Junk Background
 
-Show
+Hide
 	Rarity <= Magic
 	Class "Two Hand Sword"
 	SetBackgroundColor 0 0 0 210 # Junk Background
 
-Show
+Hide
 	Rarity <= Magic
 	Class "Thrusting"
 	SetBackgroundColor 0 0 0 210 # Junk Background
 
-Show
+Hide
 	Rarity <= Magic
-	Class "Sword"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-
-Show
-	Rarity <= Magic
-	Class "Two Hand Mace"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-
-Show
-	Rarity <= Magic
-	Class "Mace"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-
-Show
-	Rarity <= Magic
-	Class "Claw"
+	Class "One Hand Swords"
 	SetBackgroundColor 0 0 0 210 # Junk Background
 
 Hide
 	Rarity <= Magic
-	Class "Sceptre"
+	Class "Two Hand Maces"
+	SetBackgroundColor 0 0 0 210 # Junk Background
+
+Hide
+	Rarity <= Magic
+	Class "One Hand Maces"
+	SetBackgroundColor 0 0 0 210 # Junk Background
+
+Hide
+	Rarity <= Magic
+	Class "Claw"
+	SetBackgroundColor 0 0 0 210 # Junk Background
+
+Show
+	Rarity <= Magic
+	Class "Sceptres"
 	SetBackgroundColor 0 0 0 210 # Junk Background
 
 #-------------------------------------------------------------------------------
