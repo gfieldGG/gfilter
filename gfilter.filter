@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.6.8
+# VERSION:       3.6.9
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -3240,6 +3240,7 @@ Hide
 
 # Junk Equipment
 Hide
+	Rarity <= Magic
 	Class "Two Hand" "Bows" "One Hand" "Wands" "Sceptres" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Daggers" "Shields" "Belts" "Rings" "Amulets"
 	SetBackgroundColor 0 0 0 0 # Hidden Background
 
