@@ -44,6 +44,7 @@ Show
 	SetBorderColor 124 178 156 255 # Ascendancy Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 6 150 # Tier3
 	MinimapIcon 1 White Hexagon
 
 # Fractured Item Small
@@ -129,6 +130,7 @@ Show
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
 	PlayAlertSound 7 300 # Tier1.5
+	MinimapIcon 1 Red Hexagon
 	PlayEffect Blue Temp
 
 #-------------------------------------------------------------------------------
@@ -269,7 +271,9 @@ Show
 	SetBackgroundColor 30 34 26 255 # Abyss Highlight Background
 	SetBorderColor 169 189 149 255 # Abyss Border
 	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 6 150 # Tier3
+	MinimapIcon 2 White Hexagon
 
 # Abyss Jewel Magic
 Show
@@ -278,6 +282,7 @@ Show
 	SetTextColor 169 189 149 255 # Abyss Text
 	SetBackgroundColor 30 34 26 255 # Abyss Highlight Background
 	SetFontSize 37
+	#SetFontSizeTag 37 # Medium
 	#BlockStrictness 2 Hide
 
 # Abyss Jewel Rare
@@ -287,6 +292,7 @@ Show
 	SetTextColor 169 189 149 255 # Abyss Text
 	SetBackgroundColor 30 34 26 255 # Abyss Highlight Background
 	SetFontSize 41
+	#SetFontSizeTag 41 # Big
 	#BlockStrictness 3 Hide
 
 #-------------------------------------------------------------------------------
@@ -296,13 +302,15 @@ Show
 # Stygian Vise ilvl84
 Show
 	Rarity <= Rare
-	ItemLevel >= 86
+	ItemLevel >= 84
 	BaseType "Stygian Vise"
 	SetTextColor 169 189 149 255 # Abyss Text
 	SetBackgroundColor 30 34 26 255 # Abyss Highlight Background
 	SetBorderColor 169 189 149 255 # Abyss Border
 	SetFontSize 45
-	PlayAlertSound 6 150 # Tier3
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Hexagon
 
 # Stygian Vise ilvl75
 Show
@@ -313,6 +321,7 @@ Show
 	SetBackgroundColor 30 34 26 255 # Abyss Highlight Background
 	SetBorderColor 169 189 149 255 # Abyss Border
 	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
 	#BlockStrictness 3 Hide
 
 # Stygian Vise
@@ -323,6 +332,7 @@ Show
 	SetBackgroundColor 30 34 26 255 # Abyss Highlight Background
 	SetBorderColor 169 189 149 255 # Abyss Border
 	SetFontSize 41
+	#SetFontSizeTag 41 # Big
 	#BlockStrictness 2 Hide
 
 #-------------------------------------------------------------------------------
@@ -336,6 +346,7 @@ Show
 	SetTextColor 88 124 244 255 # Harbinger Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
 	SetFontSize 37
+	#SetFontSizeTag 37 # Medium
 	#BlockStrictness 2 Hide
 
 # Harbinger Currency T3
@@ -345,6 +356,7 @@ Show
 	SetTextColor 88 124 244 255 # Harbinger Text
 	SetBackgroundColor 15 21 42 255 # Harbinger Highlight Background
 	SetFontSize 41
+	#SetFontSizeTag 41 # Big
 	CustomAlertSound "gfT3.mp3"
 	MinimapIcon 2 White Circle
 	#BlockStrictness 3 Hide
@@ -356,6 +368,7 @@ Show
 	SetBackgroundColor 15 21 42 255 # Harbinger Highlight Background
 	SetBorderColor 88 124 244 255 # Harbinger Border
 	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 0 Red Hexagon
 	PlayEffect Blue 
@@ -372,6 +385,7 @@ Show
 	SetBackgroundColor 21 12 30 255 # Breach Highlight Background
 	SetBorderColor 182 20 0 255 # Breach Border
 	SetFontSize 37
+	#SetFontSizeTag 37 # Medium
 	#BlockStrictness 2 Hide
 
 #-------------------------------------------------------------------------------
@@ -385,6 +399,7 @@ Show
 	SetTextColor 166 95 244 255 # Breach Text
 	SetBackgroundColor 40 4 0 255 # Breach Red Highlight Background
 	SetFontSize 41
+	#SetFontSizeTag 41 # Big
 	#BlockStrictness 3 Hide
 
 # Breach Splinter
@@ -394,6 +409,7 @@ Show
 	SetTextColor 166 95 244 255 # Breach Text
 	SetBackgroundColor 40 4 0 255 # Breach Red Highlight Background
 	SetFontSize 41
+	#SetFontSizeTag 41 # Big
 	CustomAlertSound "gfT2.mp3"
 
 # Breachstone
@@ -404,6 +420,7 @@ Show
 	SetBackgroundColor 21 12 30 255 # Breach Highlight Background
 	SetBorderColor 182 20 0 255 # Breach Border
 	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 0 Yellow Diamond
 	PlayEffect Red Temp
@@ -420,6 +437,7 @@ Show
 	SetBackgroundColor 255 255 255 255 # Tier0 Background
 	SetBorderColor 182 20 0 255 # Breach Border
 	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
 	CustomAlertSound "gfT1.mp3"
 	MinimapIcon 0 Red Diamond
 	PlayEffect Red 
@@ -432,6 +450,7 @@ Show
 	SetBackgroundColor 167 95 244 255 # Breach Background
 	SetBorderColor 182 20 0 255 # Breach Border
 	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 1 Yellow Diamond
 	PlayEffect Red 
@@ -900,6 +919,7 @@ Show
 	SetTextColor 74 230 58 255 # Quest Text
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 2 150 # Quest
 	MinimapIcon 0 Green Star
 	PlayEffect Green 
@@ -911,6 +931,7 @@ Show
 	SetBackgroundColor 255 255 119 255
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 2 150 # Quest
 	MinimapIcon 0 Green Triangle
 	PlayEffect Yellow 
