@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.6.10
+# VERSION:       3.6.11
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -47,40 +47,6 @@ Show
 	PlayAlertSound 6 150 # Tier3
 	MinimapIcon 1 White Hexagon
 
-# Fractured Item Small
-Show
-	FracturedItem True
-	Rarity <= Rare
-	Class "Jewel" "Rings" "Amulets" "Belts" "Gloves" "Boots" "Shields" "Helmets"
-	SetBackgroundColor 64 64 64 255
-	SetBorderColor 0 0 158 255
-	SetFontSize 41
-	#SetFontSizeTag 41 # Big
-	PlayEffect White Temp
-	#BlockStrictness 3 Hide
-
-# Fractured Item
-Show
-	FracturedItem True
-	Rarity <= Rare
-	SetBackgroundColor 64 64 64 255
-	SetBorderColor 0 0 158 255
-	SetFontSize 41
-	#SetFontSizeTag 41 # Big
-	PlayEffect White Temp
-	#BlockStrictness 3 Hide
-
-# Synthesised Item
-Show
-	SynthesisedItem True
-	Rarity <= Rare
-	SetBackgroundColor 0 0 64 255 # Synthesis Highlight Background
-	SetFontSize 45
-	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 0 Blue Hexagon
-	PlayEffect Blue 
-
 # Talisman
 Show
 	Class "Amulets"
@@ -116,6 +82,118 @@ Show
 	SetBorderColor 0 0 0 255 # Map Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
+
+#-------------------------------------------------------------------------------
+# Section: Synthesis
+#-------------------------------------------------------------------------------
+
+#-------------------------------------------------------------------------------
+# Subsection: Fractured
+#-------------------------------------------------------------------------------
+
+# Fractured T1 Base
+Show
+	FracturedItem True
+	Rarity <= Rare
+	BaseType "Titanium Spirit Shield" "Sorcerer Boots" "Sorcerer Gloves" "Vaal Regalia" "Hubris Circlet"
+	SetBackgroundColor 64 64 64 255 # Fractured Background
+	SetBorderColor 0 0 158 255 # Synthesis Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Hexagon
+	PlayEffect White 
+
+# Fractured Jewelry ilvl82
+Show
+	FracturedItem True
+	Rarity <= Rare
+	ItemLevel >= 82
+	BaseType "Titanium Spirit Shield" "Sorcerer Boots" "Sorcerer Gloves" "Vaal Regalia" "Hubris Circlet"
+	SetBackgroundColor 64 64 64 255 # Fractured Background
+	SetBorderColor 0 0 158 255 # Synthesis Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Hexagon
+	PlayEffect White 
+
+# Fractured lvl86
+Show
+	FracturedItem True
+	Rarity <= Rare
+	ItemLevel >= 86
+	SetBackgroundColor 64 64 64 255 # Fractured Background
+	SetBorderColor 0 0 158 255 # Synthesis Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Hexagon
+	PlayEffect White 
+
+# Fractured Jewel
+Show
+	FracturedItem True
+	Rarity <= Rare
+	Class "Jewel"
+	SetBackgroundColor 64 64 64 255 # Fractured Background
+	SetBorderColor 0 0 158 255 # Synthesis Border
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	PlayAlertSound 6 150 # Tier3
+	MinimapIcon 2 White Hexagon
+	PlayEffect White 
+
+# Fractured Item Small
+Show
+	FracturedItem True
+	Rarity <= Rare
+	Class "Jewel" "Rings" "Amulets" "Belts" "Gloves" "Boots" "Shields" "Helmets"
+	SetBackgroundColor 64 64 64 255 # Fractured Background
+	SetBorderColor 0 0 158 255 # Synthesis Border
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	PlayEffect White Temp
+	#BlockStrictness 3 Hide
+
+# Fractured Item
+Show
+	FracturedItem True
+	Rarity <= Rare
+	SetBackgroundColor 64 64 64 255 # Fractured Background
+	SetBorderColor 0 0 158 255 # Synthesis Border
+	SetFontSize 37
+	#SetFontSizeTag 37 # Medium
+	PlayEffect White Temp
+	#BlockStrictness 2 Hide
+
+#-------------------------------------------------------------------------------
+# Subsection: Synthesised
+#-------------------------------------------------------------------------------
+
+# Synthesised Item
+Show
+	SynthesisedItem True
+	Rarity <= Rare
+	SetBackgroundColor 0 0 64 255 # Synthesis Highlight Background
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 0 Blue Hexagon
+	PlayEffect Blue 
+
+# Synthesised Item
+Show
+	SynthesisedItem True
+	Rarity = Unique
+	SetTextColor 175 96 37 255 # Unique Text
+	SetBackgroundColor 0 0 64 255 # Synthesis Highlight Background
+	SetBorderColor 175 96 37 255 # Unique Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 7 300 # Tier1.5
+	MinimapIcon 0 Blue Hexagon
+	PlayEffect Blue 
 
 #-------------------------------------------------------------------------------
 # Section: Delve
@@ -412,6 +490,7 @@ Show
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
 	CustomAlertSound "gfT2.mp3"
+	MinimapIcon 2 Yellow Circle
 
 # Breachstone
 Show
@@ -3348,3 +3427,4 @@ Show
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 15 300 # wat
+	MinimapIcon 0 Red Star
