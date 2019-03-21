@@ -630,10 +630,14 @@ Show
 	Class "Divination Card"
 	BaseType "The Wolf's Shadow" "The Master Artisan"
 	SetTextColor 14 186 255 255 # Divination Card Text
-	SetBackgroundColor 0 0 0 210 # Junk Background
+	SetBackgroundColor 0 0 0 255 # Default Background
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
 	#BlockStrictness 3 Hide
+
+#-------------------------------------------------------------------------------
+# Subsection: Tier0
+#-------------------------------------------------------------------------------
 
 # Divination Card Tier0
 Show
@@ -647,6 +651,10 @@ Show
 	CustomAlertSound "gfT0.mp3"
 	MinimapIcon 0 Red Star
 	PlayEffect Blue 
+
+#-------------------------------------------------------------------------------
+# Subsection: Tier1
+#-------------------------------------------------------------------------------
 
 # Divination Card Tier1
 Show
@@ -665,14 +673,18 @@ Show
 Show
 	Class "Divination Card"
 	BaseType "The Samurai's Eye" "The Iron Bard" "Abandoned Wealth" "Hunter's Reward" "Mawr Blaidd" "The Offering" "Pride Before the Fall" "The Dragon's Heart" "The Ethereal" "The Risk" "Wealth and Power" "The King's Heart" "The Polymath" "The Wolven King's Bite" "The Spark and the Flame" "The Nurse" "The Mayor" "The Mad King" "The Queen" "The Enlightened" "The Celestial Justicar" "The Saint's Treasure" "The World Eater" "The Sacrifice" "Seven Years Bad Luck" "The Brittle Emperor" "The Vast" "The Artist" "The Master"
-	SetTextColor 14 186 255 255 # Divination Card Text
-	SetBackgroundColor 25 33 33 255 # Divination Card Highlight Background
-	SetBorderColor 14 186 255 255 # Divination Card Border
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 14 186 255 255 # Divination Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
 	CustomAlertSound "gfT15.mp3"
 	MinimapIcon 1 Red Star
-	PlayEffect Blue
+	PlayEffect Blue 
+
+#-------------------------------------------------------------------------------
+# Subsection: Tier2
+#-------------------------------------------------------------------------------
 
 # Divination Card Tier2 Currency (fix)
 Show
@@ -685,7 +697,7 @@ Show
 	#SetFontSizeTag 45 # Yuge
 	CustomAlertSound "gfT2.mp3"
 	MinimapIcon 1 Yellow Star
-	PlayEffect Blue
+	PlayEffect Blue 
 
 # Divination Card Tier2
 Show
@@ -713,6 +725,10 @@ Show
 	MinimapIcon 1 Yellow Star
 	PlayEffect Blue 
 
+#-------------------------------------------------------------------------------
+# Subsection: Other
+#-------------------------------------------------------------------------------
+
 # Divination Card Trash
 Show
 	Class "Divination Card"
@@ -729,11 +745,11 @@ Show
 	SetBackgroundColor 0 0 0 210 # Junk Background
 	#BlockStrictness 1 Hide
 
-# Divination Card 
+# Divination Card
 Show
 	Class "Divination Card"
 	SetTextColor 14 186 255 255 # Divination Card Text
-	SetBackgroundColor 25 33 33 255 # Divination Card Highlight Background
+	SetBackgroundColor 0 0 0 255 # Default Background
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
 	#BlockStrictness 3 Hide
