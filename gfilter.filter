@@ -184,11 +184,11 @@ Show
 Show
 	Class "Currency"
 	BaseType "Sanctified Fossil" "Tangled Fossil" "Dense Fossil" "Glyphic Fossil"
-	SetTextColor 102 193 245 255 # Delve Text
-	SetBackgroundColor 5 18 36 255 # Delve Highlight Background
-	SetBorderColor 102 193 245 255 # Delve Border
-	SetFontSize 41
-	#SetFontSizeTag 41 # Big
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 102 193 245 255 # Delve Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
 	CustomAlertSound "gfT15.mp3"
 	MinimapIcon 1 Blue Circle
 	PlayEffect Blue 
@@ -207,8 +207,9 @@ Show
 	BaseType "Fossil"
 	SetTextColor 102 193 245 255 # Delve Text
 	SetBackgroundColor 5 18 36 255 # Delve Highlight Background
-	SetFontSize 41
-	#SetFontSizeTag 41 # Big
+	SetBorderColor 102 193 245 255 # Delve Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
 	CustomAlertSound "gfT2.mp3"
 	MinimapIcon 2 Blue Circle
 	PlayEffect Blue Temp
