@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.6.12
+# VERSION:       3.6.13
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -3272,184 +3272,177 @@ Hide
 # Subsection: Specific Weapon Upgrade Toggles
 #-------------------------------------------------------------------------------
 
-Hide
-	Rarity <= Magic
-	Class "Bow"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 3 Hide
+#Show
+#	Rarity <= Magic
+#	Class "Bow"
+#	SetBackgroundColor 0 0 0 210 # Junk Background
+#	#BlockStrictness 3 Disable
 
-Show
-	Rarity <= Magic
-	Class "Stave"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 3 Hide
+#Hide
+#	Rarity <= Magic
+#	Class "Stave"
+#	SetBackgroundColor 0 0 0 210 # Junk Background
+#	#BlockStrictness 3 Disable
 
-Hide
-	Rarity <= Magic
-	Class "Wand"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 3 Hide
+#Show
+#	Rarity <= Magic
+#	Class "Wand"
+#	SetBackgroundColor 0 0 0 210 # Junk Background
+#	#BlockStrictness 3 Disable
 
-Show
-	Rarity <= Magic
-	Class "Two Hand Axe"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 3 Hide
+#Hide
+#	Rarity <= Magic
+#	Class "Two Hand Axe"
+#	SetBackgroundColor 0 0 0 210 # Junk Background
+#	#BlockStrictness 3 Disable
 
-Show
-	Rarity <= Magic
-	Class "One Hand Axes"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 3 Hide
+#Hide
+#	Rarity <= Magic
+#	Class "One Hand Axes"
+#	SetBackgroundColor 0 0 0 210 # Junk Background
+#	#BlockStrictness 3 Disable
 
-Hide
-	Rarity <= Magic
-	Class "Dagger"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 3 Hide
+#Show
+#	Rarity <= Magic
+#	Class "Dagger"
+#	SetBackgroundColor 0 0 0 210 # Junk Background
+#	#BlockStrictness 3 Disable
 
-Show
-	Rarity <= Magic
-	Class "Two Hand Sword"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 3 Hide
+#Hide
+#	Rarity <= Magic
+#	Class "Two Hand Sword"
+#	SetBackgroundColor 0 0 0 210 # Junk Background
+#	#BlockStrictness 3 Disable
 
-Show
-	Rarity <= Magic
-	Class "Thrusting"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 3 Hide
+#Hide
+#	Rarity <= Magic
+#	Class "Thrusting"
+#	SetBackgroundColor 0 0 0 210 # Junk Background
+#	#BlockStrictness 3 Disable
 
-Show
-	Rarity <= Magic
-	Class "One Hand Swords"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 3 Hide
+#Hide
+#	Rarity <= Magic
+#	Class "One Hand Swords"
+#	SetBackgroundColor 0 0 0 210 # Junk Background
+#	#BlockStrictness 3 Disable
 
-Show
-	Rarity <= Magic
-	Class "Two Hand Maces"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 3 Hide
+#Hide
+#	Rarity <= Magic
+#	Class "Two Hand Maces"
+#	SetBackgroundColor 0 0 0 210 # Junk Background
+#	#BlockStrictness 3 Disable
 
-Show
-	Rarity <= Magic
-	Class "One Hand Maces"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 3 Hide
+#Hide
+#	Rarity <= Magic
+#	Class "One Hand Maces"
+#	SetBackgroundColor 0 0 0 210 # Junk Background
+#	#BlockStrictness 3 Disable
 
-Show
-	Rarity <= Magic
-	Class "Claw"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 3 Hide
+#Hide
+#	Rarity <= Magic
+#	Class "Claw"
+#	SetBackgroundColor 0 0 0 210 # Junk Background
+#	#BlockStrictness 3 Disable
 
-Hide
-	Rarity <= Magic
-	Class "Sceptres"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 3 Hide
+#Show
+#	Rarity <= Magic
+#	Class "Sceptres"
+#	SetBackgroundColor 0 0 0 210 # Junk Background
+#	#BlockStrictness 3 Disable
 
 #-------------------------------------------------------------------------------
 # Subsection: Specific Armor Upgrade Toggles
 #-------------------------------------------------------------------------------
 
-# Two-Toned Boots
-Hide
-	Rarity <= Magic
-	BaseType "Two-Toned"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 3 Hide
-
 # STR Armor
-Show
-	Rarity <= Magic
-	BaseType "Plate" "Greave" "Burgonet" "Goliath" "Gladiator" "Antique" "Vaal Gauntlet" "Titan Gauntlet" "Steel Gauntlet" "Siege" "Reaver" "Iron Gauntlet" "Hat" "Cone" "Close" "Chestplate" "Bronze Gauntlet" "Barbute" "Ancient Gauntlet" "Samite Helmet" "Spiked Gloves"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 3 Hide
+#Hide
+#	Rarity <= Magic
+#	BaseType "Plate" "Greave" "Burgonet" "Goliath" "Gladiator" "Antique" "Vaal Gauntlet" "Titan Gauntlet" "Steel Gauntlet" "Siege" "Reaver" "Iron Gauntlet" "Hat" "Cone" "Close" "Chestplate" "Bronze Gauntlet" "Barbute" "Ancient Gauntlet" "Samite Helmet" "Spiked Gloves"
+#	SetBackgroundColor 0 0 0 210 # Junk Background
+#	#BlockStrictness 3 Disable
 
 # DEX Armor
-Show
-	Rarity <= Magic
-	BaseType "Tricorne" "Sharkskin" "Pelt" "Hood" "Goathide" "Eelskin" "Stealth" "Slink" "Shagreen" "Rawhide" "Nubuck" "Deerskin" "Zodiac" "Wild" "Thief" "Sun" "Shabby" "Glorious" "Frontier" "Exquisite" "Destiny" "Cutthroat" "Coronal" "Cap" "Buckskin" "Strapped Leather" "Full Leather" "Assassin's Garb" "Gripped Gloves"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 3 Hide
+#Hide
+#	Rarity <= Magic
+#	BaseType "Tricorne" "Sharkskin" "Pelt" "Hood" "Goathide" "Eelskin" "Stealth" "Slink" "Shagreen" "Rawhide" "Nubuck" "Deerskin" "Zodiac" "Wild" "Thief" "Sun" "Shabby" "Glorious" "Frontier" "Exquisite" "Destiny" "Cutthroat" "Coronal" "Cap" "Buckskin" "Strapped Leather" "Full Leather" "Assassin's Garb" "Gripped Gloves"
+#	SetBackgroundColor 0 0 0 210 # Junk Background
+#	#BlockStrictness 3 Disable
 
 # INT Armor
-Show
-	Rarity <= Magic
-	BaseType "Circlet" "Robe" "Slipper" "Silk" "Vestment" "Regalia" "Conjurer" "Wool" "Velvet" "Sorcerer" "Scholar" "Satin" "Samite" "Cage" "Arcanist" "Embroidered" "Bone Helmet"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 3 Hide
+#Hide
+#	Rarity <= Magic
+#	BaseType "Circlet" "Robe" "Slipper" "Silk" "Vestment" "Regalia" "Conjurer" "Wool" "Velvet" "Sorcerer" "Scholar" "Satin" "Samite" "Cage" "Arcanist" "Embroidered" "Bone Helmet"
+#	SetBackgroundColor 0 0 0 210 # Junk Background
+#	#BlockStrictness 3 Disable
 
 # STR/INT Armor
-Show
-	Rarity <= Magic
-	BaseType "Chainmail" "Ringmail" "Glove" "Crusader" "Crown" "Zealot" "Chain" "Riveted" "Mesh" "Legion" "Hauberk" "Great" "Soldier Boot" "Coif" "Aventail" "Soldier Helmet"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 3 Hide
+#Hide
+#	Rarity <= Magic
+#	BaseType "Chainmail" "Ringmail" "Glove" "Crusader" "Crown" "Zealot" "Chain" "Riveted" "Mesh" "Legion" "Hauberk" "Great" "Soldier Boot" "Coif" "Aventail" "Soldier Helmet"
+#	SetBackgroundColor 0 0 0 210 # Junk Background
+#	#BlockStrictness 3 Disable
 
 # STR/DEX Armor
-Show
-	Rarity <= Magic
-	BaseType "Gauntlet" "Brigandine" "Wyrmscale" "Dragonscale" "Scale" "Sallet" "Lamellar" "Helm" "Full" "Bascinet" "Steelscale" "Serpentscale" "Ironscale" "Hydrascale" "Bronzescale" "Leatherscale"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 3 Hide
+#Hide
+#	Rarity <= Magic
+#	BaseType "Gauntlet" "Brigandine" "Wyrmscale" "Dragonscale" "Scale" "Sallet" "Lamellar" "Helm" "Full" "Bascinet" "Steelscale" "Serpentscale" "Ironscale" "Hydrascale" "Bronzescale" "Leatherscale"
+#	SetBackgroundColor 0 0 0 210 # Junk Background
+#	#BlockStrictness 3 Disable
 
 # INT/DEX Armor
-Show
-	Rarity <= Magic
-	BaseType "Mask" "Boot" "Mitt" "Raiment" "Oiled" "Jacket" "Coat" "Armour" "Padded" "Waxed" "Sadist" "Lacquered"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 3 Hide
+#Hide
+#	Rarity <= Magic
+#	BaseType "Mask" "Boot" "Mitt" "Raiment" "Oiled" "Jacket" "Coat" "Armour" "Padded" "Waxed" "Sadist" "Lacquered"
+#	SetBackgroundColor 0 0 0 210 # Junk Background
+#	#BlockStrictness 3 Disable
 
 # STR Armor - Shields
-Show
-	Rarity <= Magic
-	Class "Shield"
-	BaseType "Tower"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 3 Hide
+#Hide
+#	Rarity <= Magic
+#	Class "Shield"
+#	BaseType "Tower"
+#	SetBackgroundColor 0 0 0 210 # Junk Background
+#	#BlockStrictness 3 Disable
 
 # DEX Armor - Shields
-Show
-	Rarity <= Magic
-	Class "Shield"
-	BaseType "Buckler"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 3 Hide
+#Hide
+#	Rarity <= Magic
+#	Class "Shield"
+#	BaseType "Buckler"
+#	SetBackgroundColor 0 0 0 210 # Junk Background
+#	#BlockStrictness 3 Disable
 
 # INT Armor - Shields
-Show
-	Rarity <= Magic
-	Class "Shield"
-	BaseType "Spirit"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 3 Hide
+#Hide
+#	Rarity <= Magic
+#	Class "Shield"
+#	BaseType "Spirit"
+#	SetBackgroundColor 0 0 0 210 # Junk Background
+#	#BlockStrictness 3 Disable
 
 # STR/INT Armor - Shields
-Show
-	Rarity <= Magic
-	Class "Shield"
-	BaseType "Kite"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 3 Hide
+#Hide
+#	Rarity <= Magic
+#	Class "Shield"
+#	BaseType "Kite"
+#	SetBackgroundColor 0 0 0 210 # Junk Background
+#	#BlockStrictness 3 Disable
 
 # STR/DEX Armor - Shields
-Show
-	Rarity <= Magic
-	Class "Shield"
-	BaseType "Round"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 3 Hide
+#Hide
+#	Rarity <= Magic
+#	Class "Shield"
+#	BaseType "Round"
+#	SetBackgroundColor 0 0 0 210 # Junk Background
+#	#BlockStrictness 3 Disable
 
 # INT/DEX Armor - Shields
-Show
-	Rarity <= Magic
-	Class "Shield"
-	BaseType "Spike"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 3 Hide
+#Hide
+#	Rarity <= Magic
+#	Class "Shield"
+#	BaseType "Spike"
+#	SetBackgroundColor 0 0 0 210 # Junk Background
+#	#BlockStrictness 3 Disable
 
 #-------------------------------------------------------------------------------
 # Subsection: Hide Remaining Equipment
