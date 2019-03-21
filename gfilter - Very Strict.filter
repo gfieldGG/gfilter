@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.6.9
+# VERSION:       3.6.10
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -184,11 +184,11 @@ Show
 Show
 	Class "Currency"
 	BaseType "Sanctified Fossil" "Tangled Fossil" "Dense Fossil" "Glyphic Fossil"
-	SetTextColor 102 193 245 255 # Delve Text
-	SetBackgroundColor 5 18 36 255 # Delve Highlight Background
-	SetBorderColor 102 193 245 255 # Delve Border
-	SetFontSize 41
-	#SetFontSizeTag 41 # Big
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 102 193 245 255 # Delve Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
 	CustomAlertSound "gfT15.mp3"
 	MinimapIcon 1 Blue Circle
 	PlayEffect Blue 
@@ -207,8 +207,9 @@ Show
 	BaseType "Fossil"
 	SetTextColor 102 193 245 255 # Delve Text
 	SetBackgroundColor 5 18 36 255 # Delve Highlight Background
-	SetFontSize 41
-	#SetFontSizeTag 41 # Big
+	SetBorderColor 102 193 245 255 # Delve Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
 	CustomAlertSound "gfT2.mp3"
 	MinimapIcon 2 Blue Circle
 	PlayEffect Blue Temp
@@ -630,15 +631,19 @@ Hide
 	Class "Divination Card"
 	BaseType "The Wolf's Shadow" "The Master Artisan"
 	SetTextColor 14 186 255 255 # Divination Card Text
-	SetBackgroundColor 0 0 0 210 # Junk Background
+	SetBackgroundColor 0 0 0 255 # Default Background
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
-	#BlockStrictness 2 Hide
+	#BlockStrictness 3 Hide
+
+#-------------------------------------------------------------------------------
+# Subsection: Tier0
+#-------------------------------------------------------------------------------
 
 # Divination Card Tier0
 Show
 	Class "Divination Card"
-	BaseType "House of Mirrors" "The Doctor" "The Fiend"
+	BaseType "House of Mirrors" "The Doctor" "The Fiend" "Beauty Through Death"
 	SetTextColor 14 186 255 255 # Divination Card Text
 	SetBackgroundColor 255 255 255 255 # Tier0 Background
 	SetBorderColor 14 186 255 255 # Divination Card Border
@@ -648,10 +653,14 @@ Show
 	MinimapIcon 0 Red Star
 	PlayEffect Blue 
 
+#-------------------------------------------------------------------------------
+# Subsection: Tier1
+#-------------------------------------------------------------------------------
+
 # Divination Card Tier1
 Show
 	Class "Divination Card"
-	BaseType "Abandoned Wealth" "Beauty Through Death" "House of Mirrors" "Hunter's Reward" "Immortal Resolve" "Mawr Blaidd" "Pride Before the Fall" "Seven Years Bad Luck" "The Doctor" "The Dragon's Heart" "The Ethereal" "The Fiend" "The Immortal" "The Iron Bard" "The King's Heart" "The Life Thief" "The Master" "The Mayor" "The Nurse" "The Offering" "The Risk" "The Samurai's Eye" "The Spark and the Flame" "The Wind" "The Wolven King's Bite" "Wealth and Power"
+	BaseType "House of Mirrors" "Beauty Through Death" "The Doctor" "The Fiend" "Immortal Resolve" "The Life Thief" "The Immortal"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 14 186 255 255 # Divination Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -661,10 +670,40 @@ Show
 	MinimapIcon 0 Red Star
 	PlayEffect Blue 
 
+# Divination Card Tier1.5
+Show
+	Class "Divination Card"
+	BaseType "The Samurai's Eye" "The Iron Bard" "Abandoned Wealth" "Hunter's Reward" "Mawr Blaidd" "The Offering" "Pride Before the Fall" "The Dragon's Heart" "The Ethereal" "The Risk" "Wealth and Power" "The King's Heart" "The Polymath" "The Wolven King's Bite" "The Spark and the Flame" "The Nurse" "The Mayor" "The Mad King" "The Queen" "The Enlightened" "The Celestial Justicar" "The Saint's Treasure" "The World Eater" "The Sacrifice" "Seven Years Bad Luck" "The Brittle Emperor" "The Vast" "The Artist" "The Master"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 14 186 255 255 # Divination Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	CustomAlertSound "gfT15.mp3"
+	MinimapIcon 1 Red Star
+	PlayEffect Blue 
+
+#-------------------------------------------------------------------------------
+# Subsection: Tier2
+#-------------------------------------------------------------------------------
+
+# Divination Card Tier2 Currency (fix)
+Show
+	Class "Divination Card"
+	BaseType "The Wrath" "Vinia's Token" "The Survivalist" "The Union"
+	SetTextColor 14 186 255 255 # Divination Card Text
+	SetBackgroundColor 25 33 33 255 # Divination Card Highlight Background
+	SetBorderColor 14 186 255 255 # Divination Card Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	CustomAlertSound "gfT2.mp3"
+	MinimapIcon 1 Yellow Star
+	PlayEffect Blue 
+
 # Divination Card Tier2
 Show
 	Class "Divination Card"
-	BaseType "Chaotic Disposition" "The Artist" "The Brittle Emperor" "The Cartographer" "The Celestial Justicar" "The Celestial Stone" "The Dreamer" "The Enlightened" "The Hoarder" "The Landing" "The Polymath" "The Professor" "The Queen" "The Sacrifice" "The Saint's Treasure" "The Sephirot" "The Undaunted" "The Vast" "The Void" "The Wolf" "The World Eater" "Humility"
+	BaseType "The Hunger" "Perfection" "The Tyrant" "The Dreamer" "Chaotic Disposition" "The Dapper Prodigy" "The Sephirot" "The Wind" "The Porcupine" "The Hale Heart" "The Professor" "The Endless Darkness" "The Celestial Stone" "The Insatiable" "Audacity" "The Hoarder" "The Throne" "The Wolf" "The Landing" "Merciless Armament" "The Undisputed" "The Seeker" "The Last One Standing" "Bowyer's Dream" "Heterochromia" "The Void" "The Jeweller's Boon" "The Undaunted" "Left to Fate" "Emperor of Purity" "The Chains that Bind" "The Dark Mage" "The Formless Sea" "The Jester" "The Road to Power" "The Valkyrie" "The Obscured" "The Breach" "The Lord of Celebration" "The Journey" "Monochrome" "Boon of the First Ones" "The Surveyor" "Humility" "Last Hope" "The Avenger" "The Cursed King" "The Penitent" "The Soul" "The Trial" "The Warlord" "Time-Lost Relic" "The Valley of Steel Boxes" "Atziri's Arsenal" "Rebirth" "The Beast" "The Rite of Elements" "The Darkest Dream" "Harmony of Souls" "The Innocent" "The Wilted Rose" "The Price of Protection" "Arrogance of the Vaal" "Alone in the Darkness" "The Messenger" "The Lord in Black" "The Twilight Moon" "The Cartographer" "The Siren" "No Traces" "The Ruthless Ceinture" "Blessing of God" "The Thaumaturgist"
 	SetTextColor 14 186 255 255 # Divination Card Text
 	SetBackgroundColor 25 33 33 255 # Divination Card Highlight Background
 	SetBorderColor 14 186 255 255 # Divination Card Border
@@ -687,22 +726,22 @@ Show
 	MinimapIcon 1 Yellow Star
 	PlayEffect Blue 
 
-# Divination Card Tier3
-Show
-	Class "Divination Card"
-	BaseType "Alone in the Darkness" "Arrogance of the Vaal" "Assassin's Favour" "Atziri's Arsenal" "Blind Venture" "Boon of the First Ones" "Bowyer's Dream" "Emperor of Purity" "Glimmer of Hope" "Harmony of Souls" "Heterochromia" "Jack in the Box" "Last Hope" "Left to Fate" "Lingering Remnants" "Lucky Connections" "Lucky Deck" "Monochrome" "No Traces" "Perfection" "Rebirth" "Sambodhi's Vow" "Scholar of the Seas" "The Admirer" "The Aesthete" "The Avenger" "The Body" "The Breach" "The Cacophony" "The Chains that Bind" "The Cursed King" "The Dapper Prodigy" "The Dark Mage" "The Encroaching Darkness" "The Endless Darkness" "The Formless Sea" "The Gladiator" "The Hale Heart" "The Hunger" "The Innocent" "The Inventor" "The Jester" "The Jeweller's Boon" "The Journey" "The Last One Standing" "The Lion" "The Mad King" "The Mercenary" "The Messenger" "The Obscured" "The Penitent" "The Porcupine" "The Price of Protection" "The Seeker" "The Surveyor" "The Thaumaturgist" "The Throne" "The Traitor" "The Trial" "The Twilight Moon" "The Undisputed" "The Valkyrie" "The Valley of Steel Boxes" "The Warlord" "The Wilted Rose" "The Wretched" "Time-Lost Relic"
-	SetTextColor 14 186 255 255 # Divination Card Text
-	SetBackgroundColor 25 33 33 255 # Divination Card Highlight Background
-	SetFontSize 45
-	#SetFontSizeTag 45 # Yuge
-	CustomAlertSound "gfT3.mp3"
-	MinimapIcon 2 White Star
-	PlayEffect Blue Temp
+#-------------------------------------------------------------------------------
+# Subsection: Other
+#-------------------------------------------------------------------------------
 
 # Divination Card Trash
 Hide
 	Class "Divination Card"
-	BaseType "A Mother's Parting Gift" "Anarchy's Price" "Birth of the Three" "Carrion Crow" "Cartographer's Delight" "Dark Temptation" "Death" "Destined to Crumble" "Doedre's Madness" "Dying Anguish" "Forbidden Power" "Grave Knowledge" "Hermit" "King's Blade" "Lantador's Lost Love" "Light and Truth" "Metalsmith's Gift" "Might is Right" "Other Cheek" "Prosperity" "Rain Tempter" "Rats" "Struck by Lightning" "The Army of Blood" "The Betrayal" "The Blazing Fire" "The Calling" "The Coming Storm" "The Deceiver" "The Eye of the Dragon" "The Fox" "The Incantation" "The Inoculated" "The Lich" "The Lover" "The Lunaris Priestess" "The Metalsmith's Gift" "The Opulent" "The Pack Leader" "The Pact" "The Rabid Rhoa" "The Ruthless Ceinture" "The Scarred Meadow" "The Sigil" "The Siren" "The Sun" "The Surgeon" "The Twins" "The Visionary" "The Warden" "The Watcher" "The Witch" "Thunderous Skies" "Tranquillity" "Volatile Power" "The Golden Era"
+	BaseType "Might is Right" "The Wolverine" "Assassin's Favour" "The Eye of the Dragon" "Treasure Hunter" "The Flora's Gift" "The Hermit" "A Mother's Parting Gift" "Doedre's Madness" "Grave Knowledge" "Her Mask" "Lantador's Lost Love" "The Battle Born" "The Carrion Crow" "The Conduit" "The Endurance" "The King's Blade" "The Lunaris Priestess" "The Metalsmith's Gift" "The Tower" "The Warden" "Thunderous Skies" "Turn the Other Cheek" "The Blazing Fire" "The Master Artisan" "Birth of the Three" "Carrion Crow" "Dying Anguish" "Hermit" "King's Blade" "Metalsmith's Gift" "Other Cheek"
+	SetTextColor 14 186 255 255 # Divination Card Text
+	SetBackgroundColor 0 0 0 210 # Junk Background
+	#BlockStrictness 1 Hide
+
+# Divination Card Trash Currency (fix)
+Hide
+	Class "Divination Card"
+	BaseType "Rain of Chaos" "The Puzzle" "The Scholar"
 	SetTextColor 14 186 255 255 # Divination Card Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
 	#BlockStrictness 1 Hide
@@ -714,7 +753,7 @@ Hide
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
-	#BlockStrictness 2 Hide
+	#BlockStrictness 3 Hide
 
 #-------------------------------------------------------------------------------
 # Section: Currency
@@ -2198,7 +2237,7 @@ Show
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 6 150 # Tier3
-	MinimapIcon 1 Yellow Hexagon
+	MinimapIcon 1 White Hexagon
 	PlayEffect Brown 
 
 # Unique Fated
@@ -2220,6 +2259,18 @@ Show
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 6 150 # Tier3
 	MinimapIcon 1 Yellow Circle
+	PlayEffect Brown Temp
+
+# Unique Jewel
+Show
+	Rarity = Unique
+	Class "Jewel"
+	SetTextColor 175 96 37 255 # Unique Text
+	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	PlayAlertSound 6 150 # Tier3
+	MinimapIcon 1 White Hexagon
 	PlayEffect Brown Temp
 
 # Unique
