@@ -2237,7 +2237,7 @@ Show
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 6 150 # Tier3
-	MinimapIcon 1 Yellow Hexagon
+	MinimapIcon 1 White Hexagon
 	PlayEffect Brown 
 
 # Unique Fated
@@ -2259,6 +2259,18 @@ Show
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 6 150 # Tier3
 	MinimapIcon 1 Yellow Circle
+	PlayEffect Brown Temp
+
+# Unique Jewel
+Show
+	Rarity = Unique
+	Class "Jewel"
+	SetTextColor 175 96 37 255 # Unique Text
+	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	PlayAlertSound 6 150 # Tier3
+	MinimapIcon 1 White Hexagon
 	PlayEffect Brown Temp
 
 # Unique
