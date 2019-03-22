@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.6.13
+# VERSION:       3.6.14
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -1316,6 +1316,7 @@ Show
 # Shaped Map
 Show
 	ShapedMap True
+	MapTier <= 10
 	Class "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 200 0 255 # Map Yellow Background
@@ -1325,6 +1326,19 @@ Show
 	PlayAlertSound 4 150 # Map
 	MinimapIcon 1 Yellow Square
 	PlayEffect Yellow 
+
+# Shaped Map
+Show
+	ShapedMap True
+	Class "Maps"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 243 40 29 255 # Map Red Background
+	SetBorderColor 122 20 15 255 # Map Red Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 4 150 # Map
+	MinimapIcon 1 Red Square
+	PlayEffect Red 
 
 # Map Unique
 Show
