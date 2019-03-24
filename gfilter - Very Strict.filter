@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.6.14
+# VERSION:       3.6.15
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -236,8 +236,6 @@ Hide
 	SetBorderColor 102 193 245 255 # Delve Border
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
-	CustomAlertSound "gfT3.mp3"
-	MinimapIcon 2 Blue Circle
 	PlayEffect Blue Temp
 	#BlockStrictness 3 Hide
 
@@ -472,14 +470,13 @@ Hide
 #-------------------------------------------------------------------------------
 
 # Breach Splinter
-Hide
+Show
 	Class "Stackable Currency"
 	BaseType "Splinter of Esh" "Splinter of Tul" "Splinter of Uul-Netol" "Splinter of Xoph"
 	SetTextColor 166 95 244 255 # Breach Text
 	SetBackgroundColor 40 4 0 255 # Breach Red Highlight Background
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
-	#BlockStrictness 3 Hide
 
 # Breach Splinter
 Show
