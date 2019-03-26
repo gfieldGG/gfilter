@@ -1130,9 +1130,62 @@ Show
 	MinimapIcon 0 Red Hexagon
 	PlayEffect Red 
 
+# Gem Tier1.5
+Show
+	GemLevel >= 2
+	Class "Skill Gems"
+	BaseType "Empower Support" "Enlighten Support" "Enhance Support"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 26 162 155 255 # Gem Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	CustomAlertSound "gfT15.mp3"
+	MinimapIcon 0 Red Hexagon
+	PlayEffect Red 
+
+# Gem Tier2
+Show
+	Class "Active Skill Gems" "Support Skill Gems"
+	BaseType "Empower" "Enlighten" "Vaal Breach"
+	SetTextColor 26 162 155 255 # Gem Text
+	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
+	SetBorderColor 26 162 155 255 # Gem Border
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	CustomAlertSound "gfT2.mp3"
+	MinimapIcon 1 Yellow Hexagon
+
+# Gem Vaal lvl21
+Show
+	Corrupted True
+	GemLevel >= 21
+	Class "Active Skill Gems" "Support Skill Gems"
+	BaseType "Vaal"
+	SetTextColor 26 162 155 255 # Gem Text
+	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
+	SetBorderColor 161 27 123 255 # Vaal Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	CustomAlertSound "gfT15.mp3"
+	MinimapIcon 0 Red Hexagon
+
+# Gem lvl21
+Show
+	GemLevel >= 21
+	Class "Active Skill Gems" "Support Skill Gems"
+	BaseType
+	SetTextColor 26 162 155 255 # Gem Text
+	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
+	SetBorderColor 26 162 155 255 # Gem Border
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	CustomAlertSound "gfT2.mp3"
+	MinimapIcon 1 Yellow Hexagon
+
 # Gem Quality 20
 Show
-	Quality = 20
+	Quality >= 20
 	Class "Active Skill Gems" "Support Skill Gems"
 	SetTextColor 26 162 155 255 # Gem Text
 	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
@@ -1142,19 +1195,10 @@ Show
 	CustomAlertSound "gfT2.mp3"
 	MinimapIcon 1 Yellow Hexagon
 
-# Gem Tier1
+# Gem Vaal Quality
 Show
-	Class "Active Skill Gems" "Support Skill Gems"
-	BaseType "Empower" "Enlighten" "Portal"
-	SetTextColor 26 162 155 255 # Gem Text
-	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
-	SetFontSize 45
-	#SetFontSizeTag 45 # Yuge
-	CustomAlertSound "gfT3.mp3"
-	MinimapIcon 1 Yellow Hexagon
-
-# Gem Vaal
-Show
+	Corrupted True
+	Quality >= 12
 	Class "Active Skill Gems" "Support Skill Gems"
 	BaseType "Vaal"
 	SetTextColor 26 162 155 255 # Gem Text
@@ -1162,27 +1206,54 @@ Show
 	SetBorderColor 161 27 123 255 # Vaal Border
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
+	CustomAlertSound "gfT2.mp3"
+	MinimapIcon 1 Yellow Hexagon
+	#BlockStrictness 10 Hide
+	#VariableStrictness quality 14 16 18 -1 -1 -1 -1 -1 -1
+
+# Gem Vaal T2
+Show
+	Corrupted True
+	Class "Active Skill Gems" "Support Skill Gems"
+	BaseType "Vaal Discipline" "Vaal Haste" "Vaal Grace"
+	SetTextColor 26 162 155 255 # Gem Text
+	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
+	SetBorderColor 161 27 123 255 # Vaal Border
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	CustomAlertSound "gfT2.mp3"
+	MinimapIcon 1 Yellow Hexagon
+
+# Gem Vaal
+Show
+	Corrupted True
+	Class "Active Skill Gems" "Support Skill Gems"
+	BaseType "Vaal"
+	SetTextColor 26 162 155 255 # Gem Text
+	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
+	SetBorderColor 161 27 123 255 # Vaal Border
+	SetFontSize 37
+	#SetFontSizeTag 37 # Medium
 
 # Gem Quality High
 Show
-	Quality >= 16
+	Quality >= 12
 	Class "Active Skill Gems" "Support Skill Gems"
 	SetTextColor 26 162 155 255 # Gem Text
 	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
-	SetBorderColor 26 162 155 255 # Gem Border
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
 	PlayAlertSound 6 150 # Tier3
 	MinimapIcon 2 White Hexagon
 	#BlockStrictness 10 Hide
-	#VariableStrictness quality -1 18 20 -1 -1 -1 -1 -1 -1
+	#VariableStrictness quality 16 18 20 -1 -1 -1 -1 -1 -1
 
 # Gem Quality
 Show
 	Quality > 0
 	Class "Active Skill Gems" "Support Skill Gems"
 	SetTextColor 26 162 155 255 # Gem Text
-	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
+	SetBackgroundColor 0 0 0 255 # Default Background
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
 	#BlockStrictness 2 Hide
