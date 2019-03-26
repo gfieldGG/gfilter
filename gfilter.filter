@@ -1401,6 +1401,34 @@ Show
 	MinimapIcon 1 Red Square
 	PlayEffect Red 
 
+# Map Unique Tier1
+Show
+	Rarity = Unique
+	Class "Maps"
+	BaseType "Chateau"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 175 96 37 255 # Unique Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	CustomAlertSound "gfT1.mp3"
+	MinimapIcon 0 Red Square
+	PlayEffect Brown 
+
+# Map Unique Tier1.5
+Show
+	Rarity = Unique
+	Class "Maps"
+	BaseType "Harbinger Map" "Maze Map" "Museum Map"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 175 96 37 255 # Unique Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	CustomAlertSound "gfT15.mp3"
+	MinimapIcon 1 Red Square
+	PlayEffect Brown 
+
 # Map Unique
 Show
 	Rarity = Unique
