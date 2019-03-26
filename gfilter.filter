@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.6.15
+# VERSION:       3.6.16
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -546,15 +546,6 @@ Show
 	#SetFontSizeTag 41 # Big
 	#BlockStrictness 3 Hide
 
-# Prophecy
-Show
-	Class "Currency"
-	BaseType "Prophecy"
-	SetTextColor 125 0 175 255 # Prophecy Text
-	SetBackgroundColor 30 0 30 255 # Prophecy Highlight Background
-	SetFontSize 41
-	#SetFontSizeTag 41 # Big
-
 # Pale Court Key
 Show
 	Class "Map Fragments"
@@ -567,6 +558,66 @@ Show
 	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 1 Red Diamond
 	PlayEffect Red 
+
+#-------------------------------------------------------------------------------
+# Subsection: Prophecies
+#-------------------------------------------------------------------------------
+
+# Prophecy Tier0
+Show
+	Class "Currency"
+	Prophecy "The Queen's Sacrifice" "Fated Connections" "Trash to Treasure"
+	SetTextColor 125 0 175 255 # Prophecy Text
+	SetBackgroundColor 255 255 255 255 # Tier0 Background
+	SetBorderColor 125 0 175 255 # Prophecy Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	CustomAlertSound "gfT0.mp3"
+	MinimapIcon 0 Red Circle
+
+# Prophecy Tier1
+Show
+	Class "Currency"
+	Prophecy "Lost in the Pages" "Wind and Thunder" "The King's Path"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 125 0 175 255 # Prophecy Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	CustomAlertSound "gfT1.mp3"
+	MinimapIcon 0 Red Circle
+
+# Prophecy Tier1.5
+Show
+	Class "Currency"
+	Prophecy "The Jeweller's Touch" "Darktongue's Shriek" "Monstrous Treasure" "Cleanser of Sins" "Flesh of the Beast" "Vaal Winds" "Twice Enchanted" "The Lost Undying" "Graceful Flames" "The Apex Predator" "The Queen's Vaults" "Servant's Heart" "Dishonourable Death" "Fire from the Sky" "Ice from Above" "The Undead Storm" "Crushing Squall" "Lightning Falls" "Plague of Rats" "Plague of Frogs" "The Cursed Choir" "The Hungering Swarm" "Brothers of Necromancy" "Undead Brutes" "Soil, Worms and Blood" "Hidden Reinforcements" "The Trembling Earth" "The Scout" "The Plaguemaw V" "Deadly Rivalry V" "The Unbreathing Queen V" "Unbearable Whispers V" "Thaumaturgical History IV" "The Warmongers IV"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 125 0 175 255 # Prophecy Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	CustomAlertSound "gfT15.mp3"
+	MinimapIcon 1 Red Circle
+
+# Prophecy Trash
+Show
+	Class "Currency"
+	Prophecy "Storm on the Horizon" "Vital Transformation" "The Prison Key" "The Petrified" "The Eagle's Cry" "Heavy Blows" "Gilded Within" "Ending the Torment" "Against the Tide" "A Call into the Void" "The Prison Guard" "The Corrupt" "Golden Touch" "A Whispered Prayer" "Hidden Vaal Pathways" "A Valuable Combination" "Roth's Legacy" "From Death Springs Life" "Resistant to Change" "Hunter's Lesson" "Storm on the Reef" "The God of Misfortune" "The Invader" "Forceful Exorcism" "The Sword King's Passion" "Baptism by Death" "The Walking Mountain" "The Alchemist" "The Nest" "The Mysterious Gift" "Possessed Foe" "Risen Blood" "The Sharpened Blade" "The Singular Spirit" "Touched by the Wind" "Crimson Hues" "The Watcher's Watcher" "A Regal Death" "Pleasure and Pain" "Winter's Mournful Melodies" "The Storm Spire" "Lasting Impressions" "The Ward's Ward" "The Singular Spirit" "The Fall of an Empire" "Agony at Dusk" "Trapped in the Tower" "The Stockkeeper" "The Soulless Beast" "The Snuffed Flame" "The Sinner's Stone" "The Nightmare Awakens" "The Mentor" "The Malevolent Witch" "The Lost Maps" "The Lady in Black" "The Karui Rebellion" "The Hardened Armour" "The Flow of Energy" "The Flayed Man" "The Dreaded Rhoa" "The Bishop's Legacy" "Smothering Tendrils" "Power Magnified" "Notched Flesh" "Nemesis of Greed" "Mouth of Horrors" "Kalandra's Craft" "Heart of the Fire" "Fire, Wood and Stone" "Fire and Ice" "Fire and Brimstone" "Fear's Wide Reach" "Faith Exhumed" "Erased from Memory" "End of the Light" "Dying Cry" "Dark Instincts" "Dance of Steel" "Cold Greed" "Cold Blooded Fury" "Burning Dread" "Blood of the Betrayed" "Blinding Light" "Battle Hardened" "Ancient Doom" "Abnormal Effulgence" "A Rift in Time" "A Firm Foothold" "Severed Limbs" "Strong as a Bull" "The Brutal Enforcer" "Blood in the Eyes" "A Prodigious Hand" "Defiled in the Sceptre" "Holding the Bridge" "The Child of Lunaris" "The Forgotten Garrison" "Unnatural Energy" "Visions of the Drowned" "Weeping Death" "The Fortune Teller's Collection" "The Forgotten Soldiers" "The Bloody Flowers Redux" "The Vanguard" "Living Fires" "In the Grasp of Corruption" "Pools of Wealth" "Path of Betrayal" "Vaal Invasion" "The Plaguemaw I" "The Plaguemaw II" "The Plaguemaw III" "Deadly Rivalry I" "Deadly Rivalry II" "Deadly Rivalry III" "The Unbreathing Queen I" "The Unbreathing Queen II" "The Unbreathing Queen III" "Unbearable Whispers I" "Unbearable Whispers II" "Unbearable Whispers III" "Thaumaturgical History I" "The Warmongers I" "Thaumaturgical History II" "The Warmongers II"
+	SetTextColor 125 0 175 255 # Prophecy Text
+	SetBackgroundColor 0 0 0 210 # Junk Background
+	#BlockStrictness 2 Hide
+
+# Prophecy Tier2
+Show
+	Class "Currency"
+	BaseType "Prophecy"
+	SetTextColor 125 0 175 255 # Prophecy Text
+	SetBackgroundColor 30 0 30 255 # Prophecy Highlight Background
+	SetBorderColor 125 0 175 255 # Prophecy Border
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	CustomAlertSound "gfT2.mp3"
+	MinimapIcon 1 Yellow Circle
 
 #-------------------------------------------------------------------------------
 # Section: Essences
