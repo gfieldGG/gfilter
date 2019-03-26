@@ -1174,7 +1174,6 @@ Show
 Show
 	GemLevel >= 21
 	Class "Active Skill Gems" "Support Skill Gems"
-	BaseType
 	SetTextColor 26 162 155 255 # Gem Text
 	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
 	SetBorderColor 26 162 155 255 # Gem Border
