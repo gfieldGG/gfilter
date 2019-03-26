@@ -91,17 +91,30 @@ Show
 # Subsection: Fractured
 #-------------------------------------------------------------------------------
 
-# Fractured T1 Base
+# Fractured Unique
 Show
 	FracturedItem True
-	Rarity <= Rare
-	BaseType "Titanium Spirit Shield" "Sorcerer Boots" "Sorcerer Gloves" "Vaal Regalia" "Hubris Circlet"
+	Rarity = Unique
+	SetTextColor 175 96 37 255 # Unique Text
 	SetBackgroundColor 64 64 64 255 # Fractured Background
-	SetBorderColor 0 0 158 255 # Synthesis Border
+	SetBorderColor 175 96 37 255 # Unique Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 1 Yellow Hexagon
+	PlayEffect White 
+
+# Fractured lvl86
+Show
+	FracturedItem True
+	Rarity <= Rare
+	ItemLevel >= 86
+	SetBackgroundColor 64 64 64 255 # Fractured Background
+	SetBorderColor 0 0 158 255 # Synthesis Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 7 300 # Tier1.5
+	MinimapIcon 1 Red Hexagon
 	PlayEffect White 
 
 # Fractured Jewelry ilvl82
@@ -114,15 +127,15 @@ Show
 	SetBorderColor 0 0 158 255 # Synthesis Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 1 Yellow Hexagon
+	PlayAlertSound 7 300 # Tier1.5
+	MinimapIcon 1 Red Hexagon
 	PlayEffect White 
 
-# Fractured lvl86
+# Fractured T1 Base
 Show
 	FracturedItem True
 	Rarity <= Rare
-	ItemLevel >= 86
+	BaseType "Titanium Spirit Shield" "Sorcerer Boots" "Sorcerer Gloves" "Vaal Regalia" "Hubris Circlet"
 	SetBackgroundColor 64 64 64 255 # Fractured Background
 	SetBorderColor 0 0 158 255 # Synthesis Border
 	SetFontSize 45
@@ -154,7 +167,7 @@ Show
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
 	PlayEffect White Temp
-	#BlockStrictness 3 Hide
+	#BlockStrictness 3 Disable
 
 # Fractured Item
 Show
@@ -165,7 +178,7 @@ Show
 	SetFontSize 37
 	#SetFontSizeTag 37 # Medium
 	PlayEffect White Temp
-	#BlockStrictness 2 Hide
+	#BlockStrictness 2 Disable
 
 #-------------------------------------------------------------------------------
 # Subsection: Synthesised
