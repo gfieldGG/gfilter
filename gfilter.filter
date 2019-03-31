@@ -1,9 +1,9 @@
-﻿#===============================================================================
+#===============================================================================
 # GFILTER
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.6.16
+# VERSION:       3.6.17
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -2738,7 +2738,7 @@ Show
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 6 150 # Tier3
 	MinimapIcon 2 White Hexagon
-	#BlockStrictness 3 Disable
+	#BlockStrictness 3 Hide
 
 # Rare Atlas T1 ilvl86
 Show
@@ -2775,9 +2775,7 @@ Show
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 6 150 # Tier3
-	MinimapIcon 2 White Hexagon
-	#BlockStrictness 3 Disable
+	#BlockStrictness 3 Hide
 
 # Rare Atlas T1
 Show
@@ -2788,7 +2786,7 @@ Show
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
-	#BlockStrictness 3 Disable
+	#BlockStrictness 3 Hide
 
 # Rare T1-2 ilvl86
 Show
@@ -2835,8 +2833,8 @@ Show
 	BaseType "Imperial Claw" "Gemini Claw" "Imbued Wand" "Platinum Kris" "Jewelled Foil" "Corsair Sword" "Titan Gauntlets" "Titan Greaves" "Royal Burgonet" "Eternal Burgonet" "Lion Pelt" "Slink Boots" "Slink Gloves" "Hubris Circlet" "Fossilised Spirit Shield" "Titanium Spirit Shield" "Goliath Greaves" "Murder Boots" "Murder Mitts" "Imperial Buckler" "Sorcerer Boots" "Sorcerer Gloves"
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
-	SetBorderColor 255 255 119 255 # Rare Border
 	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
 	#BlockStrictness 3 Hide
 
 # Rare Base Small Tier1
@@ -2847,6 +2845,7 @@ Show
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
 	#BlockStrictness 3 Hide
 
 # Rare Base Big Tier1 ilvl75
@@ -2856,8 +2855,8 @@ Show
 	BaseType "Opal Sceptre" "Void Sceptre" "Sambar Sceptre" "Astral Plate" "Archon Kite Shield" "Vaal Regalia"
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
-	SetBorderColor 255 255 119 255 # Rare Border
 	SetFontSize 41
+	#SetFontSizeTag 41 # Big
 	#BlockStrictness 2 Hide
 
 # Rare Base Big Tier1
@@ -2868,6 +2867,7 @@ Show
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 	SetFontSize 41
+	#SetFontSizeTag 41 # Big
 	#BlockStrictness 2 Hide
 
 #-------------------------------------------------------------------------------
@@ -2881,6 +2881,7 @@ Show
 	BaseType "Gripped Gloves" "Two-Toned Boots" "Bone Helmet" "Spiked Gloves" "Fingerless Silk Gloves"
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+	SetBorderColor 255 255 119 255 # Rare Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 6 150 # Tier3
@@ -2903,6 +2904,7 @@ Show
 	BaseType "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Prismatic" "Unset Ring" "Gold Ring" "Citrine Amulet" "Turquoise Amulet" "Agate Amulet" "Coral Ring" "Moonstone Ring" "Leather Belt" "Heavy Belt" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Rustic Sash"
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+	SetBorderColor 255 255 119 255 # Rare Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 6 150 # Tier3
@@ -2927,6 +2929,7 @@ Show
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 	SetFontSize 41
+	#SetFontSizeTag 41 # Big
 	#BlockStrictness 3 Hide
 
 # Rare Base Small Tier2
@@ -2937,6 +2940,7 @@ Show
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 	SetFontSize 41
+	#SetFontSizeTag 41 # Big
 	#BlockStrictness 2 Hide
 
 # Rare Base Big Tier2 ilvl75
@@ -2947,6 +2951,7 @@ Show
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 	SetFontSize 37
+	#SetFontSizeTag 37 # Medium
 	#BlockStrictness 2 Hide
 
 # Rare Base Big Tier2
@@ -2957,6 +2962,7 @@ Show
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 	SetFontSize 37
+	#SetFontSizeTag 37 # Medium
 	#BlockStrictness 2 Hide
 
 #-------------------------------------------------------------------------------
@@ -2992,6 +2998,7 @@ Show
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 	SetFontSize 41
+	#SetFontSizeTag 41 # Big
 	#BlockStrictness 2 Hide
 
 # Rare Endgame
