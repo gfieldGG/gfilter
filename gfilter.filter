@@ -167,7 +167,7 @@ Show
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
 	PlayEffect White Temp
-	#BlockStrictness 3 Disable
+	#BlockStrictness 2 Disable
 
 # Fractured Item
 Show
