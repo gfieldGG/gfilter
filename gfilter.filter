@@ -1,4 +1,4 @@
-#===============================================================================
+﻿#===============================================================================
 # GFILTER
 #===============================================================================
 #
@@ -1926,8 +1926,8 @@ Show
 	Rarity <= Rare
 	ItemLevel >= 80
 	BaseType "Opal Ring" "Steel Ring" "Stygian Vise" "Crystal Belt" "Blue Pearl Amulet" "Marble Amulet" "Fingerless Silk Gloves" "Spiked Gloves" "Gripped Gloves" "Bone Helmet" "Two-Toned Boots"
-	SetTextColor 159 0 0 255 # Shelder Text
-	SetBackgroundColor 50 0 50 255 # Shelder Background
+	SetTextColor 43 150 211 255 # Shaper Text
+	SetBackgroundColor 0 38 66 255 # Shaper Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
@@ -1939,8 +1939,8 @@ Show
 	ShaperItem True
 	Rarity <= Rare
 	BaseType "Opal Ring" "Steel Ring" "Stygian Vise" "Crystal Belt" "Blue Pearl Amulet" "Marble Amulet" "Fingerless Silk Gloves" "Spiked Gloves" "Gripped Gloves" "Bone Helmet" "Two-Toned Boots"
-	SetTextColor 159 0 0 255 # Shelder Text
-	SetBackgroundColor 50 0 50 255 # Shelder Background
+	SetTextColor 43 150 211 255 # Shaper Text
+	SetBackgroundColor 0 38 66 255 # Shaper Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
@@ -1957,8 +1957,8 @@ Show
 	Rarity <= Rare
 	ItemLevel >= 82
 	BaseType "Crystal Belt" "Fingerless Silk Gloves" "Steel Ring" "Opal Ring" "Titanium Spirit Shield" "Eclipse Staff" "Crystal Sceptre" "Heathen Wand"
-	SetTextColor 159 0 0 255 # Shelder Text
-	SetBackgroundColor 50 0 50 255 # Shelder Background
+	SetTextColor 43 150 211 255 # Shaper Text
+	SetBackgroundColor 0 38 66 255 # Shaper Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
@@ -1971,8 +1971,8 @@ Show
 	Rarity <= Rare
 	ItemLevel >= 84
 	BaseType "Profane Wand" "Vaal Regalia" "Golden Kris" "Opal Wand" "Citrine Amulet" "Hubris Circlet" "Sorcerer Gloves" "Platinum Kris" "Jade Amulet" "Onyx Amulet" "Sorcerer Boots" "Occultist's Vestment" "Two-Toned Boots" "Widowsilk Robe"
-	SetTextColor 159 0 0 255 # Shelder Text
-	SetBackgroundColor 50 0 50 255 # Shelder Background
+	SetTextColor 43 150 211 255 # Shaper Text
+	SetBackgroundColor 0 38 66 255 # Shaper Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
@@ -1985,8 +1985,8 @@ Show
 	Rarity <= Rare
 	ItemLevel >= 86
 	BaseType "Agate Amulet" "Sambar Sceptre" "Void Sceptre" "Vaal Sceptre" "Samite Gloves" "Paua Amulet" "Lapis Amulet" "Ambusher" "Gold Amulet" "Amber Amulet" "Turquoise Amulet" "Blood Raiment" "Sharkskin Gloves" "Coral Amulet" "Platinum Sceptre" "Sai" "Tornado Wand" "Abyssal Sceptre" "Vaal Mask" "Lithe Blade" "Lion Pelt" "Astral Plate" "Fossilised Spirit Shield" "Sharkskin Boots" "Exquisite Blade" "Serpentine Staff" "Diamond Ring" "Praetor Crown" "Tiger Hook"
-	SetTextColor 159 0 0 255 # Shelder Text
-	SetBackgroundColor 50 0 50 255 # Shelder Background
+	SetTextColor 43 150 211 255 # Shaper Text
+	SetBackgroundColor 0 38 66 255 # Shaper Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
@@ -1999,8 +1999,8 @@ Show
 	Rarity <= Rare
 	ItemLevel >= 85
 	Class "Amulets"
-	SetTextColor 159 0 0 255 # Shelder Text
-	SetBackgroundColor 50 0 50 255 # Shelder Background
+	SetTextColor 43 150 211 255 # Shaper Text
+	SetBackgroundColor 0 38 66 255 # Shaper Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
@@ -2017,8 +2017,8 @@ Show
 	Rarity <= Rare
 	ItemLevel >= 80
 	BaseType "Profane Wand" "Agate Amulet" "Vaal Regalia" "Sambar Sceptre" "Titanium Spirit Shield" "Golden Kris" "Opal Sceptre" "Void Sceptre" "Opal Wand" "Citrine Amulet" "Hubris Circlet" "Samite Gloves" "Eclipse Staff" "Paua Amulet" "Lapis Amulet" "Sorcerer Gloves" "Platinum Kris" "Jade Amulet" "Ambusher" "Gold Amulet" "Onyx Amulet" "Amber Amulet" "Turquoise Amulet" "Sorcerer Boots" "Occultist's Vestment" "Crystal Sceptre" "Heathen Wand" "Coral Amulet" "Platinum Sceptre" "Two-Toned Boots" "Exquisite Blade" "Serpentine Staff" "Diamond Ring" "Widowsilk Robe" "Military Staff" "Tiger's Paw" "Silken Hood" "Hellion's Paw" "Fleshripper" "Titanium Spirit Shield" "Eclipse Staff" "Crystal Sceptre" "Heathen Wand" "Profane Wand" "Vaal Regalia" "Golden Kris" "Opal Wand" "Citrine Amulet" "Hubris Circlet" "Sorcerer Gloves" "Platinum Kris" "Jade Amulet" "Onyx Amulet" "Sorcerer Boots" "Occultist's Vestment" "Two-Toned Boots" "Widowsilk Robe"
-	SetTextColor 159 0 0 255 # Shelder Text
-	SetBackgroundColor 50 0 50 255 # Shelder Background
+	SetTextColor 43 150 211 255 # Shaper Text
+	SetBackgroundColor 0 38 66 255 # Shaper Background
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 3 200 # Tier2
@@ -2030,8 +2030,8 @@ Show
 	Rarity <= Rare
 	ItemLevel >= 85
 	BaseType "Coral Ring" "Flanged Mace" "Prophecy Wand" "Carnal Sceptre" "Ezomyte Dagger" "Arcanist Slippers" "Steel Gauntlets" "Vaal Claw" "Behemoth Mace" "Crystal Wand" "Decimation Bow" "Sadist Garb" "Carnal Armour" "Engraved Wand" "Imbued Wand" "Paua Ring" "Zodiac Leather" "Serpent Wand" "Spike-Point Arrow Quiver" "Demon's Horn" "Fiend Dagger" "Eternal Burgonet" "Imperial Bow" "Royal Sceptre" "Demon Dagger" "Blood Sceptre" "Royal Skean" "Omen Wand" "Vaal Gauntlets" "Thorium Spirit Shield" "Conjurer Gloves" "Prophet Crown" "Unset Ring" "Lunaris Circlet" "Karui Sceptre" "Embroidered Gloves" "Murder Mitts" "Tyrant's Sekhem" "Imperial Skean" "Eye Gouger" "Shagreen Gloves" "Highborn Staff" "Royal Burgonet" "Topaz Ring" "Samite Helmet" "Jewelled Foil" "Sapphire Ring" "Two-Stone Ring" "Nightmare Bascinet" "Destroyer Regalia" "Soldier Gloves" "Necromancer Circlet" "Hydrascale Gauntlets" "Penetrating Arrow Quiver" "Amethyst Ring" "Broadhead Arrow Quiver" "Shagreen Boots" "Ruby Ring" "Necromancer Silks" "Magistrate Crown" "Gutting Knife" "Leather Belt" "Assassin's Mitts" "Thicket Bow" "Primordial Staff" "Slaughter Knife" "Conjurer Boots" "Apex Rapier" "Foul Staff" "Moonstone Ring" "Imperial Claw" "Rustic Sash" "Harlequin Mask" "Ursine Pelt" "Great White Claw"
-	SetTextColor 159 0 0 255 # Shelder Text
-	SetBackgroundColor 50 0 50 255 # Shelder Background
+	SetTextColor 43 150 211 255 # Shaper Text
+	SetBackgroundColor 0 38 66 255 # Shaper Background
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 3 200 # Tier2
@@ -2043,8 +2043,8 @@ Show
 	Rarity <= Rare
 	ItemLevel >= 86
 	Class "Gloves" "Boots" "Helmets" "Quivers" "Rings" "Belts" "Daggers" "Sceptres"
-	SetTextColor 159 0 0 255 # Shelder Text
-	SetBackgroundColor 50 0 50 255 # Shelder Background
+	SetTextColor 43 150 211 255 # Shaper Text
+	SetBackgroundColor 0 38 66 255 # Shaper Background
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 3 200 # Tier2
@@ -2059,8 +2059,8 @@ Show
 	ShaperItem True
 	Rarity <= Rare
 	Class "Belts" "Amulet" "Ring"
-	SetTextColor 159 0 0 255 # Shelder Text
-	SetBackgroundColor 50 0 50 255 # Shelder Background
+	SetTextColor 43 150 211 255 # Shaper Text
+	SetBackgroundColor 0 38 66 255 # Shaper Background
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
 	#BlockStrictness 3 Hide
@@ -2069,8 +2069,8 @@ Show
 Show
 	ShaperItem True
 	Rarity <= Rare
-	SetTextColor 159 0 0 255 # Shelder Text
-	SetBackgroundColor 50 0 50 255 # Shelder Background
+	SetTextColor 43 150 211 255 # Shaper Text
+	SetBackgroundColor 0 38 66 255 # Shaper Background
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
 	#BlockStrictness 3 Hide
@@ -2089,8 +2089,8 @@ Show
 	Rarity <= Rare
 	ItemLevel >= 80
 	BaseType "Opal Ring" "Steel Ring" "Stygian Vise" "Crystal Belt" "Blue Pearl Amulet" "Marble Amulet" "Fingerless Silk Gloves" "Spiked Gloves" "Gripped Gloves" "Bone Helmet" "Two-Toned Boots"
-	SetTextColor 159 0 0 255 # Shelder Text
-	SetBackgroundColor 50 0 50 255 # Shelder Background
+	SetTextColor 159 0 0 255 # Elder Text
+	SetBackgroundColor 50 0 50 255 # Elder Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
@@ -2102,8 +2102,8 @@ Show
 	ElderItem True
 	Rarity <= Rare
 	BaseType "Opal Ring" "Steel Ring" "Stygian Vise" "Crystal Belt" "Blue Pearl Amulet" "Marble Amulet" "Fingerless Silk Gloves" "Spiked Gloves" "Gripped Gloves" "Bone Helmet" "Two-Toned Boots"
-	SetTextColor 159 0 0 255 # Shelder Text
-	SetBackgroundColor 50 0 50 255 # Shelder Background
+	SetTextColor 159 0 0 255 # Elder Text
+	SetBackgroundColor 50 0 50 255 # Elder Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
@@ -2120,8 +2120,8 @@ Show
 	Rarity <= Rare
 	ItemLevel >= 82
 	BaseType "Crystal Belt" "Fingerless Silk Gloves" "Spiked Gloves" "Bone Helmet" "Royal Burgonet" "Astral Plate" "Two-Stone Ring" "Ezomyte Burgonet" "Coral Ring" "Ruby Ring" "Topaz Ring" "Sapphire Ring" "Diamond Ring"
-	SetTextColor 159 0 0 255 # Shelder Text
-	SetBackgroundColor 50 0 50 255 # Shelder Background
+	SetTextColor 159 0 0 255 # Elder Text
+	SetBackgroundColor 50 0 50 255 # Elder Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
@@ -2134,8 +2134,8 @@ Show
 	Rarity <= Rare
 	ItemLevel >= 84
 	BaseType "Eternal Burgonet" "Opal Wand" "Sinner Tricorne" "Citrine Amulet" "Hubris Circlet" "Sorcerer Gloves" "Tempered Foil" "Assassin's Garb"
-	SetTextColor 159 0 0 255 # Shelder Text
-	SetBackgroundColor 50 0 50 255 # Shelder Background
+	SetTextColor 159 0 0 255 # Elder Text
+	SetBackgroundColor 50 0 50 255 # Elder Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
@@ -2148,8 +2148,8 @@ Show
 	Rarity <= Rare
 	ItemLevel >= 86
 	BaseType "Turquoise Amulet" "Eclipse Staff" "Lacquered Helmet" "Gemini Claw" "Reaver Helmet" "Agate Amulet" "Siege Helmet" "Pig-Faced Bascinet" "Prophet Crown" "Lunaris Circlet" "Callous Mask" "Iron Ring" "Amber Amulet" "Gold Amulet" "Jade Amulet" "Raven Mask" "Amethyst Ring" "Samite Helmet" "Moonstone Ring" "Paua Ring" "Coral Amulet" "Leather Belt" "Unset Ring" "Onyx Amulet"
-	SetTextColor 159 0 0 255 # Shelder Text
-	SetBackgroundColor 50 0 50 255 # Shelder Background
+	SetTextColor 159 0 0 255 # Elder Text
+	SetBackgroundColor 50 0 50 255 # Elder Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
@@ -2166,8 +2166,8 @@ Show
 	Rarity <= Rare
 	ItemLevel >= 80
 	BaseType "Crystal Belt" "Fingerless Silk Gloves" "Spiked Gloves" "Astral Plate" "Bone Helmet" "Eternal Burgonet" "Turquoise Amulet" "Royal Burgonet" "Astral Plate" "Serpentscale Boots" "Opal Wand" "Sinner Tricorne" "Eclipse Staff" "Citrine Amulet" "Two-Stone Ring" "Ezomyte Burgonet" "Gemini Claw" "Vaal Gauntlets" "Agate Amulet" "Hubris Circlet" "Sorcerer Gloves" "Siege Helmet" "Coral Ring" "Lunaris Circlet" "Callous Mask" "Iron Ring" "Ruby Ring" "Amber Amulet" "Gold Amulet" "Jade Amulet" "Topaz Ring" "Tempered Foil" "Sapphire Ring" "Diamond Ring" "Raven Mask" "Amethyst Ring" "Samite Helmet" "Ambush Mitts" "Assassin's Garb" "Moonstone Ring" "Paua Ring" "Coral Amulet" "Unset Ring" "Two-Toned Boots" "Onyx Amulet" "Gold Ring" "Slink Gloves" "Lapis Amulet" "Exquisite Blade" "Paua Amulet" "Two-Stone Ring" "Ezomyte Burgonet" "Coral Ring" "Ruby Ring" "Topaz Ring" "Sapphire Ring" "Diamond Ring" "Eternal Burgonet" "Opal Wand" "Sinner Tricorne" "Citrine Amulet" "Hubris Circlet" "Sorcerer Gloves" "Tempered Foil" "Assassin's Garb"
-	SetTextColor 159 0 0 255 # Shelder Text
-	SetBackgroundColor 50 0 50 255 # Shelder Background
+	SetTextColor 159 0 0 255 # Elder Text
+	SetBackgroundColor 50 0 50 255 # Elder Background
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 3 200 # Tier2
@@ -2179,8 +2179,8 @@ Show
 	Rarity <= Rare
 	ItemLevel >= 85
 	BaseType "Noble Tricorne" "Nightmare Bascinet" "Zealot Helmet" "Bone Circlet" "Fencer Helm" "Necromancer Circlet" "Titan Greaves" "Vaal Regalia" "Titan Gauntlets" "Glorious Plate" "Sorcerer Boots" "Occultist's Vestment" "Harlequin Mask" "Mind Cage" "Fluted Bascinet" "Lion Pelt" "Great Crown" "Deicide Mask" "Imperial Skean" "Solaris Circlet" "Magistrate Crown" "Prophecy Wand" "Ursine Pelt" "Murder Mitts" "Thorium Spirit Shield" "Labrys" "Stealth Gloves" "Jewelled Foil" "Conjurer Gloves" "Studded Belt" "Moon Staff" "Thicket Bow" "Satin Slippers" "Maraketh Bow" "Heavy Belt" "Decimation Bow" "Conjurer Boots" "Penetrating Arrow Quiver" "Royal Skean" "Destiny Leather" "Carnal Boots" "Crusader Plate"
-	SetTextColor 159 0 0 255 # Shelder Text
-	SetBackgroundColor 50 0 50 255 # Shelder Background
+	SetTextColor 159 0 0 255 # Elder Text
+	SetBackgroundColor 50 0 50 255 # Elder Background
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 3 200 # Tier2
@@ -2192,8 +2192,8 @@ Show
 	Rarity <= Rare
 	ItemLevel >= 86
 	Class "Gloves" "Boots" "Helmets" "Belts" "Amulet" "Ring" "Quiver"
-	SetTextColor 159 0 0 255 # Shelder Text
-	SetBackgroundColor 50 0 50 255 # Shelder Background
+	SetTextColor 159 0 0 255 # Elder Text
+	SetBackgroundColor 50 0 50 255 # Elder Background
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 3 200 # Tier2
@@ -2208,8 +2208,8 @@ Show
 	ElderItem True
 	Rarity <= Rare
 	Class "Belts" "Amulet" "Ring"
-	SetTextColor 159 0 0 255 # Shelder Text
-	SetBackgroundColor 50 0 50 255 # Shelder Background
+	SetTextColor 159 0 0 255 # Elder Text
+	SetBackgroundColor 50 0 50 255 # Elder Background
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
 	#BlockStrictness 3 Hide
@@ -2218,8 +2218,8 @@ Show
 Show
 	ElderItem True
 	Rarity <= Rare
-	SetTextColor 159 0 0 255 # Shelder Text
-	SetBackgroundColor 50 0 50 255 # Shelder Background
+	SetTextColor 159 0 0 255 # Elder Text
+	SetBackgroundColor 50 0 50 255 # Elder Background
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
 	#BlockStrictness 3 Hide
