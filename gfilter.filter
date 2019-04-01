@@ -402,10 +402,10 @@ Show
 	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 1 Yellow Hexagon
 
-# Stygian Vise ilvl75
+# Stygian Vise Endgame
 Show
 	Rarity <= Rare
-	ItemLevel >= 75
+	ItemLevel >= 65
 	BaseType "Stygian Vise"
 	SetTextColor 169 189 149 255 # Abyss Text
 	SetBackgroundColor 30 34 26 255 # Abyss Highlight Background
@@ -423,7 +423,7 @@ Show
 	SetBorderColor 169 189 149 255 # Abyss Border
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
-	#BlockStrictness 2 Hide
+	#BlockStrictness 3 Hide
 
 #-------------------------------------------------------------------------------
 # Section: Harbinger
