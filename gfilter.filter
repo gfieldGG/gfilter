@@ -96,8 +96,8 @@ Show
 	FracturedItem True
 	Rarity = Unique
 	SetTextColor 175 96 37 255 # Unique Text
-	SetBackgroundColor 64 64 64 255 # Fractured Background
-	SetBorderColor 175 96 37 255 # Unique Border
+	SetBackgroundColor 45 45 45 255 # Fractured Background
+	SetBorderColor 0 0 176 255 # Synthesis Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 3 200 # Tier2
@@ -109,8 +109,8 @@ Show
 	FracturedItem True
 	Rarity <= Rare
 	ItemLevel >= 86
-	SetBackgroundColor 64 64 64 255 # Fractured Background
-	SetBorderColor 0 0 158 255 # Synthesis Border
+	SetBackgroundColor 45 45 45 255 # Fractured Background
+	SetBorderColor 0 0 176 255 # Synthesis Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 7 300 # Tier1.5
@@ -123,8 +123,8 @@ Show
 	Rarity <= Rare
 	ItemLevel >= 82
 	BaseType "Titanium Spirit Shield" "Sorcerer Boots" "Sorcerer Gloves" "Vaal Regalia" "Hubris Circlet"
-	SetBackgroundColor 64 64 64 255 # Fractured Background
-	SetBorderColor 0 0 158 255 # Synthesis Border
+	SetBackgroundColor 45 45 45 255 # Fractured Background
+	SetBorderColor 0 0 176 255 # Synthesis Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 7 300 # Tier1.5
@@ -136,8 +136,8 @@ Show
 	FracturedItem True
 	Rarity <= Rare
 	BaseType "Titanium Spirit Shield" "Sorcerer Boots" "Sorcerer Gloves" "Vaal Regalia" "Hubris Circlet"
-	SetBackgroundColor 64 64 64 255 # Fractured Background
-	SetBorderColor 0 0 158 255 # Synthesis Border
+	SetBackgroundColor 45 45 45 255 # Fractured Background
+	SetBorderColor 0 0 176 255 # Synthesis Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 3 200 # Tier2
@@ -149,8 +149,8 @@ Show
 	FracturedItem True
 	Rarity <= Rare
 	Class "Jewel"
-	SetBackgroundColor 64 64 64 255 # Fractured Background
-	SetBorderColor 0 0 158 255 # Synthesis Border
+	SetBackgroundColor 45 45 45 255 # Fractured Background
+	SetBorderColor 0 0 176 255 # Synthesis Border
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
 	PlayAlertSound 6 150 # Tier3
@@ -162,8 +162,8 @@ Show
 	FracturedItem True
 	Rarity <= Rare
 	Class "Jewel" "Rings" "Amulets" "Belts" "Gloves" "Boots" "Shields" "Helmets"
-	SetBackgroundColor 64 64 64 255 # Fractured Background
-	SetBorderColor 0 0 158 255 # Synthesis Border
+	SetBackgroundColor 45 45 45 255 # Fractured Background
+	SetBorderColor 0 0 176 255 # Synthesis Border
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
 	PlayEffect White Temp
@@ -173,8 +173,8 @@ Show
 Show
 	FracturedItem True
 	Rarity <= Rare
-	SetBackgroundColor 64 64 64 255 # Fractured Background
-	SetBorderColor 0 0 158 255 # Synthesis Border
+	SetBackgroundColor 45 45 45 255 # Fractured Background
+	SetBorderColor 0 0 176 255 # Synthesis Border
 	SetFontSize 37
 	#SetFontSizeTag 37 # Medium
 	PlayEffect White Temp
