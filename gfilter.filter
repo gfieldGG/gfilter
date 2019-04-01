@@ -353,9 +353,9 @@ Show
 # Subsection: Abyss Jewels
 #-------------------------------------------------------------------------------
 
-# Abyss Jewel ilvl84
+# Abyss Jewel ilvl82
 Show
-	ItemLevel >= 84
+	ItemLevel >= 82
 	Class "Abyss Jewel"
 	SetTextColor 169 189 149 255 # Abyss Text
 	SetBackgroundColor 30 34 26 255 # Abyss Highlight Background
