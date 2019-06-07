@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.7.0
+# VERSION:       3.7.1
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -88,7 +88,7 @@ Show
 #-------------------------------------------------------------------------------
 
 Show
-	BaseType "Timeless Karui Emblem" "Timeless Eternal Empire Emblem" "Timeless Maraketh Emblem" "Timeless Templar Emblem" "Timeless Vaal Emblem"
+	BaseType "Timeless Karui Emblem" "Timeless Maraketh Emblem" "Timeless Templar Emblem" "Timeless Vaal Emblem" "Timeless Eternal Emblem"
 	SetTextColor 88 52 126 255 # Legion Text
 	SetBackgroundColor 28 16 40 255 # Legion Background
 	SetBorderColor 0 0 0 255 # Map Border
