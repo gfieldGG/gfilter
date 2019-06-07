@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.6.17
+# VERSION:       3.7.0
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -82,6 +82,59 @@ Show
 	SetBorderColor 0 0 0 255 # Map Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
+
+#-------------------------------------------------------------------------------
+# Section: Legion
+#-------------------------------------------------------------------------------
+
+Show
+	BaseType "Timeless Karui Emblem" "Timeless Eternal Empire Emblem" "Timeless Maraketh Emblem" "Timeless Templar Emblem" "Timeless Vaal Emblem"
+	SetTextColor 88 52 126 255 # Legion Text
+	SetBackgroundColor 28 16 40 255 # Legion Background
+	SetBorderColor 0 0 0 255 # Map Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 7 300 # Tier1.5
+	MinimapIcon 0 Red Diamond
+	PlayEffect Red 
+
+Show
+	BaseType "Timeless Eternal Empire Splinter" "Timeless Karui Splinter" "Timeless Maraketh Splinter" "Timeless Templar Splinter" "Timeless Vaal Splinter"
+	SetTextColor 88 52 126 255 # Legion Text
+	SetBackgroundColor 28 16 40 255 # Legion Background
+	SetBorderColor 0 0 0 255 # Map Border
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	MinimapIcon 2 White Diamond
+
+#-------------------------------------------------------------------------------
+# Subsection: Incubators
+#-------------------------------------------------------------------------------
+
+# Incubator T1
+Show
+	Class "Incubator"
+	BaseType "Geomancer's Incubator" "Ornate Incubator" "Time-Lost Incubator" "Cartographer's Incubator"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 28 16 40 255 # Legion Background
+	SetBorderColor 88 52 126 255 # Legion Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 7 300 # Tier1.5
+	MinimapIcon 0 Red Circle
+	PlayEffect Red 
+
+# Incubator
+Show
+	Class "Incubator"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 28 16 40 255 # Legion Background
+	SetBorderColor 88 52 126 255 # Legion Border
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Circle
+	PlayEffect Yellow Temp
 
 #-------------------------------------------------------------------------------
 # Section: Synthesis
@@ -3475,7 +3528,7 @@ Hide
 	SetBackgroundColor 0 0 0 210 # Junk Background
 	#BlockStrictness 3 Disable
 
-Show
+Hide
 	Rarity <= Magic
 	Class "Wand"
 	SetBackgroundColor 0 0 0 210 # Junk Background
@@ -3487,13 +3540,13 @@ Hide
 	SetBackgroundColor 0 0 0 210 # Junk Background
 	#BlockStrictness 3 Disable
 
-Hide
+Show
 	Rarity <= Magic
 	Class "One Hand Axes"
 	SetBackgroundColor 0 0 0 210 # Junk Background
 	#BlockStrictness 3 Disable
 
-Show
+Hide
 	Rarity <= Magic
 	Class "Dagger"
 	SetBackgroundColor 0 0 0 210 # Junk Background
@@ -3505,13 +3558,13 @@ Hide
 	SetBackgroundColor 0 0 0 210 # Junk Background
 	#BlockStrictness 3 Disable
 
-Hide
+Show
 	Rarity <= Magic
 	Class "Thrusting"
 	SetBackgroundColor 0 0 0 210 # Junk Background
 	#BlockStrictness 3 Disable
 
-Hide
+Show
 	Rarity <= Magic
 	Class "One Hand Swords"
 	SetBackgroundColor 0 0 0 210 # Junk Background
@@ -3529,13 +3582,13 @@ Hide
 	SetBackgroundColor 0 0 0 210 # Junk Background
 	#BlockStrictness 3 Disable
 
-Hide
+Show
 	Rarity <= Magic
 	Class "Claw"
 	SetBackgroundColor 0 0 0 210 # Junk Background
 	#BlockStrictness 3 Disable
 
-Show
+Hide
 	Rarity <= Magic
 	Class "Sceptres"
 	SetBackgroundColor 0 0 0 210 # Junk Background
