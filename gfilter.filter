@@ -1507,6 +1507,30 @@ Show
 	MinimapIcon 0 Red Diamond
 	PlayEffect Red 
 
+# Ivory Watchstone
+Show
+	BaseType "Ivory Watchstone"
+	SetTextColor 255 255 255 255 # Normal Highlight Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 4 150 # Map
+	MinimapIcon 0 White Diamond
+	PlayEffect White 
+
+# Watchstone
+Show
+	BaseType "Watchstone"
+	SetTextColor 255 255 255 255 # Normal Highlight Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	PlayAlertSound 4 150 # Map
+	MinimapIcon 0 White Diamond
+	PlayEffect White 
+
 # Offering to the Goddess
 Show
 	BaseType "Offering to the Goddess"
