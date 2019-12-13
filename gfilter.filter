@@ -1468,17 +1468,43 @@ Show
 # Subsection: Other
 #-------------------------------------------------------------------------------
 
-# Guardian Fragments
+# Shaper Guardian Fragments
 Show
 	Class "Map Fragments"
 	BaseType "Fragment of the Chimera" "Fragment of the Hydra" "Fragment of the Minotaur" "Fragment of the Phoenix"
-	SetTextColor 0 0 0 255 # Map Text
+	SetTextColor 0 38 66 255
 	SetBackgroundColor 255 233 200 255 # Atlas Background
-	SetBorderColor 0 0 0 255 # Map Border
+	SetBorderColor 0 38 66 255
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 7 300 # Tier1.5
 	MinimapIcon 1 Yellow Diamond
+	PlayEffect Red 
+
+# Elder Guardian Fragments
+Show
+	Class "Map Fragments"
+	BaseType "Fragment of Enslavement" "Fragment of Eradication" "Fragment of Constriction" "Fragment of Purification"
+	SetTextColor 50 0 0 255
+	SetBackgroundColor 180 180 180 255
+	SetBorderColor 50 0 50 255
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 7 300 # Tier1.5
+	MinimapIcon 1 Yellow Diamond
+	PlayEffect Red 
+
+# Uber Elder Fragments
+Show
+	Class "Map Fragments"
+	BaseType "Fragment of Emptiness" "Fragment of Shape" "Fragment of Terror" "Fragment of Knowledge"
+	SetTextColor 50 0 0 255
+	SetBackgroundColor 180 180 180 255
+	SetBorderColor 50 0 50 255
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 7 300 # Tier1.5
+	MinimapIcon 0 Red Diamond
 	PlayEffect Red 
 
 # Offering to the Goddess
