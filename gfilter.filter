@@ -1,4 +1,4 @@
-﻿#===============================================================================
+#===============================================================================
 # GFILTER
 #===============================================================================
 #
@@ -1223,7 +1223,7 @@ Show
 Show
 	GemLevel >= 2
 	Class "Skill Gems"
-	BaseType "Empower Support" "Enlighten Support" "Enhance Support"
+	BaseType "Empower Support" "Enlighten Support" "Enhance Support" "Awakened"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 26 162 155 255 # Gem Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -1236,7 +1236,7 @@ Show
 # Gem Tier2
 Show
 	Class "Active Skill Gems" "Support Skill Gems"
-	BaseType "Empower" "Enlighten" "Vaal Breach"
+	BaseType "Empower" "Enlighten" "Vaal Breach" "Awakened"
 	SetTextColor 26 162 155 255 # Gem Text
 	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
 	SetBorderColor 26 162 155 255 # Gem Border
