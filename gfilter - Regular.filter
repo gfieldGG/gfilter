@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.9.0
+# VERSION:       3.9.1
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -12,7 +12,7 @@
 #
 # Strictness 1:  Regular
 # Strictness 2:  Strict
-# Strictness 3:  Very Strict
+# Strictness 3:  VeryStrict
 # Default strictness:  1
 #-------------------------------------------------------------------------------
 
