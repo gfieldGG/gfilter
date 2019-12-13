@@ -1,4 +1,4 @@
-#===============================================================================
+﻿#===============================================================================
 # GFILTER
 #===============================================================================
 #
@@ -1282,6 +1282,32 @@ Show
 	#SetFontSizeTag 45 # Yuge
 	CustomAlertSound "gfT2.mp3"
 	MinimapIcon 1 Yellow Hexagon
+
+# Portal Gem Quality
+Show
+	Quality >= 10
+	Class "Gem"
+	BaseType "Portal"
+	SetTextColor 26 162 155 255 # Gem Text
+	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
+	SetBorderColor 26 162 155 255 # Gem Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	CustomAlertSound "gfT2.mp3"
+	MinimapIcon 1 Yellow Hexagon
+
+# Portal Gem
+Show
+	Class "Gem"
+	BaseType "Portal"
+	SetTextColor 26 162 155 255 # Gem Text
+	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
+	SetBorderColor 26 162 155 255 # Gem Border
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	CustomAlertSound "gfT3.mp3"
+	MinimapIcon 1 White Hexagon
+	#BlockStrictness 2 Disable
 
 # Gem Vaal Quality
 Show
