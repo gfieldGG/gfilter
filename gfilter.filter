@@ -87,6 +87,19 @@ Show
 # Section: Metamorph
 #-------------------------------------------------------------------------------
 
+# Unique Metamorph Sample
+Show
+	Rarity = Unique
+	Class "Metamorph Sample"
+	SetTextColor 125 180 50 255 # Metamorph Text
+	SetBackgroundColor 15 27 15 240 # Metamorph Highlight Background
+	SetBorderColor 175 96 37 255 # Unique Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 0 Green Diamond
+	PlayEffect Green 
+
 # Metamorph Sample
 Show
 	Class "Metamorph Sample"
