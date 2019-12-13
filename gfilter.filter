@@ -306,7 +306,7 @@ Show
 
 # T1 Resonator
 Show
-	Class "Delve Socketable Currency"
+	Class "Delve Stackable Socketable Currency"
 	BaseType "Prime Alchemical Resonator" "Prime Chaotic Resonator"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 5 18 36 255 # Delve Highlight Background
@@ -319,7 +319,7 @@ Show
 
 # Resonator
 Show
-	Class "Delve Socketable Currency"
+	Class "Delve Stackable Socketable Currency"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 5 18 36 255 # Delve Highlight Background
 	SetBorderColor 102 193 245 255 # Delve Border
