@@ -107,6 +107,50 @@ Show
 	#SetFontSizeTag 41 # Big
 
 #-------------------------------------------------------------------------------
+# Section: Blight
+#-------------------------------------------------------------------------------
+
+# T1 Oil
+Show
+	BaseType "Golden Oil"
+	SetTextColor 200 200 75 255 # Blight Text
+	SetBackgroundColor 30 15 0 255 # Blight Highlight Background
+	SetBorderColor 200 150 0 255 # Blight Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 7 300 # Tier1.5
+	MinimapIcon 0 Red Circle
+
+# T15 Oil
+Show
+	BaseType "Silver Oil" "Opalescent Oil" "Black Oil"
+	SetTextColor 200 200 75 255 # Blight Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBorderColor 200 150 0 255 # Blight Border
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Circle
+
+# T2 Oil
+Show
+	BaseType "Crimson Oil" "Violet Oil" "Azure Oil" "Teal Oil"
+	SetTextColor 200 200 75 255 # Blight Text
+	SetBackgroundColor 30 15 0 255 # Blight Highlight Background
+	SetFontSize 37
+	#SetFontSizeTag 37 # Medium
+	PlayAlertSound 6 150 # Tier3
+	MinimapIcon 2 White Circle
+
+# T3 Oil
+Show
+	BaseType "Clear Oil" "Sepia Oil" "Verdant Oil" "Amber Oil"
+	SetTextColor 200 200 75 255 # Blight Text
+	SetBackgroundColor 0 0 0 210 # Junk Background
+	SetFontSize 37
+	#SetFontSizeTag 37 # Medium
+
+#-------------------------------------------------------------------------------
 # Section: Legion
 #-------------------------------------------------------------------------------
 
