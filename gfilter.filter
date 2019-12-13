@@ -90,11 +90,21 @@ Show
 # Metamorph Sample
 Show
 	Class "Metamorph Sample"
-	SetTextColor 100 200 0 255 # Metamorph Text
+	SetTextColor 125 180 50 255 # Metamorph Text
 	SetBackgroundColor 19 27 23 240 # Metamorph Highlight Background
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
 	PlayEffect Green Temp
+
+# Catalyst
+Show
+	Class "Stackable Currency"
+	BaseType "Abrasive Catalyst" "Fertile Catalyst" "Imbued Catalyst" "Intrinsic Catalyst" "Intrinsic Catalyst" "Prismatic Catalyst" "Tempering Catalyst" "Turbulent Catalyst"
+	SetTextColor 125 180 50 255 # Metamorph Text
+	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
+	SetBorderColor 200 186 153 255 # Currency Border
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
 
 #-------------------------------------------------------------------------------
 # Section: Legion
@@ -1038,7 +1048,7 @@ Show
 # Currency Tier1.5
 Show
 	Class "Currency"
-	BaseType "Divine Orb" "Orb of Annulment" "Ancient Orb" "Harbinger's Orb"
+	BaseType "Divine Orb" "Orb of Annulment" "Ancient Orb" "Harbinger's Orb" "Awakener's Orb"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 200 186 153 255 # Currency Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -1046,6 +1056,19 @@ Show
 	#SetFontSizeTag 45 # Yuge
 	CustomAlertSound "gfT15.mp3"
 	MinimapIcon 1 Red Circle
+	PlayEffect Yellow 
+
+# Conqueror Exalted Orb
+Show
+	Class "Currency"
+	BaseType "Crusader's Exalted Orb" "Hunter's Exalted Orb" "Redeemer's Exalted Orb" "Warlord's Exalted Orb"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 200 186 153 255 # Currency Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	CustomAlertSound "gfT1.mp3"
+	MinimapIcon 0 Red Circle
 	PlayEffect Yellow 
 
 # Currency Tier1
