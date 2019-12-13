@@ -84,6 +84,19 @@ Show
 	#SetFontSizeTag 45 # Yuge
 
 #-------------------------------------------------------------------------------
+# Section: Metamorph
+#-------------------------------------------------------------------------------
+
+# Metamorph Sample
+Show
+	Class "Metamorph Sample"
+	SetTextColor 100 200 0 255 # Metamorph Text
+	SetBackgroundColor 19 27 23 240 # Metamorph Highlight Background
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayEffect Green Temp
+
+#-------------------------------------------------------------------------------
 # Section: Legion
 #-------------------------------------------------------------------------------
 
