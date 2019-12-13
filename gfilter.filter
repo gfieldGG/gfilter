@@ -907,7 +907,7 @@ Show
 # Divination Card Exception
 Show
 	Class "Divination Card"
-	BaseType "The Wolf's Shadow" "The Master Artisan"
+	BaseType "The Wolf's Shadow" "The Master Artisan" "The Demoness" "The Wolf's Legacy"
 	SetTextColor 14 186 255 255 # Divination Card Text
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetFontSize 41
@@ -921,7 +921,7 @@ Show
 # Divination Card Tier0
 Show
 	Class "Divination Card"
-	BaseType "House of Mirrors" "The Doctor" "The Fiend" "Beauty Through Death"
+	BaseType "House of Mirrors" "The Doctor" "The Fiend" "Beauty Through Death" "The Fiend"
 	SetTextColor 14 186 255 255 # Divination Card Text
 	SetBackgroundColor 255 255 255 255 # Tier0 Background
 	SetBorderColor 14 186 255 255 # Divination Card Border
@@ -938,7 +938,7 @@ Show
 # Divination Card Tier1
 Show
 	Class "Divination Card"
-	BaseType "House of Mirrors" "Beauty Through Death" "The Doctor" "The Fiend" "Immortal Resolve" "The Life Thief" "The Immortal"
+	BaseType "House of Mirrors" "The Doctor" "The Fiend" "Immortal Resolve" "The Demon" "Nook's Crown" "Alluring Bounty" "Beauty Through Death"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 14 186 255 255 # Divination Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -951,7 +951,7 @@ Show
 # Divination Card Tier1.5
 Show
 	Class "Divination Card"
-	BaseType "The Samurai's Eye" "The Iron Bard" "Abandoned Wealth" "Hunter's Reward" "Mawr Blaidd" "The Offering" "Pride Before the Fall" "The Dragon's Heart" "The Ethereal" "The Risk" "Wealth and Power" "The King's Heart" "The Polymath" "The Wolven King's Bite" "The Spark and the Flame" "The Nurse" "The Mayor" "The Mad King" "The Queen" "The Enlightened" "The Celestial Justicar" "The Saint's Treasure" "The World Eater" "The Sacrifice" "Seven Years Bad Luck" "The Brittle Emperor" "The Vast" "The Artist" "The Master"
+	BaseType "The Offering" "Pride Before the Fall" "The King's Heart" "Hunter's Reward" "The Immortal"  "The Celestial Justicar"  "Wealth and Power" "The Polymath" "Abandoned Wealth" "The Iron Bard" "The Samurai's Eye" "The Wolven King's Bite" "The Spark and the Flame" "Boon of the First Ones" "The Dragon's Heart" "The Sacrifice" "The Nurse" "The Ethereal" "Dark Dreams" "The Eye of Terror" "Void of the Elements" "The Damned" "The Old Man" "The Price of Loyalty" "Burning Blood" "Pride of the First Ones" "Etched in Blood" "Succor of the Sinless" "The Escape"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 14 186 255 255 # Divination Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -981,7 +981,7 @@ Show
 # Divination Card Tier2
 Show
 	Class "Divination Card"
-	BaseType "The Hunger" "Perfection" "The Tyrant" "The Dreamer" "Chaotic Disposition" "The Dapper Prodigy" "The Sephirot" "The Wind" "The Porcupine" "The Hale Heart" "The Professor" "The Endless Darkness" "The Celestial Stone" "The Insatiable" "Audacity" "The Hoarder" "The Throne" "The Wolf" "The Landing" "Merciless Armament" "The Undisputed" "The Seeker" "The Last One Standing" "Bowyer's Dream" "Heterochromia" "The Void" "The Jeweller's Boon" "The Undaunted" "Left to Fate" "Emperor of Purity" "The Chains that Bind" "The Dark Mage" "The Formless Sea" "The Jester" "The Road to Power" "The Valkyrie" "The Obscured" "The Breach" "The Lord of Celebration" "The Journey" "Monochrome" "Boon of the First Ones" "The Surveyor" "Humility" "Last Hope" "The Avenger" "The Cursed King" "The Penitent" "The Soul" "The Trial" "The Warlord" "Time-Lost Relic" "The Valley of Steel Boxes" "Atziri's Arsenal" "Rebirth" "The Beast" "The Rite of Elements" "The Darkest Dream" "Harmony of Souls" "The Innocent" "The Wilted Rose" "The Price of Protection" "Arrogance of the Vaal" "Alone in the Darkness" "The Messenger" "The Lord in Black" "The Twilight Moon" "The Cartographer" "The Siren" "No Traces" "The Ruthless Ceinture" "Blessing of God" "The Thaumaturgist"
+	BaseType "The Devastator" "The Artist" "The Saint's Treasure" "The Dapper Prodigy" "The Void" "The Sephirot" "The Warlord" "The Vast" "The Throne" "The Aesthete" "The Wolf" "The Valkyrie" "The Soul" "Emperor of Purity" "Heterochromia" "The Hoarder" "Chaotic Disposition" "The Chains that Bind" "The Dark Mage" "Bowyer's Dream" "Lucky Deck" "Time-Lost Relic" "The Cartographer" "The Breach" "The Dreamer" "The Obscured" "Harmony of Souls" "The Admirer" "The Undaunted" "The Professor" "The Jeweller's Boon" "The Hale Heart" "The Beast" "The Innocent" "The Price of Protection" "The Cacophony" "The Wilted Rose" "Merciless Armament" "Rebirth" "Left to Fate" "The Thaumaturgist" "Dab of Ink" "The Journey" "The Landing" "The Messenger" "Monochrome" "The Seeker" "Alone in the Darkness" "The Porcupine" "The Soul" "The Last One Standing" "Buried Treasure" "Demigod's Wager" "Imperial Legacy" "The Primordial" "Akil's Prophecy" "Azyran's Reward" "The Bargain" "Remembrance" "The Heroic Shot" "The Formless Sea" "Mawr Blaid" "The Brittle Emperor" "The Hunger" "The Undisputed" "The World Eater" "Perfection" "The Master" "The Celestial Stone" "The Wind" "The Endless Darkness" "The Enlightened" "The Mayor" "The Queen" "The Mad King" "Seven Years Bad Luck" "The Life Thief" "The Risk" "Earth Drinker" "Blessing of God" "The Deep Ones" "Baited Expectations" "Deathly Designs" "The Chosen" "Cameria's Cut" "Divine Justice" "The Fishmonger" "The Bones" "Friendship" "The Craving" "Squandered Prosperity" "Underground Forest"
 	SetTextColor 14 186 255 255 # Divination Card Text
 	SetBackgroundColor 25 33 33 255 # Divination Card Highlight Background
 	SetBorderColor 14 186 255 255 # Divination Card Border
@@ -1011,7 +1011,7 @@ Show
 # Divination Card Trash
 Show
 	Class "Divination Card"
-	BaseType "Might is Right" "The Wolverine" "Assassin's Favour" "The Eye of the Dragon" "Treasure Hunter" "The Flora's Gift" "The Hermit" "A Mother's Parting Gift" "Doedre's Madness" "Grave Knowledge" "Her Mask" "Lantador's Lost Love" "The Battle Born" "The Carrion Crow" "The Conduit" "The Endurance" "The King's Blade" "The Lunaris Priestess" "The Metalsmith's Gift" "The Tower" "The Warden" "Thunderous Skies" "Turn the Other Cheek" "The Blazing Fire" "The Master Artisan" "Birth of the Three" "Carrion Crow" "Dying Anguish" "Hermit" "King's Blade" "Metalsmith's Gift" "Other Cheek"
+	BaseType "The Scholar" "The Lover" "Emperor's Luck" "Flora's Gift" "Her Mask" "The Catalyst" "Destined to Crumble" "The Inoculated" "The Road to Power" "The Sigil" "The Spoiled Prince" "Rain of Chaos" "Thunderous Skies" "The Twins" "Light and Truth" "Prosperity" "The Mercenary" "The Warden" "The Calling" "The Gemcutter" "The Lord in Black" "Struck by Lightning" "The Metalsmith's Gift" "Lantador's Lost Love" "The Scarred Meadow" "The Visionary" "The Incantation" "Dying Anguish" "Cartographer's Delight" "The Pack Leader" "The Gentleman" "The Opulent" "A Mother's Parting Gift" "The Sun" "The Conduit" "The Fox" "The Realm" "The Betrayal" "The Web" "Turn the Other Cheek" "Lysah's Respite" "The Lich" "The Feast" "The Witch" "Ruthless Ceinture" "The Siren" "Death" "Call to the First Ones" "The Hermit" "The Puzzle" "The Fathomless Depths" "Audacity" "Doedre's Madness" "Rain Tempter" "Anarchy's Price" "The Watcher" "The Coming Storm" "Dark Temptation" "Blazing Fire" "Tranquillity"
 	SetTextColor 14 186 255 255 # Divination Card Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
 	#BlockStrictness 1 Hide
