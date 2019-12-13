@@ -2095,7 +2095,7 @@ Show
 	ShaperItem True
 	Rarity <= Rare
 	ItemLevel >= 86
-	Class "Gloves" "Boots" "Helmets" "Quivers" "Rings" "Belts" "Dagger" "Sceptres"
+	Class "Gloves" "Boots" "Helmets" "Quivers" "Rings" "Belts" "Daggers" "Sceptres"
 	SetTextColor 43 150 211 255 # Shaper Text
 	SetBackgroundColor 0 38 66 255 # Shaper Background
 	SetFontSize 45
@@ -3524,13 +3524,13 @@ Show
 
 Hide
 	Rarity <= Magic
-	Class "Warstaff"
+	Class "Warstaves"
 	SetBackgroundColor 0 0 0 210 # Junk Background
 	#BlockStrictness 3 Disable
 
 Hide
 	Rarity <= Magic
-	Class "Stave"
+	Class "Staves"
 	SetBackgroundColor 0 0 0 210 # Junk Background
 	#BlockStrictness 3 Disable
 
@@ -3554,7 +3554,13 @@ Show
 
 Hide
 	Rarity <= Magic
-	Class "Dagger"
+	Class "Rune Daggers"
+	SetBackgroundColor 0 0 0 210 # Junk Background
+	#BlockStrictness 3 Disable
+
+Hide
+	Rarity <= Magic
+	Class "Daggers"
 	SetBackgroundColor 0 0 0 210 # Junk Background
 	#BlockStrictness 3 Disable
 
@@ -3701,7 +3707,7 @@ Hide
 # Junk Equipment
 Hide
 	Rarity <= Magic
-	Class "Two Hand" "Bows" "One Hand" "Wands" "Sceptres" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Dagger" "Shields" "Belts" "Rings" "Amulets" "Warstaff"
+	Class "Two Hand" "Bows" "One Hand" "Wands" "Sceptres" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Shields" "Belts" "Rings" "Amulets" "Warstaves" "Daggers" "Rune Daggers"
 	SetBackgroundColor 0 0 0 0 # Hidden Background
 
 #-------------------------------------------------------------------------------
