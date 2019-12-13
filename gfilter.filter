@@ -2127,6 +2127,177 @@ Show
 	PlayEffect Yellow 
 
 #-------------------------------------------------------------------------------
+# Section: Conqueror Items
+#-------------------------------------------------------------------------------
+
+# Conqueror Unique
+Show
+	Rarity = Unique
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
+	SetTextColor 175 96 37 255 # Unique Text
+	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
+	SetBorderColor 143 46 54 255 # Conqueror Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 7 300 # Tier1.5
+	MinimapIcon 0 Red Hexagon
+	PlayEffect Red 
+
+#-------------------------------------------------------------------------------
+# Subsection: Tier0
+#-------------------------------------------------------------------------------
+
+# Conqueror Base T0
+Show
+	Rarity <= Rare
+	BaseType "Steel Ring" "Opal Ring" "Crystal Belt" "Marble Amulet" "Blue Pearl Amulet" "Vanguard Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Stygian Vise" "Vermillion Ring" "Cerulean Ring" "Convoking Wand"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
+	SetTextColor 86 6 11 255 # Conqueror Red Text
+	SetBackgroundColor 255 255 255 255 # Tier0 Background
+	SetBorderColor 143 46 54 255 # Conqueror Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	CustomAlertSound "gfT0.mp3"
+	MinimapIcon 0 Red Hexagon
+	PlayEffect Red 
+
+# Conqueror T1 ilvl84
+Show
+	Rarity <= Rare
+	ItemLevel >= 84
+	BaseType "Sorcerer Boots" "Hubris Circlet" "Sorcerer Gloves" "Eternal Burgonet" "Royal Burgonet" "Lion Pelt" "Titan Gauntlets" "Titan Greaves" "Slink Gloves" "Slink Boots" "Saintly Chainmail" "Astral Plate" "Assassin's Garb" "Vaal Regalia"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
+	SetTextColor 86 6 11 255 # Conqueror Red Text
+	SetBackgroundColor 255 255 255 255 # Tier0 Background
+	SetBorderColor 143 46 54 255 # Conqueror Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	CustomAlertSound "gfT0.mp3"
+	MinimapIcon 0 Red Hexagon
+	PlayEffect Red Temp
+
+#-------------------------------------------------------------------------------
+# Subsection: Tier1
+#-------------------------------------------------------------------------------
+
+# Conqueror T2 Jewelry ilvl80
+Show
+	Rarity <= Rare
+	ItemLevel >= 80
+	BaseType "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Two-Stone Ring" "Prismatic Ring" "Coral Ring" "Unset Ring"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
+	SetTextColor 205 101 110 255 # Conqueror Text
+	SetBackgroundColor 86 6 11 255 # Conqueror Highlight Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 7 300 # Tier1.5
+	MinimapIcon 0 Red Hexagon
+	PlayEffect Red Temp
+
+# Conqueror ilvl84
+Show
+	Rarity <= Rare
+	ItemLevel >= 84
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
+	SetTextColor 205 101 110 255 # Conqueror Text
+	SetBackgroundColor 86 6 11 255 # Conqueror Highlight Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 7 300 # Tier1.5
+	MinimapIcon 0 Red Hexagon
+	PlayEffect Red Temp
+
+# Conqueror Jewelry ilvl75
+Show
+	Rarity <= Rare
+	ItemLevel >= 75
+	BaseType "Leather Belt" "Heavy Belt" "Agate Amulet" "Turquoise Amulet" "Citrine Amulet" "Diamond Ring" "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Two-Stone Ring" "Prismatic Ring" "Coral Ring" "Unset Ring" "Moonstone Ring" "Jade Amulet" "Amber Amulet" "Lapis Amulet" "Onyx Amulet" "Iron Ring"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
+	SetTextColor 205 101 110 255 # Conqueror Text
+	SetBackgroundColor 86 6 11 255 # Conqueror Highlight Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 7 300 # Tier1.5
+	MinimapIcon 1 Red Hexagon
+	PlayEffect Red Temp
+
+# Conqueror Jewelry ilvl75
+Show
+	Rarity <= Rare
+	ItemLevel >= 75
+	Class "Amulets" "Rings"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
+	SetTextColor 205 101 110 255 # Conqueror Text
+	SetBackgroundColor 86 6 11 255 # Conqueror Highlight Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 7 300 # Tier1.5
+	MinimapIcon 1 Red Hexagon
+	PlayEffect Red Temp
+
+#-------------------------------------------------------------------------------
+# Subsection: Tier2
+#-------------------------------------------------------------------------------
+
+# Conqueror T1 ilvl75
+Show
+	Rarity <= Rare
+	ItemLevel >= 75
+	BaseType "Sorcerer Boots" "Hubris Circlet" "Sorcerer Gloves" "Eternal Burgonet" "Royal Burgonet" "Lion Pelt" "Titan Gauntlets" "Titan Greaves" "Slink Gloves" "Slink Boots" "Saintly Chainmail" "Astral Plate" "Assassin's Garb" "Vaal Regalia" "Sambar Sceptre" "Copper Kris" "Platinum Kris" "Profane Wand" "Eclipse Staff" "Imbued Wand" "Opal Wand" "Opal Sceptre" "Void Sceptre" "Titanium Spirit Shield" "Fossilised Spirit Shield" "Ivory Spirit Shield" "Bone Spirit Shield" "Crusader Buckler" "Ezomyte Tower Shield" "Archon Kite Shield" "Angelic Kite Shield" "Ceremonial Kite Shield"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
+	SetTextColor 205 101 110 255 # Conqueror Text
+	SetBackgroundColor 86 6 11 255 # Conqueror Highlight Background
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Hexagon
+	PlayEffect Yellow Temp
+
+#-------------------------------------------------------------------------------
+# Subsection: Other
+#-------------------------------------------------------------------------------
+
+# Conqueror ilvl75
+Show
+	Rarity <= Rare
+	ItemLevel >= 75
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
+	SetTextColor 205 101 110 255 # Conqueror Text
+	SetBackgroundColor 86 6 11 255 # Conqueror Highlight Background
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	PlayAlertSound 6 150 # Tier3
+	MinimapIcon 1 White Hexagon
+	PlayEffect White Temp
+
+# Conqueror T2
+Show
+	Rarity <= Rare
+	BaseType "Sorcerer Boots" "Hubris Circlet" "Sorcerer Gloves" "Eternal Burgonet" "Royal Burgonet" "Lion Pelt" "Titan Gauntlets" "Titan Greaves" "Slink Gloves" "Slink Boots" "Saintly Chainmail" "Astral Plate" "Assassin's Garb" "Vaal Regalia" "Sambar Sceptre" "Copper Kris" "Platinum Kris" "Profane Wand" "Eclipse Staff" "Imbued Wand" "Opal Wand" "Opal Sceptre" "Void Sceptre" "Titanium Spirit Shield" "Fossilised Spirit Shield" "Ivory Spirit Shield" "Bone Spirit Shield" "Crusader Buckler" "Ezomyte Tower Shield" "Archon Kite Shield" "Angelic Kite Shield" "Ceremonial Kite Shield"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
+	SetTextColor 205 101 110 255 # Conqueror Text
+	SetBackgroundColor 86 6 11 255 # Conqueror Highlight Background
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	PlayAlertSound 6 150 # Tier3
+	MinimapIcon 1 White Hexagon
+	PlayEffect White Temp
+
+# Conqueror Catchall
+Show
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
+	SetTextColor 205 101 110 255 # Conqueror Text
+	SetBackgroundColor 86 6 11 255 # Conqueror Highlight Background
+	SetFontSize 37
+	#SetFontSizeTag 37 # Medium
+	PlayEffect Red Temp
+	#BlockStrictness 3 Disable
+
+#-------------------------------------------------------------------------------
 # Section: Shaper Items
 #-------------------------------------------------------------------------------
 
