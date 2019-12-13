@@ -1,9 +1,9 @@
-#===============================================================================
+﻿#===============================================================================
 # GFILTER
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.7.1
+# VERSION:       3.9.0
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -1137,7 +1137,7 @@ Show
 	BaseType "Crusader's Exalted Orb" "Hunter's Exalted Orb" "Redeemer's Exalted Orb" "Warlord's Exalted Orb"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 200 186 153 255 # Currency Background
-	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetBorderColor 143 46 54 255 # Conqueror Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
 	CustomAlertSound "gfT1.mp3"
