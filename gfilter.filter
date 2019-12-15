@@ -3015,6 +3015,7 @@ Show
 # MS Boots
 Show
 	Rarity >= Magic
+	Rarity <= Rare
 	ItemLevel <= 28
 	Class "Boots"
 	SetBackgroundColor 0 0 0 255 # Default Background
@@ -3671,6 +3672,7 @@ Show
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
 	SetFontSize 37
+	#SetFontSizeTag 37 # Medium
 	#BlockStrictness 2 Hide
 
 # Rare Levelling
@@ -3679,7 +3681,8 @@ Show
 	ItemLevel < 67
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 41
+	SetFontSize 37
+	#SetFontSizeTag 37 # Medium
 
 #-------------------------------------------------------------------------------
 # Section: Chisel Recipe
@@ -4180,7 +4183,6 @@ Hide
 
 # Thrusting Levelling
 #Show # Thrusting Levelling | Disable
-#Show
 #	Rarity <= Magic
 #	Class "Thrusting"
 #	SetBackgroundColor 0 0 0 210 # Junk Background
@@ -4188,7 +4190,6 @@ Hide
 
 # One Hand Sword Levelling
 #Show # One Hand Sword Levelling | Disable
-#Show
 #	Rarity <= Magic
 #	Class "One Hand Swords"
 #	SetBackgroundColor 0 0 0 210 # Junk Background
