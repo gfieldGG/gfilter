@@ -4115,95 +4115,112 @@ Hide
 # Subsection: Specific Weapon Upgrade Toggles
 #-------------------------------------------------------------------------------
 
-Show
-	Rarity <= Magic
-	Class "Bow"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 3 Disable
+# Bow Levelling
+#Show # Bow Levelling | Disable
+#	Rarity <= Magic
+#	Class "Bow"
+#	SetBackgroundColor 0 0 0 210 # Junk Background
+#	#BlockStrictness 3 Disable
 
-Hide
-	Rarity <= Magic
-	Class "Warstaves"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 3 Disable
+# Warstave Levelling
+#Show # Warstave Levelling | Disable
+#	Rarity <= Magic
+#	Class "Warstaves"
+#	SetBackgroundColor 0 0 0 210 # Junk Background
+#	#BlockStrictness 3 Disable
 
-Hide
-	Rarity <= Magic
-	Class "Staves"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 3 Disable
+# Stave Levelling
+#Show # Stave Levelling | Disable
+#	Rarity <= Magic
+#	Class "Staves"
+#	SetBackgroundColor 0 0 0 210 # Junk Background
+#	#BlockStrictness 3 Disable
 
-Hide
-	Rarity <= Magic
-	Class "Wands"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 3 Disable
+# Wand Levelling
+#Show # Wand Levelling | Disable
+#	Rarity <= Magic
+#	Class "Wands"
+#	SetBackgroundColor 0 0 0 210 # Junk Background
+#	#BlockStrictness 3 Disable
 
-Hide
-	Rarity <= Magic
-	Class "Two Hand Axe"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 3 Disable
+# Two Hand Axe Levelling
+#Show # Two Hand Axe Levelling | Disable
+#	Rarity <= Magic
+#	Class "Two Hand Axe"
+#	SetBackgroundColor 0 0 0 210 # Junk Background
+#	#BlockStrictness 3 Disable
 
-Show
-	Rarity <= Magic
-	Class "One Hand Axes"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 3 Disable
+# One Hand Axe Levelling
+#Show # One Hand Axe Levelling | Disable
+#	Rarity <= Magic
+#	Class "One Hand Axes"
+#	SetBackgroundColor 0 0 0 210 # Junk Background
+#	#BlockStrictness 3 Disable
 
-Hide
-	Rarity <= Magic
-	Class "Rune Daggers"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 3 Disable
+# Rune Dagger Levelling
+#Show # Rune Dagger Levelling | Disable
+#	Rarity <= Magic
+#	Class "Rune Daggers"
+#	SetBackgroundColor 0 0 0 210 # Junk Background
+#	#BlockStrictness 3 Disable
 
-Hide
-	Rarity <= Magic
-	Class "Daggers"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 3 Disable
+# Dagger Levelling
+#Show # Dagger Levelling | Disable
+#	Rarity <= Magic
+#	Class "Daggers"
+#	SetBackgroundColor 0 0 0 210 # Junk Background
+#	#BlockStrictness 3 Disable
 
-Hide
-	Rarity <= Magic
-	Class "Two Hand Sword"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 3 Disable
+# Two Hand Sword Levelling
+#Show # Two Hand Sword Levelling | Disable
+#	Rarity <= Magic
+#	Class "Two Hand Sword"
+#	SetBackgroundColor 0 0 0 210 # Junk Background
+#	#BlockStrictness 3 Disable
 
-Show
-	Rarity <= Magic
-	Class "Thrusting"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 3 Disable
+# Thrusting Levelling
+#Show # Thrusting Levelling | Disable
+#Show
+#	Rarity <= Magic
+#	Class "Thrusting"
+#	SetBackgroundColor 0 0 0 210 # Junk Background
+#	#BlockStrictness 3 Disable
 
-Show
-	Rarity <= Magic
-	Class "One Hand Swords"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 3 Disable
+# One Hand Sword Levelling
+#Show # One Hand Sword Levelling | Disable
+#Show
+#	Rarity <= Magic
+#	Class "One Hand Swords"
+#	SetBackgroundColor 0 0 0 210 # Junk Background
+#	#BlockStrictness 3 Disable
 
-Hide
-	Rarity <= Magic
-	Class "Two Hand Maces"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 3 Disable
+# Two Hand Mace Levelling
+#Show # Two Hand Mace Levelling | Disable
+#	Rarity <= Magic
+#	Class "Two Hand Maces"
+#	SetBackgroundColor 0 0 0 210 # Junk Background
+#	#BlockStrictness 3 Disable
 
-Hide
-	Rarity <= Magic
-	Class "One Hand Maces"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 3 Disable
+# One Hand Mace Levelling
+#Show # One Hand Mace Levelling | Disable
+#	Rarity <= Magic
+#	Class "One Hand Maces"
+#	SetBackgroundColor 0 0 0 210 # Junk Background
+#	#BlockStrictness 3 Disable
 
-Show
-	Rarity <= Magic
-	Class "Claws"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 3 Disable
+# Claw Levelling
+#Show # Claw Levelling | Disable
+#	Rarity <= Magic
+#	Class "Claws"
+#	SetBackgroundColor 0 0 0 210 # Junk Background
+#	#BlockStrictness 3 Disable
 
-Hide
-	Rarity <= Magic
-	Class "Sceptres"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 3 Disable
+# Sceptre Levelling
+#Show # Wand Levelling | Disable
+#	Rarity <= Magic
+#	Class "Sceptres"
+#	SetBackgroundColor 0 0 0 210 # Junk Background
+#	#BlockStrictness 3 Disable
 
 #-------------------------------------------------------------------------------
 # Subsection: Specific Armor Upgrade Toggles
