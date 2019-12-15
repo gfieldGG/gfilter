@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.9.1
+# VERSION:       3.9.2
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -1031,6 +1031,14 @@ Show
 Show
 	Class "Divination Card"
 	BaseType "Rain of Chaos" "The Puzzle" "The Scholar"
+	SetTextColor 14 186 255 255 # Divination Card Text
+	SetBackgroundColor 0 0 0 210 # Junk Background
+	#BlockStrictness 1 Hide
+
+# Divination Card Trash (fix)
+Show
+	Class "Divination Card"
+	BaseType "The Carrion Crow" "The Surgeon" "The King's Blade" "The Lunaris Priestess"
 	SetTextColor 14 186 255 255 # Divination Card Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
 	#BlockStrictness 1 Hide
