@@ -3044,6 +3044,290 @@ Show
 	#BlockStrictness 3 Disable
 
 #-------------------------------------------------------------------------------
+# Section: Levelling Rares
+#-------------------------------------------------------------------------------
+
+# Jewelry Rare Levelling
+Show
+	Rarity = Rare
+	ItemLevel < 67
+	Class "Rings" "Belts" "Amulets"
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	#BlockStrictness 3 Disable
+
+#-------------------------------------------------------------------------------
+# Subsection: Obsolete Bases
+#-------------------------------------------------------------------------------
+
+Show
+	Rarity = Rare
+	DropLevel <= 5
+	ItemLevel >= 10
+	ItemLevel < 67
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 0 0 0 210 # Junk Background
+
+Show
+	Rarity = Rare
+	DropLevel <= 10
+	ItemLevel >= 15
+	ItemLevel < 67
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 0 0 0 210 # Junk Background
+
+Show
+	Rarity = Rare
+	DropLevel <= 13
+	ItemLevel >= 20
+	ItemLevel < 67
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 0 0 0 210 # Junk Background
+
+Show
+	Rarity = Rare
+	DropLevel <= 20
+	ItemLevel >= 25
+	ItemLevel < 67
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 0 0 0 210 # Junk Background
+
+Show
+	Rarity = Rare
+	DropLevel <= 25
+	ItemLevel >= 30
+	ItemLevel < 67
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 0 0 0 210 # Junk Background
+
+Show
+	Rarity = Rare
+	DropLevel <= 30
+	ItemLevel >= 35
+	ItemLevel < 67
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 0 0 0 210 # Junk Background
+
+Show
+	Rarity = Rare
+	DropLevel <= 36
+	ItemLevel >= 40
+	ItemLevel < 67
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 0 0 0 210 # Junk Background
+
+Show
+	Rarity = Rare
+	DropLevel <= 41
+	ItemLevel >= 45
+	ItemLevel < 67
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 0 0 0 210 # Junk Background
+
+Show
+	Rarity = Rare
+	DropLevel <= 46
+	ItemLevel >= 50
+	ItemLevel < 67
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 0 0 0 210 # Junk Background
+
+Show
+	Rarity = Rare
+	DropLevel <= 52
+	ItemLevel >= 55
+	ItemLevel < 67
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 0 0 0 210 # Junk Background
+
+Show
+	Rarity = Rare
+	DropLevel < 57
+	ItemLevel >= 60
+	ItemLevel < 67
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 0 0 0 210 # Junk Background
+
+Show
+	Rarity = Rare
+	DropLevel < 59
+	ItemLevel >= 65
+	ItemLevel < 67
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 0 0 0 210 # Junk Background
+
+#-------------------------------------------------------------------------------
+# Subsection: Rare Specific Weapon Upgrade Toggles
+#-------------------------------------------------------------------------------
+
+# Bow Rare Levelling
+#Show # Bow Levelling | Disable
+#	Rarity = Rare
+#	ItemLevel < 67
+#	Class "Bows"
+#	SetTextColor 255 255 119 255 # Rare Text
+#	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+#	SetFontSize 41
+#	#SetFontSizeTag 41 # Big
+#	#BlockStrictness 3 Disable
+
+# Warstave Rare Levelling
+#Show # Warstave Levelling | Disable
+#	Rarity = Rare
+#	ItemLevel < 67
+#	Class "Warstaves"
+#	SetTextColor 255 255 119 255 # Rare Text
+#	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+#	SetFontSize 41
+#	#SetFontSizeTag 41 # Big
+#	#BlockStrictness 3 Disable
+
+# Stave Rare Levelling
+#Show # Stave Levelling | Disable
+#	Rarity = Rare
+#	ItemLevel < 67
+#	Class "Staves"
+#	SetTextColor 255 255 119 255 # Rare Text
+#	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+#	SetFontSize 41
+#	#SetFontSizeTag 41 # Big
+#	#BlockStrictness 3 Disable
+
+# Wand Rare Levelling
+#Show # Wand Levelling | Disable
+#	Rarity = Rare
+#	ItemLevel < 67
+#	Class "Wands"
+#	SetTextColor 255 255 119 255 # Rare Text
+#	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+#	SetFontSize 41
+#	#SetFontSizeTag 41 # Big
+#	#BlockStrictness 3 Disable
+
+# Two Hand Axe Rare Levelling
+#Show # Two Hand Axe Levelling | Disable
+#	Rarity = Rare
+#	ItemLevel < 67
+#	Class "Two Hand Axes"
+#	SetTextColor 255 255 119 255 # Rare Text
+#	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+#	SetFontSize 41
+#	#SetFontSizeTag 41 # Big
+#	#BlockStrictness 3 Disable
+
+# One Hand Axe Rare Levelling
+#Show # One Hand Axe Levelling | Disable
+#	Rarity = Rare
+#	ItemLevel < 67
+#	Class "One Hand Axes"
+#	SetTextColor 255 255 119 255 # Rare Text
+#	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+#	SetFontSize 41
+#	#SetFontSizeTag 41 # Big
+#	#BlockStrictness 3 Disable
+
+# Rune Dagger Rare Levelling
+#Show # Rune Dagger Levelling | Disable
+#	Rarity = Rare
+#	ItemLevel < 67
+#	Class "Rune Daggers"
+#	SetTextColor 255 255 119 255 # Rare Text
+#	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+#	SetFontSize 41
+#	#SetFontSizeTag 41 # Big
+#	#BlockStrictness 3 Disable
+
+# Dagger Rare Levelling
+#Show # Dagger Levelling | Disable
+#	Rarity = Rare
+#	ItemLevel < 67
+#	Class "Daggers"
+#	SetTextColor 255 255 119 255 # Rare Text
+#	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+#	SetFontSize 41
+#	#SetFontSizeTag 41 # Big
+#	#BlockStrictness 3 Disable
+
+# Two Hand Sword Rare Levelling
+#Show # Two Hand Sword Levelling | Disable
+#	Rarity = Rare
+#	ItemLevel < 67
+#	Class "Two Hand Swords"
+#	SetTextColor 255 255 119 255 # Rare Text
+#	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+#	SetFontSize 41
+#	#SetFontSizeTag 41 # Big
+#	#BlockStrictness 3 Disable
+
+# Thrusting Rare Levelling
+#Show # Thrusting Levelling | Disable
+#	Rarity = Rare
+#	ItemLevel < 67
+#	Class "Thrusting"
+#	SetTextColor 255 255 119 255 # Rare Text
+#	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+#	SetFontSize 41
+#	#SetFontSizeTag 41 # Big
+#	#BlockStrictness 3 Disable
+
+# One Hand Sword Rare Levelling
+#Show # One Hand Sword Levelling | Disable
+#	Rarity = Rare
+#	ItemLevel < 67
+#	Class "One Hand Swords"
+#	SetTextColor 255 255 119 255 # Rare Text
+#	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+#	SetFontSize 41
+#	#SetFontSizeTag 41 # Big
+#	#BlockStrictness 3 Disable
+
+# Two Hand Mace Rare Levelling
+#Show # Two Hand Mace Levelling | Disable
+#	Rarity = Rare
+#	ItemLevel < 67
+#	Class "Two Hand Maces"
+#	SetTextColor 255 255 119 255 # Rare Text
+#	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+#	SetFontSize 41
+#	#SetFontSizeTag 41 # Big
+#	#BlockStrictness 3 Disable
+
+# One Hand Mace Rare Levelling
+#Show # One Hand Mace Levelling | Disable
+#	Rarity = Rare
+#	ItemLevel < 67
+#	Class "One Hand Maces"
+#	SetTextColor 255 255 119 255 # Rare Text
+#	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+#	SetFontSize 41
+#	#SetFontSizeTag 41 # Big
+#	#BlockStrictness 3 Disable
+
+# Claw Rare Levelling
+#Show # Claw Levelling | Disable
+#	Rarity = Rare
+#	ItemLevel < 67
+#	Class "Claws"
+#	SetTextColor 255 255 119 255 # Rare Text
+#	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+#	SetFontSize 41
+#	#SetFontSizeTag 41 # Big
+#	#BlockStrictness 3 Disable
+
+# Sceptre Rare Levelling
+#Show # Sceptre Levelling | Disable
+#	Rarity = Rare
+#	ItemLevel < 67
+#	Class "Sceptres"
+#	SetTextColor 255 255 119 255 # Rare Text
+#	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+#	SetFontSize 41
+#	#SetFontSizeTag 41 # Big
+#	#BlockStrictness 3 Disable
+
+#-------------------------------------------------------------------------------
 # Section: Rares
 #-------------------------------------------------------------------------------
 
@@ -3851,7 +4135,7 @@ Hide
 
 Hide
 	Rarity <= Magic
-	Class "Wand"
+	Class "Wands"
 	SetBackgroundColor 0 0 0 210 # Junk Background
 	#BlockStrictness 3 Disable
 
@@ -3911,7 +4195,7 @@ Hide
 
 Show
 	Rarity <= Magic
-	Class "Claw"
+	Class "Claws"
 	SetBackgroundColor 0 0 0 210 # Junk Background
 	#BlockStrictness 3 Disable
 
