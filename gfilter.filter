@@ -1,9 +1,9 @@
-#===============================================================================
+﻿#===============================================================================
 # GFILTER
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.9.2
+# VERSION:       3.9.3
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -3747,73 +3747,21 @@ Show
 	#BlockStrictness 2 Disable
 
 #-------------------------------------------------------------------------------
-# Section: Quality Flasks
+# Section: Flasks
 #-------------------------------------------------------------------------------
 
-# Flask Quality Levelling
+#-------------------------------------------------------------------------------
+# Subsection: Utility Flasks Levelling
+#-------------------------------------------------------------------------------
+
 Show
-	Rarity = Normal
-	Quality >= 10
 	ItemLevel < 67
-	Class "Flask"
-	SetTextColor 200 200 200 255 # Normal Text
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetBorderColor 80 80 80 255 # Quality Border
-	SetFontSize 41
-	#SetFontSizeTag 41 # Big
-	#BlockStrictness 2 Disable
-
-# Flask Quality Endgame
-Show
-	Rarity = Normal
-	Quality >= 10
-	Class "Flask"
-	SetTextColor 200 200 200 255 # Normal Text
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	SetBorderColor 80 80 80 255 # Quality Border
-	SetFontSize 37
-	#SetFontSizeTag 37 # Medium
-	#BlockStrictness 2 Disable
-
-#-------------------------------------------------------------------------------
-# Section: Chroma Recipe
-#-------------------------------------------------------------------------------
-
-# RGB Levelling
-Show
-	SocketGroup "RGB"
-	ItemLevel < 67
+	BaseType "Silver Flask" "Quicksilver Flask" "Diamond Flask" "Granite Flask" "Basalt Flask"
 	SetTextColor 255 255 255 255 # Normal Highlight Text
 	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
-	SetFontSize 41
-	#SetFontSizeTag 41 # Big
-	#BlockStrictness 2 Disable
-
-# RGB Maps 2x2
-Show
-	SocketGroup "RGB"
-	Height <= 2
-	Width <= 2
-	SetTextColor 255 255 255 255 # Normal Highlight Text
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	SetFontSize 37
-	#SetFontSizeTag 37 # Medium
-	#BlockStrictness 2 Disable
-
-# RGB Maps 1x3
-Show
-	SocketGroup "RGB"
-	Height <= 3
-	Width <= 1
-	SetTextColor 255 255 255 255 # Normal Highlight Text
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	SetFontSize 37
-	#SetFontSizeTag 37 # Medium
-	#BlockStrictness 2 Disable
-
-#-------------------------------------------------------------------------------
-# Section: Utility Flasks
-#-------------------------------------------------------------------------------
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	#BlockStrictness 3 Disable
 
 Show
 	ItemLevel < 67
@@ -3822,17 +3770,6 @@ Show
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
 	#BlockStrictness 3 Disable
-
-Show
-	Class "Utility Flasks"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	SetFontSize 41
-	#SetFontSizeTag 41 # Big
-	#BlockStrictness 2 Disable
-
-#-------------------------------------------------------------------------------
-# Section: Levelling
-#-------------------------------------------------------------------------------
 
 #-------------------------------------------------------------------------------
 # Subsection: Flask Upgrade Normal
@@ -4052,6 +3989,35 @@ Show
 	SetFontSize 41
 
 #-------------------------------------------------------------------------------
+# Subsection: Quality Flasks
+#-------------------------------------------------------------------------------
+
+# Flask Quality Levelling
+Show
+	Rarity = Normal
+	Quality >= 10
+	ItemLevel < 67
+	Class "Flask"
+	SetTextColor 200 200 200 255 # Normal Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBorderColor 80 80 80 255 # Quality Border
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	#BlockStrictness 2 Disable
+
+# Flask Quality Endgame
+Show
+	Rarity = Normal
+	Quality >= 14
+	Class "Flask"
+	SetTextColor 200 200 200 255 # Normal Text
+	SetBackgroundColor 0 0 0 210 # Junk Background
+	SetBorderColor 80 80 80 255 # Quality Border
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	#BlockStrictness 2 Disable
+
+#-------------------------------------------------------------------------------
 # Subsection: Hide remaining Flasks
 #-------------------------------------------------------------------------------
 
@@ -4063,6 +4029,46 @@ Hide
 Hide
 	Class "Flask"
 	SetBackgroundColor 0 0 0 0 # Hidden Background
+
+#-------------------------------------------------------------------------------
+# Section: Chroma Recipe
+#-------------------------------------------------------------------------------
+
+# RGB Levelling
+Show
+	SocketGroup "RGB"
+	ItemLevel < 67
+	SetTextColor 255 255 255 255 # Normal Highlight Text
+	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	#BlockStrictness 2 Disable
+
+# RGB Maps 2x2
+Show
+	SocketGroup "RGB"
+	Height <= 2
+	Width <= 2
+	SetTextColor 255 255 255 255 # Normal Highlight Text
+	SetBackgroundColor 0 0 0 210 # Junk Background
+	SetFontSize 37
+	#SetFontSizeTag 37 # Medium
+	#BlockStrictness 2 Disable
+
+# RGB Maps 1x3
+Show
+	SocketGroup "RGB"
+	Height <= 3
+	Width <= 1
+	SetTextColor 255 255 255 255 # Normal Highlight Text
+	SetBackgroundColor 0 0 0 210 # Junk Background
+	SetFontSize 37
+	#SetFontSizeTag 37 # Medium
+	#BlockStrictness 2 Disable
+
+#-------------------------------------------------------------------------------
+# Section: Levelling
+#-------------------------------------------------------------------------------
 
 #-------------------------------------------------------------------------------
 # Subsection: Obsolete Levelling Bases
