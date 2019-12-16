@@ -1,4 +1,4 @@
-﻿#===============================================================================
+#===============================================================================
 # GFILTER
 #===============================================================================
 #
@@ -123,9 +123,27 @@ Show
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
 	CustomAlertSound "gfT2.mp3"
+	MinimapIcon 1 Yellow Circle
 
 #-------------------------------------------------------------------------------
 # Section: Blight
+#-------------------------------------------------------------------------------
+
+# Blighted Map
+Show
+	BlightedMap True
+	Class "Maps"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 200 200 200 255 # Map White Background
+	SetBorderColor 200 150 0 255 # Blight Border
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	PlayAlertSound 4 150 # Map
+	MinimapIcon 1 Yellow Square
+	PlayEffect Yellow 
+
+#-------------------------------------------------------------------------------
+# Subsection: Oils
 #-------------------------------------------------------------------------------
 
 # T1 Oil
