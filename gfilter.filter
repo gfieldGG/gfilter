@@ -193,8 +193,8 @@ Show
 Show
 	BaseType "Timeless Karui Emblem" "Timeless Maraketh Emblem" "Timeless Templar Emblem" "Timeless Vaal Emblem" "Timeless Eternal Emblem"
 	SetTextColor 88 52 126 255 # Legion Text
-	SetBackgroundColor 28 16 40 255 # Legion Background
-	SetBorderColor 0 0 0 255 # Map Border
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBorderColor 88 52 126 255 # Legion Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 7 300 # Tier1.5
@@ -204,7 +204,7 @@ Show
 Show
 	BaseType "Timeless Eternal Empire Splinter" "Timeless Karui Splinter" "Timeless Maraketh Splinter" "Timeless Templar Splinter" "Timeless Vaal Splinter"
 	SetTextColor 88 52 126 255 # Legion Text
-	SetBackgroundColor 28 16 40 255 # Legion Background
+	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 0 0 0 255 # Map Border
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
