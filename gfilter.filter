@@ -3692,7 +3692,7 @@ Show
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
-	#BlockStrictness 2 Hide
+	#BlockStrictness 3 Hide
 
 # Rare Endgame
 Show
