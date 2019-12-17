@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.9.3
+# VERSION:       3.9.4
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -3071,6 +3071,17 @@ Show
 	Rarity = Rare
 	ItemLevel < 67
 	Class "Rings" "Belts" "Amulets"
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	#BlockStrictness 3 Disable
+
+# Rare Boots Levelling
+Show
+	Rarity = Rare
+	ItemLevel < 67
+	Class "Boots"
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 	SetFontSize 41
