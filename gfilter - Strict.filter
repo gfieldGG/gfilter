@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.9.3
+# VERSION:       3.9.4
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -193,8 +193,8 @@ Show
 Show
 	BaseType "Timeless Karui Emblem" "Timeless Maraketh Emblem" "Timeless Templar Emblem" "Timeless Vaal Emblem" "Timeless Eternal Emblem"
 	SetTextColor 88 52 126 255 # Legion Text
-	SetBackgroundColor 28 16 40 255 # Legion Background
-	SetBorderColor 0 0 0 255 # Map Border
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBorderColor 88 52 126 255 # Legion Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
 	PlayAlertSound 7 300 # Tier1.5
@@ -204,7 +204,7 @@ Show
 Show
 	BaseType "Timeless Eternal Empire Splinter" "Timeless Karui Splinter" "Timeless Maraketh Splinter" "Timeless Templar Splinter" "Timeless Vaal Splinter"
 	SetTextColor 88 52 126 255 # Legion Text
-	SetBackgroundColor 28 16 40 255 # Legion Background
+	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 0 0 0 255 # Map Border
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
@@ -1043,7 +1043,6 @@ Hide
 	BaseType "The Scholar" "The Lover" "Emperor's Luck" "Flora's Gift" "Her Mask" "The Catalyst" "Destined to Crumble" "The Inoculated" "The Road to Power" "The Sigil" "The Spoiled Prince" "Rain of Chaos" "Thunderous Skies" "The Twins" "Light and Truth" "Prosperity" "The Mercenary" "The Warden" "The Calling" "The Gemcutter" "The Lord in Black" "Struck by Lightning" "The Metalsmith's Gift" "Lantador's Lost Love" "The Scarred Meadow" "The Visionary" "The Incantation" "Dying Anguish" "Cartographer's Delight" "The Pack Leader" "The Gentleman" "The Opulent" "A Mother's Parting Gift" "The Sun" "The Conduit" "The Fox" "The Realm" "The Betrayal" "The Web" "Turn the Other Cheek" "Lysah's Respite" "The Lich" "The Feast" "The Witch" "Ruthless Ceinture" "The Siren" "Death" "Call to the First Ones" "The Hermit" "The Puzzle" "The Fathomless Depths" "Audacity" "Doedre's Madness" "Rain Tempter" "Anarchy's Price" "The Watcher" "The Coming Storm" "Dark Temptation" "Blazing Fire" "Tranquillity"
 	SetTextColor 14 186 255 255 # Divination Card Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 1 Hide
 
 # Divination Card Trash Currency (fix)
 Hide
@@ -1051,15 +1050,13 @@ Hide
 	BaseType "Rain of Chaos" "The Puzzle" "The Scholar"
 	SetTextColor 14 186 255 255 # Divination Card Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 1 Hide
 
 # Divination Card Trash (fix)
 Hide
 	Class "Divination Card"
 	BaseType "The Carrion Crow" "The Surgeon" "The King's Blade" "The Lunaris Priestess"
 	SetTextColor 14 186 255 255 # Divination Card Text
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 1 Hide
+	SetBackgroundColor 0 0 0 0 # Hidden Background
 
 # Divination Card
 Show
@@ -3077,6 +3074,17 @@ Show
 	#SetFontSizeTag 41 # Big
 	#BlockStrictness 3 Disable
 
+# Rare Boots Levelling
+Show
+	Rarity = Rare
+	ItemLevel < 67
+	Class "Boots"
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	#BlockStrictness 3 Disable
+
 #-------------------------------------------------------------------------------
 # Subsection: Obsolete Bases
 #-------------------------------------------------------------------------------
@@ -3673,7 +3681,7 @@ Show
 	#BlockStrictness 3 Hide
 
 # Rare Jewelry
-Hide
+Show
 	Rarity = Rare
 	ItemLevel >= 65
 	Class "Belts" "Amulets" "Rings"
@@ -3681,7 +3689,7 @@ Hide
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
-	#BlockStrictness 2 Hide
+	#BlockStrictness 3 Hide
 
 # Rare Endgame
 Hide

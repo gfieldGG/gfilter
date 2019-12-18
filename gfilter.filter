@@ -1038,28 +1038,25 @@ Show
 #-------------------------------------------------------------------------------
 
 # Divination Card Trash
-Show
+Hide
 	Class "Divination Card"
 	BaseType "The Scholar" "The Lover" "Emperor's Luck" "Flora's Gift" "Her Mask" "The Catalyst" "Destined to Crumble" "The Inoculated" "The Road to Power" "The Sigil" "The Spoiled Prince" "Rain of Chaos" "Thunderous Skies" "The Twins" "Light and Truth" "Prosperity" "The Mercenary" "The Warden" "The Calling" "The Gemcutter" "The Lord in Black" "Struck by Lightning" "The Metalsmith's Gift" "Lantador's Lost Love" "The Scarred Meadow" "The Visionary" "The Incantation" "Dying Anguish" "Cartographer's Delight" "The Pack Leader" "The Gentleman" "The Opulent" "A Mother's Parting Gift" "The Sun" "The Conduit" "The Fox" "The Realm" "The Betrayal" "The Web" "Turn the Other Cheek" "Lysah's Respite" "The Lich" "The Feast" "The Witch" "Ruthless Ceinture" "The Siren" "Death" "Call to the First Ones" "The Hermit" "The Puzzle" "The Fathomless Depths" "Audacity" "Doedre's Madness" "Rain Tempter" "Anarchy's Price" "The Watcher" "The Coming Storm" "Dark Temptation" "Blazing Fire" "Tranquillity"
 	SetTextColor 14 186 255 255 # Divination Card Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 1 Hide
 
 # Divination Card Trash Currency (fix)
-Show
+Hide
 	Class "Divination Card"
 	BaseType "Rain of Chaos" "The Puzzle" "The Scholar"
 	SetTextColor 14 186 255 255 # Divination Card Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 1 Hide
 
 # Divination Card Trash (fix)
-Show
+Hide
 	Class "Divination Card"
 	BaseType "The Carrion Crow" "The Surgeon" "The King's Blade" "The Lunaris Priestess"
 	SetTextColor 14 186 255 255 # Divination Card Text
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 1 Hide
+	SetBackgroundColor 0 0 0 0 # Hidden Background
 
 # Divination Card
 Show
