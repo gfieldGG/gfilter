@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.9.5
+# VERSION:       3.9.6
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -1786,8 +1786,19 @@ Show
 	MinimapIcon 0 Red Square
 	PlayEffect Red 
 
-# Nice Maps
+# Garbage Map
 #Show
+#	MapTier <= 10
+#	Class "Maps"
+#	BaseType "Overgrown Ruin"
+#	SetTextColor 0 0 0 255 # Map Text
+#	SetBackgroundColor 200 200 200 255 # Map White Background
+#	SetBorderColor 0 0 0 255 # Map Border
+#	#BlockStrictness 3 Hide
+
+# Nice Map
+#Show
+#	MapTier <= 10
 #	Class "Maps"
 #	BaseType "Iceberg Map" "Spider Forest Map" "Vault Map" "Burial Chambers Map" "Canyon Map" "Strand Map" "Toxic Sewer Map" "Fields Map" "Racecourse Map" "Lookout Map" "Jungle Valley Map" "Mesa Map" "Phantasmagoria Map" "Beach Map" "City Square Map" "Channel Map" "Alleyways Map" "Arid Lake Map" "Shore Map" "Ashen Wood Map"
 #	SetTextColor 0 0 0 255 # Map Text
