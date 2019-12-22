@@ -1,4 +1,4 @@
-﻿#===============================================================================
+#===============================================================================
 # GFILTER
 #===============================================================================
 #
@@ -1076,7 +1076,7 @@ Show
 #-------------------------------------------------------------------------------
 
 # Currency Trash
-Show
+Hide
 	Class "Currency"
 	BaseType "Alteration Shard" "Transmutation Shard" "Alchemy Shard" "Scroll Fragment"
 	SetTextColor 200 186 153 255 # Currency Text
@@ -1408,7 +1408,7 @@ Show
 # Gem Vaal Quality
 Show
 	Corrupted True
-	Quality >= 12
+	Quality >= 14
 	Class "Active Skill Gems" "Support Skill Gems"
 	BaseType "Vaal"
 	SetTextColor 26 162 155 255 # Gem Text
@@ -1447,7 +1447,7 @@ Show
 
 # Gem Quality High
 Show
-	Quality >= 12
+	Quality >= 16
 	Class "Active Skill Gems" "Support Skill Gems"
 	SetTextColor 26 162 155 255 # Gem Text
 	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
@@ -1790,7 +1790,7 @@ Show
 #Show
 #	MapTier <= 10
 #	Class "Maps"
-#	BaseType "Overgrown Ruin"
+#	BaseType "Overgrown Ruin" "Museum"
 #	SetTextColor 0 0 0 255 # Map Text
 #	SetBackgroundColor 200 200 200 255 # Map White Background
 #	SetBorderColor 0 0 0 255 # Map Border
@@ -1800,7 +1800,7 @@ Show
 #Show
 #	MapTier <= 10
 #	Class "Maps"
-#	BaseType "Iceberg Map" "Spider Forest Map" "Vault Map" "Burial Chambers Map" "Canyon Map" "Strand Map" "Toxic Sewer Map" "Fields Map" "Racecourse Map" "Lookout Map" "Jungle Valley Map" "Mesa Map" "Phantasmagoria Map" "Beach Map" "City Square Map" "Channel Map" "Alleyways Map" "Arid Lake Map" "Shore Map" "Ashen Wood Map"
+#	BaseType "Iceberg Map" "Spider Forest Map" "Vault Map" "Burial Chambers Map" "Canyon Map" "Strand Map" "Toxic Sewer Map" "Fields Map" "Racecourse Map" "Lookout Map" "Jungle Valley Map" "Mesa Map" "Phantasmagoria Map" "Beach Map" "City Square Map" "Channel Map" "Alleyways Map" "Arid Lake Map" "Shore Map" "Ashen Wood Map" "Caldera"
 #	SetTextColor 0 0 0 255 # Map Text
 #	SetBackgroundColor 255 200 0 255 # Map Yellow Background
 #	SetBorderColor 127 100 0 255 # Map Yellow Border
@@ -1817,7 +1817,7 @@ Show
 # Map T1 hide
 Hide
 	MapTier = 1
-	ItemLevel >= 84
+	ItemLevel >= 77
 	Class "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 200 200 200 255 # Map White Background
@@ -1831,7 +1831,7 @@ Hide
 # Map T1 low
 Show
 	MapTier = 1
-	ItemLevel >= 77
+	ItemLevel >= 73
 	Class "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 200 200 200 255 # Map White Background
@@ -1845,7 +1845,7 @@ Show
 # Map T2 hide
 Hide
 	MapTier = 2
-	ItemLevel >= 85
+	ItemLevel >= 78
 	Class "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 200 200 200 255 # Map White Background
@@ -1859,7 +1859,7 @@ Hide
 # Map T2 low
 Show
 	MapTier = 2
-	ItemLevel >= 78
+	ItemLevel >= 74
 	Class "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 200 200 200 255 # Map White Background
@@ -1873,7 +1873,7 @@ Show
 # Map T3 hide
 Hide
 	MapTier = 3
-	ItemLevel >= 86
+	ItemLevel >= 79
 	Class "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 200 200 200 255 # Map White Background
@@ -1887,7 +1887,7 @@ Hide
 # Map T3 low
 Show
 	MapTier = 3
-	ItemLevel >= 79
+	ItemLevel >= 75
 	Class "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 200 200 200 255 # Map White Background
@@ -1901,7 +1901,7 @@ Show
 # Map T4 hide
 Hide
 	MapTier = 4
-	ItemLevel >= 87
+	ItemLevel >= 80
 	Class "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 200 200 200 255 # Map White Background
@@ -1915,7 +1915,7 @@ Hide
 # Map T4 low
 Show
 	MapTier = 4
-	ItemLevel >= 80
+	ItemLevel >= 76
 	Class "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 200 200 200 255 # Map White Background
@@ -1929,7 +1929,7 @@ Show
 # Map T5 hide
 Hide
 	MapTier = 5
-	ItemLevel >= 88
+	ItemLevel >= 81
 	Class "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 200 200 200 255 # Map White Background
@@ -1943,7 +1943,7 @@ Hide
 # Map T5 low
 Show
 	MapTier = 5
-	ItemLevel >= 81
+	ItemLevel >= 77
 	Class "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 200 200 200 255 # Map White Background
@@ -1974,7 +1974,7 @@ Show
 # Map T6 hide
 Hide
 	MapTier = 6
-	ItemLevel >= 89
+	ItemLevel >= 82
 	Class "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 200 0 255 # Map Yellow Background
@@ -1988,7 +1988,7 @@ Hide
 # Map T6 low
 Show
 	MapTier = 6
-	ItemLevel >= 82
+	ItemLevel >= 78
 	Class "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 200 0 255 # Map Yellow Background
@@ -2002,7 +2002,7 @@ Show
 # Map T7 hide
 Hide
 	MapTier = 7
-	ItemLevel >= 90
+	ItemLevel >= 83
 	Class "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 200 0 255 # Map Yellow Background
@@ -2016,7 +2016,7 @@ Hide
 # Map T7 low
 Show
 	MapTier = 7
-	ItemLevel >= 83
+	ItemLevel >= 79
 	Class "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 200 0 255 # Map Yellow Background
@@ -2030,7 +2030,7 @@ Show
 # Map T8 hide
 Hide
 	MapTier = 8
-	ItemLevel >= 91
+	ItemLevel >= 84
 	Class "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 200 0 255 # Map Yellow Background
@@ -2044,7 +2044,7 @@ Hide
 # Map T8 low
 Show
 	MapTier = 8
-	ItemLevel >= 84
+	ItemLevel >= 80
 	Class "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 200 0 255 # Map Yellow Background
@@ -2058,7 +2058,7 @@ Show
 # Map T9 hide
 Hide
 	MapTier = 9
-	ItemLevel >= 92
+	ItemLevel >= 85
 	Class "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 200 0 255 # Map Yellow Background
@@ -2072,7 +2072,7 @@ Hide
 # Map T9 low
 Show
 	MapTier = 9
-	ItemLevel >= 85
+	ItemLevel >= 81
 	Class "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 200 0 255 # Map Yellow Background
@@ -2086,7 +2086,7 @@ Show
 # Map T10 hide
 Hide
 	MapTier = 10
-	ItemLevel >= 93
+	ItemLevel >= 86
 	Class "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 200 0 255 # Map Yellow Background
@@ -2100,7 +2100,7 @@ Hide
 # Map T10 low
 Show
 	MapTier = 10
-	ItemLevel >= 86
+	ItemLevel >= 82
 	Class "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 200 0 255 # Map Yellow Background
