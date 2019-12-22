@@ -92,7 +92,7 @@ Show
 	Rarity = Unique
 	Class "Metamorph Sample"
 	SetTextColor 125 180 50 255 # Metamorph Text
-	SetBackgroundColor 15 27 15 240 # Metamorph Highlight Background
+	SetBackgroundColor 15 27 15 255 # Metamorph Highlight Background
 	SetBorderColor 175 96 37 255 # Unique Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
@@ -104,7 +104,7 @@ Show
 Show
 	Class "Metamorph Sample"
 	SetTextColor 125 180 50 255 # Metamorph Text
-	SetBackgroundColor 15 27 15 240 # Metamorph Highlight Background
+	SetBackgroundColor 15 27 15 255 # Metamorph Highlight Background
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
 	PlayEffect Green Temp
@@ -118,7 +118,7 @@ Show
 	Class "Stackable Currency"
 	BaseType "Abrasive Catalyst" "Fertile Catalyst" "Imbued Catalyst" "Intrinsic Catalyst" "Intrinsic Catalyst" "Prismatic Catalyst" "Tempering Catalyst" "Turbulent Catalyst"
 	SetTextColor 200 186 153 255 # Currency Text
-	SetBackgroundColor 15 27 15 240 # Metamorph Highlight Background
+	SetBackgroundColor 15 27 15 255 # Metamorph Highlight Background
 	SetBorderColor 125 180 50 255 # Metamorph Border
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big

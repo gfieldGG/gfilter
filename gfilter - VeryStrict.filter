@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.9.5
+# VERSION:       3.9.6
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -92,7 +92,7 @@ Show
 	Rarity = Unique
 	Class "Metamorph Sample"
 	SetTextColor 125 180 50 255 # Metamorph Text
-	SetBackgroundColor 15 27 15 240 # Metamorph Highlight Background
+	SetBackgroundColor 15 27 15 255 # Metamorph Highlight Background
 	SetBorderColor 175 96 37 255 # Unique Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
@@ -104,7 +104,7 @@ Show
 Show
 	Class "Metamorph Sample"
 	SetTextColor 125 180 50 255 # Metamorph Text
-	SetBackgroundColor 15 27 15 240 # Metamorph Highlight Background
+	SetBackgroundColor 15 27 15 255 # Metamorph Highlight Background
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
 	PlayEffect Green Temp
@@ -118,7 +118,7 @@ Show
 	Class "Stackable Currency"
 	BaseType "Abrasive Catalyst" "Fertile Catalyst" "Imbued Catalyst" "Intrinsic Catalyst" "Intrinsic Catalyst" "Prismatic Catalyst" "Tempering Catalyst" "Turbulent Catalyst"
 	SetTextColor 200 186 153 255 # Currency Text
-	SetBackgroundColor 15 27 15 240 # Metamorph Highlight Background
+	SetBackgroundColor 15 27 15 255 # Metamorph Highlight Background
 	SetBorderColor 125 180 50 255 # Metamorph Border
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
@@ -1786,8 +1786,19 @@ Show
 	MinimapIcon 0 Red Square
 	PlayEffect Red 
 
-# Nice Maps
+# Garbage Map
+#Hide
+#	MapTier <= 10
+#	Class "Maps"
+#	BaseType "Overgrown Ruin"
+#	SetTextColor 0 0 0 255 # Map Text
+#	SetBackgroundColor 200 200 200 255 # Map White Background
+#	SetBorderColor 0 0 0 255 # Map Border
+#	#BlockStrictness 3 Hide
+
+# Nice Map
 #Show
+#	MapTier <= 10
 #	Class "Maps"
 #	BaseType "Iceberg Map" "Spider Forest Map" "Vault Map" "Burial Chambers Map" "Canyon Map" "Strand Map" "Toxic Sewer Map" "Fields Map" "Racecourse Map" "Lookout Map" "Jungle Valley Map" "Mesa Map" "Phantasmagoria Map" "Beach Map" "City Square Map" "Channel Map" "Alleyways Map" "Arid Lake Map" "Shore Map" "Ashen Wood Map"
 #	SetTextColor 0 0 0 255 # Map Text
