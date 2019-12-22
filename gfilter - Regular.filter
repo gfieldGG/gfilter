@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.9.4
+# VERSION:       3.9.5
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -149,34 +149,34 @@ Show
 # T1 Oil
 Show
 	BaseType "Golden Oil"
-	SetTextColor 200 200 75 255 # Blight Text
-	SetBackgroundColor 30 15 0 255 # Blight Highlight Background
-	SetBorderColor 200 150 0 255 # Blight Border
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 200 200 75 255 # Blight Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
-	PlayAlertSound 7 300 # Tier1.5
+	CustomAlertSound "gfT1.mp3"
 	MinimapIcon 0 Red Circle
 
 # T15 Oil
 Show
 	BaseType "Silver Oil" "Opalescent Oil" "Black Oil"
 	SetTextColor 200 200 75 255 # Blight Text
-	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBackgroundColor 30 30 0 255 # Blight Highlight Background
 	SetBorderColor 200 150 0 255 # Blight Border
-	SetFontSize 41
-	#SetFontSizeTag 41 # Big
-	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 1 Yellow Circle
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	CustomAlertSound "gfT15.mp3"
+	MinimapIcon 1 Red Circle
 
 # T2 Oil
 Show
 	BaseType "Crimson Oil" "Violet Oil" "Azure Oil" "Teal Oil"
 	SetTextColor 200 200 75 255 # Blight Text
-	SetBackgroundColor 30 15 0 255 # Blight Highlight Background
-	SetFontSize 37
-	#SetFontSizeTag 37 # Medium
-	PlayAlertSound 6 150 # Tier3
-	MinimapIcon 2 White Circle
+	SetBackgroundColor 30 30 0 255 # Blight Highlight Background
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	CustomAlertSound "gfT2.mp3"
+	MinimapIcon 1 Yellow Circle
 
 # T3 Oil
 Show
@@ -224,7 +224,7 @@ Show
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
 	CustomAlertSound "gfT15.mp3"
-	MinimapIcon 0 Red Circle
+	MinimapIcon 1 Red Circle
 	PlayEffect Red 
 
 # Incubator T2
@@ -2179,8 +2179,8 @@ Show
 
 # Conqueror Unique
 Show
-	Rarity = Unique
 	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
+	Rarity = Unique
 	SetTextColor 175 96 37 255 # Unique Text
 	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
 	SetBorderColor 143 46 54 255 # Conqueror Border
@@ -2196,9 +2196,9 @@ Show
 
 # Conqueror Base T0
 Show
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
 	Rarity <= Rare
 	BaseType "Steel Ring" "Opal Ring" "Crystal Belt" "Marble Amulet" "Blue Pearl Amulet" "Vanguard Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Stygian Vise" "Vermillion Ring" "Cerulean Ring" "Convoking Wand"
-	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
 	SetTextColor 86 6 11 255 # Conqueror Red Text
 	SetBackgroundColor 255 255 255 255 # Tier0 Background
 	SetBorderColor 143 46 54 255 # Conqueror Border
@@ -2210,10 +2210,10 @@ Show
 
 # Conqueror T1 ilvl84
 Show
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
 	Rarity <= Rare
 	ItemLevel >= 84
 	BaseType "Sorcerer Boots" "Hubris Circlet" "Sorcerer Gloves" "Eternal Burgonet" "Royal Burgonet" "Lion Pelt" "Titan Gauntlets" "Titan Greaves" "Slink Gloves" "Slink Boots" "Saintly Chainmail" "Astral Plate" "Assassin's Garb" "Vaal Regalia"
-	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
 	SetTextColor 86 6 11 255 # Conqueror Red Text
 	SetBackgroundColor 255 255 255 255 # Tier0 Background
 	SetBorderColor 143 46 54 255 # Conqueror Border
@@ -2229,10 +2229,10 @@ Show
 
 # Conqueror T2 Jewelry ilvl80
 Show
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
 	Rarity <= Rare
 	ItemLevel >= 80
 	BaseType "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Two-Stone Ring" "Prismatic Ring" "Coral Ring" "Unset Ring"
-	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
 	SetTextColor 205 101 110 255 # Conqueror Text
 	SetBackgroundColor 86 6 11 255 # Conqueror Highlight Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -2244,9 +2244,9 @@ Show
 
 # Conqueror ilvl84
 Show
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
 	Rarity <= Rare
 	ItemLevel >= 84
-	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
 	SetTextColor 205 101 110 255 # Conqueror Text
 	SetBackgroundColor 86 6 11 255 # Conqueror Highlight Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -2258,10 +2258,10 @@ Show
 
 # Conqueror Jewelry ilvl75
 Show
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
 	Rarity <= Rare
 	ItemLevel >= 75
 	BaseType "Leather Belt" "Heavy Belt" "Agate Amulet" "Turquoise Amulet" "Citrine Amulet" "Diamond Ring" "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Two-Stone Ring" "Prismatic Ring" "Coral Ring" "Unset Ring" "Moonstone Ring" "Jade Amulet" "Amber Amulet" "Lapis Amulet" "Onyx Amulet" "Iron Ring"
-	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
 	SetTextColor 205 101 110 255 # Conqueror Text
 	SetBackgroundColor 86 6 11 255 # Conqueror Highlight Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -2273,10 +2273,10 @@ Show
 
 # Conqueror Jewelry ilvl75
 Show
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
 	Rarity <= Rare
 	ItemLevel >= 75
 	Class "Amulets" "Rings"
-	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
 	SetTextColor 205 101 110 255 # Conqueror Text
 	SetBackgroundColor 86 6 11 255 # Conqueror Highlight Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -2292,10 +2292,10 @@ Show
 
 # Conqueror T1 ilvl75
 Show
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
 	Rarity <= Rare
 	ItemLevel >= 75
 	BaseType "Sorcerer Boots" "Hubris Circlet" "Sorcerer Gloves" "Eternal Burgonet" "Royal Burgonet" "Lion Pelt" "Titan Gauntlets" "Titan Greaves" "Slink Gloves" "Slink Boots" "Saintly Chainmail" "Astral Plate" "Assassin's Garb" "Vaal Regalia" "Sambar Sceptre" "Copper Kris" "Platinum Kris" "Profane Wand" "Eclipse Staff" "Imbued Wand" "Opal Wand" "Opal Sceptre" "Void Sceptre" "Titanium Spirit Shield" "Fossilised Spirit Shield" "Ivory Spirit Shield" "Bone Spirit Shield" "Crusader Buckler" "Ezomyte Tower Shield" "Archon Kite Shield" "Angelic Kite Shield" "Ceremonial Kite Shield"
-	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
 	SetTextColor 205 101 110 255 # Conqueror Text
 	SetBackgroundColor 86 6 11 255 # Conqueror Highlight Background
 	SetFontSize 45
@@ -2310,9 +2310,9 @@ Show
 
 # Conqueror ilvl75
 Show
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
 	Rarity <= Rare
 	ItemLevel >= 75
-	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
 	SetTextColor 205 101 110 255 # Conqueror Text
 	SetBackgroundColor 86 6 11 255 # Conqueror Highlight Background
 	SetFontSize 41
@@ -2323,9 +2323,9 @@ Show
 
 # Conqueror T2
 Show
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
 	Rarity <= Rare
 	BaseType "Sorcerer Boots" "Hubris Circlet" "Sorcerer Gloves" "Eternal Burgonet" "Royal Burgonet" "Lion Pelt" "Titan Gauntlets" "Titan Greaves" "Slink Gloves" "Slink Boots" "Saintly Chainmail" "Astral Plate" "Assassin's Garb" "Vaal Regalia" "Sambar Sceptre" "Copper Kris" "Platinum Kris" "Profane Wand" "Eclipse Staff" "Imbued Wand" "Opal Wand" "Opal Sceptre" "Void Sceptre" "Titanium Spirit Shield" "Fossilised Spirit Shield" "Ivory Spirit Shield" "Bone Spirit Shield" "Crusader Buckler" "Ezomyte Tower Shield" "Archon Kite Shield" "Angelic Kite Shield" "Ceremonial Kite Shield"
-	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
 	SetTextColor 205 101 110 255 # Conqueror Text
 	SetBackgroundColor 86 6 11 255 # Conqueror Highlight Background
 	SetFontSize 41
@@ -2357,7 +2357,7 @@ Show
 	ShaperItem True
 	Rarity <= Rare
 	ItemLevel >= 82
-	BaseType "Crystal Belt" "Fingerless Silk Gloves" "Coronal Maul" "Leather Belt" "Opal Ring" "Vaal Mask" "Steel Ring"
+	BaseType "Crystal Belt" "Fingerless Silk Gloves" "Coronal Maul" "Leather Belt" "Opal Ring" "Vaal Mask"
 	SetTextColor 43 150 211 255 # Shaper Text
 	SetBackgroundColor 0 38 66 255 # Shaper Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -2371,7 +2371,7 @@ Show
 	ShaperItem True
 	Rarity <= Rare
 	ItemLevel >= 84
-	BaseType "Agate Amulet" "Amber Amulet" "Citrine Amulet" "Diamond Ring" "Hubris Circlet" "Onyx Amulet" "Titanium Spirit Shield" "Turquoise Amulet" "Two-Toned Boots" "Vanguard Belt" "Champion Kite Shield" "Spiraled Wand" "Conquest Chainmail"
+	BaseType "Agate Amulet" "Amber Amulet" "Citrine Amulet" "Diamond Ring" "Hubris Circlet" "Onyx Amulet" "Turquoise Amulet" "Two-Toned Boots" "Vanguard Belt" "Champion Kite Shield"
 	SetTextColor 43 150 211 255 # Shaper Text
 	SetBackgroundColor 0 38 66 255 # Shaper Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -2385,7 +2385,7 @@ Show
 	ShaperItem True
 	Rarity <= Rare
 	ItemLevel >= 86
-	BaseType "Lion Pelt" "Convoking Wand" "Coral Amulet" "Colossal Tower Shield" "Eclipse Staff" "Gold Amulet" "Sorcerer Gloves" "Jewelled Foil" "Exquisite Blade" "Opal Sceptre" "Opal Wand" "Pagan Wand" "Paua Amulet" "Profane Wand" "Prophecy Wand" "Sorcerer Boots" "Thicket Bow" "Two-Stone Ring" "Vaal Regalia" "Jade Amulet" "Void Sceptre" "Copper Kris" "Imp Dagger" "Imperial Bow" "Platinum Kris" "Ranger Bow" "Tornado Wand" "Lapis Amulet"
+	BaseType "Lion Pelt" "Convoking Wand" "Coral Amulet" "Eclipse Staff" "Gold Amulet" "Sorcerer Gloves" "Jewelled Foil" "Exquisite Blade" "Opal Sceptre" "Opal Wand" "Pagan Wand" "Paua Amulet" "Profane Wand" "Prophecy Wand" "Sorcerer Boots" "Thicket Bow" "Two-Stone Ring" "Vaal Regalia" "Void Sceptre" "Copper Kris" "Imp Dagger" "Imperial Bow" "Platinum Kris" "Tornado Wand" "Lapis Amulet"
 	SetTextColor 43 150 211 255 # Shaper Text
 	SetBackgroundColor 0 38 66 255 # Shaper Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -2417,7 +2417,7 @@ Show
 	ShaperItem True
 	Rarity <= Rare
 	ItemLevel >= 80
-	BaseType "Agate Amulet" "Amber Amulet" "Imp Dagger" "Citrine Amulet" "Coral Ring" "Coronal Maul" "Diamond Ring" "Eclipse Staff" "Imperial Bow" "Jade Amulet" "Lapis Amulet" "Leather Belt" "Onyx Amulet" "Pagan Wand" "Faun's Horn" "Skean" "Ruby Ring" "Sapphire Ring" "Titanium Spirit Shield" "Topaz Ring" "Turquoise Amulet" "Two-Stone Ring" "Two-Toned Boots" "Vaal Mask" "Opal Wand" "Copper Kris" "Iron Sceptre" "Hubris Circlet" "Exquisite Blade" "Coral Amulet" "Paua Amulet" "Sorcerer Gloves" "Pinnacle Tower Shield" "Unset Ring" "Crusader Buckler" "Lacquered Buckler" "Spiny Round Shield" "Shadow Sceptre" "Opal Sceptre" "Gold Amulet"
+	BaseType "Agate Amulet" "Amber Amulet" "Imp Dagger" "Citrine Amulet" "Coral Ring" "Coronal Maul" "Diamond Ring" "Eclipse Staff" "Imperial Bow" "Lapis Amulet" "Leather Belt" "Onyx Amulet" "Pagan Wand" "Skean" "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Turquoise Amulet" "Two-Stone Ring" "Two-Toned Boots" "Vaal Mask" "Opal Wand" "Copper Kris" "Iron Sceptre" "Hubris Circlet" "Exquisite Blade" "Coral Amulet" "Paua Amulet" "Sorcerer Gloves" "Unset Ring" "Opal Sceptre" "Gold Amulet"
 	SetTextColor 43 150 211 255 # Shaper Text
 	SetBackgroundColor 0 38 66 255 # Shaper Background
 	SetFontSize 45
@@ -2430,7 +2430,7 @@ Show
 	ShaperItem True
 	Rarity <= Rare
 	ItemLevel >= 85
-	BaseType "Ambusher" "Archon Kite Shield" "Astral Plate" "Colossal Tower Shield" "Convoking Wand" "Moon Staff" "Sorcerer Boots" "Scholar Boots" "Crystal Wand" "Sinner Tricorne" "Deicide Mask" "Demon's Horn" "Dragon Mace" "Spiny Maul" "Redwood Spiked Shield" "Ranger Bow" "Jewelled Foil" "Golden Kris" "Harbinger Bow" "Heathen Wand" "Heavy Belt" "Imbued Wand" "Piledriver" "Imperial Buckler" "Imperial Claw" "Imperial Skean" "Iron Ring" "Spiraled Wand" "Lion Pelt" "Maelstr" "Ezomyte Tower Shield" "Despot Axe" "Platinum Kris" "Profane Wand" "Prophecy Wand" "Conquest Chainmail" "Royal Burgonet" "Sekhem" "Silken Hood" "Slink Boots" "Slink Gloves" "Terror Maul" "Great Mallet" "Spike-Point Arrow Quiver" "Grinning Fetish" "Thicket Bow" "Tornado Wand" "Vaal Regalia" "Vanguard Belt" "Void Sceptre" "Cardinal Round Shield" "Sharktooth Arrow Quiver" "Sambar Sceptre" "Dragonscale Boots" "Harmonic Spirit Shield" "Titan Gauntlets" "Behemoth Mace" "Gemini Claw" "Fossilised Spirit Shield" "General's Brigandine" "Tiger Hook" "Titan Greaves" "Moonstone Ring" "Gold Ring" "Maraketh Bow" "Paua Ring" "Serpent Wand"
+	BaseType "Ambusher" "Convoking Wand" "Sorcerer Boots" "Crystal Wand" "Demon's Horn" "Dragon Mace" "Jewelled Foil" "Harbinger Bow" "Heathen Wand" "Heavy Belt" "Imbued Wand" "Imperial Claw" "Imperial Skean" "Iron Ring" "Lion Pelt" "Maelström Staff" "Ezomyte Tower Shield" "Platinum Kris" "Profane Wand" "Prophecy Wand" "Royal Burgonet" "Slink Boots" "Slink Gloves" "Terror Maul" "Spike-Point Arrow Quiver" "Thicket Bow" "Tornado Wand" "Vaal Regalia" "Vanguard Belt" "Void Sceptre" "Sambar Sceptre" "Dragonscale Boots" "Titan Gauntlets" "Behemoth Mace" "Gemini Claw" "Fossilised Spirit Shield" "General's Brigandine" "Tiger Hook" "Titan Greaves" "Moonstone Ring" "Gold Ring" "Maraketh Bow" "Paua Ring" "Serpent Wand"
 	SetTextColor 43 150 211 255 # Shaper Text
 	SetBackgroundColor 0 38 66 255 # Shaper Background
 	SetFontSize 45
@@ -2503,7 +2503,7 @@ Show
 	ElderItem True
 	Rarity <= Rare
 	ItemLevel >= 84
-	BaseType "Agate Amulet" "Astral Plate" "Citrine Amulet" "Vanguard Belt" "Convoking Wand"
+	BaseType "Agate Amulet" "Astral Plate" "Citrine Amulet" "Convoking Wand"
 	SetTextColor 159 0 0 255 # Elder Text
 	SetBackgroundColor 50 0 50 255 # Elder Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -2535,7 +2535,7 @@ Show
 	ElderItem True
 	Rarity <= Rare
 	ItemLevel >= 80
-	BaseType "Agate Amulet" "Amber Amulet" "Astral Plate" "Bone Helmet" "Vanguard Belt" "Citrine Amulet" "Crystal Belt" "Fingerless Silk Gloves" "Heavy Belt" "Judgement Staff" "Leather Belt" "Onyx Amulet" "Spiked Gloves" "Turquoise Amulet" "Two-Toned Boots" "Pagan Wand" "Exquisite Blade" "Royal Burgonet" "Coral Amulet" "Paua Amulet" "Ezomyte Tower Shield" "Two-Stone Ring" "Archon Kite Shield" "Slink Gloves" "Topaz Ring"
+	BaseType "Agate Amulet" "Amber Amulet" "Astral Plate" "Bone Helmet" "Citrine Amulet" "Crystal Belt" "Fingerless Silk Gloves" "Heavy Belt" "Judgement Staff" "Leather Belt" "Onyx Amulet" "Spiked Gloves" "Turquoise Amulet" "Two-Toned Boots" "Pagan Wand" "Exquisite Blade" "Coral Amulet" "Paua Amulet" "Two-Stone Ring" "Archon Kite Shield" "Slink Gloves" "Topaz Ring"
 	SetTextColor 159 0 0 255 # Elder Text
 	SetBackgroundColor 50 0 50 255 # Elder Background
 	SetFontSize 45
@@ -2548,7 +2548,7 @@ Show
 	ElderItem True
 	Rarity <= Rare
 	ItemLevel >= 85
-	BaseType "Platinum Kris" "Convoking Wand" "Sorcerer Gloves" "Coral Ring" "Sorcerer Boots" "Driftwood Club" "Crusader Buckler" "Eternal Burgonet" "Diamond Ring" "Sapphire Ring" "Gold Amulet" "Mind Cage" "Hubris Circlet" "Vaal Greaves" "Imperial Claw" "Maelstr" "Quartz Wand" "Unset Ring" "Ruby Ring" "Sinner Tricorne" "Crystal Wand" "Eclipse Staff" "Terror Maul" "Titan Gauntlets" "Imperial Buckler" "Thicket Bow" "Saint's Hauberk" "Lapis Amulet" "Jade Amulet" "Zodiac Leather" "Ezomyte Burgonet" "Dragoon Sword" "Jewelled Foil" "Iron Ring" "Murder Mitts" "Titan Greaves" "Maraketh Bow" "Amethyst Ring" "Sai" "Imperial Bow" "Vaal Regalia" "Crusader Gloves" "Omen Wand" "Royal Sceptre" "Elegant Round Shield" "Void Axe" "Moonstone Ring" "Carnal Armour"
+	BaseType "Platinum Kris" "Convoking Wand" "Sorcerer Gloves" "Coral Ring" "Sorcerer Boots" "Driftwood Club" "Eternal Burgonet" "Diamond Ring" "Sapphire Ring" "Gold Amulet" "Mind Cage" "Hubris Circlet" "Vaal Greaves" "Imperial Claw" "Maelström Staff" "Quartz Wand" "Unset Ring" "Ruby Ring" "Eclipse Staff" "Titan Gauntlets" "Imperial Buckler" "Thicket Bow" "Lapis Amulet" "Jade Amulet" "Zodiac Leather" "Dragoon Sword" "Jewelled Foil" "Iron Ring" "Murder Mitts" "Titan Greaves" "Maraketh Bow" "Amethyst Ring" "Imperial Bow" "Vaal Regalia" "Omen Wand" "Moonstone Ring" "Carnal Armour"
 	SetTextColor 159 0 0 255 # Elder Text
 	SetBackgroundColor 50 0 50 255 # Elder Background
 	SetFontSize 45
