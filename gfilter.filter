@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.9.6
+# VERSION:       3.9.7
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -162,7 +162,7 @@ Show
 	BaseType "Silver Oil" "Opalescent Oil" "Black Oil"
 	SetTextColor 200 200 75 255 # Blight Text
 	SetBackgroundColor 30 30 0 255 # Blight Highlight Background
-	SetBorderColor 200 150 0 255 # Blight Border
+	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
 	CustomAlertSound "gfT15.mp3"
@@ -173,6 +173,7 @@ Show
 	BaseType "Crimson Oil" "Violet Oil" "Azure Oil" "Teal Oil"
 	SetTextColor 200 200 75 255 # Blight Text
 	SetBackgroundColor 30 30 0 255 # Blight Highlight Background
+	SetBorderColor 200 150 0 255 # Blight Border
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
 	CustomAlertSound "gfT2.mp3"
@@ -208,7 +209,7 @@ Show
 	SetBorderColor 0 0 0 255 # Map Border
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
-	MinimapIcon 2 White Diamond
+	MinimapIcon 2 White Circle
 
 #-------------------------------------------------------------------------------
 # Subsection: Incubators
@@ -1790,7 +1791,7 @@ Show
 #Show
 #	MapTier <= 10
 #	Class "Maps"
-#	BaseType "Overgrown Ruin"
+#	BaseType "Overgrown Ruin" "Museum"
 #	SetTextColor 0 0 0 255 # Map Text
 #	SetBackgroundColor 200 200 200 255 # Map White Background
 #	SetBorderColor 0 0 0 255 # Map Border
@@ -1800,7 +1801,7 @@ Show
 #Show
 #	MapTier <= 10
 #	Class "Maps"
-#	BaseType "Iceberg Map" "Spider Forest Map" "Vault Map" "Burial Chambers Map" "Canyon Map" "Strand Map" "Toxic Sewer Map" "Fields Map" "Racecourse Map" "Lookout Map" "Jungle Valley Map" "Mesa Map" "Phantasmagoria Map" "Beach Map" "City Square Map" "Channel Map" "Alleyways Map" "Arid Lake Map" "Shore Map" "Ashen Wood Map"
+#	BaseType "Iceberg Map" "Spider Forest Map" "Vault Map" "Burial Chambers Map" "Canyon Map" "Strand Map" "Toxic Sewer Map" "Fields Map" "Racecourse Map" "Lookout Map" "Jungle Valley Map" "Mesa Map" "Phantasmagoria Map" "Beach Map" "City Square Map" "Channel Map" "Alleyways Map" "Arid Lake Map" "Shore Map" "Ashen Wood Map" "Caldera"
 #	SetTextColor 0 0 0 255 # Map Text
 #	SetBackgroundColor 255 200 0 255 # Map Yellow Background
 #	SetBorderColor 127 100 0 255 # Map Yellow Border
