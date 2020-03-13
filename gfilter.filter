@@ -84,6 +84,46 @@ Show
 	#SetFontSizeTag 45 # Yuge
 
 #-------------------------------------------------------------------------------
+# Section: Delirium
+#-------------------------------------------------------------------------------
+
+# Delirium Orb
+Show
+	Class "Stackable Currency"
+	BaseType "Delirium Orb"
+	SetTextColor 0 0 0 255 # Delirium Text
+	SetBackgroundColor 100 100 100 240 # Delirium Background
+	SetBorderColor 200 186 153 255 # Currency Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	CustomAlertSound "gfT2.mp3"
+	MinimapIcon 1 Yellow Circle
+	PlayEffect White Temp
+
+# Simulacrum Splinter
+Show
+	Class "Stackable Currency"
+	BaseType "Simulacrum Splinter"
+	SetTextColor 0 0 0 255 # Delirium Text
+	SetBackgroundColor 100 100 100 240 # Delirium Background
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	MinimapIcon 1 White Circle
+
+# Simulacrum Map
+Show
+	Class "Map Fragments"
+	BaseType "Simulacrum"
+	SetTextColor 0 0 0 255 # Delirium Text
+	SetBackgroundColor 100 100 100 240 # Delirium Background
+	SetBorderColor 0 0 0 255 # Map Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 4 150 # Map
+	MinimapIcon 0 Yellow Square
+	PlayEffect White 
+
+#-------------------------------------------------------------------------------
 # Section: Metamorph
 #-------------------------------------------------------------------------------
 
@@ -2919,6 +2959,19 @@ Show
 	PlayAlertSound 6 150 # Tier3
 	MinimapIcon 2 White Hexagon
 
+# Unique Cluster Jewel
+Show
+	Rarity = Unique
+	Class "Jewel"
+	BaseType "Cluster Jewel"
+	SetTextColor 175 96 37 255 # Unique Text
+	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Hexagon
+	PlayEffect Brown 
+
 # Unique Jewel
 Show
 	Rarity = Unique
@@ -2941,6 +2994,25 @@ Show
 
 #-------------------------------------------------------------------------------
 # Section: Jewels
+#-------------------------------------------------------------------------------
+
+#-------------------------------------------------------------------------------
+# Subsection: Cluster Jewels
+#-------------------------------------------------------------------------------
+
+# Cluster Jewel
+Show
+	Class "Jewel"
+	BaseType "Cluster Jewel"
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	PlayAlertSound 6 150 # Tier3
+	MinimapIcon 1 White Hexagon
+	PlayEffect Yellow 
+
+#-------------------------------------------------------------------------------
+# Subsection: Regular Jewels
 #-------------------------------------------------------------------------------
 
 # Jewel Normal
