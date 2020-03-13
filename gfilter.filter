@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.10.1
+# VERSION:       3.10.2
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -78,6 +78,7 @@ Show
 Show
 	Identified True
 	HasExplicitMod "Veil"
+	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 80 80 80 255 # Veiled Background
 	SetBorderColor 0 0 0 255 # Map Border
 	SetFontSize 45
@@ -91,7 +92,7 @@ Show
 Show
 	Class "Stackable Currency"
 	BaseType "Delirium Orb"
-	SetTextColor 0 0 0 255 # Delirium Text
+	SetTextColor 210 210 210 255 # Delirium Text
 	SetBackgroundColor 100 100 100 240 # Delirium Background
 	SetBorderColor 200 186 153 255 # Currency Border
 	SetFontSize 45
@@ -104,7 +105,7 @@ Show
 Show
 	Class "Stackable Currency"
 	BaseType "Simulacrum Splinter"
-	SetTextColor 0 0 0 255 # Delirium Text
+	SetTextColor 210 210 210 255 # Delirium Text
 	SetBackgroundColor 100 100 100 240 # Delirium Background
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
@@ -114,7 +115,7 @@ Show
 Show
 	Class "Map Fragments"
 	BaseType "Simulacrum"
-	SetTextColor 0 0 0 255 # Delirium Text
+	SetTextColor 210 210 210 255 # Delirium Text
 	SetBackgroundColor 100 100 100 240 # Delirium Background
 	SetBorderColor 0 0 0 255 # Map Border
 	SetFontSize 45
@@ -1038,7 +1039,7 @@ Show
 # Divination Card Tier2 Currency (fix)
 Show
 	Class "Divination Card"
-	BaseType "The Wrath" "Vinia's Token" "The Survivalist" "The Union"
+	BaseType "The Wrath" "Vinia's Token" "The Survivalist" "The Union" "The Heroic Shot"
 	SetTextColor 14 186 255 255 # Divination Card Text
 	SetBackgroundColor 25 33 33 255 # Divination Card Highlight Background
 	SetBorderColor 14 186 255 255 # Divination Card Border
