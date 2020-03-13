@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.9.7
+# VERSION:       3.10.0
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -82,6 +82,46 @@ Show
 	SetBorderColor 0 0 0 255 # Map Border
 	SetFontSize 45
 	#SetFontSizeTag 45 # Yuge
+
+#-------------------------------------------------------------------------------
+# Section: Delirium
+#-------------------------------------------------------------------------------
+
+# Delirium Orb
+Show
+	Class "Stackable Currency"
+	BaseType "Delirium Orb"
+	SetTextColor 0 0 0 255 # Delirium Text
+	SetBackgroundColor 100 100 100 240 # Delirium Background
+	SetBorderColor 200 186 153 255 # Currency Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	CustomAlertSound "gfT2.mp3"
+	MinimapIcon 1 Yellow Circle
+	PlayEffect White Temp
+
+# Simulacrum Splinter
+Show
+	Class "Stackable Currency"
+	BaseType "Simulacrum Splinter"
+	SetTextColor 0 0 0 255 # Delirium Text
+	SetBackgroundColor 100 100 100 240 # Delirium Background
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	MinimapIcon 1 White Circle
+
+# Simulacrum Map
+Show
+	Class "Map Fragments"
+	BaseType "Simulacrum"
+	SetTextColor 0 0 0 255 # Delirium Text
+	SetBackgroundColor 100 100 100 240 # Delirium Background
+	SetBorderColor 0 0 0 255 # Map Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 4 150 # Map
+	MinimapIcon 0 Yellow Square
+	PlayEffect White 
 
 #-------------------------------------------------------------------------------
 # Section: Metamorph
@@ -1818,7 +1858,7 @@ Show
 # Map T1 hide
 Hide
 	MapTier = 1
-	ItemLevel >= 77
+	AreaLevel >= 77
 	Class "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 200 200 200 255 # Map White Background
@@ -1827,12 +1867,12 @@ Hide
 	#SetFontSizeTag 37 # Medium
 	DisableDropSound
 	#BlockStrictness 10 Hide
-	#VariableStrictness itemlevel 77 75 -1 -1 -1 -1 -1 -1 -1
+	#VariableStrictness arealevel 77 75 -1 -1 -1 -1 -1 -1 -1
 
 # Map T1 low
 Show
 	MapTier = 1
-	ItemLevel >= 73
+	AreaLevel >= 73
 	Class "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 200 200 200 255 # Map White Background
@@ -1841,12 +1881,12 @@ Show
 	#SetFontSizeTag 37 # Medium
 	DisableDropSound
 	#BlockStrictness 10 Hide
-	#VariableStrictness itemlevel 73 71 -1 -1 -1 -1 -1 -1 -1
+	#VariableStrictness arealevel 73 71 -1 -1 -1 -1 -1 -1 -1
 
 # Map T2 hide
 Hide
 	MapTier = 2
-	ItemLevel >= 78
+	AreaLevel >= 78
 	Class "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 200 200 200 255 # Map White Background
@@ -1855,12 +1895,12 @@ Hide
 	#SetFontSizeTag 37 # Medium
 	DisableDropSound
 	#BlockStrictness 10 Hide
-	#VariableStrictness itemlevel 78 76 -1 -1 -1 -1 -1 -1 -1
+	#VariableStrictness arealevel 78 76 -1 -1 -1 -1 -1 -1 -1
 
 # Map T2 low
 Show
 	MapTier = 2
-	ItemLevel >= 74
+	AreaLevel >= 74
 	Class "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 200 200 200 255 # Map White Background
@@ -1869,12 +1909,12 @@ Show
 	#SetFontSizeTag 37 # Medium
 	DisableDropSound
 	#BlockStrictness 10 Hide
-	#VariableStrictness itemlevel 74 72 -1 -1 -1 -1 -1 -1 -1
+	#VariableStrictness arealevel 74 72 -1 -1 -1 -1 -1 -1 -1
 
 # Map T3 hide
 Hide
 	MapTier = 3
-	ItemLevel >= 79
+	AreaLevel >= 79
 	Class "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 200 200 200 255 # Map White Background
@@ -1883,12 +1923,12 @@ Hide
 	#SetFontSizeTag 37 # Medium
 	DisableDropSound
 	#BlockStrictness 10 Hide
-	#VariableStrictness itemlevel 79 77 -1 -1 -1 -1 -1 -1 -1
+	#VariableStrictness arealevel 79 77 -1 -1 -1 -1 -1 -1 -1
 
 # Map T3 low
 Show
 	MapTier = 3
-	ItemLevel >= 75
+	AreaLevel >= 75
 	Class "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 200 200 200 255 # Map White Background
@@ -1897,12 +1937,12 @@ Show
 	#SetFontSizeTag 37 # Medium
 	DisableDropSound
 	#BlockStrictness 10 Hide
-	#VariableStrictness itemlevel 75 73 -1 -1 -1 -1 -1 -1 -1
+	#VariableStrictness arealevel 75 73 -1 -1 -1 -1 -1 -1 -1
 
 # Map T4 hide
 Hide
 	MapTier = 4
-	ItemLevel >= 80
+	AreaLevel >= 80
 	Class "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 200 200 200 255 # Map White Background
@@ -1911,12 +1951,12 @@ Hide
 	#SetFontSizeTag 37 # Medium
 	DisableDropSound
 	#BlockStrictness 10 Hide
-	#VariableStrictness itemlevel 80 78 -1 -1 -1 -1 -1 -1 -1
+	#VariableStrictness arealevel 80 78 -1 -1 -1 -1 -1 -1 -1
 
 # Map T4 low
 Show
 	MapTier = 4
-	ItemLevel >= 76
+	AreaLevel >= 76
 	Class "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 200 200 200 255 # Map White Background
@@ -1925,12 +1965,12 @@ Show
 	#SetFontSizeTag 37 # Medium
 	DisableDropSound
 	#BlockStrictness 10 Hide
-	#VariableStrictness itemlevel 76 74 -1 -1 -1 -1 -1 -1 -1
+	#VariableStrictness arealevel 76 74 -1 -1 -1 -1 -1 -1 -1
 
 # Map T5 hide
 Hide
 	MapTier = 5
-	ItemLevel >= 81
+	AreaLevel >= 81
 	Class "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 200 200 200 255 # Map White Background
@@ -1939,12 +1979,12 @@ Hide
 	#SetFontSizeTag 37 # Medium
 	DisableDropSound
 	#BlockStrictness 10 Hide
-	#VariableStrictness itemlevel 81 79 -1 -1 -1 -1 -1 -1 -1
+	#VariableStrictness arealevel 81 79 -1 -1 -1 -1 -1 -1 -1
 
 # Map T5 low
 Show
 	MapTier = 5
-	ItemLevel >= 77
+	AreaLevel >= 77
 	Class "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 200 200 200 255 # Map White Background
@@ -1953,7 +1993,7 @@ Show
 	#SetFontSizeTag 37 # Medium
 	DisableDropSound
 	#BlockStrictness 10 Hide
-	#VariableStrictness itemlevel 77 75 -1 -1 -1 -1 -1 -1 -1
+	#VariableStrictness arealevel 77 75 -1 -1 -1 -1 -1 -1 -1
 
 # Map White show
 Show
@@ -1975,7 +2015,7 @@ Show
 # Map T6 hide
 Hide
 	MapTier = 6
-	ItemLevel >= 82
+	AreaLevel >= 82
 	Class "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 200 0 255 # Map Yellow Background
@@ -1984,12 +2024,12 @@ Hide
 	#SetFontSizeTag 37 # Medium
 	DisableDropSound
 	#BlockStrictness 10 Hide
-	#VariableStrictness itemlevel 82 80 -1 -1 -1 -1 -1 -1 -1
+	#VariableStrictness arealevel 82 80 -1 -1 -1 -1 -1 -1 -1
 
 # Map T6 low
 Show
 	MapTier = 6
-	ItemLevel >= 79
+	AreaLevel >= 79
 	Class "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 200 0 255 # Map Yellow Background
@@ -1998,12 +2038,12 @@ Show
 	#SetFontSizeTag 37 # Medium
 	DisableDropSound
 	#BlockStrictness 10 Hide
-	#VariableStrictness itemlevel 79 77 -1 -1 -1 -1 -1 -1 -1
+	#VariableStrictness arealevel 79 77 -1 -1 -1 -1 -1 -1 -1
 
 # Map T7 hide
 Hide
 	MapTier = 7
-	ItemLevel >= 83
+	AreaLevel >= 83
 	Class "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 200 0 255 # Map Yellow Background
@@ -2012,12 +2052,12 @@ Hide
 	#SetFontSizeTag 37 # Medium
 	DisableDropSound
 	#BlockStrictness 10 Hide
-	#VariableStrictness itemlevel 83 81 -1 -1 -1 -1 -1 -1 -1
+	#VariableStrictness arealevel 83 81 -1 -1 -1 -1 -1 -1 -1
 
 # Map T7 low
 Show
 	MapTier = 7
-	ItemLevel >= 80
+	AreaLevel >= 80
 	Class "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 200 0 255 # Map Yellow Background
@@ -2026,12 +2066,12 @@ Show
 	#SetFontSizeTag 37 # Medium
 	DisableDropSound
 	#BlockStrictness 10 Hide
-	#VariableStrictness itemlevel 80 78 -1 -1 -1 -1 -1 -1 -1
+	#VariableStrictness arealevel 80 78 -1 -1 -1 -1 -1 -1 -1
 
 # Map T8 hide
 Hide
 	MapTier = 8
-	ItemLevel >= 84
+	AreaLevel >= 84
 	Class "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 200 0 255 # Map Yellow Background
@@ -2040,12 +2080,12 @@ Hide
 	#SetFontSizeTag 37 # Medium
 	DisableDropSound
 	#BlockStrictness 10 Hide
-	#VariableStrictness itemlevel 84 82 -1 -1 -1 -1 -1 -1 -1
+	#VariableStrictness arealevel 84 82 -1 -1 -1 -1 -1 -1 -1
 
 # Map T8 low
 Show
 	MapTier = 8
-	ItemLevel >= 81
+	AreaLevel >= 81
 	Class "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 200 0 255 # Map Yellow Background
@@ -2054,12 +2094,12 @@ Show
 	#SetFontSizeTag 37 # Medium
 	DisableDropSound
 	#BlockStrictness 10 Hide
-	#VariableStrictness itemlevel 81 79 -1 -1 -1 -1 -1 -1 -1
+	#VariableStrictness arealevel 81 79 -1 -1 -1 -1 -1 -1 -1
 
 # Map T9 hide
 Hide
 	MapTier = 9
-	ItemLevel >= 85
+	AreaLevel >= 85
 	Class "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 200 0 255 # Map Yellow Background
@@ -2068,12 +2108,12 @@ Hide
 	#SetFontSizeTag 37 # Medium
 	DisableDropSound
 	#BlockStrictness 10 Hide
-	#VariableStrictness itemlevel 85 83 -1 -1 -1 -1 -1 -1 -1
+	#VariableStrictness arealevel 85 83 -1 -1 -1 -1 -1 -1 -1
 
 # Map T9 low
 Show
 	MapTier = 9
-	ItemLevel >= 82
+	AreaLevel >= 82
 	Class "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 200 0 255 # Map Yellow Background
@@ -2082,12 +2122,12 @@ Show
 	#SetFontSizeTag 37 # Medium
 	DisableDropSound
 	#BlockStrictness 10 Hide
-	#VariableStrictness itemlevel 82 80 -1 -1 -1 -1 -1 -1 -1
+	#VariableStrictness arealevel 82 80 -1 -1 -1 -1 -1 -1 -1
 
 # Map T10 hide
 Hide
 	MapTier = 10
-	ItemLevel >= 86
+	AreaLevel >= 86
 	Class "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 200 0 255 # Map Yellow Background
@@ -2096,12 +2136,12 @@ Hide
 	#SetFontSizeTag 37 # Medium
 	DisableDropSound
 	#BlockStrictness 10 Hide
-	#VariableStrictness itemlevel 86 84 -1 -1 -1 -1 -1 -1 -1
+	#VariableStrictness arealevel 86 84 -1 -1 -1 -1 -1 -1 -1
 
 # Map T10 low
 Show
 	MapTier = 10
-	ItemLevel >= 83
+	AreaLevel >= 83
 	Class "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 200 0 255 # Map Yellow Background
@@ -2110,7 +2150,7 @@ Show
 	#SetFontSizeTag 37 # Medium
 	DisableDropSound
 	#BlockStrictness 10 Hide
-	#VariableStrictness itemlevel 83 81 -1 -1 -1 -1 -1 -1 -1
+	#VariableStrictness arealevel 83 81 -1 -1 -1 -1 -1 -1 -1
 
 # Map Yellow show
 Show
@@ -2919,6 +2959,19 @@ Show
 	PlayAlertSound 6 150 # Tier3
 	MinimapIcon 2 White Hexagon
 
+# Unique Cluster Jewel
+Show
+	Rarity = Unique
+	Class "Jewel"
+	BaseType "Cluster Jewel"
+	SetTextColor 175 96 37 255 # Unique Text
+	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Hexagon
+	PlayEffect Brown 
+
 # Unique Jewel
 Show
 	Rarity = Unique
@@ -2941,6 +2994,25 @@ Show
 
 #-------------------------------------------------------------------------------
 # Section: Jewels
+#-------------------------------------------------------------------------------
+
+#-------------------------------------------------------------------------------
+# Subsection: Cluster Jewels
+#-------------------------------------------------------------------------------
+
+# Cluster Jewel
+Show
+	Class "Jewel"
+	BaseType "Cluster Jewel"
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	PlayAlertSound 6 150 # Tier3
+	MinimapIcon 1 White Hexagon
+	PlayEffect Yellow 
+
+#-------------------------------------------------------------------------------
+# Subsection: Regular Jewels
 #-------------------------------------------------------------------------------
 
 # Jewel Normal
