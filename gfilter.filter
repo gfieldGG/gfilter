@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.10.2
+# VERSION:       3.10.3
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -2831,7 +2831,7 @@ Show # Ugrouped Customizable Items | Disable
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
 	#CustomizableValues "basetype"
-	#BlockStrictness 2 Disable
+	#BlockStrictness 1 Disable
 
 #-------------------------------------------------------------------------------
 # Section: Uniques
@@ -4334,7 +4334,7 @@ Hide
 #	#BlockStrictness 3 Disable
 
 # Sceptre Levelling
-#Show # Wand Levelling | Disable
+#Show # Sceptre Levelling | Disable
 #	Rarity <= Magic
 #	Class "Sceptres"
 #	SetBackgroundColor 0 0 0 210 # Junk Background
