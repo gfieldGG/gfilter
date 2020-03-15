@@ -3112,6 +3112,15 @@ Show
 	#SetFontSizeTag 41 # Big
 	#BlockStrictness 3 Disable
 
+# Early 4 Link
+Show
+	LinkedSockets = 4
+	ItemLevel <= 67
+	Class "Helmets" "Body Armours" "Boots" "Gloves"
+	SetBorderColor 192 255 203 255 # Levelling Border
+	Continue
+	#BlockStrictness 3 Disable
+
 # MS Boots
 Show
 	Rarity >= Magic
