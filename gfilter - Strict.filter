@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.10.2
+# VERSION:       3.10.3
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -1039,7 +1039,7 @@ Show
 # Divination Card Tier2 Currency (fix)
 Show
 	Class "Divination Card"
-	BaseType "The Wrath" "Vinia's Token" "The Survivalist" "The Union" "The Heroic Shot"
+	BaseType "The Wrath" "Vinia's Token" "The Survivalist" "The Union" "The Heroic Shot" "Humility"
 	SetTextColor 14 186 255 255 # Divination Card Text
 	SetBackgroundColor 25 33 33 255 # Divination Card Highlight Background
 	SetBorderColor 14 186 255 255 # Divination Card Border
@@ -2831,7 +2831,7 @@ Show
 #	SetFontSize 41
 #	#SetFontSizeTag 41 # Big
 #	#CustomizableValues "basetype"
-#	#BlockStrictness 2 Disable
+#	#BlockStrictness 1 Disable
 
 #-------------------------------------------------------------------------------
 # Section: Uniques
@@ -3110,6 +3110,15 @@ Show
 	SetBorderColor 192 255 203 255 # Levelling Border
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
+	#BlockStrictness 3 Disable
+
+# Early 4 Link
+Show
+	LinkedSockets = 4
+	ItemLevel <= 67
+	Class "Helmets" "Body Armours" "Boots" "Gloves"
+	SetBorderColor 192 255 203 255 # Levelling Border
+	Continue
 	#BlockStrictness 3 Disable
 
 # MS Boots
@@ -4334,7 +4343,7 @@ Hide
 #	#BlockStrictness 3 Disable
 
 # Sceptre Levelling
-#Show # Wand Levelling | Disable
+#Show # Sceptre Levelling | Disable
 #	Rarity <= Magic
 #	Class "Sceptres"
 #	SetBackgroundColor 0 0 0 210 # Junk Background

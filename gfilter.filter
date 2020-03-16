@@ -1039,7 +1039,7 @@ Show
 # Divination Card Tier2 Currency (fix)
 Show
 	Class "Divination Card"
-	BaseType "The Wrath" "Vinia's Token" "The Survivalist" "The Union" "The Heroic Shot"
+	BaseType "The Wrath" "Vinia's Token" "The Survivalist" "The Union" "The Heroic Shot" "Humility"
 	SetTextColor 14 186 255 255 # Divination Card Text
 	SetBackgroundColor 25 33 33 255 # Divination Card Highlight Background
 	SetBorderColor 14 186 255 255 # Divination Card Border
