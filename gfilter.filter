@@ -1140,6 +1140,28 @@ Show
 	#SetFontSizeTag 41 # Big
 	#BlockStrictness 3 Hide
 
+# Currency Tier4.5 Endgame
+Show
+	AreaLevel >= 68
+	Class "Currency"
+	BaseType "Orb of Transmutation" "Armourer's Scrap" "Portal Scroll"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 0 0 0 140 # Faded Background
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	#BlockStrictness 3 Disable
+
+# Currency Tier5 Endgame
+Show
+	AreaLevel >= 68
+	Class "Currency"
+	BaseType "Orb of Transmutation" "Orb of Augmentation" "Blacksmith's Whetstone" "Armourer's Scrap" "Scroll of Wisdom" "Portal Scroll"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 0 0 0 140 # Faded Background
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	#BlockStrictness 2 Hide
+
 # Currency Tier5
 Show
 	Class "Currency"

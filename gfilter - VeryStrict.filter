@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.10.3
+# VERSION:       3.10.4
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -99,7 +99,7 @@ Show
 	#SetFontSizeTag 45 # Yuge
 	CustomAlertSound "gfT2.mp3"
 	MinimapIcon 1 Yellow Circle
-	PlayEffect White Temp
+	PlayEffect White 
 
 # Simulacrum Splinter
 Show
@@ -109,7 +109,9 @@ Show
 	SetBackgroundColor 100 100 100 240 # Delirium Background
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
+	CustomAlertSound "gfT3.mp3"
 	MinimapIcon 1 White Circle
+	PlayEffect White Temp
 
 # Simulacrum Map
 Show
@@ -1137,6 +1139,28 @@ Hide
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
 	#BlockStrictness 3 Hide
+
+# Currency Tier4.5 Endgame
+#Show
+#	AreaLevel >= 68
+#	Class "Currency"
+#	BaseType "Orb of Transmutation" "Armourer's Scrap" "Portal Scroll"
+#	SetTextColor 200 186 153 255 # Currency Text
+#	SetBackgroundColor 0 0 0 140 # Faded Background
+#	SetFontSize 41
+#	#SetFontSizeTag 41 # Big
+#	#BlockStrictness 3 Disable
+
+# Currency Tier5 Endgame
+Hide
+	AreaLevel >= 68
+	Class "Currency"
+	BaseType "Orb of Transmutation" "Orb of Augmentation" "Blacksmith's Whetstone" "Armourer's Scrap" "Scroll of Wisdom" "Portal Scroll"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 0 0 0 140 # Faded Background
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	#BlockStrictness 2 Hide
 
 # Currency Tier5
 Hide
@@ -2936,6 +2960,7 @@ Show
 	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
+	MinimapIcon 2 White Hexagon
 
 # 6 Socket Unique
 Show
@@ -2992,6 +3017,7 @@ Show
 	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
+	MinimapIcon 2 White Hexagon
 
 #-------------------------------------------------------------------------------
 # Section: Jewels
