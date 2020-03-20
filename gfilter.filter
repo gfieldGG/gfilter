@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.10.3
+# VERSION:       3.10.4
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -99,7 +99,7 @@ Show
 	#SetFontSizeTag 45 # Yuge
 	CustomAlertSound "gfT2.mp3"
 	MinimapIcon 1 Yellow Circle
-	PlayEffect White Temp
+	PlayEffect White 
 
 # Simulacrum Splinter
 Show
@@ -109,7 +109,9 @@ Show
 	SetBackgroundColor 100 100 100 240 # Delirium Background
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
+	CustomAlertSound "gfT3.mp3"
 	MinimapIcon 1 White Circle
+	PlayEffect White Temp
 
 # Simulacrum Map
 Show
