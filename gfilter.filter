@@ -2938,6 +2938,7 @@ Show
 	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
+	MinimapIcon 2 White Hexagon
 
 # 6 Socket Unique
 Show
@@ -2994,6 +2995,7 @@ Show
 	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
+	MinimapIcon 2 White Hexagon
 
 #-------------------------------------------------------------------------------
 # Section: Jewels
