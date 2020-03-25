@@ -1376,194 +1376,6 @@ Show
 	PlayEffect Yellow 
 
 #-------------------------------------------------------------------------------
-# Section: Gems
-#-------------------------------------------------------------------------------
-
-# Gem Tier0
-Show
-	Class "Skill Gems"
-	BaseType "Item Quantity Support"
-	SetTextColor 26 162 155 255 # Gem Text
-	SetBackgroundColor 255 255 255 255 # Tier0 Background
-	SetBorderColor 26 162 155 255 # Gem Border
-	SetFontSize 45
-	#SetFontSizeTag 45 # Yuge
-	CustomAlertSound "gfT0.mp3"
-	MinimapIcon 0 Red Hexagon
-	PlayEffect Red 
-
-# Gem Tier1.5
-Show
-	GemLevel >= 2
-	Class "Skill Gems"
-	BaseType "Empower Support" "Enlighten Support" "Enhance Support" "Awakened"
-	SetTextColor 0 0 0 255 # Tier1 Text
-	SetBackgroundColor 26 162 155 255 # Gem Background
-	SetBorderColor 255 255 255 255 # Tier1 Border
-	SetFontSize 45
-	#SetFontSizeTag 45 # Yuge
-	CustomAlertSound "gfT15.mp3"
-	MinimapIcon 0 Red Hexagon
-	PlayEffect Red 
-
-# Gem Tier2
-Show
-	Class "Active Skill Gems" "Support Skill Gems"
-	BaseType "Empower" "Enlighten" "Vaal Breach" "Awakened"
-	SetTextColor 26 162 155 255 # Gem Text
-	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
-	SetBorderColor 26 162 155 255 # Gem Border
-	SetFontSize 41
-	#SetFontSizeTag 41 # Big
-	CustomAlertSound "gfT2.mp3"
-	MinimapIcon 1 Yellow Hexagon
-
-# Gem Vaal lvl21
-Show
-	Corrupted True
-	GemLevel >= 21
-	Class "Active Skill Gems" "Support Skill Gems"
-	BaseType "Vaal"
-	SetTextColor 26 162 155 255 # Gem Text
-	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
-	SetBorderColor 161 27 123 255 # Vaal Border
-	SetFontSize 45
-	#SetFontSizeTag 45 # Yuge
-	CustomAlertSound "gfT15.mp3"
-	MinimapIcon 0 Red Hexagon
-
-# Gem lvl21
-Show
-	GemLevel >= 21
-	Class "Active Skill Gems" "Support Skill Gems"
-	SetTextColor 26 162 155 255 # Gem Text
-	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
-	SetBorderColor 26 162 155 255 # Gem Border
-	SetFontSize 41
-	#SetFontSizeTag 41 # Big
-	CustomAlertSound "gfT2.mp3"
-	MinimapIcon 1 Yellow Hexagon
-
-# Gem Quality 20
-Show
-	Quality >= 20
-	Class "Active Skill Gems" "Support Skill Gems"
-	SetTextColor 26 162 155 255 # Gem Text
-	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
-	SetBorderColor 26 162 155 255 # Gem Border
-	SetFontSize 45
-	#SetFontSizeTag 45 # Yuge
-	CustomAlertSound "gfT2.mp3"
-	MinimapIcon 1 Yellow Hexagon
-
-# Portal Gem Quality
-Show
-	Quality >= 10
-	Class "Gem"
-	BaseType "Portal"
-	SetTextColor 26 162 155 255 # Gem Text
-	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
-	SetBorderColor 26 162 155 255 # Gem Border
-	SetFontSize 45
-	#SetFontSizeTag 45 # Yuge
-	CustomAlertSound "gfT2.mp3"
-	MinimapIcon 1 Yellow Hexagon
-
-# Portal Gem
-Show
-	Class "Gem"
-	BaseType "Portal"
-	SetTextColor 26 162 155 255 # Gem Text
-	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
-	SetBorderColor 26 162 155 255 # Gem Border
-	SetFontSize 41
-	#SetFontSizeTag 41 # Big
-	CustomAlertSound "gfT3.mp3"
-	MinimapIcon 1 White Hexagon
-	#BlockStrictness 2 Disable
-
-# Gem Vaal Quality
-Show
-	Corrupted True
-	Quality >= 12
-	Class "Active Skill Gems" "Support Skill Gems"
-	BaseType "Vaal"
-	SetTextColor 26 162 155 255 # Gem Text
-	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
-	SetBorderColor 161 27 123 255 # Vaal Border
-	SetFontSize 41
-	#SetFontSizeTag 41 # Big
-	CustomAlertSound "gfT2.mp3"
-	MinimapIcon 1 Yellow Hexagon
-	#BlockStrictness 10 Hide
-	#VariableStrictness quality 14 16 18 -1 -1 -1 -1 -1 -1
-
-# Gem Vaal T2
-Show
-	Corrupted True
-	Class "Active Skill Gems" "Support Skill Gems"
-	BaseType "Vaal Discipline" "Vaal Haste" "Vaal Grace"
-	SetTextColor 26 162 155 255 # Gem Text
-	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
-	SetBorderColor 161 27 123 255 # Vaal Border
-	SetFontSize 41
-	#SetFontSizeTag 41 # Big
-	CustomAlertSound "gfT2.mp3"
-	MinimapIcon 1 Yellow Hexagon
-
-# Gem Vaal
-Show
-	Corrupted True
-	Class "Active Skill Gems" "Support Skill Gems"
-	BaseType "Vaal"
-	SetTextColor 26 162 155 255 # Gem Text
-	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
-	SetBorderColor 161 27 123 255 # Vaal Border
-	SetFontSize 37
-	#SetFontSizeTag 37 # Medium
-
-# Gem Quality High
-Show
-	Quality >= 12
-	Class "Active Skill Gems" "Support Skill Gems"
-	SetTextColor 26 162 155 255 # Gem Text
-	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
-	SetFontSize 41
-	#SetFontSizeTag 41 # Big
-	PlayAlertSound 6 150 # Tier3
-	MinimapIcon 2 White Hexagon
-	#BlockStrictness 10 Hide
-	#VariableStrictness quality 16 18 20 -1 -1 -1 -1 -1 -1
-
-# Gem Quality
-Show
-	Quality > 0
-	Class "Active Skill Gems" "Support Skill Gems"
-	SetTextColor 26 162 155 255 # Gem Text
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 41
-	#SetFontSizeTag 41 # Big
-	#BlockStrictness 2 Hide
-
-# Gem Support
-Show
-	Class "Support Skill Gems"
-	SetTextColor 26 162 155 255 # Gem Text
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	SetFontSize 37
-	#SetFontSizeTag 37 # Medium
-	#BlockStrictness 2 Hide
-
-# Gem
-Show
-	Class "Active Skill Gems"
-	SetTextColor 26 162 155 255 # Gem Text
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	SetFontSize 37
-	#SetFontSizeTag 37 # Medium
-	#BlockStrictness 2 Hide
-
-#-------------------------------------------------------------------------------
 # Section: Map Fragments
 #-------------------------------------------------------------------------------
 
@@ -3091,6 +2903,15 @@ Hide
 # Section: Early Levelling
 #-------------------------------------------------------------------------------
 
+# Show first Gems Twilight Strand
+Show
+	AreaLevel = 1
+	Class "Active Skill Gems" "Support Skill Gems"
+	SetTextColor 26 162 155 255 # Gem Text
+	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+
 # Early Quicksilver
 Show
 	ItemLevel <= 28
@@ -3840,6 +3661,194 @@ Show
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetFontSize 37
 	#SetFontSizeTag 37 # Medium
+
+#-------------------------------------------------------------------------------
+# Section: Gems
+#-------------------------------------------------------------------------------
+
+# Gem Tier0
+Show
+	Class "Skill Gems"
+	BaseType "Item Quantity Support"
+	SetTextColor 26 162 155 255 # Gem Text
+	SetBackgroundColor 255 255 255 255 # Tier0 Background
+	SetBorderColor 26 162 155 255 # Gem Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	CustomAlertSound "gfT0.mp3"
+	MinimapIcon 0 Red Hexagon
+	PlayEffect Red 
+
+# Gem Tier1.5
+Show
+	GemLevel >= 2
+	Class "Skill Gems"
+	BaseType "Empower Support" "Enlighten Support" "Enhance Support" "Awakened"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 26 162 155 255 # Gem Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	CustomAlertSound "gfT15.mp3"
+	MinimapIcon 0 Red Hexagon
+	PlayEffect Red 
+
+# Gem Tier2
+Show
+	Class "Active Skill Gems" "Support Skill Gems"
+	BaseType "Empower" "Enlighten" "Vaal Breach" "Awakened"
+	SetTextColor 26 162 155 255 # Gem Text
+	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
+	SetBorderColor 26 162 155 255 # Gem Border
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	CustomAlertSound "gfT2.mp3"
+	MinimapIcon 1 Yellow Hexagon
+
+# Gem Vaal lvl21
+Show
+	Corrupted True
+	GemLevel >= 21
+	Class "Active Skill Gems" "Support Skill Gems"
+	BaseType "Vaal"
+	SetTextColor 26 162 155 255 # Gem Text
+	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
+	SetBorderColor 161 27 123 255 # Vaal Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	CustomAlertSound "gfT15.mp3"
+	MinimapIcon 0 Red Hexagon
+
+# Gem lvl21
+Show
+	GemLevel >= 21
+	Class "Active Skill Gems" "Support Skill Gems"
+	SetTextColor 26 162 155 255 # Gem Text
+	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
+	SetBorderColor 26 162 155 255 # Gem Border
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	CustomAlertSound "gfT2.mp3"
+	MinimapIcon 1 Yellow Hexagon
+
+# Gem Quality 20
+Show
+	Quality >= 20
+	Class "Active Skill Gems" "Support Skill Gems"
+	SetTextColor 26 162 155 255 # Gem Text
+	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
+	SetBorderColor 26 162 155 255 # Gem Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	CustomAlertSound "gfT2.mp3"
+	MinimapIcon 1 Yellow Hexagon
+
+# Portal Gem Quality
+Show
+	Quality >= 10
+	Class "Gem"
+	BaseType "Portal"
+	SetTextColor 26 162 155 255 # Gem Text
+	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
+	SetBorderColor 26 162 155 255 # Gem Border
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	CustomAlertSound "gfT2.mp3"
+	MinimapIcon 1 Yellow Hexagon
+
+# Portal Gem
+Show
+	Class "Gem"
+	BaseType "Portal"
+	SetTextColor 26 162 155 255 # Gem Text
+	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
+	SetBorderColor 26 162 155 255 # Gem Border
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	CustomAlertSound "gfT3.mp3"
+	MinimapIcon 1 White Hexagon
+	#BlockStrictness 2 Disable
+
+# Gem Vaal Quality
+Show
+	Corrupted True
+	Quality >= 12
+	Class "Active Skill Gems" "Support Skill Gems"
+	BaseType "Vaal"
+	SetTextColor 26 162 155 255 # Gem Text
+	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
+	SetBorderColor 161 27 123 255 # Vaal Border
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	CustomAlertSound "gfT2.mp3"
+	MinimapIcon 1 Yellow Hexagon
+	#BlockStrictness 10 Hide
+	#VariableStrictness quality 14 16 18 -1 -1 -1 -1 -1 -1
+
+# Gem Vaal T2
+Show
+	Corrupted True
+	Class "Active Skill Gems" "Support Skill Gems"
+	BaseType "Vaal Discipline" "Vaal Haste" "Vaal Grace"
+	SetTextColor 26 162 155 255 # Gem Text
+	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
+	SetBorderColor 161 27 123 255 # Vaal Border
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	CustomAlertSound "gfT2.mp3"
+	MinimapIcon 1 Yellow Hexagon
+
+# Gem Vaal
+Show
+	Corrupted True
+	Class "Active Skill Gems" "Support Skill Gems"
+	BaseType "Vaal"
+	SetTextColor 26 162 155 255 # Gem Text
+	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
+	SetBorderColor 161 27 123 255 # Vaal Border
+	SetFontSize 37
+	#SetFontSizeTag 37 # Medium
+
+# Gem Quality High
+Show
+	Quality >= 12
+	Class "Active Skill Gems" "Support Skill Gems"
+	SetTextColor 26 162 155 255 # Gem Text
+	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	PlayAlertSound 6 150 # Tier3
+	MinimapIcon 2 White Hexagon
+	#BlockStrictness 10 Hide
+	#VariableStrictness quality 16 18 20 -1 -1 -1 -1 -1 -1
+
+# Gem Quality
+Show
+	Quality > 0
+	Class "Active Skill Gems" "Support Skill Gems"
+	SetTextColor 26 162 155 255 # Gem Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetFontSize 41
+	#SetFontSizeTag 41 # Big
+	#BlockStrictness 2 Hide
+
+# Gem Support
+Show
+	Class "Support Skill Gems"
+	SetTextColor 26 162 155 255 # Gem Text
+	SetBackgroundColor 0 0 0 210 # Junk Background
+	SetFontSize 37
+	#SetFontSizeTag 37 # Medium
+	#BlockStrictness 2 Hide
+
+# Gem
+Show
+	Class "Active Skill Gems"
+	SetTextColor 26 162 155 255 # Gem Text
+	SetBackgroundColor 0 0 0 210 # Junk Background
+	SetFontSize 37
+	#SetFontSizeTag 37 # Medium
+	#BlockStrictness 2 Hide
 
 #-------------------------------------------------------------------------------
 # Section: Chisel Recipe
