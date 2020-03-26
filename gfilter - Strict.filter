@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.10.8
+# VERSION:       3.10.9
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -70,9 +70,8 @@ Hide
 Show
 	Identified True
 	HasExplicitMod "Tacati" "Citaqualotl" "Matatl" "Topotante" "Xopec" "Guatelitzi" "Puhuarte"
-	SetTextColor 136 136 255 255 # Magic Text
-	SetBackgroundColor 0 15 30 255 # Magic Highlight Background
 	SetFontSize 41
+	#SetFontSizeTag 41 # Big
 
 # Betrayal Veiled
 Show
@@ -436,15 +435,13 @@ Show
 #-------------------------------------------------------------------------------
 
 Show
+	Identified True
 	Rarity = Rare
 	HasExplicitMod "of Weaponcraft" "of Crafting" "of Spellcraft" "of the Underground" "Subterranean"
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 5 18 36 255 # Delve Highlight Background
-	SetBorderColor 102 193 245 255 # Delve Border
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
-	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 1 Yellow Hexagon
 	PlayEffect Blue Temp
 
 #-------------------------------------------------------------------------------
@@ -469,7 +466,6 @@ Show
 	Class "Delve Stackable Socketable Currency"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 5 18 36 255 # Delve Highlight Background
-	SetBorderColor 102 193 245 255 # Delve Border
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
 	PlayEffect Blue Temp
@@ -562,10 +558,10 @@ Show
 	BaseType "Vial of Transcendence" "Vial of Summoning" "Vial of the Ritual" "Vial of Fate" "Vial of Consequence" "Vial of Dominance" "Vial of"
 	SetTextColor 175 45 35 255 # Incursion Text
 	SetBackgroundColor 10 35 34 240 # Incursion Highlight Background
-	SetFontSize 41
-	#SetFontSizeTag 41 # Big
-	CustomAlertSound "gfT3.mp3"
-	MinimapIcon 2 White Circle
+	SetFontSize 45
+	#SetFontSizeTag 45 # Yuge
+	CustomAlertSound "gfT2.mp3"
+	MinimapIcon 2 Yellow Circle
 	PlayEffect Red Temp
 
 #-------------------------------------------------------------------------------
@@ -849,11 +845,8 @@ Show
 	BaseType "Prophecy"
 	SetTextColor 125 0 175 255 # Prophecy Text
 	SetBackgroundColor 30 0 30 255 # Prophecy Highlight Background
-	SetBorderColor 125 0 175 255 # Prophecy Border
 	SetFontSize 41
 	#SetFontSizeTag 41 # Big
-	CustomAlertSound "gfT2.mp3"
-	MinimapIcon 1 Yellow Circle
 
 #-------------------------------------------------------------------------------
 # Section: Essences
@@ -1050,10 +1043,10 @@ Show
 # Subsection: Tier2
 #-------------------------------------------------------------------------------
 
-# Divination Card Tier2 Currency (fix)
+# Divination Card Tier2 fixed
 Show
 	Class "Divination Card"
-	BaseType "The Wrath" "Vinia's Token" "The Survivalist" "The Union" "The Heroic Shot" "Humility"
+	BaseType "The Wrath" "Vinia's Token" "The Survivalist" "The Union" "The Heroic Shot" "Humility" "The Saint's Treasure" "The Chains that Bind" "Imperial Legacy" "The Porcupine" "The Jeweller's Boon" "The Dapper Prodigy" "Lucky Deck" "Vanity"
 	SetTextColor 14 186 255 255 # Divination Card Text
 	SetBackgroundColor 25 33 33 255 # Divination Card Highlight Background
 	SetBorderColor 14 186 255 255 # Divination Card Border
