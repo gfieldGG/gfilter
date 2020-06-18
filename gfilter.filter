@@ -1,4 +1,4 @@
-#===============================================================================
+﻿#===============================================================================
 # GFILTER
 #===============================================================================
 #
@@ -81,6 +81,89 @@ Show
 	SetBackgroundColor 80 80 80 255 # Veiled Background
 	SetBorderColor 0 0 0 255 # Map Border
 	SetFontSize 45 # Yuge
+
+#===============================================================================
+# Section: Harvest
+#===============================================================================
+
+Show
+	BaseType = "Infused Engineer's Orb" "Time-light Scroll" "Fragmentation Scroll" "Deregulation Scroll" "Electroshock Scroll" "Haemocombustion Scroll" "Specularity Scroll" "Facetor's Lens"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 0 50 0 240 # Harvest Highlight Background
+	SetBorderColor 67 162 230 255 # Harvest Border
+	SetFontSize 41 # Big
+	PlayAlertSound 6 150 # Tier3
+	MinimapIcon 1 White Circle
+
+Show
+	Class = "Map Fragments"
+	BaseType = "Winged"
+	SetTextColor 255 200 0 255 # Legacy Text
+	SetBackgroundColor 0 50 0 240 # Harvest Highlight Background
+	SetBorderColor 67 162 230 255 # Harvest Border
+	SetFontSize 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Diamond
+
+# Harvest Offering
+Show
+	Class = "Map Fragments"
+	BaseType = "Tribute to the Goddess" "Gift to the Goddess" "Dedication to the Goddess"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 74 230 58 255 # Quest Background
+	SetBorderColor 67 162 230 255 # Harvest Border
+	SetFontSize 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Diamond
+	PlayEffect Green 
+
+#-------------------------------------------------------------------------------
+# Subsection: Seeds
+#-------------------------------------------------------------------------------
+
+# Grain
+Show
+	Class = "Harvest Seed"
+	BaseType = "Grain"
+	SetTextColor 200 200 200 255 # Normal Text
+	SetBackgroundColor 0 50 0 240 # Harvest Highlight Background
+	SetBorderColor 67 162 230 255 # Harvest Border
+	SetFontSize 41 # Big
+	MinimapIcon 2 White Raindrop
+	PlayEffect White Temp
+
+# Seed
+Show
+	Class = "Harvest Seed"
+	BaseType = "Seed"
+	SetTextColor 255 200 87 255 # Seed Text
+	SetBackgroundColor 0 50 0 240 # Harvest Highlight Background
+	SetBorderColor 67 162 230 255 # Harvest Border
+	SetFontSize 41 # Big
+	MinimapIcon 1 White Raindrop
+	PlayEffect White 
+
+# Seed
+Show
+	Class = "Harvest Seed"
+	BaseType = "Bulb"
+	SetTextColor 254 93 159 255 # Bulb Text
+	SetBackgroundColor 24 41 21 240 # Harvest Highlight Background
+	SetBorderColor 67 162 230 255 # Harvest Border
+	SetFontSize 45 # Yuge
+	MinimapIcon 1 Yellow Raindrop
+	PlayEffect Yellow 
+
+# Fruits
+Show
+	Class = "Harvest Seed"
+	BaseType = "Thornfruit" "Scalefruit" "Blisterfruit"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 254 93 159 240 # Fruit Background
+	SetBorderColor 67 162 230 255 # Harvest Border
+	SetFontSize 45 # Yuge
+	MinimapIcon 0 Red Raindrop
+	PlayEffect Red 
 
 #===============================================================================
 # Section: Delirium
@@ -1252,7 +1335,7 @@ Show
 
 # Game Items
 Show
-	Class = "Quest" "Hideout" "Micro" "Labyrinth" "Incursion Item"
+	Class = "Quest" "Hideout" "Micro" "Labyrinth" "Incursion Item" "Harvest Infrastructure"
 	SetTextColor 74 230 58 255 # Quest Text
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetFontSize 45 # Yuge
