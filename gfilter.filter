@@ -1,4 +1,4 @@
-﻿#===============================================================================
+#===============================================================================
 # GFILTER
 #===============================================================================
 #
@@ -141,8 +141,7 @@ Show
 	Rarity = Unique
 	Class = "Metamorph Sample"
 	SetTextColor 125 180 50 255 # Metamorph Text
-	SetBackgroundColor 15 27 15 255 # Metamorph Highlight Background
-	SetBorderColor 175 96 37 255 # Unique Border
+	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
 	SetFontSize 45 # Yuge
 	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 0 Green Diamond
