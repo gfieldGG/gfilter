@@ -212,7 +212,7 @@ Show
 
 # T2 Oil
 Show
-	BaseType = "Crimson Oil" "Violet Oil" "Azure Oil" "Teal Oil"
+	BaseType = "Crimson Oil" "Violet Oil" "Azure Oil" "Teal Oil" "Indigo Oil"
 	SetTextColor 200 200 75 255 # Blight Text
 	SetBackgroundColor 30 30 0 255 # Blight Highlight Background
 	SetBorderColor 200 150 0 255 # Blight Border
