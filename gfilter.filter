@@ -1339,7 +1339,7 @@ Show
 
 # Game Items
 Show
-	Class = "Quest" "Hideout" "Micro" "Labyrinth" "Incursion Item" "Harvest Infrastructure"
+	Class = "Quest" "Hideout" "Micro" "Labyrinth" "Incursion Item"
 	SetTextColor 74 230 58 255 # Quest Text
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetFontSize 45 # Yuge
