@@ -2992,7 +2992,6 @@ Show
 #	SetTextColor 255 255 119 255 # Rare Text
 #	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 #	SetFontSize 41 # Big
-#	#BlockStrictness 3 Disable
 
 # Warstave Rare Levelling
 #Show # Warstave Levelling | Disable
@@ -3002,7 +3001,6 @@ Show
 #	SetTextColor 255 255 119 255 # Rare Text
 #	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 #	SetFontSize 41 # Big
-#	#BlockStrictness 3 Disable
 
 # Stave Rare Levelling
 #Show # Stave Levelling | Disable
@@ -3012,7 +3010,6 @@ Show
 #	SetTextColor 255 255 119 255 # Rare Text
 #	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 #	SetFontSize 41 # Big
-#	#BlockStrictness 3 Disable
 
 # Wand Rare Levelling
 #Show # Wand Levelling | Disable
@@ -3022,7 +3019,6 @@ Show
 #	SetTextColor 255 255 119 255 # Rare Text
 #	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 #	SetFontSize 41 # Big
-#	#BlockStrictness 3 Disable
 
 # Two Hand Axe Rare Levelling
 #Show # Two Hand Axe Levelling | Disable
@@ -3032,7 +3028,6 @@ Show
 #	SetTextColor 255 255 119 255 # Rare Text
 #	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 #	SetFontSize 41 # Big
-#	#BlockStrictness 3 Disable
 
 # One Hand Axe Rare Levelling
 #Show # One Hand Axe Levelling | Disable
@@ -3042,7 +3037,6 @@ Show
 #	SetTextColor 255 255 119 255 # Rare Text
 #	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 #	SetFontSize 41 # Big
-#	#BlockStrictness 3 Disable
 
 # Rune Dagger Rare Levelling
 #Show # Rune Dagger Levelling | Disable
@@ -3052,7 +3046,6 @@ Show
 #	SetTextColor 255 255 119 255 # Rare Text
 #	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 #	SetFontSize 41 # Big
-#	#BlockStrictness 3 Disable
 
 # Dagger Rare Levelling
 #Show # Dagger Levelling | Disable
@@ -3062,7 +3055,6 @@ Show
 #	SetTextColor 255 255 119 255 # Rare Text
 #	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 #	SetFontSize 41 # Big
-#	#BlockStrictness 3 Disable
 
 # Two Hand Sword Rare Levelling
 #Show # Two Hand Sword Levelling | Disable
@@ -3072,7 +3064,6 @@ Show
 #	SetTextColor 255 255 119 255 # Rare Text
 #	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 #	SetFontSize 41 # Big
-#	#BlockStrictness 3 Disable
 
 # Thrusting Rare Levelling
 #Show # Thrusting Levelling | Disable
@@ -3082,7 +3073,6 @@ Show
 #	SetTextColor 255 255 119 255 # Rare Text
 #	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 #	SetFontSize 41 # Big
-#	#BlockStrictness 3 Disable
 
 # One Hand Sword Rare Levelling
 #Show # One Hand Sword Levelling | Disable
@@ -3092,7 +3082,6 @@ Show
 #	SetTextColor 255 255 119 255 # Rare Text
 #	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 #	SetFontSize 41 # Big
-#	#BlockStrictness 3 Disable
 
 # Two Hand Mace Rare Levelling
 #Show # Two Hand Mace Levelling | Disable
@@ -3102,7 +3091,6 @@ Show
 #	SetTextColor 255 255 119 255 # Rare Text
 #	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 #	SetFontSize 41 # Big
-#	#BlockStrictness 3 Disable
 
 # One Hand Mace Rare Levelling
 #Show # One Hand Mace Levelling | Disable
@@ -3112,7 +3100,6 @@ Show
 #	SetTextColor 255 255 119 255 # Rare Text
 #	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 #	SetFontSize 41 # Big
-#	#BlockStrictness 3 Disable
 
 # Claw Rare Levelling
 #Show # Claw Levelling | Disable
@@ -3122,7 +3109,6 @@ Show
 #	SetTextColor 255 255 119 255 # Rare Text
 #	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 #	SetFontSize 41 # Big
-#	#BlockStrictness 3 Disable
 
 # Sceptre Rare Levelling
 #Show # Sceptre Levelling | Disable
@@ -3132,7 +3118,6 @@ Show
 #	SetTextColor 255 255 119 255 # Rare Text
 #	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 #	SetFontSize 41 # Big
-#	#BlockStrictness 3 Disable
 
 #===============================================================================
 # Section: Rares
@@ -4068,105 +4053,90 @@ Hide
 #	Rarity <= Magic
 #	Class = "Bow"
 #	SetBackgroundColor 0 0 0 210 # Junk Background
-#	#BlockStrictness 3 Disable
 
 # Warstave Levelling
 #Show # Warstave Levelling | Disable
 #	Rarity <= Magic
 #	Class = "Warstaves"
 #	SetBackgroundColor 0 0 0 210 # Junk Background
-#	#BlockStrictness 3 Disable
 
 # Stave Levelling
 #Show # Stave Levelling | Disable
 #	Rarity <= Magic
 #	Class = "Staves"
 #	SetBackgroundColor 0 0 0 210 # Junk Background
-#	#BlockStrictness 3 Disable
 
 # Wand Levelling
 #Show # Wand Levelling | Disable
 #	Rarity <= Magic
 #	Class = "Wands"
 #	SetBackgroundColor 0 0 0 210 # Junk Background
-#	#BlockStrictness 3 Disable
 
 # Two Hand Axe Levelling
 #Show # Two Hand Axe Levelling | Disable
 #	Rarity <= Magic
 #	Class = "Two Hand Axe"
 #	SetBackgroundColor 0 0 0 210 # Junk Background
-#	#BlockStrictness 3 Disable
 
 # One Hand Axe Levelling
 #Show # One Hand Axe Levelling | Disable
 #	Rarity <= Magic
 #	Class = "One Hand Axes"
 #	SetBackgroundColor 0 0 0 210 # Junk Background
-#	#BlockStrictness 3 Disable
 
 # Rune Dagger Levelling
 #Show # Rune Dagger Levelling | Disable
 #	Rarity <= Magic
 #	Class = "Rune Daggers"
 #	SetBackgroundColor 0 0 0 210 # Junk Background
-#	#BlockStrictness 3 Disable
 
 # Dagger Levelling
 #Show # Dagger Levelling | Disable
 #	Rarity <= Magic
 #	Class = "Daggers"
 #	SetBackgroundColor 0 0 0 210 # Junk Background
-#	#BlockStrictness 3 Disable
 
 # Two Hand Sword Levelling
 #Show # Two Hand Sword Levelling | Disable
 #	Rarity <= Magic
 #	Class = "Two Hand Sword"
 #	SetBackgroundColor 0 0 0 210 # Junk Background
-#	#BlockStrictness 3 Disable
 
 # Thrusting Levelling
 #Show # Thrusting Levelling | Disable
 #	Rarity <= Magic
 #	Class = "Thrusting"
 #	SetBackgroundColor 0 0 0 210 # Junk Background
-#	#BlockStrictness 3 Disable
 
 # One Hand Sword Levelling
 #Show # One Hand Sword Levelling | Disable
 #	Rarity <= Magic
 #	Class = "One Hand Swords"
 #	SetBackgroundColor 0 0 0 210 # Junk Background
-#	#BlockStrictness 3 Disable
 
 # Two Hand Mace Levelling
 #Show # Two Hand Mace Levelling | Disable
 #	Rarity <= Magic
 #	Class = "Two Hand Maces"
 #	SetBackgroundColor 0 0 0 210 # Junk Background
-#	#BlockStrictness 3 Disable
 
 # One Hand Mace Levelling
 #Show # One Hand Mace Levelling | Disable
 #	Rarity <= Magic
 #	Class = "One Hand Maces"
 #	SetBackgroundColor 0 0 0 210 # Junk Background
-#	#BlockStrictness 3 Disable
 
 # Claw Levelling
 #Show # Claw Levelling | Disable
 #	Rarity <= Magic
 #	Class = "Claws"
 #	SetBackgroundColor 0 0 0 210 # Junk Background
-#	#BlockStrictness 3 Disable
 
 # Sceptre Levelling
 #Show # Sceptre Levelling | Disable
 #	Rarity <= Magic
 #	Class = "Sceptres"
 #	SetBackgroundColor 0 0 0 210 # Junk Background
-#	#BlockStrictness 3 Disable
 
 #-------------------------------------------------------------------------------
 # Subsection: Specific Armor Upgrade Toggles
