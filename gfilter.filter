@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.11.0
+# VERSION:       3.11.1
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -89,7 +89,7 @@ Show
 Show
 	BaseType = "Infused Engineer's Orb" "Time-light Scroll" "Fragmentation Scroll" "Deregulation Scroll" "Electroshock Scroll" "Haemocombustion Scroll" "Specularity Scroll" "Facetor's Lens"
 	SetTextColor 200 186 153 255 # Currency Text
-	SetBackgroundColor 0 50 0 240 # Harvest Highlight Background
+	SetBackgroundColor 24 41 21 255 # Harvest Highlight Background
 	SetBorderColor 67 162 230 255 # Harvest Border
 	SetFontSize 41 # Big
 	PlayAlertSound 6 150 # Tier3
@@ -99,7 +99,7 @@ Show
 	Class = "Map Fragments"
 	BaseType = "Winged"
 	SetTextColor 255 200 0 255 # Legacy Text
-	SetBackgroundColor 0 50 0 240 # Harvest Highlight Background
+	SetBackgroundColor 24 41 21 255 # Harvest Highlight Background
 	SetBorderColor 67 162 230 255 # Harvest Border
 	SetFontSize 45 # Yuge
 	PlayAlertSound 3 200 # Tier2
@@ -126,9 +126,10 @@ Show
 	Class = "Harvest Seed"
 	BaseType = "Grain"
 	SetTextColor 200 200 200 255 # Normal Text
-	SetBackgroundColor 0 50 0 240 # Harvest Highlight Background
+	SetBackgroundColor 24 41 21 255 # Harvest Highlight Background
 	SetBorderColor 67 162 230 255 # Harvest Border
 	SetFontSize 41 # Big
+	CustomAlertSound "gfT3.mp3"
 	MinimapIcon 2 White Raindrop
 	PlayEffect White Temp
 
@@ -137,33 +138,36 @@ Show
 	Class = "Harvest Seed"
 	BaseType = "Seed"
 	SetTextColor 255 200 87 255 # Seed Text
-	SetBackgroundColor 0 50 0 240 # Harvest Highlight Background
+	SetBackgroundColor 24 41 21 255 # Harvest Highlight Background
 	SetBorderColor 67 162 230 255 # Harvest Border
 	SetFontSize 41 # Big
-	MinimapIcon 1 White Raindrop
-	PlayEffect White 
+	CustomAlertSound "gfT2.mp3"
+	MinimapIcon 1 Yellow Raindrop
+	PlayEffect Yellow 
 
 # Seed
 Show
 	Class = "Harvest Seed"
 	BaseType = "Bulb"
 	SetTextColor 254 93 159 255 # Bulb Text
-	SetBackgroundColor 24 41 21 240 # Harvest Highlight Background
+	SetBackgroundColor 24 41 21 255 # Harvest Highlight Background
 	SetBorderColor 67 162 230 255 # Harvest Border
 	SetFontSize 45 # Yuge
-	MinimapIcon 1 Yellow Raindrop
-	PlayEffect Yellow 
+	CustomAlertSound "gfT15.mp3"
+	MinimapIcon 1 Red Raindrop
+	PlayEffect Pink 
 
 # Fruits
 Show
 	Class = "Harvest Seed"
 	BaseType = "Thornfruit" "Scalefruit" "Blisterfruit"
 	SetTextColor 0 0 0 255 # Tier1 Text
-	SetBackgroundColor 254 93 159 240 # Fruit Background
+	SetBackgroundColor 254 93 159 255 # Fruit Background
 	SetBorderColor 67 162 230 255 # Harvest Border
 	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT1.mp3"
 	MinimapIcon 0 Red Raindrop
-	PlayEffect Red 
+	PlayEffect Pink 
 
 #===============================================================================
 # Section: Delirium
@@ -212,7 +216,7 @@ Show
 	SetBorderColor 0 0 0 255 # Map Border
 	SetFontSize 45 # Yuge
 	PlayAlertSound 4 150 # Map
-	MinimapIcon 0 Yellow Square
+	MinimapIcon 0 Red Square
 	PlayEffect White 
 
 #===============================================================================
