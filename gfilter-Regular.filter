@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.11.2
+# VERSION:       3.11.3
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -89,7 +89,7 @@ Show
 Show
 	BaseType = "Infused Engineer's Orb" "Time-light Scroll" "Fragmentation Scroll" "Deregulation Scroll" "Electroshock Scroll" "Haemocombustion Scroll" "Specularity Scroll" "Facetor's Lens"
 	SetTextColor 200 186 153 255 # Currency Text
-	SetBackgroundColor 24 41 21 255 # Harvest Highlight Background
+	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetBorderColor 67 162 230 255 # Harvest Border
 	SetFontSize 41 # Big
 	PlayAlertSound 6 150 # Tier3
@@ -99,7 +99,7 @@ Show
 	Class = "Map Fragments"
 	BaseType = "Winged"
 	SetTextColor 255 200 0 255 # Legacy Text
-	SetBackgroundColor 24 41 21 255 # Harvest Highlight Background
+	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
 	SetBorderColor 67 162 230 255 # Harvest Border
 	SetFontSize 45 # Yuge
 	PlayAlertSound 3 200 # Tier2
@@ -121,48 +121,93 @@ Show
 # Subsection: Seeds
 #-------------------------------------------------------------------------------
 
+# Primal Seed
+Show
+	Class = "Harvest Seed"
+	BaseType = "Primal"
+	SetTextColor 0 252 252 255 # Primal Text
+	SetBackgroundColor 0 41 41 255 # Primal Highlight Background
+	SetBorderColor 0 252 252 255 # Primal Border
+	PlayEffect Cyan Temp
+	Continue
+
+# Vivid Seed
+Show
+	Class = "Harvest Seed"
+	BaseType = "Vivid"
+	SetTextColor 252 252 0 255 # Vivid Text
+	SetBackgroundColor 41 41 0 255 # Vivid Highlight Background
+	SetBorderColor 252 252 0 255 # Vivid Border
+	PlayEffect Yellow Temp
+	Continue
+
+# Wild Seed
+Show
+	Class = "Harvest Seed"
+	BaseType = "Wild"
+	SetTextColor 252 0 252 255 # Wild Text
+	SetBackgroundColor 41 0 41 255 # Wild Highlight Background
+	SetBorderColor 252 0 252 255 # Wild Border
+	PlayEffect Pink Temp
+	Continue
+
 # Seed
 Show
 	Class = "Harvest Seed"
 	BaseType = "Seed"
-	SetTextColor 200 200 200 255 # Normal Text
-	SetBackgroundColor 24 41 21 255 # Harvest Highlight Background
-	SetBorderColor 67 162 230 255 # Harvest Border
+	SetBackgroundColor 0 0 0 210 # Junk Background
+	SetBorderColor 0 0 0 0 # No Border
 	SetFontSize 41 # Big
 	MinimapIcon 2 White Raindrop
-	PlayEffect White Temp
 
 # Grain
 Show
 	Class = "Harvest Seed"
 	BaseType = "Grain"
-	SetTextColor 255 200 87 255 # Seed Text
-	SetBackgroundColor 24 41 21 255 # Harvest Highlight Background
-	SetBorderColor 67 162 230 255 # Harvest Border
-	SetFontSize 41 # Big
+	SetBorderColor 0 0 0 0 # No Border
+	SetFontSize 45 # Yuge
 	CustomAlertSound "gfT3.mp3"
 	MinimapIcon 1 Yellow Raindrop
-	PlayEffect Yellow 
 
 # Seed
 Show
 	Class = "Harvest Seed"
 	BaseType = "Bulb"
-	SetTextColor 254 93 159 255 # Bulb Text
-	SetBackgroundColor 24 41 21 255 # Harvest Highlight Background
-	SetBorderColor 67 162 230 255 # Harvest Border
 	SetFontSize 45 # Yuge
 	CustomAlertSound "gfT2.mp3"
 	MinimapIcon 1 Red Raindrop
-	PlayEffect Pink 
 
 # Fruits
 Show
 	Class = "Harvest Seed"
-	BaseType = "Thornfruit" "Scalefruit" "Blisterfruit"
+	BaseType = "Primal Blisterfruit"
 	SetTextColor 0 0 0 255 # Tier1 Text
-	SetBackgroundColor 254 93 159 255 # Fruit Background
-	SetBorderColor 67 162 230 255 # Harvest Border
+	SetBackgroundColor 0 252 252 255 # Primal Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT15.mp3"
+	MinimapIcon 0 Red Raindrop
+	PlayEffect Cyan 
+
+# Fruits
+Show
+	Class = "Harvest Seed"
+	BaseType = "Vivid Scalefruit"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 252 252 0 255 # Vivid Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT15.mp3"
+	MinimapIcon 0 Red Raindrop
+	PlayEffect Yellow 
+
+# Fruits
+Show
+	Class = "Harvest Seed"
+	BaseType = "Wild Thornfruit"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 252 0 252 255 # Wild Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
 	CustomAlertSound "gfT15.mp3"
 	MinimapIcon 0 Red Raindrop
