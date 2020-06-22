@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.11.4
+# VERSION:       3.11.5
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -1210,7 +1210,7 @@ Show
 Show
 	AreaLevel <= 76
 	Class = "Currency"
-	BaseType = "Orb of Transmutation" "Armourer's Scrap" "Portal Scroll"
+	BaseType = "Orb of Transmutation" "Armourer's Scrap" "Portal Scroll" "Orb of Augmentation"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 0 0 0 140 # Faded Background
 	SetFontSize 41 # Big
