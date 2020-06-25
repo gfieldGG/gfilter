@@ -2044,11 +2044,11 @@ Show
 	HasInfluence = "Crusader" "Hunter" "Redeemer" "Warlord"
 	Rarity <= Rare
 	BaseType = "Steel Ring" "Opal Ring" "Crystal Belt" "Marble Amulet" "Blue Pearl Amulet" "Vanguard Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Stygian Vise" "Vermillion Ring" "Cerulean Ring" "Convoking Wand"
-	SetTextColor 86 6 11 255 # Conqueror Red Text
-	SetBackgroundColor 255 255 255 255 # Tier0 Background
-	SetBorderColor 143 46 54 255 # Conqueror Border
+	SetTextColor 205 101 110 255 # Conqueror Text
+	SetBackgroundColor 86 6 11 255 # Conqueror Highlight Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT0.mp3"
+	PlayAlertSound 7 300 # Tier1.5
 	MinimapIcon 0 Red Hexagon
 	PlayEffect Red 
 
@@ -2058,11 +2058,11 @@ Show
 	Rarity <= Rare
 	ItemLevel >= 84
 	BaseType = "Sorcerer Boots" "Hubris Circlet" "Sorcerer Gloves" "Eternal Burgonet" "Royal Burgonet" "Lion Pelt" "Titan Gauntlets" "Titan Greaves" "Slink Gloves" "Slink Boots" "Saintly Chainmail" "Astral Plate" "Assassin's Garb" "Vaal Regalia"
-	SetTextColor 86 6 11 255 # Conqueror Red Text
-	SetBackgroundColor 255 255 255 255 # Tier0 Background
-	SetBorderColor 143 46 54 255 # Conqueror Border
+	SetTextColor 205 101 110 255 # Conqueror Text
+	SetBackgroundColor 86 6 11 255 # Conqueror Highlight Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT0.mp3"
+	PlayAlertSound 7 300 # Tier1.5
 	MinimapIcon 0 Red Hexagon
 	PlayEffect Red Temp
 
@@ -2078,11 +2078,11 @@ Show
 	BaseType = "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Two-Stone Ring" "Prismatic Ring" "Coral Ring" "Unset Ring"
 	SetTextColor 205 101 110 255 # Conqueror Text
 	SetBackgroundColor 86 6 11 255 # Conqueror Highlight Background
-	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetBorderColor 143 46 54 255 # Conqueror Border
 	SetFontSize 45 # Yuge
-	PlayAlertSound 7 300 # Tier1.5
-	MinimapIcon 0 Red Hexagon
-	PlayEffect Red Temp
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Hexagon
+	PlayEffect Yellow Temp
 
 # Conqueror ilvl84
 Show
@@ -2091,11 +2091,10 @@ Show
 	ItemLevel >= 84
 	SetTextColor 205 101 110 255 # Conqueror Text
 	SetBackgroundColor 86 6 11 255 # Conqueror Highlight Background
-	SetBorderColor 255 255 255 255 # Tier1 Border
-	SetFontSize 45 # Yuge
-	PlayAlertSound 7 300 # Tier1.5
-	MinimapIcon 0 Red Hexagon
-	PlayEffect Red Temp
+	SetBorderColor 143 46 54 255 # Conqueror Border
+	SetFontSize 41 # Big
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 2 Yellow Hexagon
 
 # Conqueror Jewelry ilvl75
 Show
@@ -2105,11 +2104,7 @@ Show
 	BaseType = "Leather Belt" "Heavy Belt" "Agate Amulet" "Turquoise Amulet" "Citrine Amulet" "Diamond Ring" "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Two-Stone Ring" "Prismatic Ring" "Coral Ring" "Unset Ring" "Moonstone Ring" "Jade Amulet" "Amber Amulet" "Lapis Amulet" "Onyx Amulet" "Iron Ring"
 	SetTextColor 205 101 110 255 # Conqueror Text
 	SetBackgroundColor 86 6 11 255 # Conqueror Highlight Background
-	SetBorderColor 255 255 255 255 # Tier1 Border
-	SetFontSize 45 # Yuge
-	PlayAlertSound 7 300 # Tier1.5
-	MinimapIcon 1 Red Hexagon
-	PlayEffect Red Temp
+	SetFontSize 41 # Big
 
 # Conqueror Jewelry ilvl75
 Show
@@ -2119,11 +2114,7 @@ Show
 	Class = "Amulets" "Rings"
 	SetTextColor 205 101 110 255 # Conqueror Text
 	SetBackgroundColor 86 6 11 255 # Conqueror Highlight Background
-	SetBorderColor 255 255 255 255 # Tier1 Border
-	SetFontSize 45 # Yuge
-	PlayAlertSound 7 300 # Tier1.5
-	MinimapIcon 1 Red Hexagon
-	PlayEffect Red Temp
+	SetFontSize 41 # Big
 
 #-------------------------------------------------------------------------------
 # Subsection: Tier2
@@ -2137,10 +2128,7 @@ Show
 	BaseType = "Sorcerer Boots" "Hubris Circlet" "Sorcerer Gloves" "Eternal Burgonet" "Royal Burgonet" "Lion Pelt" "Titan Gauntlets" "Titan Greaves" "Slink Gloves" "Slink Boots" "Saintly Chainmail" "Astral Plate" "Assassin's Garb" "Vaal Regalia" "Sambar Sceptre" "Copper Kris" "Platinum Kris" "Profane Wand" "Eclipse Staff" "Imbued Wand" "Opal Wand" "Opal Sceptre" "Void Sceptre" "Titanium Spirit Shield" "Fossilised Spirit Shield" "Ivory Spirit Shield" "Bone Spirit Shield" "Crusader Buckler" "Ezomyte Tower Shield" "Archon Kite Shield" "Angelic Kite Shield" "Ceremonial Kite Shield"
 	SetTextColor 205 101 110 255 # Conqueror Text
 	SetBackgroundColor 86 6 11 255 # Conqueror Highlight Background
-	SetFontSize 45 # Yuge
-	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 1 Yellow Hexagon
-	PlayEffect Yellow Temp
+	SetFontSize 41 # Big
 
 #-------------------------------------------------------------------------------
 # Subsection: Other
@@ -2154,9 +2142,6 @@ Show
 	SetTextColor 205 101 110 255 # Conqueror Text
 	SetBackgroundColor 86 6 11 255 # Conqueror Highlight Background
 	SetFontSize 41 # Big
-	PlayAlertSound 6 150 # Tier3
-	MinimapIcon 1 White Hexagon
-	PlayEffect White Temp
 
 # Conqueror T2
 Show
@@ -2166,9 +2151,6 @@ Show
 	SetTextColor 205 101 110 255 # Conqueror Text
 	SetBackgroundColor 86 6 11 255 # Conqueror Highlight Background
 	SetFontSize 41 # Big
-	PlayAlertSound 6 150 # Tier3
-	MinimapIcon 1 White Hexagon
-	PlayEffect White Temp
 
 # Conqueror Catchall
 Show
