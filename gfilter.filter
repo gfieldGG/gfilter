@@ -1593,42 +1593,18 @@ Show
 # Section: Maps
 #===============================================================================
 
-# Eldered Map
-Show
-	HasInfluence = "Elder"
-	Class = "Maps"
-	SetTextColor 0 0 0 255 # Map Text
-	SetBackgroundColor 243 40 29 255 # Map Red Background
-	SetBorderColor 122 20 15 255 # Map Red Border
-	SetFontSize 45 # Yuge
-	PlayAlertSound 4 150 # Map
-	MinimapIcon 0 Red Square
-	PlayEffect Red 
-
 # Shaped Map
-Show
-	HasInfluence = "Shaper"
-	MapTier <= 10
-	Class = "Maps"
-	SetTextColor 0 0 0 255 # Map Text
-	SetBackgroundColor 255 200 0 255 # Map Yellow Background
-	SetBorderColor 127 100 0 255 # Map Yellow Border
-	SetFontSize 45 # Yuge
-	PlayAlertSound 4 150 # Map
-	MinimapIcon 1 Yellow Square
-	PlayEffect Yellow 
-
-# Shaped Map
-Show
-	HasInfluence = "Shaper"
-	Class = "Maps"
-	SetTextColor 0 0 0 255 # Map Text
-	SetBackgroundColor 243 40 29 255 # Map Red Background
-	SetBorderColor 122 20 15 255 # Map Red Border
-	SetFontSize 45 # Yuge
-	PlayAlertSound 4 150 # Map
-	MinimapIcon 1 Red Square
-	PlayEffect Red 
+#Show
+#	HasInfluence = "Shaper"
+#	MapTier <= 10
+#	Class = "Maps"
+#	SetTextColor 0 0 0 255 # Map Text
+#	SetBackgroundColor 255 200 0 255 # Map Yellow Background
+#	SetBorderColor 127 100 0 255 # Map Yellow Border
+#	SetFontSize 45 # Yuge
+#	PlayAlertSound 4 150 # Map
+#	MinimapIcon 1 Yellow Square
+#	PlayEffect Yellow 
 
 # Map Unique Tier1
 Show
@@ -1678,6 +1654,18 @@ Show
 	SetFontSize 45 # Yuge
 	PlayAlertSound 4 150 # Map
 	MinimapIcon 0 Red Square
+	PlayEffect Red 
+
+# Shaped Map
+Show
+	HasInfluence = "Shaper" "Elder"
+	Class = "Maps"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 243 40 29 255 # Map Red Background
+	SetBorderColor 122 20 15 255 # Map Red Border
+	SetFontSize 45 # Yuge
+	PlayAlertSound 4 150 # Map
+	MinimapIcon 1 Red Square
 	PlayEffect Red 
 
 # Garbage Map
