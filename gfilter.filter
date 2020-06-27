@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.11.5
+# VERSION:       3.11.6
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -1644,30 +1644,6 @@ Show
 	MinimapIcon 1 Yellow Square
 	PlayEffect Brown 
 
-# Guardian Map
-Show
-	Class = "Maps"
-	BaseType = "Maze of the Minotaur" "Forge of the Phoenix" "Pit of the Chimera" "Lair of the Hydra"
-	SetTextColor 0 0 0 255 # Map Text
-	SetBackgroundColor 255 233 200 255 # Atlas Background
-	SetBorderColor 122 20 15 255 # Map Red Border
-	SetFontSize 45 # Yuge
-	PlayAlertSound 4 150 # Map
-	MinimapIcon 0 Red Square
-	PlayEffect Red 
-
-# Shaped Map
-Show
-	HasInfluence = "Shaper" "Elder"
-	Class = "Maps"
-	SetTextColor 0 0 0 255 # Map Text
-	SetBackgroundColor 243 40 29 255 # Map Red Background
-	SetBorderColor 122 20 15 255 # Map Red Border
-	SetFontSize 45 # Yuge
-	PlayAlertSound 4 150 # Map
-	MinimapIcon 1 Red Square
-	PlayEffect Red 
-
 # Garbage Map
 #Show
 #	MapTier <= 10
@@ -1966,6 +1942,54 @@ Show
 #-------------------------------------------------------------------------------
 # Subsection: Map Drops Red
 #-------------------------------------------------------------------------------
+
+# Shaper Guardian Map
+#Show
+#	Class = "Maps"
+#	BaseType = "Maze of the Minotaur" "Forge of the Phoenix" "Pit of the Chimera" "Lair of the Hydra"
+#	SetTextColor 0 0 0 255 # Map Text
+#	SetBackgroundColor 43 150 211 255
+#	SetBorderColor 0 38 66 255
+#	SetFontSize 45 # Yuge
+#	PlayAlertSound 4 150 # Map
+#	MinimapIcon 0 Red Square
+#	PlayEffect Red 
+
+# Shaper Map
+Show
+	HasInfluence = "Shaper"
+	Class = "Maps"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 243 40 29 255 # Map Red Background
+	SetBorderColor 43 150 211 255 # Shaper Border
+	SetFontSize 45 # Yuge
+	PlayAlertSound 4 150 # Map
+	MinimapIcon 1 Red Square
+	PlayEffect Red 
+
+# Elder Map
+Show
+	HasInfluence = "Elder"
+	Class = "Maps"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 243 40 29 255 # Map Red Background
+	SetBorderColor 145 120 131 255
+	SetFontSize 45 # Yuge
+	PlayAlertSound 4 150 # Map
+	MinimapIcon 1 Red Square
+	PlayEffect Red 
+
+# Map Red 14+
+Show
+	MapTier >= 14
+	Class = "Maps"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 243 40 29 255 # Map Red Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45 # Yuge
+	PlayAlertSound 4 150 # Map
+	MinimapIcon 1 Red Square
+	PlayEffect Red 
 
 # Map Red show
 Show
