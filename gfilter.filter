@@ -1687,7 +1687,7 @@ Show
 # Map T1 hide
 Hide
 	MapTier = 1
-	AreaLevel >= 84
+	AreaLevel >= 77
 	Class = "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 200 200 200 255 # Map White Background
@@ -1699,7 +1699,7 @@ Hide
 # Map T1 low
 Show
 	MapTier = 1
-	AreaLevel >= 77
+	AreaLevel >= 73
 	Class = "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 200 200 200 255 # Map White Background
@@ -1711,7 +1711,7 @@ Show
 # Map T2 hide
 Hide
 	MapTier = 2
-	AreaLevel >= 85
+	AreaLevel >= 78
 	Class = "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 200 200 200 255 # Map White Background
@@ -1723,7 +1723,7 @@ Hide
 # Map T2 low
 Show
 	MapTier = 2
-	AreaLevel >= 78
+	AreaLevel >= 74
 	Class = "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 200 200 200 255 # Map White Background
@@ -1735,7 +1735,7 @@ Show
 # Map T3 hide
 Hide
 	MapTier = 3
-	AreaLevel >= 86
+	AreaLevel >= 79
 	Class = "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 200 200 200 255 # Map White Background
@@ -1747,7 +1747,7 @@ Hide
 # Map T3 low
 Show
 	MapTier = 3
-	AreaLevel >= 79
+	AreaLevel >= 75
 	Class = "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 200 200 200 255 # Map White Background
@@ -1759,7 +1759,7 @@ Show
 # Map T4 hide
 Hide
 	MapTier = 4
-	AreaLevel >= 87
+	AreaLevel >= 80
 	Class = "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 200 200 200 255 # Map White Background
@@ -1771,7 +1771,7 @@ Hide
 # Map T4 low
 Show
 	MapTier = 4
-	AreaLevel >= 80
+	AreaLevel >= 76
 	Class = "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 200 200 200 255 # Map White Background
@@ -1783,7 +1783,7 @@ Show
 # Map T5 hide
 Hide
 	MapTier = 5
-	AreaLevel >= 88
+	AreaLevel >= 81
 	Class = "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 200 200 200 255 # Map White Background
@@ -1795,7 +1795,7 @@ Hide
 # Map T5 low
 Show
 	MapTier = 5
-	AreaLevel >= 81
+	AreaLevel >= 77
 	Class = "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 200 200 200 255 # Map White Background
@@ -1823,7 +1823,7 @@ Show
 # Map T6 hide
 Hide
 	MapTier = 6
-	AreaLevel >= 89
+	AreaLevel >= 82
 	Class = "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 200 0 255 # Map Yellow Background
@@ -1835,7 +1835,7 @@ Hide
 # Map T6 low
 Show
 	MapTier = 6
-	AreaLevel >= 83
+	AreaLevel >= 79
 	Class = "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 200 0 255 # Map Yellow Background
@@ -1847,7 +1847,7 @@ Show
 # Map T7 hide
 Hide
 	MapTier = 7
-	AreaLevel >= 90
+	AreaLevel >= 83
 	Class = "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 200 0 255 # Map Yellow Background
@@ -1859,7 +1859,7 @@ Hide
 # Map T7 low
 Show
 	MapTier = 7
-	AreaLevel >= 84
+	AreaLevel >= 80
 	Class = "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 200 0 255 # Map Yellow Background
@@ -1871,7 +1871,7 @@ Show
 # Map T8 hide
 Hide
 	MapTier = 8
-	AreaLevel >= 91
+	AreaLevel >= 84
 	Class = "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 200 0 255 # Map Yellow Background
@@ -1883,7 +1883,7 @@ Hide
 # Map T8 low
 Show
 	MapTier = 8
-	AreaLevel >= 85
+	AreaLevel >= 81
 	Class = "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 200 0 255 # Map Yellow Background
@@ -1895,7 +1895,7 @@ Show
 # Map T9 hide
 Hide
 	MapTier = 9
-	AreaLevel >= 92
+	AreaLevel >= 85
 	Class = "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 200 0 255 # Map Yellow Background
@@ -1907,7 +1907,7 @@ Hide
 # Map T9 low
 Show
 	MapTier = 9
-	AreaLevel >= 86
+	AreaLevel >= 82
 	Class = "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 200 0 255 # Map Yellow Background
@@ -1919,7 +1919,7 @@ Show
 # Map T10 hide
 Hide
 	MapTier = 10
-	AreaLevel >= 93
+	AreaLevel >= 86
 	Class = "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 200 0 255 # Map Yellow Background
@@ -1931,7 +1931,7 @@ Hide
 # Map T10 low
 Show
 	MapTier = 10
-	AreaLevel >= 87
+	AreaLevel >= 83
 	Class = "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 200 0 255 # Map Yellow Background
