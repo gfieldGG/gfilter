@@ -305,6 +305,19 @@ Show
 # Section: Blight
 #===============================================================================
 
+# Blighted Map Red
+Show
+	BlightedMap = True
+	MapTier >= 11
+	Class = "Maps"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 243 40 29 255 # Map Red Background
+	SetBorderColor 200 150 0 255 # Blight Border
+	SetFontSize 45 # Yuge
+	PlayAlertSound 4 150 # Map
+	MinimapIcon 1 Red Square
+	PlayEffect Red 
+
 # Blighted Map
 Show
 	BlightedMap = True
