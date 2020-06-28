@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.11.6
+# VERSION:       3.11.7
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -3446,6 +3446,30 @@ Show
 	MinimapIcon 0 Red Hexagon
 	PlayEffect Red 
 
+# Awakened Gem Tier0
+Show
+	Class = "Skill Gems"
+	BaseType = "Awakened Multistrike Support"
+	SetTextColor 26 162 155 255 # Gem Text
+	SetBackgroundColor 255 255 255 255 # Tier0 Background
+	SetBorderColor 26 162 155 255 # Gem Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT0.mp3"
+	MinimapIcon 0 Red Hexagon
+	PlayEffect Red 
+
+# Awakened Gem
+Show
+	Class = "Skill Gems"
+	BaseType = "Awakened"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 26 162 155 255 # Gem Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT1.mp3"
+	MinimapIcon 0 Red Hexagon
+	PlayEffect Red 
+
 # Gem Tier1.5
 Show
 	GemLevel >= 2
@@ -3490,9 +3514,9 @@ Show
 	SetTextColor 26 162 155 255 # Gem Text
 	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
 	SetBorderColor 26 162 155 255 # Gem Border
-	SetFontSize 41 # Big
-	CustomAlertSound "gfT2.mp3"
-	MinimapIcon 1 Yellow Hexagon
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT15.mp3"
+	MinimapIcon 1 Red Hexagon
 
 # Gem Quality 20
 Show
