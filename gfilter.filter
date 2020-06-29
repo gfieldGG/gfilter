@@ -1,9 +1,9 @@
-﻿#===============================================================================
+#===============================================================================
 # GFILTER
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.11.8
+# VERSION:       3.11.9
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -2778,7 +2778,7 @@ Show
 Show
 	Rarity = Unique
 	SetTextColor 175 96 37 255 # Unique Text
-	SetBackgroundColor 0 0 0 210 # Junk Background
+	SetBackgroundColor 0 0 0 255 # Default Background
 	SetFontSize 41 # Big
 	MinimapIcon 2 White Hexagon
 
