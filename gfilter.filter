@@ -1,4 +1,4 @@
-#===============================================================================
+﻿#===============================================================================
 # GFILTER
 #===============================================================================
 #
@@ -2452,7 +2452,7 @@ Show
 Show
 	Rarity <= Magic
 	ItemLevel >= 86
-	BaseType = "Steel Ring" "Opal Ring"
+	BaseType = "Steel Ring" "Opal Ring" "Vermillion Ring"
 	SetTextColor 255 255 255 255 # Normal Highlight Text
 	SetBackgroundColor 0 0 254 255 # Crafting Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -2463,7 +2463,7 @@ Show
 # Tier0 Crafting Bases
 Show
 	Rarity <= Magic
-	BaseType = "Steel Ring" "Opal Ring"
+	BaseType = "Steel Ring" "Opal Ring" "Vermillion Ring"
 	SetTextColor 255 255 255 255 # Normal Highlight Text
 	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
 	SetBorderColor 0 0 254 255 # Crafting Border
@@ -2480,8 +2480,8 @@ Show
 	SetBackgroundColor 0 0 254 255 # Crafting Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	PlayAlertSound 7 300 # Tier1.5
-	MinimapIcon 1 Red Hexagon
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Hexagon
 
 # Tier2 Crafting Bases ilvl86
 Show
@@ -2492,8 +2492,6 @@ Show
 	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
 	SetBorderColor 0 0 254 255 # Crafting Border
 	SetFontSize 45 # Yuge
-	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 1 Yellow Hexagon
 
 # Tier3 Crafting Bases ilvl86
 Show
@@ -2504,8 +2502,6 @@ Show
 	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
 	SetBorderColor 0 0 254 255 # Crafting Border
 	SetFontSize 41 # Big
-	PlayAlertSound 6 150 # Tier3
-	MinimapIcon 1 White Hexagon
 
 #-------------------------------------------------------------------------------
 # Subsection: Other
@@ -2520,8 +2516,6 @@ Show
 	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
 	SetBorderColor 0 0 254 255 # Crafting Border
 	SetFontSize 41 # Big
-	PlayAlertSound 6 150 # Tier3
-	MinimapIcon 1 White Hexagon
 
 # Tier1 Crafting Bases
 Show
@@ -3256,10 +3250,7 @@ Show
 	BaseType = "Blue Pearl Amulet" "Bone Helmet" "Cerulean Ring" "Convoking Wand" "Crystal Belt" "Fingerless Silk Gloves" "Gripped Gloves" "Marble Amulet" "Opal Ring" "Spiked Gloves" "Steel Ring" "Stygian Vise" "Two-Toned Boots" "Vanguard Belt" "Vermillion Ring"
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
-	SetBorderColor 255 255 119 255 # Rare Border
 	SetFontSize 45 # Yuge
-	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 1 Yellow Hexagon
 
 # Rare T1
 Show
@@ -3290,8 +3281,6 @@ Show
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 	SetFontSize 41 # Big
-	PlayAlertSound 6 150 # Tier3
-	MinimapIcon 1 White Hexagon
 
 #-------------------------------------------------------------------------------
 # Subsection: Jewelry
