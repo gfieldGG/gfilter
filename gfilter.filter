@@ -1,4 +1,4 @@
-#===============================================================================
+﻿#===============================================================================
 # GFILTER
 #===============================================================================
 #
@@ -3204,7 +3204,7 @@ Show
 Show
 	Rarity = Rare
 	ItemLevel >= 86
-	BaseType = "Steel Ring" "Opal Ring"
+	BaseType = "Steel Ring" "Opal Ring" "Vermillion Ring"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 255 255 119 255 # Rare Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -3216,16 +3216,16 @@ Show
 # Rare Atlas T0
 Show
 	Rarity = Rare
-	BaseType = "Steel Ring" "Opal Ring"
+	BaseType = "Steel Ring" "Opal Ring" "Vermillion Ring"
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
 	CustomAlertSound "gfT15.mp3"
-	MinimapIcon 0 Yellow Hexagon
+	MinimapIcon 1 Red Hexagon
 
 #-------------------------------------------------------------------------------
-# Subsection: High ilvl Crafting
+# Subsection: High ilvl
 #-------------------------------------------------------------------------------
 
 # Rare T1 ilvl86 Craft
@@ -3233,12 +3233,12 @@ Show
 	Rarity = Rare
 	ItemLevel >= 86
 	BaseType = "Blue Pearl Amulet" "Bone Helmet" "Cerulean Ring" "Convoking Wand" "Crystal Belt" "Fingerless Silk Gloves" "Gripped Gloves" "Marble Amulet" "Opal Ring" "Spiked Gloves" "Steel Ring" "Stygian Vise" "Two-Toned Boots" "Vanguard Belt" "Vermillion Ring"
-	SetTextColor 0 0 0 255 # Tier1 Text
-	SetBackgroundColor 255 255 119 255 # Rare Background
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
 	PlayAlertSound 7 300 # Tier1.5
-	MinimapIcon 0 Red Hexagon
+	MinimapIcon 1 Red Hexagon
 
 # Rare T1 ilvl84 Craft
 Show
@@ -3247,7 +3247,7 @@ Show
 	BaseType = "Blue Pearl Amulet" "Bone Helmet" "Cerulean Ring" "Convoking Wand" "Crystal Belt" "Fingerless Silk Gloves" "Gripped Gloves" "Marble Amulet" "Opal Ring" "Spiked Gloves" "Steel Ring" "Stygian Vise" "Two-Toned Boots" "Vanguard Belt" "Vermillion Ring"
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
-	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetBorderColor 255 255 119 255 # Rare Border
 	SetFontSize 45 # Yuge
 	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 1 Yellow Hexagon
@@ -3259,7 +3259,6 @@ Show
 	BaseType = "Blue Pearl Amulet" "Bone Helmet" "Cerulean Ring" "Convoking Wand" "Crystal Belt" "Fingerless Silk Gloves" "Gripped Gloves" "Marble Amulet" "Opal Ring" "Spiked Gloves" "Steel Ring" "Stygian Vise" "Two-Toned Boots" "Vanguard Belt" "Vermillion Ring"
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
-	SetBorderColor 255 255 119 255 # Rare Border
 	SetFontSize 45 # Yuge
 
 # Rare T2 Craft ilvl86
