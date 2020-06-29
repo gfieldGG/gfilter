@@ -410,10 +410,23 @@ Show
 	MinimapIcon 1 Red Circle
 	PlayEffect Red 
 
+# Incubator high ilvl
+Show
+	ItemLevel >= 81
+	Class = "Incubator"
+	BaseType = "Celestial Armoursmith's Incubator" "Celestial Blacksmith's Incubator" "Celestial Jeweller's Incubator" "Enchanted Incubator" "Fragmented Incubator" "Otherworldly Incubator"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 28 16 40 255 # Legion Background
+	SetBorderColor 88 52 126 255 # Legion Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT2.mp3"
+	MinimapIcon 1 Yellow Circle
+	PlayEffect Yellow Temp
+
 # Incubator T2
 Show
 	Class = "Incubator"
-	BaseType = "Celestial Blacksmith's Incubator" "Thaumaturge's Incubator" "Time-Lost Incubator" "Decadent Incubator" "Foreboding Incubator" "Otherworldly Incubator" "Enchanted Incubator" "Diviner's Incubator" "Celestial Armoursmith's Incubator" "Celestial Jeweller's Incubator" "Skittering Incubator"
+	BaseType = "Celestial Blacksmith's Incubator" "Thaumaturge's Incubator" "Time-Lost Incubator" "Decadent Incubator" "Gemcutter's Incubator" "Foreboding Incubator" "Otherworldly Incubator" "Enchanted Incubator" "Diviner's Incubator" "Skittering Incubator"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 28 16 40 255 # Legion Background
 	SetBorderColor 88 52 126 255 # Legion Border
