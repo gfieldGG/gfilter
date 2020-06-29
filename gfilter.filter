@@ -392,6 +392,7 @@ Show
 	SetBorderColor 0 0 0 255 # Map Border
 	SetFontSize 41 # Big
 	MinimapIcon 2 White Circle
+	#BlockStrictness 3 Hide
 
 #-------------------------------------------------------------------------------
 # Subsection: Incubators
@@ -429,6 +430,7 @@ Show
 	SetBorderColor 88 52 126 255 # Legion Border
 	SetFontSize 41 # Big
 	PlayEffect Yellow Temp
+	#BlockStrictness 3 Hide
 
 #===============================================================================
 # Section: Synthesis
@@ -805,6 +807,7 @@ Show
 	SetTextColor 166 95 244 255 # Breach Text
 	SetBackgroundColor 40 4 0 255 # Breach Red Highlight Background
 	SetFontSize 41 # Big
+	#BlockStrictness 3 Hide
 
 # Breach Splinter
 Show
@@ -933,6 +936,7 @@ Show
 	SetTextColor 125 0 175 255 # Prophecy Text
 	SetBackgroundColor 30 0 30 255 # Prophecy Highlight Background
 	SetFontSize 41 # Big
+	#BlockStrictness 3 Hide
 
 #===============================================================================
 # Section: Essences
@@ -972,6 +976,7 @@ Show
 	CustomAlertSound "gfT3.mp3"
 	MinimapIcon 2 White Circle
 	PlayEffect Blue Temp
+	#BlockStrictness 3 Hide
 
 # Essence
 Show
@@ -3588,9 +3593,8 @@ Show
 	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
 	SetBorderColor 161 27 123 255 # Vaal Border
 	SetFontSize 41 # Big
-	CustomAlertSound "gfT2.mp3"
-	MinimapIcon 1 Yellow Hexagon
-	#BlockStrictness 10 Hide
+	CustomAlertSound "gfT3.mp3"
+	MinimapIcon 2 White Hexagon
 
 # Gem Vaal T2
 Show
@@ -3601,8 +3605,8 @@ Show
 	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
 	SetBorderColor 161 27 123 255 # Vaal Border
 	SetFontSize 41 # Big
-	CustomAlertSound "gfT2.mp3"
-	MinimapIcon 1 Yellow Hexagon
+	CustomAlertSound "gfT3.mp3"
+	MinimapIcon 2 White Hexagon
 
 # Gem Vaal
 Show
@@ -3613,6 +3617,7 @@ Show
 	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
 	SetBorderColor 161 27 123 255 # Vaal Border
 	SetFontSize 37 # Medium
+	#BlockStrictness 2 Hide
 
 # Gem Quality High
 Show
@@ -3621,9 +3626,7 @@ Show
 	SetTextColor 26 162 155 255 # Gem Text
 	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
 	SetFontSize 41 # Big
-	PlayAlertSound 6 150 # Tier3
-	MinimapIcon 2 White Hexagon
-	#BlockStrictness 10 Hide
+	#BlockStrictness 3 Hide
 
 # Gem Quality
 Show
