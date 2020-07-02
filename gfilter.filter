@@ -1,9 +1,9 @@
-﻿#===============================================================================
+#===============================================================================
 # GFILTER
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.11.9
+# VERSION:       3.11.10
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -834,7 +834,7 @@ Show
 
 # Breachstone
 Show
-	Class = "Misc Map Items"
+	Class = "Map Fragments"
 	BaseType = "Breachstone"
 	SetTextColor 166 95 244 255 # Breach Text
 	SetBackgroundColor 21 12 30 255 # Breach Highlight Background
