@@ -1,4 +1,4 @@
-#===============================================================================
+﻿#===============================================================================
 # GFILTER
 #===============================================================================
 #
@@ -666,7 +666,7 @@ Show
 # T1 Vial
 Show
 	Class = "Currency"
-	BaseType = "Vial of Awakening"
+	BaseType = "Vial of Transcendence"
 	SetTextColor 150 204 130 255 # Incursion BG Text
 	SetBackgroundColor 175 45 35 255 # Incursion Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -678,7 +678,7 @@ Show
 # Vial
 Show
 	Class = "Currency"
-	BaseType = "Vial of Transcendence" "Vial of Summoning" "Vial of the Ritual" "Vial of Fate" "Vial of Consequence" "Vial of Dominance" "Vial of"
+	BaseType = "Vial of Transcendence" "Vial of Summoning" "Vial of the Ritual" "Vial of Fate" "Vial of Consequence" "Vial of Dominance" "Vial of" "Vial of Awakening"
 	SetTextColor 175 45 35 255 # Incursion Text
 	SetBackgroundColor 10 35 34 240 # Incursion Highlight Background
 	SetFontSize 45 # Yuge
