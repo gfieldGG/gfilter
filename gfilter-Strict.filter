@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.11.9
+# VERSION:       3.11.10
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -116,6 +116,17 @@ Show
 	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 1 Yellow Diamond
 	PlayEffect Green 
+
+# Seed Enhancer
+Show
+	Class = "Seed Enhancer"
+	SetTextColor 67 162 230 255 # Harvest Text
+	SetBackgroundColor 25 35 50 255
+	SetBorderColor 67 162 230 255 # Harvest Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT2.mp3"
+	MinimapIcon 1 Yellow Raindrop
+	PlayEffect Blue 
 
 #-------------------------------------------------------------------------------
 # Subsection: Seeds
@@ -666,7 +677,7 @@ Show
 # T1 Vial
 Show
 	Class = "Currency"
-	BaseType = "Vial of Awakening"
+	BaseType = "Vial of Transcendence"
 	SetTextColor 150 204 130 255 # Incursion BG Text
 	SetBackgroundColor 175 45 35 255 # Incursion Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -678,7 +689,7 @@ Show
 # Vial
 Show
 	Class = "Currency"
-	BaseType = "Vial of Transcendence" "Vial of Summoning" "Vial of the Ritual" "Vial of Fate" "Vial of Consequence" "Vial of Dominance" "Vial of"
+	BaseType = "Vial of Transcendence" "Vial of Summoning" "Vial of the Ritual" "Vial of Fate" "Vial of Consequence" "Vial of Dominance" "Vial of" "Vial of Awakening"
 	SetTextColor 175 45 35 255 # Incursion Text
 	SetBackgroundColor 10 35 34 240 # Incursion Highlight Background
 	SetFontSize 45 # Yuge
@@ -834,7 +845,7 @@ Show
 
 # Breachstone
 Show
-	Class = "Misc Map Items"
+	Class = "Map Fragments"
 	BaseType = "Breachstone"
 	SetTextColor 166 95 244 255 # Breach Text
 	SetBackgroundColor 21 12 30 255 # Breach Highlight Background

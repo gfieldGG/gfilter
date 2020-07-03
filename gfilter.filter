@@ -117,6 +117,17 @@ Show
 	MinimapIcon 1 Yellow Diamond
 	PlayEffect Green 
 
+# Seed Enhancer
+Show
+	Class = "Seed Enhancer"
+	SetTextColor 67 162 230 255 # Harvest Text
+	SetBackgroundColor 25 35 50 255
+	SetBorderColor 67 162 230 255 # Harvest Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT2.mp3"
+	MinimapIcon 1 Yellow Raindrop
+	PlayEffect Blue 
+
 #-------------------------------------------------------------------------------
 # Subsection: Seeds
 #-------------------------------------------------------------------------------
