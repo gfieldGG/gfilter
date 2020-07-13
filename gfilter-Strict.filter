@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.11.10
+# VERSION:       3.11.11
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -402,7 +402,6 @@ Show
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 0 0 0 255 # Map Border
 	SetFontSize 41 # Big
-	MinimapIcon 2 White Circle
 	#BlockStrictness 3 Hide
 
 #-------------------------------------------------------------------------------
@@ -997,8 +996,6 @@ Show
 	SetTextColor 128 179 254 255 # Essence Text
 	SetBackgroundColor 25 36 51 255 # Essence Highlight Background
 	SetFontSize 41 # Big
-	CustomAlertSound "gfT3.mp3"
-	MinimapIcon 2 White Circle
 	PlayEffect Blue Temp
 	#BlockStrictness 3 Hide
 
@@ -1220,7 +1217,7 @@ Hide
 	SetFontSize 37 # Medium
 	#BlockStrictness 1 Hide
 
-# Currency Tier5 Stacks
+# Currency Tier5 Stack
 Show
 	StackSize >= 4
 	Class = "Currency"
@@ -1258,6 +1255,17 @@ Hide
 	SetFontSize 41 # Big
 	#BlockStrictness 2 Hide
 
+# Currency Tier4 Stack
+Show
+	StackSize >= 4
+	Class = "Currency"
+	BaseType = "Jeweller's Orb" "Orb of Chance" "Orb of Alteration" "Chromatic Orb"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT3.mp3"
+	MinimapIcon 2 White Circle
+
 # Currency Tier4
 Show
 	Class = "Currency"
@@ -1266,6 +1274,19 @@ Show
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetFontSize 41 # Big
 	#BlockStrictness 3 Hide
+
+# Currency Tier3 Stack
+Show
+	StackSize >= 3
+	Class = "Currency"
+	BaseType = "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Orb of Scouring" "Orb of Binding"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
+	SetBorderColor 200 186 153 255 # Currency Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT2.mp3"
+	MinimapIcon 1 Yellow Circle
+	PlayEffect Yellow Temp
 
 # Currency Tier3
 Show
@@ -1276,7 +1297,7 @@ Show
 	SetFontSize 45 # Yuge
 	CustomAlertSound "gfT3.mp3"
 	MinimapIcon 1 White Circle
-	PlayEffect Yellow Temp
+	PlayEffect White Temp
 
 # Currency Tier2
 Show
@@ -1293,7 +1314,7 @@ Show
 # Currency Tier1.5
 Show
 	Class = "Currency"
-	BaseType = "Divine Orb" "Orb of Annulment" "Ancient Orb" "Harbinger's Orb" "Awakener's Orb"
+	BaseType = "Divine Orb" "Orb of Annulment" "Ancient Orb" "Harbinger's Orb"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 200 186 153 255 # Currency Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -1317,7 +1338,7 @@ Show
 # Currency Tier1
 Show
 	Class = "Currency"
-	BaseType = "Exalted Orb" "Mirror Shard"
+	BaseType = "Exalted Orb" "Mirror Shard" "Awakener's Orb"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 200 186 153 255 # Currency Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
