@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.11.10
+# VERSION:       3.11.11
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -402,7 +402,6 @@ Show
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 0 0 0 255 # Map Border
 	SetFontSize 41 # Big
-	MinimapIcon 2 White Circle
 	#BlockStrictness 3 Hide
 
 #-------------------------------------------------------------------------------
@@ -997,8 +996,6 @@ Show
 	SetTextColor 128 179 254 255 # Essence Text
 	SetBackgroundColor 25 36 51 255 # Essence Highlight Background
 	SetFontSize 41 # Big
-	CustomAlertSound "gfT3.mp3"
-	MinimapIcon 2 White Circle
 	PlayEffect Blue Temp
 	#BlockStrictness 3 Hide
 
