@@ -1290,7 +1290,7 @@ Show
 # Currency Tier1.5
 Show
 	Class = "Currency"
-	BaseType = "Divine Orb" "Orb of Annulment" "Ancient Orb" "Harbinger's Orb" "Awakener's Orb"
+	BaseType = "Divine Orb" "Orb of Annulment" "Ancient Orb" "Harbinger's Orb"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 200 186 153 255 # Currency Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -1314,7 +1314,7 @@ Show
 # Currency Tier1
 Show
 	Class = "Currency"
-	BaseType = "Exalted Orb" "Mirror Shard"
+	BaseType = "Exalted Orb" "Mirror Shard" "Awakener's Orb"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 200 186 153 255 # Currency Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
