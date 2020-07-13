@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.11.11
+# VERSION:       3.11.12
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -607,7 +607,6 @@ Show
 	SetBackgroundColor 5 18 36 255 # Delve Highlight Background
 	SetFontSize 41 # Big
 	PlayEffect Blue Temp
-	#BlockStrictness 3 Hide
 
 #-------------------------------------------------------------------------------
 # Subsection: Fossils
@@ -643,7 +642,6 @@ Show
 	BaseType = "Frigid Fossil" "Scorched Fossil" "Aberrant Fossil" "Lucent Fossil" "Corroded Fossil" "Jagged Fossil"
 	SetTextColor 102 193 245 255 # Delve Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 3 Hide
 
 # Fossil
 Show
