@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.11.12
+# VERSION:       3.11.13
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -612,10 +612,22 @@ Show
 # Subsection: Fossils
 #-------------------------------------------------------------------------------
 
+# T0 Fossil
+Show
+	Class = "Currency"
+	BaseType = "Fractured Fossil"
+	SetTextColor 102 193 245 255 # Delve Text
+	SetBackgroundColor 255 255 255 255 # Tier0 Background
+	SetBorderColor 102 193 245 255 # Delve Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT0.mp3"
+	MinimapIcon 0 Red Circle
+	PlayEffect Red 
+
 # T1 Fossil
 Show
 	Class = "Currency"
-	BaseType = "Hollow Fossil" "Faceted Fossil" "Bloodstained Fossil" "Fractured Fossil"
+	BaseType = "Hollow Fossil" "Faceted Fossil" "Fractured Fossil" "Glyphic Fossil"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 102 193 245 255 # Delve Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -627,7 +639,7 @@ Show
 # T1.5 Fossil
 Show
 	Class = "Currency"
-	BaseType = "Sanctified Fossil" "Tangled Fossil" "Dense Fossil" "Glyphic Fossil"
+	BaseType = "Enchanted Fossil" "Bloodstained Fossil" "Sanctified Fossil" "Perfect Fossil" "Shuddering Fossil"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 102 193 245 255 # Delve Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
