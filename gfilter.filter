@@ -402,7 +402,6 @@ Show
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 0 0 0 255 # Map Border
 	SetFontSize 41 # Big
-	#BlockStrictness 3 Hide
 
 #-------------------------------------------------------------------------------
 # Subsection: Incubators
