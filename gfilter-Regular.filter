@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.11.12
+# VERSION:       3.11.13
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -402,7 +402,6 @@ Show
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 0 0 0 255 # Map Border
 	SetFontSize 41 # Big
-	#BlockStrictness 3 Hide
 
 #-------------------------------------------------------------------------------
 # Subsection: Incubators
@@ -612,10 +611,22 @@ Show
 # Subsection: Fossils
 #-------------------------------------------------------------------------------
 
+# T0 Fossil
+Show
+	Class = "Currency"
+	BaseType = "Fractured Fossil"
+	SetTextColor 102 193 245 255 # Delve Text
+	SetBackgroundColor 255 255 255 255 # Tier0 Background
+	SetBorderColor 102 193 245 255 # Delve Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT0.mp3"
+	MinimapIcon 0 Red Circle
+	PlayEffect Red 
+
 # T1 Fossil
 Show
 	Class = "Currency"
-	BaseType = "Hollow Fossil" "Faceted Fossil" "Bloodstained Fossil" "Fractured Fossil"
+	BaseType = "Hollow Fossil" "Faceted Fossil" "Fractured Fossil" "Glyphic Fossil"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 102 193 245 255 # Delve Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -627,7 +638,7 @@ Show
 # T1.5 Fossil
 Show
 	Class = "Currency"
-	BaseType = "Sanctified Fossil" "Tangled Fossil" "Dense Fossil" "Glyphic Fossil"
+	BaseType = "Enchanted Fossil" "Bloodstained Fossil" "Sanctified Fossil" "Perfect Fossil" "Shuddering Fossil"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 102 193 245 255 # Delve Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -1257,7 +1268,7 @@ Show
 Show
 	StackSize >= 4
 	Class = "Currency"
-	BaseType = "Jeweller's Orb" "Orb of Chance" "Orb of Alteration" "Chromatic Orb"
+	BaseType = "Jeweller's Orb" "Orb of Chance" "Chromatic Orb"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetFontSize 45 # Yuge
@@ -1267,7 +1278,7 @@ Show
 # Currency Tier4
 Show
 	Class = "Currency"
-	BaseType = "Jeweller's Orb" "Orb of Chance" "Orb of Alteration" "Chromatic Orb"
+	BaseType = "Jeweller's Orb" "Orb of Chance" "Chromatic Orb"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetFontSize 41 # Big
@@ -1277,7 +1288,7 @@ Show
 Show
 	StackSize >= 3
 	Class = "Currency"
-	BaseType = "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Orb of Scouring" "Orb of Binding"
+	BaseType = "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Orb of Scouring" "Orb of Binding" "Orb of Alteration"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetBorderColor 200 186 153 255 # Currency Border
@@ -1289,7 +1300,7 @@ Show
 # Currency Tier3
 Show
 	Class = "Currency"
-	BaseType = "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Orb of Scouring" "Orb of Binding"
+	BaseType = "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Orb of Scouring" "Orb of Binding" "Orb of Alteration"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetFontSize 45 # Yuge
