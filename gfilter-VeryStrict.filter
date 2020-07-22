@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.11.13
+# VERSION:       3.11.14
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -42,6 +42,7 @@ Show
 # Enchants
 Show
 	AnyEnchantment = True
+	Rarity <= Rare
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 124 178 156 255 # Ascendancy Border
 	SetFontSize 45 # Yuge
@@ -50,22 +51,21 @@ Show
 
 # Talisman
 Show
+	Rarity <= Rare
 	Class = "Amulets"
 	BaseType = "Talisman"
-	SetBackgroundColor 10 46 20 255 # Talisman Hightlight Background
+	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 50 230 100 255 # Talisman Border
-	SetFontSize 41
-	PlayAlertSound 6 150 # Tier3
-	MinimapIcon 2 White Hexagon
+	SetFontSize 41 # Big
 
 # Warband Item
-Hide
-	Identified = True
-	HasExplicitMod = "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's"
-	SetTextColor 136 136 255 255 # Magic Text
-	SetBackgroundColor 0 15 30 255 # Magic Highlight Background
-	SetFontSize 41
-	#BlockStrictness 2 Hide
+#Hide
+#	Identified = True
+#	HasExplicitMod = "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's"
+#	SetTextColor 136 136 255 255 # Magic Text
+#	SetBackgroundColor 0 15 30 255 # Magic Highlight Background
+#	SetFontSize 41
+#	#BlockStrictness 2 Hide
 
 # Incursion Item
 Show
@@ -76,6 +76,7 @@ Show
 # Betrayal Veiled
 Show
 	Identified = True
+	Rarity <= Rare
 	HasExplicitMod = "Veil"
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 80 80 80 255 # Veiled Background
@@ -1704,14 +1705,14 @@ Show
 	SetBorderColor 88 48 19 250 # Map Unique Border
 	SetFontSize 45 # Yuge
 	PlayAlertSound 4 150 # Map
-	MinimapIcon 1 Yellow Square
+	MinimapIcon 1 Red Square
 	PlayEffect Brown 
 
 # Garbage Map
 #Hide
 #	MapTier <= 10
 #	Class = "Maps"
-#	BaseType = "Overgrown Ruin" "Museum" "Arena" "Maze"
+#	BaseType = "Overgrown Ruin" "Museum" "Arena" "Maze" "Plaza" "Cage" "Vaal Pyramid" "Dungeon" "Cells" "Lava Chamber" "Chateau" "Necropolis" "Grotto" "Shrine" "Overgrown Shrine"
 #	SetTextColor 0 0 0 255 # Map Text
 #	SetBackgroundColor 200 200 200 255 # Map White Background
 #	SetBorderColor 0 0 0 255 # Map Border
@@ -1721,7 +1722,7 @@ Show
 #Show
 #	MapTier <= 10
 #	Class = "Maps"
-#	BaseType = "Iceberg Map" "Spider Forest Map" "Vault Map" "Burial Chambers Map" "Canyon Map" "Strand Map" "Toxic Sewer Map" "Fields Map" "Racecourse Map" "Lookout Map" "Jungle Valley Map" "Mesa Map" "Phantasmagoria Map" "Beach Map" "City Square Map" "Channel Map" "Alleyways Map" "Arid Lake Map" "Shore Map" "Ashen Wood Map" "Caldera" "Defiled Cathedral"
+#	BaseType = "Iceberg Map" "Spider Forest Map" "Vault Map" "Burial Chambers Map" "Canyon Map" "Strand Map" "Toxic Sewer Map" "Fields Map" "Racecourse Map" "Lookout Map" "Jungle Valley Map" "Mesa Map" "Phantasmagoria Map" "Beach Map" "City Square Map" "Alleyways Map" "Arid Lake Map" "Shore Map" "Ashen Wood Map" "Caldera" "Defiled Cathedral" "Fungal Hollow" "Promenade" "Ramparts" "Atoll" "Sepulchre" "Belfry"
 #	SetTextColor 0 0 0 255 # Map Text
 #	SetBackgroundColor 255 200 0 255 # Map Yellow Background
 #	SetBorderColor 127 100 0 255 # Map Yellow Border
@@ -2053,6 +2054,18 @@ Show
 	PlayAlertSound 4 150 # Map
 	MinimapIcon 1 Red Square
 	PlayEffect Red 
+
+# Map Red low
+Show
+	MapTier >= 11
+	AreaLevel >= 81
+	Class = "Maps"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 243 40 29 255 # Map Red Background
+	SetBorderColor 122 20 15 255 # Map Red Border
+	SetFontSize 37 # Medium
+	DisableDropSound
+	#BlockStrictness 3 Disable
 
 # Map Red show
 Show
