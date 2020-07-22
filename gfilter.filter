@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.11.14
+# VERSION:       3.11.15
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -1674,7 +1674,21 @@ Show
 Show
 	Rarity = Unique
 	Class = "Maps"
-	BaseType = "Chateau"
+	BaseType = "Chateau" "Relic Chambers"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 175 96 37 255 # Unique Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT1.mp3"
+	MinimapIcon 0 Red Square
+	PlayEffect Brown 
+
+# Map Unique Tier1
+Show
+	Rarity = Unique
+	MapTier = 16
+	Class = "Maps"
+	BaseType = "Harbinger Map"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 175 96 37 255 # Unique Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -1693,7 +1707,7 @@ Show
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
 	CustomAlertSound "gfT15.mp3"
-	MinimapIcon 1 Red Square
+	MinimapIcon 0 Red Square
 	PlayEffect Brown 
 
 # Map Unique
