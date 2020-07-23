@@ -1265,11 +1265,19 @@ Show
 	SetFontSize 41 # Big
 	#BlockStrictness 2 Hide
 
+# Currency Special Alteration
+Show
+	Class = "Currency"
+	BaseType = "Orb of Alteration"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
+	SetFontSize 45 # Yuge
+
 # Currency Tier4 Stack
 Show
 	StackSize >= 4
 	Class = "Currency"
-	BaseType = "Jeweller's Orb" "Orb of Chance" "Chromatic Orb"
+	BaseType = "Jeweller's Orb" "Orb of Chance" "Chromatic Orb" "Orb of Alteration"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetFontSize 45 # Yuge
@@ -1279,7 +1287,7 @@ Show
 # Currency Tier4
 Show
 	Class = "Currency"
-	BaseType = "Jeweller's Orb" "Orb of Chance" "Chromatic Orb"
+	BaseType = "Jeweller's Orb" "Orb of Chance" "Chromatic Orb" "Orb of Alteration"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetFontSize 41 # Big
@@ -1289,7 +1297,7 @@ Show
 Show
 	StackSize >= 3
 	Class = "Currency"
-	BaseType = "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Orb of Scouring" "Orb of Binding" "Orb of Alteration"
+	BaseType = "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Orb of Scouring" "Orb of Binding"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetBorderColor 200 186 153 255 # Currency Border
@@ -1301,7 +1309,7 @@ Show
 # Currency Tier3
 Show
 	Class = "Currency"
-	BaseType = "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Orb of Scouring" "Orb of Binding" "Orb of Alteration"
+	BaseType = "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Orb of Scouring" "Orb of Binding"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetFontSize 45 # Yuge
