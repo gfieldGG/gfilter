@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.11.16
+# VERSION:       3.11.17
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -2550,15 +2550,16 @@ Show
 	MinimapIcon 1 Red Hexagon
 
 # Tier0 Crafting Bases
-Show
-	Rarity <= Magic
-	BaseType = "Steel Ring" "Opal Ring" "Vermillion Ring"
-	SetTextColor 255 255 255 255 # Normal Highlight Text
-	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
-	SetBorderColor 0 0 254 255 # Crafting Border
-	SetFontSize 45 # Yuge
-	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 1 Yellow Hexagon
+#Show
+#	Rarity <= Magic
+#	BaseType = "Steel Ring" "Opal Ring" "Vermillion Ring"
+#	SetTextColor 255 255 255 255 # Normal Highlight Text
+#	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
+#	SetBorderColor 0 0 254 255 # Crafting Border
+#	SetFontSize 45 # Yuge
+#	PlayAlertSound 3 200 # Tier2
+#	MinimapIcon 1 Yellow Hexagon
+#	#BlockStrictness 3 Disable
 
 # Tier1 Crafting Bases ilvl86
 Show

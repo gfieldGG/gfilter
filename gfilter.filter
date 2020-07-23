@@ -1,9 +1,9 @@
-#===============================================================================
+﻿#===============================================================================
 # GFILTER
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.11.16
+# VERSION:       3.11.17
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -2559,6 +2559,7 @@ Show
 	SetFontSize 45 # Yuge
 	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 1 Yellow Hexagon
+	#BlockStrictness 3 Disable
 
 # Tier1 Crafting Bases ilvl86
 Show
