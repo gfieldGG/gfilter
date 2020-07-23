@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.11.14
+# VERSION:       3.11.15
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -1265,11 +1265,19 @@ Hide
 	SetFontSize 41 # Big
 	#BlockStrictness 2 Hide
 
+# Currency Special Alteration
+Show
+	Class = "Currency"
+	BaseType = "Orb of Alteration"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
+	SetFontSize 45 # Yuge
+
 # Currency Tier4 Stack
 Show
 	StackSize >= 4
 	Class = "Currency"
-	BaseType = "Jeweller's Orb" "Orb of Chance" "Chromatic Orb"
+	BaseType = "Jeweller's Orb" "Orb of Chance" "Chromatic Orb" "Orb of Alteration"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetFontSize 45 # Yuge
@@ -1279,7 +1287,7 @@ Show
 # Currency Tier4
 Show
 	Class = "Currency"
-	BaseType = "Jeweller's Orb" "Orb of Chance" "Chromatic Orb"
+	BaseType = "Jeweller's Orb" "Orb of Chance" "Chromatic Orb" "Orb of Alteration"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetFontSize 41 # Big
@@ -1289,7 +1297,7 @@ Show
 Show
 	StackSize >= 3
 	Class = "Currency"
-	BaseType = "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Orb of Scouring" "Orb of Binding" "Orb of Alteration"
+	BaseType = "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Orb of Scouring" "Orb of Binding"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetBorderColor 200 186 153 255 # Currency Border
@@ -1301,7 +1309,7 @@ Show
 # Currency Tier3
 Show
 	Class = "Currency"
-	BaseType = "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Orb of Scouring" "Orb of Binding" "Orb of Alteration"
+	BaseType = "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Orb of Scouring" "Orb of Binding"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetFontSize 45 # Yuge
@@ -1674,14 +1682,28 @@ Show
 Show
 	Rarity = Unique
 	Class = "Maps"
-	BaseType = "Chateau"
+	BaseType = "Chateau" "Relic Chambers"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 175 96 37 255 # Unique Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
 	CustomAlertSound "gfT1.mp3"
 	MinimapIcon 0 Red Square
-	PlayEffect Brown 
+	PlayEffect Red 
+
+# Map Unique Tier1
+Show
+	Rarity = Unique
+	MapTier = 16
+	Class = "Maps"
+	BaseType = "Harbinger Map"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 175 96 37 255 # Unique Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT1.mp3"
+	MinimapIcon 0 Red Square
+	PlayEffect Red 
 
 # Map Unique Tier1.5
 Show
@@ -1693,8 +1715,21 @@ Show
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
 	CustomAlertSound "gfT15.mp3"
-	MinimapIcon 1 Red Square
-	PlayEffect Brown 
+	MinimapIcon 0 Red Square
+	PlayEffect Red 
+
+# Map Unique Memory Tier1.5
+Show
+	Rarity = Unique
+	Class = "Maps"
+	BaseType = "Basilica Map" "Courthouse Map" "Park Map" "Siege Map"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 175 96 37 255 # Unique Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT15.mp3"
+	MinimapIcon 0 Red Square
+	PlayEffect Red 
 
 # Map Unique
 Show

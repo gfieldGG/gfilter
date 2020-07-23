@@ -1689,7 +1689,7 @@ Show
 	SetFontSize 45 # Yuge
 	CustomAlertSound "gfT1.mp3"
 	MinimapIcon 0 Red Square
-	PlayEffect Brown 
+	PlayEffect Red 
 
 # Map Unique Tier1
 Show
@@ -1703,7 +1703,7 @@ Show
 	SetFontSize 45 # Yuge
 	CustomAlertSound "gfT1.mp3"
 	MinimapIcon 0 Red Square
-	PlayEffect Brown 
+	PlayEffect Red 
 
 # Map Unique Tier1.5
 Show
@@ -1716,7 +1716,20 @@ Show
 	SetFontSize 45 # Yuge
 	CustomAlertSound "gfT15.mp3"
 	MinimapIcon 0 Red Square
-	PlayEffect Brown 
+	PlayEffect Red 
+
+# Map Unique Memory Tier1.5
+Show
+	Rarity = Unique
+	Class = "Maps"
+	BaseType = "Basilica Map" "Courthouse Map" "Park Map" "Siege Map"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 175 96 37 255 # Unique Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT15.mp3"
+	MinimapIcon 0 Red Square
+	PlayEffect Red 
 
 # Map Unique
 Show
