@@ -1,9 +1,9 @@
-﻿#===============================================================================
+#===============================================================================
 # GFILTER
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.11.15
+# VERSION:       3.11.16
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -2546,8 +2546,8 @@ Show
 	SetBackgroundColor 0 0 254 255 # Crafting Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT0.mp3"
-	MinimapIcon 0 Red Hexagon
+	CustomAlertSound "gfT15.mp3"
+	MinimapIcon 1 Red Hexagon
 
 # Tier0 Crafting Bases
 Show
@@ -2557,7 +2557,7 @@ Show
 	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
 	SetBorderColor 0 0 254 255 # Crafting Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3"
+	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 1 Yellow Hexagon
 
 # Tier1 Crafting Bases ilvl86
@@ -2566,8 +2566,8 @@ Show
 	ItemLevel >= 86
 	BaseType = "Blue Pearl Amulet" "Bone Helmet" "Cerulean Ring" "Convoking Wand" "Crystal Belt" "Fingerless Silk Gloves" "Gripped Gloves" "Marble Amulet" "Opal Ring" "Spiked Gloves" "Steel Ring" "Stygian Vise" "Two-Toned Boots" "Vanguard Belt" "Vermillion Ring"
 	SetTextColor 255 255 255 255 # Normal Highlight Text
-	SetBackgroundColor 0 0 254 255 # Crafting Background
-	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
+	SetBorderColor 0 0 254 255 # Crafting Border
 	SetFontSize 45 # Yuge
 	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 1 Yellow Hexagon
@@ -2591,6 +2591,7 @@ Show
 	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
 	SetBorderColor 0 0 254 255 # Crafting Border
 	SetFontSize 41 # Big
+	#BlockStrictness 3 Disable
 
 #-------------------------------------------------------------------------------
 # Subsection: Other
@@ -2605,6 +2606,7 @@ Show
 	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
 	SetBorderColor 0 0 254 255 # Crafting Border
 	SetFontSize 41 # Big
+	#BlockStrictness 3 Disable
 
 # Tier1 Crafting Bases
 Show
@@ -2615,7 +2617,7 @@ Show
 	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
 	SetBorderColor 0 0 254 255 # Crafting Border
 	SetFontSize 37 # Medium
-	#BlockStrictness 3 Hide
+	#BlockStrictness 2 Disable
 
 #===============================================================================
 # Section: 6 Sockets
@@ -3301,8 +3303,8 @@ Show
 	SetBackgroundColor 255 255 119 255 # Rare Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT1.mp3"
-	MinimapIcon 0 Red Hexagon
+	CustomAlertSound "gfT15.mp3"
+	MinimapIcon 1 Red Hexagon
 	PlayEffect Yellow 
 
 # Rare Atlas T0
@@ -3311,10 +3313,10 @@ Show
 	BaseType = "Steel Ring" "Opal Ring" "Vermillion Ring"
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
-	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetBorderColor 255 255 119 255 # Rare Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3"
-	MinimapIcon 1 Red Hexagon
+	CustomAlertSound "gfT2.mp3"
+	MinimapIcon 1 Yellow Hexagon
 
 #-------------------------------------------------------------------------------
 # Subsection: High ilvl
@@ -3329,8 +3331,8 @@ Show
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	PlayAlertSound 7 300 # Tier1.5
-	MinimapIcon 1 Red Hexagon
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Hexagon
 
 # Rare T1 ilvl84 Craft
 Show
@@ -3349,6 +3351,7 @@ Show
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 	SetFontSize 45 # Yuge
+	#BlockStrictness 3 Hide
 
 # Rare T2 Craft ilvl86
 Show
@@ -3359,8 +3362,6 @@ Show
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 	SetBorderColor 255 255 119 255 # Rare Border
 	SetFontSize 45 # Yuge
-	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 1 Yellow Hexagon
 
 # Rare T3 Craft ilvl86
 Show
@@ -3437,6 +3438,7 @@ Show
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 	SetFontSize 45 # Yuge
+	#BlockStrictness 3 Hide
 
 # Rare Base Armor Small Tier1
 Show
@@ -3446,6 +3448,7 @@ Show
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 	SetFontSize 45 # Yuge
+	#BlockStrictness 3 Hide
 
 # Rare Base Weapon Big Tier1
 Show
