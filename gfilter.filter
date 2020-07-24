@@ -1,4 +1,4 @@
-﻿#===============================================================================
+#===============================================================================
 # GFILTER
 #===============================================================================
 #
@@ -4289,6 +4289,9 @@ Hide
 	ItemLevel >= 10
 	Class = "Two Hand" "Bows" "One Hand" "Wands" "Sceptres" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Shields" "Belts" "Rings" "Amulets" "Warstaves" "Daggers" "Rune Daggers"
 	SetBackgroundColor 0 0 0 0 # Hidden Background
+	SetBorderColor 0 0 0 0 # No Border
+	SetFontSize 18
+	DisableDropSound
 
 Hide
 	Rarity <= Magic
@@ -4296,6 +4299,9 @@ Hide
 	ItemLevel >= 15
 	Class = "Two Hand" "Bows" "One Hand" "Wands" "Sceptres" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Shields" "Belts" "Rings" "Amulets" "Warstaves" "Daggers" "Rune Daggers"
 	SetBackgroundColor 0 0 0 0 # Hidden Background
+	SetBorderColor 0 0 0 0 # No Border
+	SetFontSize 18
+	DisableDropSound
 
 Hide
 	Rarity <= Magic
@@ -4303,6 +4309,9 @@ Hide
 	ItemLevel >= 20
 	Class = "Two Hand" "Bows" "One Hand" "Wands" "Sceptres" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Shields" "Belts" "Rings" "Amulets" "Warstaves" "Daggers" "Rune Daggers"
 	SetBackgroundColor 0 0 0 0 # Hidden Background
+	SetBorderColor 0 0 0 0 # No Border
+	SetFontSize 18
+	DisableDropSound
 
 Hide
 	Rarity <= Magic
@@ -4310,6 +4319,9 @@ Hide
 	ItemLevel >= 25
 	Class = "Two Hand" "Bows" "One Hand" "Wands" "Sceptres" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Shields" "Belts" "Rings" "Amulets" "Warstaves" "Daggers" "Rune Daggers"
 	SetBackgroundColor 0 0 0 0 # Hidden Background
+	SetBorderColor 0 0 0 0 # No Border
+	SetFontSize 18
+	DisableDropSound
 
 Hide
 	Rarity <= Magic
@@ -4317,6 +4329,9 @@ Hide
 	ItemLevel >= 30
 	Class = "Two Hand" "Bows" "One Hand" "Wands" "Sceptres" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Shields" "Belts" "Rings" "Amulets" "Warstaves" "Daggers" "Rune Daggers"
 	SetBackgroundColor 0 0 0 0 # Hidden Background
+	SetBorderColor 0 0 0 0 # No Border
+	SetFontSize 18
+	DisableDropSound
 
 Hide
 	Rarity <= Magic
@@ -4324,6 +4339,9 @@ Hide
 	ItemLevel >= 35
 	Class = "Two Hand" "Bows" "One Hand" "Wands" "Sceptres" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Shields" "Belts" "Rings" "Amulets" "Warstaves" "Daggers" "Rune Daggers"
 	SetBackgroundColor 0 0 0 0 # Hidden Background
+	SetBorderColor 0 0 0 0 # No Border
+	SetFontSize 18
+	DisableDropSound
 
 Hide
 	Rarity <= Magic
@@ -4331,6 +4349,9 @@ Hide
 	ItemLevel >= 40
 	Class = "Two Hand" "Bows" "One Hand" "Wands" "Sceptres" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Shields" "Belts" "Rings" "Amulets" "Warstaves" "Daggers" "Rune Daggers"
 	SetBackgroundColor 0 0 0 0 # Hidden Background
+	SetBorderColor 0 0 0 0 # No Border
+	SetFontSize 18
+	DisableDropSound
 
 Hide
 	Rarity <= Magic
@@ -4338,6 +4359,9 @@ Hide
 	ItemLevel >= 45
 	Class = "Two Hand" "Bows" "One Hand" "Wands" "Sceptres" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Shields" "Belts" "Rings" "Amulets" "Warstaves" "Daggers" "Rune Daggers"
 	SetBackgroundColor 0 0 0 0 # Hidden Background
+	SetBorderColor 0 0 0 0 # No Border
+	SetFontSize 18
+	DisableDropSound
 
 Hide
 	Rarity <= Magic
@@ -4345,6 +4369,9 @@ Hide
 	ItemLevel >= 50
 	Class = "Two Hand" "Bows" "One Hand" "Wands" "Sceptres" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Shields" "Belts" "Rings" "Amulets" "Warstaves" "Daggers" "Rune Daggers"
 	SetBackgroundColor 0 0 0 0 # Hidden Background
+	SetBorderColor 0 0 0 0 # No Border
+	SetFontSize 18
+	DisableDropSound
 
 Hide
 	Rarity <= Magic
@@ -4352,6 +4379,9 @@ Hide
 	ItemLevel >= 55
 	Class = "Two Hand" "Bows" "One Hand" "Wands" "Sceptres" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Shields" "Belts" "Rings" "Amulets" "Warstaves" "Daggers" "Rune Daggers"
 	SetBackgroundColor 0 0 0 0 # Hidden Background
+	SetBorderColor 0 0 0 0 # No Border
+	SetFontSize 18
+	DisableDropSound
 
 Hide
 	Rarity <= Magic
@@ -4359,6 +4389,9 @@ Hide
 	ItemLevel >= 60
 	Class = "Two Hand" "Bows" "One Hand" "Wands" "Sceptres" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Shields" "Belts" "Rings" "Amulets" "Warstaves" "Daggers" "Rune Daggers"
 	SetBackgroundColor 0 0 0 0 # Hidden Background
+	SetBorderColor 0 0 0 0 # No Border
+	SetFontSize 18
+	DisableDropSound
 
 Hide
 	Rarity <= Magic
@@ -4366,12 +4399,18 @@ Hide
 	ItemLevel >= 65
 	Class = "Two Hand" "Bows" "One Hand" "Wands" "Sceptres" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Shields" "Belts" "Rings" "Amulets" "Warstaves" "Daggers" "Rune Daggers"
 	SetBackgroundColor 0 0 0 0 # Hidden Background
+	SetBorderColor 0 0 0 0 # No Border
+	SetFontSize 18
+	DisableDropSound
 
 Hide
 	Rarity <= Magic
 	ItemLevel >= 67
 	Class = "Two Hand" "Bows" "One Hand" "Wands" "Sceptres" "Staves" "Claws" "Body Armours" "Gloves" "Boots" "Helmets" "Quivers" "Shields" "Belts" "Rings" "Amulets" "Warstaves" "Daggers" "Rune Daggers"
 	SetBackgroundColor 0 0 0 0 # Hidden Background
+	SetBorderColor 0 0 0 0 # No Border
+	SetFontSize 18
+	DisableDropSound
 
 #-------------------------------------------------------------------------------
 # Subsection: Specific Weapon Upgrade Toggles
