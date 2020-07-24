@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.11.17
+# VERSION:       3.11.18
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -784,26 +784,6 @@ Show
 # Section: Harbinger
 #===============================================================================
 
-# Harbinger Currency Trash
-Show
-	Class = "Currency"
-	BaseType = "Binding Shard" "Horizon Shard" "Engineer's Shard" "Chaos Shard" "Regal Shard"
-	SetTextColor 88 124 244 255 # Harbinger Text
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	SetFontSize 37 # Medium
-	#BlockStrictness 2 Hide
-
-# Harbinger Currency T3
-Show
-	Class = "Currency"
-	BaseType = "Annulment Shard" "Harbinger's Shard" "Ancient Shard"
-	SetTextColor 88 124 244 255 # Harbinger Text
-	SetBackgroundColor 15 21 42 255 # Harbinger Highlight Background
-	SetFontSize 41 # Big
-	CustomAlertSound "gfT3.mp3"
-	MinimapIcon 2 White Circle
-	#BlockStrictness 3 Hide
-
 # Piece
 Show
 	Class = "Piece"
@@ -1215,7 +1195,7 @@ Show
 #===============================================================================
 
 #-------------------------------------------------------------------------------
-# Subsection: Regular
+# Subsection: Shards
 #-------------------------------------------------------------------------------
 
 # Currency Trash
@@ -1223,9 +1203,32 @@ Show
 	Class = "Currency"
 	BaseType = "Alteration Shard" "Transmutation Shard" "Alchemy Shard" "Scroll Fragment"
 	SetTextColor 200 186 153 255 # Currency Text
-	SetBackgroundColor 0 0 0 210 # Junk Background
+	SetBackgroundColor 0 0 0 0 # Hidden Background
 	SetFontSize 37 # Medium
 	#BlockStrictness 1 Hide
+
+# Harbinger Currency Trash
+Show
+	Class = "Currency"
+	BaseType = "Binding Shard" "Horizon Shard" "Engineer's Shard" "Chaos Shard" "Regal Shard"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 0 0 0 210 # Junk Background
+	SetFontSize 37 # Medium
+	#BlockStrictness 2 Hide
+
+# Harbinger Currency T3
+Show
+	Class = "Currency"
+	BaseType = "Annulment Shard" "Harbinger's Shard" "Ancient Shard"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT3.mp3"
+	MinimapIcon 2 White Circle
+
+#-------------------------------------------------------------------------------
+# Subsection: Regular
+#-------------------------------------------------------------------------------
 
 # Currency Tier5 Stack
 Show
