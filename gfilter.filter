@@ -781,21 +781,6 @@ Show
 	#BlockStrictness 3 Hide
 
 #===============================================================================
-# Section: Harbinger
-#===============================================================================
-
-# Piece
-Show
-	Class = "Piece"
-	SetTextColor 175 96 37 255 # Unique Text
-	SetBackgroundColor 15 21 42 255 # Harbinger Highlight Background
-	SetBorderColor 88 124 244 255 # Harbinger Border
-	SetFontSize 45 # Yuge
-	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 0 Red Hexagon
-	PlayEffect Blue 
-
-#===============================================================================
 # Section: Breach
 #===============================================================================
 
@@ -2699,6 +2684,17 @@ Show # Ugrouped Customizable Items | Disable
 #===============================================================================
 # Section: Uniques
 #===============================================================================
+
+# Harbinger Piece
+Show
+	Class = "Piece"
+	SetTextColor 175 96 37 255 # Unique Text
+	SetBackgroundColor 15 21 42 255 # Harbinger Highlight Background
+	SetBorderColor 88 124 244 255 # Harbinger Border
+	SetFontSize 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Hexagon
+	PlayEffect Blue 
 
 # Unique Tier0
 Show
