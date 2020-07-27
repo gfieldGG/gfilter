@@ -1,9 +1,9 @@
-#===============================================================================
+﻿#===============================================================================
 # GFILTER
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.11.19
+# VERSION:       3.11.20
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -1735,7 +1735,7 @@ Show
 #Show
 #	MapTier <= 10
 #	Class = "Maps"
-#	BaseType = "Overgrown Ruin" "Museum" "Arena" "Maze" "Plaza" "Cage" "Vaal Pyramid" "Dungeon" "Cells" "Lava Chamber" "Chateau" "Necropolis" "Grotto" "Shrine" "Overgrown Shrine"
+#	BaseType = "Overgrown Ruin" "Museum" "Arena" "Maze" "Plaza" "Cage" "Vaal Pyramid" "Dungeon" "Cells" "Lava Chamber" "Chateau" "Necropolis" "Grotto" "Shrine" "Overgrown Shrine" "Palace"
 #	SetTextColor 0 0 0 255 # Map Text
 #	SetBackgroundColor 200 200 200 255 # Map White Background
 #	SetBorderColor 0 0 0 255 # Map Border
@@ -2795,6 +2795,16 @@ Show
 # Section: 6 Sockets
 #===============================================================================
 
+# 6 Socket low
+#Show
+#	Sockets = "6"
+#	Rarity <= Rare
+#	SetTextColor 255 255 255 255 # Normal Highlight Text
+#	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
+#	SetBorderColor 200 186 153 255 # Currency Border
+#	SetFontSize 45 # Yuge
+#	#BlockStrictness 3 Disable
+
 # 6 Socket
 Show
 	Sockets = "6"
@@ -2806,6 +2816,7 @@ Show
 	CustomAlertSound "gfT3.mp3"
 	MinimapIcon 1 White Circle
 	PlayEffect Yellow Temp
+	#BlockStrictness 3 Disable
 
 #===============================================================================
 # Section: 5 Links
