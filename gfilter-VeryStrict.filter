@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.11.20
+# VERSION:       3.11.21
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -2143,6 +2143,192 @@ Show
 	PlayEffect Yellow 
 
 #===============================================================================
+# Section: Uniques
+#===============================================================================
+
+# Harbinger Piece
+Show
+	Class = "Piece"
+	SetTextColor 175 96 37 255 # Unique Text
+	SetBackgroundColor 15 21 42 255 # Harbinger Highlight Background
+	SetBorderColor 88 124 244 255 # Harbinger Border
+	SetFontSize 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Hexagon
+	PlayEffect Blue 
+
+# Unique Tier0
+Show
+	Rarity = Unique
+	BaseType = "Charan's Sword"
+	SetTextColor 175 96 37 255 # Unique Text
+	SetBackgroundColor 255 255 255 255 # Tier0 Background
+	SetBorderColor 175 96 37 255 # Unique Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT0.mp3"
+	MinimapIcon 0 Red Hexagon
+	PlayEffect Brown 
+
+# Unique Tier1
+Show
+	Rarity = Unique
+	BaseType = "Ambush Mitts" "Arcanist Gloves" "Assassin's Boots" "Blood Raiment" "Carnal Boots" "Crusader Boots" "Ezomyte Tower Shield" "Gladiator Plate" "Greatwolf Talisman" "Jewelled Foil" "Karui Maul" "Large Cluster Jewel" "Nightmare Mace" "Occultist's Vestment" "Ornate Quiver" "Prismatic Jewel" "Prophecy Wand" "Rawhide Boots" "Riveted Gloves" "Royal Axe" "Ruby Flask" "Siege Axe" "Silk Gloves" "Steel Ring" "Timeless Jewel" "Vaal Rapier" "Wyrmscale Doublet" "Zodiac Leather"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 175 96 37 255 # Unique Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT1.mp3"
+	MinimapIcon 1 Red Hexagon
+	PlayEffect Brown 
+
+# Abyss Unique 2socket
+Show
+	Sockets >= "AA"
+	Rarity = Unique
+	Class = "Boots" "Gloves" "Helmets"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 175 96 37 255 # Unique Background
+	SetBorderColor 169 189 149 255 # Abyss Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT15.mp3"
+	MinimapIcon 1 Red Hexagon
+	PlayEffect Brown 
+
+# Double-Corrupted Unique
+Show
+	Corrupted = True
+	CorruptedMods >= 2
+	Rarity = Unique
+	SetTextColor 175 96 37 255 # Unique Text
+	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
+	SetBorderColor 161 27 123 255 # Vaal Border
+	SetFontSize 45 # Yuge
+	PlayAlertSound 7 300 # Tier1.5
+	MinimapIcon 1 Red Hexagon
+	PlayEffect Brown 
+
+# Tabula Rasa
+Show
+	SocketGroup >= "WWWWWW"
+	BaseType = "Simple Robe"
+	SetTextColor 175 96 37 255 # Unique Text
+	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
+	SetBorderColor 175 96 37 255 # Unique Border
+	SetFontSize 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Hexagon
+	PlayEffect Brown 
+
+# 6 Link Unique
+Show
+	LinkedSockets = 6
+	Rarity = Unique
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 175 96 37 255 # Unique Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45 # Yuge
+	PlayAlertSound 7 300 # Tier1.5
+	MinimapIcon 1 Red Hexagon
+	PlayEffect Brown 
+
+# Unique Tier2
+Show
+	Rarity = Unique
+	BaseType = "Archon Kite Shield Piece" "Bismuth Flask" "Champion Kite Shield" "Deerskin Gloves" "Ezomyte Dagger" "Granite Flask" "Hydrascale Gauntlets" "Imperial Maul" "Ivory Watchstone" "Jingling Spirit Shield" "Nubuck Boots" "Sanctified Life Flask" "Sapphire Flask" "Slink Boots" "Steel Circlet" "Steelwood Bow" "Varnished Coat" "Void Axe" "Wereclaw Talisman"
+	SetTextColor 175 96 37 255 # Unique Text
+	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
+	SetBorderColor 175 96 37 255 # Unique Border
+	SetFontSize 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Hexagon
+	PlayEffect Brown 
+
+# Unique Tier?
+Show
+	Rarity = Unique
+	BaseType = "Archon Kite Shield" "Assassin Bow" "Carved Wand" "Clasped Mitts" "Coral Amulet" "Ezomyte Burgonet" "Gavel" "Glorious Plate" "Gold Amulet" "Gold Ring" "Heavy Belt" "Iron Ring" "Jade Amulet" "Lacquered Garb" "Leather Belt" "Legion Gloves" "Long Staff" "Magistrate Crown" "Medium Cluster Jewel" "Murder Mitts" "Nightmare Bascinet" "Onyx Amulet" "Paua Amulet" "Sadist Garb" "Saint's Hauberk" "Silver Flask" "Sinner Tricorne" "Small Cluster Jewel" "Sorcerer Boots" "Stealth Boots" "Studded Belt" "Sulphur Flask" "Triumphant Lamellar" "Turquoise Amulet" "Two-Stone Ring" "Unset Ring"
+	SetTextColor 175 96 37 255 # Unique Text
+	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
+	SetBorderColor 175 96 37 255 # Unique Border
+	SetFontSize 45 # Yuge
+	PlayAlertSound 6 150 # Tier3
+	MinimapIcon 1 White Hexagon
+	PlayEffect Brown 
+
+# Unique Early Prediction
+#Show
+#	Rarity = Unique
+#	BaseType = "Judgement Staff" "Citrine Amulet" "Blue Pearl Amulet" "Cutlass" "Opal Ring" "Carnal Mitts" "Lacquered Garb" "Penetrating Arrow Quiver" "Exquisite Leather" "Diamond Flask" "Full Wyrmscale" "Midnight Blade" "Nightmare Bascinet" "Vaal Regalia" "Titan Greaves" "Imperial Bow" "Imperial Staff" "Hellion's Paw" "Karui Chopper" "Ezomyte Staff" "Steelwood Bow" "Citadel Bow" "Abyssal Axe" "Imperial Claw" "Ritual Sceptre" "Carnal Sceptre" "Tornado Wand" "Blood Sceptre" "Slaughter Knife" "Short Bow" "Spine Bow" "Throat Stabber" "Bronzescale Boots" "Serpentscale Gauntlets" "Gladiator Plate" "Leather Cap" "Destiny Leather" "Coronal Leather" "Thorium Spirit Shield" "Sinner Tricorne" "Assassin's Garb" "Deicide Mask" "Spike-Point Arrow Quiver" "Raven Mask" "Laminated Kite Shield" "Necromancer Silks" "Conjurer Gloves" "Sorcerer Gloves" "Sentinel Jacket"
+#	SetTextColor 175 96 37 255 # Unique Text
+#	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
+#	SetBorderColor 175 96 37 255 # Unique Border
+#	SetFontSize 45 # Yuge
+#	PlayAlertSound 6 150 # Tier3
+#	MinimapIcon 1 White Hexagon
+#	PlayEffect Brown 
+
+# Unique Fated
+#Show
+#	Rarity = Unique
+#	BaseType = "Brass Maul" "Clasped Boots" "Cleaver" "Coral Ring" "Crude Bow" "Crusader Plate" "Crystal Wand" "Death Bow" "Fire Arrow Quiver" "Gavel" "Gilded Sallet" "Gnarled Branch" "Goathide Gloves" "Gold Amulet" "Golden Buckler" "Great Crown" "Great Mallet" "Iron Circlet" "Iron Hat" "Iron Mask" "Iron Staff" "Ironscale Boots" "Jade Hatchet" "Jagged Maul" "Latticed Ringmail" "Leather Hood" "Long Bow" "Moonstone Ring" "Ornate Sword" "Painted Buckler" "Plank Kite Shield" "Plate Vest" "Reaver Sword" "Reinforced Greaves" "Royal Bow" "Royal Staff" "Rusted Sword" "Scholar Boots" "Serrated Arrow Quiver" "Sharktooth Arrow Quiver" "Skinning Knife" "Sledgehammer" "Spiraled Wand" "Strapped Leather" "Tarnished Spirit Shield" "Velvet Gloves" "Velvet Slippers" "Vine Circlet" "War Buckler" "Wild Leather" "Woodsplitter"
+#	SetTextColor 175 96 37 255 # Unique Text
+#	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
+#	SetFontSize 41 # Big
+#	MinimapIcon 2 White Hexagon
+
+# 6 Socket Unique
+Show
+	Sockets = "6"
+	Rarity = Unique
+	SetTextColor 175 96 37 255 # Unique Text
+	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
+	SetFontSize 45 # Yuge
+	PlayAlertSound 6 150 # Tier3
+	MinimapIcon 1 Yellow Circle
+	PlayEffect Brown Temp
+
+# Unique Ring (Loreweave)
+Show
+	Rarity = Unique
+	Class = "Rings"
+	SetTextColor 175 96 37 255 # Unique Text
+	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
+	SetFontSize 45 # Yuge
+	PlayAlertSound 6 150 # Tier3
+	MinimapIcon 2 White Hexagon
+
+# Unique Cluster Jewel
+Show
+	Rarity = Unique
+	Class = "Jewel"
+	BaseType = "Cluster Jewel"
+	SetTextColor 175 96 37 255 # Unique Text
+	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
+	SetFontSize 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Hexagon
+	PlayEffect Brown 
+
+# Unique Jewel
+Show
+	Rarity = Unique
+	Class = "Jewel"
+	SetTextColor 175 96 37 255 # Unique Text
+	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
+	SetFontSize 45 # Yuge
+	PlayAlertSound 6 150 # Tier3
+	MinimapIcon 2 White Hexagon
+	PlayEffect Brown Temp
+
+# Unique
+Show
+	Rarity = Unique
+	SetTextColor 175 96 37 255 # Unique Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetFontSize 41 # Big
+	MinimapIcon 2 White Hexagon
+
+#===============================================================================
 # Section: Influenced Items
 #===============================================================================
 
@@ -2609,6 +2795,7 @@ Show
 # Conqueror Catchall
 Hide
 	HasInfluence = "Crusader" "Hunter" "Redeemer" "Warlord"
+	Rarity <= Rare
 	SetTextColor 205 101 110 255 # Conqueror Text
 	SetBackgroundColor 86 6 11 255 # Conqueror Highlight Background
 	SetFontSize 37 # Medium
@@ -2618,6 +2805,7 @@ Hide
 # Shaper Catchall
 Hide
 	HasInfluence = "Shaper"
+	Rarity <= Rare
 	SetTextColor 43 150 211 255 # Shaper Text
 	SetBackgroundColor 0 38 66 255 # Shaper Highlight Background
 	SetFontSize 37 # Medium
@@ -2627,6 +2815,7 @@ Hide
 # Elder Catchall
 Hide
 	HasInfluence = "Elder"
+	Rarity <= Rare
 	SetTextColor 145 120 131 255 # Elder Text
 	SetBackgroundColor 33 23 33 255 # Elder Highlight Background
 	SetFontSize 37 # Medium
@@ -2807,192 +2996,6 @@ Show
 #	SetBorderColor 0 0 254 255 # Crafting Border
 #	SetFontSize 41 # Big
 #	#BlockStrictness 1 Disable
-
-#===============================================================================
-# Section: Uniques
-#===============================================================================
-
-# Harbinger Piece
-Show
-	Class = "Piece"
-	SetTextColor 175 96 37 255 # Unique Text
-	SetBackgroundColor 15 21 42 255 # Harbinger Highlight Background
-	SetBorderColor 88 124 244 255 # Harbinger Border
-	SetFontSize 45 # Yuge
-	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 1 Yellow Hexagon
-	PlayEffect Blue 
-
-# Unique Tier0
-Show
-	Rarity = Unique
-	BaseType = "Charan's Sword"
-	SetTextColor 175 96 37 255 # Unique Text
-	SetBackgroundColor 255 255 255 255 # Tier0 Background
-	SetBorderColor 175 96 37 255 # Unique Border
-	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT0.mp3"
-	MinimapIcon 0 Red Hexagon
-	PlayEffect Brown 
-
-# Unique Tier1
-Show
-	Rarity = Unique
-	BaseType = "Ambush Mitts" "Arcanist Gloves" "Assassin's Boots" "Blood Raiment" "Carnal Boots" "Crusader Boots" "Ezomyte Tower Shield" "Gladiator Plate" "Greatwolf Talisman" "Jewelled Foil" "Karui Maul" "Large Cluster Jewel" "Nightmare Mace" "Occultist's Vestment" "Ornate Quiver" "Prismatic Jewel" "Prophecy Wand" "Rawhide Boots" "Riveted Gloves" "Royal Axe" "Ruby Flask" "Siege Axe" "Silk Gloves" "Steel Ring" "Timeless Jewel" "Vaal Rapier" "Wyrmscale Doublet" "Zodiac Leather"
-	SetTextColor 0 0 0 255 # Tier1 Text
-	SetBackgroundColor 175 96 37 255 # Unique Background
-	SetBorderColor 255 255 255 255 # Tier1 Border
-	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT1.mp3"
-	MinimapIcon 1 Red Hexagon
-	PlayEffect Brown 
-
-# Abyss Unique 2socket
-Show
-	Sockets >= "AA"
-	Rarity = Unique
-	Class = "Boots" "Gloves" "Helmets"
-	SetTextColor 0 0 0 255 # Tier1 Text
-	SetBackgroundColor 175 96 37 255 # Unique Background
-	SetBorderColor 169 189 149 255 # Abyss Border
-	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3"
-	MinimapIcon 1 Red Hexagon
-	PlayEffect Brown 
-
-# Double-Corrupted Unique
-Show
-	Corrupted = True
-	CorruptedMods >= 2
-	Rarity = Unique
-	SetTextColor 175 96 37 255 # Unique Text
-	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
-	SetBorderColor 161 27 123 255 # Vaal Border
-	SetFontSize 45 # Yuge
-	PlayAlertSound 7 300 # Tier1.5
-	MinimapIcon 1 Red Hexagon
-	PlayEffect Brown 
-
-# Tabula Rasa
-Show
-	SocketGroup >= "WWWWWW"
-	BaseType = "Simple Robe"
-	SetTextColor 175 96 37 255 # Unique Text
-	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
-	SetBorderColor 175 96 37 255 # Unique Border
-	SetFontSize 45 # Yuge
-	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 1 Yellow Hexagon
-	PlayEffect Brown 
-
-# 6 Link Unique
-Show
-	LinkedSockets = 6
-	Rarity = Unique
-	SetTextColor 0 0 0 255 # Tier1 Text
-	SetBackgroundColor 175 96 37 255 # Unique Background
-	SetBorderColor 255 255 255 255 # Tier1 Border
-	SetFontSize 45 # Yuge
-	PlayAlertSound 7 300 # Tier1.5
-	MinimapIcon 1 Red Hexagon
-	PlayEffect Brown 
-
-# Unique Tier2
-Show
-	Rarity = Unique
-	BaseType = "Archon Kite Shield Piece" "Bismuth Flask" "Champion Kite Shield" "Deerskin Gloves" "Ezomyte Dagger" "Granite Flask" "Hydrascale Gauntlets" "Imperial Maul" "Ivory Watchstone" "Jingling Spirit Shield" "Nubuck Boots" "Sanctified Life Flask" "Sapphire Flask" "Slink Boots" "Steel Circlet" "Steelwood Bow" "Varnished Coat" "Void Axe" "Wereclaw Talisman"
-	SetTextColor 175 96 37 255 # Unique Text
-	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
-	SetBorderColor 175 96 37 255 # Unique Border
-	SetFontSize 45 # Yuge
-	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 1 Yellow Hexagon
-	PlayEffect Brown 
-
-# Unique Tier?
-Show
-	Rarity = Unique
-	BaseType = "Archon Kite Shield" "Assassin Bow" "Carved Wand" "Clasped Mitts" "Coral Amulet" "Ezomyte Burgonet" "Gavel" "Glorious Plate" "Gold Amulet" "Gold Ring" "Heavy Belt" "Iron Ring" "Jade Amulet" "Lacquered Garb" "Leather Belt" "Legion Gloves" "Long Staff" "Magistrate Crown" "Medium Cluster Jewel" "Murder Mitts" "Nightmare Bascinet" "Onyx Amulet" "Paua Amulet" "Sadist Garb" "Saint's Hauberk" "Silver Flask" "Sinner Tricorne" "Small Cluster Jewel" "Sorcerer Boots" "Stealth Boots" "Studded Belt" "Sulphur Flask" "Triumphant Lamellar" "Turquoise Amulet" "Two-Stone Ring" "Unset Ring"
-	SetTextColor 175 96 37 255 # Unique Text
-	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
-	SetBorderColor 175 96 37 255 # Unique Border
-	SetFontSize 45 # Yuge
-	PlayAlertSound 6 150 # Tier3
-	MinimapIcon 1 White Hexagon
-	PlayEffect Brown 
-
-# Unique Early Prediction
-#Show
-#	Rarity = Unique
-#	BaseType = "Judgement Staff" "Citrine Amulet" "Blue Pearl Amulet" "Cutlass" "Opal Ring" "Carnal Mitts" "Lacquered Garb" "Penetrating Arrow Quiver" "Exquisite Leather" "Diamond Flask" "Full Wyrmscale" "Midnight Blade" "Nightmare Bascinet" "Vaal Regalia" "Titan Greaves" "Imperial Bow" "Imperial Staff" "Hellion's Paw" "Karui Chopper" "Ezomyte Staff" "Steelwood Bow" "Citadel Bow" "Abyssal Axe" "Imperial Claw" "Ritual Sceptre" "Carnal Sceptre" "Tornado Wand" "Blood Sceptre" "Slaughter Knife" "Short Bow" "Spine Bow" "Throat Stabber" "Bronzescale Boots" "Serpentscale Gauntlets" "Gladiator Plate" "Leather Cap" "Destiny Leather" "Coronal Leather" "Thorium Spirit Shield" "Sinner Tricorne" "Assassin's Garb" "Deicide Mask" "Spike-Point Arrow Quiver" "Raven Mask" "Laminated Kite Shield" "Necromancer Silks" "Conjurer Gloves" "Sorcerer Gloves" "Sentinel Jacket"
-#	SetTextColor 175 96 37 255 # Unique Text
-#	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
-#	SetBorderColor 175 96 37 255 # Unique Border
-#	SetFontSize 45 # Yuge
-#	PlayAlertSound 6 150 # Tier3
-#	MinimapIcon 1 White Hexagon
-#	PlayEffect Brown 
-
-# Unique Fated
-#Show
-#	Rarity = Unique
-#	BaseType = "Brass Maul" "Clasped Boots" "Cleaver" "Coral Ring" "Crude Bow" "Crusader Plate" "Crystal Wand" "Death Bow" "Fire Arrow Quiver" "Gavel" "Gilded Sallet" "Gnarled Branch" "Goathide Gloves" "Gold Amulet" "Golden Buckler" "Great Crown" "Great Mallet" "Iron Circlet" "Iron Hat" "Iron Mask" "Iron Staff" "Ironscale Boots" "Jade Hatchet" "Jagged Maul" "Latticed Ringmail" "Leather Hood" "Long Bow" "Moonstone Ring" "Ornate Sword" "Painted Buckler" "Plank Kite Shield" "Plate Vest" "Reaver Sword" "Reinforced Greaves" "Royal Bow" "Royal Staff" "Rusted Sword" "Scholar Boots" "Serrated Arrow Quiver" "Sharktooth Arrow Quiver" "Skinning Knife" "Sledgehammer" "Spiraled Wand" "Strapped Leather" "Tarnished Spirit Shield" "Velvet Gloves" "Velvet Slippers" "Vine Circlet" "War Buckler" "Wild Leather" "Woodsplitter"
-#	SetTextColor 175 96 37 255 # Unique Text
-#	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
-#	SetFontSize 41 # Big
-#	MinimapIcon 2 White Hexagon
-
-# 6 Socket Unique
-Show
-	Sockets = "6"
-	Rarity = Unique
-	SetTextColor 175 96 37 255 # Unique Text
-	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
-	SetFontSize 45 # Yuge
-	PlayAlertSound 6 150 # Tier3
-	MinimapIcon 1 Yellow Circle
-	PlayEffect Brown Temp
-
-# Unique Ring (Loreweave)
-Show
-	Rarity = Unique
-	Class = "Rings"
-	SetTextColor 175 96 37 255 # Unique Text
-	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
-	SetFontSize 45 # Yuge
-	PlayAlertSound 6 150 # Tier3
-	MinimapIcon 2 White Hexagon
-
-# Unique Cluster Jewel
-Show
-	Rarity = Unique
-	Class = "Jewel"
-	BaseType = "Cluster Jewel"
-	SetTextColor 175 96 37 255 # Unique Text
-	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
-	SetFontSize 45 # Yuge
-	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 1 Yellow Hexagon
-	PlayEffect Brown 
-
-# Unique Jewel
-Show
-	Rarity = Unique
-	Class = "Jewel"
-	SetTextColor 175 96 37 255 # Unique Text
-	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
-	SetFontSize 45 # Yuge
-	PlayAlertSound 6 150 # Tier3
-	MinimapIcon 2 White Hexagon
-	PlayEffect Brown Temp
-
-# Unique
-Show
-	Rarity = Unique
-	SetTextColor 175 96 37 255 # Unique Text
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 41 # Big
-	MinimapIcon 2 White Hexagon
 
 #===============================================================================
 # Section: Jewels
