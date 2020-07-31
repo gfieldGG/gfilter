@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.11.21
+# VERSION:       3.11.22
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -39,10 +39,11 @@ Show
 # Section: League Stuff
 #===============================================================================
 
-# Enchants
+# Enchanted Helmet
 Show
 	AnyEnchantment = True
 	Rarity <= Rare
+	Class = "Helmets"
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 124 178 156 255 # Ascendancy Border
 	SetFontSize 45 # Yuge
@@ -68,10 +69,11 @@ Show
 #	#BlockStrictness 2 Hide
 
 # Incursion Item
-Show
-	Identified = True
-	HasExplicitMod = "Tacati" "Citaqualotl" "Matatl" "Topotante" "Xopec" "Guatelitzi" "Puhuarte"
-	SetFontSize 41 # Big
+#Show
+#	Identified = True
+#	HasExplicitMod = "Tacati" "Citaqualotl" "Matatl" "Topotante" "Xopec" "Guatelitzi" "Puhuarte"
+#	SetFontSize 41 # Big
+#	#BlockStrictness 3 Disable
 
 # Betrayal Veiled
 Show
@@ -92,7 +94,7 @@ Show
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetBorderColor 67 162 230 255 # Harvest Border
-	SetFontSize 41 # Big
+	SetFontSize 45 # Yuge
 	PlayAlertSound 6 150 # Tier3
 	MinimapIcon 1 White Circle
 
@@ -103,31 +105,72 @@ Show
 	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
 	SetBorderColor 67 162 230 255 # Harvest Border
 	SetFontSize 45 # Yuge
-	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 1 Yellow Diamond
+	CustomAlertSound "gfT15.mp3"
+	MinimapIcon 0 Red Diamond
 
-# Harvest Offering
+# Harvest Offering T1
 Show
 	Class = "Map Fragments"
-	BaseType = "Tribute to the Goddess" "Gift to the Goddess" "Dedication to the Goddess"
+	BaseType = "Gift to the Goddess"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 74 230 58 255 # Quest Background
 	SetBorderColor 67 162 230 255 # Harvest Border
 	SetFontSize 45 # Yuge
-	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 1 Yellow Diamond
-	PlayEffect Green 
+	CustomAlertSound "gfT15.mp3"
+	MinimapIcon 0 Red Diamond
+	PlayEffect Red 
 
-# Seed Enhancer
+# Harvest Offering
+Show
+	Class = "Map Fragments"
+	BaseType = "Tribute to the Goddess" "Dedication to the Goddess"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 74 230 58 255 # Quest Background
+	SetBorderColor 67 162 230 255 # Harvest Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT2.mp3"
+	MinimapIcon 1 Yellow Diamond
+	PlayEffect Green Temp
+
+#-------------------------------------------------------------------------------
+# Subsection: Flowers
+#-------------------------------------------------------------------------------
+
+# Seed Enhancer T1
 Show
 	Class = "Seed Enhancer"
+	BaseType = "Horticrafting Blossom" "Fortune Blossom"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 67 162 255 255 # Harvest Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT1.mp3"
+	MinimapIcon 0 Red Raindrop
+	PlayEffect Red 
+
+# Seed Enhancer T1.5
+Show
+	Class = "Seed Enhancer"
+	BaseType = "Horticrafting Flower" "Fortune Flower" "Lifeforce Blossom" "Fortune Bud" "Lifeforce Flower"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 67 162 255 255 # Harvest Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT15.mp3"
+	MinimapIcon 1 Red Raindrop
+	PlayEffect Blue 
+
+# Seed Enhancer T2
+Show
+	Class = "Seed Enhancer"
+	BaseType = "Lifeforce Bud" "Horticrafting Bud"
 	SetTextColor 67 162 230 255 # Harvest Text
-	SetBackgroundColor 25 35 50 255
+	SetBackgroundColor 25 35 50 255 # Harvest Highlight Background
 	SetBorderColor 67 162 230 255 # Harvest Border
 	SetFontSize 45 # Yuge
 	CustomAlertSound "gfT2.mp3"
 	MinimapIcon 1 Yellow Raindrop
-	PlayEffect Blue 
+	PlayEffect Blue Temp
 
 #-------------------------------------------------------------------------------
 # Subsection: Seeds
@@ -273,7 +316,7 @@ Show
 	SetFontSize 45 # Yuge
 	PlayAlertSound 4 150 # Map
 	MinimapIcon 0 Red Square
-	PlayEffect White 
+	PlayEffect Red 
 
 #===============================================================================
 # Section: Metamorph
@@ -305,13 +348,24 @@ Show
 # Catalyst
 Show
 	Class = "Stackable Currency"
+	BaseType = "Fertile Catalyst" "Intrinsic Catalyst" "Prismatic Catalyst" "Tempering Catalyst"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 15 27 15 255 # Metamorph Highlight Background
+	SetBorderColor 125 180 50 255 # Metamorph Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT2.mp3"
+	MinimapIcon 1 Yellow Circle
+
+# Catalyst Junk
+Show
+	Class = "Stackable Currency"
 	BaseType = "Abrasive Catalyst" "Fertile Catalyst" "Imbued Catalyst" "Intrinsic Catalyst" "Intrinsic Catalyst" "Prismatic Catalyst" "Tempering Catalyst" "Turbulent Catalyst"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 15 27 15 255 # Metamorph Highlight Background
 	SetBorderColor 125 180 50 255 # Metamorph Border
 	SetFontSize 41 # Big
-	CustomAlertSound "gfT2.mp3"
-	MinimapIcon 1 Yellow Circle
+	CustomAlertSound "gfT3.mp3"
+	MinimapIcon 2 White Circle
 
 #===============================================================================
 # Section: Blight
@@ -393,16 +447,26 @@ Show
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 88 52 126 255 # Legion Border
 	SetFontSize 45 # Yuge
-	PlayAlertSound 7 300 # Tier1.5
+	CustomAlertSound "gfT15.mp3"
 	MinimapIcon 0 Red Diamond
 	PlayEffect Red 
 
+# Legion Splinter nice
 Show
+	BaseType = "Timeless Maraketh Splinter" "Timeless Templar Splinter"
+	SetTextColor 88 52 126 255 # Legion Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBorderColor 0 0 0 255 # Map Border
+	SetFontSize 41 # Big
+
+# Legion Splinter
+Hide
 	BaseType = "Timeless Eternal Empire Splinter" "Timeless Karui Splinter" "Timeless Maraketh Splinter" "Timeless Templar Splinter" "Timeless Vaal Splinter"
 	SetTextColor 88 52 126 255 # Legion Text
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 0 0 0 255 # Map Border
 	SetFontSize 41 # Big
+	#BlockStrictness 3 Hide
 
 #-------------------------------------------------------------------------------
 # Subsection: Incubators
@@ -1364,14 +1428,24 @@ Show
 	MinimapIcon 0 Red Circle
 	PlayEffect Yellow 
 
-# Perandus Coin
+# Perandus Coin Stack big
 Show
-	StackSize >= 4
+	StackSize >= 100
 	Class = "Currency"
 	BaseType = "Perandus"
 	SetTextColor 254 213 0 255 # Perandus Text
 	SetBackgroundColor 112 88 2 255 # Perandus Background
 	SetFontSize 41 # Big
+
+# Perandus Coin Stack small
+Hide
+	StackSize >= 10
+	Class = "Currency"
+	BaseType = "Perandus"
+	SetTextColor 254 213 0 255 # Perandus Text
+	SetBackgroundColor 112 88 2 255 # Perandus Background
+	SetFontSize 41 # Big
+	#BlockStrictness 3 Hide
 
 # Perandus Coin
 Hide
@@ -1380,7 +1454,7 @@ Hide
 	SetTextColor 254 213 0 255 # Perandus Text
 	SetBackgroundColor 112 88 2 255 # Perandus Background
 	SetFontSize 37 # Medium
-	#BlockStrictness 3 Hide
+	#BlockStrictness 1 Hide
 
 #-------------------------------------------------------------------------------
 # Subsection: Sextants
@@ -1598,22 +1672,22 @@ Show
 # Ivory Watchstone
 Show
 	BaseType = "Ivory Watchstone"
-	SetTextColor 255 255 255 255 # Normal Highlight Text
+	SetTextColor 175 96 37 255 # Unique Text
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	PlayAlertSound 4 150 # Map
+	CustomAlertSound "gfT15.mp3"
 	MinimapIcon 0 White Diamond
 	PlayEffect White 
 
 # Watchstone
 Show
 	BaseType = "Watchstone"
-	SetTextColor 255 255 255 255 # Normal Highlight Text
+	SetTextColor 74 230 58 255 # Quest Text
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	PlayAlertSound 4 150 # Map
+	PlayAlertSound 2 150 # Quest
 	MinimapIcon 0 White Diamond
 	PlayEffect White 
 
@@ -1629,15 +1703,14 @@ Show
 	PlayEffect Green 
 
 # Divine Vessel
-Show
+Hide
 	Class = "Map Fragments"
 	BaseType = "Divine Vessel"
 	SetTextColor 255 255 119 255
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 255 255 119 255
 	SetFontSize 41 # Big
-	PlayAlertSound 6 150 # Tier3
-	MinimapIcon 1 White Circle
+	#BlockStrictness 3 Hide
 
 # Map Fragments
 Show
