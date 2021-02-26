@@ -1639,6 +1639,18 @@ Show
 	MinimapIcon 1 Yellow Circle
 	PlayEffect Yellow Temp
 
+# Elevated Sextant
+Show
+	Class = "Currency"
+	BaseType = "Elevated Sextant"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 0 0 64 255 # Synthesis Highlight Background
+	SetBorderColor 255 200 0 255 # Legacy Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT15.mp3" 100
+	MinimapIcon 0 Red Circle
+	PlayEffect Yellow 
+
 #-------------------------------------------------------------------------------
 # Subsection: wat
 #-------------------------------------------------------------------------------
