@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.11.23
+# VERSION:       3.13.0
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -31,7 +31,7 @@ Show
 	SetBackgroundColor 255 255 255 255
 	SetBorderColor 255 0 0 255
 	SetFontSize 45
-	CustomAlertSound "gfT0.mp3"
+	CustomAlertSound "gfT0.mp3" 100
 	MinimapIcon 0 Red Star
 	PlayEffect Red 
 
@@ -86,6 +86,149 @@ Show
 	SetFontSize 45 # Yuge
 
 #===============================================================================
+# Section: Ritual
+#===============================================================================
+
+# Ritual Vessel
+Hide
+	BaseType = "Ritual Splinter"
+	SetTextColor 150 0 0 255
+	SetBackgroundColor 0 0 0 210 # Junk Background
+	SetFontSize 37 # Medium
+	#BlockStrictness 3 Hide
+
+# Ritual Vessel
+Show
+	BaseType = "Ritual Vessel"
+	SetTextColor 150 0 0 255
+	SetBackgroundColor 40 4 0 255 # Breach Red Highlight Background
+	SetFontSize 37 # Medium
+	CustomAlertSound "gfT2.mp3" 100
+	MinimapIcon 2 Yellow Circle
+	PlayEffect Red Temp
+
+# Blood-filled Vessel
+Show
+	BaseType = "Blood-filled Vessel"
+	SetTextColor 150 0 0 255
+	SetBackgroundColor 40 4 0 255 # Breach Red Highlight Background
+	SetFontSize 41 # Big
+	CustomAlertSound "gfT2.mp3" 100
+	MinimapIcon 1 Yellow Diamond
+	PlayEffect Red 
+
+# Ritual BaseTypes
+Show
+	BaseType = "Aetherwind Gloves" "Archdemon Crown" "Atonement Mask" "Basemetal Treads" "Blizzard Crown" "Brimstone Treads" "Cloudwhisper Boots" "Darksteel Treads" "Debilitation Gauntlets" "Demon Crown" "Dreamquest Slippers" "Duskwalk Slippers" "Gale Crown" "Gauche Gloves" "Gruelling Gauntlets" "Imp Crown" "Leyline Gloves" "Nexus Gloves" "Nightwind Slippers" "Penitent Mask" "Sinistral Gloves" "Sorrow Mask" "Southswing Gloves" "Stormrider Boots" "Taxing Gauntlets" "Windbreak Boots" "Winter Crown"
+	SetBackgroundColor 0 0 0 255 # Default Background
+
+#===============================================================================
+# Section: Heist
+#===============================================================================
+
+# Heist Currency
+Show
+	BaseType = "Rogue's Marker"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
+	SetBorderColor 242 93 39 255 # Heist Border
+	SetFontSize 41 # Big
+	CustomAlertSound "gfT3.mp3" 100
+	MinimapIcon 2 White Circle
+
+# Heist Trinket
+Show
+	BaseType = "Thief's Trinket"
+	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
+	SetBorderColor 242 93 39 255 # Heist Border
+	SetFontSize 41 # Big
+	CustomAlertSound "gfT2.mp3" 100
+	MinimapIcon 1 Orange Hexagon
+
+# T1 Heist Currency
+Show
+	BaseType = "Prime Regrading Lens" "Secondary Regrading Lens"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 200 186 153 255 # Currency Background
+	SetBorderColor 242 93 39 255 # Heist Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT1.mp3" 100
+	MinimapIcon 0 Red Circle
+
+# T0 Heist Currency
+Show
+	BaseType = "Tempering Orb" "Tailoring Orb"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 200 186 153 255 # Currency Background
+	SetBorderColor 242 93 39 255 # Heist Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT0.mp3" 100
+	MinimapIcon 0 Red Circle
+
+# Heist Target
+Show
+	Class = "Heist Target"
+	SetTextColor 74 230 58 255 # Quest Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBorderColor 242 93 39 255 # Heist Border
+	SetFontSize 41 # Big
+	MinimapIcon 1 Orange Star
+
+# Heist Rogue Equipment
+Show
+	Class = "Heist Cloak" "Heist Brooch" "Heist Tool" "Heist Gear"
+	SetTextColor 74 230 58 255 # Quest Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBorderColor 242 93 39 255 # Heist Border
+	SetFontSize 41 # Big
+	MinimapIcon 1 Orange Hexagon
+
+# Heist Contract
+Show
+	Class = "Contract"
+	SetTextColor 242 93 39 255 # Heist Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBorderColor 242 93 39 255 # Heist Border
+	SetFontSize 41 # Big
+	MinimapIcon 1 Orange UpsideDownHouse
+
+# Heist Blueprint
+Show
+	Class = "Blueprint"
+	SetTextColor 242 93 39 255 # Heist Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBorderColor 242 93 39 255 # Heist Border
+	SetFontSize 41 # Big
+	MinimapIcon 1 Orange UpsideDownHouse
+
+# Alternative Quality Gem
+Show
+	AlternateQuality = True
+	Class = "Active Skill Gems" "Support Skill Gems"
+	SetTextColor 26 162 155 255 # Gem Text
+	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
+	SetBorderColor 242 93 39 255 # Heist Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT2.mp3" 100
+	MinimapIcon 1 Yellow Hexagon
+
+#-------------------------------------------------------------------------------
+# Subsection: Experimented Base Types
+#-------------------------------------------------------------------------------
+
+# maybe okay
+Show
+	BaseType = "Accumulator Wand" "Alternating Sceptre" "Anarchic Spiritblade" "Apex Cleaver" "Astrolabe Amulet" "Banishing Blade" "Battery Staff" "Boom Mace" "Cogwork Ring" "Cold-attuned Buckler" "Eventuality Rod" "Geodesic Ring" "Heat-attuned Tower Shield" "Impact Force Propagator" "Infernal Blade" "Mechalarm Belt" "Micro-Distillery Belt" "Oscillating Sceptre" "Pneumatic Dagger" "Psychotic Axe" "Simplex Amulet" "Solarine Bow" "Stabilising Sceptre" "Transfer-attuned Spirit Shield" "Void Fangs"
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetFontSize 37 # Medium
+
+# not so okay
+Hide
+	BaseType = "Assembler Wand" "Blasting Blade" "Blunt Force Condenser" "Capacity Rod" "Capricious Spiritblade" "Congregator Wand" "Crack Mace" "Crushing Force Magnifier" "Disapprobation Axe" "Endothermic Buckler" "Exhausting Spirit Shield" "Exothermic Tower Shield" "Fickle Spiritblade" "Flare Mace" "Flashfire Blade" "Flickerflame Blade" "Foundry Bow" "Hedron Bow" "Hollowpoint Dagger" "Honed Cleaver" "Magmatic Tower Shield" "Malign Fangs" "Maltreatment Axe" "Polar Buckler" "Potentiality Rod" "Pressurised Dagger" "Prime Cleaver" "Rebuking Blade" "Reciprocation Staff" "Shadow Fangs" "Subsuming Spirit Shield" "Transformer Staff"
+	SetBackgroundColor 0 0 0 210 # Junk Background
+	#BlockStrictness 3 Hide
+
+#===============================================================================
 # Section: Harvest
 #===============================================================================
 
@@ -105,7 +248,7 @@ Show
 	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
 	SetBorderColor 67 162 230 255 # Harvest Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3"
+	CustomAlertSound "gfT15.mp3" 100
 	MinimapIcon 0 Red Diamond
 
 # Harvest Offering T1
@@ -116,7 +259,7 @@ Show
 	SetBackgroundColor 74 230 58 255 # Quest Background
 	SetBorderColor 67 162 230 255 # Harvest Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3"
+	CustomAlertSound "gfT15.mp3" 100
 	MinimapIcon 0 Red Diamond
 	PlayEffect Red 
 
@@ -128,7 +271,7 @@ Show
 	SetBackgroundColor 74 230 58 255 # Quest Background
 	SetBorderColor 67 162 230 255 # Harvest Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3"
+	CustomAlertSound "gfT2.mp3" 100
 	MinimapIcon 1 Yellow Diamond
 	PlayEffect Green Temp
 
@@ -137,136 +280,136 @@ Show
 #-------------------------------------------------------------------------------
 
 # Seed Enhancer T1
-Show
-	Class = "Seed Enhancer"
-	BaseType = "Horticrafting Blossom" "Fortune Blossom"
-	SetTextColor 0 0 0 255 # Tier1 Text
-	SetBackgroundColor 67 162 255 255 # Harvest Background
-	SetBorderColor 255 255 255 255 # Tier1 Border
-	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT1.mp3"
-	MinimapIcon 0 Red Raindrop
-	PlayEffect Red 
+#Show
+#	Class = "Seed Enhancer"
+#	BaseType = "Horticrafting Blossom" "Fortune Blossom"
+#	SetTextColor 0 0 0 255 # Tier1 Text
+#	SetBackgroundColor 67 162 255 255 # Harvest Background
+#	SetBorderColor 255 255 255 255 # Tier1 Border
+#	SetFontSize 45 # Yuge
+#	CustomAlertSound "gfT1.mp3" 100
+#	MinimapIcon 0 Red Raindrop
+#	PlayEffect Red 
 
 # Seed Enhancer T1.5
-Show
-	Class = "Seed Enhancer"
-	BaseType = "Horticrafting Flower" "Fortune Flower" "Lifeforce Blossom" "Fortune Bud" "Lifeforce Flower"
-	SetTextColor 0 0 0 255 # Tier1 Text
-	SetBackgroundColor 67 162 255 255 # Harvest Background
-	SetBorderColor 255 255 255 255 # Tier1 Border
-	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3"
-	MinimapIcon 1 Red Raindrop
-	PlayEffect Blue 
+#Show
+#	Class = "Seed Enhancer"
+#	BaseType = "Horticrafting Flower" "Fortune Flower" "Lifeforce Blossom" "Fortune Bud" "Lifeforce Flower"
+#	SetTextColor 0 0 0 255 # Tier1 Text
+#	SetBackgroundColor 67 162 255 255 # Harvest Background
+#	SetBorderColor 255 255 255 255 # Tier1 Border
+#	SetFontSize 45 # Yuge
+#	CustomAlertSound "gfT15.mp3" 100
+#	MinimapIcon 1 Red Raindrop
+#	PlayEffect Blue 
 
 # Seed Enhancer T2
-Show
-	Class = "Seed Enhancer"
-	BaseType = "Lifeforce Bud" "Horticrafting Bud"
-	SetTextColor 67 162 230 255 # Harvest Text
-	SetBackgroundColor 25 35 50 255 # Harvest Highlight Background
-	SetBorderColor 67 162 230 255 # Harvest Border
-	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3"
-	MinimapIcon 1 Yellow Raindrop
-	PlayEffect Blue Temp
+#Show
+#	Class = "Seed Enhancer"
+#	BaseType = "Lifeforce Bud" "Horticrafting Bud"
+#	SetTextColor 67 162 230 255 # Harvest Text
+#	SetBackgroundColor 25 35 50 255 # Harvest Highlight Background
+#	SetBorderColor 67 162 230 255 # Harvest Border
+#	SetFontSize 45 # Yuge
+#	CustomAlertSound "gfT2.mp3" 100
+#	MinimapIcon 1 Yellow Raindrop
+#	PlayEffect Blue Temp
 
 #-------------------------------------------------------------------------------
 # Subsection: Seeds
 #-------------------------------------------------------------------------------
 
 # Primal Seed
-Show
-	Class = "Harvest Seed"
-	BaseType = "Primal"
-	SetTextColor 0 252 252 255 # Primal Text
-	SetBackgroundColor 0 41 41 255 # Primal Highlight Background
-	SetBorderColor 0 252 252 255 # Primal Border
-	PlayEffect Cyan Temp
-	Continue
+#Show
+#	Class = "Harvest Seed"
+#	BaseType = "Primal"
+#	SetTextColor 0 252 252 255 # Primal Text
+#	SetBackgroundColor 0 41 41 255 # Primal Highlight Background
+#	SetBorderColor 0 252 252 255 # Primal Border
+#	PlayEffect Cyan Temp
+#	Continue
 
 # Vivid Seed
-Show
-	Class = "Harvest Seed"
-	BaseType = "Vivid"
-	SetTextColor 252 252 0 255 # Vivid Text
-	SetBackgroundColor 41 41 0 255 # Vivid Highlight Background
-	SetBorderColor 252 252 0 255 # Vivid Border
-	PlayEffect Yellow Temp
-	Continue
+#Show
+#	Class = "Harvest Seed"
+#	BaseType = "Vivid"
+#	SetTextColor 252 252 0 255 # Vivid Text
+#	SetBackgroundColor 41 41 0 255 # Vivid Highlight Background
+#	SetBorderColor 252 252 0 255 # Vivid Border
+#	PlayEffect Yellow Temp
+#	Continue
 
 # Wild Seed
-Show
-	Class = "Harvest Seed"
-	BaseType = "Wild"
-	SetTextColor 252 0 252 255 # Wild Text
-	SetBackgroundColor 41 0 41 255 # Wild Highlight Background
-	SetBorderColor 252 0 252 255 # Wild Border
-	PlayEffect Pink Temp
-	Continue
+#Show
+#	Class = "Harvest Seed"
+#	BaseType = "Wild"
+#	SetTextColor 252 0 252 255 # Wild Text
+#	SetBackgroundColor 41 0 41 255 # Wild Highlight Background
+#	SetBorderColor 252 0 252 255 # Wild Border
+#	PlayEffect Pink Temp
+#	Continue
 
 # Seed
-Show
-	Class = "Harvest Seed"
-	BaseType = "Seed"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	SetBorderColor 0 0 0 0 # No Border
-	SetFontSize 41 # Big
-	MinimapIcon 2 White Raindrop
+#Show
+#	Class = "Harvest Seed"
+#	BaseType = "Seed"
+#	SetBackgroundColor 0 0 0 210 # Junk Background
+#	SetBorderColor 0 0 0 0 # No Border
+#	SetFontSize 41 # Big
+#	MinimapIcon 2 White Raindrop
 
 # Grain
-Show
-	Class = "Harvest Seed"
-	BaseType = "Grain"
-	SetBorderColor 0 0 0 0 # No Border
-	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT3.mp3"
-	MinimapIcon 1 Yellow Raindrop
+#Show
+#	Class = "Harvest Seed"
+#	BaseType = "Grain"
+#	SetBorderColor 0 0 0 0 # No Border
+#	SetFontSize 45 # Yuge
+#	CustomAlertSound "gfT3.mp3" 100
+#	MinimapIcon 1 Yellow Raindrop
 
 # Seed
-Show
-	Class = "Harvest Seed"
-	BaseType = "Bulb"
-	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3"
-	MinimapIcon 1 Red Raindrop
+#Show
+#	Class = "Harvest Seed"
+#	BaseType = "Bulb"
+#	SetFontSize 45 # Yuge
+#	CustomAlertSound "gfT2.mp3" 100
+#	MinimapIcon 1 Red Raindrop
 
 # Fruits
-Show
-	Class = "Harvest Seed"
-	BaseType = "Primal Blisterfruit"
-	SetTextColor 0 0 0 255 # Tier1 Text
-	SetBackgroundColor 0 252 252 255 # Primal Background
-	SetBorderColor 255 255 255 255 # Tier1 Border
-	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3"
-	MinimapIcon 0 Red Raindrop
-	PlayEffect Cyan 
+#Show
+#	Class = "Harvest Seed"
+#	BaseType = "Primal Blisterfruit"
+#	SetTextColor 0 0 0 255 # Tier1 Text
+#	SetBackgroundColor 0 252 252 255 # Primal Background
+#	SetBorderColor 255 255 255 255 # Tier1 Border
+#	SetFontSize 45 # Yuge
+#	CustomAlertSound "gfT15.mp3" 100
+#	MinimapIcon 0 Red Raindrop
+#	PlayEffect Cyan 
 
 # Fruits
-Show
-	Class = "Harvest Seed"
-	BaseType = "Vivid Scalefruit"
-	SetTextColor 0 0 0 255 # Tier1 Text
-	SetBackgroundColor 252 252 0 255 # Vivid Background
-	SetBorderColor 255 255 255 255 # Tier1 Border
-	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3"
-	MinimapIcon 0 Red Raindrop
-	PlayEffect Yellow 
+#Show
+#	Class = "Harvest Seed"
+#	BaseType = "Vivid Scalefruit"
+#	SetTextColor 0 0 0 255 # Tier1 Text
+#	SetBackgroundColor 252 252 0 255 # Vivid Background
+#	SetBorderColor 255 255 255 255 # Tier1 Border
+#	SetFontSize 45 # Yuge
+#	CustomAlertSound "gfT15.mp3" 100
+#	MinimapIcon 0 Red Raindrop
+#	PlayEffect Yellow 
 
 # Fruits
-Show
-	Class = "Harvest Seed"
-	BaseType = "Wild Thornfruit"
-	SetTextColor 0 0 0 255 # Tier1 Text
-	SetBackgroundColor 252 0 252 255 # Wild Background
-	SetBorderColor 255 255 255 255 # Tier1 Border
-	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3"
-	MinimapIcon 0 Red Raindrop
-	PlayEffect Pink 
+#Show
+#	Class = "Harvest Seed"
+#	BaseType = "Wild Thornfruit"
+#	SetTextColor 0 0 0 255 # Tier1 Text
+#	SetBackgroundColor 252 0 252 255 # Wild Background
+#	SetBorderColor 255 255 255 255 # Tier1 Border
+#	SetFontSize 45 # Yuge
+#	CustomAlertSound "gfT15.mp3" 100
+#	MinimapIcon 0 Red Raindrop
+#	PlayEffect Pink 
 
 #===============================================================================
 # Section: Delirium
@@ -280,7 +423,7 @@ Show
 	SetBackgroundColor 100 100 100 240 # Delirium Background
 	SetBorderColor 200 186 153 255 # Currency Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3"
+	CustomAlertSound "gfT15.mp3" 100
 	MinimapIcon 1 Red Circle
 	PlayEffect White 
 
@@ -292,7 +435,7 @@ Show
 	SetBackgroundColor 100 100 100 240 # Delirium Background
 	SetBorderColor 200 186 153 255 # Currency Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3"
+	CustomAlertSound "gfT2.mp3" 100
 	MinimapIcon 1 Yellow Circle
 	PlayEffect White Temp
 
@@ -303,7 +446,7 @@ Show
 	SetTextColor 210 210 210 255 # Delirium Text
 	SetBackgroundColor 100 100 100 240 # Delirium Background
 	SetFontSize 41 # Big
-	CustomAlertSound "gfT3.mp3"
+	CustomAlertSound "gfT3.mp3" 100
 	MinimapIcon 2 White Circle
 
 # Simulacrum Map
@@ -353,7 +496,7 @@ Show
 	SetBackgroundColor 15 27 15 255 # Metamorph Highlight Background
 	SetBorderColor 125 180 50 255 # Metamorph Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3"
+	CustomAlertSound "gfT2.mp3" 100
 	MinimapIcon 1 Yellow Circle
 
 # Catalyst Junk
@@ -364,7 +507,7 @@ Show
 	SetBackgroundColor 15 27 15 255 # Metamorph Highlight Background
 	SetBorderColor 125 180 50 255 # Metamorph Border
 	SetFontSize 41 # Big
-	CustomAlertSound "gfT3.mp3"
+	CustomAlertSound "gfT3.mp3" 100
 	MinimapIcon 2 White Circle
 
 #===============================================================================
@@ -407,7 +550,7 @@ Show
 	SetBackgroundColor 200 200 75 255 # Blight Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT1.mp3"
+	CustomAlertSound "gfT1.mp3" 100
 	MinimapIcon 0 Red Circle
 
 # T15 Oil
@@ -417,7 +560,7 @@ Show
 	SetBackgroundColor 30 30 0 255 # Blight Highlight Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3"
+	CustomAlertSound "gfT15.mp3" 100
 	MinimapIcon 1 Red Circle
 
 # T2 Oil
@@ -427,7 +570,7 @@ Show
 	SetBackgroundColor 30 30 0 255 # Blight Highlight Background
 	SetBorderColor 200 150 0 255 # Blight Border
 	SetFontSize 41 # Big
-	CustomAlertSound "gfT2.mp3"
+	CustomAlertSound "gfT2.mp3" 100
 	MinimapIcon 1 Yellow Circle
 
 # T3 Oil
@@ -447,7 +590,7 @@ Show
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 88 52 126 255 # Legion Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3"
+	CustomAlertSound "gfT15.mp3" 100
 	MinimapIcon 0 Red Diamond
 	PlayEffect Red 
 
@@ -480,7 +623,7 @@ Show
 	SetBackgroundColor 28 16 40 255 # Legion Background
 	SetBorderColor 88 52 126 255 # Legion Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3"
+	CustomAlertSound "gfT15.mp3" 100
 	MinimapIcon 1 Red Circle
 	PlayEffect Red 
 
@@ -493,7 +636,7 @@ Show
 	SetBackgroundColor 28 16 40 255 # Legion Background
 	SetBorderColor 88 52 126 255 # Legion Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3"
+	CustomAlertSound "gfT2.mp3" 100
 	MinimapIcon 1 Yellow Circle
 	PlayEffect Yellow Temp
 
@@ -505,7 +648,7 @@ Show
 	SetBackgroundColor 28 16 40 255 # Legion Background
 	SetBorderColor 88 52 126 255 # Legion Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3"
+	CustomAlertSound "gfT2.mp3" 100
 	MinimapIcon 1 Yellow Circle
 	PlayEffect Yellow Temp
 
@@ -660,7 +803,7 @@ Show
 	SetBackgroundColor 5 18 36 255 # Delve Highlight Background
 	SetBorderColor 102 193 245 255 # Delve Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3"
+	CustomAlertSound "gfT2.mp3" 100
 	MinimapIcon 0 Blue Circle
 	PlayEffect Blue 
 
@@ -684,7 +827,7 @@ Show
 	SetBackgroundColor 255 255 255 255 # Tier0 Background
 	SetBorderColor 102 193 245 255 # Delve Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT0.mp3"
+	CustomAlertSound "gfT0.mp3" 100
 	MinimapIcon 0 Red Circle
 	PlayEffect Red 
 
@@ -696,7 +839,7 @@ Show
 	SetBackgroundColor 102 193 245 255 # Delve Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT1.mp3"
+	CustomAlertSound "gfT1.mp3" 100
 	MinimapIcon 0 Blue Circle
 	PlayEffect Blue 
 
@@ -708,7 +851,7 @@ Show
 	SetBackgroundColor 102 193 245 255 # Delve Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3"
+	CustomAlertSound "gfT15.mp3" 100
 	MinimapIcon 1 Blue Circle
 	PlayEffect Blue 
 
@@ -727,7 +870,7 @@ Show
 	SetBackgroundColor 5 18 36 255 # Delve Highlight Background
 	SetBorderColor 102 193 245 255 # Delve Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3"
+	CustomAlertSound "gfT2.mp3" 100
 	MinimapIcon 2 Blue Circle
 	PlayEffect Blue Temp
 
@@ -743,7 +886,7 @@ Show
 	SetBackgroundColor 255 255 255 255 # Tier0 Background
 	SetBorderColor 150 204 130 255 # Incursion Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT0.mp3"
+	CustomAlertSound "gfT0.mp3" 100
 	MinimapIcon 0 Red Circle
 	PlayEffect Red 
 
@@ -755,7 +898,7 @@ Show
 	SetBackgroundColor 175 45 35 255 # Incursion Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT1.mp3"
+	CustomAlertSound "gfT1.mp3" 100
 	MinimapIcon 0 Red Circle
 	PlayEffect Red 
 
@@ -766,7 +909,7 @@ Show
 	SetTextColor 175 45 35 255 # Incursion Text
 	SetBackgroundColor 10 35 34 240 # Incursion Highlight Background
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3"
+	CustomAlertSound "gfT2.mp3" 100
 	MinimapIcon 2 Yellow Circle
 	PlayEffect Red Temp
 
@@ -878,7 +1021,7 @@ Show
 	SetTextColor 166 95 244 255 # Breach Text
 	SetBackgroundColor 40 4 0 255 # Breach Red Highlight Background
 	SetFontSize 41 # Big
-	CustomAlertSound "gfT2.mp3"
+	CustomAlertSound "gfT2.mp3" 100
 	MinimapIcon 2 Yellow Circle
 
 # Breachstone
@@ -905,7 +1048,7 @@ Show
 	SetBackgroundColor 255 255 255 255 # Tier0 Background
 	SetBorderColor 182 20 0 255 # Breach Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT1.mp3"
+	CustomAlertSound "gfT1.mp3" 100
 	MinimapIcon 0 Red Diamond
 	PlayEffect Red 
 
@@ -958,7 +1101,7 @@ Show
 	SetBackgroundColor 255 255 255 255 # Tier0 Background
 	SetBorderColor 125 0 175 255 # Prophecy Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT0.mp3"
+	CustomAlertSound "gfT0.mp3" 100
 	MinimapIcon 0 Red Circle
 
 # Prophecy Tier1
@@ -969,7 +1112,7 @@ Show
 	SetBackgroundColor 125 0 175 255 # Prophecy Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT1.mp3"
+	CustomAlertSound "gfT1.mp3" 100
 	MinimapIcon 0 Red Circle
 
 # Prophecy Tier1.5
@@ -980,7 +1123,7 @@ Show
 	SetBackgroundColor 125 0 175 255 # Prophecy Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3"
+	CustomAlertSound "gfT15.mp3" 100
 	MinimapIcon 1 Red Circle
 
 # Prophecy Trash
@@ -1012,7 +1155,7 @@ Show
 	SetBackgroundColor 128 179 254 255 # Essence Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3"
+	CustomAlertSound "gfT15.mp3" 100
 	MinimapIcon 0 Red Circle
 	PlayEffect Blue 
 
@@ -1024,7 +1167,7 @@ Show
 	SetBackgroundColor 25 36 51 255 # Essence Highlight Background
 	SetBorderColor 128 179 254 255 # Essence Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3"
+	CustomAlertSound "gfT2.mp3" 100
 	MinimapIcon 1 Yellow Circle
 	PlayEffect Blue 
 
@@ -1058,7 +1201,7 @@ Show
 	SetBackgroundColor 255 200 0 255 # Legacy Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT0.mp3"
+	CustomAlertSound "gfT0.mp3" 100
 	MinimapIcon 0 Red Diamond
 
 # Leaguestone Trash
@@ -1089,7 +1232,7 @@ Show
 	SetTextColor 255 200 0 255 # Legacy Text
 	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3"
+	CustomAlertSound "gfT2.mp3" 100
 
 # Leaguestone Magic
 Show
@@ -1134,7 +1277,7 @@ Show
 	SetBackgroundColor 255 255 255 255 # Tier0 Background
 	SetBorderColor 14 186 255 255 # Divination Card Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT0.mp3"
+	CustomAlertSound "gfT0.mp3" 100
 	MinimapIcon 0 Red Star
 	PlayEffect Blue 
 
@@ -1145,24 +1288,24 @@ Show
 # Divination Card Tier1
 Show
 	Class = "Divination Card"
-	BaseType == "House of Mirrors" "The Doctor" "The Fiend" "Immortal Resolve" "The Demon" "Nook's Crown" "Beauty Through Death" "The Samurai's Eye" "Succor of the Sinless" "The Cheater"
+	BaseType == "House of Mirrors" "The Doctor" "The Fiend" "Immortal Resolve" "The Demon" "Nook's Crown" "Beauty Through Death" "The Samurai's Eye" "Succor of the Sinless" "The Cheater" "Brother's Stash" "Unrequited Love" "Love Through Ice"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 14 186 255 255 # Divination Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT1.mp3"
+	CustomAlertSound "gfT1.mp3" 100
 	MinimapIcon 0 Red Star
 	PlayEffect Blue 
 
 # Divination Card Tier1.5
 Show
 	Class = "Divination Card"
-	BaseType == "Abandoned Wealth" "Alluring Bounty" "Beauty Through Death" "Gift of Asenath" "House of Mirrors" "Hunter's Reward" "Immortal Resolve" "Nook's Crown" "Pride of the First Ones" "Seven Years Bad Luck" "Succor of the Sinless" "The Cheater" "The Craving" "The Demon" "The Doctor" "The Dragon's Heart" "The Escape" "The Fiend" "The Greatest Intentions" "The Hive of Knowledge" "The Immortal" "The Iron Bard" "The Long Con" "The Nurse" "The Offering" "The Price of Loyalty" "The Progeny of Lunaris" "The Samurai's Eye" "The Spark and the Flame" "The Sustenance" "The White Knight" "Void of the Elements" "Wealth and Power"
+	BaseType == "The Offering" "Pride Before the Fall" "The King's Heart" "Hunter's Reward" "The Immortal" "The Celestial Justicar" "Wealth and Power" "The Polymath" "Abandoned Wealth" "The Iron Bard" "The Spark and the Flame" "The Dragon's Heart" "The Nurse" "The Ethereal" "Dark Dreams" "The Eye of Terror" "Void of the Elements" "The Damned" "The Old Man" "The Price of Loyalty" "Burning Blood" "Pride of the First Ones" "Etched in Blood" "The Craving" "The Enlightened" "Alluring Bounty" "The Progeny of Lunaris" "The White Knight" "The Hive of Knowledge" "Gift of Asenath" "The Long Con" "The Gulf" "Desecrated Virtue" "Seven Years Bad Luck" "Keeper's Corruption"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 14 186 255 255 # Divination Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3"
+	CustomAlertSound "gfT15.mp3" 100
 	MinimapIcon 1 Red Star
 	PlayEffect Blue 
 
@@ -1178,19 +1321,19 @@ Show
 	SetBackgroundColor 25 33 33 255 # Divination Card Highlight Background
 	SetBorderColor 14 186 255 255 # Divination Card Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3"
+	CustomAlertSound "gfT2.mp3" 100
 	MinimapIcon 1 Yellow Star
 	PlayEffect Blue 
 
 # Divination Card Tier2
 Show
 	Class = "Divination Card"
-	BaseType == "A Familiar Call" "Azyran's Reward" "Blessing of God" "Burning Blood" "Chaotic Disposition" "Council of Cats" "Dark Dreams" "Pride Before the Fall" "Squandered Prosperity" "The Bargain" "The Celestial Justicar" "The Celestial Stone" "The Damned" "The Eldritch Decay" "The Enlightened" "The Ethereal" "The Eye of Terror" "The Hoarder" "The Last One Standing" "The Life Thief" "The Mayor" "The Queen" "The Saint's Treasure" "The Void" "The World Eater"
+	BaseType == "The Devastator" "The Artist" "The Saint's Treasure" "The Dapper Prodigy" "The Void" "The Sephirot" "The Warlord" "The Vast" "The Throne" "The Aesthete" "The Wolf" "The Valkyrie" "The Soul" "Emperor of Purity" "Heterochromia" "The Hoarder" "Chaotic Disposition" "The Chains that Bind" "The Dark Mage" "Bowyer's Dream" "Lucky Deck" "Time-Lost Relic" "The Cartographer" "The Breach" "The Dreamer" "The Obscured" "Harmony of Souls" "The Admirer" "The Undaunted" "The Professor" "The Jeweller's Boon" "The Hale Heart" "The Beast" "The Innocent" "The Price of Protection" "The Cacophony" "The Wilted Rose" "Merciless Armament" "Rebirth" "Left to Fate" "The Thaumaturgist" "The Journey" "The Landing" "The Messenger" "Monochrome" "The Seeker" "Alone in the Darkness" "The Porcupine" "The Soul" "The Last One Standing" "Buried Treasure" "Demigod's Wager" "The Primordial" "Akil's Prophecy" "Azyran's Reward" "The Bargain" "Remembrance" "The Heroic Shot" "The Formless Sea" "Mawr Blaidd" "The Brittle Emperor" "The Hunger" "The Undisputed" "Perfection" "The Master" "The Celestial Stone" "The Wind" "The Endless Darkness" "The Mayor" "The Queen" "The Mad King" "The Life Thief" "The Risk" "Earth Drinker" "Blessing of God" "The Deep Ones" "Baited Expectations" "Deathly Designs" "The Chosen" "Cameria's Cut" "Divine Justice" "The Fishmonger" "The Bones" "Friendship" "Squandered Prosperity" "Underground Forest" "The Escape" "Boon of the First Ones" "The Wolven King's Bite" "Council of Cats" "The Eldritch Decay" "Peaceful Moments" "The Greatest Intentions" "The Sustenance" "A Note in the Wind" "The Betrayal" "The Sacrifice" "The World Eater" "The Bitter Blossom" "The Academic" "Unchained" "The Strategist" "The Long Watch" "Fateful Meeting" "Haunting Shadows" "The Astromancer" "Reckless Ambition" "Draped in Dreams" "The Patient" "Brotherhood in Exile"
 	SetTextColor 14 186 255 255 # Divination Card Text
 	SetBackgroundColor 25 33 33 255 # Divination Card Highlight Background
 	SetBorderColor 14 186 255 255 # Divination Card Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3"
+	CustomAlertSound "gfT2.mp3" 100
 	MinimapIcon 1 Yellow Star
 	PlayEffect Blue 
 
@@ -1202,7 +1345,7 @@ Show
 	SetBackgroundColor 25 33 33 255 # Divination Card Highlight Background
 	SetBorderColor 14 186 255 255 # Divination Card Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3"
+	CustomAlertSound "gfT2.mp3" 100
 	MinimapIcon 1 Yellow Star
 	PlayEffect Blue 
 
@@ -1213,7 +1356,7 @@ Show
 # Divination Card Trash
 Hide
 	Class = "Divination Card"
-	BaseType == "The Scholar" "The Lover" "Emperor's Luck" "The Flora's Gift" "Her Mask" "The Catalyst" "Destined to Crumble" "The Inoculated" "The Road to Power" "The Sigil" "The Spoiled Prince" "Rain of Chaos" "Thunderous Skies" "The Twins" "Light and Truth" "Prosperity" "The Mercenary" "The Warden" "The Calling" "The Gemcutter" "The Lord in Black" "Struck by Lightning" "The Metalsmith's Gift" "Lantador's Lost Love" "The Scarred Meadow" "The Visionary" "The Incantation" "Dying Anguish" "Cartographer's Delight" "The Pack Leader" "The Gentleman" "The Opulent" "A Mother's Parting Gift" "The Sun" "The Conduit" "The Fox" "The Realm" "The Betrayal" "The Web" "Turn the Other Cheek" "Lysah's Respite" "The Lich" "The Feast" "The Witch" "The Ruthless Ceinture" "The Siren" "Death" "Call to the First Ones" "The Hermit" "The Puzzle" "The Fathomless Depths" "Audacity" "Doedre's Madness" "Rain Tempter" "Anarchy's Price" "The Watcher" "The Coming Storm" "Dark Temptation" "The Blazing Fire" "Tranquillity"
+	BaseType == "The Scholar" "The Lover" "Emperor's Luck" "The Flora's Gift" "Her Mask" "The Catalyst" "Destined to Crumble" "The Inoculated" "The Road to Power" "The Sigil" "The Spoiled Prince" "Rain of Chaos" "Thunderous Skies" "The Twins" "Light and Truth" "Prosperity" "The Mercenary" "The Warden" "The Calling" "The Gemcutter" "The Lord in Black" "Struck by Lightning" "The Metalsmith's Gift" "Lantador's Lost Love" "The Scarred Meadow" "The Visionary" "The Incantation" "Cartographer's Delight" "The Pack Leader" "The Gentleman" "The Opulent" "A Mother's Parting Gift" "The Sun" "The Conduit" "The Fox" "The Realm" "The Web" "Turn the Other Cheek" "Lysah's Respite" "The Lich" "The Feast" "The Witch" "The Ruthless Ceinture" "The Siren" "Death" "Call to the First Ones" "The Hermit" "The Puzzle" "The Fathomless Depths" "Audacity" "Doedre's Madness" "Rain Tempter" "Anarchy's Price" "The Watcher" "The Coming Storm" "Dark Temptation" "The Blazing Fire" "Tranquillity" "The Rabid Rhoa" "Forbidden Power" "Rats" "Thirst for Knowledge" "The Tumbleweed" "The Easy Stroll" "The Army of Blood" "The Journalist"
 	SetTextColor 14 186 255 255 # Divination Card Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
 
@@ -1272,7 +1415,7 @@ Show
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT3.mp3"
+	CustomAlertSound "gfT3.mp3" 100
 	MinimapIcon 2 White Circle
 
 #-------------------------------------------------------------------------------
@@ -1333,7 +1476,7 @@ Show
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT3.mp3"
+	CustomAlertSound "gfT3.mp3" 100
 	MinimapIcon 2 White Circle
 
 # Currency Tier4
@@ -1354,7 +1497,7 @@ Show
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetBorderColor 200 186 153 255 # Currency Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3"
+	CustomAlertSound "gfT2.mp3" 100
 	MinimapIcon 1 Yellow Circle
 	PlayEffect Yellow Temp
 
@@ -1365,7 +1508,7 @@ Show
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT3.mp3"
+	CustomAlertSound "gfT3.mp3" 100
 	MinimapIcon 1 White Circle
 	PlayEffect White Temp
 
@@ -1377,19 +1520,19 @@ Show
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetBorderColor 200 186 153 255 # Currency Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3"
+	CustomAlertSound "gfT2.mp3" 100
 	MinimapIcon 1 Yellow Circle
 	PlayEffect Yellow 
 
 # Currency Tier1.5
 Show
 	Class = "Currency"
-	BaseType = "Divine Orb" "Orb of Annulment" "Ancient Orb" "Harbinger's Orb"
+	BaseType = "Divine Orb" "Orb of Annulment" "Ancient Orb" "Harbinger's Orb" "Orb of Unmaking"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 200 186 153 255 # Currency Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3"
+	CustomAlertSound "gfT15.mp3" 100
 	MinimapIcon 1 Red Circle
 	PlayEffect Yellow 
 
@@ -1401,19 +1544,19 @@ Show
 	SetBackgroundColor 200 186 153 255 # Currency Background
 	SetBorderColor 143 46 54 255 # Conqueror Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT1.mp3"
+	CustomAlertSound "gfT1.mp3" 100
 	MinimapIcon 0 Red Circle
 	PlayEffect Yellow 
 
 # Currency Tier1
 Show
 	Class = "Currency"
-	BaseType = "Exalted Orb" "Mirror Shard" "Awakener's Orb"
+	BaseType = "Exalted Orb" "Mirror Shard" "Awakener's Orb" "Maven's Orb"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 200 186 153 255 # Currency Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT1.mp3"
+	CustomAlertSound "gfT1.mp3" 100
 	MinimapIcon 0 Red Circle
 	PlayEffect Yellow 
 
@@ -1424,7 +1567,7 @@ Show
 	SetBackgroundColor 255 255 255 255 # Tier0 Background
 	SetBorderColor 200 186 153 255 # Currency Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT0.mp3"
+	CustomAlertSound "gfT0.mp3" 100
 	MinimapIcon 0 Red Circle
 	PlayEffect Yellow 
 
@@ -1468,7 +1611,7 @@ Show
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetBorderColor 200 200 200 255 # Apprentice Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3"
+	CustomAlertSound "gfT2.mp3" 100
 	MinimapIcon 0 Yellow Circle
 	PlayEffect Yellow Temp
 
@@ -1480,7 +1623,7 @@ Show
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetBorderColor 254 170 0 255 # Journeyman Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3"
+	CustomAlertSound "gfT2.mp3" 100
 	MinimapIcon 1 Yellow Circle
 	PlayEffect Yellow Temp
 
@@ -1492,9 +1635,21 @@ Show
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetBorderColor 191 0 0 255 # Master Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3"
+	CustomAlertSound "gfT2.mp3" 100
 	MinimapIcon 1 Yellow Circle
 	PlayEffect Yellow Temp
+
+# Elevated Sextant
+Show
+	Class = "Currency"
+	BaseType = "Elevated Sextant"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 0 0 64 255 # Synthesis Highlight Background
+	SetBorderColor 255 200 0 255 # Legacy Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT15.mp3" 100
+	MinimapIcon 0 Red Circle
+	PlayEffect Yellow 
 
 #-------------------------------------------------------------------------------
 # Subsection: wat
@@ -1603,7 +1758,7 @@ Show
 	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
 	SetBorderColor 255 200 0 255 # Legacy Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3"
+	CustomAlertSound "gfT15.mp3" 100
 	MinimapIcon 1 Red Diamond
 	PlayEffect Yellow 
 
@@ -1615,7 +1770,7 @@ Show
 	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
 	SetBorderColor 0 0 0 0 # No Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3"
+	CustomAlertSound "gfT2.mp3" 100
 	MinimapIcon 1 Yellow Diamond
 
 # Scarab
@@ -1628,6 +1783,102 @@ Show
 	SetFontSize 41 # Big
 	PlayAlertSound 6 150 # Tier3
 	MinimapIcon 2 White Diamond
+
+#-------------------------------------------------------------------------------
+# Subsection: Lure
+#-------------------------------------------------------------------------------
+
+# Not-as-Junk Lure
+Show
+	Class = "Map Fragments"
+	BaseType = "Fenumal Lure" "Craicic Lure"
+	SetTextColor 255 200 0 255 # Legacy Text
+	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
+	SetBorderColor 242 93 39 255 # Heist Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT15.mp3" 100
+	MinimapIcon 1 Red Diamond
+
+# Junk Lure
+Show
+	Class = "Map Fragments"
+	BaseType = "Lure"
+	SetTextColor 255 200 0 255 # Legacy Text
+	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
+	SetFontSize 41 # Big
+	CustomAlertSound "gfT2.mp3" 100
+	MinimapIcon 1 Yellow Diamond
+
+#-------------------------------------------------------------------------------
+# Subsection: Atlas Stuff
+#-------------------------------------------------------------------------------
+
+# Melvin
+Show
+	Class = "Map Fragments"
+	BaseType = "The Maven's Writ"
+	SetTextColor 255 200 0 255 # Legacy Text
+	SetBackgroundColor 0 0 64 255 # Synthesis Highlight Background
+	SetBorderColor 255 200 0 255 # Legacy Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT1.mp3" 100
+	MinimapIcon 0 Red Diamond
+	PlayEffect Blue 
+
+# Maven Splinter or something
+Show
+	Class = "Stackable Currency"
+	BaseType = "Crescent Splinter"
+	SetTextColor 255 200 0 255 # Legacy Text
+	SetBackgroundColor 0 0 64 255 # Synthesis Highlight Background
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT15.mp3" 100
+	MinimapIcon 1 Red Circle
+	PlayEffect Blue Temp
+
+# Melvin wants YOU
+Show
+	Class = "Misc Map Items"
+	BaseType = "Maven's Invitation"
+	SetTextColor 255 200 0 255 # Legacy Text
+	SetBackgroundColor 0 0 64 255 # Synthesis Highlight Background
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT15.mp3" 100
+	MinimapIcon 1 Red Circle
+	PlayEffect Blue Temp
+
+# Ivory Watchstone
+Show
+	BaseType = "Ivory Watchstone"
+	SetTextColor 175 96 37 255 # Unique Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT15.mp3" 100
+	MinimapIcon 0 White Diamond
+	PlayEffect White 
+
+# Also Watchstone I guess
+Show
+	Class = "Atlas Region Upgrade Item"
+	SetTextColor 74 230 58 255 # Quest Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45 # Yuge
+	PlayAlertSound 2 150 # Quest
+	MinimapIcon 0 White Diamond
+	PlayEffect White 
+
+# Watchstone
+Show
+	BaseType = "Watchstone"
+	SetTextColor 74 230 58 255 # Quest Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45 # Yuge
+	PlayAlertSound 2 150 # Quest
+	MinimapIcon 0 White Diamond
+	PlayEffect White 
 
 #-------------------------------------------------------------------------------
 # Subsection: Other
@@ -1668,28 +1919,6 @@ Show
 	PlayAlertSound 7 300 # Tier1.5
 	MinimapIcon 0 Red Diamond
 	PlayEffect Red 
-
-# Ivory Watchstone
-Show
-	BaseType = "Ivory Watchstone"
-	SetTextColor 175 96 37 255 # Unique Text
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetBorderColor 255 255 255 255 # Tier1 Border
-	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3"
-	MinimapIcon 0 White Diamond
-	PlayEffect White 
-
-# Watchstone
-Show
-	BaseType = "Watchstone"
-	SetTextColor 74 230 58 255 # Quest Text
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetBorderColor 255 255 255 255 # Tier1 Border
-	SetFontSize 45 # Yuge
-	PlayAlertSound 2 150 # Quest
-	MinimapIcon 0 White Diamond
-	PlayEffect White 
 
 # Offering to the Goddess
 Show
@@ -1748,7 +1977,7 @@ Show
 	SetBackgroundColor 175 96 37 255 # Unique Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT1.mp3"
+	CustomAlertSound "gfT1.mp3" 100
 	MinimapIcon 0 Red Square
 	PlayEffect Red 
 
@@ -1762,7 +1991,7 @@ Show
 	SetBackgroundColor 175 96 37 255 # Unique Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT1.mp3"
+	CustomAlertSound "gfT1.mp3" 100
 	MinimapIcon 0 Red Square
 	PlayEffect Red 
 
@@ -1775,7 +2004,7 @@ Show
 	SetBackgroundColor 175 96 37 255 # Unique Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3"
+	CustomAlertSound "gfT15.mp3" 100
 	MinimapIcon 0 Red Square
 	PlayEffect Red 
 
@@ -1788,7 +2017,7 @@ Show
 	SetBackgroundColor 175 96 37 255 # Unique Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3"
+	CustomAlertSound "gfT15.mp3" 100
 	MinimapIcon 0 Red Square
 	PlayEffect Red 
 
@@ -2238,7 +2467,7 @@ Show
 	SetBackgroundColor 255 255 255 255 # Tier0 Background
 	SetBorderColor 175 96 37 255 # Unique Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT0.mp3"
+	CustomAlertSound "gfT0.mp3" 100
 	MinimapIcon 0 Red Hexagon
 	PlayEffect Brown 
 
@@ -2250,7 +2479,7 @@ Show
 	SetBackgroundColor 175 96 37 255 # Unique Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT1.mp3"
+	CustomAlertSound "gfT1.mp3" 100
 	MinimapIcon 1 Red Hexagon
 	PlayEffect Brown 
 
@@ -2263,7 +2492,7 @@ Show
 	SetBackgroundColor 175 96 37 255 # Unique Background
 	SetBorderColor 169 189 149 255 # Abyss Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3"
+	CustomAlertSound "gfT15.mp3" 100
 	MinimapIcon 1 Red Hexagon
 	PlayEffect Brown 
 
@@ -2630,7 +2859,7 @@ Show
 	HasInfluence = "Warlord"
 	Rarity <= Rare
 	ItemLevel >= 85
-	BaseType = "Agate Amulet" "Amethyst Ring" "Ancient Gauntlets" "Ancient Spirit Shield" "Angelic Kite Shield" "Antique Gauntlets" "Antique Greaves" "Arcanist Gloves" "Arcanist Slippers" "Archon Kite Shield" "Assassin's Garb" "Barbed Club" "Battle Plate" "Battle Sword" "Behemoth Mace" "Brass Spirit Shield" "Cabalist Regalia" "Cardinal Round Shield" "Cerulean Ring" "Champion Kite Shield" "Colossal Tower Shield" "Colosseum Plate" "Convoking Wand" "Coral Amulet" "Coral Ring" "Coronal Maul" "Corrugated Buckler" "Crusader Boots" "Crusader Chainmail" "Crusader Plate" "Crystal Belt" "Crystal Sceptre" "Crystal Wand" "Cutlass" "Deicide Mask" "Diamond Ring" "Dragon Mace" "Dragonscale Gauntlets" "Ebony Tower Shield" "Eelskin Tunic" "Elegant Ringmail" "Engraved Wand" "Etched Kite Shield" "Eternal Burgonet" "Eternal Sword" "Ezomyte Burgonet" "Ezomyte Staff" "Fleshripper" "Fossilised Spirit Shield" "Full Dragonscale" "Girded Tower Shield" "Gladiator Helmet" "Gladiator Plate" "Glorious Plate" "Gold Amulet" "Golden Mask" "Golden Plate" "Goliath Gauntlets" "Goliath Greaves" "Harmonic Spirit Shield" "Heathen Wand" "Hellion's Paw" "Hubris Circlet" "Hussar Brigandine" "Imperial Bow" "Imperial Claw" "Imperial Maul" "Imperial Staff" "Infernal Sword" "Iron Ring" "Ivory Spirit Shield" "Jewelled Foil" "Lacquered Buckler" "Laminated Kite Shield" "Lapis Amulet" "Lead Sceptre" "Legion Sword" "Lion Pelt" "Lion Sword" "Lithe Blade" "Lunaris Circlet" "Maelström Staff" "Maraketh Bow" "Meatgrinder" "Midnight Blade" "Mind Cage" "Moon Staff" "Mosaic Kite Shield" "Nightmare Bascinet" "Ochre Sceptre" "Opal Sceptre" "Pagan Wand" "Paua Amulet" "Pecoraro" "Pig-Faced Bascinet" "Pinnacle Tower Shield" "Platinum Sceptre" "Polished Spiked Shield" "Praetor Crown" "Prophecy Wand" "Prophet Crown" "Reaver Axe" "Reaver Helmet" "Reinforced Greaves" "Riveted Boots" "Royal Burgonet" "Ruby Ring" "Samite Helmet" "Sapphire Ring" "Satin Gloves" "Secutor Helm" "Sekhem" "Serpent Wand" "Serrated Foil" "Siege Helmet" "Silk Gloves" "Silken Wrap" "Sinner Tricorne" "Solar Maul" "Sorcerer Gloves" "Spiraled Foil" "Steel Gauntlets" "Sun Plate" "Talon Axe" "Thorium Spirit Shield" "Timber Axe" "Titan Gauntlets" "Titan Greaves" "Titanium Spirit Shield" "Topaz Ring" "Tornado Wand" "Trapper Boots" "Twin Claw" "Two-Toned Boots" "Unset Ring" "Vaal Axe" "Vaal Buckler" "Vaal Gauntlets" "Vaal Greatsword" "Vaal Sceptre" "Vaal Spirit Shield" "Void Axe" "Void Sceptre" "Walnut Spirit Shield" "War Axe" "Zodiac Leather"
+	BaseType = "Agate Amulet" "Amethyst Ring" "Ancient Gauntlets" "Ancient Spirit Shield" "Angelic Kite Shield" "Antique Gauntlets" "Antique Greaves" "Arcanist Gloves" "Arcanist Slippers" "Archon Kite Shield" "Assassin's Garb" "Barbed Club" "Battle Plate" "Battle Sword" "Behemoth Mace" "Brass Spirit Shield" "Cabalist Regalia" "Cardinal Round Shield" "Cerulean Ring" "Champion Kite Shield" "Colossal Tower Shield" "Colosseum Plate" "Convoking Wand" "Coral Amulet" "Coral Ring" "Coronal Maul" "Corrugated Buckler" "Crusader Boots" "Crusader Chainmail" "Crusader Plate" "Crystal Belt" "Crystal Sceptre" "Crystal Wand" "Cutlass" "Deicide Mask" "Diamond Ring" "Dragon Mace" "Dragonscale Gauntlets" "Ebony Tower Shield" "Eelskin Tunic" "Elegant Ringmail" "Engraved Wand" "Etched Kite Shield" "Eternal Burgonet" "Eternal Sword" "Ezomyte Burgonet" "Ezomyte Staff" "Fleshripper" "Fossilised Spirit Shield" "Full Dragonscale" "Girded Tower Shield" "Gladiator Helmet" "Gladiator Plate" "Glorious Plate" "Gold Amulet" "Golden Mask" "Golden Plate" "Goliath Gauntlets" "Goliath Greaves" "Harmonic Spirit Shield" "Heathen Wand" "Hellion's Paw" "Hubris Circlet" "Hussar Brigandine" "Imperial Bow" "Imperial Claw" "Imperial Maul" "Imperial Staff" "Infernal Sword" "Iron Ring" "Ivory Spirit Shield" "Jewelled Foil" "Lacquered Buckler" "Laminated Kite Shield" "Lapis Amulet" "Lead Sceptre" "Legion Sword" "Lion Pelt" "Lion Sword" "Lithe Blade" "Lunaris Circlet" "Maelström Staff" "Maraketh Bow" "Meatgrinder" "Midnight Blade" "Mind Cage" "Moon Staff" "Mosaic Kite Shield" "Nightmare Bascinet" "Ochre Sceptre" "Opal Sceptre" "Pagan Wand" "Paua Amulet" "Pecoraro" "Pig-Faced Bascinet" "Pinnacle Tower Shield" "Platinum Sceptre" "Polished Spiked Shield" "Praetor Crown" "Prophecy Wand" "Prophet Crown" "Reaver Axe" "Reaver Helmet" "Reinforced Greaves" "Riveted Boots" "Royal Burgonet" "Ruby Ring" "Samnite Helmet" "Sapphire Ring" "Satin Gloves" "Secutor Helm" "Sekhem" "Serpent Wand" "Serrated Foil" "Siege Helmet" "Silk Gloves" "Silken Wrap" "Sinner Tricorne" "Solar Maul" "Sorcerer Gloves" "Spiraled Foil" "Steel Gauntlets" "Sun Plate" "Talon Axe" "Thorium Spirit Shield" "Timber Axe" "Titan Gauntlets" "Titan Greaves" "Titanium Spirit Shield" "Topaz Ring" "Tornado Wand" "Trapper Boots" "Twin Claw" "Two-Toned Boots" "Unset Ring" "Vaal Axe" "Vaal Buckler" "Vaal Gauntlets" "Vaal Greatsword" "Vaal Sceptre" "Vaal Spirit Shield" "Void Axe" "Void Sceptre" "Walnut Spirit Shield" "War Axe" "Zodiac Leather"
 	SetTextColor 205 101 110 255 # Conqueror Text
 	SetBackgroundColor 86 6 11 255 # Conqueror Highlight Background
 	SetBorderColor 143 46 54 255 # Conqueror Border
@@ -2824,7 +3053,7 @@ Show
 	HasInfluence = "Elder"
 	Rarity <= Rare
 	ItemLevel >= 86
-	BaseType = "Assassin's Garb" "Cerulean Ring" "Convoking Wand" "Eternal Burgonet" "Ezomyte Burgonet" "Ezomyte Tower Shield" "Fleshripper" "Gripped Gloves" "Harmonic Spirit Shield" "Horned Sceptre" "Hubris Circlet" "Piledriver" "Praetor Crown" "Reaver Helmet" "Ritual Sceptre" "Riveted Boots" "Royal Burgonet" "Samite Helmet" "Satin Slippers" "Secutor Helm" "Shackled Boots" "Sorcerer Boots" "Steelscale Boots" "Titan Greaves" "Vaal Axe" "Vaal Greaves" "Vanguard Belt" "Zealot Boots"
+	BaseType = "Assassin's Garb" "Cerulean Ring" "Convoking Wand" "Eternal Burgonet" "Ezomyte Burgonet" "Ezomyte Tower Shield" "Fleshripper" "Gripped Gloves" "Harmonic Spirit Shield" "Horned Sceptre" "Hubris Circlet" "Piledriver" "Praetor Crown" "Reaver Helmet" "Ritual Sceptre" "Riveted Boots" "Royal Burgonet" "Samnite Helmet" "Satin Slippers" "Secutor Helm" "Shackled Boots" "Sorcerer Boots" "Steelscale Boots" "Titan Greaves" "Vaal Axe" "Vaal Greaves" "Vanguard Belt" "Zealot Boots"
 	SetTextColor 145 120 131 255 # Elder Text
 	SetBackgroundColor 33 23 33 255 # Elder Highlight Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -2852,7 +3081,7 @@ Show
 	HasInfluence = "Elder"
 	Rarity <= Rare
 	ItemLevel >= 85
-	BaseType = "Agate Amulet" "Amber Amulet" "Ambush Boots" "Ambush Mitts" "Ancient Greaves" "Antique Greaves" "Arcanist Gloves" "Arcanist Slippers" "Arena Plate" "Assassin Bow" "Assassin's Boots" "Assassin's Garb" "Aventail Helmet" "Battle Plate" "Blue Pearl Amulet" "Bone Circlet" "Bronze Plate" "Callous Mask" "Cardinal Round Shield" "Carnal Boots" "Cerulean Ring" "Citadel Bow" "Citrine Amulet" "Close Helmet" "Colossal Tower Shield" "Compound Spiked Shield" "Conjurer Boots" "Convoking Wand" "Courtesan Sword" "Crusader Boots" "Crystal Sceptre" "Death Bow" "Decurve Bow" "Deicide Mask" "Diamond Ring" "Dragon Mace" "Dragonscale Boots" "Dream Mace" "Eternal Burgonet" "Exquisite Blade" "Ezomyte Blade" "Ezomyte Burgonet" "Ezomyte Tower Shield" "Fencer Helm" "Fleshripper" "Fluted Bascinet" "Footman Sword" "Gemini Claw" "Gilded Sallet" "Gladiator Helmet" "Glorious Plate" "Gold Amulet" "Golden Mask" "Goliath Greaves" "Great Crown" "Grove Bow" "Harbinger Bow" "Harlequin Mask" "Harmonic Spirit Shield" "Headsman Axe" "Heavy Belt" "Horned Sceptre" "Hubris Circlet" "Hunter Hood" "Hydrascale Boots" "Imperial Bow" "Imperial Claw" "Iron Greaves" "Ivory Spirit Shield" "Jade Amulet" "Jasper Axe" "Jasper Chopper" "Judgement Staff" "Lacquered Buckler" "Lacquered Helmet" "Lapis Amulet" "Leather Belt" "Legion Boots" "Lion Pelt" "Lunaris Circlet" "Maelström Staff" "Magistrate Crown" "Maraketh Bow" "Mesh Boots" "Mind Cage" "Mirrored Spiked Shield" "Moonstone Ring" "Murder Boots" "Necromancer Circlet" "Nightmare Bascinet" "Noble Tricorne" "Nubuck Boots" "Nubuck Gloves" "Ochre Sceptre" "Onyx Amulet" "Ornate Mace" "Pagan Wand" "Painted Tower Shield" "Paua Amulet" "Pig-Faced Bascinet" "Piledriver" "Pinnacle Tower Shield" "Poignard" "Praetor Crown" "Prophet Crown" "Ranger Bow" "Raven Mask" "Reaver Axe" "Reaver Helmet" "Regicide Mask" "Reinforced Greaves" "Ritual Sceptre" "Riveted Boots" "Royal Axe" "Royal Burgonet" "Ruby Ring" "Sage's Robe" "Samite Helmet" "Samite Slippers" "Sapphire Ring" "Satin Slippers" "Secutor Helm" "Shackled Boots" "Shagreen Boots" "Sharkskin Boots" "Sharktooth Arrow Quiver" "Siege Axe" "Siege Helmet" "Silk Robe" "Silken Hood" "Sinner Tricorne" "Slink Boots" "Slink Gloves" "Solaris Circlet" "Soldier Boots" "Sorcerer Boots" "Sorcerer Gloves" "Spiked Round Shield" "Spine Bow" "Spiny Round Shield" "Stealth Boots" "Steel Circlet" "Steelscale Boots" "Sundering Axe" "Talon Axe" "Thicket Bow" "Titan Gauntlets" "Titan Greaves" "Titanium Spirit Shield" "Tomahawk" "Topaz Ring" "Trapper Boots" "Trisula" "Turquoise Amulet" "Twin Claw" "Two-Stone Ring" "Unset Ring" "Ursine Pelt" "Vaal Buckler" "Vaal Gauntlets" "Vaal Greaves" "Vaal Mask" "Vaal Regalia" "Walnut Spirit Shield" "Wyrmbone Rapier" "Wyrmscale Boots" "Zealot Gloves" "Zealot Helmet"
+	BaseType = "Agate Amulet" "Amber Amulet" "Ambush Boots" "Ambush Mitts" "Ancient Greaves" "Antique Greaves" "Arcanist Gloves" "Arcanist Slippers" "Arena Plate" "Assassin Bow" "Assassin's Boots" "Assassin's Garb" "Aventail Helmet" "Battle Plate" "Blue Pearl Amulet" "Bone Circlet" "Bronze Plate" "Callous Mask" "Cardinal Round Shield" "Carnal Boots" "Cerulean Ring" "Citadel Bow" "Citrine Amulet" "Close Helmet" "Colossal Tower Shield" "Compound Spiked Shield" "Conjurer Boots" "Convoking Wand" "Courtesan Sword" "Crusader Boots" "Crystal Sceptre" "Death Bow" "Decurve Bow" "Deicide Mask" "Diamond Ring" "Dragon Mace" "Dragonscale Boots" "Dream Mace" "Eternal Burgonet" "Exquisite Blade" "Ezomyte Blade" "Ezomyte Burgonet" "Ezomyte Tower Shield" "Fencer Helm" "Fleshripper" "Fluted Bascinet" "Footman Sword" "Gemini Claw" "Gilded Sallet" "Gladiator Helmet" "Glorious Plate" "Gold Amulet" "Golden Mask" "Goliath Greaves" "Great Crown" "Grove Bow" "Harbinger Bow" "Harlequin Mask" "Harmonic Spirit Shield" "Headsman Axe" "Heavy Belt" "Horned Sceptre" "Hubris Circlet" "Hunter Hood" "Hydrascale Boots" "Imperial Bow" "Imperial Claw" "Iron Greaves" "Ivory Spirit Shield" "Jade Amulet" "Jasper Axe" "Jasper Chopper" "Judgement Staff" "Lacquered Buckler" "Lacquered Helmet" "Lapis Amulet" "Leather Belt" "Legion Boots" "Lion Pelt" "Lunaris Circlet" "Maelström Staff" "Magistrate Crown" "Maraketh Bow" "Mesh Boots" "Mind Cage" "Mirrored Spiked Shield" "Moonstone Ring" "Murder Boots" "Necromancer Circlet" "Nightmare Bascinet" "Noble Tricorne" "Nubuck Boots" "Nubuck Gloves" "Ochre Sceptre" "Onyx Amulet" "Ornate Mace" "Pagan Wand" "Painted Tower Shield" "Paua Amulet" "Pig-Faced Bascinet" "Piledriver" "Pinnacle Tower Shield" "Poignard" "Praetor Crown" "Prophet Crown" "Ranger Bow" "Raven Mask" "Reaver Axe" "Reaver Helmet" "Regicide Mask" "Reinforced Greaves" "Ritual Sceptre" "Riveted Boots" "Royal Axe" "Royal Burgonet" "Ruby Ring" "Sage's Robe" "Samnite Helmet" "Samite Slippers" "Sapphire Ring" "Satin Slippers" "Secutor Helm" "Shackled Boots" "Shagreen Boots" "Sharkskin Boots" "Sharktooth Arrow Quiver" "Siege Axe" "Siege Helmet" "Silk Robe" "Silken Hood" "Sinner Tricorne" "Slink Boots" "Slink Gloves" "Solaris Circlet" "Soldier Boots" "Sorcerer Boots" "Sorcerer Gloves" "Spiked Round Shield" "Spine Bow" "Spiny Round Shield" "Stealth Boots" "Steel Circlet" "Steelscale Boots" "Sundering Axe" "Talon Axe" "Thicket Bow" "Titan Gauntlets" "Titan Greaves" "Titanium Spirit Shield" "Tomahawk" "Topaz Ring" "Trapper Boots" "Trisula" "Turquoise Amulet" "Twin Claw" "Two-Stone Ring" "Unset Ring" "Ursine Pelt" "Vaal Buckler" "Vaal Gauntlets" "Vaal Greaves" "Vaal Mask" "Vaal Regalia" "Walnut Spirit Shield" "Wyrmbone Rapier" "Wyrmscale Boots" "Zealot Gloves" "Zealot Helmet"
 	SetTextColor 145 120 131 255 # Elder Text
 	SetBackgroundColor 33 23 33 255 # Elder Highlight Background
 	SetBorderColor 145 120 131 255 # Elder Border
@@ -2912,7 +3141,7 @@ Show
 	SetBackgroundColor 0 0 254 255 # Crafting Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3"
+	CustomAlertSound "gfT15.mp3" 100
 	MinimapIcon 1 Red Hexagon
 
 # Tier0 Crafting Bases
@@ -3008,7 +3237,7 @@ Show
 #	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
 #	SetBorderColor 200 186 153 255 # Currency Border
 #	SetFontSize 45 # Yuge
-#	CustomAlertSound "gfT3.mp3"
+#	CustomAlertSound "gfT3.mp3" 100
 #	MinimapIcon 1 White Circle
 #	PlayEffect Yellow Temp
 #	#BlockStrictness 3 Disable
@@ -3506,7 +3735,7 @@ Show
 	SetBackgroundColor 255 255 119 255 # Rare Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3"
+	CustomAlertSound "gfT15.mp3" 100
 	MinimapIcon 1 Red Hexagon
 	PlayEffect Yellow 
 
@@ -3760,7 +3989,7 @@ Show
 	SetBackgroundColor 255 255 255 255 # Tier0 Background
 	SetBorderColor 26 162 155 255 # Gem Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT0.mp3"
+	CustomAlertSound "gfT0.mp3" 100
 	MinimapIcon 0 Red Hexagon
 	PlayEffect Red 
 
@@ -3772,7 +4001,7 @@ Show
 	SetBackgroundColor 255 255 255 255 # Tier0 Background
 	SetBorderColor 26 162 155 255 # Gem Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT0.mp3"
+	CustomAlertSound "gfT0.mp3" 100
 	MinimapIcon 0 Red Hexagon
 	PlayEffect Red 
 
@@ -3784,7 +4013,7 @@ Show
 	SetBackgroundColor 26 162 155 255 # Gem Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT1.mp3"
+	CustomAlertSound "gfT1.mp3" 100
 	MinimapIcon 0 Red Hexagon
 	PlayEffect Red 
 
@@ -3797,7 +4026,7 @@ Show
 	SetBackgroundColor 26 162 155 255 # Gem Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3"
+	CustomAlertSound "gfT15.mp3" 100
 	MinimapIcon 0 Red Hexagon
 	PlayEffect Red 
 
@@ -3809,7 +4038,7 @@ Show
 	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
 	SetBorderColor 26 162 155 255 # Gem Border
 	SetFontSize 41 # Big
-	CustomAlertSound "gfT2.mp3"
+	CustomAlertSound "gfT2.mp3" 100
 	MinimapIcon 1 Yellow Hexagon
 
 # Gem Vaal lvl21
@@ -3822,7 +4051,7 @@ Show
 	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
 	SetBorderColor 161 27 123 255 # Vaal Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3"
+	CustomAlertSound "gfT15.mp3" 100
 	MinimapIcon 0 Red Hexagon
 
 # Gem lvl21
@@ -3833,7 +4062,7 @@ Show
 	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
 	SetBorderColor 26 162 155 255 # Gem Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3"
+	CustomAlertSound "gfT15.mp3" 100
 	MinimapIcon 1 Red Hexagon
 
 # Gem Quality 20
@@ -3844,7 +4073,7 @@ Show
 	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
 	SetBorderColor 26 162 155 255 # Gem Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3"
+	CustomAlertSound "gfT2.mp3" 100
 	MinimapIcon 1 Yellow Hexagon
 
 # Portal Gem Quality
@@ -3856,7 +4085,7 @@ Show
 	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
 	SetBorderColor 26 162 155 255 # Gem Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3"
+	CustomAlertSound "gfT2.mp3" 100
 	MinimapIcon 1 Yellow Hexagon
 
 # Portal Gem
@@ -3867,7 +4096,7 @@ Show
 #	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
 #	SetBorderColor 26 162 155 255 # Gem Border
 #	SetFontSize 41 # Big
-#	CustomAlertSound "gfT3.mp3"
+#	CustomAlertSound "gfT3.mp3" 100
 #	MinimapIcon 1 White Hexagon
 #	#BlockStrictness 2 Disable
 
@@ -3881,7 +4110,7 @@ Show
 	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
 	SetBorderColor 161 27 123 255 # Vaal Border
 	SetFontSize 41 # Big
-	CustomAlertSound "gfT3.mp3"
+	CustomAlertSound "gfT3.mp3" 100
 	MinimapIcon 2 White Hexagon
 
 # Gem Vaal T2
@@ -3893,7 +4122,7 @@ Show
 	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
 	SetBorderColor 161 27 123 255 # Vaal Border
 	SetFontSize 41 # Big
-	CustomAlertSound "gfT3.mp3"
+	CustomAlertSound "gfT3.mp3" 100
 	MinimapIcon 2 White Hexagon
 
 # Gem Vaal
@@ -4533,7 +4762,7 @@ Hide
 # STR Armor
 #Hide
 #	Rarity <= Magic
-#	BaseType = "Plate" "Greave" "Burgonet" "Goliath" "Gladiator" "Antique" "Vaal Gauntlet" "Titan Gauntlet" "Steel Gauntlet" "Siege" "Reaver" "Iron Gauntlet" "Hat" "Cone" "Close" "Chestplate" "Bronze Gauntlet" "Barbute" "Ancient Gauntlet" "Samite Helmet" "Spiked Gloves"
+#	BaseType = "Plate" "Greave" "Burgonet" "Goliath" "Gladiator" "Antique" "Vaal Gauntlet" "Titan Gauntlet" "Steel Gauntlet" "Siege" "Reaver" "Iron Gauntlet" "Hat" "Cone" "Close" "Chestplate" "Bronze Gauntlet" "Barbute" "Ancient Gauntlet" "Samnite Helmet" "Spiked Gloves"
 #	SetBackgroundColor 0 0 0 210 # Junk Background
 #	#BlockStrictness 3 Disable
 
