@@ -1773,6 +1773,31 @@ Show
 	MinimapIcon 2 White Diamond
 
 #-------------------------------------------------------------------------------
+# Subsection: Lure
+#-------------------------------------------------------------------------------
+
+# Not-as-Junk Lure
+Show
+	Class = "Map Fragments"
+	BaseType = "Fenumal Lure" "Craicic Lure"
+	SetTextColor 255 200 0 255 # Legacy Text
+	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
+	SetBorderColor 242 93 39 255 # Heist Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT15.mp3" 100
+	MinimapIcon 1 Red Diamond
+
+# Junk Lure
+Show
+	Class = "Map Fragments"
+	BaseType = "Lure"
+	SetTextColor 255 200 0 255 # Legacy Text
+	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
+	SetFontSize 41 # Big
+	CustomAlertSound "gfT2.mp3" 100
+	MinimapIcon 1 Yellow Diamond
+
+#-------------------------------------------------------------------------------
 # Subsection: Atlas Stuff
 #-------------------------------------------------------------------------------
 
