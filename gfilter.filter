@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.13.0
+# VERSION:       3.13.1
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -31,7 +31,7 @@ Show
 	SetBackgroundColor 255 255 255 255
 	SetBorderColor 255 0 0 255
 	SetFontSize 45
-	CustomAlertSound "gfT0.mp3" 100
+	CustomAlertSound "gfT0.mp3" 200
 	MinimapIcon 0 Red Star
 	PlayEffect Red 
 
@@ -103,7 +103,7 @@ Show
 	SetTextColor 150 0 0 255
 	SetBackgroundColor 40 4 0 255 # Breach Red Highlight Background
 	SetFontSize 37 # Medium
-	CustomAlertSound "gfT2.mp3" 100
+	CustomAlertSound "gfT2.mp3" 200
 	MinimapIcon 2 Yellow Circle
 	PlayEffect Red Temp
 
@@ -113,7 +113,7 @@ Show
 	SetTextColor 150 0 0 255
 	SetBackgroundColor 40 4 0 255 # Breach Red Highlight Background
 	SetFontSize 41 # Big
-	CustomAlertSound "gfT2.mp3" 100
+	CustomAlertSound "gfT2.mp3" 200
 	MinimapIcon 1 Yellow Diamond
 	PlayEffect Red 
 
@@ -133,7 +133,7 @@ Show
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetBorderColor 242 93 39 255 # Heist Border
 	SetFontSize 41 # Big
-	CustomAlertSound "gfT3.mp3" 100
+	CustomAlertSound "gfT3.mp3" 200
 	MinimapIcon 2 White Circle
 
 # Heist Trinket
@@ -142,7 +142,7 @@ Show
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetBorderColor 242 93 39 255 # Heist Border
 	SetFontSize 41 # Big
-	CustomAlertSound "gfT2.mp3" 100
+	CustomAlertSound "gfT2.mp3" 200
 	MinimapIcon 1 Orange Hexagon
 
 # T1 Heist Currency
@@ -152,7 +152,7 @@ Show
 	SetBackgroundColor 200 186 153 255 # Currency Background
 	SetBorderColor 242 93 39 255 # Heist Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT1.mp3" 100
+	CustomAlertSound "gfT1.mp3" 200
 	MinimapIcon 0 Red Circle
 
 # T0 Heist Currency
@@ -162,7 +162,7 @@ Show
 	SetBackgroundColor 200 186 153 255 # Currency Background
 	SetBorderColor 242 93 39 255 # Heist Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT0.mp3" 100
+	CustomAlertSound "gfT0.mp3" 200
 	MinimapIcon 0 Red Circle
 
 # Heist Target
@@ -209,7 +209,7 @@ Show
 	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
 	SetBorderColor 242 93 39 255 # Heist Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3" 100
+	CustomAlertSound "gfT2.mp3" 200
 	MinimapIcon 1 Yellow Hexagon
 
 #-------------------------------------------------------------------------------
@@ -248,7 +248,7 @@ Show
 	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
 	SetBorderColor 67 162 230 255 # Harvest Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3" 100
+	CustomAlertSound "gfT15.mp3" 200
 	MinimapIcon 0 Red Diamond
 
 # Harvest Offering T1
@@ -259,7 +259,7 @@ Show
 	SetBackgroundColor 74 230 58 255 # Quest Background
 	SetBorderColor 67 162 230 255 # Harvest Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3" 100
+	CustomAlertSound "gfT15.mp3" 200
 	MinimapIcon 0 Red Diamond
 	PlayEffect Red 
 
@@ -271,7 +271,7 @@ Show
 	SetBackgroundColor 74 230 58 255 # Quest Background
 	SetBorderColor 67 162 230 255 # Harvest Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3" 100
+	CustomAlertSound "gfT2.mp3" 200
 	MinimapIcon 1 Yellow Diamond
 	PlayEffect Green Temp
 
@@ -287,7 +287,7 @@ Show
 #	SetBackgroundColor 67 162 255 255 # Harvest Background
 #	SetBorderColor 255 255 255 255 # Tier1 Border
 #	SetFontSize 45 # Yuge
-#	CustomAlertSound "gfT1.mp3" 100
+#	CustomAlertSound "gfT1.mp3" 200
 #	MinimapIcon 0 Red Raindrop
 #	PlayEffect Red 
 
@@ -299,7 +299,7 @@ Show
 #	SetBackgroundColor 67 162 255 255 # Harvest Background
 #	SetBorderColor 255 255 255 255 # Tier1 Border
 #	SetFontSize 45 # Yuge
-#	CustomAlertSound "gfT15.mp3" 100
+#	CustomAlertSound "gfT15.mp3" 200
 #	MinimapIcon 1 Red Raindrop
 #	PlayEffect Blue 
 
@@ -311,7 +311,7 @@ Show
 #	SetBackgroundColor 25 35 50 255 # Harvest Highlight Background
 #	SetBorderColor 67 162 230 255 # Harvest Border
 #	SetFontSize 45 # Yuge
-#	CustomAlertSound "gfT2.mp3" 100
+#	CustomAlertSound "gfT2.mp3" 200
 #	MinimapIcon 1 Yellow Raindrop
 #	PlayEffect Blue Temp
 
@@ -364,7 +364,7 @@ Show
 #	BaseType = "Grain"
 #	SetBorderColor 0 0 0 0 # No Border
 #	SetFontSize 45 # Yuge
-#	CustomAlertSound "gfT3.mp3" 100
+#	CustomAlertSound "gfT3.mp3" 200
 #	MinimapIcon 1 Yellow Raindrop
 
 # Seed
@@ -372,7 +372,7 @@ Show
 #	Class = "Harvest Seed"
 #	BaseType = "Bulb"
 #	SetFontSize 45 # Yuge
-#	CustomAlertSound "gfT2.mp3" 100
+#	CustomAlertSound "gfT2.mp3" 200
 #	MinimapIcon 1 Red Raindrop
 
 # Fruits
@@ -383,7 +383,7 @@ Show
 #	SetBackgroundColor 0 252 252 255 # Primal Background
 #	SetBorderColor 255 255 255 255 # Tier1 Border
 #	SetFontSize 45 # Yuge
-#	CustomAlertSound "gfT15.mp3" 100
+#	CustomAlertSound "gfT15.mp3" 200
 #	MinimapIcon 0 Red Raindrop
 #	PlayEffect Cyan 
 
@@ -395,7 +395,7 @@ Show
 #	SetBackgroundColor 252 252 0 255 # Vivid Background
 #	SetBorderColor 255 255 255 255 # Tier1 Border
 #	SetFontSize 45 # Yuge
-#	CustomAlertSound "gfT15.mp3" 100
+#	CustomAlertSound "gfT15.mp3" 200
 #	MinimapIcon 0 Red Raindrop
 #	PlayEffect Yellow 
 
@@ -407,7 +407,7 @@ Show
 #	SetBackgroundColor 252 0 252 255 # Wild Background
 #	SetBorderColor 255 255 255 255 # Tier1 Border
 #	SetFontSize 45 # Yuge
-#	CustomAlertSound "gfT15.mp3" 100
+#	CustomAlertSound "gfT15.mp3" 200
 #	MinimapIcon 0 Red Raindrop
 #	PlayEffect Pink 
 
@@ -423,7 +423,7 @@ Show
 	SetBackgroundColor 100 100 100 240 # Delirium Background
 	SetBorderColor 200 186 153 255 # Currency Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3" 100
+	CustomAlertSound "gfT15.mp3" 200
 	MinimapIcon 1 Red Circle
 	PlayEffect White 
 
@@ -435,7 +435,7 @@ Show
 	SetBackgroundColor 100 100 100 240 # Delirium Background
 	SetBorderColor 200 186 153 255 # Currency Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3" 100
+	CustomAlertSound "gfT2.mp3" 200
 	MinimapIcon 1 Yellow Circle
 	PlayEffect White Temp
 
@@ -446,7 +446,7 @@ Show
 	SetTextColor 210 210 210 255 # Delirium Text
 	SetBackgroundColor 100 100 100 240 # Delirium Background
 	SetFontSize 41 # Big
-	CustomAlertSound "gfT3.mp3" 100
+	CustomAlertSound "gfT3.mp3" 200
 	MinimapIcon 2 White Circle
 
 # Simulacrum Map
@@ -496,7 +496,7 @@ Show
 	SetBackgroundColor 15 27 15 255 # Metamorph Highlight Background
 	SetBorderColor 125 180 50 255 # Metamorph Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3" 100
+	CustomAlertSound "gfT2.mp3" 200
 	MinimapIcon 1 Yellow Circle
 
 # Catalyst Junk
@@ -507,7 +507,7 @@ Show
 	SetBackgroundColor 15 27 15 255 # Metamorph Highlight Background
 	SetBorderColor 125 180 50 255 # Metamorph Border
 	SetFontSize 41 # Big
-	CustomAlertSound "gfT3.mp3" 100
+	CustomAlertSound "gfT3.mp3" 200
 	MinimapIcon 2 White Circle
 
 #===============================================================================
@@ -550,7 +550,7 @@ Show
 	SetBackgroundColor 200 200 75 255 # Blight Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT1.mp3" 100
+	CustomAlertSound "gfT1.mp3" 200
 	MinimapIcon 0 Red Circle
 
 # T15 Oil
@@ -560,7 +560,7 @@ Show
 	SetBackgroundColor 30 30 0 255 # Blight Highlight Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3" 100
+	CustomAlertSound "gfT15.mp3" 200
 	MinimapIcon 1 Red Circle
 
 # T2 Oil
@@ -570,7 +570,7 @@ Show
 	SetBackgroundColor 30 30 0 255 # Blight Highlight Background
 	SetBorderColor 200 150 0 255 # Blight Border
 	SetFontSize 41 # Big
-	CustomAlertSound "gfT2.mp3" 100
+	CustomAlertSound "gfT2.mp3" 200
 	MinimapIcon 1 Yellow Circle
 
 # T3 Oil
@@ -590,7 +590,7 @@ Show
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 88 52 126 255 # Legion Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3" 100
+	CustomAlertSound "gfT15.mp3" 200
 	MinimapIcon 0 Red Diamond
 	PlayEffect Red 
 
@@ -623,7 +623,7 @@ Show
 	SetBackgroundColor 28 16 40 255 # Legion Background
 	SetBorderColor 88 52 126 255 # Legion Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3" 100
+	CustomAlertSound "gfT15.mp3" 200
 	MinimapIcon 1 Red Circle
 	PlayEffect Red 
 
@@ -636,7 +636,7 @@ Show
 	SetBackgroundColor 28 16 40 255 # Legion Background
 	SetBorderColor 88 52 126 255 # Legion Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3" 100
+	CustomAlertSound "gfT2.mp3" 200
 	MinimapIcon 1 Yellow Circle
 	PlayEffect Yellow Temp
 
@@ -648,7 +648,7 @@ Show
 	SetBackgroundColor 28 16 40 255 # Legion Background
 	SetBorderColor 88 52 126 255 # Legion Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3" 100
+	CustomAlertSound "gfT2.mp3" 200
 	MinimapIcon 1 Yellow Circle
 	PlayEffect Yellow Temp
 
@@ -803,7 +803,7 @@ Show
 	SetBackgroundColor 5 18 36 255 # Delve Highlight Background
 	SetBorderColor 102 193 245 255 # Delve Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3" 100
+	CustomAlertSound "gfT2.mp3" 200
 	MinimapIcon 0 Blue Circle
 	PlayEffect Blue 
 
@@ -827,7 +827,7 @@ Show
 	SetBackgroundColor 255 255 255 255 # Tier0 Background
 	SetBorderColor 102 193 245 255 # Delve Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT0.mp3" 100
+	CustomAlertSound "gfT0.mp3" 200
 	MinimapIcon 0 Red Circle
 	PlayEffect Red 
 
@@ -839,7 +839,7 @@ Show
 	SetBackgroundColor 102 193 245 255 # Delve Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT1.mp3" 100
+	CustomAlertSound "gfT1.mp3" 200
 	MinimapIcon 0 Blue Circle
 	PlayEffect Blue 
 
@@ -851,7 +851,7 @@ Show
 	SetBackgroundColor 102 193 245 255 # Delve Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3" 100
+	CustomAlertSound "gfT15.mp3" 200
 	MinimapIcon 1 Blue Circle
 	PlayEffect Blue 
 
@@ -870,7 +870,7 @@ Show
 	SetBackgroundColor 5 18 36 255 # Delve Highlight Background
 	SetBorderColor 102 193 245 255 # Delve Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3" 100
+	CustomAlertSound "gfT2.mp3" 200
 	MinimapIcon 2 Blue Circle
 	PlayEffect Blue Temp
 
@@ -886,7 +886,7 @@ Show
 	SetBackgroundColor 255 255 255 255 # Tier0 Background
 	SetBorderColor 150 204 130 255 # Incursion Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT0.mp3" 100
+	CustomAlertSound "gfT0.mp3" 200
 	MinimapIcon 0 Red Circle
 	PlayEffect Red 
 
@@ -898,7 +898,7 @@ Show
 	SetBackgroundColor 175 45 35 255 # Incursion Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT1.mp3" 100
+	CustomAlertSound "gfT1.mp3" 200
 	MinimapIcon 0 Red Circle
 	PlayEffect Red 
 
@@ -909,7 +909,7 @@ Show
 	SetTextColor 175 45 35 255 # Incursion Text
 	SetBackgroundColor 10 35 34 240 # Incursion Highlight Background
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3" 100
+	CustomAlertSound "gfT2.mp3" 200
 	MinimapIcon 2 Yellow Circle
 	PlayEffect Red Temp
 
@@ -1021,7 +1021,7 @@ Show
 	SetTextColor 166 95 244 255 # Breach Text
 	SetBackgroundColor 40 4 0 255 # Breach Red Highlight Background
 	SetFontSize 41 # Big
-	CustomAlertSound "gfT2.mp3" 100
+	CustomAlertSound "gfT2.mp3" 200
 	MinimapIcon 2 Yellow Circle
 
 # Breachstone
@@ -1048,7 +1048,7 @@ Show
 	SetBackgroundColor 255 255 255 255 # Tier0 Background
 	SetBorderColor 182 20 0 255 # Breach Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT1.mp3" 100
+	CustomAlertSound "gfT1.mp3" 200
 	MinimapIcon 0 Red Diamond
 	PlayEffect Red 
 
@@ -1101,7 +1101,7 @@ Show
 	SetBackgroundColor 255 255 255 255 # Tier0 Background
 	SetBorderColor 125 0 175 255 # Prophecy Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT0.mp3" 100
+	CustomAlertSound "gfT0.mp3" 200
 	MinimapIcon 0 Red Circle
 
 # Prophecy Tier1
@@ -1112,7 +1112,7 @@ Show
 	SetBackgroundColor 125 0 175 255 # Prophecy Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT1.mp3" 100
+	CustomAlertSound "gfT1.mp3" 200
 	MinimapIcon 0 Red Circle
 
 # Prophecy Tier1.5
@@ -1123,7 +1123,7 @@ Show
 	SetBackgroundColor 125 0 175 255 # Prophecy Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3" 100
+	CustomAlertSound "gfT15.mp3" 200
 	MinimapIcon 1 Red Circle
 
 # Prophecy Trash
@@ -1155,7 +1155,7 @@ Show
 	SetBackgroundColor 128 179 254 255 # Essence Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3" 100
+	CustomAlertSound "gfT15.mp3" 200
 	MinimapIcon 0 Red Circle
 	PlayEffect Blue 
 
@@ -1167,7 +1167,7 @@ Show
 	SetBackgroundColor 25 36 51 255 # Essence Highlight Background
 	SetBorderColor 128 179 254 255 # Essence Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3" 100
+	CustomAlertSound "gfT2.mp3" 200
 	MinimapIcon 1 Yellow Circle
 	PlayEffect Blue 
 
@@ -1201,7 +1201,7 @@ Show
 	SetBackgroundColor 255 200 0 255 # Legacy Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT0.mp3" 100
+	CustomAlertSound "gfT0.mp3" 200
 	MinimapIcon 0 Red Diamond
 
 # Leaguestone Trash
@@ -1232,7 +1232,7 @@ Show
 	SetTextColor 255 200 0 255 # Legacy Text
 	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3" 100
+	CustomAlertSound "gfT2.mp3" 200
 
 # Leaguestone Magic
 Show
@@ -1277,7 +1277,7 @@ Show
 	SetBackgroundColor 255 255 255 255 # Tier0 Background
 	SetBorderColor 14 186 255 255 # Divination Card Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT0.mp3" 100
+	CustomAlertSound "gfT0.mp3" 200
 	MinimapIcon 0 Red Star
 	PlayEffect Blue 
 
@@ -1293,7 +1293,7 @@ Show
 	SetBackgroundColor 14 186 255 255 # Divination Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT1.mp3" 100
+	CustomAlertSound "gfT1.mp3" 200
 	MinimapIcon 0 Red Star
 	PlayEffect Blue 
 
@@ -1305,7 +1305,7 @@ Show
 	SetBackgroundColor 14 186 255 255 # Divination Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3" 100
+	CustomAlertSound "gfT15.mp3" 200
 	MinimapIcon 1 Red Star
 	PlayEffect Blue 
 
@@ -1321,7 +1321,7 @@ Show
 	SetBackgroundColor 25 33 33 255 # Divination Card Highlight Background
 	SetBorderColor 14 186 255 255 # Divination Card Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3" 100
+	CustomAlertSound "gfT2.mp3" 200
 	MinimapIcon 1 Yellow Star
 	PlayEffect Blue 
 
@@ -1333,7 +1333,7 @@ Show
 	SetBackgroundColor 25 33 33 255 # Divination Card Highlight Background
 	SetBorderColor 14 186 255 255 # Divination Card Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3" 100
+	CustomAlertSound "gfT2.mp3" 200
 	MinimapIcon 1 Yellow Star
 	PlayEffect Blue 
 
@@ -1345,7 +1345,7 @@ Show
 	SetBackgroundColor 25 33 33 255 # Divination Card Highlight Background
 	SetBorderColor 14 186 255 255 # Divination Card Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3" 100
+	CustomAlertSound "gfT2.mp3" 200
 	MinimapIcon 1 Yellow Star
 	PlayEffect Blue 
 
@@ -1415,7 +1415,7 @@ Show
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT3.mp3" 100
+	CustomAlertSound "gfT3.mp3" 200
 	MinimapIcon 2 White Circle
 
 #-------------------------------------------------------------------------------
@@ -1476,7 +1476,7 @@ Show
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT3.mp3" 100
+	CustomAlertSound "gfT3.mp3" 200
 	MinimapIcon 2 White Circle
 
 # Currency Tier4
@@ -1497,7 +1497,7 @@ Show
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetBorderColor 200 186 153 255 # Currency Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3" 100
+	CustomAlertSound "gfT2.mp3" 200
 	MinimapIcon 1 Yellow Circle
 	PlayEffect Yellow Temp
 
@@ -1508,7 +1508,7 @@ Show
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT3.mp3" 100
+	CustomAlertSound "gfT3.mp3" 200
 	MinimapIcon 1 White Circle
 	PlayEffect White Temp
 
@@ -1520,7 +1520,7 @@ Show
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetBorderColor 200 186 153 255 # Currency Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3" 100
+	CustomAlertSound "gfT2.mp3" 200
 	MinimapIcon 1 Yellow Circle
 	PlayEffect Yellow 
 
@@ -1532,7 +1532,7 @@ Show
 	SetBackgroundColor 200 186 153 255 # Currency Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3" 100
+	CustomAlertSound "gfT15.mp3" 200
 	MinimapIcon 1 Red Circle
 	PlayEffect Yellow 
 
@@ -1544,7 +1544,7 @@ Show
 	SetBackgroundColor 200 186 153 255 # Currency Background
 	SetBorderColor 143 46 54 255 # Conqueror Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT1.mp3" 100
+	CustomAlertSound "gfT1.mp3" 200
 	MinimapIcon 0 Red Circle
 	PlayEffect Yellow 
 
@@ -1556,7 +1556,7 @@ Show
 	SetBackgroundColor 200 186 153 255 # Currency Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT1.mp3" 100
+	CustomAlertSound "gfT1.mp3" 200
 	MinimapIcon 0 Red Circle
 	PlayEffect Yellow 
 
@@ -1567,7 +1567,7 @@ Show
 	SetBackgroundColor 255 255 255 255 # Tier0 Background
 	SetBorderColor 200 186 153 255 # Currency Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT0.mp3" 100
+	CustomAlertSound "gfT0.mp3" 200
 	MinimapIcon 0 Red Circle
 	PlayEffect Yellow 
 
@@ -1611,7 +1611,7 @@ Show
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetBorderColor 200 200 200 255 # Apprentice Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3" 100
+	CustomAlertSound "gfT2.mp3" 200
 	MinimapIcon 0 Yellow Circle
 	PlayEffect Yellow Temp
 
@@ -1623,7 +1623,7 @@ Show
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetBorderColor 254 170 0 255 # Journeyman Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3" 100
+	CustomAlertSound "gfT2.mp3" 200
 	MinimapIcon 1 Yellow Circle
 	PlayEffect Yellow Temp
 
@@ -1635,7 +1635,7 @@ Show
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetBorderColor 191 0 0 255 # Master Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3" 100
+	CustomAlertSound "gfT2.mp3" 200
 	MinimapIcon 1 Yellow Circle
 	PlayEffect Yellow Temp
 
@@ -1647,7 +1647,7 @@ Show
 	SetBackgroundColor 0 0 64 255 # Synthesis Highlight Background
 	SetBorderColor 255 200 0 255 # Legacy Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3" 100
+	CustomAlertSound "gfT15.mp3" 200
 	MinimapIcon 0 Red Circle
 	PlayEffect Yellow 
 
@@ -1758,7 +1758,7 @@ Show
 	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
 	SetBorderColor 255 200 0 255 # Legacy Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3" 100
+	CustomAlertSound "gfT15.mp3" 200
 	MinimapIcon 1 Red Diamond
 	PlayEffect Yellow 
 
@@ -1770,7 +1770,7 @@ Show
 	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
 	SetBorderColor 0 0 0 0 # No Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3" 100
+	CustomAlertSound "gfT2.mp3" 200
 	MinimapIcon 1 Yellow Diamond
 
 # Scarab
@@ -1796,7 +1796,7 @@ Show
 	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
 	SetBorderColor 242 93 39 255 # Heist Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3" 100
+	CustomAlertSound "gfT15.mp3" 200
 	MinimapIcon 1 Red Diamond
 
 # Junk Lure
@@ -1806,7 +1806,7 @@ Show
 	SetTextColor 255 200 0 255 # Legacy Text
 	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
 	SetFontSize 41 # Big
-	CustomAlertSound "gfT2.mp3" 100
+	CustomAlertSound "gfT2.mp3" 200
 	MinimapIcon 1 Yellow Diamond
 
 #-------------------------------------------------------------------------------
@@ -1821,7 +1821,7 @@ Show
 	SetBackgroundColor 0 0 64 255 # Synthesis Highlight Background
 	SetBorderColor 255 200 0 255 # Legacy Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT1.mp3" 100
+	CustomAlertSound "gfT1.mp3" 200
 	MinimapIcon 0 Red Diamond
 	PlayEffect Blue 
 
@@ -1832,7 +1832,7 @@ Show
 	SetTextColor 255 200 0 255 # Legacy Text
 	SetBackgroundColor 0 0 64 255 # Synthesis Highlight Background
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3" 100
+	CustomAlertSound "gfT15.mp3" 200
 	MinimapIcon 1 Red Circle
 	PlayEffect Blue Temp
 
@@ -1843,7 +1843,7 @@ Show
 	SetTextColor 255 200 0 255 # Legacy Text
 	SetBackgroundColor 0 0 64 255 # Synthesis Highlight Background
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3" 100
+	CustomAlertSound "gfT15.mp3" 200
 	MinimapIcon 1 Red Circle
 	PlayEffect Blue Temp
 
@@ -1854,7 +1854,7 @@ Show
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3" 100
+	CustomAlertSound "gfT15.mp3" 200
 	MinimapIcon 0 White Diamond
 	PlayEffect White 
 
@@ -1977,7 +1977,7 @@ Show
 	SetBackgroundColor 175 96 37 255 # Unique Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT1.mp3" 100
+	CustomAlertSound "gfT1.mp3" 200
 	MinimapIcon 0 Red Square
 	PlayEffect Red 
 
@@ -1991,7 +1991,7 @@ Show
 	SetBackgroundColor 175 96 37 255 # Unique Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT1.mp3" 100
+	CustomAlertSound "gfT1.mp3" 200
 	MinimapIcon 0 Red Square
 	PlayEffect Red 
 
@@ -2004,7 +2004,7 @@ Show
 	SetBackgroundColor 175 96 37 255 # Unique Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3" 100
+	CustomAlertSound "gfT15.mp3" 200
 	MinimapIcon 0 Red Square
 	PlayEffect Red 
 
@@ -2017,7 +2017,7 @@ Show
 	SetBackgroundColor 175 96 37 255 # Unique Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3" 100
+	CustomAlertSound "gfT15.mp3" 200
 	MinimapIcon 0 Red Square
 	PlayEffect Red 
 
@@ -2467,7 +2467,7 @@ Show
 	SetBackgroundColor 255 255 255 255 # Tier0 Background
 	SetBorderColor 175 96 37 255 # Unique Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT0.mp3" 100
+	CustomAlertSound "gfT0.mp3" 200
 	MinimapIcon 0 Red Hexagon
 	PlayEffect Brown 
 
@@ -2479,7 +2479,7 @@ Show
 	SetBackgroundColor 175 96 37 255 # Unique Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT1.mp3" 100
+	CustomAlertSound "gfT1.mp3" 200
 	MinimapIcon 1 Red Hexagon
 	PlayEffect Brown 
 
@@ -2492,7 +2492,7 @@ Show
 	SetBackgroundColor 175 96 37 255 # Unique Background
 	SetBorderColor 169 189 149 255 # Abyss Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3" 100
+	CustomAlertSound "gfT15.mp3" 200
 	MinimapIcon 1 Red Hexagon
 	PlayEffect Brown 
 
@@ -3141,7 +3141,7 @@ Show
 	SetBackgroundColor 0 0 254 255 # Crafting Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3" 100
+	CustomAlertSound "gfT15.mp3" 200
 	MinimapIcon 1 Red Hexagon
 
 # Tier0 Crafting Bases
@@ -3237,7 +3237,7 @@ Show
 	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
 	SetBorderColor 200 186 153 255 # Currency Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT3.mp3" 100
+	CustomAlertSound "gfT3.mp3" 200
 	MinimapIcon 1 White Circle
 	PlayEffect Yellow Temp
 	#BlockStrictness 3 Disable
@@ -3735,7 +3735,7 @@ Show
 	SetBackgroundColor 255 255 119 255 # Rare Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3" 100
+	CustomAlertSound "gfT15.mp3" 200
 	MinimapIcon 1 Red Hexagon
 	PlayEffect Yellow 
 
@@ -3989,7 +3989,7 @@ Show
 	SetBackgroundColor 255 255 255 255 # Tier0 Background
 	SetBorderColor 26 162 155 255 # Gem Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT0.mp3" 100
+	CustomAlertSound "gfT0.mp3" 200
 	MinimapIcon 0 Red Hexagon
 	PlayEffect Red 
 
@@ -4001,7 +4001,7 @@ Show
 	SetBackgroundColor 255 255 255 255 # Tier0 Background
 	SetBorderColor 26 162 155 255 # Gem Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT0.mp3" 100
+	CustomAlertSound "gfT0.mp3" 200
 	MinimapIcon 0 Red Hexagon
 	PlayEffect Red 
 
@@ -4013,7 +4013,7 @@ Show
 	SetBackgroundColor 26 162 155 255 # Gem Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT1.mp3" 100
+	CustomAlertSound "gfT1.mp3" 200
 	MinimapIcon 0 Red Hexagon
 	PlayEffect Red 
 
@@ -4026,7 +4026,7 @@ Show
 	SetBackgroundColor 26 162 155 255 # Gem Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3" 100
+	CustomAlertSound "gfT15.mp3" 200
 	MinimapIcon 0 Red Hexagon
 	PlayEffect Red 
 
@@ -4038,7 +4038,7 @@ Show
 	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
 	SetBorderColor 26 162 155 255 # Gem Border
 	SetFontSize 41 # Big
-	CustomAlertSound "gfT2.mp3" 100
+	CustomAlertSound "gfT2.mp3" 200
 	MinimapIcon 1 Yellow Hexagon
 
 # Gem Vaal lvl21
@@ -4051,7 +4051,7 @@ Show
 	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
 	SetBorderColor 161 27 123 255 # Vaal Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3" 100
+	CustomAlertSound "gfT15.mp3" 200
 	MinimapIcon 0 Red Hexagon
 
 # Gem lvl21
@@ -4062,7 +4062,7 @@ Show
 	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
 	SetBorderColor 26 162 155 255 # Gem Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3" 100
+	CustomAlertSound "gfT15.mp3" 200
 	MinimapIcon 1 Red Hexagon
 
 # Gem Quality 20
@@ -4073,7 +4073,7 @@ Show
 	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
 	SetBorderColor 26 162 155 255 # Gem Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3" 100
+	CustomAlertSound "gfT2.mp3" 200
 	MinimapIcon 1 Yellow Hexagon
 
 # Portal Gem Quality
@@ -4085,7 +4085,7 @@ Show
 	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
 	SetBorderColor 26 162 155 255 # Gem Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3" 100
+	CustomAlertSound "gfT2.mp3" 200
 	MinimapIcon 1 Yellow Hexagon
 
 # Portal Gem
@@ -4096,7 +4096,7 @@ Show
 	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
 	SetBorderColor 26 162 155 255 # Gem Border
 	SetFontSize 41 # Big
-	CustomAlertSound "gfT3.mp3" 100
+	CustomAlertSound "gfT3.mp3" 200
 	MinimapIcon 1 White Hexagon
 	#BlockStrictness 2 Disable
 
@@ -4110,7 +4110,7 @@ Show
 	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
 	SetBorderColor 161 27 123 255 # Vaal Border
 	SetFontSize 41 # Big
-	CustomAlertSound "gfT3.mp3" 100
+	CustomAlertSound "gfT3.mp3" 200
 	MinimapIcon 2 White Hexagon
 
 # Gem Vaal T2
@@ -4122,7 +4122,7 @@ Show
 	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
 	SetBorderColor 161 27 123 255 # Vaal Border
 	SetFontSize 41 # Big
-	CustomAlertSound "gfT3.mp3" 100
+	CustomAlertSound "gfT3.mp3" 200
 	MinimapIcon 2 White Hexagon
 
 # Gem Vaal
