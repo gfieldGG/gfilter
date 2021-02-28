@@ -1,4 +1,4 @@
-﻿#===============================================================================
+#===============================================================================
 # GFILTER
 #===============================================================================
 #
@@ -1467,6 +1467,8 @@ Show
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT3.mp3" 200
+	MinimapIcon 1 White Circle
 
 # Currency Tier4 Stack
 Show
