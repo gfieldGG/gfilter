@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.13.1
+# VERSION:       3.13.2
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -133,6 +133,7 @@ Show
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetBorderColor 242 93 39 255 # Heist Border
 	SetFontSize 41 # Big
+	#BlockStrictness 3 Hide
 
 # Heist Trinket
 Show
@@ -170,7 +171,7 @@ Show
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 242 93 39 255 # Heist Border
 	SetFontSize 41 # Big
-	MinimapIcon 1 Orange Star
+	MinimapIcon 1 Orange Triangle
 
 # Heist Rogue Equipment
 Show
@@ -179,7 +180,7 @@ Show
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 242 93 39 255 # Heist Border
 	SetFontSize 41 # Big
-	MinimapIcon 1 Orange Hexagon
+	MinimapIcon 1 Orange Triangle
 
 # Heist Contract
 Show
@@ -188,8 +189,16 @@ Show
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 242 93 39 255 # Heist Border
 	SetFontSize 41 # Big
-	CustomAlertSound "gfT3.mp3" 200
-	MinimapIcon 1 Orange UpsideDownHouse
+	MinimapIcon 1 Orange Kite
+
+# Shitty "Story" Contracts?
+Show
+	Class = "Quest Items"
+	BaseType = "Contract:"
+	SetTextColor 74 230 58 255 # Quest Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBorderColor 242 93 39 255 # Heist Border
+	MinimapIcon 1 Orange Kite
 
 # Heist Blueprint
 Show
@@ -199,7 +208,7 @@ Show
 	SetBorderColor 242 93 39 255 # Heist Border
 	SetFontSize 41 # Big
 	CustomAlertSound "gfT3.mp3" 200
-	MinimapIcon 1 Orange UpsideDownHouse
+	MinimapIcon 1 Orange Kite
 
 # Alternative Quality Gem
 Show
@@ -1443,7 +1452,7 @@ Show
 
 # Currency Tier4.5
 Show
-	AreaLevel <= 76
+	AreaLevel <= 74
 	Class = "Currency"
 	BaseType = "Orb of Transmutation" "Armourer's Scrap" "Portal Scroll" "Orb of Augmentation"
 	SetTextColor 200 186 153 255 # Currency Text
@@ -1459,6 +1468,19 @@ Show
 	SetBackgroundColor 0 0 0 140 # Faded Background
 	SetFontSize 41 # Big
 	#BlockStrictness 2 Hide
+
+# Currency Special Alteration Stack
+Show
+	StackSize >= 3
+	Class = "Currency"
+	BaseType = "Orb of Alteration"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
+	SetBorderColor 200 186 153 255 # Currency Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT2.mp3" 200
+	MinimapIcon 1 Yellow Circle
+	PlayEffect Yellow Temp
 
 # Currency Special Alteration
 Show
@@ -1679,7 +1701,7 @@ Show
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetFontSize 45 # Yuge
 	PlayAlertSound 2 150 # Quest
-	MinimapIcon 0 Green Star
+	MinimapIcon 0 Green Triangle
 	PlayEffect Green 
 
 # Pantheon Soul
@@ -3309,15 +3331,54 @@ Show
 # Subsection: Cluster Jewels
 #-------------------------------------------------------------------------------
 
-# Cluster Jewel
+# Cluster Jewel S 2
 Show
+	Rarity <= Rare
 	Class = "Jewel"
-	BaseType = "Cluster Jewel"
+	BaseType = "Small Cluster Jewel"
+	EnchantmentPassiveNum <= 2
+	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 41 # Big
+	SetFontSize 45 # Yuge
 	PlayAlertSound 6 150 # Tier3
 	MinimapIcon 1 White Hexagon
 	PlayEffect Yellow 
+
+# Cluster Jewel M <=5
+Show
+	Rarity <= Rare
+	Class = "Jewel"
+	BaseType = "Medium Cluster Jewel"
+	EnchantmentPassiveNum <= 5
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetFontSize 45 # Yuge
+	PlayAlertSound 6 150 # Tier3
+	MinimapIcon 1 White Hexagon
+	PlayEffect Yellow 
+
+# Cluster Jewel L <=8
+Show
+	Rarity <= Rare
+	Class = "Jewel"
+	BaseType = "Large Cluster Jewel"
+	EnchantmentPassiveNum <= 8
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetFontSize 45 # Yuge
+	PlayAlertSound 6 150 # Tier3
+	MinimapIcon 1 White Hexagon
+	PlayEffect Yellow 
+
+# Cluster Jewel
+Show
+	Rarity <= Rare
+	Class = "Jewel"
+	BaseType = "Cluster Jewel"
+	SetBackgroundColor 0 0 0 210 # Junk Background
+	SetFontSize 41 # Big
+	PlayEffect White Temp
+	#BlockStrictness 3 Hide
 
 #-------------------------------------------------------------------------------
 # Subsection: Regular Jewels
