@@ -1,4 +1,4 @@
-#===============================================================================
+﻿#===============================================================================
 # GFILTER
 #===============================================================================
 #
@@ -171,7 +171,7 @@ Show
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 242 93 39 255 # Heist Border
 	SetFontSize 41 # Big
-	MinimapIcon 1 Orange Star
+	MinimapIcon 1 Orange Triangle
 
 # Heist Rogue Equipment
 Show
@@ -180,7 +180,7 @@ Show
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 242 93 39 255 # Heist Border
 	SetFontSize 41 # Big
-	MinimapIcon 1 Orange Hexagon
+	MinimapIcon 1 Orange Triangle
 
 # Heist Contract
 Show
@@ -189,7 +189,7 @@ Show
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 242 93 39 255 # Heist Border
 	SetFontSize 41 # Big
-	MinimapIcon 1 Orange UpsideDownHouse
+	MinimapIcon 1 Orange Kite
 
 # Shitty "Story" Contracts?
 Show
@@ -198,7 +198,7 @@ Show
 	SetTextColor 74 230 58 255 # Quest Text
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 242 93 39 255 # Heist Border
-	MinimapIcon 1 Orange Hexagon
+	MinimapIcon 1 Orange Kite
 
 # Heist Blueprint
 Show
@@ -208,7 +208,7 @@ Show
 	SetBorderColor 242 93 39 255 # Heist Border
 	SetFontSize 41 # Big
 	CustomAlertSound "gfT3.mp3" 200
-	MinimapIcon 1 Orange UpsideDownHouse
+	MinimapIcon 1 Orange Kite
 
 # Alternative Quality Gem
 Show
@@ -1701,7 +1701,7 @@ Show
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetFontSize 45 # Yuge
 	PlayAlertSound 2 150 # Quest
-	MinimapIcon 0 Green Star
+	MinimapIcon 0 Green Triangle
 	PlayEffect Green 
 
 # Pantheon Soul
