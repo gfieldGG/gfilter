@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.13.1
+# VERSION:       3.13.2
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -133,6 +133,7 @@ Show
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetBorderColor 242 93 39 255 # Heist Border
 	SetFontSize 41 # Big
+	#BlockStrictness 3 Hide
 
 # Heist Trinket
 Show
@@ -188,8 +189,16 @@ Show
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 242 93 39 255 # Heist Border
 	SetFontSize 41 # Big
-	CustomAlertSound "gfT3.mp3" 200
 	MinimapIcon 1 Orange UpsideDownHouse
+
+# Shitty "Story" Contracts?
+Show
+	Class = "Quest Items"
+	BaseType = "Contract:"
+	SetTextColor 74 230 58 255 # Quest Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBorderColor 242 93 39 255 # Heist Border
+	MinimapIcon 1 Orange Hexagon
 
 # Heist Blueprint
 Show
