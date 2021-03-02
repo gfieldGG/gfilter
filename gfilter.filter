@@ -3318,15 +3318,54 @@ Show # Ugrouped Customizable Items | Disable
 # Subsection: Cluster Jewels
 #-------------------------------------------------------------------------------
 
-# Cluster Jewel
+# Cluster Jewel S 2
 Show
+	Rarity <= Rare
 	Class = "Jewel"
-	BaseType = "Cluster Jewel"
+	BaseType = "Small Cluster Jewel"
+	EnchantmentPassiveNum <= 2
+	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 41 # Big
+	SetFontSize 45 # Yuge
 	PlayAlertSound 6 150 # Tier3
 	MinimapIcon 1 White Hexagon
 	PlayEffect Yellow 
+
+# Cluster Jewel M <=5
+Show
+	Rarity <= Rare
+	Class = "Jewel"
+	BaseType = "Medium Cluster Jewel"
+	EnchantmentPassiveNum <= 5
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetFontSize 45 # Yuge
+	PlayAlertSound 6 150 # Tier3
+	MinimapIcon 1 White Hexagon
+	PlayEffect Yellow 
+
+# Cluster Jewel L <=8
+Show
+	Rarity <= Rare
+	Class = "Jewel"
+	BaseType = "Large Cluster Jewel"
+	EnchantmentPassiveNum <= 8
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetFontSize 45 # Yuge
+	PlayAlertSound 6 150 # Tier3
+	MinimapIcon 1 White Hexagon
+	PlayEffect Yellow 
+
+# Cluster Jewel
+Show
+	Rarity <= Rare
+	Class = "Jewel"
+	BaseType = "Cluster Jewel"
+	SetBackgroundColor 0 0 0 210 # Junk Background
+	SetFontSize 41 # Big
+	PlayEffect White Temp
+	#BlockStrictness 3 Hide
 
 #-------------------------------------------------------------------------------
 # Subsection: Regular Jewels
