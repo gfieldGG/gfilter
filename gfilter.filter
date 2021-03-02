@@ -1,4 +1,4 @@
-﻿#===============================================================================
+#===============================================================================
 # GFILTER
 #===============================================================================
 #
@@ -1452,7 +1452,7 @@ Show
 
 # Currency Tier4.5
 Show
-	AreaLevel <= 76
+	AreaLevel <= 74
 	Class = "Currency"
 	BaseType = "Orb of Transmutation" "Armourer's Scrap" "Portal Scroll" "Orb of Augmentation"
 	SetTextColor 200 186 153 255 # Currency Text
@@ -1468,6 +1468,19 @@ Show
 	SetBackgroundColor 0 0 0 140 # Faded Background
 	SetFontSize 41 # Big
 	#BlockStrictness 2 Hide
+
+# Currency Special Alteration Stack
+Show
+	StackSize >= 3
+	Class = "Currency"
+	BaseType = "Orb of Alteration"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
+	SetBorderColor 200 186 153 255 # Currency Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT2.mp3" 200
+	MinimapIcon 1 Yellow Circle
+	PlayEffect Yellow Temp
 
 # Currency Special Alteration
 Show
