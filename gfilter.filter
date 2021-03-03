@@ -3376,6 +3376,7 @@ Show
 	Rarity <= Rare
 	Class = "Jewel"
 	BaseType = "Cluster Jewel"
+	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
 	SetFontSize 41 # Big
 	PlayEffect White Temp
