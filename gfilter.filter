@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.13.3
+# VERSION:       3.13.4
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -1692,31 +1692,6 @@ Show
 	PlayEffect Yellow 
 
 #===============================================================================
-# Section: General
-#===============================================================================
-
-# Game Items
-Show
-	Class = "Quest" "Hideout" "Micro" "Labyrinth" "Incursion Item"
-	SetTextColor 74 230 58 255 # Quest Text
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 45 # Yuge
-	PlayAlertSound 2 150 # Quest
-	MinimapIcon 0 Green Triangle
-	PlayEffect Green 
-
-# Pantheon Soul
-Show
-	Class = "Pantheon Soul"
-	SetTextColor 0 0 0 255 # Tier1 Text
-	SetBackgroundColor 255 255 119 255
-	SetBorderColor 255 255 255 255 # Tier1 Border
-	SetFontSize 45 # Yuge
-	PlayAlertSound 2 150 # Quest
-	MinimapIcon 0 Green Triangle
-	PlayEffect Yellow 
-
-#===============================================================================
 # Section: Map Fragments
 #===============================================================================
 
@@ -1848,7 +1823,7 @@ Show
 	SetFontSize 45 # Yuge
 	CustomAlertSound "gfT1.mp3" 200
 	MinimapIcon 0 Red Diamond
-	PlayEffect Blue 
+	PlayEffect Yellow 
 
 # Maven Splinter or something
 Show
@@ -1859,7 +1834,7 @@ Show
 	SetFontSize 45 # Yuge
 	CustomAlertSound "gfT15.mp3" 200
 	MinimapIcon 1 Red Circle
-	PlayEffect Blue Temp
+	PlayEffect Yellow Temp
 
 # Melvin wants YOU
 Show
@@ -1868,9 +1843,20 @@ Show
 	SetTextColor 255 200 0 255 # Legacy Text
 	SetBackgroundColor 0 0 64 255 # Synthesis Highlight Background
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3" 200
+	PlayAlertSound 2 150 # Quest
 	MinimapIcon 1 Red Circle
-	PlayEffect Blue Temp
+	PlayEffect Yellow 
+
+# Melvin wants YOU quest?
+Show
+	Class = "Quest Items"
+	BaseType = "Maven's Invitation"
+	SetTextColor 255 200 0 255 # Legacy Text
+	SetBackgroundColor 0 0 64 255 # Synthesis Highlight Background
+	SetFontSize 45 # Yuge
+	PlayAlertSound 2 150 # Quest
+	MinimapIcon 1 Red Circle
+	PlayEffect Yellow 
 
 # Ivory Watchstone
 Show
@@ -1975,6 +1961,31 @@ Show
 	SetFontSize 45 # Yuge
 	PlayAlertSound 15 300 # wat
 	MinimapIcon 0 Red Diamond
+
+#===============================================================================
+# Section: General
+#===============================================================================
+
+# Game Items
+Show
+	Class = "Quest" "Hideout" "Micro" "Labyrinth" "Incursion Item"
+	SetTextColor 74 230 58 255 # Quest Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetFontSize 45 # Yuge
+	PlayAlertSound 2 150 # Quest
+	MinimapIcon 0 Green Triangle
+	PlayEffect Green 
+
+# Pantheon Soul
+Show
+	Class = "Pantheon Soul"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 255 255 119 255
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45 # Yuge
+	PlayAlertSound 2 150 # Quest
+	MinimapIcon 0 Green Triangle
+	PlayEffect Yellow 
 
 #===============================================================================
 # Section: Maps
