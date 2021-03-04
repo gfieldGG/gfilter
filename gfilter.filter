@@ -3252,7 +3252,7 @@ Show
 #	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
 #	SetBorderColor 200 186 153 255 # Currency Border
 #	SetFontSize 45 # Yuge
-#	#BlockStrictness 3 Disable
+#	#BlockStrictness 2 Disable
 
 # 6 Socket
 Show
