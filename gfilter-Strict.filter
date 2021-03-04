@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.13.2
+# VERSION:       3.13.3
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -129,16 +129,15 @@ Show
 # Heist Currency
 Show
 	BaseType = "Rogue's Marker"
-	SetTextColor 200 186 153 255 # Currency Text
-	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
-	SetBorderColor 242 93 39 255 # Heist Border
+	SetTextColor 242 93 39 255 # Heist Text
+	SetBackgroundColor 0 0 0 140 # Faded Background
 	SetFontSize 41 # Big
 	#BlockStrictness 3 Hide
 
 # Heist Trinket
 Show
 	BaseType = "Thief's Trinket"
-	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
+	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 242 93 39 255 # Heist Border
 	SetFontSize 41 # Big
 	CustomAlertSound "gfT2.mp3" 200
@@ -171,6 +170,7 @@ Show
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 242 93 39 255 # Heist Border
 	SetFontSize 41 # Big
+	PlayAlertSound 2 150 # Quest
 	MinimapIcon 1 Orange Triangle
 
 # Heist Rogue Equipment
@@ -180,6 +180,7 @@ Show
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 242 93 39 255 # Heist Border
 	SetFontSize 41 # Big
+	PlayAlertSound 2 150 # Quest
 	MinimapIcon 1 Orange Triangle
 
 # Heist Contract
@@ -3244,14 +3245,14 @@ Show
 #===============================================================================
 
 # 6 Socket low
-#Show
-#	Sockets = "6"
-#	Rarity <= Rare
-#	SetTextColor 255 255 255 255 # Normal Highlight Text
-#	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
-#	SetBorderColor 200 186 153 255 # Currency Border
-#	SetFontSize 45 # Yuge
-#	#BlockStrictness 3 Disable
+Show
+	Sockets = "6"
+	Rarity <= Rare
+	SetTextColor 255 255 255 255 # Normal Highlight Text
+	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
+	SetBorderColor 200 186 153 255 # Currency Border
+	SetFontSize 45 # Yuge
+	#BlockStrictness 2 Disable
 
 # 6 Socket
 Show
@@ -3375,6 +3376,7 @@ Show
 	Rarity <= Rare
 	Class = "Jewel"
 	BaseType = "Cluster Jewel"
+	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
 	SetFontSize 41 # Big
 	PlayEffect White Temp
