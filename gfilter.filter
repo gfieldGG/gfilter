@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.13.4
+# VERSION:       3.13.5
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -1731,8 +1731,8 @@ Show
 	SetBackgroundColor 30 0 15 255 # Vaal Highlight Background
 	SetBorderColor 161 27 123 255 # Vaal Border
 	SetFontSize 45 # Yuge
-	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 1 Yellow Diamond
+	PlayAlertSound 6 150 # Tier3
+	MinimapIcon 1 White Diamond
 	PlayEffect Red 
 
 # Vaal Fragment
@@ -1743,8 +1743,7 @@ Show
 	SetBackgroundColor 30 0 15 255 # Vaal Highlight Background
 	SetBorderColor 161 27 123 255 # Vaal Border
 	SetFontSize 41 # Big
-	PlayAlertSound 6 150 # Tier3
-	MinimapIcon 2 White Diamond
+	#BlockStrictness 3 Hide
 
 #-------------------------------------------------------------------------------
 # Subsection: Scarabs
