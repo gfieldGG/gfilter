@@ -211,17 +211,6 @@ Show
 	CustomAlertSound "gfT3.mp3" 200
 	MinimapIcon 1 Orange Kite
 
-# Alternative Quality Gem
-Show
-	AlternateQuality = True
-	Class = "Active Skill Gems" "Support Skill Gems"
-	SetTextColor 26 162 155 255 # Gem Text
-	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
-	SetBorderColor 242 93 39 255 # Heist Border
-	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3" 200
-	MinimapIcon 1 Yellow Hexagon
-
 #-------------------------------------------------------------------------------
 # Subsection: Experimented Base Types
 #-------------------------------------------------------------------------------
@@ -4091,6 +4080,17 @@ Show
 	CustomAlertSound "gfT1.mp3" 200
 	MinimapIcon 0 Red Hexagon
 	PlayEffect Red 
+
+# Alternative Quality Gem
+Show
+	AlternateQuality = True
+	Class = "Active Skill Gems" "Support Skill Gems"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 26 162 155 255 # Gem Background
+	SetBorderColor 242 93 39 255 # Heist Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT15.mp3" 200
+	MinimapIcon 0 Red Hexagon
 
 # Gem Tier1.5
 Show
