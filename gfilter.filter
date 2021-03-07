@@ -95,7 +95,6 @@ Show
 	SetTextColor 150 0 0 255
 	SetBackgroundColor 0 0 0 210 # Junk Background
 	SetFontSize 37 # Medium
-	#BlockStrictness 3 Hide
 
 # Ritual Vessel
 Show
