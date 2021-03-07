@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.13.4
+# VERSION:       3.13.5
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -95,7 +95,6 @@ Show
 	SetTextColor 150 0 0 255
 	SetBackgroundColor 0 0 0 210 # Junk Background
 	SetFontSize 37 # Medium
-	#BlockStrictness 3 Hide
 
 # Ritual Vessel
 Show
@@ -210,17 +209,6 @@ Show
 	SetFontSize 41 # Big
 	CustomAlertSound "gfT3.mp3" 200
 	MinimapIcon 1 Orange Kite
-
-# Alternative Quality Gem
-Show
-	AlternateQuality = True
-	Class = "Active Skill Gems" "Support Skill Gems"
-	SetTextColor 26 162 155 255 # Gem Text
-	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
-	SetBorderColor 242 93 39 255 # Heist Border
-	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3" 200
-	MinimapIcon 1 Yellow Hexagon
 
 #-------------------------------------------------------------------------------
 # Subsection: Experimented Base Types
@@ -1731,8 +1719,8 @@ Show
 	SetBackgroundColor 30 0 15 255 # Vaal Highlight Background
 	SetBorderColor 161 27 123 255 # Vaal Border
 	SetFontSize 45 # Yuge
-	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 1 Yellow Diamond
+	PlayAlertSound 6 150 # Tier3
+	MinimapIcon 1 White Diamond
 	PlayEffect Red 
 
 # Vaal Fragment
@@ -1743,8 +1731,7 @@ Show
 	SetBackgroundColor 30 0 15 255 # Vaal Highlight Background
 	SetBorderColor 161 27 123 255 # Vaal Border
 	SetFontSize 41 # Big
-	PlayAlertSound 6 150 # Tier3
-	MinimapIcon 2 White Diamond
+	#BlockStrictness 3 Hide
 
 #-------------------------------------------------------------------------------
 # Subsection: Scarabs
@@ -4092,6 +4079,17 @@ Show
 	CustomAlertSound "gfT1.mp3" 200
 	MinimapIcon 0 Red Hexagon
 	PlayEffect Red 
+
+# Alternative Quality Gem
+Show
+	AlternateQuality = True
+	Class = "Active Skill Gems" "Support Skill Gems"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 26 162 155 255 # Gem Background
+	SetBorderColor 242 93 39 255 # Heist Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT15.mp3" 200
+	MinimapIcon 0 Red Hexagon
 
 # Gem Tier1.5
 Show
