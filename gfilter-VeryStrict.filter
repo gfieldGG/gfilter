@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.13.5
+# VERSION:       3.14.0
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -86,20 +86,36 @@ Show
 	SetFontSize 45 # Yuge
 
 #===============================================================================
+# Section: Ultimatum
+#===============================================================================
+
+# Inscribed Ultimatum
+Show
+	Class = "Misc Map Items"
+	BaseType = "Inscribed Ultimatum"
+	SetTextColor 200 200 200 255 # Normal Text
+	SetBackgroundColor 40 4 0 255 # Breach Red Highlight Background
+	SetBorderColor 182 20 0 255 # Breach Border
+	SetFontSize 41 # Big
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Circle
+	PlayEffect Red Temp
+
+#===============================================================================
 # Section: Ritual
 #===============================================================================
 
 # Ritual Vessel
 Show
 	BaseType = "Ritual Splinter"
-	SetTextColor 150 0 0 255
+	SetTextColor 150 0 0 255 # Ritual Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
 	SetFontSize 37 # Medium
 
 # Ritual Vessel
 Show
 	BaseType = "Ritual Vessel"
-	SetTextColor 150 0 0 255
+	SetTextColor 150 0 0 255 # Ritual Text
 	SetBackgroundColor 40 4 0 255 # Breach Red Highlight Background
 	SetFontSize 37 # Medium
 	CustomAlertSound "gfT2.mp3" 200
@@ -109,7 +125,7 @@ Show
 # Blood-filled Vessel
 Show
 	BaseType = "Blood-filled Vessel"
-	SetTextColor 150 0 0 255
+	SetTextColor 150 0 0 255 # Ritual Text
 	SetBackgroundColor 40 4 0 255 # Breach Red Highlight Background
 	SetFontSize 41 # Big
 	CustomAlertSound "gfT2.mp3" 200
@@ -238,6 +254,18 @@ Show
 	SetFontSize 45 # Yuge
 	PlayAlertSound 6 150 # Tier3
 	MinimapIcon 1 White Circle
+
+# Schabe
+Show
+	Class = "Map Fragments"
+	BaseType = "Sacred Blossom"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 67 162 255 255 # Harvest Background
+	SetBorderColor 0 0 0 255 # Map Border
+	SetFontSize 45 # Yuge
+	PlayAlertSound 4 150 # Map
+	MinimapIcon 1 Blue Diamond
+	PlayEffect Blue 
 
 Show
 	Class = "Map Fragments"
@@ -500,7 +528,7 @@ Show
 # Catalyst Junk
 Show
 	Class = "Stackable Currency"
-	BaseType = "Abrasive Catalyst" "Fertile Catalyst" "Imbued Catalyst" "Intrinsic Catalyst" "Intrinsic Catalyst" "Prismatic Catalyst" "Tempering Catalyst" "Turbulent Catalyst"
+	BaseType = "Abrasive Catalyst" "Fertile Catalyst" "Imbued Catalyst" "Intrinsic Catalyst" "Intrinsic Catalyst" "Prismatic Catalyst" "Tempering Catalyst" "Turbulent Catalyst" "Noxious Catalyst" "Accelerating Catalyst" "Unstable Catalyst"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 15 27 15 255 # Metamorph Highlight Background
 	SetBorderColor 125 180 50 255 # Metamorph Border
@@ -553,7 +581,7 @@ Show
 
 # T15 Oil
 Show
-	BaseType = "Silver Oil" "Opalescent Oil" "Black Oil"
+	BaseType = "Silver Oil" "Opalescent Oil" "Black Oil" "Tainted Oil"
 	SetTextColor 200 200 75 255 # Blight Text
 	SetBackgroundColor 30 30 0 255 # Blight Highlight Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -641,7 +669,7 @@ Show
 # Incubator T2
 Show
 	Class = "Incubator"
-	BaseType = "Thaumaturge's Incubator" "Time-Lost Incubator" "Decadent Incubator" "Gemcutter's Incubator" "Foreboding Incubator" "Otherworldly Incubator" "Enchanted Incubator" "Diviner's Incubator" "Skittering Incubator"
+	BaseType = "Thaumaturge's Incubator" "Time-Lost Incubator" "Decadent Incubator" "Gemcutter's Incubator" "Foreboding Incubator" "Otherworldly Incubator" "Enchanted Incubator" "Diviner's Incubator" "Skittering Incubator" "Maddening Incubator"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 28 16 40 255 # Legion Background
 	SetBorderColor 88 52 126 255 # Legion Border
@@ -875,6 +903,18 @@ Show
 #===============================================================================
 # Section: Incursion
 #===============================================================================
+
+# Kwixel Kwatzel
+Show
+	Class = "Misc Map Items"
+	BaseType = "Chronicle of Atzoatl"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 175 45 35 255 # Incursion Background
+	SetBorderColor 150 204 130 255 # Incursion Border
+	SetFontSize 45 # Yuge
+	PlayAlertSound 4 150 # Map
+	MinimapIcon 1 Yellow Diamond
+	PlayEffect Red 
 
 # T0 Vial
 Show
@@ -1194,7 +1234,7 @@ Hide
 
 # Ancient Reliquary Key
 Show
-	BaseType = "Ancient Reliquary Key" "Timeworn Reliquary Key"
+	BaseType = "Ancient Reliquary Key" "Timeworn Reliquary Key" "Vaal Reliquary Key"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 200 0 255 # Legacy Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -1528,7 +1568,7 @@ Show
 # Currency Tier2
 Show
 	Class = "Currency"
-	BaseType = "Chaos Orb" "Orb of Regret" "Regal Orb" "Gemcutter's Prism" "Vaal Orb" "Orb of Horizons" "Engineer's Orb" "Exalted Shard"
+	BaseType = "Chaos Orb" "Orb of Regret" "Regal Orb" "Gemcutter's Prism" "Vaal Orb" "Orb of Horizons" "Engineer's Orb" "Exalted Shard" "Veiled Chaos Orb"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetBorderColor 200 186 153 255 # Currency Border
@@ -1601,7 +1641,7 @@ Hide
 	SetTextColor 254 213 0 255 # Perandus Text
 	SetBackgroundColor 112 88 2 255 # Perandus Background
 	SetFontSize 41 # Big
-	#BlockStrictness 3 Hide
+	#BlockStrictness 2 Hide
 
 # Perandus Coin
 Hide
