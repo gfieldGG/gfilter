@@ -2511,6 +2511,76 @@ Show
 # Section: Uniques
 #===============================================================================
 
+#-------------------------------------------------------------------------------
+# Subsection: Replica
+#-------------------------------------------------------------------------------
+
+# Replica Unique Tier1
+Show
+	Replica = True
+	Rarity = Unique
+	BaseType == "Chain Belt"
+	SetTextColor 175 96 37 255 # Unique Text
+	SetBackgroundColor 255 255 255 255 # Tier0 Background
+	SetBorderColor 242 93 39 255 # Heist Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT0.mp3" 100
+	MinimapIcon 0 Red Hexagon
+	PlayEffect Brown 
+
+# Replica Unique Tier2
+Show
+	Replica = True
+	Rarity = Unique
+	BaseType == "Arcanist Slippers"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 175 96 37 255 # Unique Background
+	SetBorderColor 242 93 39 255 # Heist Border
+	SetFontSize 45 # Yuge
+	PlayAlertSound 7 300 # Tier1.5
+	MinimapIcon 0 Red Hexagon
+	PlayEffect Brown 
+
+# Replica Unique Tier?
+Show
+	Replica = True
+	Rarity = Unique
+	BaseType == "Carnal Armour"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 175 96 37 255 # Unique Background
+	SetBorderColor 242 93 39 255 # Heist Border
+	SetFontSize 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Red Hexagon
+	PlayEffect Brown 
+
+# Replica Unique Tier3
+Show
+	Replica = True
+	Rarity = Unique
+	BaseType == "Arcanist Gloves"
+	SetTextColor 175 96 37 255 # Unique Text
+	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
+	SetBorderColor 242 93 39 255 # Heist Border
+	SetFontSize 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Hexagon
+	PlayEffect Brown 
+
+# Replica Unique
+Show
+	Replica = True
+	Rarity = Unique
+	SetTextColor 175 96 37 255 # Unique Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBorderColor 242 93 39 255 # Heist Border
+	SetFontSize 37 # Medium
+	PlayEffect Brown Temp
+
+#-------------------------------------------------------------------------------
+# Subsection: Regular
+#-------------------------------------------------------------------------------
+
 # Harbinger Piece
 Show
 	Class = "Piece"
