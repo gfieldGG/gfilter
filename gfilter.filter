@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.14.2
+# VERSION:       3.14.3
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -1440,7 +1440,7 @@ Show
 	Class = "Divination Card"
 	SetTextColor 14 186 255 255 # Divination Card Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 3 Hide
+	#BlockStrictness 2 Hide
 
 #===============================================================================
 # Section: Currency
@@ -1509,7 +1509,7 @@ Show
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 0 0 0 140 # Faded Background
 	SetFontSize 41 # Big
-	#BlockStrictness 3 Disable
+	#BlockStrictness 2 Disable
 
 # Currency Tier5
 Show
@@ -1543,11 +1543,22 @@ Show
 	CustomAlertSound "gfT3.mp3" 200
 	MinimapIcon 1 White Circle
 
+# Orb of Binding leveling
+Show
+	AreaLevel < 67
+	Class = "Currency"
+	BaseType = "Orb of Binding"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT3.mp3" 200
+	MinimapIcon 1 White Circle
+
 # Currency Tier4 Stack
 Show
 	StackSize >= 4
 	Class = "Currency"
-	BaseType = "Jeweller's Orb" "Orb of Chance" "Chromatic Orb" "Orb of Alteration"
+	BaseType = "Jeweller's Orb" "Orb of Chance" "Chromatic Orb" "Orb of Alteration" "Orb of Binding"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetFontSize 45 # Yuge
@@ -1557,7 +1568,7 @@ Show
 # Currency Tier4
 Show
 	Class = "Currency"
-	BaseType = "Jeweller's Orb" "Orb of Chance" "Chromatic Orb" "Orb of Alteration"
+	BaseType = "Jeweller's Orb" "Orb of Chance" "Chromatic Orb" "Orb of Alteration" "Orb of Binding"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetFontSize 41 # Big
@@ -1567,7 +1578,7 @@ Show
 Show
 	StackSize >= 3
 	Class = "Currency"
-	BaseType = "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Orb of Scouring" "Orb of Binding"
+	BaseType = "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Orb of Scouring"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetBorderColor 200 186 153 255 # Currency Border
@@ -1579,7 +1590,7 @@ Show
 # Currency Tier3
 Show
 	Class = "Currency"
-	BaseType = "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Orb of Scouring" "Orb of Binding"
+	BaseType = "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Orb of Scouring"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetFontSize 45 # Yuge

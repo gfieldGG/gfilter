@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.14.2
+# VERSION:       3.14.3
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -1394,7 +1394,7 @@ Show
 # Divination Card Tier3 currency
 Show
 	Class = "Divination Card"
-	BaseType == "Arrogance of the Vaal"
+	BaseType == "Boon of Justice" "Coveted Possession" "Demigod's Wager" "Emperor's Luck" "Harmony of Souls" "Imperial Legacy" "Last Hope" "Loyalty" "Lucky Connections" "Lucky Deck" "Monochrome" "No Traces" "Sambodhi's Vow" "Society's Remorse" "The Cacophony" "The Card Sharp" "The Fool" "The Gemcutter" "The Innocent" "The Inventor" "The Journey" "The Master Artisan" "The Seeker" "The Side Quest" "The Survivalist" "The Union" "The Wrath" "Three Faces in the Dark" "Three Voices" "Vinia's Token"
 	SetTextColor 14 186 255 255 # Divination Card Text
 	SetBackgroundColor 25 33 33 255 # Divination Card Highlight Background
 	SetFontSize 41 # Big
@@ -1402,7 +1402,7 @@ Show
 # Divination Card Tier3
 Show
 	Class = "Divination Card"
-	BaseType == "Boon of Justice"
+	BaseType == "Arrogance of the Vaal" "Assassin's Favour" "Atziri's Arsenal" "Baited Expectations" "Blind Venture" "Boundless Realms" "Cursed Words" "Dark Temptation" "Doedre's Madness" "Gemcutter's Promise" "Glimmer of Hope" "Haunting Shadows" "Heterochromia" "Hubris" "Hunter's Resolve" "Jack in the Box" "Left to Fate" "Merciless Armament" "Mitts" "Perfection" "Prometheus' Armoury" "Sambodhi's Wisdom" "Scholar of the Seas" "The Admirer" "The Adventuring Spirit" "The Aesthete" "The Arena Champion" "The Avenger" "The Battle Born" "The Betrayal" "The Body" "The Breach" "The Cache" "The Cataclysm" "The Craving" "The Deceiver" "The Doppelganger" "The Encroaching Darkness" "The Endurance" "The Eye of the Dragon" "The Fletcher" "The Formless Sea" "The Garish Power" "The Gentleman" "The Hale Heart" "The Insatiable" "The Jester" "The Jeweller's Boon" "The Lion" "The Mad King" "The Master" "The Mercenary" "The Messenger" "The Obscured" "The One With All" "The Penitent" "The Poet" "The Price of Protection" "The Queen" "The Road to Power" "The Scavenger" "The Skeleton" "The Standoff" "The Stormcaller" "The Sword King's Salute" "The Thaumaturgist" "The Tower" "The Traitor" "The Tumbleweed" "The Undisputed" "The Unexpected Prize" "The Valley of Steel Boxes" "The Whiteout" "The Wilted Rose" "The Wolf" "The Wolf's Legacy" "The Wolverine" "The Wretched" "Time-Lost Relic" "Triskaidekaphobia" "Underground Forest" "Vile Power"
 	SetTextColor 14 186 255 255 # Divination Card Text
 	SetBackgroundColor 25 33 33 255 # Divination Card Highlight Background
 	SetFontSize 41 # Big
@@ -1440,7 +1440,7 @@ Show
 	Class = "Divination Card"
 	SetTextColor 14 186 255 255 # Divination Card Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 3 Hide
+	#BlockStrictness 2 Hide
 
 #===============================================================================
 # Section: Currency
@@ -1509,7 +1509,7 @@ Show
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 0 0 0 140 # Faded Background
 	SetFontSize 41 # Big
-	#BlockStrictness 3 Disable
+	#BlockStrictness 2 Disable
 
 # Currency Tier5
 Show
@@ -1543,11 +1543,22 @@ Show
 	CustomAlertSound "gfT3.mp3" 200
 	MinimapIcon 1 White Circle
 
+# Orb of Binding leveling
+Show
+	AreaLevel < 67
+	Class = "Currency"
+	BaseType = "Orb of Binding"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT3.mp3" 200
+	MinimapIcon 1 White Circle
+
 # Currency Tier4 Stack
 Show
 	StackSize >= 4
 	Class = "Currency"
-	BaseType = "Jeweller's Orb" "Orb of Chance" "Chromatic Orb" "Orb of Alteration"
+	BaseType = "Jeweller's Orb" "Orb of Chance" "Chromatic Orb" "Orb of Alteration" "Orb of Binding"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetFontSize 45 # Yuge
@@ -1557,7 +1568,7 @@ Show
 # Currency Tier4
 Show
 	Class = "Currency"
-	BaseType = "Jeweller's Orb" "Orb of Chance" "Chromatic Orb" "Orb of Alteration"
+	BaseType = "Jeweller's Orb" "Orb of Chance" "Chromatic Orb" "Orb of Alteration" "Orb of Binding"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetFontSize 41 # Big
@@ -1567,7 +1578,7 @@ Show
 Show
 	StackSize >= 3
 	Class = "Currency"
-	BaseType = "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Orb of Scouring" "Orb of Binding"
+	BaseType = "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Orb of Scouring"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetBorderColor 200 186 153 255 # Currency Border
@@ -1579,7 +1590,7 @@ Show
 # Currency Tier3
 Show
 	Class = "Currency"
-	BaseType = "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Orb of Scouring" "Orb of Binding"
+	BaseType = "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Orb of Scouring"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetFontSize 45 # Yuge
