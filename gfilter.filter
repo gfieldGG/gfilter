@@ -1427,7 +1427,6 @@ Show
 	SetBackgroundColor 0 0 0 0 # Hidden Background
 	#BlockStrictness 1 Hide
 
-
 # Divination Card Trash (fix)
 Show
 	Class = "Divination Card"
