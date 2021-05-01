@@ -2152,6 +2152,18 @@ Show
 #	MinimapIcon 1 Yellow Square
 #	PlayEffect Yellow 
 
+# Map Yellow Override
+#Hide
+#	MapTier <= 10
+#	AreaLevel >= 81
+#	Class = "Maps"
+#	SetTextColor 0 0 0 255 # Map Text
+#	SetBackgroundColor 255 200 0 255 # Map Yellow Background
+#	SetBorderColor 127 100 0 255 # Map Yellow Border
+#	SetFontSize 37 # Medium
+#	DisableDropSound
+#	#BlockStrictness 3 Disable
+
 #-------------------------------------------------------------------------------
 # Subsection: Map Drops White
 #-------------------------------------------------------------------------------
