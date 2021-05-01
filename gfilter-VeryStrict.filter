@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.14.4
+# VERSION:       3.14.5
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -600,11 +600,12 @@ Show
 	MinimapIcon 1 Yellow Circle
 
 # T3 Oil
-Show
+Hide
 	BaseType = "Clear Oil" "Sepia Oil" "Verdant Oil" "Amber Oil"
 	SetTextColor 200 200 75 255 # Blight Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
 	SetFontSize 37 # Medium
+	#BlockStrictness 3 Hide
 
 #===============================================================================
 # Section: Legion
@@ -980,13 +981,12 @@ Hide
 	#BlockStrictness 2 Hide
 
 # Abyss Jewel Rare
-Hide
+Show
 	Rarity = Rare
 	Class = "Abyss Jewel"
 	SetTextColor 169 189 149 255 # Abyss Text
 	SetBackgroundColor 30 34 26 255 # Abyss Highlight Background
 	SetFontSize 41 # Big
-	#BlockStrictness 3 Hide
 
 #-------------------------------------------------------------------------------
 # Subsection: Stygian Vise
@@ -1558,7 +1558,7 @@ Show
 Show
 	StackSize >= 4
 	Class = "Currency"
-	BaseType = "Jeweller's Orb" "Orb of Chance" "Chromatic Orb" "Orb of Alteration" "Orb of Binding"
+	BaseType = "Jeweller's Orb" "Orb of Chance" "Chromatic Orb" "Orb of Alteration"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetFontSize 45 # Yuge
@@ -1568,7 +1568,7 @@ Show
 # Currency Tier4
 Hide
 	Class = "Currency"
-	BaseType = "Jeweller's Orb" "Orb of Chance" "Chromatic Orb" "Orb of Alteration" "Orb of Binding"
+	BaseType = "Jeweller's Orb" "Orb of Chance" "Chromatic Orb" "Orb of Alteration"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetFontSize 41 # Big
@@ -1578,7 +1578,7 @@ Hide
 Show
 	StackSize >= 3
 	Class = "Currency"
-	BaseType = "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Orb of Scouring"
+	BaseType = "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Orb of Scouring" "Orb of Binding"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetBorderColor 200 186 153 255 # Currency Border
@@ -1590,7 +1590,7 @@ Show
 # Currency Tier3
 Show
 	Class = "Currency"
-	BaseType = "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Orb of Scouring"
+	BaseType = "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Orb of Scouring" "Orb of Binding"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetFontSize 45 # Yuge
@@ -1785,26 +1785,26 @@ Show
 	PlayEffect Red 
 
 # Vaal Fragment Midnight
-Show
-	Class = "Map Fragments"
-	BaseType = "Sacrifice at Midnight"
-	SetTextColor 161 27 123 255 # Vaal Text
-	SetBackgroundColor 30 0 15 255 # Vaal Highlight Background
-	SetBorderColor 161 27 123 255 # Vaal Border
-	SetFontSize 45 # Yuge
-	PlayAlertSound 6 150 # Tier3
-	MinimapIcon 1 White Diamond
-	PlayEffect Red 
+#Show
+#	Class = "Map Fragments"
+#	BaseType = "Sacrifice at Midnight"
+#	SetTextColor 161 27 123 255 # Vaal Text
+#	SetBackgroundColor 30 0 15 255 # Vaal Highlight Background
+#	SetBorderColor 161 27 123 255 # Vaal Border
+#	SetFontSize 45 # Yuge
+#	PlayAlertSound 6 150 # Tier3
+#	MinimapIcon 1 White Diamond
+#	PlayEffect Red Temp
+#	#BlockStrictness 3 Disable
 
 # Vaal Fragment
-Hide
+Show
 	Class = "Map Fragments"
 	BaseType = "Sacrifice at"
 	SetTextColor 161 27 123 255 # Vaal Text
 	SetBackgroundColor 30 0 15 255 # Vaal Highlight Background
 	SetBorderColor 161 27 123 255 # Vaal Border
 	SetFontSize 41 # Big
-	#BlockStrictness 3 Hide
 
 #-------------------------------------------------------------------------------
 # Subsection: Scarabs
@@ -2152,6 +2152,18 @@ Show
 #	MinimapIcon 1 Yellow Square
 #	PlayEffect Yellow 
 
+# Map Yellow Override
+Hide
+	MapTier <= 10
+	AreaLevel >= 81
+	Class = "Maps"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 255 200 0 255 # Map Yellow Background
+	SetBorderColor 127 100 0 255 # Map Yellow Border
+	SetFontSize 37 # Medium
+	DisableDropSound
+	#BlockStrictness 3 Disable
+
 #-------------------------------------------------------------------------------
 # Subsection: Map Drops White
 #-------------------------------------------------------------------------------
@@ -2159,7 +2171,7 @@ Show
 # Map T1 hide
 Hide
 	MapTier = 1
-	AreaLevel >= 77
+	AreaLevel >= 75
 	Class = "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 200 200 200 255 # Map White Background
@@ -2171,7 +2183,7 @@ Hide
 # Map T1 low
 Show
 	MapTier = 1
-	AreaLevel >= 73
+	AreaLevel >= 71
 	Class = "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 200 200 200 255 # Map White Background
@@ -2183,7 +2195,7 @@ Show
 # Map T2 hide
 Hide
 	MapTier = 2
-	AreaLevel >= 78
+	AreaLevel >= 76
 	Class = "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 200 200 200 255 # Map White Background
@@ -2195,7 +2207,7 @@ Hide
 # Map T2 low
 Show
 	MapTier = 2
-	AreaLevel >= 74
+	AreaLevel >= 72
 	Class = "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 200 200 200 255 # Map White Background
@@ -2207,7 +2219,7 @@ Show
 # Map T3 hide
 Hide
 	MapTier = 3
-	AreaLevel >= 79
+	AreaLevel >= 77
 	Class = "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 200 200 200 255 # Map White Background
@@ -2219,7 +2231,7 @@ Hide
 # Map T3 low
 Show
 	MapTier = 3
-	AreaLevel >= 75
+	AreaLevel >= 73
 	Class = "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 200 200 200 255 # Map White Background
@@ -2231,7 +2243,7 @@ Show
 # Map T4 hide
 Hide
 	MapTier = 4
-	AreaLevel >= 80
+	AreaLevel >= 78
 	Class = "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 200 200 200 255 # Map White Background
@@ -2243,7 +2255,7 @@ Hide
 # Map T4 low
 Show
 	MapTier = 4
-	AreaLevel >= 76
+	AreaLevel >= 74
 	Class = "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 200 200 200 255 # Map White Background
@@ -2255,7 +2267,7 @@ Show
 # Map T5 hide
 Hide
 	MapTier = 5
-	AreaLevel >= 81
+	AreaLevel >= 79
 	Class = "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 200 200 200 255 # Map White Background
@@ -2267,7 +2279,7 @@ Hide
 # Map T5 low
 Show
 	MapTier = 5
-	AreaLevel >= 77
+	AreaLevel >= 75
 	Class = "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 200 200 200 255 # Map White Background
@@ -2295,7 +2307,7 @@ Show
 # Map T6 hide
 Hide
 	MapTier = 6
-	AreaLevel >= 82
+	AreaLevel >= 80
 	Class = "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 200 0 255 # Map Yellow Background
@@ -2307,7 +2319,7 @@ Hide
 # Map T6 low
 Show
 	MapTier = 6
-	AreaLevel >= 79
+	AreaLevel >= 77
 	Class = "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 200 0 255 # Map Yellow Background
@@ -2319,7 +2331,7 @@ Show
 # Map T7 hide
 Hide
 	MapTier = 7
-	AreaLevel >= 83
+	AreaLevel >= 81
 	Class = "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 200 0 255 # Map Yellow Background
@@ -2331,7 +2343,7 @@ Hide
 # Map T7 low
 Show
 	MapTier = 7
-	AreaLevel >= 80
+	AreaLevel >= 78
 	Class = "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 200 0 255 # Map Yellow Background
@@ -2343,7 +2355,7 @@ Show
 # Map T8 hide
 Hide
 	MapTier = 8
-	AreaLevel >= 84
+	AreaLevel >= 82
 	Class = "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 200 0 255 # Map Yellow Background
@@ -2355,7 +2367,7 @@ Hide
 # Map T8 low
 Show
 	MapTier = 8
-	AreaLevel >= 81
+	AreaLevel >= 79
 	Class = "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 200 0 255 # Map Yellow Background
@@ -2367,7 +2379,7 @@ Show
 # Map T9 hide
 Hide
 	MapTier = 9
-	AreaLevel >= 85
+	AreaLevel >= 83
 	Class = "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 200 0 255 # Map Yellow Background
@@ -2379,7 +2391,7 @@ Hide
 # Map T9 low
 Show
 	MapTier = 9
-	AreaLevel >= 82
+	AreaLevel >= 80
 	Class = "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 200 0 255 # Map Yellow Background
@@ -2391,7 +2403,7 @@ Show
 # Map T10 hide
 Hide
 	MapTier = 10
-	AreaLevel >= 86
+	AreaLevel >= 84
 	Class = "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 200 0 255 # Map Yellow Background
@@ -2403,7 +2415,7 @@ Hide
 # Map T10 low
 Show
 	MapTier = 10
-	AreaLevel >= 83
+	AreaLevel >= 81
 	Class = "Maps"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 200 0 255 # Map Yellow Background
