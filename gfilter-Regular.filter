@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.14.5
+# VERSION:       3.14.6
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -861,7 +861,7 @@ Show
 # T1 Fossil
 Show
 	Class = "Currency"
-	BaseType = "Hollow Fossil" "Faceted Fossil" "Fractured Fossil" "Glyphic Fossil"
+	BaseType = "Faceted Fossil" "Fractured Fossil"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 102 193 245 255 # Delve Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -873,7 +873,7 @@ Show
 # T1.5 Fossil
 Show
 	Class = "Currency"
-	BaseType = "Enchanted Fossil" "Bloodstained Fossil" "Sanctified Fossil" "Perfect Fossil" "Shuddering Fossil"
+	BaseType = "Enchanted Fossil" "Bloodstained Fossil" "Sanctified Fossil" "Perfect Fossil" "Shuddering Fossil" "Glyphic Fossil" "Hollow Fossil"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 102 193 245 255 # Delve Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -1598,6 +1598,32 @@ Show
 	MinimapIcon 1 White Circle
 	PlayEffect White Temp
 
+# Currency ExShard Stack
+Show
+	StackSize >= 2
+	Class = "Currency"
+	BaseType = "Exalted Shard"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 200 186 153 255 # Currency Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT15.mp3" 200
+	MinimapIcon 1 Red Circle
+	PlayEffect Yellow 
+
+# Currency Tier2 Stack
+Show
+	StackSize >= 6
+	Class = "Currency"
+	BaseType = "Chaos Orb" "Orb of Regret" "Regal Orb" "Gemcutter's Prism" "Vaal Orb" "Orb of Horizons" "Engineer's Orb" "Exalted Shard" "Veiled Chaos Orb"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 200 186 153 255 # Currency Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT15.mp3" 200
+	MinimapIcon 1 Red Circle
+	PlayEffect Yellow 
+
 # Currency Tier2
 Show
 	Class = "Currency"
@@ -2028,7 +2054,7 @@ Show
 
 # Game Items
 Show
-	Class = "Quest" "Hideout" "Micro" "Labyrinth" "Incursion Item"
+	Class = "Quest" "Labyrinth" "Incursion Item"
 	SetTextColor 74 230 58 255 # Quest Text
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetFontSize 45 # Yuge
