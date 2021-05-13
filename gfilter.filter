@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.14.6
+# VERSION:       3.14.7
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -2077,18 +2077,9 @@ Show
 # Section: Maps
 #===============================================================================
 
-# Shaped Map
-#Show
-#	HasInfluence = "Shaper"
-#	MapTier <= 10
-#	Class = "Maps"
-#	SetTextColor 0 0 0 255 # Map Text
-#	SetBackgroundColor 255 200 0 255 # Map Yellow Background
-#	SetBorderColor 127 100 0 255 # Map Yellow Border
-#	SetFontSize 45 # Yuge
-#	PlayAlertSound 4 150 # Map
-#	MinimapIcon 1 Yellow Square
-#	PlayEffect Yellow 
+#-------------------------------------------------------------------------------
+# Subsection: Map Unique
+#-------------------------------------------------------------------------------
 
 # Map Unique Tier1
 Show
@@ -2155,6 +2146,61 @@ Show
 	MinimapIcon 1 Red Square
 	PlayEffect Brown 
 
+#-------------------------------------------------------------------------------
+# Subsection: Map Special
+#-------------------------------------------------------------------------------
+
+# Enchanted Map T14+
+Show
+	AnyEnchantment = True
+	MapTier >= 14
+	Class = "Maps"
+	SetTextColor 210 210 210 255 # Delirium Text
+	SetBackgroundColor 243 40 29 255 # Map Red Background
+	SetBorderColor 210 210 210 255 # Delirium Border
+	SetFontSize 45 # Yuge
+	PlayAlertSound 4 150 # Map
+	MinimapIcon 0 Red Square
+	PlayEffect Red 
+
+# Enchanted Map Red
+Show
+	AnyEnchantment = True
+	MapTier >= 11
+	Class = "Maps"
+	SetTextColor 210 210 210 255 # Delirium Text
+	SetBackgroundColor 243 40 29 255 # Map Red Background
+	SetBorderColor 210 210 210 255 # Delirium Border
+	SetFontSize 45 # Yuge
+	PlayAlertSound 4 150 # Map
+	MinimapIcon 1 Red Square
+	PlayEffect Red 
+
+# Enchanted Map
+Show
+	AnyEnchantment = True
+	Class = "Maps"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 200 200 200 255 # Map White Background
+	SetBorderColor 210 210 210 255 # Delirium Border
+	SetFontSize 45 # Yuge
+	PlayAlertSound 4 150 # Map
+	MinimapIcon 1 Yellow Square
+	PlayEffect Yellow 
+
+# Shaped Map
+#Show
+#	HasInfluence = "Shaper"
+#	MapTier <= 10
+#	Class = "Maps"
+#	SetTextColor 0 0 0 255 # Map Text
+#	SetBackgroundColor 255 200 0 255 # Map Yellow Background
+#	SetBorderColor 127 100 0 255 # Map Yellow Border
+#	SetFontSize 45 # Yuge
+#	PlayAlertSound 4 150 # Map
+#	MinimapIcon 1 Yellow Square
+#	PlayEffect Yellow 
+
 # Garbage Map
 #Show
 #	MapTier <= 10
@@ -2186,6 +2232,18 @@ Show
 #	SetTextColor 0 0 0 255 # Map Text
 #	SetBackgroundColor 255 200 0 255 # Map Yellow Background
 #	SetBorderColor 127 100 0 255 # Map Yellow Border
+#	SetFontSize 37 # Medium
+#	DisableDropSound
+#	#BlockStrictness 3 Disable
+
+# Map Red Override
+#Hide
+#	MapTier <= 13
+#	AreaLevel >= 81
+#	Class = "Maps"
+#	SetTextColor 0 0 0 255 # Map Text
+#	SetBackgroundColor 243 40 29 255 # Map Red Background
+#	SetBorderColor 122 20 15 255 # Map Red Border
 #	SetFontSize 37 # Medium
 #	DisableDropSound
 #	#BlockStrictness 3 Disable
