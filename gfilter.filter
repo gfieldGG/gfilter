@@ -198,14 +198,17 @@ Show
 	PlayAlertSound 2 150 # Quest
 	MinimapIcon 1 Orange Triangle
 
-# Heist Contract
+# Unique Heist
 Show
-	Class = "Contract"
+	Rarity = Unique
+	Class = "Contract" "Blueprint"
 	SetTextColor 242 93 39 255 # Heist Text
-	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
 	SetBorderColor 242 93 39 255 # Heist Border
-	SetFontSize 41 # Big
-	MinimapIcon 1 Orange Kite
+	SetFontSize 45 # Yuge
+	PlayAlertSound 6 150 # Tier3
+	MinimapIcon 0 Orange Kite
+	PlayEffect Brown 
 
 # Shitty "Story" Contracts?
 Show
@@ -216,6 +219,36 @@ Show
 	SetBorderColor 242 93 39 255 # Heist Border
 	MinimapIcon 1 Orange Kite
 
+# Heist Contract NS
+Show
+	Class = "Contract"
+	BaseType = "Contract: Bunker" "Contract: Laboratory" "Contract: Mansion" "Contract: Prohibited Library" "Contract: Records Office" "Contract: Repository" "Contract: Smuggler's Den" "Contract: Tunnels" "Contract: Underbelly"
+	SetTextColor 242 93 39 255 # Heist Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBorderColor 242 93 39 255 # Heist Border
+	SetFontSize 41 # Big
+	MinimapIcon 1 Orange Kite
+
+# Heist Contract
+Show
+	Class = "Contract"
+	SetTextColor 242 93 39 255 # Heist Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBorderColor 242 93 39 255 # Heist Border
+	SetFontSize 41 # Big
+	#BlockStrictness 2 Hide
+
+# Heist Blueprint NS
+Show
+	Class = "Blueprint"
+	BaseType = "Blueprint: Bunker" "Blueprint: Laboratory" "Blueprint: Mansion" "Blueprint: Prohibited Library" "Blueprint: Records Office" "Blueprint: Repository" "Blueprint: Smuggler's Den" "Blueprint: Tunnels" "Blueprint: Underbelly"
+	SetTextColor 242 93 39 255 # Heist Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBorderColor 242 93 39 255 # Heist Border
+	SetFontSize 41 # Big
+	CustomAlertSound "gfT3.mp3" 200
+	MinimapIcon 1 Orange Kite
+
 # Heist Blueprint
 Show
 	Class = "Blueprint"
@@ -223,8 +256,7 @@ Show
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 242 93 39 255 # Heist Border
 	SetFontSize 41 # Big
-	CustomAlertSound "gfT3.mp3" 200
-	MinimapIcon 1 Orange Kite
+	#BlockStrictness 2 Hide
 
 #-------------------------------------------------------------------------------
 # Subsection: Experimented Base Types
