@@ -1822,15 +1822,15 @@ Show
 #-------------------------------------------------------------------------------
 
 # Forgotten Currency
-Show
-	Class = "Currency"
-	SetTextColor 255 0 255 255 # wat
-	SetBackgroundColor 255 255 255 255 # Tier0 Background
-	SetBorderColor 255 0 255 255 # wat
-	SetFontSize 45 # Yuge
-	PlayAlertSound 15 300 # wat
-	MinimapIcon 0 Red Circle
-	PlayEffect Yellow 
+#Show
+#	Class = "Currency"
+#	SetTextColor 255 0 255 255 # wat
+#	SetBackgroundColor 255 255 255 255 # Tier0 Background
+#	SetBorderColor 255 0 255 255 # wat
+#	SetFontSize 45 # Yuge
+#	PlayAlertSound 15 300 # wat
+#	MinimapIcon 0 Red Circle
+#	PlayEffect Yellow 
 
 #===============================================================================
 # Section: Map Fragments
