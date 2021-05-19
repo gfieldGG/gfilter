@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.14.6
+# VERSION:       3.14.7
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -198,14 +198,17 @@ Show
 	PlayAlertSound 2 150 # Quest
 	MinimapIcon 1 Orange Triangle
 
-# Heist Contract
+# Unique Heist
 Show
-	Class = "Contract"
+	Rarity = Unique
+	Class = "Contract" "Blueprint"
 	SetTextColor 242 93 39 255 # Heist Text
-	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
 	SetBorderColor 242 93 39 255 # Heist Border
-	SetFontSize 41 # Big
-	MinimapIcon 1 Orange Kite
+	SetFontSize 45 # Yuge
+	PlayAlertSound 6 150 # Tier3
+	MinimapIcon 0 Orange Kite
+	PlayEffect Brown 
 
 # Shitty "Story" Contracts?
 Show
@@ -216,15 +219,44 @@ Show
 	SetBorderColor 242 93 39 255 # Heist Border
 	MinimapIcon 1 Orange Kite
 
-# Heist Blueprint
+# Heist Contract NS
+Show
+	Class = "Contract"
+	BaseType = "Contract: Bunker" "Contract: Laboratory" "Contract: Mansion" "Contract: Prohibited Library" "Contract: Records Office" "Contract: Repository" "Contract: Smuggler's Den" "Contract: Tunnels" "Contract: Underbelly"
+	SetTextColor 242 93 39 255 # Heist Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBorderColor 242 93 39 255 # Heist Border
+	SetFontSize 41 # Big
+	MinimapIcon 1 Orange Kite
+
+# Heist Contract
+Hide
+	Class = "Contract"
+	SetTextColor 242 93 39 255 # Heist Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBorderColor 242 93 39 255 # Heist Border
+	SetFontSize 41 # Big
+	#BlockStrictness 2 Hide
+
+# Heist Blueprint NS
 Show
 	Class = "Blueprint"
+	BaseType = "Blueprint: Bunker" "Blueprint: Laboratory" "Blueprint: Mansion" "Blueprint: Prohibited Library" "Blueprint: Records Office" "Blueprint: Repository" "Blueprint: Smuggler's Den" "Blueprint: Tunnels" "Blueprint: Underbelly"
 	SetTextColor 242 93 39 255 # Heist Text
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 242 93 39 255 # Heist Border
 	SetFontSize 41 # Big
 	CustomAlertSound "gfT3.mp3" 200
 	MinimapIcon 1 Orange Kite
+
+# Heist Blueprint
+Hide
+	Class = "Blueprint"
+	SetTextColor 242 93 39 255 # Heist Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBorderColor 242 93 39 255 # Heist Border
+	SetFontSize 41 # Big
+	#BlockStrictness 2 Hide
 
 #-------------------------------------------------------------------------------
 # Subsection: Experimented Base Types
@@ -1326,7 +1358,7 @@ Show
 # Divination Card Tier1
 Show
 	Class = "Divination Card"
-	BaseType == "A Note in the Wind" "Abandoned Wealth" "Alluring Bounty" "Beauty Through Death" "Brother's Stash" "Burning Blood" "Deadly Joy" "Desecrated Virtue" "Gift of Asenath" "House of Mirrors" "Hunter's Reward" "Immortal Resolve" "Love Through Ice" "Luminous Trove" "Nook's Crown" "Pride of the First Ones" "Seven Years Bad Luck" "Succor of the Sinless" "The Cheater" "The Craving" "The Demon" "The Doctor" "The Fiend" "The Greatest Intentions" "The Immortal" "The Iron Bard" "The Nurse" "The Price of Loyalty" "The Progeny of Lunaris" "The Samurai's Eye" "The Spark and the Flame" "The White Knight" "Unrequited Love"
+	BaseType == "Abandoned Wealth" "Alluring Bounty" "Brother's Stash" "Deadly Joy" "Desecrated Virtue" "Gift of Asenath" "House of Mirrors" "Immortal Resolve" "Love Through Ice" "Luminous Trove" "Nook's Crown" "Pride of the First Ones" "Seven Years Bad Luck" "Succor of the Sinless" "The Cheater" "The Demon" "The Doctor" "The Fiend" "The Immortal" "The Iron Bard" "The Nurse" "The Price of Loyalty" "The Samurai's Eye" "The White Knight" "Unrequited Love" "Winter's Embrace"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 14 186 255 255 # Divination Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -1338,7 +1370,7 @@ Show
 # Divination Card Tier1.5
 Show
 	Class = "Divination Card"
-	BaseType == "Azyran's Reward" "Blessing of God" "Broken Promises" "Chaotic Disposition" "Council of Cats" "Dark Dreams" "Draped in Dreams" "Haunting Shadows" "Keeper's Corruption" "Peaceful Moments" "The Academic" "The Astromancer" "The Bargain" "The Bitter Blossom" "The Celestial Justicar" "The Dragon's Heart" "The Enlightened" "The Escape" "The Eternal War" "The Ethereal" "The Eye of Terror" "The Gulf" "The Hive of Knowledge" "The Long Con" "The Offering" "The Pact" "The Patient" "The Polymath" "The Primordial" "The Sacrifice" "The Saint's Treasure" "The Strategist" "The Sustenance" "The Void" "The Whiteout" "The World Eater" "Void of the Elements" "Wealth and Power" "Winter's Embrace"
+	BaseType == "A Note in the Wind" "Azyran's Reward" "Beauty Through Death" "Broken Promises" "Burning Blood" "Chaotic Disposition" "Council of Cats" "Draped in Dreams" "Hunter's Reward" "Keeper's Corruption" "Remembrance" "The Academic" "The Astromancer" "The Bargain" "The Bitter Blossom" "The Dragon's Heart" "The Enlightened" "The Enthusiasts" "The Escape" "The Eternal War" "The Eye of Terror" "The Greatest Intentions" "The Gulf" "The Hoarder" "The Long Con" "The Patient" "The Progeny of Lunaris" "The Sacrifice" "The Saint's Treasure" "The Sephirot" "The Spark and the Flame" "The Strategist" "The Sustenance" "The Void" "The Whiteout" "Wealth and Power"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 14 186 255 255 # Divination Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -1366,7 +1398,7 @@ Show
 # Divination Card Tier2
 Show
 	Class = "Divination Card"
-	BaseType == "A Familiar Call" "A Modest Request" "Alone in the Darkness" "Boon of the First Ones" "Brotherhood in Exile" "Dying Anguish" "Earth Drinker" "Etched in Blood" "Fateful Meeting" "Heterochromia" "Humility" "Mawr Blaidd" "Pride Before the Fall" "Prometheus' Armoury" "Reckless Ambition" "Remembrance" "Squandered Prosperity" "The Artist" "The Awakened" "The Bones" "The Breach" "The Cartographer" "The Celestial Stone" "The Chosen" "The Damned" "The Dapper Prodigy" "The Dark Mage" "The Deep Ones" "The Dreamer" "The Eldritch Decay" "The Endless Darkness" "The Enthusiasts" "The Hale Heart" "The Heroic Shot" "The Hoarder" "The Hunger" "The Jeweller's Boon" "The King's Heart" "The Landing" "The Life Thief" "The Mayor" "The Obscured" "The Old Man" "The Porcupine" "The Professor" "The Queen" "The Risk" "The Sephirot" "The Soul" "The Tinkerer's Table" "The Undaunted" "The Undisputed" "The Valkyrie" "The Warlord" "The Wolven King's Bite" "Underground Forest" "Vanity"
+	BaseType == "A Familiar Call" "A Modest Request" "Arrogance of the Vaal" "Blessing of God" "Boon of the First Ones" "Brotherhood in Exile" "Dark Dreams" "Deathly Designs" "Dialla's Subjugation" "Divine Justice" "Dying Anguish" "Dying Light" "Echoes of Love" "Etched in Blood" "Fateful Meeting" "Humility" "Mawr Blaidd" "Peaceful Moments" "Perfection" "Pride Before the Fall" "Prometheus' Armoury" "Rebirth" "Reckless Ambition" "Society's Remorse" "Squandered Prosperity" "The Artist" "The Awakened" "The Bones" "The Breach" "The Cartographer" "The Celestial Justicar" "The Celestial Stone" "The Chosen" "The Craving" "The Damned" "The Dapper Prodigy" "The Dark Mage" "The Dreamer" "The Eldritch Decay" "The Endless Darkness" "The Ethereal" "The Fishmonger" "The Hale Heart" "The Heroic Shot" "The Hive of Knowledge" "The Landing" "The Life Thief" "The Mayor" "The Offering" "The Old Man" "The Pact" "The Polymath" "The Porcupine" "The Primordial" "The Professor" "The Risk" "The Shortcut" "The Skeleton" "The Soul" "The Tinkerer's Table" "The Undaunted" "The Valkyrie" "The Warlord" "The Wolven King's Bite" "The World Eater" "Unchained" "Underground Forest" "Vanity" "Void of the Elements"
 	SetTextColor 14 186 255 255 # Divination Card Text
 	SetBackgroundColor 25 33 33 255 # Divination Card Highlight Background
 	SetBorderColor 14 186 255 255 # Divination Card Border
@@ -1394,7 +1426,7 @@ Show
 # Divination Card Tier3 currency
 Show
 	Class = "Divination Card"
-	BaseType == "Acclimatisation" "Boon of Justice" "Bowyer's Dream" "Buried Treasure" "Coveted Possession" "Demigod's Wager" "Emperor of Purity" "Emperor's Luck" "Harmony of Souls" "Imperial Legacy" "Last Hope" "Loyalty" "Lucky Connections" "Lucky Deck" "Monochrome" "More is Never Enough" "No Traces" "Sambodhi's Vow" "Society's Remorse" "The Cacophony" "The Card Sharp" "The Chains that Bind" "The Deal" "The Fool" "The Gemcutter" "The Innocent" "The Inventor" "The Journey" "The Master Artisan" "The Seeker" "The Side Quest" "The Survivalist" "The Union" "The Wrath" "Three Faces in the Dark" "Three Voices" "Vinia's Token"
+	BaseType == "Acclimatisation" "Boon of Justice" "Bowyer's Dream" "Buried Treasure" "Coveted Possession" "Demigod's Wager" "Emperor of Purity" "Emperor's Luck" "Harmony of Souls" "Imperial Legacy" "Last Hope" "Loyalty" "Lucky Connections" "Lucky Deck" "Monochrome" "More is Never Enough" "No Traces" "Sambodhi's Vow" "Sambodhi's Wisdom" "The Cacophony" "The Card Sharp" "The Chains that Bind" "The Deal" "The Fool" "The Gemcutter" "The Innocent" "The Inventor" "The Journey" "The Master Artisan" "The Seeker" "The Side Quest" "The Survivalist" "The Union" "The Wrath" "Three Faces in the Dark" "Three Voices" "Vinia's Token"
 	SetTextColor 14 186 255 255 # Divination Card Text
 	SetBackgroundColor 25 33 33 255 # Divination Card Highlight Background
 	SetFontSize 41 # Big
@@ -1402,7 +1434,7 @@ Show
 # Divination Card Tier3
 Show
 	Class = "Divination Card"
-	BaseType == "A Dab of Ink" "Akil's Prophecy" "Arrogance of the Vaal" "Assassin's Favour" "Atziri's Arsenal" "Baited Expectations" "Blind Venture" "Boundless Realms" "Brush, Paint and Palette" "Cameria's Cut" "Cursed Words" "Deathly Designs" "Dialla's Subjugation" "Divine Justice" "Doedre's Madness" "Dying Light" "Friendship" "Gemcutter's Promise" "Glimmer of Hope" "Hubris" "Hunter's Resolve" "Jack in the Box" "Left to Fate" "Lingering Remnants" "Merciless Armament" "Mitts" "Perfection" "Prejudice" "Rebirth" "Sambodhi's Wisdom" "Scholar of the Seas" "The Admirer" "The Adventuring Spirit" "The Aesthete" "The Archmage's Right Hand" "The Battle Born" "The Betrayal" "The Body" "The Brittle Emperor" "The Cache" "The Cataclysm" "The Doppelganger" "The Easy Stroll" "The Encroaching Darkness" "The Endurance" "The Eye of the Dragon" "The Fishmonger" "The Fletcher" "The Formless Sea" "The Garish Power" "The Gentleman" "The Gladiator" "The Golden Era" "The Hook" "The Insatiable" "The Last One Standing" "The Lion" "The Lord of Celebration" "The Mad King" "The Master" "The Mercenary" "The Messenger" "The One With All" "The Penitent" "The Poet" "The Price of Protection" "The Realm" "The Rite of Elements" "The Road to Power" "The Scavenger" "The Shortcut" "The Standoff" "The Stormcaller" "The Surveyor" "The Sword King's Salute" "The Thaumaturgist" "The Throne" "The Tower" "The Traitor" "The Tumbleweed" "The Tyrant" "The Unexpected Prize" "The Valley of Steel Boxes" "The Vast" "The Wilted Rose" "The Wind" "The Wolf" "The Wolf's Legacy" "The Wolverine" "The Wretched" "Time-Lost Relic" "Triskaidekaphobia" "Unchained" "Vile Power" "Volatile Power"
+	BaseType == "A Dab of Ink" "Akil's Prophecy" "Alone in the Darkness" "Assassin's Favour" "Atziri's Arsenal" "Baited Expectations" "Blind Venture" "Boundless Realms" "Brush, Paint and Palette" "Cameria's Cut" "Cursed Words" "Earth Drinker" "Friendship" "Gemcutter's Promise" "Glimmer of Hope" "Haunting Shadows" "Heterochromia" "Hubris" "Hunter's Resolve" "Jack in the Box" "Left to Fate" "Merciless Armament" "Mitts" "Prejudice" "Scholar of the Seas" "The Admirer" "The Aesthete" "The Avenger" "The Battle Born" "The Betrayal" "The Body" "The Brittle Emperor" "The Cache" "The Cataclysm" "The Darkest Dream" "The Deep Ones" "The Doppelganger" "The Easy Stroll" "The Encroaching Darkness" "The Endurance" "The Eye of the Dragon" "The Fletcher" "The Formless Sea" "The Garish Power" "The Gentleman" "The Gladiator" "The Golden Era" "The Hook" "The Hunger" "The Insatiable" "The Jester" "The Jeweller's Boon" "The King's Heart" "The Last One Standing" "The Lion" "The Lord in Black" "The Lord of Celebration" "The Mad King" "The Master" "The Mercenary" "The Messenger" "The Obscured" "The One With All" "The Penitent" "The Poet" "The Price of Protection" "The Queen" "The Realm" "The Rite of Elements" "The Road to Power" "The Scavenger" "The Spoiled Prince" "The Standoff" "The Stormcaller" "The Surveyor" "The Sword King's Salute" "The Thaumaturgist" "The Throne" "The Tower" "The Traitor" "The Trial" "The Undisputed" "The Unexpected Prize" "The Valley of Steel Boxes" "The Vast" "The Wilted Rose" "The Wind" "The Wolf" "The Wolf's Legacy" "The Wolverine" "The Wretched" "Time-Lost Relic" "Triskaidekaphobia" "Vile Power" "Volatile Power"
 	SetTextColor 14 186 255 255 # Divination Card Text
 	SetBackgroundColor 25 33 33 255 # Divination Card Highlight Background
 	SetFontSize 41 # Big
@@ -1422,7 +1454,7 @@ Hide
 # Divination Card Trash
 Hide
 	Class = "Divination Card"
-	BaseType == "A Mother's Parting Gift" "Anarchy's Price" "Audacity" "Birth of the Three" "Call to the First Ones" "Cartographer's Delight" "Dark Temptation" "Death" "Destined to Crumble" "Echoes of Love" "Forbidden Power" "Gift of the Gemling Queen" "Grave Knowledge" "Hope" "Lantador's Lost Love" "Light and Truth" "Lost Worlds" "Lysah's Respite" "Might is Right" "Prosperity" "Rain Tempter" "Rats" "Shard of Fate" "Struck by Lightning" "The Arena Champion" "The Army of Blood" "The Avenger" "The Bear Woman" "The Beast" "The Blazing Fire" "The Calling" "The Carrion Crow" "The Coming Storm" "The Conduit" "The Cursed King" "The Darkest Dream" "The Deceiver" "The Demoness" "The Dragon" "The Dreamland" "The Drunken Aristocrat" "The Explorer" "The Fathomless Depths" "The Feast" "The Forsaken" "The Fox" "The Harvester" "The Hermit" "The Incantation" "The Inoculated" "The Jester" "The Journalist" "The King's Blade" "The Lich" "The Long Watch" "The Lord in Black" "The Lover" "The Lunaris Priestess" "The Metalsmith's Gift" "The Mountain" "The Oath" "The Opulent" "The Pack Leader" "The Rabid Rhoa" "The Ruthless Ceinture" "The Scarred Meadow" "The Sigil" "The Siren" "The Skeleton" "The Spoiled Prince" "The Summoner" "The Sun" "The Surgeon" "The Trial" "The Twilight Moon" "The Twins" "The Visionary" "The Warden" "The Watcher" "The Web" "The Witch" "The Wolf's Shadow" "Thirst for Knowledge" "Thunderous Skies" "Tranquillity" "Treasure Hunter" "Turn the Other Cheek"
+	BaseType == "A Mother's Parting Gift" "Anarchy's Price" "Audacity" "Birth of the Three" "Call to the First Ones" "Cartographer's Delight" "Dark Temptation" "Death" "Destined to Crumble" "Doedre's Madness" "Forbidden Power" "Gift of the Gemling Queen" "Grave Knowledge" "Hope" "Lantador's Lost Love" "Light and Truth" "Lingering Remnants" "Lost Worlds" "Lysah's Respite" "Might is Right" "Prosperity" "Rain Tempter" "Rats" "Shard of Fate" "Struck by Lightning" "The Adventuring Spirit" "The Archmage's Right Hand" "The Arena Champion" "The Army of Blood" "The Bear Woman" "The Beast" "The Blazing Fire" "The Calling" "The Carrion Crow" "The Coming Storm" "The Conduit" "The Cursed King" "The Deceiver" "The Demoness" "The Dragon" "The Dreamland" "The Drunken Aristocrat" "The Explorer" "The Fathomless Depths" "The Feast" "The Forsaken" "The Fox" "The Harvester" "The Hermit" "The Incantation" "The Inoculated" "The Journalist" "The King's Blade" "The Lich" "The Long Watch" "The Lover" "The Lunaris Priestess" "The Metalsmith's Gift" "The Mountain" "The Oath" "The Opulent" "The Pack Leader" "The Rabid Rhoa" "The Ruthless Ceinture" "The Scarred Meadow" "The Sigil" "The Siren" "The Summoner" "The Sun" "The Surgeon" "The Tumbleweed" "The Twilight Moon" "The Twins" "The Tyrant" "The Visionary" "The Warden" "The Watcher" "The Web" "The Witch" "The Wolf's Shadow" "Thirst for Knowledge" "Thunderous Skies" "Tranquillity" "Treasure Hunter" "Turn the Other Cheek"
 	SetTextColor 14 186 255 255 # Divination Card Text
 	SetBackgroundColor 0 0 0 0 # Hidden Background
 	#BlockStrictness 1 Hide
@@ -1450,25 +1482,47 @@ Hide
 # Subsection: Shards
 #-------------------------------------------------------------------------------
 
-# Currency Trash
+# Currency Shard Trash
 Hide
 	Class = "Currency"
-	BaseType = "Alteration Shard" "Transmutation Shard" "Alchemy Shard" "Scroll Fragment"
+	BaseType = "Alteration Shard" "Transmutation Shard" "Alchemy Shard" "Scroll Fragment" "Binding Shard" "Engineer's Shard" "Horizon Shard"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 0 0 0 0 # Hidden Background
 	SetFontSize 37 # Medium
 	#BlockStrictness 1 Hide
 
-# Harbinger Currency Trash
+# Currency Shard T3 Stack
+Show
+	StackSize >= 6
+	Class = "Currency"
+	BaseType = "Chaos Shard" "Regal Shard"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 0 0 0 210 # Junk Background
+	SetFontSize 45 # Yuge
+
+# Currency  Shard T3
 Hide
 	Class = "Currency"
-	BaseType = "Binding Shard" "Horizon Shard" "Engineer's Shard" "Chaos Shard" "Regal Shard"
+	BaseType = "Chaos Shard" "Regal Shard"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
 	SetFontSize 37 # Medium
 	#BlockStrictness 2 Hide
 
-# Harbinger Currency T3
+# Currency Shard T2 Stack
+Show
+	StackSize >= 5
+	Class = "Currency"
+	BaseType = "Annulment Shard" "Harbinger's Shard" "Ancient Shard"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
+	SetBorderColor 200 186 153 255 # Currency Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT2.mp3" 200
+	MinimapIcon 2 Yellow Circle
+	PlayEffect Yellow Temp
+
+# Currency Shard T2
 Show
 	Class = "Currency"
 	BaseType = "Annulment Shard" "Harbinger's Shard" "Ancient Shard"
@@ -1558,7 +1612,7 @@ Show
 Show
 	StackSize >= 4
 	Class = "Currency"
-	BaseType = "Jeweller's Orb" "Orb of Chance" "Chromatic Orb" "Orb of Alteration"
+	BaseType = "Jeweller's Orb" "Orb of Chance" "Chromatic Orb" "Orb of Alteration" "Engineer's Orb"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetFontSize 45 # Yuge
@@ -1568,7 +1622,7 @@ Show
 # Currency Tier4
 Hide
 	Class = "Currency"
-	BaseType = "Jeweller's Orb" "Orb of Chance" "Chromatic Orb" "Orb of Alteration"
+	BaseType = "Jeweller's Orb" "Orb of Chance" "Chromatic Orb" "Orb of Alteration" "Engineer's Orb"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetFontSize 41 # Big
@@ -1578,7 +1632,7 @@ Hide
 Show
 	StackSize >= 3
 	Class = "Currency"
-	BaseType = "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Orb of Scouring" "Orb of Binding"
+	BaseType = "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Orb of Scouring" "Orb of Binding" "Orb of Horizons"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetBorderColor 200 186 153 255 # Currency Border
@@ -1590,7 +1644,7 @@ Show
 # Currency Tier3
 Show
 	Class = "Currency"
-	BaseType = "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Orb of Scouring" "Orb of Binding"
+	BaseType = "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Orb of Scouring" "Orb of Binding" "Orb of Horizons"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetFontSize 45 # Yuge
@@ -1615,7 +1669,7 @@ Show
 Show
 	StackSize >= 6
 	Class = "Currency"
-	BaseType = "Chaos Orb" "Orb of Regret" "Regal Orb" "Gemcutter's Prism" "Vaal Orb" "Orb of Horizons" "Engineer's Orb" "Exalted Shard" "Veiled Chaos Orb"
+	BaseType = "Chaos Orb" "Orb of Regret" "Regal Orb" "Gemcutter's Prism" "Vaal Orb" "Exalted Shard" "Veiled Chaos Orb"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 200 186 153 255 # Currency Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -1627,7 +1681,7 @@ Show
 # Currency Tier2
 Show
 	Class = "Currency"
-	BaseType = "Chaos Orb" "Orb of Regret" "Regal Orb" "Gemcutter's Prism" "Vaal Orb" "Orb of Horizons" "Engineer's Orb" "Exalted Shard" "Veiled Chaos Orb"
+	BaseType = "Chaos Orb" "Orb of Regret" "Regal Orb" "Gemcutter's Prism" "Vaal Orb" "Exalted Shard" "Veiled Chaos Orb"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetBorderColor 200 186 153 255 # Currency Border
@@ -1768,15 +1822,15 @@ Show
 #-------------------------------------------------------------------------------
 
 # Forgotten Currency
-Show
-	Class = "Currency"
-	SetTextColor 255 0 255 255 # wat
-	SetBackgroundColor 255 255 255 255 # Tier0 Background
-	SetBorderColor 255 0 255 255 # wat
-	SetFontSize 45 # Yuge
-	PlayAlertSound 15 300 # wat
-	MinimapIcon 0 Red Circle
-	PlayEffect Yellow 
+#Show
+#	Class = "Currency"
+#	SetTextColor 255 0 255 255 # wat
+#	SetBackgroundColor 255 255 255 255 # Tier0 Background
+#	SetBorderColor 255 0 255 255 # wat
+#	SetFontSize 45 # Yuge
+#	PlayAlertSound 15 300 # wat
+#	MinimapIcon 0 Red Circle
+#	PlayEffect Yellow 
 
 #===============================================================================
 # Section: Map Fragments
@@ -2077,18 +2131,9 @@ Show
 # Section: Maps
 #===============================================================================
 
-# Shaped Map
-#Show
-#	HasInfluence = "Shaper"
-#	MapTier <= 10
-#	Class = "Maps"
-#	SetTextColor 0 0 0 255 # Map Text
-#	SetBackgroundColor 255 200 0 255 # Map Yellow Background
-#	SetBorderColor 127 100 0 255 # Map Yellow Border
-#	SetFontSize 45 # Yuge
-#	PlayAlertSound 4 150 # Map
-#	MinimapIcon 1 Yellow Square
-#	PlayEffect Yellow 
+#-------------------------------------------------------------------------------
+# Subsection: Map Unique
+#-------------------------------------------------------------------------------
 
 # Map Unique Tier1
 Show
@@ -2152,8 +2197,63 @@ Show
 	SetBorderColor 88 48 19 250 # Map Unique Border
 	SetFontSize 45 # Yuge
 	PlayAlertSound 4 150 # Map
-	MinimapIcon 1 Red Square
+	MinimapIcon 1 Yellow Square
 	PlayEffect Brown 
+
+#-------------------------------------------------------------------------------
+# Subsection: Map Special
+#-------------------------------------------------------------------------------
+
+# Enchanted Map T14+
+Show
+	AnyEnchantment = True
+	MapTier >= 14
+	Class = "Maps"
+	SetTextColor 210 210 210 255 # Delirium Text
+	SetBackgroundColor 243 40 29 255 # Map Red Background
+	SetBorderColor 210 210 210 255 # Delirium Border
+	SetFontSize 45 # Yuge
+	PlayAlertSound 4 150 # Map
+	MinimapIcon 0 Red Square
+	PlayEffect Red 
+
+# Enchanted Map Red
+Show
+	AnyEnchantment = True
+	MapTier >= 11
+	Class = "Maps"
+	SetTextColor 210 210 210 255 # Delirium Text
+	SetBackgroundColor 243 40 29 255 # Map Red Background
+	SetBorderColor 210 210 210 255 # Delirium Border
+	SetFontSize 45 # Yuge
+	PlayAlertSound 4 150 # Map
+	MinimapIcon 1 Red Square
+	PlayEffect Red 
+
+# Enchanted Map
+Show
+	AnyEnchantment = True
+	Class = "Maps"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 200 200 200 255 # Map White Background
+	SetBorderColor 210 210 210 255 # Delirium Border
+	SetFontSize 45 # Yuge
+	PlayAlertSound 4 150 # Map
+	MinimapIcon 1 Yellow Square
+	PlayEffect Yellow 
+
+# Shaped Map
+#Show
+#	HasInfluence = "Shaper"
+#	MapTier <= 10
+#	Class = "Maps"
+#	SetTextColor 0 0 0 255 # Map Text
+#	SetBackgroundColor 255 200 0 255 # Map Yellow Background
+#	SetBorderColor 127 100 0 255 # Map Yellow Border
+#	SetFontSize 45 # Yuge
+#	PlayAlertSound 4 150 # Map
+#	MinimapIcon 1 Yellow Square
+#	PlayEffect Yellow 
 
 # Garbage Map
 #Hide
@@ -2186,6 +2286,18 @@ Hide
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 200 0 255 # Map Yellow Background
 	SetBorderColor 127 100 0 255 # Map Yellow Border
+	SetFontSize 37 # Medium
+	DisableDropSound
+	#BlockStrictness 3 Disable
+
+# Map Red Override
+Hide
+	MapTier <= 13
+	AreaLevel >= 81
+	Class = "Maps"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 243 40 29 255 # Map Red Background
+	SetBorderColor 122 20 15 255 # Map Red Border
 	SetFontSize 37 # Medium
 	DisableDropSound
 	#BlockStrictness 3 Disable
