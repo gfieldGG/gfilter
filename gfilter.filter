@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.14.7
+# VERSION:       3.14.8
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -2254,6 +2254,16 @@ Show
 #	PlayAlertSound 4 150 # Map
 #	MinimapIcon 1 Yellow Square
 #	PlayEffect Yellow 
+
+# Corrupted Normal Map
+#Hide
+#	Corrupted = True
+#	Rarity = Normal
+#	Class = "Maps"
+#	SetTextColor 0 0 0 255 # Map Text
+#	SetBackgroundColor 200 200 200 255 # Map White Background
+#	SetBorderColor 0 0 0 255 # Map Border
+#	#BlockStrictness 2 Disable
 
 # Garbage Map
 #Show
