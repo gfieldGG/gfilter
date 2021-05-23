@@ -2258,7 +2258,7 @@ Show
 # Corrupted Normal Map
 #Hide
 #	Corrupted = True
-#	Rarity = Normal
+#	Rarity <= Magic
 #	Class = "Maps"
 #	SetTextColor 0 0 0 255 # Map Text
 #	SetBackgroundColor 200 200 200 255 # Map White Background
