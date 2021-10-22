@@ -2275,21 +2275,6 @@ Show
 	MinimapIcon 1 Yellow Square
 	PlayEffect Yellow 
 
-# Shaped Map
-#Show
-#	HasInfluence = "Shaper"
-#	Corrupted = Normal
-#	Corrupted = Normal
-#	MapTier <= 10
-#	Class = "Maps"
-#	SetTextColor 0 0 0 255 # Map Text
-#	SetBackgroundColor 255 200 0 255 # Map Yellow Background
-#	SetBorderColor 127 100 0 255 # Map Yellow Border
-#	SetFontSize 45 # Yuge
-#	PlayAlertSound 4 150 # Map
-#	MinimapIcon 1 Yellow Square
-#	PlayEffect Yellow 
-
 # Corrupted Normal Map
 #Hide
 #	Corrupted = True
@@ -4708,41 +4693,41 @@ Show
 #===============================================================================
 
 # Chisel Hammer Normal
-Show
-	Rarity = Normal
-	Quality >= 10
-	BaseType = "Gavel" "Rock Breaker" "Stone Hammer"
-	SetTextColor 200 200 200 255 # Normal Text
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetBorderColor 80 80 80 255 # Quality Border
-	SetFontSize 37 # Medium
-	#BlockStrictness 2 Disable
+#Show
+#	Rarity = Normal
+#	Quality >= 10
+#	BaseType = "Gavel" "Rock Breaker" "Stone Hammer"
+#	SetTextColor 200 200 200 255 # Normal Text
+#	SetBackgroundColor 0 0 0 255 # Default Background
+#	SetBorderColor 80 80 80 255 # Quality Border
+#	SetFontSize 37 # Medium
+#	#BlockStrictness 2 Disable
 
 # Chisel Hammer Magic
-Show
-	Rarity = Magic
-	Quality >= 16
-	BaseType = "Gavel" "Rock Breaker" "Stone Hammer"
-	SetTextColor 136 136 255 255 # Magic Text
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetBorderColor 80 80 80 255 # Quality Border
-	SetFontSize 37 # Medium
-	#BlockStrictness 2 Disable
+#Show
+#	Rarity = Magic
+#	Quality >= 16
+#	BaseType = "Gavel" "Rock Breaker" "Stone Hammer"
+#	SetTextColor 136 136 255 255 # Magic Text
+#	SetBackgroundColor 0 0 0 255 # Default Background
+#	SetBorderColor 80 80 80 255 # Quality Border
+#	SetFontSize 37 # Medium
+#	#BlockStrictness 2 Disable
 
 #===============================================================================
 # Section: Perfect Quality Items
 #===============================================================================
 
 # Perfect Quality Item lvling
-Show
-	ItemLevel < 67
-	Rarity = Normal
-	Quality = 20
-	Class = "Body Armours" "Boots" "Gloves" "Bows" "Shields" "Two Hand" "One Hand" "Wands" "Staves" "Helmets" "Sceptres"
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetBorderColor 80 80 80 255 # Quality Border
-	SetFontSize 37 # Medium
-	#BlockStrictness 2 Disable
+#Show
+#	ItemLevel < 67
+#	Rarity = Normal
+#	Quality = 20
+#	Class = "Body Armours" "Boots" "Gloves" "Bows" "Shields" "Two Hand" "One Hand" "Wands" "Staves" "Helmets" "Sceptres"
+#	SetBackgroundColor 0 0 0 255 # Default Background
+#	SetBorderColor 80 80 80 255 # Quality Border
+#	SetFontSize 37 # Medium
+#	#BlockStrictness 2 Disable
 
 #===============================================================================
 # Section: Flasks
