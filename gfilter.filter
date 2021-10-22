@@ -86,6 +86,39 @@ Show
 	SetFontSize 45 # Yuge
 
 #===============================================================================
+# Section: Expedition
+#===============================================================================
+
+# Expedition Reroll Currency
+Show
+	Class = "Stackable Currency"
+	BaseType = "Scrap Metal" "Exotic Coinage" "Astragali" "Burial Medallion"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 40 50 60 255 # Expedition Highlight Background
+	SetFontSize 41 # Big
+
+# Expedition Artifact
+Show
+	Class = "Stackable Currency"
+	BaseType = "Artifact"
+	SetTextColor 122 145 191 255 # Expedition Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBorderColor 122 145 191 255 # Expedition Border
+	SetFontSize 41 # Big
+
+# Expedition Logbook
+Show
+	Class = "Expedition Logbook"
+	BaseType = "Expedition Logbook"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 122 145 191 255 # Expedition Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Square
+	PlayEffect Grey 
+
+#===============================================================================
 # Section: Ultimatum
 #===============================================================================
 
@@ -2245,6 +2278,7 @@ Show
 # Shaped Map
 #Show
 #	HasInfluence = "Shaper"
+#	Corrupted = Normal
 #	Corrupted = Normal
 #	MapTier <= 10
 #	Class = "Maps"
