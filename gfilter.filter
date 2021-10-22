@@ -86,6 +86,64 @@ Show
 	SetFontSize 45 # Yuge
 
 #===============================================================================
+# Section: Scourge
+#===============================================================================
+
+# Tainted Junk heh
+Show
+	Class = "Stackable Currency"
+	BaseType = "Tainted Armourer's Scrap" "Tainted Blacksmith's Whetstone"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 40 4 0 255 # Scourge Highlight Background
+	SetFontSize 41 # Big
+
+# Tainted T3
+Show
+	Class = "Stackable Currency"
+	BaseType = "Tainted Jeweller's Orb" "Tainted Chromatic Orb" "Tainted Jeweller's Orb"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 40 4 0 255 # Scourge Highlight Background
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT3.mp3" 200
+	MinimapIcon 2 White Circle
+
+# Tainted T2
+Show
+	Class = "Stackable Currency"
+	BaseType = "Tainted Orb of Fusing" "Tainted Chaos Orb"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 40 4 0 255 # Scourge Highlight Background
+	SetBorderColor 200 186 153 255 # Currency Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT2.mp3" 200
+	MinimapIcon 1 Yellow Circle
+	PlayEffect Red Temp
+
+# Tainted T1.5
+Show
+	Class = "Stackable Currency"
+	BaseType = "Tainted Mythic Orb  " "Tainted Blessing"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 200 186 153 255 # Currency Background
+	SetBorderColor 40 4 0 255 # Scourge Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT15.mp3" 200
+	MinimapIcon 1 Red Circle
+	PlayEffect Red 
+
+# Tainted T1
+Show
+	Class = "Stackable Currency"
+	BaseType = "Tainted Divine Teardrop" "Tainted Exalted Orb"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 200 186 153 255 # Currency Background
+	SetBorderColor 40 4 0 255 # Scourge Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT1.mp3" 200
+	MinimapIcon 0 Red Circle
+	PlayEffect Red 
+
+#===============================================================================
 # Section: Expedition
 #===============================================================================
 
