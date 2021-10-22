@@ -1,9 +1,9 @@
-﻿#===============================================================================
+#===============================================================================
 # GFILTER
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.14.8
+# VERSION:       3.16.0
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -702,7 +702,7 @@ Show
 # Incubator T2
 Show
 	Class = "Incubator"
-	BaseType = "Thaumaturge's Incubator" "Time-Lost Incubator" "Decadent Incubator" "Gemcutter's Incubator" "Foreboding Incubator" "Otherworldly Incubator" "Enchanted Incubator" "Diviner's Incubator" "Skittering Incubator" "Maddening Incubator"
+	BaseType = "Thaumaturge's Incubator" "Time-Lost Incubator" "Gemcutter's Incubator" "Foreboding Incubator" "Otherworldly Incubator" "Enchanted Incubator" "Diviner's Incubator" "Skittering Incubator" "Maddening Incubator"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 28 16 40 255 # Legion Background
 	SetBorderColor 88 52 126 255 # Legion Border
@@ -905,7 +905,7 @@ Show
 # T1.5 Fossil
 Show
 	Class = "Currency"
-	BaseType = "Enchanted Fossil" "Bloodstained Fossil" "Sanctified Fossil" "Perfect Fossil" "Shuddering Fossil" "Glyphic Fossil" "Hollow Fossil"
+	BaseType = "Bloodstained Fossil" "Sanctified Fossil" "Perfect Fossil" "Shuddering Fossil" "Glyphic Fossil" "Hollow Fossil"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 102 193 245 255 # Delve Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -1288,7 +1288,7 @@ Show
 	Rarity >= Magic
 	ItemLevel < 68
 	Class = "Leaguestone"
-	BaseType = "Perandus" "Breach" "Beyond" "Domination"
+	BaseType = "Breach" "Beyond" "Domination"
 	SetTextColor 255 200 0 255 # Legacy Text
 	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
 	SetFontSize 41 # Big
@@ -1298,7 +1298,7 @@ Show
 Show
 	Rarity >= Magic
 	Class = "Leaguestone"
-	BaseType = "Perandus" "Breach" "Beyond" "Onslaught" "Domination"
+	BaseType = "Breach" "Beyond" "Onslaught" "Domination"
 	SetTextColor 255 200 0 255 # Legacy Text
 	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
 	SetFontSize 45 # Yuge
@@ -1318,7 +1318,7 @@ Show
 Show
 	ItemLevel >= 68
 	Class = "Leaguestone"
-	BaseType = "Perandus" "Breach" "Beyond" "Onslaught" "Domination"
+	BaseType = "Breach" "Beyond" "Onslaught" "Domination"
 	SetTextColor 255 200 0 255 # Legacy Text
 	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
 	SetFontSize 41 # Big
@@ -1738,32 +1738,32 @@ Show
 	PlayEffect Yellow 
 
 # Perandus Coin Stack big
-Show
-	StackSize >= 100
-	Class = "Currency"
-	BaseType = "Perandus"
-	SetTextColor 254 213 0 255 # Perandus Text
-	SetBackgroundColor 112 88 2 255 # Perandus Background
-	SetFontSize 41 # Big
+#Show
+#	StackSize >= 100
+#	Class = "Currency"
+#	BaseType = "Perandus"
+#	SetTextColor 254 213 0 255 # Perandus Text
+#	SetBackgroundColor 112 88 2 255 # Perandus Background
+#	SetFontSize 41 # Big
 
 # Perandus Coin Stack small
-Show
-	StackSize >= 10
-	Class = "Currency"
-	BaseType = "Perandus"
-	SetTextColor 254 213 0 255 # Perandus Text
-	SetBackgroundColor 112 88 2 255 # Perandus Background
-	SetFontSize 41 # Big
-	#BlockStrictness 2 Hide
+#Show
+#	StackSize >= 10
+#	Class = "Currency"
+#	BaseType = "Perandus"
+#	SetTextColor 254 213 0 255 # Perandus Text
+#	SetBackgroundColor 112 88 2 255 # Perandus Background
+#	SetFontSize 41 # Big
+#	#BlockStrictness 2 Hide
 
 # Perandus Coin
-Show
-	Class = "Currency"
-	BaseType = "Perandus"
-	SetTextColor 254 213 0 255 # Perandus Text
-	SetBackgroundColor 112 88 2 255 # Perandus Background
-	SetFontSize 37 # Medium
-	#BlockStrictness 1 Hide
+#Show
+#	Class = "Currency"
+#	BaseType = "Perandus"
+#	SetTextColor 254 213 0 255 # Perandus Text
+#	SetBackgroundColor 112 88 2 255 # Perandus Background
+#	SetFontSize 37 # Medium
+#	#BlockStrictness 1 Hide
 
 #-------------------------------------------------------------------------------
 # Subsection: Sextants
@@ -3077,7 +3077,7 @@ Show
 	HasInfluence = "Crusader"
 	Rarity <= Rare
 	ItemLevel >= 80
-	BaseType = "Alternating Sceptre" "Anarchic Spiritblade" "Astral Plate" "Banishing Blade" "Battery Staff" "Blasting Blade" "Blessed Boots" "Blood Raiment" "Blue Pearl Amulet" "Bone Helmet" "Boom Mace" "Capricious Spiritblade" "Cerulean Ring" "Cogwork Ring" "Congregator Wand" "Crystal Belt" "Disapprobation Axe" "Eclipse Staff" "Eventuality Rod" "Exquisite Leather" "Fingerless Silk Gloves" "Flashfire Blade" "Fleshripper" "Gripped Gloves" "Harmonic Spirit Shield" "Hedron Bow" "Honed Cleaver" "Imperial Buckler" "Infernal Blade" "Iolite Ring" "Malign Fangs" "Marble Amulet" "Moonstone Ring" "Opal Ring" "Ornate Quiver" "Pneumatic Dagger" "Potentiality Rod" "Psychotic Axe" "Quartz Wand" "Reciprocation Staff" "Sacrificial Garb" "Simplex Amulet" "Solarine Bow" "Spiked Gloves" "Steel Ring" "Stygian Vise" "Titanium Spirit Shield" "Tornado Wand" "Transformer Staff" "Unset Ring" "Vermillion Ring" "Void Fangs"
+	BaseType = "Alternating Sceptre" "Anarchic Spiritblade" "Astral Plate" "Banishing Blade" "Battery Staff" "Blasting Blade" "Fugitive Boots" "Blood Raiment" "Blue Pearl Amulet" "Bone Helmet" "Boom Mace" "Capricious Spiritblade" "Cerulean Ring" "Cogwork Ring" "Congregator Wand" "Crystal Belt" "Disapprobation Axe" "Eclipse Staff" "Eventuality Rod" "Exquisite Leather" "Fingerless Silk Gloves" "Flashfire Blade" "Fleshripper" "Gripped Gloves" "Harmonic Spirit Shield" "Hedron Bow" "Honed Cleaver" "Imperial Buckler" "Infernal Blade" "Iolite Ring" "Malign Fangs" "Marble Amulet" "Moonstone Ring" "Opal Ring" "Ornate Quiver" "Pneumatic Dagger" "Potentiality Rod" "Psychotic Axe" "Quartz Wand" "Reciprocation Staff" "Sacrificial Garb" "Simplex Amulet" "Solarine Bow" "Spiked Gloves" "Steel Ring" "Stygian Vise" "Titanium Spirit Shield" "Tornado Wand" "Transformer Staff" "Unset Ring" "Vermillion Ring" "Void Fangs"
 	SetTextColor 205 101 110 255 # Conqueror Text
 	SetBackgroundColor 86 6 11 255 # Conqueror Highlight Background
 	SetBorderColor 143 46 54 255 # Conqueror Border
@@ -3359,7 +3359,7 @@ Show
 	HasInfluence = "Shaper"
 	Rarity <= Rare
 	ItemLevel >= 86
-	BaseType = "Astral Plate" "Blessed Boots" "Citrine Amulet" "Congregator Wand" "Fossilised Spirit Shield" "Harmonic Spirit Shield" "Horned Sceptre" "Hubris Circlet" "Lacquered Buckler" "Seaglass Amulet" "Sorcerer Boots" "Supreme Spiked Shield"
+	BaseType = "Astral Plate" "Fugitive Boots" "Citrine Amulet" "Congregator Wand" "Fossilised Spirit Shield" "Harmonic Spirit Shield" "Horned Sceptre" "Hubris Circlet" "Lacquered Buckler" "Seaglass Amulet" "Sorcerer Boots" "Supreme Spiked Shield"
 	SetTextColor 43 150 211 255 # Shaper Text
 	SetBackgroundColor 0 38 66 255 # Shaper Highlight Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -3373,7 +3373,7 @@ Show
 	HasInfluence = "Shaper"
 	Rarity <= Rare
 	ItemLevel >= 80
-	BaseType = "Accumulator Wand" "Alder Spiked Shield" "Anarchic Spiritblade" "Apex Cleaver" "Apothecary's Gloves" "Archon Kite Shield" "Assassin's Garb" "Astral Plate" "Banishing Blade" "Baroque Round Shield" "Battery Staff" "Blessed Boots" "Blood Raiment" "Bone Helmet" "Boom Mace" "Cardinal Round Shield" "Champion Kite Shield" "Cogwork Ring" "Colossal Tower Shield" "Crack Mace" "Crusader Gloves" "Crystal Belt" "Despot Axe" "Disapprobation Axe" "Ebony Tower Shield" "Elegant Round Shield" "Eventuality Rod" "Ezomyte Tower Shield" "Fickle Spiritblade" "Fingerless Silk Gloves" "Flashfire Blade" "Flickerflame Blade" "Fossilised Spirit Shield" "Foundry Bow" "Harmonic Spirit Shield" "Honed Cleaver" "Hubris Circlet" "Imperial Bow" "Imperial Buckler" "Imperial Skean" "Infernal Blade" "Iolite Ring" "Ironwood Buckler" "Jewelled Foil" "Lacquered Buckler" "Malign Fangs" "Marble Amulet" "Mirrored Spiked Shield" "Ochre Sceptre" "Opal Ring" "Oscillating Sceptre" "Pinnacle Tower Shield" "Pneumatic Dagger" "Potentiality Rod" "Pressurised Dagger" "Prismatic Ring" "Psychotic Axe" "Sacrificial Garb" "Seaglass Amulet" "Sekhem" "Shadow Fangs" "Silken Hood" "Solarine Bow" "Sorcerer Gloves" "Spiked Gloves" "Stabilising Sceptre" "Steel Ring" "Stygian Vise" "Supreme Spiked Shield" "Thorium Spirit Shield" "Tiger Hook" "Titan Gauntlets" "Titanium Spirit Shield" "Two-Toned Boots" "Vaal Spirit Shield" "Vermillion Ring" "Void Fangs"
+	BaseType = "Accumulator Wand" "Alder Spiked Shield" "Anarchic Spiritblade" "Apex Cleaver" "Apothecary's Gloves" "Archon Kite Shield" "Assassin's Garb" "Astral Plate" "Banishing Blade" "Baroque Round Shield" "Battery Staff" "Fugitive Boots" "Blood Raiment" "Bone Helmet" "Boom Mace" "Cardinal Round Shield" "Champion Kite Shield" "Cogwork Ring" "Colossal Tower Shield" "Crack Mace" "Crusader Gloves" "Crystal Belt" "Despot Axe" "Disapprobation Axe" "Ebony Tower Shield" "Elegant Round Shield" "Eventuality Rod" "Ezomyte Tower Shield" "Fickle Spiritblade" "Fingerless Silk Gloves" "Flashfire Blade" "Flickerflame Blade" "Fossilised Spirit Shield" "Foundry Bow" "Harmonic Spirit Shield" "Honed Cleaver" "Hubris Circlet" "Imperial Bow" "Imperial Buckler" "Imperial Skean" "Infernal Blade" "Iolite Ring" "Ironwood Buckler" "Jewelled Foil" "Lacquered Buckler" "Malign Fangs" "Marble Amulet" "Mirrored Spiked Shield" "Ochre Sceptre" "Opal Ring" "Oscillating Sceptre" "Pinnacle Tower Shield" "Pneumatic Dagger" "Potentiality Rod" "Pressurised Dagger" "Prismatic Ring" "Psychotic Axe" "Sacrificial Garb" "Seaglass Amulet" "Sekhem" "Shadow Fangs" "Silken Hood" "Solarine Bow" "Sorcerer Gloves" "Spiked Gloves" "Stabilising Sceptre" "Steel Ring" "Stygian Vise" "Supreme Spiked Shield" "Thorium Spirit Shield" "Tiger Hook" "Titan Gauntlets" "Titanium Spirit Shield" "Two-Toned Boots" "Vaal Spirit Shield" "Vermillion Ring" "Void Fangs"
 	SetTextColor 43 150 211 255 # Shaper Text
 	SetBackgroundColor 0 38 66 255 # Shaper Highlight Background
 	SetBorderColor 43 150 211 255 # Shaper Border
