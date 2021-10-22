@@ -1,4 +1,4 @@
-﻿#===============================================================================
+#===============================================================================
 # GFILTER
 #===============================================================================
 #
@@ -1138,30 +1138,6 @@ Show
 	SetBorderColor 169 189 149 255 # Abyss Border
 	SetFontSize 41 # Big
 	#BlockStrictness 3 Hide
-
-#===============================================================================
-# Section: Breach
-#===============================================================================
-
-# Breach Ring ilvl82
-Show
-	ItemLevel >= 82
-	Class = "Rings"
-	BaseType = "Breach Ring"
-	SetTextColor 255 255 119 255 # Rare Text
-	SetBackgroundColor 21 12 30 255 # Breach Highlight Background
-	SetBorderColor 182 20 0 255 # Breach Border
-	SetFontSize 41 # Big
-
-# Breach Ring
-Show
-	Class = "Rings"
-	BaseType = "Breach Ring"
-	SetTextColor 255 255 119 255 # Rare Text
-	SetBackgroundColor 21 12 30 255 # Breach Highlight Background
-	SetBorderColor 182 20 0 255 # Breach Border
-	SetFontSize 37 # Medium
-	#BlockStrictness 2 Hide
 
 #-------------------------------------------------------------------------------
 # Subsection: Splinter
@@ -4275,6 +4251,30 @@ Show # Sceptre Levelling | Disable
 #-------------------------------------------------------------------------------
 # Subsection: Identified Affixes TODO
 #-------------------------------------------------------------------------------
+
+#===============================================================================
+# Section: Breach Rings
+#===============================================================================
+
+# Breach Ring ilvl82
+Show
+	ItemLevel >= 82
+	Class = "Rings"
+	BaseType = "Breach Ring"
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 21 12 30 255 # Breach Highlight Background
+	SetBorderColor 182 20 0 255 # Breach Border
+	SetFontSize 41 # Big
+
+# Breach Ring
+Show
+	Class = "Rings"
+	BaseType = "Breach Ring"
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 21 12 30 255 # Breach Highlight Background
+	SetBorderColor 182 20 0 255 # Breach Border
+	SetFontSize 37 # Medium
+	#BlockStrictness 2 Hide
 
 #-------------------------------------------------------------------------------
 # Subsection: Talismans
