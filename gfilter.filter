@@ -4734,6 +4734,19 @@ Show
 #===============================================================================
 
 #-------------------------------------------------------------------------------
+# Subsection: Quality Flasks
+#-------------------------------------------------------------------------------
+
+# Flask Quality
+Show
+	Rarity <= Magic
+	Quality >= 14
+	Class = "Flask"
+	SetBorderColor 80 80 80 255 # Quality Border
+	#BlockStrictness 2 Disable
+	Continue
+
+#-------------------------------------------------------------------------------
 # Subsection: Utility Flasks Levelling
 #-------------------------------------------------------------------------------
 
@@ -4756,245 +4769,89 @@ Show
 # Subsection: Flask Upgrade Normal
 #-------------------------------------------------------------------------------
 
+# Color Normal
 Show
-	ItemLevel <= 6
 	Rarity = Normal
 	Class = "Flask"
-	BaseType = "Medium"
 	SetTextColor 255 255 255 255 # Normal Highlight Text
 	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
-	SetFontSize 41
-	#BlockStrictness 3 Hide
+	SetFontSize 41 # Big
+	Continue
 
+# Color Magic
 Show
-	ItemLevel <= 12
-	Rarity = Normal
+	Rarity = Magic
 	Class = "Flask"
-	BaseType = "Large"
-	SetTextColor 255 255 255 255 # Normal Highlight Text
-	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
-	SetFontSize 41
-	#BlockStrictness 3 Hide
-
-Show
-	ItemLevel <= 18
-	Rarity = Normal
-	Class = "Flask"
-	BaseType = "Greater"
-	SetTextColor 255 255 255 255 # Normal Highlight Text
-	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
-	SetFontSize 41
-	#BlockStrictness 3 Hide
-
-Show
-	ItemLevel <= 24
-	Rarity = Normal
-	Class = "Flask"
-	BaseType = "Grand"
-	SetTextColor 255 255 255 255 # Normal Highlight Text
-	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
-	SetFontSize 41
-	#BlockStrictness 3 Hide
-
-Show
-	ItemLevel <= 30
-	Rarity = Normal
-	Class = "Flask"
-	BaseType = "Giant"
-	SetTextColor 255 255 255 255 # Normal Highlight Text
-	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
-	SetFontSize 41
-	#BlockStrictness 3 Hide
-
-Show
-	ItemLevel <= 36
-	Rarity = Normal
-	Class = "Flask"
-	BaseType = "Colossal"
-	SetTextColor 255 255 255 255 # Normal Highlight Text
-	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
-	SetFontSize 41
-	#BlockStrictness 3 Hide
-
-Show
-	ItemLevel <= 42
-	Rarity = Normal
-	Class = "Flask"
-	BaseType = "Sacred"
-	SetTextColor 255 255 255 255 # Normal Highlight Text
-	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
-	SetFontSize 41
-	#BlockStrictness 3 Hide
-
-Show
-	ItemLevel <= 50
-	Rarity = Normal
-	Class = "Flask"
-	BaseType = "Hallowed"
-	SetTextColor 255 255 255 255 # Normal Highlight Text
-	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
-	SetFontSize 41
-	#BlockStrictness 3 Hide
-
-Show
-	ItemLevel <= 51
-	Rarity = Normal
-	Class = "Flask"
-	BaseType = "Sanctified"
-	SetTextColor 255 255 255 255 # Normal Highlight Text
-	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
-	SetFontSize 41
-	#BlockStrictness 3 Hide
-
-Show
-	ItemLevel < 67
-	Rarity = Normal
-	Class = "Flask"
-	BaseType = "Divine"
-	SetTextColor 255 255 255 255 # Normal Highlight Text
-	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
-	SetFontSize 41
-	#BlockStrictness 3 Hide
-
-Show
-	ItemLevel < 67
-	Rarity = Normal
-	Class = "Flask"
-	BaseType = "Eternal"
-	SetTextColor 255 255 255 255 # Normal Highlight Text
-	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
-	SetFontSize 41
-	#BlockStrictness 3 Hide
-
-#-------------------------------------------------------------------------------
-# Subsection: Flask Upgrade Magic
-#-------------------------------------------------------------------------------
+	SetTextColor 136 136 255 255 # Magic Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetFontSize 41 # Big
+	Continue
 
 Show
 	ItemLevel <= 6
-	Rarity = Magic
+	Rarity <= Magic
 	Class = "Flask"
 	BaseType = "Medium"
-	SetTextColor 136 136 255 255 # Magic Text
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 41
 
 Show
 	ItemLevel <= 12
-	Rarity = Magic
+	Rarity <= Magic
 	Class = "Flask"
 	BaseType = "Large"
-	SetTextColor 136 136 255 255 # Magic Text
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 41
 
 Show
 	ItemLevel <= 18
-	Rarity = Magic
+	Rarity <= Magic
 	Class = "Flask"
 	BaseType = "Greater"
-	SetTextColor 136 136 255 255 # Magic Text
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 41
 
 Show
 	ItemLevel <= 24
-	Rarity = Magic
+	Rarity <= Magic
 	Class = "Flask"
 	BaseType = "Grand"
-	SetTextColor 136 136 255 255 # Magic Text
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 41
 
 Show
 	ItemLevel <= 30
-	Rarity = Magic
+	Rarity <= Magic
 	Class = "Flask"
 	BaseType = "Giant"
-	SetTextColor 136 136 255 255 # Magic Text
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 41
 
 Show
 	ItemLevel <= 36
-	Rarity = Magic
+	Rarity <= Magic
 	Class = "Flask"
 	BaseType = "Colossal"
-	SetTextColor 136 136 255 255 # Magic Text
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 41
 
 Show
 	ItemLevel <= 42
-	Rarity = Magic
+	Rarity <= Magic
 	Class = "Flask"
 	BaseType = "Sacred"
-	SetTextColor 136 136 255 255 # Magic Text
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 41
 
 Show
 	ItemLevel <= 50
-	Rarity = Magic
+	Rarity <= Magic
 	Class = "Flask"
 	BaseType = "Hallowed"
-	SetTextColor 136 136 255 255 # Magic Text
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 41
 
 Show
 	ItemLevel <= 51
-	Rarity = Magic
+	Rarity <= Magic
 	Class = "Flask"
 	BaseType = "Sanctified"
-	SetTextColor 136 136 255 255 # Magic Text
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 41
 
 Show
 	ItemLevel < 67
-	Rarity = Magic
+	Rarity <= Magic
 	Class = "Flask"
 	BaseType = "Divine"
-	SetTextColor 136 136 255 255 # Magic Text
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 41
 
 Show
 	ItemLevel < 67
-	Rarity = Magic
+	Rarity <= Magic
 	Class = "Flask"
 	BaseType = "Eternal"
-	SetTextColor 136 136 255 255 # Magic Text
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 41
-
-#-------------------------------------------------------------------------------
-# Subsection: Quality Flasks
-#-------------------------------------------------------------------------------
-
-# Flask Quality Levelling
-Show
-	ItemLevel < 67
-	Rarity = Normal
-	Quality >= 10
-	Class = "Flask"
-	SetTextColor 200 200 200 255 # Normal Text
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetBorderColor 80 80 80 255 # Quality Border
-	SetFontSize 41 # Big
-	#BlockStrictness 2 Disable
-
-# Flask Quality Endgame
-Show
-	Rarity = Normal
-	Quality >= 14
-	Class = "Flask"
-	SetTextColor 200 200 200 255 # Normal Text
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	SetBorderColor 80 80 80 255 # Quality Border
-	SetFontSize 41 # Big
-	#BlockStrictness 2 Disable
 
 #-------------------------------------------------------------------------------
 # Subsection: Hide remaining Flasks
