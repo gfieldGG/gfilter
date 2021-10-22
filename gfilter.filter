@@ -4945,6 +4945,51 @@ Show
 #===============================================================================
 
 #-------------------------------------------------------------------------------
+# Subsection: Endgame Flasks
+#-------------------------------------------------------------------------------
+
+Show
+	ItemLevel >= 85
+	Rarity <= Magic
+	BaseType = "Quicksilver Flask"
+	SetTextColor 255 255 255 255 # Normal Highlight Text
+	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
+	SetFontSize 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Hexagon
+	PlayEffect White 
+
+Show
+	ItemLevel >= 84
+	Rarity <= Magic
+	BaseType = "Basalt Flask" "Granite Flask" "Jade Flask"
+	SetTextColor 255 255 255 255 # Normal Highlight Text
+	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
+	SetFontSize 45 # Yuge
+	PlayAlertSound 6 150 # Tier3
+	MinimapIcon 2 White Hexagon
+	PlayEffect White Temp
+
+Show
+	ItemLevel >= 82
+	Rarity <= Magic
+	BaseType = "Aquamarine Flask" "Basalt Flask" "Diamond Flask" "Granite Flask" "Iron Flask" "Jade Flask" "Quartz Flask" "Quicksilver Flask" "Silver Flask" "Stibnite Flask" "Sulphur Flask"
+	SetTextColor 255 255 255 255 # Normal Highlight Text
+	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
+	SetFontSize 45 # Yuge
+
+Show
+	ItemLevel >= 82
+	Rarity <= Magic
+	BaseType = "Divine Life Flask" "Divine Mana Flask" "Eternal Life Flask" "Eternal Mana Flask" "Hallowed Hybrid Flask"
+	SetTextColor 255 255 255 255 # Normal Highlight Text
+	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
+	SetFontSize 45 # Yuge
+	PlayAlertSound 6 150 # Tier3
+	MinimapIcon 0 White Hexagon
+	PlayEffect White Temp
+
+#-------------------------------------------------------------------------------
 # Subsection: Quality Flasks
 #-------------------------------------------------------------------------------
 
