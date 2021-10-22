@@ -1,4 +1,4 @@
-#===============================================================================
+﻿#===============================================================================
 # GFILTER
 #===============================================================================
 #
@@ -85,7 +85,7 @@ Show
 	Class = "Stackable Currency"
 	BaseType = "Tainted Armourer's Scrap" "Tainted Blacksmith's Whetstone"
 	SetTextColor 200 186 153 255 # Currency Text
-	SetBackgroundColor 40 4 0 255 # Scourge Highlight Background
+	SetBackgroundColor 45 0 0 255 # Scourge Highlight Background
 	SetFontSize 41 # Big
 
 # Tainted T3
@@ -93,7 +93,7 @@ Show
 	Class = "Stackable Currency"
 	BaseType = "Tainted Jeweller's Orb" "Tainted Chromatic Orb" "Tainted Jeweller's Orb"
 	SetTextColor 200 186 153 255 # Currency Text
-	SetBackgroundColor 40 4 0 255 # Scourge Highlight Background
+	SetBackgroundColor 45 0 0 255 # Scourge Highlight Background
 	SetFontSize 45 # Yuge
 	CustomAlertSound "gfT3.mp3" 200
 	MinimapIcon 2 White Circle
@@ -103,7 +103,7 @@ Show
 	Class = "Stackable Currency"
 	BaseType = "Tainted Orb of Fusing" "Tainted Chaos Orb"
 	SetTextColor 200 186 153 255 # Currency Text
-	SetBackgroundColor 40 4 0 255 # Scourge Highlight Background
+	SetBackgroundColor 45 0 0 255 # Scourge Highlight Background
 	SetBorderColor 200 186 153 255 # Currency Border
 	SetFontSize 45 # Yuge
 	CustomAlertSound "gfT2.mp3" 200
@@ -113,10 +113,10 @@ Show
 # Tainted T1.5
 Show
 	Class = "Stackable Currency"
-	BaseType = "Tainted Mythic Orb  " "Tainted Blessing"
+	BaseType = "Tainted Mythic Orb" "Tainted Blessing"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 200 186 153 255 # Currency Background
-	SetBorderColor 40 4 0 255 # Scourge Border
+	SetBorderColor 45 0 0 255 # Scourge Border
 	SetFontSize 45 # Yuge
 	CustomAlertSound "gfT15.mp3" 200
 	MinimapIcon 1 Red Circle
@@ -128,7 +128,7 @@ Show
 	BaseType = "Tainted Divine Teardrop" "Tainted Exalted Orb"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 200 186 153 255 # Currency Background
-	SetBorderColor 40 4 0 255 # Scourge Border
+	SetBorderColor 45 0 0 255 # Scourge Border
 	SetFontSize 45 # Yuge
 	CustomAlertSound "gfT1.mp3" 200
 	MinimapIcon 0 Red Circle
@@ -144,7 +144,7 @@ Show
 	BaseType = "Scrap Metal" "Exotic Coinage" "Astragali" "Burial Medallion"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 40 50 60 255 # Expedition Highlight Background
-	SetFontSize 41 # Big
+	SetFontSize 45 # Yuge
 
 # Expedition Artifact
 Show
@@ -153,7 +153,7 @@ Show
 	SetTextColor 122 145 191 255 # Expedition Text
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 122 145 191 255 # Expedition Border
-	SetFontSize 41 # Big
+	SetFontSize 45 # Yuge
 
 # Expedition Logbook
 Show
