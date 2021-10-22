@@ -3947,7 +3947,7 @@ Show
 	#BlockStrictness 3 Disable
 
 #-------------------------------------------------------------------------------
-# Subsection: Obsolete Bases
+# Subsection: Rare Obsolete Bases
 #-------------------------------------------------------------------------------
 
 Show
@@ -3957,6 +3957,7 @@ Show
 	Rarity = Rare
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
+	#BlockStrictness 3 Hide
 
 Show
 	ItemLevel >= 15
@@ -3965,6 +3966,7 @@ Show
 	Rarity = Rare
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
+	#BlockStrictness 3 Hide
 
 Show
 	ItemLevel >= 20
@@ -3973,6 +3975,7 @@ Show
 	Rarity = Rare
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
+	#BlockStrictness 3 Hide
 
 Show
 	ItemLevel >= 25
@@ -3981,6 +3984,7 @@ Show
 	Rarity = Rare
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
+	#BlockStrictness 3 Hide
 
 Show
 	ItemLevel >= 30
@@ -3989,6 +3993,7 @@ Show
 	Rarity = Rare
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
+	#BlockStrictness 3 Hide
 
 Show
 	ItemLevel >= 35
@@ -3997,6 +4002,7 @@ Show
 	Rarity = Rare
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
+	#BlockStrictness 3 Hide
 
 Show
 	ItemLevel >= 40
@@ -4005,6 +4011,7 @@ Show
 	Rarity = Rare
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
+	#BlockStrictness 3 Hide
 
 Show
 	ItemLevel >= 45
@@ -4013,6 +4020,7 @@ Show
 	Rarity = Rare
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
+	#BlockStrictness 3 Hide
 
 Show
 	ItemLevel >= 50
@@ -4021,6 +4029,7 @@ Show
 	Rarity = Rare
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
+	#BlockStrictness 3 Hide
 
 Show
 	ItemLevel >= 55
@@ -4029,6 +4038,7 @@ Show
 	Rarity = Rare
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
+	#BlockStrictness 3 Hide
 
 Show
 	ItemLevel >= 60
@@ -4037,6 +4047,7 @@ Show
 	Rarity = Rare
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
+	#BlockStrictness 3 Hide
 
 Show
 	ItemLevel >= 65
@@ -4045,6 +4056,7 @@ Show
 	Rarity = Rare
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
+	#BlockStrictness 3 Hide
 
 #-------------------------------------------------------------------------------
 # Subsection: Rare Specific Weapon Upgrade Toggles
@@ -4078,13 +4090,13 @@ Show
 #	SetFontSize 41 # Big
 
 # Wand Rare Levelling
-#Show # Wand Levelling | Disable
-#	ItemLevel < 67
-#	Rarity = Rare
-#	Class = "Wands"
-#	SetTextColor 255 255 119 255 # Rare Text
-#	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
-#	SetFontSize 41 # Big
+Show # Wand Levelling | Disable
+	ItemLevel < 67
+	Rarity = Rare
+	Class = "Wands"
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+	SetFontSize 41 # Big
 
 # Two Hand Axe Rare Levelling
 #Show # Two Hand Axe Levelling | Disable
@@ -4105,13 +4117,13 @@ Show
 #	SetFontSize 41 # Big
 
 # Rune Dagger Rare Levelling
-#Show # Rune Dagger Levelling | Disable
-#	ItemLevel < 67
-#	Rarity = Rare
-#	Class = "Rune Daggers"
-#	SetTextColor 255 255 119 255 # Rare Text
-#	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
-#	SetFontSize 41 # Big
+Show # Rune Dagger Levelling | Disable
+	ItemLevel < 67
+	Rarity = Rare
+	Class = "Rune Daggers"
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+	SetFontSize 41 # Big
 
 # Dagger Rare Levelling
 #Show # Dagger Levelling | Disable
@@ -4177,13 +4189,13 @@ Show
 #	SetFontSize 41 # Big
 
 # Sceptre Rare Levelling
-#Show # Sceptre Levelling | Disable
-#	ItemLevel < 67
-#	Rarity = Rare
-#	Class = "Sceptres"
-#	SetTextColor 255 255 119 255 # Rare Text
-#	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
-#	SetFontSize 41 # Big
+Show # Sceptre Levelling | Disable
+	ItemLevel < 67
+	Rarity = Rare
+	Class = "Sceptres"
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+	SetFontSize 41 # Big
 
 #===============================================================================
 # Section: Rares
@@ -4689,47 +4701,6 @@ Show
 	#BlockStrictness 2 Hide
 
 #===============================================================================
-# Section: Chisel Recipe
-#===============================================================================
-
-# Chisel Hammer Normal
-#Show
-#	Rarity = Normal
-#	Quality >= 10
-#	BaseType = "Gavel" "Rock Breaker" "Stone Hammer"
-#	SetTextColor 200 200 200 255 # Normal Text
-#	SetBackgroundColor 0 0 0 255 # Default Background
-#	SetBorderColor 80 80 80 255 # Quality Border
-#	SetFontSize 37 # Medium
-#	#BlockStrictness 2 Disable
-
-# Chisel Hammer Magic
-#Show
-#	Rarity = Magic
-#	Quality >= 16
-#	BaseType = "Gavel" "Rock Breaker" "Stone Hammer"
-#	SetTextColor 136 136 255 255 # Magic Text
-#	SetBackgroundColor 0 0 0 255 # Default Background
-#	SetBorderColor 80 80 80 255 # Quality Border
-#	SetFontSize 37 # Medium
-#	#BlockStrictness 2 Disable
-
-#===============================================================================
-# Section: Perfect Quality Items
-#===============================================================================
-
-# Perfect Quality Item lvling
-#Show
-#	ItemLevel < 67
-#	Rarity = Normal
-#	Quality = 20
-#	Class = "Body Armours" "Boots" "Gloves" "Bows" "Shields" "Two Hand" "One Hand" "Wands" "Staves" "Helmets" "Sceptres"
-#	SetBackgroundColor 0 0 0 255 # Default Background
-#	SetBorderColor 80 80 80 255 # Quality Border
-#	SetFontSize 37 # Medium
-#	#BlockStrictness 2 Disable
-
-#===============================================================================
 # Section: Flasks
 #===============================================================================
 
@@ -4743,16 +4714,17 @@ Show
 	Quality >= 14
 	Class = "Flask"
 	SetBorderColor 80 80 80 255 # Quality Border
-	#BlockStrictness 2 Disable
 	Continue
+	#BlockStrictness 2 Disable
 
 #-------------------------------------------------------------------------------
-# Subsection: Utility Flasks Levelling
+# Subsection: Utility Flasks
 #-------------------------------------------------------------------------------
 
 Show
 	ItemLevel < 67
-	BaseType = "Silver Flask" "Quicksilver Flask" "Diamond Flask" "Granite Flask" "Basalt Flask"
+	Rarity <= Magic
+	BaseType = "Silver Flask" "Quicksilver Flask"
 	SetTextColor 255 255 255 255 # Normal Highlight Text
 	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
 	SetFontSize 45 # Yuge
@@ -4760,19 +4732,28 @@ Show
 
 Show
 	ItemLevel < 67
+	Rarity <= Magic
 	Class = "Utility Flasks"
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetFontSize 41 # Big
 	#BlockStrictness 3 Disable
 
+# Show all until we have tiering
+Show
+	Rarity <= Magic
+	Class = "Utility Flask"
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetFontSize 41 # Big
+	#BlockStrictness 3 Hide
+
 #-------------------------------------------------------------------------------
-# Subsection: Flask Upgrade Normal
+# Subsection: Life/Mana Flask
 #-------------------------------------------------------------------------------
 
 # Color Normal
 Show
 	Rarity = Normal
-	Class = "Flask"
+	Class = "Life Flask" "Mana Flask"
 	SetTextColor 255 255 255 255 # Normal Highlight Text
 	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
 	SetFontSize 41 # Big
@@ -4781,9 +4762,9 @@ Show
 # Color Magic
 Show
 	Rarity = Magic
-	Class = "Flask"
+	Class = "Life Flask" "Mana Flask"
 	SetTextColor 136 136 255 255 # Magic Text
-	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBackgroundColor 0 15 30 255 # Magic Highlight Background
 	SetFontSize 41 # Big
 	Continue
 
@@ -4853,18 +4834,12 @@ Show
 	Class = "Flask"
 	BaseType = "Eternal"
 
-#-------------------------------------------------------------------------------
-# Subsection: Hide remaining Flasks
-#-------------------------------------------------------------------------------
-
-# Hybrid Flask
+# Hide remaining
 Hide
-	Class = "Hybrid Flasks"
+	Class = "Life Flask" "Mana Flask" "Hybrid Flask"
 	SetBackgroundColor 0 0 0 0 # Hidden Background
-
-Hide
-	Class = "Flask"
-	SetBackgroundColor 0 0 0 0 # Hidden Background
+	SetBorderColor 255 255 255 0 # Hidden Border
+	SetFontSize 32 # Regular
 
 #===============================================================================
 # Section: Chroma Recipe
@@ -5041,94 +5016,94 @@ Hide
 #-------------------------------------------------------------------------------
 
 # Bow Levelling
-#Show # Bow Levelling | Disable
-#	Rarity <= Magic
-#	Class = "Bow"
-#	SetBackgroundColor 0 0 0 210 # Junk Background
+Hide # Bow Levelling | Hide
+	Rarity <= Magic
+	Class = "Bow"
+	SetBackgroundColor 0 0 0 210 # Junk Background
 
 # Warstave Levelling
-#Show # Warstave Levelling | Disable
-#	Rarity <= Magic
-#	Class = "Warstaves"
-#	SetBackgroundColor 0 0 0 210 # Junk Background
+Hide # Warstave Levelling | Hide
+	Rarity <= Magic
+	Class = "Warstaves"
+	SetBackgroundColor 0 0 0 210 # Junk Background
 
 # Stave Levelling
-#Show # Stave Levelling | Disable
-#	Rarity <= Magic
-#	Class = "Staves"
-#	SetBackgroundColor 0 0 0 210 # Junk Background
+Hide # Stave Levelling | Hide
+	Rarity <= Magic
+	Class = "Staves"
+	SetBackgroundColor 0 0 0 210 # Junk Background
 
 # Wand Levelling
-#Show # Wand Levelling | Disable
-#	Rarity <= Magic
-#	Class = "Wands"
-#	SetBackgroundColor 0 0 0 210 # Junk Background
+Hide # Wand Levelling | Hide
+	Rarity <= Magic
+	Class = "Wands"
+	SetBackgroundColor 0 0 0 210 # Junk Background
 
 # Two Hand Axe Levelling
-#Show # Two Hand Axe Levelling | Disable
-#	Rarity <= Magic
-#	Class = "Two Hand Axe"
-#	SetBackgroundColor 0 0 0 210 # Junk Background
+Hide # Two Hand Axe Levelling | Hide
+	Rarity <= Magic
+	Class = "Two Hand Axe"
+	SetBackgroundColor 0 0 0 210 # Junk Background
 
 # One Hand Axe Levelling
-#Show # One Hand Axe Levelling | Disable
-#	Rarity <= Magic
-#	Class = "One Hand Axes"
-#	SetBackgroundColor 0 0 0 210 # Junk Background
+Hide # One Hand Axe Levelling | Hide
+	Rarity <= Magic
+	Class = "One Hand Axes"
+	SetBackgroundColor 0 0 0 210 # Junk Background
 
 # Rune Dagger Levelling
-#Show # Rune Dagger Levelling | Disable
-#	Rarity <= Magic
-#	Class = "Rune Daggers"
-#	SetBackgroundColor 0 0 0 210 # Junk Background
+Hide # Rune Dagger Levelling | Hide
+	Rarity <= Magic
+	Class = "Rune Daggers"
+	SetBackgroundColor 0 0 0 210 # Junk Background
 
 # Dagger Levelling
-#Show # Dagger Levelling | Disable
-#	Rarity <= Magic
-#	Class = "Daggers"
-#	SetBackgroundColor 0 0 0 210 # Junk Background
+Hide # Dagger Levelling | Hide
+	Rarity <= Magic
+	Class = "Daggers"
+	SetBackgroundColor 0 0 0 210 # Junk Background
 
 # Two Hand Sword Levelling
-#Show # Two Hand Sword Levelling | Disable
-#	Rarity <= Magic
-#	Class = "Two Hand Sword"
-#	SetBackgroundColor 0 0 0 210 # Junk Background
+Hide # Two Hand Sword Levelling | Hide
+	Rarity <= Magic
+	Class = "Two Hand Sword"
+	SetBackgroundColor 0 0 0 210 # Junk Background
 
 # Thrusting Levelling
-#Show # Thrusting Levelling | Disable
-#	Rarity <= Magic
-#	Class = "Thrusting"
-#	SetBackgroundColor 0 0 0 210 # Junk Background
+Hide # Thrusting Levelling | Hide
+	Rarity <= Magic
+	Class = "Thrusting"
+	SetBackgroundColor 0 0 0 210 # Junk Background
 
 # One Hand Sword Levelling
-#Show # One Hand Sword Levelling | Disable
-#	Rarity <= Magic
-#	Class = "One Hand Swords"
-#	SetBackgroundColor 0 0 0 210 # Junk Background
+Hide # One Hand Sword Levelling | Hide
+	Rarity <= Magic
+	Class = "One Hand Swords"
+	SetBackgroundColor 0 0 0 210 # Junk Background
 
 # Two Hand Mace Levelling
-#Show # Two Hand Mace Levelling | Disable
-#	Rarity <= Magic
-#	Class = "Two Hand Maces"
-#	SetBackgroundColor 0 0 0 210 # Junk Background
+Hide # Two Hand Mace Levelling | Hide
+	Rarity <= Magic
+	Class = "Two Hand Maces"
+	SetBackgroundColor 0 0 0 210 # Junk Background
 
 # One Hand Mace Levelling
-#Show # One Hand Mace Levelling | Disable
-#	Rarity <= Magic
-#	Class = "One Hand Maces"
-#	SetBackgroundColor 0 0 0 210 # Junk Background
+Hide # One Hand Mace Levelling | Hide
+	Rarity <= Magic
+	Class = "One Hand Maces"
+	SetBackgroundColor 0 0 0 210 # Junk Background
 
 # Claw Levelling
-#Show # Claw Levelling | Disable
-#	Rarity <= Magic
-#	Class = "Claws"
-#	SetBackgroundColor 0 0 0 210 # Junk Background
+Hide # Claw Levelling | Hide
+	Rarity <= Magic
+	Class = "Claws"
+	SetBackgroundColor 0 0 0 210 # Junk Background
 
 # Sceptre Levelling
-#Show # Sceptre Levelling | Disable
-#	Rarity <= Magic
-#	Class = "Sceptres"
-#	SetBackgroundColor 0 0 0 210 # Junk Background
+Hide # Sceptre Levelling | Hide
+	Rarity <= Magic
+	Class = "Sceptres"
+	SetBackgroundColor 0 0 0 210 # Junk Background
 
 #-------------------------------------------------------------------------------
 # Subsection: Specific Armor Upgrade Toggles
@@ -5193,7 +5168,7 @@ Hide
 	#BlockStrictness 3 Disable
 
 # INT Armor - Shields
-Hide
+Hide # ES | Disable
 	Rarity <= Magic
 	Class = "Shield"
 	BaseType = "Spirit"
@@ -5201,7 +5176,7 @@ Hide
 	#BlockStrictness 3 Disable
 
 # STR/INT Armor - Shields
-Hide
+Hide # Armor/ES | Disable
 	Rarity <= Magic
 	Class = "Shield"
 	BaseType = "Kite"
@@ -5209,15 +5184,15 @@ Hide
 	#BlockStrictness 3 Disable
 
 # STR/DEX Armor - Shields
-Hide
+Hide # Armor/Evasion | Hide
 	Rarity <= Magic
 	Class = "Shield"
 	BaseType = "Round"
 	SetBackgroundColor 0 0 0 210 # Junk Background
-	#BlockStrictness 3 Disable
+	#BlockStrictness 3 Hide
 
 # INT/DEX Armor - Shields
-Hide
+Hide # ES/Evasion | Disable
 	Rarity <= Magic
 	Class = "Shield"
 	BaseType = "Spike"
