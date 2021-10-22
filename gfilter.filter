@@ -4295,6 +4295,14 @@ Show
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 	SetFontSize 41 # Big
 
+# Expedition Rares
+Show
+	Rarity = Rare
+	BaseType == "Iron Flask" "Runic Crest" "Runic Crown" "Runic Gages" "Runic Gauntlets" "Runic Gloves" "Runic Greaves" "Runic Helm" "Runic Sabatons" "Runic Sollerets"
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+	SetFontSize 41 # Big
+
 # Talisman Rares
 Show
 	Rarity = Rare
@@ -4306,7 +4314,7 @@ Show
 # Misc Rares
 Show
 	Rarity = Rare
-	BaseType == "Grasping Mail" "Greatwolf Talisman" "Rot Head Talisman"
+	BaseType == "Grasping Mail"
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 	SetFontSize 41 # Big
