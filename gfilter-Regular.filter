@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.16.1
+# VERSION:       3.16.2
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -91,7 +91,7 @@ Show
 # Tainted T3
 Show
 	Class = "Stackable Currency"
-	BaseType = "Tainted Jeweller's Orb" "Tainted Chromatic Orb" "Tainted Jeweller's Orb"
+	BaseType = "Tainted Jeweller's Orb" "Tainted Chromatic Orb"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 45 0 0 255 # Scourge Highlight Background
 	SetFontSize 45 # Yuge
@@ -101,7 +101,7 @@ Show
 # Tainted T2
 Show
 	Class = "Stackable Currency"
-	BaseType = "Tainted Orb of Fusing" "Tainted Chaos Orb"
+	BaseType = "Tainted Chaos Orb"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 45 0 0 255 # Scourge Highlight Background
 	SetBorderColor 200 186 153 255 # Currency Border
@@ -113,7 +113,7 @@ Show
 # Tainted T1.5
 Show
 	Class = "Stackable Currency"
-	BaseType = "Tainted Mythic Orb" "Tainted Blessing"
+	BaseType = "Tainted Mythic Orb" "Tainted Blessing" "Tainted Exalted Orb" "Tainted Orb of Fusing"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 200 186 153 255 # Currency Background
 	SetBorderColor 45 0 0 255 # Scourge Border
@@ -125,7 +125,7 @@ Show
 # Tainted T1
 Show
 	Class = "Stackable Currency"
-	BaseType = "Tainted Divine Teardrop" "Tainted Exalted Orb"
+	BaseType = "Tainted Divine Teardrop"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 200 186 153 255 # Currency Background
 	SetBorderColor 45 0 0 255 # Scourge Border
