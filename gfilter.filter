@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.16.0
+# VERSION:       3.16.1
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -133,6 +133,24 @@ Show
 	CustomAlertSound "gfT1.mp3" 200
 	MinimapIcon 0 Red Circle
 	PlayEffect Red 
+
+# Scourged Rare
+Show
+	Scourged = True
+	Rarity = Rare
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 45 0 0 255 # Scourge Highlight Background
+	SetFontSize 41 # Big
+
+# Scourged Unique
+Show
+	Scourged = True
+	Rarity = Unique
+	SetTextColor 175 96 37 255 # Unique Text
+	SetBackgroundColor 45 0 0 255 # Scourge Highlight Background
+	SetFontSize 41 # Big
+	PlayAlertSound 6 150 # Tier3
+	MinimapIcon 2 White Hexagon
 
 #===============================================================================
 # Section: Expedition
@@ -1622,20 +1640,21 @@ Show
 	Class = "Currency"
 	BaseType = "Orb of Transmutation" "Orb of Augmentation" "Blacksmith's Whetstone" "Armourer's Scrap" "Scroll of Wisdom" "Portal Scroll"
 	SetTextColor 200 186 153 255 # Currency Text
-	SetBackgroundColor 0 0 0 210 # Junk Background
+	SetBackgroundColor 0 0 0 255 # Default Background
 	SetFontSize 41 # Big
 	#BlockStrictness 3 Hide
 
-# Currency Tier5
+# Currency Tier5 late leveling
 Show
+	AreaLevel >= 50
 	Class = "Currency"
 	BaseType = "Orb of Transmutation" "Orb of Augmentation" "Blacksmith's Whetstone" "Armourer's Scrap" "Scroll of Wisdom" "Portal Scroll"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
 	SetFontSize 41 # Big
-	#BlockStrictness 2 Disable
+	#BlockStrictness 1 Disable
 
-# Currency Tier4.5 leveling
+# Currency Tier5 leveling
 Show
 	AreaLevel <= 74
 	Class = "Currency"
