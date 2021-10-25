@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.16.2
+# VERSION:       3.16.3
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -3793,11 +3793,33 @@ Show # Ugrouped Customizable Items | Disable
 	#BlockStrictness 1 Disable
 
 #===============================================================================
-# Section: Jewels
+# Section: Cluster Jewels
 #===============================================================================
 
 #-------------------------------------------------------------------------------
-# Subsection: Cluster Jewels
+# Subsection: Specific Bases
+#-------------------------------------------------------------------------------
+
+# Medium Mines Base
+Show
+	Corrupted = False
+	ItemLevel >= 50
+	ItemLevel < 68
+	Rarity <= Rare
+	Class = "Jewel"
+	BaseType = "Medium Cluster Jewel"
+	EnchantmentPassiveNode = "Trap and Mine Damage"
+	EnchantmentPassiveNum <= 5
+	SetTextColor 255 255 255 255 # Normal Highlight Text
+	SetBackgroundColor 100 100 100 240 # Delirium Background
+	SetBorderColor 210 210 210 255 # Delirium Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT15.mp3" 100
+	MinimapIcon 1 Yellow Hexagon
+	PlayEffect White 
+
+#-------------------------------------------------------------------------------
+# Subsection: General
 #-------------------------------------------------------------------------------
 
 # Cluster Jewel S 2
@@ -3850,9 +3872,9 @@ Show
 	PlayEffect White Temp
 	#BlockStrictness 3 Hide
 
-#-------------------------------------------------------------------------------
-# Subsection: Regular Jewels
-#-------------------------------------------------------------------------------
+#===============================================================================
+# Section: Jewels
+#===============================================================================
 
 # Jewel Normal
 Show
