@@ -5006,9 +5006,9 @@ Show
 	SetTextColor 255 255 255 255 # Normal Highlight Text
 	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
 	SetFontSize 45 # Yuge
-	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 1 Yellow Hexagon
-	PlayEffect White 
+	PlayAlertSound 6 150 # Tier3
+	MinimapIcon 2 White Hexagon
+	PlayEffect White Temp
 
 Show
 	ItemLevel >= 84
@@ -5017,8 +5017,6 @@ Show
 	SetTextColor 255 255 255 255 # Normal Highlight Text
 	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
 	SetFontSize 45 # Yuge
-	PlayAlertSound 6 150 # Tier3
-	MinimapIcon 2 White Hexagon
 	PlayEffect White Temp
 
 Show
@@ -5036,8 +5034,6 @@ Show
 	SetTextColor 255 255 255 255 # Normal Highlight Text
 	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
 	SetFontSize 45 # Yuge
-	PlayAlertSound 6 150 # Tier3
-	MinimapIcon 0 White Hexagon
 	PlayEffect White Temp
 
 #-------------------------------------------------------------------------------
@@ -5080,7 +5076,7 @@ Show
 	Class = "Utility Flask"
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetFontSize 41 # Big
-	#BlockStrictness 3 Hide
+	#BlockStrictness 2 Hide
 
 #-------------------------------------------------------------------------------
 # Subsection: Life/Mana Flask
