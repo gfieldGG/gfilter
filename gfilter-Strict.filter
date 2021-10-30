@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.16.3
+# VERSION:       3.16.4
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -1728,11 +1728,9 @@ Show
 	BaseType = "Orb of Alteration"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
-	SetBorderColor 200 186 153 255 # Currency Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3" 200
-	MinimapIcon 1 Yellow Circle
-	PlayEffect Yellow Temp
+	CustomAlertSound "gfT3.mp3" 200
+	MinimapIcon 2 White Circle
 
 # Currency Tier3.5
 Show
@@ -1741,8 +1739,7 @@ Show
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT3.mp3" 200
-	MinimapIcon 1 White Circle
+	#BlockStrictness 3 Hide
 
 # Orb of Binding leveling
 Show
@@ -1759,7 +1756,7 @@ Show
 Show
 	StackSize >= 3
 	Class = "Currency"
-	BaseType = "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Orb of Scouring" "Orb of Binding" "Orb of Horizons"
+	BaseType = "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Orb of Scouring" "Orb of Binding" "Orb of Horizons" "Enkindling Orb" "Instilling Orb"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetBorderColor 200 186 153 255 # Currency Border
@@ -1771,7 +1768,7 @@ Show
 # Currency Tier3
 Show
 	Class = "Currency"
-	BaseType = "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Orb of Scouring" "Orb of Binding" "Orb of Horizons"
+	BaseType = "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Orb of Scouring" "Orb of Binding" "Orb of Horizons" "Enkindling Orb" "Instilling Orb"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetFontSize 45 # Yuge
@@ -1808,7 +1805,7 @@ Show
 # Currency Tier2
 Show
 	Class = "Currency"
-	BaseType = "Chaos Orb" "Orb of Regret" "Regal Orb" "Gemcutter's Prism" "Vaal Orb" "Exalted Shard" "Veiled Chaos Orb" "Enkindling Orb" "Instilling Orb"
+	BaseType = "Chaos Orb" "Orb of Regret" "Regal Orb" "Gemcutter's Prism" "Vaal Orb" "Exalted Shard" "Veiled Chaos Orb"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetBorderColor 200 186 153 255 # Currency Border
