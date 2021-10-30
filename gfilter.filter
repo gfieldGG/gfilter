@@ -753,9 +753,27 @@ Show
 	MinimapIcon 0 Red Diamond
 	PlayEffect Red 
 
+# Legion Splinter nice stack
+Show
+	StackSize >= 3
+	BaseType = "Timeless Maraketh Splinter" "Timeless Templar Splinter"
+	SetTextColor 88 52 126 255 # Legion Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBorderColor 0 0 0 255 # Map Border
+	SetFontSize 41 # Big
+
 # Legion Splinter nice
 Show
 	BaseType = "Timeless Maraketh Splinter" "Timeless Templar Splinter"
+	SetTextColor 88 52 126 255 # Legion Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBorderColor 0 0 0 255 # Map Border
+	SetFontSize 41 # Big
+
+# Legion Splinter stack
+Show
+	StackSize >= 3
+	BaseType = "Timeless Eternal Empire Splinter" "Timeless Karui Splinter" "Timeless Maraketh Splinter" "Timeless Templar Splinter" "Timeless Vaal Splinter"
 	SetTextColor 88 52 126 255 # Legion Text
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 0 0 0 255 # Map Border
