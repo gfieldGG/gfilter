@@ -1634,8 +1634,18 @@ Show
 # Subsection: Regular
 #-------------------------------------------------------------------------------
 
-# Currency Tier5 Stack
+# Currency Tier5 Stack big
 Show
+	StackSize >= 10
+	Class = "Currency"
+	BaseType = "Orb of Transmutation" "Orb of Augmentation" "Blacksmith's Whetstone" "Armourer's Scrap" "Scroll of Wisdom" "Portal Scroll"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetFontSize 41 # Big
+
+# Currency Tier5 Stack mid game
+Show
+	AreaLevel <= 74
 	StackSize >= 4
 	Class = "Currency"
 	BaseType = "Orb of Transmutation" "Orb of Augmentation" "Blacksmith's Whetstone" "Armourer's Scrap" "Scroll of Wisdom" "Portal Scroll"
@@ -1644,25 +1654,25 @@ Show
 	SetFontSize 41 # Big
 	#BlockStrictness 3 Hide
 
+# Currency Tier5 Stack
+Show
+	StackSize >= 4
+	Class = "Currency"
+	BaseType = "Orb of Transmutation" "Orb of Augmentation" "Blacksmith's Whetstone" "Armourer's Scrap" "Scroll of Wisdom" "Portal Scroll"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetFontSize 41 # Big
+	#BlockStrictness 2 Hide
+
 # Currency Tier5 late leveling
 Show
 	AreaLevel >= 50
 	Class = "Currency"
 	BaseType = "Orb of Transmutation" "Orb of Augmentation" "Blacksmith's Whetstone" "Armourer's Scrap" "Scroll of Wisdom" "Portal Scroll"
 	SetTextColor 200 186 153 255 # Currency Text
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	SetFontSize 41 # Big
-	#BlockStrictness 1 Disable
-
-# Currency Tier5 leveling
-Show
-	AreaLevel <= 74
-	Class = "Currency"
-	BaseType = "Orb of Transmutation" "Armourer's Scrap" "Portal Scroll" "Orb of Augmentation"
-	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 0 0 0 140 # Faded Background
 	SetFontSize 41 # Big
-	#BlockStrictness 2 Disable
+	#BlockStrictness 2 Hide
 
 # Currency Tier5
 Show
