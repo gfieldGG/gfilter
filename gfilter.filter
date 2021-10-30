@@ -4627,7 +4627,7 @@ Show
 Show
 	ItemLevel >= 67
 	Rarity = Rare
-	BaseType = "Imbued Wand" "Opal Wand"
+	BaseType = "Convoking Wand" "Imbued Wand" "Opal Sceptre" "Opal Wand" "Ornate Quiver" "Profane Wand"
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 	SetFontSize 45 # Yuge
@@ -4637,31 +4637,31 @@ Show
 Show
 	ItemLevel >= 67
 	Rarity = Rare
-	BaseType = "Arcanist Gloves" "Arcanist Slippers" "Assassin's Boots" "Crusader Gloves" "Dragonscale Boots" "Eternal Burgonet" "Fossilised Spirit Shield" "Goliath Greaves" "Harmonic Spirit Shield" "Hubris Circlet" "Imperial Buckler" "Lion Pelt" "Mind Cage" "Murder Boots" "Murder Mitts" "Royal Burgonet" "Sinner Tricorne" "Slink Boots" "Slink Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Stealth Boots" "Titan Gauntlets" "Titan Greaves" "Titanium Spirit Shield" "Vaal Greaves"
+	BaseType = "Apothecary's Gloves" "Arcanist Slippers" "Bone Helmet" "Colossal Tower Shield" "Crusader Boots" "Deicide Mask" "Dragonscale Boots" "Dragonscale Gauntlets" "Eternal Burgonet" "Fingerless Silk Gloves" "Fossilised Spirit Shield" "Fugitive Boots" "Gripped Gloves" "Hubris Circlet" "Imperial Buckler" "Lion Pelt" "Murder Boots" "Murder Mitts" "Nightmare Bascinet" "Royal Burgonet" "Slink Boots" "Slink Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Spiked Gloves" "Stealth Boots" "Titan Gauntlets" "Titan Greaves" "Titanium Spirit Shield" "Two-Toned Boots" "Vaal Greaves"
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 	SetFontSize 45 # Yuge
 	#BlockStrictness 3 Hide
 
 # Rare Base Weapon Big Tier1
-Show
-	ItemLevel >= 67
-	Rarity = Rare
-	BaseType = "Imperial Maul" "Vaal Axe"
-	SetTextColor 255 255 119 255 # Rare Text
-	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
-	SetFontSize 41 # Big
-	#BlockStrictness 3 Hide
+#Show
+#	ItemLevel >= 67
+#	Rarity = Rare
+#	BaseType = "Imperial Maul" "Vaal Axe"
+#	SetTextColor 255 255 119 255 # Rare Text
+#	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+#	SetFontSize 41 # Big
+#	#BlockStrictness 3 Hide
 
 # Rare Base Armor Big Tier1
-Show
-	ItemLevel >= 67
-	Rarity = Rare
-	BaseType = "Astral Plate" "Vaal Regalia"
-	SetTextColor 255 255 119 255 # Rare Text
-	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
-	SetFontSize 41 # Big
-	#BlockStrictness 3 Hide
+#Show
+#	ItemLevel >= 67
+#	Rarity = Rare
+#	BaseType = "Astral Plate" "Vaal Regalia"
+#	SetTextColor 255 255 119 255 # Rare Text
+#	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+#	SetFontSize 41 # Big
+#	#BlockStrictness 3 Hide
 
 #-------------------------------------------------------------------------------
 # Subsection: T2
@@ -4671,7 +4671,7 @@ Show
 Show
 	ItemLevel >= 67
 	Rarity = Rare
-	BaseType = "Corsair Sword" "Gemini Claw" "Jewelled Foil" "Platinum Kris" "Profane Wand" "Prophecy Wand" "Tornado Wand" "Siege Axe"
+	BaseType = "Citadel Bow" "Copper Kris" "Demon's Horn" "Eclipse Staff" "Gemini Claw" "Golden Kris" "Grappler" "Jewelled Foil" "Karui Chopper" "Penetrating Arrow Quiver" "Platinum Kris" "Prophecy Wand" "Sambar Sceptre" "Siege Axe" "Spike-Point Arrow Quiver" "Spiraled Foil" "Thicket Bow" "Tornado Wand" "Vaal Sceptre" "Void Sceptre"
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 	SetFontSize 41 # Big
@@ -4681,31 +4681,31 @@ Show
 Show
 	ItemLevel >= 67
 	Rarity = Rare
-	BaseType = "Ancient Greaves" "Antique Greaves" "Assassin's Mitts" "Carnal Boots" "Conjurer Boots" "Conjurer Gloves" "Crusader Boots" "Crusader Buckler" "Deicide Mask" "Dragonscale Gauntlets" "Ezomyte Burgonet" "Goliath Gauntlets" "Hydrascale Boots" "Legion Gloves" "Nightmare Bascinet" "Praetor Crown" "Samite Gloves" "Shagreen Boots" "Solaris Circlet" "Stealth Gloves" "Supreme Spiked Shield" "Vaal Gauntlets" "Vaal Mask" "Vaal Spirit Shield"
+	BaseType = "Ambush Boots" "Ancient Greaves" "Antique Greaves" "Arcanist Gloves" "Archon Kite Shield" "Assassin's Boots" "Assassin's Garb" "Assassin's Mitts" "Astral Plate" "Carnal Boots" "Conjurer Boots" "Conjurer Gloves" "Crusader Buckler" "Crusader Gloves" "Elegant Round Shield" "Ezomyte Burgonet" "Fluted Bascinet" "Goliath Gauntlets" "Goliath Greaves" "Harmonic Spirit Shield" "Hydrascale Boots" "Hydrascale Gauntlets" "Legion Boots" "Mind Cage" "Pig-Faced Bascinet" "Pinnacle Tower Shield" "Praetor Crown" "Sadist Garb" "Samite Slippers" "Serpentscale Boots" "Shagreen Boots" "Shagreen Gloves" "Sharkskin Boots" "Sinner Tricorne" "Soldier Boots" "Stealth Gloves" "Vaal Gauntlets" "Vaal Mask" "Vaal Regalia" "Vaal Spirit Shield" "Wyrmscale Boots" "Wyrmscale Gauntlets"
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetFontSize 41 # Big
 	#BlockStrictness 3 Hide
 
 # Rare Base Weapon Big Tier2
-Show
-	ItemLevel >= 67
-	Rarity = Rare
-	BaseType = "Coronal Maul" "Eclipse Staff" "Harbinger Bow" "Lion Sword" "Opal Sceptre" "Penetrating Arrow Quiver" "Runic Hatchet" "Sambar Sceptre" "Siege Axe" "Spike-Point Arrow Quiver" "Sundering Axe" "Thicket Bow" "Void Sceptre" "Despot Axe"
-	SetTextColor 255 255 119 255 # Rare Text
-	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
-	SetFontSize 37 # Medium
-	#BlockStrictness 3 Hide
+#Show
+#	ItemLevel >= 67
+#	Rarity = Rare
+#	BaseType = "Coronal Maul" "Eclipse Staff" "Harbinger Bow" "Lion Sword" "Opal Sceptre" "Penetrating Arrow Quiver" "Runic Hatchet" "Sambar Sceptre" "Siege Axe" "Spike-Point Arrow Quiver" "Sundering Axe" "Thicket Bow" "Void Sceptre" "Despot Axe"
+#	SetTextColor 255 255 119 255 # Rare Text
+#	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+#	SetFontSize 37 # Medium
+#	#BlockStrictness 3 Hide
 
 # Rare Base Armor Big Tier2
-Show
-	ItemLevel >= 67
-	Rarity = Rare
-	BaseType = "Archon Kite Shield" "Assassin's Garb" "Colossal Tower Shield" "Glorious Plate" "Mosaic Kite Shield" "Pinnacle Tower Shield" "Widowsilk Robe"
-	SetTextColor 255 255 119 255 # Rare Text
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 37 # Medium
-	#BlockStrictness 3 Hide
+#Show
+#	ItemLevel >= 67
+#	Rarity = Rare
+#	BaseType = "Archon Kite Shield" "Assassin's Garb" "Colossal Tower Shield" "Glorious Plate" "Mosaic Kite Shield" "Pinnacle Tower Shield" "Widowsilk Robe"
+#	SetTextColor 255 255 119 255 # Rare Text
+#	SetBackgroundColor 0 0 0 255 # Default Background
+#	SetFontSize 37 # Medium
+#	#BlockStrictness 3 Hide
 
 #-------------------------------------------------------------------------------
 # Subsection: Other
