@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.16.5
+# VERSION:       3.16.6
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -976,11 +976,11 @@ Show
 Show
 	Class = "Delve Stackable Socketable Currency"
 	BaseType = "Prime Alchemical Resonator" "Prime Chaotic Resonator"
-	SetTextColor 200 186 153 255 # Currency Text
-	SetBackgroundColor 5 18 36 255 # Delve Highlight Background
-	SetBorderColor 102 193 245 255 # Delve Border
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 102 193 245 255 # Delve Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3" 200
+	CustomAlertSound "gfT15.mp3" 200
 	MinimapIcon 0 Blue Circle
 	PlayEffect Blue 
 
@@ -997,18 +997,18 @@ Show
 #-------------------------------------------------------------------------------
 
 # T0 Fossil
-Show
-	Class = "Currency"
-	BaseType = "Fractured Fossil"
-	SetTextColor 102 193 245 255 # Delve Text
-	SetBackgroundColor 255 255 255 255 # Tier0 Background
-	SetBorderColor 102 193 245 255 # Delve Border
-	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT0.mp3" 200
-	MinimapIcon 0 Red Circle
-	PlayEffect Red 
+#Show
+#	Class = "Currency"
+#	BaseType = "Fractured Fossil"
+#	SetTextColor 102 193 245 255 # Delve Text
+#	SetBackgroundColor 255 255 255 255 # Tier0 Background
+#	SetBorderColor 102 193 245 255 # Delve Border
+#	SetFontSize 45 # Yuge
+#	CustomAlertSound "gfT0.mp3" 200
+#	MinimapIcon 0 Red Circle
+#	PlayEffect Red 
 
-# T1 Fossil
+# T1.5 Fossil
 Show
 	Class = "Currency"
 	BaseType = "Faceted Fossil" "Fractured Fossil"
@@ -1016,38 +1016,37 @@ Show
 	SetBackgroundColor 102 193 245 255 # Delve Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT1.mp3" 200
+	CustomAlertSound "gfT15.mp3" 200
 	MinimapIcon 0 Blue Circle
 	PlayEffect Blue 
 
-# T1.5 Fossil
+# T2 Fossil
 Show
 	Class = "Currency"
-	BaseType = "Bloodstained Fossil" "Sanctified Fossil" "Perfect Fossil" "Shuddering Fossil" "Glyphic Fossil" "Hollow Fossil"
-	SetTextColor 0 0 0 255 # Tier1 Text
-	SetBackgroundColor 102 193 245 255 # Delve Background
-	SetBorderColor 255 255 255 255 # Tier1 Border
+	BaseType = "Glyphic Fossil" "Bound Fossil" "Shuddering Fossil" "Corroded Fossil" "Hollow Fossil"
+	SetTextColor 102 193 245 255 # Delve Text
+	SetBackgroundColor 5 18 36 255 # Delve Highlight Background
+	SetBorderColor 102 193 245 255 # Delve Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3" 200
+	CustomAlertSound "gfT2.mp3" 200
 	MinimapIcon 1 Blue Circle
 	PlayEffect Blue 
 
 # Fossil Trash
 Show
 	Class = "Currency"
-	BaseType = "Frigid Fossil" "Scorched Fossil" "Aberrant Fossil" "Lucent Fossil" "Corroded Fossil" "Jagged Fossil"
+	BaseType = "Frigid Fossil" "Scorched Fossil"
 	SetTextColor 102 193 245 255 # Delve Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
 
-# Fossil
+# T3 Fossil
 Show
 	Class = "Currency"
 	BaseType = "Fossil"
 	SetTextColor 102 193 245 255 # Delve Text
 	SetBackgroundColor 5 18 36 255 # Delve Highlight Background
-	SetBorderColor 102 193 245 255 # Delve Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3" 200
+	CustomAlertSound "gfT3.mp3" 200
 	MinimapIcon 2 Blue Circle
 	PlayEffect Blue Temp
 
