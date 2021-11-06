@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.16.6
+# VERSION:       3.16.7
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -155,6 +155,18 @@ Show
 #===============================================================================
 # Section: Expedition
 #===============================================================================
+
+# Expedition Reroll Currency T2
+Show
+	Class = "Stackable Currency"
+	BaseType = "Exotic Coinage" "Burial Medallion"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 40 50 60 255 # Expedition Highlight Background
+	SetBorderColor 200 186 153 255 # Currency Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT2.mp3" 100
+	MinimapIcon 1 Yellow Circle
+	PlayEffect Yellow 
 
 # Expedition Reroll Currency
 Show
