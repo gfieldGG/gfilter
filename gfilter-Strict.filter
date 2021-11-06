@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.16.6
+# VERSION:       3.16.7
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -155,6 +155,18 @@ Show
 #===============================================================================
 # Section: Expedition
 #===============================================================================
+
+# Expedition Reroll Currency T2
+Show
+	Class = "Stackable Currency"
+	BaseType = "Exotic Coinage" "Burial Medallion"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 40 50 60 255 # Expedition Highlight Background
+	SetBorderColor 200 186 153 255 # Currency Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT2.mp3" 100
+	MinimapIcon 1 Yellow Circle
+	PlayEffect Yellow 
 
 # Expedition Reroll Currency
 Show
@@ -597,6 +609,28 @@ Show
 	MinimapIcon 1 Yellow Circle
 	PlayEffect White Temp
 
+# Simulacrum Splinter Stack20
+Show
+	StackSize >= 20
+	Class = "Stackable Currency"
+	BaseType = "Simulacrum Splinter"
+	SetTextColor 210 210 210 255 # Delirium Text
+	SetBackgroundColor 100 100 100 240 # Delirium Background
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT2.mp3" 200
+	MinimapIcon 1 Yellow Circle
+
+# Simulacrum Splinter Stack
+Show
+	StackSize >= 5
+	Class = "Stackable Currency"
+	BaseType = "Simulacrum Splinter"
+	SetTextColor 210 210 210 255 # Delirium Text
+	SetBackgroundColor 100 100 100 240 # Delirium Background
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT3.mp3" 200
+	MinimapIcon 2 White Circle
+
 # Simulacrum Splinter
 Show
 	Class = "Stackable Currency"
@@ -604,8 +638,7 @@ Show
 	SetTextColor 210 210 210 255 # Delirium Text
 	SetBackgroundColor 100 100 100 240 # Delirium Background
 	SetFontSize 41 # Big
-	CustomAlertSound "gfT3.mp3" 200
-	MinimapIcon 2 White Circle
+	#BlockStrictness 3 Hide
 
 # Simulacrum Map
 Show
@@ -1178,6 +1211,15 @@ Show
 # Subsection: Splinter
 #-------------------------------------------------------------------------------
 
+# Breach Splinter Stack
+Show
+	StackSize >= 5
+	Class = "Stackable Currency"
+	BaseType = "Splinter of Esh" "Splinter of Tul" "Splinter of Uul-Netol" "Splinter of Xoph"
+	SetTextColor 166 95 244 255 # Breach Text
+	SetBackgroundColor 40 4 0 255 # Breach Red Highlight Background
+	SetFontSize 45 # Yuge
+
 # Breach Splinter
 Show
 	Class = "Stackable Currency"
@@ -1193,7 +1235,7 @@ Show
 	BaseType = "Splinter of Chayula"
 	SetTextColor 166 95 244 255 # Breach Text
 	SetBackgroundColor 40 4 0 255 # Breach Red Highlight Background
-	SetFontSize 41 # Big
+	SetFontSize 45 # Yuge
 	CustomAlertSound "gfT2.mp3" 200
 	MinimapIcon 2 Yellow Circle
 
@@ -4321,9 +4363,9 @@ Show # Sceptre Levelling | Disable
 # Subsection: Identified Affixes TODO
 #-------------------------------------------------------------------------------
 
-#===============================================================================
-# Section: Breach Rings
-#===============================================================================
+#-------------------------------------------------------------------------------
+# Subsection: Breach Rings
+#-------------------------------------------------------------------------------
 
 # Breach Ring ilvl82
 Show
