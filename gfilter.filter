@@ -609,6 +609,28 @@ Show
 	MinimapIcon 1 Yellow Circle
 	PlayEffect White Temp
 
+# Simulacrum Splinter Stack20
+Show
+	StackSize >= 20
+	Class = "Stackable Currency"
+	BaseType = "Simulacrum Splinter"
+	SetTextColor 210 210 210 255 # Delirium Text
+	SetBackgroundColor 100 100 100 240 # Delirium Background
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT2.mp3" 200
+	MinimapIcon 1 Yellow Circle
+
+# Simulacrum Splinter Stack
+Show
+	StackSize >= 5
+	Class = "Stackable Currency"
+	BaseType = "Simulacrum Splinter"
+	SetTextColor 210 210 210 255 # Delirium Text
+	SetBackgroundColor 100 100 100 240 # Delirium Background
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT3.mp3" 200
+	MinimapIcon 2 White Circle
+
 # Simulacrum Splinter
 Show
 	Class = "Stackable Currency"
@@ -616,8 +638,7 @@ Show
 	SetTextColor 210 210 210 255 # Delirium Text
 	SetBackgroundColor 100 100 100 240 # Delirium Background
 	SetFontSize 41 # Big
-	CustomAlertSound "gfT3.mp3" 200
-	MinimapIcon 2 White Circle
+	#BlockStrictness 3 Hide
 
 # Simulacrum Map
 Show
