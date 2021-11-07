@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.16.7
+# VERSION:       3.16.8
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -588,13 +588,13 @@ Show
 # Delirium Orb Nice
 Show
 	Class = "Stackable Currency"
-	BaseType = "Blighted Delirium Orb" "Skittering Delirium Orb" "Fine Delirium Orb" "Fossilised Delirium Orb" "Diviner's Delirium Orb" "Cartographer's Delirium Orb" "Obscured Delirium Orb"
+	BaseType = "Skittering Delirium Orb" "Fine Delirium Orb" "Fossilised Delirium Orb" "Diviner's Delirium Orb"
 	SetTextColor 210 210 210 255 # Delirium Text
 	SetBackgroundColor 100 100 100 240 # Delirium Background
-	SetBorderColor 200 186 153 255 # Currency Border
+	SetBorderColor 210 210 210 255 # Delirium Border
 	SetFontSize 45 # Yuge
 	CustomAlertSound "gfT15.mp3" 200
-	MinimapIcon 1 Red Circle
+	MinimapIcon 0 Red Circle
 	PlayEffect White 
 
 # Delirium Orb
@@ -603,10 +603,10 @@ Show
 	BaseType = "Delirium Orb"
 	SetTextColor 210 210 210 255 # Delirium Text
 	SetBackgroundColor 100 100 100 240 # Delirium Background
-	SetBorderColor 200 186 153 255 # Currency Border
+	SetBorderColor 210 210 210 255 # Delirium Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3" 200
-	MinimapIcon 1 Yellow Circle
+	CustomAlertSound "gfT15.mp3" 200
+	MinimapIcon 1 Red Circle
 	PlayEffect White Temp
 
 # Simulacrum Splinter Stack20
@@ -736,7 +736,7 @@ Show
 
 # T1 Oil
 Show
-	BaseType = "Golden Oil"
+	BaseType = "Golden Oil" "Tainted Oil"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 200 200 75 255 # Blight Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -746,7 +746,7 @@ Show
 
 # T15 Oil
 Show
-	BaseType = "Silver Oil" "Opalescent Oil" "Black Oil" "Tainted Oil"
+	BaseType = "Silver Oil" "Opalescent Oil" "Black Oil"
 	SetTextColor 200 200 75 255 # Blight Text
 	SetBackgroundColor 30 30 0 255 # Blight Highlight Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -763,6 +763,14 @@ Show
 	SetFontSize 41 # Big
 	CustomAlertSound "gfT2.mp3" 200
 	MinimapIcon 1 Yellow Circle
+
+# T3 Oil
+Show
+	StackSize >= 3
+	BaseType = "Clear Oil" "Sepia Oil" "Verdant Oil" "Amber Oil"
+	SetTextColor 200 200 75 255 # Blight Text
+	SetBackgroundColor 0 0 0 210 # Junk Background
+	SetFontSize 41 # Big
 
 # T3 Oil
 Show
@@ -2077,6 +2085,7 @@ Show
 	SetFontSize 45 # Yuge
 	CustomAlertSound "gfT2.mp3" 200
 	MinimapIcon 1 Yellow Diamond
+	PlayEffect Yellow Temp
 
 # Scarab
 Show
@@ -2086,7 +2095,7 @@ Show
 	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
 	SetBorderColor 0 0 0 0 # No Border
 	SetFontSize 41 # Big
-	PlayAlertSound 6 150 # Tier3
+	CustomAlertSound "gfT3.mp3" 100
 	MinimapIcon 2 White Diamond
 
 #-------------------------------------------------------------------------------
