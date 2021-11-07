@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.16.8
+# VERSION:       3.16.9
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -193,7 +193,7 @@ Show
 	SetBackgroundColor 122 145 191 255 # Expedition Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	PlayAlertSound 3 200 # Tier2
+	CustomAlertSound "gfT15.mp3" 100
 	MinimapIcon 1 Yellow Square
 	PlayEffect Grey 
 
@@ -2932,7 +2932,7 @@ Show
 	PlayEffect Brown Temp
 
 #-------------------------------------------------------------------------------
-# Subsection: Regular
+# Subsection: Specific
 #-------------------------------------------------------------------------------
 
 # Harbinger Piece
@@ -2953,6 +2953,7 @@ Show
 	Class = "Rings"
 	SetTextColor 175 96 37 255 # Unique Text
 	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
+	SetBorderColor 175 96 37 255 # Unique Border
 	SetFontSize 45 # Yuge
 	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 1 Yellow Hexagon
@@ -2969,6 +2970,57 @@ Show
 	CustomAlertSound "gfT0.mp3" 200
 	MinimapIcon 0 Red Hexagon
 	PlayEffect Brown 
+
+# Stranglegasp (probably)
+Show
+	ItemLevel >= 85
+	Rarity = Unique
+	BaseType == "Onyx Amulet"
+	SetTextColor 175 96 37 255 # Unique Text
+	SetBackgroundColor 255 255 255 255 # Tier0 Background
+	SetBorderColor 175 96 37 255 # Unique Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT0.mp3" 200
+	MinimapIcon 0 Red Hexagon
+	PlayEffect Brown 
+
+# The Squire (probably)
+Show
+	Sockets = "WWW"
+	Rarity = Unique
+	BaseType == "Elegant Round Shield"
+	SetTextColor 175 96 37 255 # Unique Text
+	SetBackgroundColor 255 255 255 255 # Tier0 Background
+	SetBorderColor 175 96 37 255 # Unique Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT0.mp3" 200
+	MinimapIcon 0 Red Hexagon
+	PlayEffect Brown 
+
+# The Oppressor
+Show
+	Rarity = Unique
+	BaseType == "Elegant Round Shield"
+	SetTextColor 175 96 37 255 # Unique Text
+	SetBackgroundColor 0 0 0 210 # Junk Background
+	DisableDropSound
+	#BlockStrictness 3 Hide
+
+# Tabula Rasa
+Show
+	SocketGroup >= "WWWWWW"
+	BaseType == "Simple Robe"
+	SetTextColor 175 96 37 255 # Unique Text
+	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
+	SetBorderColor 175 96 37 255 # Unique Border
+	SetFontSize 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Hexagon
+	PlayEffect Brown 
+
+#-------------------------------------------------------------------------------
+# Subsection: Regular
+#-------------------------------------------------------------------------------
 
 # Unique Tier1
 Show
@@ -2995,6 +3047,18 @@ Show
 	MinimapIcon 1 Red Hexagon
 	PlayEffect Brown 
 
+# 6 Link Unique
+Show
+	LinkedSockets = 6
+	Rarity = Unique
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 175 96 37 255 # Unique Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45 # Yuge
+	PlayAlertSound 7 300 # Tier1.5
+	MinimapIcon 1 Red Hexagon
+	PlayEffect Brown 
+
 # Double-Corrupted Unique
 Show
 	Corrupted = True
@@ -3003,30 +3067,6 @@ Show
 	SetTextColor 175 96 37 255 # Unique Text
 	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
 	SetBorderColor 161 27 123 255 # Vaal Border
-	SetFontSize 45 # Yuge
-	PlayAlertSound 7 300 # Tier1.5
-	MinimapIcon 1 Red Hexagon
-	PlayEffect Brown 
-
-# Tabula Rasa
-Show
-	SocketGroup >= "WWWWWW"
-	BaseType == "Simple Robe"
-	SetTextColor 175 96 37 255 # Unique Text
-	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
-	SetBorderColor 175 96 37 255 # Unique Border
-	SetFontSize 45 # Yuge
-	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 1 Yellow Hexagon
-	PlayEffect Brown 
-
-# 6 Link Unique
-Show
-	LinkedSockets = 6
-	Rarity = Unique
-	SetTextColor 0 0 0 255 # Tier1 Text
-	SetBackgroundColor 175 96 37 255 # Unique Background
-	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
 	PlayAlertSound 7 300 # Tier1.5
 	MinimapIcon 1 Red Hexagon
