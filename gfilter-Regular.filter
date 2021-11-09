@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.16.11
+# VERSION:       3.16.12
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -1290,6 +1290,15 @@ Show
 #===============================================================================
 # Section: Prophecy
 #===============================================================================
+
+# Silver Coin Stack
+Show
+	StackSize >= 4
+	Class = "Currency"
+	BaseType = "Silver Coin"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 30 0 30 255 # Prophecy Highlight Background
+	SetFontSize 41 # Big
 
 # Silver Coin
 Show
@@ -3831,16 +3840,6 @@ Show
 # Section: 6 Sockets
 #===============================================================================
 
-# 6 Socket low
-#Show
-#	Sockets = "6"
-#	Rarity <= Rare
-#	SetTextColor 255 255 255 255 # Normal Highlight Text
-#	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
-#	SetBorderColor 200 186 153 255 # Currency Border
-#	SetFontSize 45 # Yuge
-#	#BlockStrictness 2 Disable
-
 # 6 Socket
 Show
 	Sockets = "6"
@@ -3852,7 +3851,17 @@ Show
 	CustomAlertSound "gfT3.mp3" 200
 	MinimapIcon 1 White Circle
 	PlayEffect Yellow Temp
-	#BlockStrictness 3 Disable
+	#BlockStrictness 2 Disable
+
+# 6 Socket low
+Show
+	Sockets = "6"
+	Rarity <= Rare
+	SetTextColor 255 255 255 255 # Normal Highlight Text
+	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
+	SetBorderColor 200 186 153 255 # Currency Border
+	SetFontSize 45 # Yuge
+	#BlockStrictness 3 Hide
 
 #===============================================================================
 # Section: 5 Links
