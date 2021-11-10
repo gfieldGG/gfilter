@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.16.12
+# VERSION:       3.16.13
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -46,9 +46,7 @@ Show
 	Class = "Helmets"
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 124 178 156 255 # Ascendancy Border
-	SetFontSize 45 # Yuge
-	PlayAlertSound 6 150 # Tier3
-	MinimapIcon 1 White Hexagon
+	SetFontSize 41 # Big
 
 # Warband Item
 #Hide
@@ -341,6 +339,7 @@ Show
 	SetBorderColor 242 93 39 255 # Heist Border
 	SetFontSize 41 # Big
 	MinimapIcon 1 Orange Kite
+	#BlockStrictness 3 Disable
 
 # Heist Contract
 Hide
@@ -361,6 +360,7 @@ Show
 	SetFontSize 41 # Big
 	CustomAlertSound "gfT3.mp3" 200
 	MinimapIcon 1 Orange Kite
+	#BlockStrictness 3 Disable
 
 # Heist Blueprint
 Hide
@@ -2981,17 +2981,17 @@ Show
 	PlayEffect Brown 
 
 # Stranglegasp (probably)
-Show
-	ItemLevel >= 85
-	Rarity = Unique
-	BaseType == "Onyx Amulet"
-	SetTextColor 175 96 37 255 # Unique Text
-	SetBackgroundColor 255 255 255 255 # Tier0 Background
-	SetBorderColor 175 96 37 255 # Unique Border
-	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT0.mp3" 200
-	MinimapIcon 0 Red Hexagon
-	PlayEffect Brown 
+#Show
+#	ItemLevel >= 85
+#	Rarity = Unique
+#	BaseType == "Onyx Amulet"
+#	SetTextColor 175 96 37 255 # Unique Text
+#	SetBackgroundColor 255 255 255 255 # Tier0 Background
+#	SetBorderColor 175 96 37 255 # Unique Border
+#	SetFontSize 45 # Yuge
+#	CustomAlertSound "gfT0.mp3" 200
+#	MinimapIcon 0 Red Hexagon
+#	PlayEffect Brown 
 
 # The Squire (probably)
 Show
