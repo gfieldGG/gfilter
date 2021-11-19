@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.16.13
+# VERSION:       3.16.14
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -64,7 +64,17 @@ Show
 	SetFontSize 41 # Big
 	#BlockStrictness 3 Disable
 
-# Betrayal Veiled TODO veil mods filter
+# Betrayal Veiled Specific
+Show
+	Identified = True
+	Rarity <= Rare
+	HasExplicitMod = "Leo's Veiled" "Catarina's Veiled" "Elreon's Veiled" "Vorici's Veiled" "Haku's Veiled" "Tora's Veiled" "Vagan's Veiled" "Guff's Veiled" "It That Fled's Veiled" "Gravicius' Veiled" "Korell's Veiled" "Rin's Veiled" "of Janus' Veil" "of Hillock's Veil" "of Jorgin's Veil" "of Cameria's Veil" "of Aisling's Veil" "of Riker's Veil"
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 80 80 80 255 # Veiled Background
+	SetBorderColor 0 0 0 255 # Map Border
+	SetFontSize 45 # Yuge
+
+# Betrayal Veiled
 Show
 	Identified = True
 	Rarity <= Rare
@@ -73,6 +83,7 @@ Show
 	SetBackgroundColor 80 80 80 255 # Veiled Background
 	SetBorderColor 0 0 0 255 # Map Border
 	SetFontSize 45 # Yuge
+	#BlockStrictness 3 Hide
 
 #===============================================================================
 # Section: Scourge
@@ -1150,9 +1161,9 @@ Show
 # Subsection: Abyss Jewels
 #-------------------------------------------------------------------------------
 
-# Abyss Jewel ilvl82
+# Abyss Jewel ilvl83
 Show
-	ItemLevel >= 82
+	ItemLevel >= 83
 	Class = "Abyss Jewel"
 	SetTextColor 169 189 149 255 # Abyss Text
 	SetBackgroundColor 30 34 26 255 # Abyss Highlight Background
@@ -1160,6 +1171,15 @@ Show
 	SetFontSize 45 # Yuge
 	PlayAlertSound 6 150 # Tier3
 	MinimapIcon 2 White Hexagon
+	#BlockStrictness 3 Disable
+
+# Abyss Jewel ilvl83 low
+Show
+	ItemLevel >= 83
+	Class = "Abyss Jewel"
+	SetTextColor 169 189 149 255 # Abyss Text
+	SetBackgroundColor 30 34 26 255 # Abyss Highlight Background
+	SetFontSize 41 # Big
 
 # Abyss Jewel Magic
 Show
@@ -1177,6 +1197,7 @@ Show
 	SetTextColor 169 189 149 255 # Abyss Text
 	SetBackgroundColor 30 34 26 255 # Abyss Highlight Background
 	SetFontSize 41 # Big
+	#BlockStrictness 3 Hide
 
 #-------------------------------------------------------------------------------
 # Subsection: Stygian Vise
@@ -1231,11 +1252,19 @@ Show
 # Breach Splinter
 Show
 	Class = "Stackable Currency"
-	BaseType = "Splinter of Esh" "Splinter of Tul" "Splinter of Uul-Netol" "Splinter of Xoph"
+	BaseType = "Splinter of Esh" "Splinter of Tul" "Splinter of Xoph"
 	SetTextColor 166 95 244 255 # Breach Text
 	SetBackgroundColor 40 4 0 255 # Breach Red Highlight Background
 	SetFontSize 41 # Big
 	#BlockStrictness 3 Hide
+
+# Breach Splinter
+Show
+	Class = "Stackable Currency"
+	BaseType = "Splinter of Uul-Netol"
+	SetTextColor 166 95 244 255 # Breach Text
+	SetBackgroundColor 40 4 0 255 # Breach Red Highlight Background
+	SetFontSize 41 # Big
 
 # Breach Splinter
 Show
@@ -2775,8 +2804,8 @@ Show
 	HasInfluence = "Shaper"
 	Class = "Maps"
 	SetTextColor 0 0 0 255 # Map Text
-	SetBackgroundColor 243 40 29 255 # Map Red Background
-	SetBorderColor 43 150 211 255 # Shaper Border
+	SetBackgroundColor 96 128 169 255 # Shaper Background
+	SetBorderColor 0 0 0 255 # Map Border
 	SetFontSize 45 # Yuge
 	PlayAlertSound 4 150 # Map
 	MinimapIcon 1 Red Square
@@ -2787,8 +2816,21 @@ Show
 	HasInfluence = "Elder"
 	Class = "Maps"
 	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 145 120 131 255 # Elder Background
+	SetBorderColor 0 0 0 255 # Map Border
+	SetFontSize 45 # Yuge
+	PlayAlertSound 4 150 # Map
+	MinimapIcon 1 Red Square
+	PlayEffect Red 
+
+# Map Red 14+ Nice
+Show
+	MapTier >= 14
+	Class = "Maps"
+	BaseType == "Tropical Island Map" "Underground Sea Map" "City Square Map" "Jungle Valley Map" "Alleyways Map" "Port Map" "Lair Map" "Tower Map" "Burial Chambers Map" "Canyon Map" "Crimson Temple Map" "Atoll Map" "Cemetery Map" "Estuary Map" "Precinct Map" "Toxic Sewer Map" "Acid Caverns Map" "Haunted Mansion Map" "Silo Map" "Iceberg Map"
+	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 243 40 29 255 # Map Red Background
-	SetBorderColor 145 120 131 255 # Elder Border
+	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
 	PlayAlertSound 4 150 # Map
 	MinimapIcon 1 Red Square
@@ -2805,11 +2847,13 @@ Show
 	PlayAlertSound 4 150 # Map
 	MinimapIcon 1 Red Square
 	PlayEffect Red 
+	#BlockStrictness 3 Disable
 
 # Map Red low
 #Show
 #	AreaLevel >= 81
 #	MapTier >= 11
+#	MapTier <= 13
 #	Class = "Maps"
 #	SetTextColor 0 0 0 255 # Map Text
 #	SetBackgroundColor 243 40 29 255 # Map Red Background

@@ -1161,9 +1161,9 @@ Show
 # Subsection: Abyss Jewels
 #-------------------------------------------------------------------------------
 
-# Abyss Jewel ilvl82
+# Abyss Jewel ilvl83
 Show
-	ItemLevel >= 82
+	ItemLevel >= 83
 	Class = "Abyss Jewel"
 	SetTextColor 169 189 149 255 # Abyss Text
 	SetBackgroundColor 30 34 26 255 # Abyss Highlight Background
@@ -1172,6 +1172,14 @@ Show
 	PlayAlertSound 6 150 # Tier3
 	MinimapIcon 2 White Hexagon
 	#BlockStrictness 3 Disable
+
+# Abyss Jewel ilvl83 low
+Show
+	ItemLevel >= 83
+	Class = "Abyss Jewel"
+	SetTextColor 169 189 149 255 # Abyss Text
+	SetBackgroundColor 30 34 26 255 # Abyss Highlight Background
+	SetFontSize 41 # Big
 
 # Abyss Jewel Magic
 Show
