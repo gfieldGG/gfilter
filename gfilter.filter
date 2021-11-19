@@ -1,9 +1,9 @@
-﻿#===============================================================================
+#===============================================================================
 # GFILTER
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.16.13
+# VERSION:       3.16.14
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -2775,8 +2775,8 @@ Show
 	HasInfluence = "Shaper"
 	Class = "Maps"
 	SetTextColor 0 0 0 255 # Map Text
-	SetBackgroundColor 243 40 29 255 # Map Red Background
-	SetBorderColor 43 150 211 255 # Shaper Border
+	SetBackgroundColor 96 128 169 255 # Shaper Background
+	SetBorderColor 0 0 0 255 # Map Border
 	SetFontSize 45 # Yuge
 	PlayAlertSound 4 150 # Map
 	MinimapIcon 1 Red Square
@@ -2787,8 +2787,21 @@ Show
 	HasInfluence = "Elder"
 	Class = "Maps"
 	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 145 120 131 255 # Elder Background
+	SetBorderColor 0 0 0 255 # Map Border
+	SetFontSize 45 # Yuge
+	PlayAlertSound 4 150 # Map
+	MinimapIcon 1 Red Square
+	PlayEffect Red 
+
+# Map Red 14+ Nice
+Show
+	MapTier >= 14
+	Class = "Maps"
+	BaseType == "Tropical Island Map" "Underground Sea Map" "City Square Map" "Jungle Valley Map" "Alleyways Map" "Port Map" "Lair Map" "Tower Map" "Burial Chambers Map" "Canyon Map" "Crimson Temple Map" "Atoll Map" "Cemetery Map" "Estuary Map" "Precinct Map" "Toxic Sewer Map" "Acid Caverns Map" "Haunted Mansion Map" "Silo Map" "Iceberg Map"
+	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 243 40 29 255 # Map Red Background
-	SetBorderColor 145 120 131 255 # Elder Border
+	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
 	PlayAlertSound 4 150 # Map
 	MinimapIcon 1 Red Square
@@ -2805,11 +2818,13 @@ Show
 	PlayAlertSound 4 150 # Map
 	MinimapIcon 1 Red Square
 	PlayEffect Red 
+	#BlockStrictness 3 Disable
 
 # Map Red low
 #Show
 #	AreaLevel >= 81
 #	MapTier >= 11
+#	MapTier <= 13
 #	Class = "Maps"
 #	SetTextColor 0 0 0 255 # Map Text
 #	SetBackgroundColor 243 40 29 255 # Map Red Background
