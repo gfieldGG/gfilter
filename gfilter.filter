@@ -1928,7 +1928,7 @@ Show
 # Currency Tier1
 Show
 	Class = "Currency"
-	BaseType = "Exalted Orb" "Mirror Shard" "Awakener's Orb" "Maven's Orb" "Sacred Orb"
+	BaseType = "Exalted Orb" "Mirror Shard" "Awakener's Orb" "Sacred Orb"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 200 186 153 255 # Currency Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -1981,28 +1981,28 @@ Show
 #-------------------------------------------------------------------------------
 
 # Apprentice Cartographer
-Show
-	Class = "Currency"
-	BaseType = "Apprentice Cartographer's Seal" "Simple Sextant"
-	SetTextColor 200 186 153 255 # Currency Text
-	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
-	SetBorderColor 200 200 200 255 # Apprentice Border
-	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3" 200
-	MinimapIcon 0 Yellow Circle
-	PlayEffect Yellow Temp
+#Show
+#	Class = "Currency"
+#	BaseType = "Apprentice Cartographer's Seal" "Simple Sextant"
+#	SetTextColor 200 186 153 255 # Currency Text
+#	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
+#	SetBorderColor 200 200 200 255 # Apprentice Border
+#	SetFontSize 45 # Yuge
+#	CustomAlertSound "gfT2.mp3" 200
+#	MinimapIcon 0 Yellow Circle
+#	PlayEffect Yellow Temp
 
 # Journeyman Cartographer
-Show
-	Class = "Currency"
-	BaseType = "Journeyman Cartographer's Seal" "Prime Sextant"
-	SetTextColor 200 186 153 255 # Currency Text
-	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
-	SetBorderColor 254 170 0 255 # Journeyman Border
-	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3" 200
-	MinimapIcon 1 Yellow Circle
-	PlayEffect Yellow Temp
+#Show
+#	Class = "Currency"
+#	BaseType = "Journeyman Cartographer's Seal" "Prime Sextant"
+#	SetTextColor 200 186 153 255 # Currency Text
+#	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
+#	SetBorderColor 254 170 0 255 # Journeyman Border
+#	SetFontSize 45 # Yuge
+#	CustomAlertSound "gfT2.mp3" 200
+#	MinimapIcon 1 Yellow Circle
+#	PlayEffect Yellow Temp
 
 # Master Cartographer
 Show
@@ -2191,7 +2191,7 @@ Show
 # Melvin wants YOU
 Show
 	Class = "Misc Map Items"
-	BaseType = "Maven's Invitation"
+	BaseType = "Invitation"
 	SetTextColor 255 200 0 255 # Legacy Text
 	SetBackgroundColor 0 0 64 255 # Synthesis Highlight Background
 	SetFontSize 45 # Yuge
@@ -2202,7 +2202,7 @@ Show
 # Melvin wants YOU quest?
 Show
 	Class = "Quest Items"
-	BaseType = "Maven's Invitation"
+	BaseType = "Invitation"
 	SetTextColor 255 200 0 255 # Legacy Text
 	SetBackgroundColor 0 0 64 255 # Synthesis Highlight Background
 	SetFontSize 45 # Yuge
