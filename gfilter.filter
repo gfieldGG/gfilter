@@ -1682,6 +1682,84 @@ Show
 #===============================================================================
 
 #-------------------------------------------------------------------------------
+# Subsection: Siege of the Atlas
+#-------------------------------------------------------------------------------
+
+Show
+	Class = "Stackable Currency"
+	BaseType = "Compass"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT3.mp3" 200
+	MinimapIcon 1 White Circle
+
+Show
+	Class = "Stackable Currency"
+	BaseType = "Orb of Conflict" "Orb of Dominance"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
+	SetBorderColor 200 186 153 255 # Currency Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT2.mp3" 200
+	MinimapIcon 1 Yellow Circle
+
+Show
+	Class = "Stackable Currency"
+	BaseType = "Oil Extractor"
+	SetTextColor 200 200 75 255 # Blight Text
+	SetBackgroundColor 30 30 0 255 # Blight Highlight Background
+	SetBorderColor 200 186 153 255 # Currency Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT2.mp3" 200
+	MinimapIcon 1 Yellow Circle
+
+Show
+	Class = "Stackable Currency"
+	BaseType = "Scouting Report"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 255 233 200 255 # Atlas Background
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT3.mp3" 200
+	MinimapIcon 1 White Circle
+
+# Currency Tier3 Stack
+Show
+	Class = "Currency"
+	BaseType = "Eldritch Ichor"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 2 58 64 240 # Eater Background
+	SetBorderColor 200 186 153 255 # Currency Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT3.mp3" 200
+	MinimapIcon 1 Yellow Circle
+	PlayEffect Yellow Temp
+
+# Currency Tier3 Stack
+Show
+	Class = "Currency"
+	BaseType = "Eldritch Ember"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 115 2 2 240 # Exarch Background
+	SetBorderColor 200 186 153 255 # Currency Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT3.mp3" 200
+	MinimapIcon 1 Yellow Circle
+	PlayEffect Yellow Temp
+
+# Currency Tier1
+Show
+	Class = "Currency"
+	BaseType = "Eldritch Chaos Orb" "Eldritch Exalted Orb" "Eldritch Orb of Annulment"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 200 186 153 255 # Currency Background
+	SetBorderColor 143 46 54 255 # Conqueror Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT1.mp3" 200
+	MinimapIcon 0 Red Circle
+	PlayEffect Yellow 
+
+#-------------------------------------------------------------------------------
 # Subsection: Shards
 #-------------------------------------------------------------------------------
 
