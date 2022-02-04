@@ -2162,7 +2162,7 @@ Show
 	MinimapIcon 1 Yellow Diamond
 
 #-------------------------------------------------------------------------------
-# Subsection: Atlas Stuff
+# Subsection: Maven
 #-------------------------------------------------------------------------------
 
 # Melvin
@@ -2210,6 +2210,26 @@ Show
 	MinimapIcon 1 Red Circle
 	PlayEffect Yellow 
 
+#-------------------------------------------------------------------------------
+# Subsection: Conquerors
+#-------------------------------------------------------------------------------
+
+# Conqueror's Crest
+Show
+	Class = "Map Fragment"
+	BaseType = "Al-Hezmin's Crest" "Baran's Crest" "Drox's Crest" "Veritania's Crest"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 205 101 110 255 # Conqueror Background
+	SetBorderColor 143 46 54 255 # Conqueror Border
+	SetFontSize 45 # Yuge
+	PlayAlertSound 2 150 # Quest
+	MinimapIcon 1 Red Diamond
+	PlayEffect Red 
+
+#-------------------------------------------------------------------------------
+# Subsection: Watchstones
+#-------------------------------------------------------------------------------
+
 # Ivory Watchstone
 #Show
 #	BaseType = "Ivory Watchstone"
@@ -2221,16 +2241,16 @@ Show
 #	MinimapIcon 0 White Diamond
 #	PlayEffect White 
 
-# Also Watchstone I guess
-#Show
-#	Class = "Atlas Region Upgrade Item"
-#	SetTextColor 74 230 58 255 # Quest Text
-#	SetBackgroundColor 0 0 0 255 # Default Background
-#	SetBorderColor 255 255 255 255 # Tier1 Border
-#	SetFontSize 45 # Yuge
-#	PlayAlertSound 2 150 # Quest
-#	MinimapIcon 0 White Diamond
-#	PlayEffect White 
+# Voidstone
+Show
+	Class = "Atlas Upgrade Item"
+	SetTextColor 74 230 58 255 # Quest Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45 # Yuge
+	PlayAlertSound 2 150 # Quest
+	MinimapIcon 0 Green Diamond
+	PlayEffect White 
 
 # Watchstone
 #Show
