@@ -2211,37 +2211,37 @@ Show
 	PlayEffect Yellow 
 
 # Ivory Watchstone
-Show
-	BaseType = "Ivory Watchstone"
-	SetTextColor 175 96 37 255 # Unique Text
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetBorderColor 255 255 255 255 # Tier1 Border
-	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3" 200
-	MinimapIcon 0 White Diamond
-	PlayEffect White 
+#Show
+#	BaseType = "Ivory Watchstone"
+#	SetTextColor 175 96 37 255 # Unique Text
+#	SetBackgroundColor 0 0 0 255 # Default Background
+#	SetBorderColor 255 255 255 255 # Tier1 Border
+#	SetFontSize 45 # Yuge
+#	CustomAlertSound "gfT15.mp3" 200
+#	MinimapIcon 0 White Diamond
+#	PlayEffect White 
 
 # Also Watchstone I guess
-Show
-	Class = "Atlas Region Upgrade Item"
-	SetTextColor 74 230 58 255 # Quest Text
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetBorderColor 255 255 255 255 # Tier1 Border
-	SetFontSize 45 # Yuge
-	PlayAlertSound 2 150 # Quest
-	MinimapIcon 0 White Diamond
-	PlayEffect White 
+#Show
+#	Class = "Atlas Region Upgrade Item"
+#	SetTextColor 74 230 58 255 # Quest Text
+#	SetBackgroundColor 0 0 0 255 # Default Background
+#	SetBorderColor 255 255 255 255 # Tier1 Border
+#	SetFontSize 45 # Yuge
+#	PlayAlertSound 2 150 # Quest
+#	MinimapIcon 0 White Diamond
+#	PlayEffect White 
 
 # Watchstone
-Show
-	BaseType = "Watchstone"
-	SetTextColor 74 230 58 255 # Quest Text
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetBorderColor 255 255 255 255 # Tier1 Border
-	SetFontSize 45 # Yuge
-	PlayAlertSound 2 150 # Quest
-	MinimapIcon 0 White Diamond
-	PlayEffect White 
+#Show
+#	BaseType = "Watchstone"
+#	SetTextColor 74 230 58 255 # Quest Text
+#	SetBackgroundColor 0 0 0 255 # Default Background
+#	SetBorderColor 255 255 255 255 # Tier1 Border
+#	SetFontSize 45 # Yuge
+#	PlayAlertSound 2 150 # Quest
+#	MinimapIcon 0 White Diamond
+#	PlayEffect White 
 
 #-------------------------------------------------------------------------------
 # Subsection: Other
