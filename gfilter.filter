@@ -3285,6 +3285,41 @@ Show
 	PlayEffect Red 
 
 #-------------------------------------------------------------------------------
+# Subsection: bof
+#-------------------------------------------------------------------------------
+
+Show
+	HasEaterOfWorldsImplicit >= 1
+	HasSearingExarchImplicit >= 1
+	SetBackgroundColor 2 58 64 240 # Eater Background
+	SetBorderColor 115 2 2 255 # Exarch Border
+	SetFontSize 41 # Big
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Hexagon
+
+#-------------------------------------------------------------------------------
+# Subsection: Exarch
+#-------------------------------------------------------------------------------
+
+Show
+	HasSearingExarchImplicit >= 1
+	SetBackgroundColor 115 2 2 240 # Exarch Background
+	SetFontSize 41 # Big
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Hexagon
+
+#-------------------------------------------------------------------------------
+# Subsection: Eater of Worlds
+#-------------------------------------------------------------------------------
+
+Show
+	HasEaterOfWorldsImplicit >= 1
+	SetBackgroundColor 2 58 64 240 # Eater Background
+	SetFontSize 41 # Big
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Hexagon
+
+#-------------------------------------------------------------------------------
 # Subsection: Crusader
 #-------------------------------------------------------------------------------
 
