@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.17.0
+# VERSION:       3.17.1
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -47,6 +47,24 @@ Show
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 124 178 156 255 # Ascendancy Border
 	SetFontSize 41 # Big
+
+# Archnemesis Trash
+Show
+	Class = "Archnemesis Mod"
+	ArchnemesisMod = "Flameweaver" "Bombardier" "Deadeye" "Stormweaver" "Bloodletter" "Sentinel" "Overcharged" "Frost Strider" "Ice Prison" "Flame Strider" "Evocationist" "Magma Barrier" "Storm Strider" "Mana Siphoner"
+	SetTextColor 217 177 102 255 # Archnemesis Text
+	SetBackgroundColor 92 90 81 255 # Archnemesis Highlight Background
+	SetFontSize 41 # Big
+
+# Archnemesis Organ i mean Mod
+Show
+	Class = "Archnemesis Mod"
+	SetTextColor 217 177 102 255 # Archnemesis Text
+	SetBackgroundColor 92 90 81 255 # Archnemesis Highlight Background
+	SetBorderColor 217 177 102 255 # Archnemesis Border
+	SetFontSize 41 # Big
+	CustomAlertSound "gfT3.mp3" 150
+	MinimapIcon 1 Yellow Moon
 
 # Warband Item
 #Show
@@ -1358,6 +1376,7 @@ Show
 #Show
 #	Class = "Currency"
 #	BaseType = "Prophecy"
+#	BaseType = "Prophecy"
 #	SetTextColor 125 0 175 255 # Prophecy Text
 #	SetBackgroundColor 255 255 255 255 # Tier0 Background
 #	SetBorderColor 125 0 175 255 # Prophecy Border
@@ -1365,9 +1384,10 @@ Show
 #	CustomAlertSound "gfT0.mp3" 200
 #	MinimapIcon 0 Red Circle
 
-# Prophecy Tier1
+# BaseType = "Prophecy"
 #Show
 #	Class = "Currency"
+#	BaseType = "Prophecy"
 #	BaseType = "Prophecy"
 #	SetTextColor 0 0 0 255 # Tier1 Text
 #	SetBackgroundColor 125 0 175 255 # Prophecy Background
@@ -1376,9 +1396,10 @@ Show
 #	CustomAlertSound "gfT1.mp3" 200
 #	MinimapIcon 0 Red Circle
 
-# Prophecy Tier1.5
+# BaseType = "Prophecy"
 #Show
 #	Class = "Currency"
+#	BaseType = "Prophecy"
 #	BaseType = "Prophecy"
 #	SetTextColor 0 0 0 255 # Tier1 Text
 #	SetBackgroundColor 125 0 175 255 # Prophecy Background
@@ -1387,15 +1408,16 @@ Show
 #	CustomAlertSound "gfT15.mp3" 200
 #	MinimapIcon 1 Red Circle
 
-# Prophecy Trash
+# BaseType = "Prophecy"
 #Show
 #	Class = "Currency"
+#	BaseType = "Prophecy"
 #	BaseType = "Prophecy"
 #	SetTextColor 125 0 175 255 # Prophecy Text
 #	SetBackgroundColor 0 0 0 210 # Junk Background
 #	#BlockStrictness 2 Hide
 
-# Prophecy Tier2
+# BaseType = "Prophecy"
 #Show
 #	Class = "Currency"
 #	BaseType = "Prophecy"
