@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.17.1
+# VERSION:       3.17.2
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -51,7 +51,7 @@ Show
 # Archnemesis Trash
 Show
 	Class = "Archnemesis Mod"
-	ArchnemesisMod = "Flameweaver" "Bombardier" "Deadeye" "Stormweaver" "Bloodletter" "Sentinel" "Overcharged" "Frost Strider" "Ice Prison" "Flame Strider" "Evocationist" "Magma Barrier" "Storm Strider" "Mana Siphoner"
+	ArchnemesisMod = "Flameweaver" "Bombardier" "Deadeye" "Stormweaver" "Bloodletter" "Sentinel" "Overcharged" "Frost Strider" "Ice Prison" "Flame Strider" "Evocationist" "Magma Barrier" "Storm Strider" "Mana Siphoner" "Steel-infused"
 	SetTextColor 217 177 102 255 # Archnemesis Text
 	SetBackgroundColor 92 90 81 255 # Archnemesis Highlight Background
 	SetFontSize 41 # Big
@@ -379,15 +379,25 @@ Show
 	SetFontSize 41 # Big
 	#BlockStrictness 2 Hide
 
-# Heist Blueprint NS
+# Heist Blueprint Gems
 Show
 	Class = "Blueprint"
-	BaseType = "Blueprint: Bunker" "Blueprint: Laboratory" "Blueprint: Mansion" "Blueprint: Prohibited Library" "Blueprint: Records Office" "Blueprint: Repository" "Blueprint: Smuggler's Den" "Blueprint: Tunnels" "Blueprint: Underbelly"
+	BaseType = "Blueprint: Repository" "Blueprint: Tunnels"
+	SetTextColor 242 93 39 255 # Heist Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBorderColor 242 93 39 255 # Heist Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT3.mp3" 200
+	MinimapIcon 1 Orange Kite
+
+# Heist Blueprint Not Armaments
+Show
+	Class = "Blueprint"
+	BaseType = "Blueprint: Laboratory" "Blueprint: Prohibited Library" "Blueprint: Repository" "Blueprint: Smuggler's Den" "Blueprint: Tunnels" "Blueprint: Underbelly"
 	SetTextColor 242 93 39 255 # Heist Text
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 242 93 39 255 # Heist Border
 	SetFontSize 41 # Big
-	CustomAlertSound "gfT3.mp3" 200
 	MinimapIcon 1 Orange Kite
 	#BlockStrictness 3 Disable
 
@@ -395,8 +405,7 @@ Show
 Show
 	Class = "Blueprint"
 	SetTextColor 242 93 39 255 # Heist Text
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetBorderColor 242 93 39 255 # Heist Border
+	SetBackgroundColor 0 0 0 210 # Junk Background
 	SetFontSize 41 # Big
 	#BlockStrictness 2 Hide
 
@@ -1980,7 +1989,7 @@ Show
 Show
 	StackSize >= 6
 	Class = "Currency"
-	BaseType = "Chaos Orb" "Orb of Regret" "Regal Orb" "Gemcutter's Prism" "Vaal Orb" "Exalted Shard" "Veiled Chaos Orb" "Enkindling Orb" "Instilling Orb"
+	BaseType = "Chaos Orb" "Orb of Regret" "Regal Orb" "Gemcutter's Prism" "Vaal Orb" "Exalted Shard" "Veiled Chaos Orb" "Enkindling Orb" "Instilling Orb" "Orb of Unmaking"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 200 186 153 255 # Currency Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -1992,7 +2001,7 @@ Show
 # Currency Tier2
 Show
 	Class = "Currency"
-	BaseType = "Chaos Orb" "Orb of Regret" "Regal Orb" "Gemcutter's Prism" "Vaal Orb" "Exalted Shard" "Veiled Chaos Orb"
+	BaseType = "Chaos Orb" "Orb of Regret" "Regal Orb" "Gemcutter's Prism" "Vaal Orb" "Exalted Shard" "Veiled Chaos Orb" "Orb of Unmaking"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetBorderColor 200 186 153 255 # Currency Border
@@ -2004,7 +2013,7 @@ Show
 # Currency Tier1.5
 Show
 	Class = "Currency"
-	BaseType = "Divine Orb" "Orb of Annulment" "Ancient Orb" "Harbinger's Orb" "Orb of Unmaking"
+	BaseType = "Divine Orb" "Orb of Annulment" "Ancient Orb" "Harbinger's Orb"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 200 186 153 255 # Currency Background
 	SetBorderColor 255 255 255 255 # Tier1 Border

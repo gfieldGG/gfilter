@@ -51,7 +51,7 @@ Show
 # Archnemesis Trash
 Show
 	Class = "Archnemesis Mod"
-	ArchnemesisMod = "Flameweaver" "Bombardier" "Deadeye" "Stormweaver" "Bloodletter" "Sentinel" "Overcharged" "Frost Strider" "Ice Prison" "Flame Strider" "Evocationist" "Magma Barrier" "Storm Strider" "Mana Siphoner"
+	ArchnemesisMod = "Flameweaver" "Bombardier" "Deadeye" "Stormweaver" "Bloodletter" "Sentinel" "Overcharged" "Frost Strider" "Ice Prison" "Flame Strider" "Evocationist" "Magma Barrier" "Storm Strider" "Mana Siphoner" "Steel-infused"
 	SetTextColor 217 177 102 255 # Archnemesis Text
 	SetBackgroundColor 92 90 81 255 # Archnemesis Highlight Background
 	SetFontSize 41 # Big
