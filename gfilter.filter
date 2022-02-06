@@ -1,9 +1,9 @@
-#===============================================================================
+﻿#===============================================================================
 # GFILTER
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.17.1
+# VERSION:       3.17.2
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -1976,7 +1976,7 @@ Show
 Show
 	StackSize >= 6
 	Class = "Currency"
-	BaseType = "Chaos Orb" "Orb of Regret" "Regal Orb" "Gemcutter's Prism" "Vaal Orb" "Exalted Shard" "Veiled Chaos Orb" "Enkindling Orb" "Instilling Orb"
+	BaseType = "Chaos Orb" "Orb of Regret" "Regal Orb" "Gemcutter's Prism" "Vaal Orb" "Exalted Shard" "Veiled Chaos Orb" "Enkindling Orb" "Instilling Orb" "Orb of Unmaking"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 200 186 153 255 # Currency Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -1988,7 +1988,7 @@ Show
 # Currency Tier2
 Show
 	Class = "Currency"
-	BaseType = "Chaos Orb" "Orb of Regret" "Regal Orb" "Gemcutter's Prism" "Vaal Orb" "Exalted Shard" "Veiled Chaos Orb"
+	BaseType = "Chaos Orb" "Orb of Regret" "Regal Orb" "Gemcutter's Prism" "Vaal Orb" "Exalted Shard" "Veiled Chaos Orb" "Orb of Unmaking"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetBorderColor 200 186 153 255 # Currency Border
@@ -2000,7 +2000,7 @@ Show
 # Currency Tier1.5
 Show
 	Class = "Currency"
-	BaseType = "Divine Orb" "Orb of Annulment" "Ancient Orb" "Harbinger's Orb" "Orb of Unmaking"
+	BaseType = "Divine Orb" "Orb of Annulment" "Ancient Orb" "Harbinger's Orb"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 200 186 153 255 # Currency Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
