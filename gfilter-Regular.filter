@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.17.3
+# VERSION:       3.17.4
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -1731,21 +1731,33 @@ Show
 Show
 	Class = "Stackable Currency"
 	BaseType = "Compass"
-	SetTextColor 200 186 153 255 # Currency Text
-	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
-	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT3.mp3" 200
-	MinimapIcon 1 White Circle
-
-Show
-	Class = "Stackable Currency"
-	BaseType = "Orb of Conflict" "Orb of Dominance"
-	SetTextColor 200 186 153 255 # Currency Text
-	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
-	SetBorderColor 200 186 153 255 # Currency Border
+	SetTextColor 255 233 200 255 # Atlas Text
+	SetBackgroundColor 40 35 30 255 # Atlas Highlight Background
 	SetFontSize 45 # Yuge
 	CustomAlertSound "gfT2.mp3" 200
 	MinimapIcon 1 Yellow Circle
+
+Show
+	Class = "Stackable Currency"
+	BaseType = "Orb of Conflict"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 200 186 153 255 # Currency Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT15.mp3" 200
+	MinimapIcon 1 Red Circle
+
+# Currency Tier1
+Show
+	Class = "Stackable Currency"
+	BaseType = "Orb of Dominance"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 200 186 153 255 # Currency Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT1.mp3" 200
+	MinimapIcon 0 Red Circle
+	PlayEffect Yellow 
 
 Show
 	Class = "Stackable Currency"
@@ -1798,8 +1810,8 @@ Show
 	SetBackgroundColor 200 186 153 255 # Currency Background
 	SetBorderColor 143 46 54 255 # Conqueror Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT1.mp3" 200
-	MinimapIcon 0 Red Circle
+	CustomAlertSound "gfT15.mp3" 200
+	MinimapIcon 1 Red Circle
 	PlayEffect Yellow 
 
 #-------------------------------------------------------------------------------
