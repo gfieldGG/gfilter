@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.17.2
+# VERSION:       3.17.3
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -48,13 +48,25 @@ Show
 	SetBorderColor 124 178 156 255 # Ascendancy Border
 	SetFontSize 41 # Big
 
+# Archnemesis Strat
+Show
+	Class = "Archnemesis Mod"
+	ArchnemesisMod = "Echoist" "Soul Conduit" "Toxic" "Sentinel" "Steel-infused" "Deadeye" "Vampiric" "Gargantuan"
+	SetTextColor 217 177 102 255 # Archnemesis Text
+	SetBackgroundColor 92 90 81 255 # Archnemesis Highlight Background
+	SetBorderColor 217 177 102 255 # Archnemesis Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT2.mp3" 150
+	MinimapIcon 1 Yellow Moon
+
 # Archnemesis Trash
 Show
 	Class = "Archnemesis Mod"
-	ArchnemesisMod = "Flameweaver" "Bombardier" "Deadeye" "Stormweaver" "Bloodletter" "Sentinel" "Overcharged" "Frost Strider" "Ice Prison" "Flame Strider" "Evocationist" "Magma Barrier" "Storm Strider" "Mana Siphoner" "Steel-infused"
+	ArchnemesisMod = "Hasted" "Bonebreaker" "Flameweaver" "Stormweaver" "Frostweaver" "Permafrost" "Bombardier" "Overcharged"
 	SetTextColor 217 177 102 255 # Archnemesis Text
 	SetBackgroundColor 92 90 81 255 # Archnemesis Highlight Background
 	SetFontSize 41 # Big
+	#BlockStrictness 3 Hide
 
 # Archnemesis Organ i mean Mod
 Show
@@ -63,8 +75,7 @@ Show
 	SetBackgroundColor 92 90 81 255 # Archnemesis Highlight Background
 	SetBorderColor 217 177 102 255 # Archnemesis Border
 	SetFontSize 41 # Big
-	CustomAlertSound "gfT3.mp3" 150
-	MinimapIcon 1 Yellow Moon
+	MinimapIcon 2 White Moon
 
 # Warband Item
 #Show
