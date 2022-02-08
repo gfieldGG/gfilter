@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.17.4
+# VERSION:       3.17.5
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -1592,7 +1592,7 @@ Show
 # Divination Card Tier1
 Show
 	Class = "Divination Card"
-	BaseType == "Abandoned Wealth" "Alluring Bounty" "Beauty Through Death" "Brother's Stash" "Desecrated Virtue" "Eternal Bonds" "Gift of Asenath" "House of Mirrors" "Judging Voices" "Love Through Ice" "Nook's Crown" "Seven Years Bad Luck" "Succor of the Sinless" "The Academic" "The Cheater" "The Demon" "The Doctor" "The Dragon's Heart" "The Enlightened" "The Fiend" "The Immortal" "The Nurse" "The Samurai's Eye" "The Scout" "The Strategist" "Unrequited Love" "Wealth and Power" "Winter's Embrace"
+	BaseType == "Abandoned Wealth" "Alluring Bounty" "Beauty Through Death" "Brother's Stash" "Gift of Asenath" "House of Mirrors" "Love Through Ice" "Nook's Crown" "Pride of the First Ones" "Seven Years Bad Luck" "Succor of the Sinless" "The Cheater" "The Demon" "The Doctor" "The Enlightened" "The Fiend" "The Immortal" "The Iron Bard" "The Nurse" "The Scout" "Unrequited Love" "Wealth and Power"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 14 186 255 255 # Divination Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -1604,7 +1604,7 @@ Show
 # Divination Card Tier1.5
 Show
 	Class = "Divination Card"
-	BaseType == "A Note in the Wind" "Ambitious Obsession" "Bijoux" "Broken Promises" "Chaotic Disposition" "Deadly Joy" "Dementophobia" "Immortal Resolve" "Justified Ambition" "Keeper's Corruption" "Luminous Trove" "Pride of the First Ones" "Silence and Frost" "The Artist" "The Aspirant" "The Astromancer" "The Bargain" "The Celestial Stone" "The Damned" "The Eye of Terror" "The Greatest Intentions" "The Gulf" "The Hoarder" "The Iron Bard" "The Long Con" "The Patient" "The Price of Loyalty" "The Risk" "The Sacrifice" "The Saint's Treasure" "The Sustenance" "The Void" "The White Knight"
+	BaseType == "Burning Blood" "Chaotic Disposition" "Council of Cats" "Dark Dreams" "Deadly Joy" "Dementophobia" "Desecrated Virtue" "Draped in Dreams" "Duality" "Eternal Bonds" "Hunter's Reward" "Imperfect Memories" "Judging Voices" "Keeper's Corruption" "Silence and Frost" "The Academic" "The Artist" "The Bones" "The Celestial Justicar" "The Chosen" "The Damned" "The Dragon's Heart" "The Eternal War" "The Eye of Terror" "The Greatest Intentions" "The Gulf" "The Long Con" "The Offspring" "The Patient" "The Price of Loyalty" "The Progeny of Lunaris" "The Rabbit's Foot" "The Sacrifice" "The Saint's Treasure" "The Samurai's Eye" "The Shortcut" "The Spark and the Flame" "The Strategist" "The Void" "The White Knight"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 14 186 255 255 # Divination Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -1632,7 +1632,7 @@ Show
 # Divination Card Tier2
 Show
 	Class = "Divination Card"
-	BaseType == "A Familiar Call" "A Modest Request" "A Stone Perfected" "Alone in the Darkness" "Arrogance of the Vaal" "Azyran's Reward" "Blessing of God" "Boon of the First Ones" "Bowyer's Dream" "Brotherhood in Exile" "Brush, Paint and Palette" "Burning Blood" "Chasing Risk" "Costly Curio" "Council of Cats" "Dark Dreams" "Demigod's Wager" "Desperate Crusade" "Disdain" "Divine Justice" "Draped in Dreams" "Dying Anguish" "Dying Light" "Earth Drinker" "Emperor of Purity" "Etched in Blood" "Fateful Meeting" "Guardian's Challenge" "Humility" "Hunter's Reward" "Lachrymal Necrosis" "Mawr Blaidd" "Peaceful Moments" "Pride Before the Fall" "Remembrance" "Squandered Prosperity" "Terrible Secret of Space" "The Adventuring Spirit" "The Avenger" "The Awakened" "The Bitter Blossom" "The Bones" "The Cartographer" "The Catch" "The Celestial Justicar" "The Chains that Bind" "The Chosen" "The Dapper Prodigy" "The Dark Mage" "The Deep Ones" "The Dragon" "The Dreamer" "The Dreamland" "The Eldritch Decay" "The Emptiness" "The Endless Darkness" "The Enthusiasts" "The Escape" "The Eternal War" "The Ethereal" "The Fishmonger" "The Forgotten Treasure" "The Gladiator" "The Hive of Knowledge" "The Hunger" "The King's Heart" "The Landing" "The Last One Standing" "The Life Thief" "The Mad King" "The Mayor" "The Offering" "The Offspring" "The Old Man" "The Pack Leader" "The Pact" "The Porcupine" "The Price of Prescience" "The Primordial" "The Prince of Darkness" "The Professor" "The Progeny of Lunaris" "The Rabbit's Foot" "The Realm" "The Sephirot" "The Shortcut" "The Soul" "The Spark and the Flame" "The Tinkerer's Table" "The Undaunted" "The Valkyrie" "The Whiteout" "The Wind" "The Wolven King's Bite" "The World Eater" "The Wretched" "Underground Forest" "Vanity" "Void of the Elements"
+	BaseType == "A Familiar Call" "A Note in the Wind" "Ambitious Obsession" "Arrogance of the Vaal" "Azyran's Reward" "Bijoux" "Blessing of God" "Boon of the First Ones" "Bowyer's Dream" "Broken Promises" "Brotherhood in Exile" "Chasing Risk" "Costly Curio" "Desperate Crusade" "Disdain" "Divine Justice" "Dying Anguish" "Emperor of Purity" "Fateful Meeting" "Guardian's Challenge" "Humility" "Immortal Resolve" "Justified Ambition" "Luminous Trove" "Magnum Opus" "Mawr Blaidd" "Peaceful Moments" "Pride Before the Fall" "Remembrance" "Squandered Prosperity" "Terrible Secret of Space" "The Aspirant" "The Astromancer" "The Awakened" "The Bargain" "The Bitter Blossom" "The Celestial Stone" "The Dapper Prodigy" "The Dreamer" "The Eldritch Decay" "The Endless Darkness" "The Escape" "The Ethereal" "The Fishmonger" "The Forgotten Treasure" "The Hive of Knowledge" "The Hoarder" "The Hook" "The Hunger" "The Landing" "The Life Thief" "The Magma Crab" "The Mayor" "The Mind's Eyes" "The Obscured" "The Offering" "The Old Man" "The One That Got Away" "The Polymath" "The Porcupine" "The Professor" "The Risk" "The Sephirot" "The Soul" "The Tinkerer's Table" "The Undaunted" "The Valkyrie" "The Wolven King's Bite" "The World Eater" "The Wretched" "Underground Forest" "Vanity" "Void of the Elements" "Winter's Embrace"
 	SetTextColor 14 186 255 255 # Divination Card Text
 	SetBackgroundColor 25 33 33 255 # Divination Card Highlight Background
 	SetBorderColor 14 186 255 255 # Divination Card Border
@@ -1642,16 +1642,16 @@ Show
 	PlayEffect Blue 
 
 # Divination Card New
-Show
-	Class = "Divination Card"
-	BaseType == "Duality" "Imperfect Memories" "Magnum Opus" "Misery in Darkness" "Parasitic Passengers" "The Magma Crab" "The One That Got Away" "The Transformation"
-	SetTextColor 14 186 255 255 # Divination Card Text
-	SetBackgroundColor 25 33 33 255 # Divination Card Highlight Background
-	SetBorderColor 14 186 255 255 # Divination Card Border
-	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3" 200
-	MinimapIcon 1 Yellow Star
-	PlayEffect Blue 
+#Show
+#	Class = "Divination Card"
+#	BaseType == "Duality" "Imperfect Memories" "Magnum Opus" "Misery in Darkness" "Parasitic Passengers" "The Magma Crab" "The One That Got Away" "The Transformation"
+#	SetTextColor 14 186 255 255 # Divination Card Text
+#	SetBackgroundColor 25 33 33 255 # Divination Card Highlight Background
+#	SetBorderColor 14 186 255 255 # Divination Card Border
+#	SetFontSize 45 # Yuge
+#	CustomAlertSound "gfT2.mp3" 200
+#	MinimapIcon 1 Yellow Star
+#	PlayEffect Blue 
 
 # Divination Card Stacked Deck
 Show
@@ -1672,7 +1672,7 @@ Show
 # Divination Card Tier3 currency
 Show
 	Class = "Divination Card"
-	BaseType == "A Sea of Blue" "Acclimatisation" "Boon of Justice" "Buried Treasure" "Coveted Possession" "Emperor's Luck" "Harmony of Souls" "Imperial Legacy" "Last Hope" "Lucky Connections" "Lucky Deck" "Monochrome" "More is Never Enough" "No Traces" "Sambodhi's Vow" "Sambodhi's Wisdom" "Society's Remorse" "The Cacophony" "The Card Sharp" "The Deal" "The Fool" "The Gemcutter" "The Heroic Shot" "The Innocent" "The Inventor" "The Journey" "The Master Artisan" "The Obscured" "The Seeker" "The Side Quest" "The Survivalist" "The Tireless Extractor" "The Union" "The Wrath" "Three Faces in the Dark" "Three Voices" "Vinia's Token"
+	BaseType == "A Sea of Blue" "Acclimatisation" "Boon of Justice" "Buried Treasure" "Coveted Possession" "Demigod's Wager" "Emperor's Luck" "Harmony of Souls" "Imperial Legacy" "Last Hope" "Lucky Connections" "Lucky Deck" "Monochrome" "More is Never Enough" "No Traces" "Sambodhi's Vow" "Sambodhi's Wisdom" "Society's Remorse" "The Cacophony" "The Card Sharp" "The Cartographer" "The Chains that Bind" "The Deal" "The Fool" "The Gemcutter" "The Heroic Shot" "The Innocent" "The Inventor" "The Journey" "The Master Artisan" "The Seeker" "The Side Quest" "The Survivalist" "The Tireless Extractor" "The Union" "The Wrath" "Three Faces in the Dark" "Three Voices" "Vinia's Token"
 	SetTextColor 14 186 255 255 # Divination Card Text
 	SetBackgroundColor 25 33 33 255 # Divination Card Highlight Background
 	SetFontSize 41 # Big
@@ -1680,7 +1680,7 @@ Show
 # Divination Card Tier3
 Show
 	Class = "Divination Card"
-	BaseType == "A Dab of Ink" "Akil's Prophecy" "Assassin's Favour" "Atziri's Arsenal" "Audacity" "Baited Expectations" "Blind Venture" "Boundless Realms" "Cameria's Cut" "Cursed Words" "Dark Temptation" "Deathly Designs" "Dialla's Subjugation" "Doedre's Madness" "Echoes of Love" "Forbidden Power" "Friendship" "Gemcutter's Promise" "Gift of the Gemling Queen" "Glimmer of Hope" "Haunting Shadows" "Heterochromia" "Hope" "Hubris" "Hunter's Resolve" "Jack in the Box" "Left to Fate" "Lysah's Respite" "Merciless Armament" "Mitts" "Perfection" "Prejudice" "Prometheus' Armoury" "Rebirth" "Reckless Ambition" "Scholar of the Seas" "The Admirer" "The Aesthete" "The Arena Champion" "The Battle Born" "The Betrayal" "The Blessing of Moosh" "The Body" "The Breach" "The Brittle Emperor" "The Cache" "The Cataclysm" "The Craving" "The Cursed King" "The Darkest Dream" "The Doppelganger" "The Drunken Aristocrat" "The Easy Stroll" "The Encroaching Darkness" "The Endurance" "The Eye of the Dragon" "The Fletcher" "The Formless Sea" "The Fox" "The Garish Power" "The Gentleman" "The Golden Era" "The Hale Heart" "The Harvester" "The Hook" "The Insatiable" "The Jester" "The Jeweller's Boon" "The Lion" "The Long Watch" "The Lord of Celebration" "The Master" "The Mercenary" "The Messenger" "The Mind's Eyes" "The One With All" "The Penitent" "The Polymath" "The Price of Protection" "The Queen" "The Rite of Elements" "The Road to Power" "The Scavenger" "The Siren" "The Skeleton" "The Standoff" "The Stormcaller" "The Surveyor" "The Thaumaturgist" "The Throne" "The Tower" "The Traitor" "The Tumbleweed" "The Twilight Moon" "The Twins" "The Tyrant" "The Undisputed" "The Unexpected Prize" "The Valley of Steel Boxes" "The Vast" "The Visionary" "The Warlord" "The Wilted Rose" "The Wolf" "The Wolf's Legacy" "The Wolverine" "Time-Lost Relic" "Treasure Hunter" "Triskaidekaphobia" "Unchained" "Vile Power" "Volatile Power"
+	BaseType == "A Dab of Ink" "A Modest Request" "A Stone Perfected" "Akil's Prophecy" "Alone in the Darkness" "Assassin's Favour" "Atziri's Arsenal" "Baited Expectations" "Blind Venture" "Boundless Realms" "Brush, Paint and Palette" "Cameria's Cut" "Cursed Words" "Deathly Designs" "Dialla's Subjugation" "Doedre's Madness" "Dying Light" "Earth Drinker" "Echoes of Love" "Etched in Blood" "Forbidden Power" "Friendship" "Gemcutter's Promise" "Gift of the Gemling Queen" "Glimmer of Hope" "Haunting Shadows" "Heterochromia" "Hope" "Hubris" "Hunter's Resolve" "Jack in the Box" "Lachrymal Necrosis" "Left to Fate" "Lost Worlds" "Lysah's Respite" "Merciless Armament" "Misery in Darkness" "Mitts" "Parasitic Passengers" "Perfection" "Prejudice" "Prometheus' Armoury" "Rebirth" "Reckless Ambition" "Scholar of the Seas" "The Admirer" "The Adventuring Spirit" "The Aesthete" "The Archmage's Right Hand" "The Arena Champion" "The Avenger" "The Battle Born" "The Betrayal" "The Blessing of Moosh" "The Body" "The Breach" "The Brittle Emperor" "The Cache" "The Cataclysm" "The Catch" "The Craving" "The Cursed King" "The Dark Mage" "The Darkest Dream" "The Deep Ones" "The Doppelganger" "The Dragon" "The Dreamland" "The Drunken Aristocrat" "The Easy Stroll" "The Emptiness" "The Encroaching Darkness" "The Endurance" "The Enthusiasts" "The Eye of the Dragon" "The Fletcher" "The Formless Sea" "The Fox" "The Garish Power" "The Gentleman" "The Gladiator" "The Hale Heart" "The Insatiable" "The Jeweller's Boon" "The King's Heart" "The Last One Standing" "The Lion" "The Long Watch" "The Lord of Celebration" "The Mad King" "The Master" "The Mercenary" "The Messenger" "The One With All" "The Pack Leader" "The Pact" "The Penitent" "The Poet" "The Price of Prescience" "The Price of Protection" "The Primordial" "The Prince of Darkness" "The Queen" "The Realm" "The Rite of Elements" "The Road to Power" "The Scavenger" "The Skeleton" "The Standoff" "The Stormcaller" "The Surveyor" "The Sustenance" "The Thaumaturgist" "The Throne" "The Tower" "The Traitor" "The Transformation" "The Trial" "The Tumbleweed" "The Twilight Moon" "The Twins" "The Tyrant" "The Undisputed" "The Unexpected Prize" "The Valley of Steel Boxes" "The Vast" "The Visionary" "The Warlord" "The Whiteout" "The Wilted Rose" "The Wind" "The Wolf" "The Wolf's Legacy" "The Wolverine" "Thirst for Knowledge" "Time-Lost Relic" "Treasure Hunter" "Triskaidekaphobia" "Unchained" "Vile Power" "Volatile Power"
 	SetTextColor 14 186 255 255 # Divination Card Text
 	SetBackgroundColor 25 33 33 255 # Divination Card Highlight Background
 	SetFontSize 41 # Big
@@ -1700,7 +1700,7 @@ Hide
 # Divination Card Trash
 Hide
 	Class = "Divination Card"
-	BaseType == "A Mother's Parting Gift" "Anarchy's Price" "Birth of the Three" "Call to the First Ones" "Cartographer's Delight" "Death" "Destined to Crumble" "Grave Knowledge" "Lantador's Lost Love" "Light and Truth" "Lingering Remnants" "Lost Worlds" "Might is Right" "Prosperity" "Rain Tempter" "Rats" "Shard of Fate" "Struck by Lightning" "The Archmage's Right Hand" "The Army of Blood" "The Bear Woman" "The Beast" "The Blazing Fire" "The Calling" "The Carrion Crow" "The Coming Storm" "The Conduit" "The Deceiver" "The Demoness" "The Explorer" "The Fathomless Depths" "The Feast" "The Forsaken" "The Fox in the Brambles" "The Hermit" "The Incantation" "The Inoculated" "The Journalist" "The King's Blade" "The Last Supper" "The Lich" "The Lord in Black" "The Lover" "The Lunaris Priestess" "The Metalsmith's Gift" "The Mountain" "The Oath" "The Opulent" "The Poet" "The Rabid Rhoa" "The Ruthless Ceinture" "The Scarred Meadow" "The Sigil" "The Spoiled Prince" "The Summoner" "The Sun" "The Surgeon" "The Sword King's Salute" "The Trial" "The Warden" "The Watcher" "The Web" "The Witch" "The Wolf's Shadow" "Thirst for Knowledge" "Thunderous Skies" "Tranquillity" "Turn the Other Cheek"
+	BaseType == "A Mother's Parting Gift" "Anarchy's Price" "Audacity" "Birth of the Three" "Call to the First Ones" "Cartographer's Delight" "Dark Temptation" "Death" "Destined to Crumble" "Grave Knowledge" "Lantador's Lost Love" "Light and Truth" "Lingering Remnants" "Might is Right" "Prosperity" "Rain Tempter" "Rats" "Shard of Fate" "Struck by Lightning" "The Army of Blood" "The Bear Woman" "The Beast" "The Blazing Fire" "The Calling" "The Carrion Crow" "The Coming Storm" "The Conduit" "The Deceiver" "The Demoness" "The Explorer" "The Fathomless Depths" "The Feast" "The Forsaken" "The Fox in the Brambles" "The Golden Era" "The Harvester" "The Hermit" "The Incantation" "The Inoculated" "The Jester" "The Journalist" "The King's Blade" "The Last Supper" "The Lich" "The Lord in Black" "The Lover" "The Lunaris Priestess" "The Metalsmith's Gift" "The Mountain" "The Oath" "The Opulent" "The Rabid Rhoa" "The Ruthless Ceinture" "The Scarred Meadow" "The Sigil" "The Siren" "The Spoiled Prince" "The Summoner" "The Sun" "The Surgeon" "The Sword King's Salute" "The Warden" "The Watcher" "The Web" "The Witch" "The Wolf's Shadow" "Thunderous Skies" "Tranquillity" "Turn the Other Cheek"
 	SetTextColor 14 186 255 255 # Divination Card Text
 	SetBackgroundColor 0 0 0 0 # Hidden Background
 	#BlockStrictness 1 Hide
@@ -1733,6 +1733,7 @@ Show
 	BaseType = "Compass"
 	SetTextColor 255 233 200 255 # Atlas Text
 	SetBackgroundColor 40 35 30 255 # Atlas Highlight Background
+	SetBorderColor 255 233 200 255 # Atlas Border
 	SetFontSize 45 # Yuge
 	CustomAlertSound "gfT2.mp3" 200
 	MinimapIcon 1 Yellow Circle
@@ -1772,8 +1773,8 @@ Show
 Show
 	Class = "Stackable Currency"
 	BaseType = "Scouting Report"
-	SetTextColor 0 0 0 255 # Map Text
-	SetBackgroundColor 255 233 200 255 # Atlas Background
+	SetTextColor 255 233 200 255 # Atlas Text
+	SetBackgroundColor 40 35 30 255 # Atlas Highlight Background
 	SetFontSize 45 # Yuge
 	CustomAlertSound "gfT3.mp3" 200
 	MinimapIcon 1 White Circle
@@ -1783,7 +1784,7 @@ Show
 	Class = "Currency"
 	BaseType = "Eldritch Ichor"
 	SetTextColor 200 186 153 255 # Currency Text
-	SetBackgroundColor 2 58 64 240 # Eater Background
+	SetBackgroundColor 2 58 64 255 # Eater Background
 	SetBorderColor 200 186 153 255 # Currency Border
 	SetFontSize 45 # Yuge
 	CustomAlertSound "gfT3.mp3" 200
@@ -1795,7 +1796,7 @@ Show
 	Class = "Currency"
 	BaseType = "Eldritch Ember"
 	SetTextColor 200 186 153 255 # Currency Text
-	SetBackgroundColor 115 2 2 240 # Exarch Background
+	SetBackgroundColor 115 2 2 255 # Exarch Background
 	SetBorderColor 200 186 153 255 # Currency Border
 	SetFontSize 45 # Yuge
 	CustomAlertSound "gfT3.mp3" 200
@@ -2302,9 +2303,9 @@ Show
 Show
 	Class = "Map Fragments"
 	BaseType = "The Maven's Writ"
-	SetTextColor 255 200 0 255 # Legacy Text
-	SetBackgroundColor 0 0 64 255 # Synthesis Highlight Background
-	SetBorderColor 255 200 0 255 # Legacy Border
+	SetTextColor 255 200 0 255 # Melvin Text
+	SetBackgroundColor 0 0 64 255 # Melvin Highlight Border
+	SetBorderColor 255 200 0 255 # Melvin Border
 	SetFontSize 45 # Yuge
 	CustomAlertSound "gfT1.mp3" 200
 	MinimapIcon 0 Red Diamond
@@ -2314,33 +2315,35 @@ Show
 Show
 	Class = "Stackable Currency"
 	BaseType = "Crescent Splinter"
-	SetTextColor 255 200 0 255 # Legacy Text
-	SetBackgroundColor 0 0 64 255 # Synthesis Highlight Background
+	SetTextColor 255 200 0 255 # Melvin Text
+	SetBackgroundColor 0 0 64 255 # Melvin Highlight Border
 	SetFontSize 45 # Yuge
 	CustomAlertSound "gfT15.mp3" 200
 	MinimapIcon 1 Red Circle
-	PlayEffect Yellow Temp
+	PlayEffect Yellow 
 
 # Melvin wants YOU
 Show
 	Class = "Misc Map Items"
 	BaseType = "Invitation"
-	SetTextColor 255 200 0 255 # Legacy Text
-	SetBackgroundColor 0 0 64 255 # Synthesis Highlight Background
+	SetTextColor 255 200 0 255 # Melvin Text
+	SetBackgroundColor 0 0 64 255 # Melvin Highlight Border
+	SetBorderColor 255 200 0 255 # Melvin Border
 	SetFontSize 45 # Yuge
 	PlayAlertSound 2 150 # Quest
-	MinimapIcon 1 Red Circle
+	MinimapIcon 1 Red Diamond
 	PlayEffect Yellow 
 
 # Melvin wants YOU quest?
 Show
 	Class = "Quest Items"
 	BaseType = "Invitation"
-	SetTextColor 255 200 0 255 # Legacy Text
-	SetBackgroundColor 0 0 64 255 # Synthesis Highlight Background
+	SetTextColor 255 200 0 255 # Melvin Text
+	SetBackgroundColor 0 0 64 255 # Melvin Highlight Border
+	SetBorderColor 255 200 0 255 # Melvin Border
 	SetFontSize 45 # Yuge
 	PlayAlertSound 2 150 # Quest
-	MinimapIcon 1 Red Circle
+	MinimapIcon 1 Red Diamond
 	PlayEffect Yellow 
 
 #-------------------------------------------------------------------------------
@@ -3079,7 +3082,7 @@ Show
 Show
 	Replica = True
 	Rarity = Unique
-	BaseType == "Chain Belt" "Ezomyte Burgonet" "Great Crown" "Leather Belt" "Maelström Staff" "Ornate Quiver" "Relic Chambers Map" "Soldier Boots" "Terror Maul" "Triumphant Lamellar"
+	BaseType == "Blood Raiment" "Chain Belt" "Cloth Belt" "Great Crown" "Leather Belt" "Maelström Staff" "Ornate Quiver" "Relic Chambers Map" "Siege Axe" "Soldier Boots" "Synthesised Map" "Triumphant Lamellar"
 	SetTextColor 175 96 37 255 # Unique Text
 	SetBackgroundColor 255 255 255 255 # Tier0 Background
 	SetBorderColor 242 93 39 255 # Heist Border
@@ -3092,7 +3095,7 @@ Show
 Show
 	Replica = True
 	Rarity = Unique
-	BaseType == "Blood Raiment" "Elegant Ringmail" "Glorious Plate" "Granite Flask" "Heavy Belt" "Imperial Bow" "Jade Amulet" "Ornate Mace" "Paua Amulet" "Siege Axe" "Temple Map" "Vaal Gauntlets" "Vaal Rapier" "Void Sceptre"
+	BaseType == "Assassin's Boots" "Ezomyte Burgonet" "Ezomyte Dagger" "Glorious Plate" "Granite Flask" "Great Mallet" "Lacquered Buckler" "Nailed Fist" "Ornate Mace" "Paua Amulet" "Ruby Ring" "Temple Map" "Terror Maul" "Vaal Gauntlets" "Vaal Rapier" "Void Sceptre"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 175 96 37 255 # Unique Background
 	SetBorderColor 242 93 39 255 # Heist Border
@@ -3105,7 +3108,7 @@ Show
 Show
 	Replica = True
 	Rarity = Unique
-	BaseType == "Carnal Armour"
+	BaseType == "Carnal Armour" "Cobalt Jewel" "Crimson Jewel" "Jade Amulet" "Viridian Jewel"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 175 96 37 255 # Unique Background
 	SetBorderColor 242 93 39 255 # Heist Border
@@ -3118,7 +3121,7 @@ Show
 Show
 	Replica = True
 	Rarity = Unique
-	BaseType == "Arcanist Gloves" "Arcanist Slippers" "Assassin's Boots" "Boot Knife" "Bronzescale Boots" "Cloth Belt" "Crusader Chainmail" "Death Bow" "Decimation Bow" "Dunes Map" "Ebony Tower Shield" "Elder Sword" "Engraved Wand" "Eternal Sword" "Ezomyte Axe" "Ezomyte Dagger" "Festival Mask" "Gnarled Branch" "Gold Amulet" "Great Helmet" "Great Mallet" "Grinning Fetish" "Gut Ripper" "Infernal Sword" "Jasper Chopper" "Lacquered Buckler" "Laminated Kite Shield" "Murder Boots" "Nailed Fist" "Paua Ring" "Royal Skean" "Ruby Ring" "Rustic Sash" "Sage Wand" "Samite Gloves" "Sanctified Mana Flask" "Sapphire Ring" "Shadow Sceptre" "Shagreen Boots" "Short Bow" "Silk Slippers" "Sinner Tricorne" "Sorcerer Gloves" "Spike-Point Arrow Quiver" "Stiletto" "Sulphur Flask" "Titan Greaves" "Tornado Wand" "Unset Ring" "Vaal Claw" "War Sword" "Zealot Gloves" "Zodiac Leather"
+	BaseType == "Arcanist Gloves" "Arcanist Slippers" "Boot Knife" "Bronzescale Boots" "Crusader Chainmail" "Death Bow" "Decimation Bow" "Dunes Map" "Ebony Tower Shield" "Elder Sword" "Elegant Ringmail" "Engraved Wand" "Eternal Sword" "Ezomyte Axe" "Festival Mask" "Gnarled Branch" "Gold Amulet" "Great Helmet" "Grinning Fetish" "Gut Ripper" "Heavy Belt" "Imperial Bow" "Infernal Sword" "Jasper Chopper" "Laminated Kite Shield" "Murder Boots" "Paua Ring" "Royal Skean" "Rustic Sash" "Sage Wand" "Samite Gloves" "Sanctified Mana Flask" "Sapphire Ring" "Shadow Sceptre" "Shagreen Boots" "Short Bow" "Silk Slippers" "Sinner Tricorne" "Sorcerer Gloves" "Spike-Point Arrow Quiver" "Stiletto" "Sulphur Flask" "Titan Greaves" "Tornado Wand" "Unset Ring" "Vaal Claw" "War Sword" "Zealot Gloves" "Zodiac Leather"
 	SetTextColor 175 96 37 255 # Unique Text
 	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
 	SetBorderColor 242 93 39 255 # Heist Border
@@ -3231,7 +3234,7 @@ Show
 # Unique Tier1
 Show
 	Rarity = Unique
-	BaseType == "Champion Kite Shield" "Crusader Boots" "Crusader Helmet" "Fluted Bascinet" "Gladiator Plate" "Golden Buckler" "Greatwolf Talisman" "Large Cluster Jewel" "Occultist's Vestment" "Ornate Quiver" "Painted Tower Shield" "Prismatic Jewel" "Rawhide Boots" "Savant's Robe" "Silk Gloves" "Timeless Jewel" "Unset Amulet" "Vaal Rapier" "Vaal Spirit Shield"
+	BaseType == "Blood Raiment" "Champion Kite Shield" "Crusader Boots" "Crusader Helmet" "Ezomyte Dagger" "Ezomyte Tower Shield" "Fluted Bascinet" "Gladiator Plate" "Golden Buckler" "Greatwolf Talisman" "Large Cluster Jewel" "Occultist's Vestment" "Ornate Quiver" "Painted Tower Shield" "Pinnacle Tower Shield" "Primal Arrow Quiver" "Prismatic Jewel" "Prophecy Wand" "Rawhide Boots" "Ruby Flask" "Sapphire Flask" "Savant's Robe" "Siege Axe" "Silk Gloves" "Steel Ring" "Timeless Jewel" "Unset Amulet" "Vaal Rapier" "Wyrmscale Boots" "Zodiac Leather"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 175 96 37 255 # Unique Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -3281,7 +3284,7 @@ Show
 # Unique Tier2
 Show
 	Rarity = Unique
-	BaseType == "Arcanist Gloves" "Arcanist Slippers" "Archon Kite Shield Piece" "Assassin's Boots" "Blood Raiment" "Butcher Axe" "Citadel Bow" "Coiled Staff" "Deerskin Gloves" "Exquisite Leather" "Ezomyte Dagger" "Ezomyte Tower Shield" "Jewelled Foil" "Jingling Spirit Shield" "Karui Maul" "Nubuck Boots" "Prophecy Wand" "Rawhide Tower Shield" "Royal Burgonet" "Ruby Flask" "Runic Helm" "Runic Sollerets" "Sapphire Flask" "Siege Axe" "Steel Ring" "Stygian Vise" "Wyrmscale Doublet" "Zodiac Leather"
+	BaseType == "Ambush Mitts" "Archon Kite Shield Piece" "Jingling Spirit Shield" "Riveted Gloves" "Royal Burgonet" "Runic Sollerets" "Steelwood Bow" "Wyrmscale Doublet"
 	SetTextColor 175 96 37 255 # Unique Text
 	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
 	SetBorderColor 175 96 37 255 # Unique Border
@@ -3293,7 +3296,7 @@ Show
 # Unique Tier?
 Show
 	Rarity = Unique
-	BaseType == "Amethyst Ring" "Archon Kite Shield" "Carved Wand" "Chain Belt" "Coral Ring" "Crusader Plate" "Ebony Tower Shield" "Eternal Sword" "Fiend Dagger" "Gavel" "Glorious Plate" "Goathide Boots" "Gold Amulet" "Gold Ring" "Heavy Belt" "Highborn Staff" "Hubris Circlet" "Hydrascale Gauntlets" "Imperial Bow" "Imperial Claw" "Jade Amulet" "Leather Belt" "Legion Boots" "Long Staff" "Medium Cluster Jewel" "Necromancer Silks" "Onyx Amulet" "Prophet Crown" "Sadist Garb" "Sage Wand" "Saint's Hauberk" "Small Cluster Jewel" "Stealth Boots" "Stibnite Flask" "Studded Belt" "Topaz Ring" "Turquoise Amulet" "Two-Stone Ring" "Unset Ring" "Zealot Gloves"
+	BaseType == "Amber Amulet" "Amethyst Ring" "Archon Kite Shield" "Astral Plate" "Carnal Mitts" "Fiend Dagger" "Granite Flask" "Heavy Belt" "Highborn Staff" "Jade Amulet" "Judgement Staff" "Leather Belt" "Long Staff" "Medium Cluster Jewel" "Necromancer Silks" "Praetor Crown" "Sadist Garb" "Saint's Hauberk" "Small Cluster Jewel" "Solaris Circlet" "Sorcerer Boots" "Stealth Boots" "Studded Belt" "Turquoise Amulet" "Two-Stone Ring"
 	SetTextColor 175 96 37 255 # Unique Text
 	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
 	SetBorderColor 175 96 37 255 # Unique Border
@@ -3303,21 +3306,21 @@ Show
 	PlayEffect Brown 
 
 # Unique Early Prediction
-Show
-	Rarity = Unique
-	BaseType == "Ambush Mitts" "Amethyst Flask" "Assassin Bow" "Assassin's Mitts" "Bismuth Flask" "Blood Sceptre" "Blue Pearl Amulet" "Bronzescale Boots" "Carnal Boots" "Carnal Mitts" "Conjurer Boots" "Corsair Sword" "Demon Dagger" "Demon's Horn" "Destiny Leather" "Diamond Flask" "Diamond Ring" "Ezomyte Burgonet" "Ezomyte Staff" "Full Wyrmscale" "Granite Flask" "Hallowed Hybrid Flask" "Imperial Maul" "Imperial Skean" "Judgement Staff" "Lacquered Buckler" "Lacquered Garb" "Leather Cap" "Lion Pelt" "Midnight Blade" "Mind Cage" "Mirrored Spiked Shield" "Nightmare Bascinet" "Nubuck Gloves" "Opal Ring" "Pinnacle Tower Shield" "Prismatic Ring" "Raven Mask" "Reaver Sword" "Sanctified Life Flask" "Sanctified Mana Flask" "Sapphire Ring" "Serpentscale Gauntlets" "Short Bow" "Silken Hood" "Sinner Tricorne" "Slink Boots" "Spidersilk Robe" "Thorium Spirit Shield" "Throat Stabber" "Titan Greaves" "Triumphant Lamellar" "Two-Point Arrow Quiver" "Varnished Coat" "Void Axe"
-	SetTextColor 175 96 37 255 # Unique Text
-	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
-	SetBorderColor 175 96 37 255 # Unique Border
-	SetFontSize 45 # Yuge
-	PlayAlertSound 6 150 # Tier3
-	MinimapIcon 1 White Hexagon
-	PlayEffect Brown Temp
+#Show
+#	Rarity = Unique
+#	BaseType == "Ambush Mitts" "Amethyst Flask" "Assassin Bow" "Assassin's Mitts" "Bismuth Flask" "Blood Sceptre" "Blue Pearl Amulet" "Bronzescale Boots" "Carnal Boots" "Carnal Mitts" "Conjurer Boots" "Corsair Sword" "Demon Dagger" "Demon's Horn" "Destiny Leather" "Diamond Flask" "Diamond Ring" "Ezomyte Burgonet" "Ezomyte Staff" "Full Wyrmscale" "Granite Flask" "Hallowed Hybrid Flask" "Imperial Maul" "Imperial Skean" "Judgement Staff" "Lacquered Buckler" "Lacquered Garb" "Leather Cap" "Lion Pelt" "Midnight Blade" "Mind Cage" "Mirrored Spiked Shield" "Nightmare Bascinet" "Nubuck Gloves" "Opal Ring" "Pinnacle Tower Shield" "Prismatic Ring" "Raven Mask" "Reaver Sword" "Sanctified Life Flask" "Sanctified Mana Flask" "Sapphire Ring" "Serpentscale Gauntlets" "Short Bow" "Silken Hood" "Sinner Tricorne" "Slink Boots" "Spidersilk Robe" "Thorium Spirit Shield" "Throat Stabber" "Titan Greaves" "Triumphant Lamellar" "Two-Point Arrow Quiver" "Varnished Coat" "Void Axe"
+#	SetTextColor 175 96 37 255 # Unique Text
+#	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
+#	SetBorderColor 175 96 37 255 # Unique Border
+#	SetFontSize 45 # Yuge
+#	PlayAlertSound 6 150 # Tier3
+#	MinimapIcon 1 White Hexagon
+#	PlayEffect Brown Temp
 
 # Unique Fated
 Show
 	Rarity = Unique
-	BaseType = "Blazing Arrow Quiver" "Brass Maul" "Death Bow" "Goathide Gloves" "Great Mallet" "Iron Circlet" "Iron Mask" "Ironscale Boots" "Leather Hood" "Long Bow" "Ornate Sword" "Reinforced Greaves" "Royal Bow" "Royal Staff" "Rusted Sword" "Serrated Arrow Quiver" "Spiraled Wand" "Strapped Leather" "Tarnished Spirit Shield" "Velvet Gloves" "Woodsplitter"
+	BaseType == "Blazing Arrow Quiver" "Brass Maul" "Coral Ring" "Death Bow" "Fire Arrow Quiver" "Gavel" "Goathide Gloves" "Great Mallet" "Iron Circlet" "Iron Mask" "Ironscale Boots" "Leather Hood" "Long Bow" "Ornate Sword" "Reinforced Greaves" "Royal Bow" "Royal Staff" "Rusted Sword" "Sharktooth Arrow Quiver" "Spiraled Wand" "Strapped Leather" "Tarnished Spirit Shield" "Velvet Gloves" "Woodsplitter"
 	SetTextColor 175 96 37 255 # Unique Text
 	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
 	SetFontSize 41 # Big
@@ -3381,7 +3384,7 @@ Show
 # Unique Tier3 Boss
 Show
 	Rarity = Unique
-	BaseType == "Carnal Armour" "Primal Arrow Quiver"
+	BaseType == "Ambusher" "Assassin's Boots" "Bone Circlet" "Carnal Armour" "Crusader Gloves" "Ezomyte Staff" "Gladius" "Glorious Plate" "Golden Plate" "Goliath Greaves" "Great Crown" "Hydrascale Gauntlets" "Infernal Sword" "Iron Flask" "Lacquered Helmet" "Legion Sword" "Maelström Staff" "Magistrate Crown" "Mirrored Spiked Shield" "Murder Boots" "Necromancer Circlet" "Onyx Amulet" "Opal Ring" "Paua Ring" "Prophet Crown" "Ruby Ring" "Sapphire Ring" "Sentinel Jacket" "Serpentine Staff" "Sinner Tricorne" "Slink Boots" "Steelscale Gauntlets" "Sulphur Flask" "Topaz Ring" "Triumphant Lamellar" "Vaal Gauntlets" "Void Sceptre" "Widowsilk Robe"
 	SetTextColor 175 96 37 255 # Unique Text
 	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
 	SetFontSize 45 # Yuge
@@ -3390,7 +3393,7 @@ Show
 # Unique Tier3
 Show
 	Rarity = Unique
-	BaseType == "Agate Amulet" "Amber Amulet" "Ambusher" "Ancient Greaves" "Ancient Spirit Shield" "Astral Plate" "Black Maw Talisman" "Blinder" "Blunt Arrow Quiver Piece" "Bone Bow" "Bone Circlet" "Bone Helmet" "Broadhead Arrow Quiver" "Callous Mask" "Callous Mask Piece" "Cardinal Round Shield" "Chiming Spirit Shield" "Citrine Amulet" "Clasped Mitts" "Cloth Belt" "Cloth Belt Piece" "Clutching Talisman" "Coral Amulet" "Coronal Leather" "Crimson Round Shield" "Crusader Gloves" "Cutlass" "Enameled Buckler" "Ezomyte Spiked Shield" "Fossilised Spirit Shield" "Gemstone Sword" "Gladius" "Golden Plate" "Goliath Greaves" "Grand Mana Flask" "Great Crown" "Harbinger Bow" "Harlequin Mask" "Hellion's Paw" "Holy Chainmail" "Hydrascale Boots" "Imperial Staff" "Imperial Staff Piece" "Infernal Sword" "Iron Flask" "Iron Ring" "Iron Sceptre" "Ironscale Gauntlets" "Labrys" "Lacquered Helmet" "Lapis Amulet" "Legion Gloves" "Legion Sword" "Legion Sword Piece" "Loricated Ringmail" "Maelström Staff" "Magistrate Crown" "Meatgrinder" "Moonstone Ring" "Murder Boots" "Murder Mitts" "Necromancer Circlet" "Nightmare Mace" "Opal Wand" "Paua Amulet" "Paua Ring" "Penetrating Arrow Quiver" "Praetor Crown" "Quartz Flask" "Ranger Bow" "Regicide Mask" "Ritual Sceptre" "Riveted Gloves" "Rotfeather Talisman" "Royal Sceptre" "Royal Skean" "Ruby Ring" "Runic Crown" "Runic Gages" "Runic Gauntlets" "Runic Sabatons" "Rustic Sash" "Sacrificial Garb" "Sentinel Jacket" "Serpentine Staff" "Serpentscale Boots" "Shackled Boots" "Sharkskin Tunic" "Siege Helmet" "Silver Flask" "Solaris Circlet" "Soldier Boots" "Soldier Gloves" "Sorcerer Boots" "Sovereign Spiked Shield" "Steel Circlet" "Steelscale Gauntlets" "Steelwood Bow" "Strapped Mitts" "Sulphur Flask" "Teak Round Shield" "Terror Claw" "Titan Gauntlets" "Titanium Spirit Shield" "Topaz Flask" "Tornado Wand" "Trapper Boots" "Two-Toned Boots" "Tyrant's Sekhem" "Vaal Axe" "Vaal Blade" "Vaal Gauntlets" "Vaal Mask" "Vaal Regalia" "Vaal Sceptre" "Variscite Blade" "Void Sceptre" "Wereclaw Talisman" "Widowsilk Robe" "Wyrmscale Boots"
+	BaseType == "Ancient Spirit Shield" "Assassin's Mitts" "Blood Sceptre" "Blunt Arrow Quiver" "Blunt Arrow Quiver Piece" "Butcher Axe" "Callous Mask Piece" "Carnal Boots" "Carved Wand" "Chain Belt" "Citadel Bow" "Citrine Amulet" "Clasped Boots" "Cleaver" "Cloth Belt" "Cloth Belt Piece" "Colossal Tower Shield" "Crimson Round Shield" "Crude Bow" "Crusader Plate" "Crystal Wand" "Cutlass" "Deerskin Gloves" "Eternal Sword" "Gemstone Sword" "Gilded Sallet" "Gnarled Branch" "Gold Amulet" "Gold Ring" "Harlequin Mask" "Hellion's Paw" "Hubris Circlet" "Hydrascale Boots" "Imperial Maul" "Imperial Staff" "Imperial Staff Piece" "Iron Hat" "Iron Ring" "Iron Sceptre" "Iron Staff" "Jade Hatchet" "Jagged Maul" "Jewelled Foil" "Lapis Amulet" "Latticed Ringmail" "Legion Sword Piece" "Mind Cage" "Moonstone Ring" "Painted Buckler" "Paua Amulet" "Plank Kite Shield" "Plate Vest" "Quartz Flask" "Reaver Sword" "Runic Crown" "Runic Sabatons" "Sacrificial Garb" "Scholar Boots" "Serrated Arrow Quiver" "Shackled Boots" "Silken Hood" "Skinning Knife" "Sledgehammer" "Soldier Gloves" "Strapped Mitts" "Stygian Vise" "Titan Gauntlets" "Titan Greaves" "Tornado Wand" "Two-Point Arrow Quiver" "Unset Ring" "Vaal Axe" "Vaal Regalia" "Vaal Spirit Shield" "Variscite Blade" "Varnished Coat" "Velvet Slippers" "Vine Circlet" "War Buckler" "Wild Leather"
 	SetTextColor 175 96 37 255 # Unique Text
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetFontSize 41 # Big
@@ -3400,7 +3403,7 @@ Show
 # Unique Garbagage T4
 Show
 	Rarity = Unique
-	BaseType == "Blunt Arrow Quiver" "Despot Axe" "Elegant Ringmail" "Elegant Sword"
+	BaseType == "Assassin Bow" "Bone Helmet" "Callous Mask" "Despot Axe" "Elegant Ringmail" "Elegant Sword" "Imperial Claw" "Prismatic Ring" "Rustic Sash"
 	SetTextColor 175 96 37 255 # Unique Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
 	DisableDropSound
@@ -3409,7 +3412,7 @@ Show
 # Unique Garbagage T5
 Show
 	Rarity = Unique
-	BaseType == "Abyssal Axe" "Ancient Gauntlets" "Antique Greaves" "Antique Rapier" "Assassin's Garb" "Auric Mace" "Aventail Helmet" "Awl" "Baroque Round Shield" "Basket Rapier" "Bastard Sword" "Bone Armour" "Boot Blade" "Boot Knife" "Branded Kite Shield" "Brass Spirit Shield" "Bronze Gauntlets" "Bronze Sceptre" "Bronzescale Gauntlets" "Buckskin Tunic" "Burnished Spiked Shield" "Carnal Sceptre" "Cedar Tower Shield" "Chain Gloves" "Clasped Boots" "Cleaver" "Close Helmet" "Colossal Tower Shield" "Compound Spiked Shield" "Conjurer Gloves" "Conquest Chainmail" "Copper Plate" "Corrugated Buckler" "Crude Bow" "Crusader Chainmail" "Crystal Belt" "Crystal Sceptre" "Crystal Wand" "Cutthroat's Garb" "Decimation Bow" "Decorative Axe" "Deerskin Boots" "Deicide Mask" "Desert Brigandine" "Destroyer Regalia" "Dragonscale Boots" "Dragonscale Gauntlets" "Dread Maul" "Dream Mace" "Driftwood Wand" "Dusk Blade" "Eelskin Gloves" "Elder Sword" "Elegant Foil" "Elegant Round Shield" "Embroidered Gloves" "Engraved Wand" "Estoc" "Etched Greatsword" "Eternal Burgonet" "Ezomyte Axe" "Ezomyte Blade" "Feathered Arrow Quiver" "Festival Mask" "Flaying Knife" "Fright Claw" "Full Dragonscale" "Full Scale Armour" "Gilded Sallet" "Gnarled Branch" "Goat's Horn" "Golden Mask" "Goliath Gauntlets" "Great Helmet" "Greater Mana Flask" "Grinning Fetish" "Gut Ripper" "Harmonic Spirit Shield" "Headsman Axe" "Heavy Arrow Quiver" "Highland Blade" "Imbued Wand" "Infernal Axe" "Iron Gauntlets" "Iron Hat" "Iron Staff" "Ivory Spirit Shield" "Jade Hatchet" "Jagged Foil" "Jagged Maul" "Jasper Chopper" "Karui Chopper" "Karui Sceptre" "Laminated Kite Shield" "Large Hybrid Flask" "Lathi" "Latticed Ringmail" "Lion Sword" "Lunaris Circlet" "Marble Amulet" "Mesh Boots" "Mesh Gloves" "Military Staff" "Mosaic Kite Shield" "Nailed Fist" "Opal Sceptre" "Ornate Mace" "Ornate Ringmail" "Painted Buckler" "Pine Buckler" "Plague Mask" "Plank Kite Shield" "Plate Vest" "Plated Greaves" "Platinum Kris" "Platinum Sceptre" "Poleaxe" "Polished Spiked Shield" "Primordial Staff" "Quartz Wand" "Quicksilver Flask" "Recurve Bow" "Reinforced Tower Shield" "Riveted Boots" "Rock Breaker" "Rotted Round Shield" "Royal Axe" "Sabre" "Sage's Robe" "Saintly Chainmail" "Samite Gloves" "Samnite Helmet" "Satin Gloves" "Scholar Boots" "Scholar's Robe" "Secutor Helm" "Shadow Axe" "Shadow Sceptre" "Shagreen Boots" "Shagreen Gloves" "Sharkskin Boots" "Silk Slippers" "Simple Robe" "Skinning Knife" "Slaughter Knife" "Sledgehammer" "Slink Gloves" "Soldier Helmet" "Sorcerer Gloves" "Spiked Club" "Spike-Point Arrow Quiver" "Spine Bow" "Steel Gauntlets" "Steel Kite Shield" "Steelhead" "Stiletto" "Strapped Boots" "Studded Round Shield" "Sundering Axe" "Supreme Spiked Shield" "Terror Maul" "Thresher Claw" "Tiger Sword" "Timeworn Claw" "Tomahawk" "Tribal Circlet" "Tricorne" "Twilight Blade" "Ursine Pelt" "Vaal Buckler" "Vaal Claw" "Vaal Hatchet" "Vanguard Belt" "Velvet Slippers" "Vile Arrow Quiver" "Vile Staff" "Vine Circlet" "Visored Sallet" "War Buckler" "War Hammer" "War Sword" "Whalebone Rapier" "Wild Leather" "Wool Gloves" "Wool Shoes" "Wrapped Mitts" "Wyrmscale Gauntlets" "Zealot Helmet"
+	BaseType == "Abyssal Axe" "Agate Amulet" "Amethyst Flask" "Ancient Gauntlets" "Ancient Greaves" "Antique Greaves" "Antique Rapier" "Arcanist Gloves" "Arcanist Slippers" "Assassin's Garb" "Auric Mace" "Aventail Helmet" "Awl" "Baroque Round Shield" "Basket Rapier" "Bastard Sword" "Bismuth Flask" "Black Maw Talisman" "Blinder" "Blue Pearl Amulet" "Bone Armour" "Bone Bow" "Boot Blade" "Boot Knife" "Branded Kite Shield" "Brass Spirit Shield" "Broadhead Arrow Quiver" "Bronze Gauntlets" "Bronze Sceptre" "Bronzescale Boots" "Bronzescale Gauntlets" "Buckskin Tunic" "Burnished Spiked Shield" "Cardinal Round Shield" "Carnal Sceptre" "Cedar Tower Shield" "Chain Gloves" "Chiming Spirit Shield" "Clasped Mitts" "Close Helmet" "Clutching Talisman" "Coiled Staff" "Compound Spiked Shield" "Conjurer Boots" "Conjurer Gloves" "Conquest Chainmail" "Copper Plate" "Coral Amulet" "Coronal Leather" "Corrugated Buckler" "Corsair Sword" "Crusader Chainmail" "Crystal Belt" "Crystal Sceptre" "Cutthroat's Garb" "Decimation Bow" "Decorative Axe" "Deerskin Boots" "Deicide Mask" "Demon Dagger" "Demon's Horn" "Desert Brigandine" "Destiny Leather" "Destroyer Regalia" "Diamond Flask" "Diamond Ring" "Dragonscale Boots" "Dragonscale Gauntlets" "Dread Maul" "Dream Mace" "Driftwood Wand" "Dusk Blade" "Ebony Tower Shield" "Eelskin Gloves" "Elder Sword" "Elegant Foil" "Elegant Round Shield" "Embroidered Gloves" "Enameled Buckler" "Engraved Wand" "Estoc" "Etched Greatsword" "Eternal Burgonet" "Exquisite Leather" "Ezomyte Axe" "Ezomyte Blade" "Ezomyte Burgonet" "Ezomyte Spiked Shield" "Feathered Arrow Quiver" "Festival Mask" "Fingerless Silk Gloves" "Flaying Knife" "Fossilised Spirit Shield" "Fright Claw" "Fugitive Boots" "Full Dragonscale" "Full Scale Armour" "Full Wyrmscale" "Goathide Boots" "Goat's Horn" "Golden Mask" "Goliath Gauntlets" "Grand Mana Flask" "Great Helmet" "Greater Mana Flask" "Grinning Fetish" "Gut Ripper" "Hallowed Hybrid Flask" "Harbinger Bow" "Harmonic Spirit Shield" "Headsman Axe" "Heavy Arrow Quiver" "Highland Blade" "Holy Chainmail" "Imbued Wand" "Imperial Bow" "Imperial Skean" "Infernal Axe" "Iron Gauntlets" "Ironscale Gauntlets" "Ivory Spirit Shield" "Jagged Foil" "Jasper Chopper" "Karui Chopper" "Karui Maul" "Karui Sceptre" "Labrys" "Lacquered Buckler" "Lacquered Garb" "Laminated Kite Shield" "Large Hybrid Flask" "Lathi" "Leather Cap" "Legion Boots" "Legion Gloves" "Lion Pelt" "Lion Sword" "Loricated Ringmail" "Lunaris Circlet" "Marble Amulet" "Meatgrinder" "Mesh Boots" "Mesh Gloves" "Midnight Blade" "Military Staff" "Mosaic Kite Shield" "Murder Mitts" "Nailed Fist" "Nightmare Bascinet" "Nightmare Mace" "Nubuck Boots" "Nubuck Gloves" "Opal Sceptre" "Opal Wand" "Ornate Mace" "Ornate Ringmail" "Penetrating Arrow Quiver" "Pine Buckler" "Plague Mask" "Plated Greaves" "Platinum Kris" "Platinum Sceptre" "Poleaxe" "Polished Spiked Shield" "Primordial Staff" "Quarterstaff" "Quartz Wand" "Quicksilver Flask" "Ranger Bow" "Raven Mask" "Rawhide Tower Shield" "Recurve Bow" "Regicide Mask" "Reinforced Tower Shield" "Ritual Sceptre" "Riveted Boots" "Rock Breaker" "Rotfeather Talisman" "Rotted Round Shield" "Royal Axe" "Royal Sceptre" "Royal Skean" "Runic Gages" "Runic Gauntlets" "Runic Helm" "Sabre" "Sage Wand" "Sage's Robe" "Saintly Chainmail" "Samite Gloves" "Samnite Helmet" "Sanctified Life Flask" "Sanctified Mana Flask" "Satin Gloves" "Scholar's Robe" "Secutor Helm" "Serpentscale Boots" "Serpentscale Gauntlets" "Shadow Axe" "Shadow Sceptre" "Shagreen Boots" "Shagreen Gloves" "Sharkskin Boots" "Sharkskin Tunic" "Short Bow" "Siege Helmet" "Silk Slippers" "Silver Flask" "Simple Robe" "Slaughter Knife" "Slink Gloves" "Soldier Boots" "Soldier Helmet" "Sorcerer Gloves" "Sovereign Spiked Shield" "Spidersilk Robe" "Spiked Club" "Spiked Gloves" "Spike-Point Arrow Quiver" "Spine Bow" "Steel Circlet" "Steel Gauntlets" "Steel Kite Shield" "Steelhead" "Stibnite Flask" "Stiletto" "Strapped Boots" "Studded Round Shield" "Sundering Axe" "Supreme Spiked Shield" "Teak Round Shield" "Terror Claw" "Terror Maul" "Thorium Spirit Shield" "Thresher Claw" "Throat Stabber" "Tiger Sword" "Timeworn Claw" "Titanium Spirit Shield" "Tomahawk" "Topaz Flask" "Trapper Boots" "Tribal Circlet" "Tricorne" "Twilight Blade" "Two-Toned Boots" "Tyrant's Sekhem" "Ursine Pelt" "Vaal Blade" "Vaal Buckler" "Vaal Claw" "Vaal Hatchet" "Vaal Mask" "Vaal Sceptre" "Vanguard Belt" "Vile Arrow Quiver" "Vile Staff" "Visored Sallet" "Void Axe" "War Hammer" "War Sword" "Wereclaw Talisman" "Whalebone Rapier" "Wool Gloves" "Wool Shoes" "Wrapped Mitts" "Wyrmscale Gauntlets" "Zealot Gloves" "Zealot Helmet"
 	SetTextColor 175 96 37 255 # Unique Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
 	DisableDropSound
@@ -3444,7 +3447,7 @@ Show
 Show
 	HasEaterOfWorldsImplicit >= 1
 	HasSearingExarchImplicit >= 1
-	SetBackgroundColor 2 58 64 240 # Eater Background
+	SetBackgroundColor 2 58 64 255 # Eater Background
 	SetBorderColor 115 2 2 255 # Exarch Border
 	SetFontSize 41 # Big
 	PlayAlertSound 3 200 # Tier2
@@ -3456,7 +3459,7 @@ Show
 
 Show
 	HasSearingExarchImplicit >= 1
-	SetBackgroundColor 115 2 2 240 # Exarch Background
+	SetBackgroundColor 115 2 2 255 # Exarch Background
 	SetFontSize 41 # Big
 	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 1 Yellow Hexagon
@@ -3467,7 +3470,7 @@ Show
 
 Show
 	HasEaterOfWorldsImplicit >= 1
-	SetBackgroundColor 2 58 64 240 # Eater Background
+	SetBackgroundColor 2 58 64 255 # Eater Background
 	SetFontSize 41 # Big
 	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 1 Yellow Hexagon
