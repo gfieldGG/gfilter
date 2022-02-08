@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.17.5
+# VERSION:       3.17.6
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -2501,9 +2501,10 @@ Show
 
 # Map Unique Tier1
 Show
+	MapTier = 16
 	Rarity = Unique
 	Class = "Maps"
-	BaseType = "Chateau" "Relic Chambers"
+	BaseType == "Harbinger Map"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 175 96 37 255 # Unique Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -2514,15 +2515,14 @@ Show
 
 # Map Unique Tier1
 Show
-	MapTier = 16
 	Rarity = Unique
 	Class = "Maps"
-	BaseType = "Harbinger Map"
+	BaseType == "Basilica Map" "Courthouse Map" "Cursed Crypt Map" "Haunted Mansion Map" "Maze Map" "Park Map" "Siege Map" "Synthesised Map"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 175 96 37 255 # Unique Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT1.mp3" 200
+	CustomAlertSound "gfT15.mp3" 200
 	MinimapIcon 0 Red Square
 	PlayEffect Red 
 
@@ -2530,27 +2530,27 @@ Show
 Show
 	Rarity = Unique
 	Class = "Maps"
-	BaseType = "Harbinger Map" "Maze Map" "Museum Map"
+	BaseType == "Courtyard Map" "Harbinger Map" "Moon Temple Map" "Museum Map" "Shore Map"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 175 96 37 255 # Unique Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
 	CustomAlertSound "gfT15.mp3" 200
-	MinimapIcon 0 Red Square
+	MinimapIcon 1 Red Square
 	PlayEffect Red 
 
-# Map Unique Memory Tier1.5
+# Map Unique Tier2
 Show
 	Rarity = Unique
 	Class = "Maps"
-	BaseType = "Basilica Map" "Courthouse Map" "Park Map" "Siege Map"
+	BaseType == "Atoll Map" "Bone Crypt Map" "Cemetery Map" "Dunes Map" "Necropolis Map" "Overgrown Shrine Map" "Primordial Blocks Map" "Promenade Map" "Strand Map" "Temple Map" "Underground River Map" "Underground Sea Map" "Vaal Pyramid Map"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 175 96 37 255 # Unique Background
-	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetBorderColor 88 48 19 250 # Map Unique Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3" 200
-	MinimapIcon 0 Red Square
-	PlayEffect Red 
+	CustomAlertSound "gfT2.mp3" 200
+	MinimapIcon 1 Yellow Square
+	PlayEffect Brown 
 
 # Map Unique
 Show
@@ -2561,8 +2561,8 @@ Show
 	SetBorderColor 88 48 19 250 # Map Unique Border
 	SetFontSize 45 # Yuge
 	PlayAlertSound 4 150 # Map
-	MinimapIcon 1 Yellow Square
-	PlayEffect Brown 
+	MinimapIcon 1 White Square
+	PlayEffect Brown Temp
 
 #-------------------------------------------------------------------------------
 # Subsection: Map Special
