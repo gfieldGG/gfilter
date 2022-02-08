@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.17.4
+# VERSION:       3.17.5
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -1729,6 +1729,7 @@ Show
 	BaseType = "Compass"
 	SetTextColor 255 233 200 255 # Atlas Text
 	SetBackgroundColor 40 35 30 255 # Atlas Highlight Background
+	SetBorderColor 255 233 200 255 # Atlas Border
 	SetFontSize 45 # Yuge
 	CustomAlertSound "gfT2.mp3" 200
 	MinimapIcon 1 Yellow Circle
@@ -1768,8 +1769,8 @@ Show
 Show
 	Class = "Stackable Currency"
 	BaseType = "Scouting Report"
-	SetTextColor 0 0 0 255 # Map Text
-	SetBackgroundColor 255 233 200 255 # Atlas Background
+	SetTextColor 255 233 200 255 # Atlas Text
+	SetBackgroundColor 40 35 30 255 # Atlas Highlight Background
 	SetFontSize 45 # Yuge
 	CustomAlertSound "gfT3.mp3" 200
 	MinimapIcon 1 White Circle
@@ -1779,7 +1780,7 @@ Show
 	Class = "Currency"
 	BaseType = "Eldritch Ichor"
 	SetTextColor 200 186 153 255 # Currency Text
-	SetBackgroundColor 2 58 64 240 # Eater Background
+	SetBackgroundColor 2 58 64 255 # Eater Background
 	SetBorderColor 200 186 153 255 # Currency Border
 	SetFontSize 45 # Yuge
 	CustomAlertSound "gfT3.mp3" 200
@@ -1791,7 +1792,7 @@ Show
 	Class = "Currency"
 	BaseType = "Eldritch Ember"
 	SetTextColor 200 186 153 255 # Currency Text
-	SetBackgroundColor 115 2 2 240 # Exarch Background
+	SetBackgroundColor 115 2 2 255 # Exarch Background
 	SetBorderColor 200 186 153 255 # Currency Border
 	SetFontSize 45 # Yuge
 	CustomAlertSound "gfT3.mp3" 200
@@ -2298,9 +2299,9 @@ Show
 Show
 	Class = "Map Fragments"
 	BaseType = "The Maven's Writ"
-	SetTextColor 255 200 0 255 # Legacy Text
-	SetBackgroundColor 0 0 64 255 # Synthesis Highlight Background
-	SetBorderColor 255 200 0 255 # Legacy Border
+	SetTextColor 255 200 0 255 # Melvin Text
+	SetBackgroundColor 0 0 64 255 # Melvin Highlight Border
+	SetBorderColor 255 200 0 255 # Melvin Border
 	SetFontSize 45 # Yuge
 	CustomAlertSound "gfT1.mp3" 200
 	MinimapIcon 0 Red Diamond
@@ -2310,33 +2311,35 @@ Show
 Show
 	Class = "Stackable Currency"
 	BaseType = "Crescent Splinter"
-	SetTextColor 255 200 0 255 # Legacy Text
-	SetBackgroundColor 0 0 64 255 # Synthesis Highlight Background
+	SetTextColor 255 200 0 255 # Melvin Text
+	SetBackgroundColor 0 0 64 255 # Melvin Highlight Border
 	SetFontSize 45 # Yuge
 	CustomAlertSound "gfT15.mp3" 200
 	MinimapIcon 1 Red Circle
-	PlayEffect Yellow Temp
+	PlayEffect Yellow 
 
 # Melvin wants YOU
 Show
 	Class = "Misc Map Items"
 	BaseType = "Invitation"
-	SetTextColor 255 200 0 255 # Legacy Text
-	SetBackgroundColor 0 0 64 255 # Synthesis Highlight Background
+	SetTextColor 255 200 0 255 # Melvin Text
+	SetBackgroundColor 0 0 64 255 # Melvin Highlight Border
+	SetBorderColor 255 200 0 255 # Melvin Border
 	SetFontSize 45 # Yuge
 	PlayAlertSound 2 150 # Quest
-	MinimapIcon 1 Red Circle
+	MinimapIcon 1 Red Diamond
 	PlayEffect Yellow 
 
 # Melvin wants YOU quest?
 Show
 	Class = "Quest Items"
 	BaseType = "Invitation"
-	SetTextColor 255 200 0 255 # Legacy Text
-	SetBackgroundColor 0 0 64 255 # Synthesis Highlight Background
+	SetTextColor 255 200 0 255 # Melvin Text
+	SetBackgroundColor 0 0 64 255 # Melvin Highlight Border
+	SetBorderColor 255 200 0 255 # Melvin Border
 	SetFontSize 45 # Yuge
 	PlayAlertSound 2 150 # Quest
-	MinimapIcon 1 Red Circle
+	MinimapIcon 1 Red Diamond
 	PlayEffect Yellow 
 
 #-------------------------------------------------------------------------------
@@ -3440,7 +3443,7 @@ Show
 Show
 	HasEaterOfWorldsImplicit >= 1
 	HasSearingExarchImplicit >= 1
-	SetBackgroundColor 2 58 64 240 # Eater Background
+	SetBackgroundColor 2 58 64 255 # Eater Background
 	SetBorderColor 115 2 2 255 # Exarch Border
 	SetFontSize 41 # Big
 	PlayAlertSound 3 200 # Tier2
@@ -3452,7 +3455,7 @@ Show
 
 Show
 	HasSearingExarchImplicit >= 1
-	SetBackgroundColor 115 2 2 240 # Exarch Background
+	SetBackgroundColor 115 2 2 255 # Exarch Background
 	SetFontSize 41 # Big
 	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 1 Yellow Hexagon
@@ -3463,7 +3466,7 @@ Show
 
 Show
 	HasEaterOfWorldsImplicit >= 1
-	SetBackgroundColor 2 58 64 240 # Eater Background
+	SetBackgroundColor 2 58 64 255 # Eater Background
 	SetFontSize 41 # Big
 	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 1 Yellow Hexagon
