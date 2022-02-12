@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.17.7
+# VERSION:       3.17.8
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -1398,6 +1398,7 @@ Show
 #	Class = "Currency"
 #	BaseType = "Prophecy"
 #	BaseType = "Prophecy"
+#	BaseType = "Prophecy"
 #	SetTextColor 125 0 175 255 # Prophecy Text
 #	SetBackgroundColor 255 255 255 255 # Tier0 Background
 #	SetBorderColor 125 0 175 255 # Prophecy Border
@@ -1408,6 +1409,7 @@ Show
 # BaseType = "Prophecy"
 #Show
 #	Class = "Currency"
+#	BaseType = "Prophecy"
 #	BaseType = "Prophecy"
 #	BaseType = "Prophecy"
 #	SetTextColor 0 0 0 255 # Tier1 Text
@@ -1422,6 +1424,7 @@ Show
 #	Class = "Currency"
 #	BaseType = "Prophecy"
 #	BaseType = "Prophecy"
+#	BaseType = "Prophecy"
 #	SetTextColor 0 0 0 255 # Tier1 Text
 #	SetBackgroundColor 125 0 175 255 # Prophecy Background
 #	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -1432,6 +1435,7 @@ Show
 # BaseType = "Prophecy"
 #Hide
 #	Class = "Currency"
+#	BaseType = "Prophecy"
 #	BaseType = "Prophecy"
 #	BaseType = "Prophecy"
 #	SetTextColor 125 0 175 255 # Prophecy Text
@@ -4179,7 +4183,7 @@ Show
 	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
 	SetBorderColor 200 186 153 255 # Currency Border
 	SetFontSize 45 # Yuge
-	#BlockStrictness 3 Hide
+	#BlockStrictness 4 Hide
 
 #===============================================================================
 # Section: 5 Links
