@@ -1839,8 +1839,8 @@ Show
 	BaseType = "Chaos Shard" "Regal Shard"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
-	SetFontSize 37 # Medium
-	#BlockStrictness 2 Hide
+	SetFontSize 41 # Big
+	#BlockStrictness 3 Hide
 
 # Currency Shard T2 Stack
 Show
