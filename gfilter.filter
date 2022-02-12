@@ -1,9 +1,9 @@
-#===============================================================================
+﻿#===============================================================================
 # GFILTER
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.17.6
+# VERSION:       3.17.7
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -1397,6 +1397,7 @@ Show
 #Show
 #	Class = "Currency"
 #	BaseType = "Prophecy"
+#	BaseType = "Prophecy"
 #	SetTextColor 125 0 175 255 # Prophecy Text
 #	SetBackgroundColor 255 255 255 255 # Tier0 Background
 #	SetBorderColor 125 0 175 255 # Prophecy Border
@@ -1404,9 +1405,10 @@ Show
 #	CustomAlertSound "gfT0.mp3" 200
 #	MinimapIcon 0 Red Circle
 
-# Prophecy Tier1
+# BaseType = "Prophecy"
 #Show
 #	Class = "Currency"
+#	BaseType = "Prophecy"
 #	BaseType = "Prophecy"
 #	SetTextColor 0 0 0 255 # Tier1 Text
 #	SetBackgroundColor 125 0 175 255 # Prophecy Background
@@ -1415,9 +1417,10 @@ Show
 #	CustomAlertSound "gfT1.mp3" 200
 #	MinimapIcon 0 Red Circle
 
-# Prophecy Tier1.5
+# BaseType = "Prophecy"
 #Show
 #	Class = "Currency"
+#	BaseType = "Prophecy"
 #	BaseType = "Prophecy"
 #	SetTextColor 0 0 0 255 # Tier1 Text
 #	SetBackgroundColor 125 0 175 255 # Prophecy Background
@@ -1426,15 +1429,16 @@ Show
 #	CustomAlertSound "gfT15.mp3" 200
 #	MinimapIcon 1 Red Circle
 
-# Prophecy Trash
+# BaseType = "Prophecy"
 #Show
 #	Class = "Currency"
+#	BaseType = "Prophecy"
 #	BaseType = "Prophecy"
 #	SetTextColor 125 0 175 255 # Prophecy Text
 #	SetBackgroundColor 0 0 0 210 # Junk Background
 #	#BlockStrictness 2 Hide
 
-# Prophecy Tier2
+# BaseType = "Prophecy"
 #Show
 #	Class = "Currency"
 #	BaseType = "Prophecy"
@@ -1901,6 +1905,16 @@ Show
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 0 0 0 140 # Faded Background
 	SetFontSize 41 # Big
+
+# Currency Tier5 Stack mid game
+Show
+	StackSize >= 6
+	Class = "Currency"
+	BaseType = "Orb of Transmutation" "Orb of Augmentation" "Blacksmith's Whetstone" "Armourer's Scrap" "Scroll of Wisdom" "Portal Scroll"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 0 0 0 140 # Faded Background
+	SetFontSize 41 # Big
+	#BlockStrictness 3 Disable
 
 # Currency Tier5 Stack mid game
 Show
