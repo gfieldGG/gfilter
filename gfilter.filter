@@ -1775,7 +1775,19 @@ Show
 	CustomAlertSound "gfT3.mp3" 200
 	MinimapIcon 1 White Circle
 
-# Currency Tier3 Stack
+# Currency Eater T1.5
+Show
+	Class = "Currency"
+	BaseType == "Exceptional Eldritch Ichor"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 2 58 64 255 # Eater Background
+	SetBorderColor 200 186 153 255 # Currency Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT15.mp3" 200
+	MinimapIcon 1 Red Circle
+	PlayEffect Red Temp
+
+# Currency Eater
 Show
 	Class = "Currency"
 	BaseType = "Eldritch Ichor"
@@ -1783,19 +1795,31 @@ Show
 	SetBackgroundColor 2 58 64 255 # Eater Background
 	SetBorderColor 200 186 153 255 # Currency Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT3.mp3" 200
+	CustomAlertSound "gfT2.mp3" 200
 	MinimapIcon 1 Yellow Circle
 	PlayEffect Yellow Temp
 
-# Currency Tier3 Stack
+# Currency Exarch Tier1.5
+Show
+	Class = "Currency"
+	BaseType == "Exceptional Eldritch Ember"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 92 2 2 255 # Exarch Background
+	SetBorderColor 200 186 153 255 # Currency Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT15.mp3" 200
+	MinimapIcon 1 Red Circle
+	PlayEffect Red Temp
+
+# Currency Exarch
 Show
 	Class = "Currency"
 	BaseType = "Eldritch Ember"
 	SetTextColor 200 186 153 255 # Currency Text
-	SetBackgroundColor 115 2 2 255 # Exarch Background
+	SetBackgroundColor 92 2 2 255 # Exarch Background
 	SetBorderColor 200 186 153 255 # Currency Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT3.mp3" 200
+	CustomAlertSound "gfT2.mp3" 200
 	MinimapIcon 1 Yellow Circle
 	PlayEffect Yellow Temp
 
@@ -3443,8 +3467,9 @@ Show
 Show
 	HasEaterOfWorldsImplicit >= 1
 	HasSearingExarchImplicit >= 1
+	SetTextColor 255 150 51 255 # Exarch Text
 	SetBackgroundColor 2 58 64 255 # Eater Background
-	SetBorderColor 115 2 2 255 # Exarch Border
+	SetBorderColor 255 150 51 255 # Exarch Border
 	SetFontSize 41 # Big
 	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 1 Yellow Hexagon
@@ -3453,23 +3478,71 @@ Show
 # Subsection: Exarch
 #-------------------------------------------------------------------------------
 
+# Exarch hightier
 Show
-	HasSearingExarchImplicit >= 1
-	SetBackgroundColor 115 2 2 255 # Exarch Background
-	SetFontSize 41 # Big
+	HasSearingExarchImplicit >= 5
+	Rarity <= Rare
+	SetTextColor 255 150 51 255 # Exarch Text
+	SetBackgroundColor 92 2 2 255 # Exarch Background
+	SetBorderColor 255 150 51 255 # Exarch Border
+	SetFontSize 45 # Yuge
 	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 1 Yellow Hexagon
+
+# Exarch midtier + base
+Show
+	HasSearingExarchImplicit >= 3
+	Rarity <= Rare
+	BaseType == "Crusader Boots" "Crusader Gloves" "Deicide Mask" "Dragonscale Boots" "Dragonscale Gauntlets" "Eternal Burgonet" "Glorious Plate" "Hubris Circlet" "Lion Pelt" "Murder Boots" "Murder Mitts" "Nightmare Bascinet" "Praetor Crown" "Royal Burgonet" "Sadist Garb" "Saintly Chainmail" "Slink Boots" "Slink Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Titan Gauntlets" "Titan Greaves" "Triumphant Lamellar" "Vaal Regalia" "Zodiac Leather"
+	SetTextColor 255 150 51 255 # Exarch Text
+	SetBackgroundColor 92 2 2 255 # Exarch Background
+	SetFontSize 45 # Yuge
+	PlayAlertSound 6 150 # Tier3
+	MinimapIcon 2 White Hexagon
+
+# Exarch
+Show
+	HasSearingExarchImplicit >= 1
+	Rarity <= Rare
+	SetTextColor 255 150 51 255 # Exarch Text
+	SetBackgroundColor 92 2 2 255 # Exarch Background
+	SetFontSize 41 # Big
+	#BlockStrictness 3 Hide
 
 #-------------------------------------------------------------------------------
 # Subsection: Eater of Worlds
 #-------------------------------------------------------------------------------
 
+# Exarch hightier
 Show
-	HasEaterOfWorldsImplicit >= 1
+	HasEaterOfWorldsImplicit >= 5
+	Rarity <= Rare
+	SetTextColor 0 219 175 255 # Eater Text
 	SetBackgroundColor 2 58 64 255 # Eater Background
-	SetFontSize 41 # Big
+	SetBorderColor 0 219 175 255 # Eater Border
+	SetFontSize 45 # Yuge
 	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 1 Yellow Hexagon
+
+# Exarch midtier + base
+Show
+	HasEaterOfWorldsImplicit >= 3
+	Rarity <= Rare
+	BaseType == "Crusader Boots" "Crusader Gloves" "Deicide Mask" "Dragonscale Boots" "Dragonscale Gauntlets" "Eternal Burgonet" "Glorious Plate" "Hubris Circlet" "Lion Pelt" "Murder Boots" "Murder Mitts" "Nightmare Bascinet" "Praetor Crown" "Royal Burgonet" "Sadist Garb" "Saintly Chainmail" "Slink Boots" "Slink Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Titan Gauntlets" "Titan Greaves" "Triumphant Lamellar" "Vaal Regalia" "Zodiac Leather"
+	SetTextColor 0 219 175 255 # Eater Text
+	SetBackgroundColor 2 58 64 255 # Eater Background
+	SetFontSize 45 # Yuge
+	PlayAlertSound 6 150 # Tier3
+	MinimapIcon 2 White Hexagon
+
+# Eater
+Show
+	HasEaterOfWorldsImplicit >= 1
+	Rarity <= Rare
+	SetTextColor 0 219 175 255 # Eater Text
+	SetBackgroundColor 2 58 64 255 # Eater Background
+	SetFontSize 41 # Big
+	#BlockStrictness 3 Hide
 
 #-------------------------------------------------------------------------------
 # Subsection: Crusader

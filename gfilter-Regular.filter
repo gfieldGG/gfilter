@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.17.5
+# VERSION:       3.17.6
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -1779,7 +1779,19 @@ Show
 	CustomAlertSound "gfT3.mp3" 200
 	MinimapIcon 1 White Circle
 
-# Currency Tier3 Stack
+# Currency Eater T1.5
+Show
+	Class = "Currency"
+	BaseType == "Exceptional Eldritch Ichor"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 2 58 64 255 # Eater Background
+	SetBorderColor 200 186 153 255 # Currency Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT15.mp3" 200
+	MinimapIcon 1 Red Circle
+	PlayEffect Red Temp
+
+# Currency Eater
 Show
 	Class = "Currency"
 	BaseType = "Eldritch Ichor"
@@ -1787,19 +1799,31 @@ Show
 	SetBackgroundColor 2 58 64 255 # Eater Background
 	SetBorderColor 200 186 153 255 # Currency Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT3.mp3" 200
+	CustomAlertSound "gfT2.mp3" 200
 	MinimapIcon 1 Yellow Circle
 	PlayEffect Yellow Temp
 
-# Currency Tier3 Stack
+# Currency Exarch Tier1.5
+Show
+	Class = "Currency"
+	BaseType == "Exceptional Eldritch Ember"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 92 2 2 255 # Exarch Background
+	SetBorderColor 200 186 153 255 # Currency Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT15.mp3" 200
+	MinimapIcon 1 Red Circle
+	PlayEffect Red Temp
+
+# Currency Exarch
 Show
 	Class = "Currency"
 	BaseType = "Eldritch Ember"
 	SetTextColor 200 186 153 255 # Currency Text
-	SetBackgroundColor 115 2 2 255 # Exarch Background
+	SetBackgroundColor 92 2 2 255 # Exarch Background
 	SetBorderColor 200 186 153 255 # Currency Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT3.mp3" 200
+	CustomAlertSound "gfT2.mp3" 200
 	MinimapIcon 1 Yellow Circle
 	PlayEffect Yellow Temp
 
@@ -1843,8 +1867,8 @@ Show
 	BaseType = "Chaos Shard" "Regal Shard"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
-	SetFontSize 37 # Medium
-	#BlockStrictness 2 Hide
+	SetFontSize 41 # Big
+	#BlockStrictness 3 Hide
 
 # Currency Shard T2 Stack
 Show
@@ -2505,9 +2529,10 @@ Show
 
 # Map Unique Tier1
 Show
+	MapTier = 16
 	Rarity = Unique
 	Class = "Maps"
-	BaseType = "Chateau" "Relic Chambers"
+	BaseType == "Harbinger Map"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 175 96 37 255 # Unique Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -2518,15 +2543,14 @@ Show
 
 # Map Unique Tier1
 Show
-	MapTier = 16
 	Rarity = Unique
 	Class = "Maps"
-	BaseType = "Harbinger Map"
+	BaseType == "Basilica Map" "Courthouse Map" "Cursed Crypt Map" "Haunted Mansion Map" "Maze Map" "Park Map" "Siege Map" "Synthesised Map"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 175 96 37 255 # Unique Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT1.mp3" 200
+	CustomAlertSound "gfT15.mp3" 200
 	MinimapIcon 0 Red Square
 	PlayEffect Red 
 
@@ -2534,27 +2558,27 @@ Show
 Show
 	Rarity = Unique
 	Class = "Maps"
-	BaseType = "Harbinger Map" "Maze Map" "Museum Map"
+	BaseType == "Courtyard Map" "Harbinger Map" "Moon Temple Map" "Museum Map" "Shore Map"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 175 96 37 255 # Unique Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
 	CustomAlertSound "gfT15.mp3" 200
-	MinimapIcon 0 Red Square
+	MinimapIcon 1 Red Square
 	PlayEffect Red 
 
-# Map Unique Memory Tier1.5
+# Map Unique Tier2
 Show
 	Rarity = Unique
 	Class = "Maps"
-	BaseType = "Basilica Map" "Courthouse Map" "Park Map" "Siege Map"
+	BaseType == "Atoll Map" "Bone Crypt Map" "Cemetery Map" "Dunes Map" "Necropolis Map" "Overgrown Shrine Map" "Primordial Blocks Map" "Promenade Map" "Strand Map" "Temple Map" "Underground River Map" "Underground Sea Map" "Vaal Pyramid Map"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 175 96 37 255 # Unique Background
-	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetBorderColor 88 48 19 250 # Map Unique Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3" 200
-	MinimapIcon 0 Red Square
-	PlayEffect Red 
+	CustomAlertSound "gfT2.mp3" 200
+	MinimapIcon 1 Yellow Square
+	PlayEffect Brown 
 
 # Map Unique
 Show
@@ -2565,8 +2589,8 @@ Show
 	SetBorderColor 88 48 19 250 # Map Unique Border
 	SetFontSize 45 # Yuge
 	PlayAlertSound 4 150 # Map
-	MinimapIcon 1 Yellow Square
-	PlayEffect Brown 
+	MinimapIcon 1 White Square
+	PlayEffect Brown Temp
 
 #-------------------------------------------------------------------------------
 # Subsection: Map Special
@@ -3447,8 +3471,9 @@ Show
 Show
 	HasEaterOfWorldsImplicit >= 1
 	HasSearingExarchImplicit >= 1
+	SetTextColor 255 150 51 255 # Exarch Text
 	SetBackgroundColor 2 58 64 255 # Eater Background
-	SetBorderColor 115 2 2 255 # Exarch Border
+	SetBorderColor 255 150 51 255 # Exarch Border
 	SetFontSize 41 # Big
 	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 1 Yellow Hexagon
@@ -3457,23 +3482,71 @@ Show
 # Subsection: Exarch
 #-------------------------------------------------------------------------------
 
+# Exarch hightier
 Show
-	HasSearingExarchImplicit >= 1
-	SetBackgroundColor 115 2 2 255 # Exarch Background
-	SetFontSize 41 # Big
+	HasSearingExarchImplicit >= 5
+	Rarity <= Rare
+	SetTextColor 255 150 51 255 # Exarch Text
+	SetBackgroundColor 92 2 2 255 # Exarch Background
+	SetBorderColor 255 150 51 255 # Exarch Border
+	SetFontSize 45 # Yuge
 	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 1 Yellow Hexagon
+
+# Exarch midtier + base
+Show
+	HasSearingExarchImplicit >= 3
+	Rarity <= Rare
+	BaseType == "Crusader Boots" "Crusader Gloves" "Deicide Mask" "Dragonscale Boots" "Dragonscale Gauntlets" "Eternal Burgonet" "Glorious Plate" "Hubris Circlet" "Lion Pelt" "Murder Boots" "Murder Mitts" "Nightmare Bascinet" "Praetor Crown" "Royal Burgonet" "Sadist Garb" "Saintly Chainmail" "Slink Boots" "Slink Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Titan Gauntlets" "Titan Greaves" "Triumphant Lamellar" "Vaal Regalia" "Zodiac Leather"
+	SetTextColor 255 150 51 255 # Exarch Text
+	SetBackgroundColor 92 2 2 255 # Exarch Background
+	SetFontSize 45 # Yuge
+	PlayAlertSound 6 150 # Tier3
+	MinimapIcon 2 White Hexagon
+
+# Exarch
+Show
+	HasSearingExarchImplicit >= 1
+	Rarity <= Rare
+	SetTextColor 255 150 51 255 # Exarch Text
+	SetBackgroundColor 92 2 2 255 # Exarch Background
+	SetFontSize 41 # Big
+	#BlockStrictness 3 Hide
 
 #-------------------------------------------------------------------------------
 # Subsection: Eater of Worlds
 #-------------------------------------------------------------------------------
 
+# Exarch hightier
 Show
-	HasEaterOfWorldsImplicit >= 1
+	HasEaterOfWorldsImplicit >= 5
+	Rarity <= Rare
+	SetTextColor 0 219 175 255 # Eater Text
 	SetBackgroundColor 2 58 64 255 # Eater Background
-	SetFontSize 41 # Big
+	SetBorderColor 0 219 175 255 # Eater Border
+	SetFontSize 45 # Yuge
 	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 1 Yellow Hexagon
+
+# Exarch midtier + base
+Show
+	HasEaterOfWorldsImplicit >= 3
+	Rarity <= Rare
+	BaseType == "Crusader Boots" "Crusader Gloves" "Deicide Mask" "Dragonscale Boots" "Dragonscale Gauntlets" "Eternal Burgonet" "Glorious Plate" "Hubris Circlet" "Lion Pelt" "Murder Boots" "Murder Mitts" "Nightmare Bascinet" "Praetor Crown" "Royal Burgonet" "Sadist Garb" "Saintly Chainmail" "Slink Boots" "Slink Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Titan Gauntlets" "Titan Greaves" "Triumphant Lamellar" "Vaal Regalia" "Zodiac Leather"
+	SetTextColor 0 219 175 255 # Eater Text
+	SetBackgroundColor 2 58 64 255 # Eater Background
+	SetFontSize 45 # Yuge
+	PlayAlertSound 6 150 # Tier3
+	MinimapIcon 2 White Hexagon
+
+# Eater
+Show
+	HasEaterOfWorldsImplicit >= 1
+	Rarity <= Rare
+	SetTextColor 0 219 175 255 # Eater Text
+	SetBackgroundColor 2 58 64 255 # Eater Background
+	SetFontSize 41 # Big
+	#BlockStrictness 3 Hide
 
 #-------------------------------------------------------------------------------
 # Subsection: Crusader
