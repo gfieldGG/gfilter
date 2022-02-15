@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.17.9
+# VERSION:       3.17.10
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -4194,14 +4194,14 @@ Show
 #	#BlockStrictness 2 Disable
 
 # 6 Socket low
-Show
+Hide
 	Sockets = "6"
 	Rarity <= Rare
 	SetTextColor 255 255 255 255 # Normal Highlight Text
 	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
 	SetBorderColor 200 186 153 255 # Currency Border
 	SetFontSize 45 # Yuge
-	#BlockStrictness 4 Hide
+	#BlockStrictness 3 Hide
 
 #===============================================================================
 # Section: 5 Links
