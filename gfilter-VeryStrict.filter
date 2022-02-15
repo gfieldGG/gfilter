@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.17.8
+# VERSION:       3.17.9
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -641,7 +641,7 @@ Show
 	Class = "Stackable Currency"
 	BaseType = "Skittering Delirium Orb" "Fine Delirium Orb" "Fossilised Delirium Orb" "Diviner's Delirium Orb"
 	SetTextColor 210 210 210 255 # Delirium Text
-	SetBackgroundColor 100 100 100 240 # Delirium Background
+	SetBackgroundColor 100 100 100 240 # Delirium Highlight Background
 	SetBorderColor 210 210 210 255 # Delirium Border
 	SetFontSize 45 # Yuge
 	CustomAlertSound "gfT15.mp3" 200
@@ -653,7 +653,7 @@ Show
 	Class = "Stackable Currency"
 	BaseType = "Delirium Orb"
 	SetTextColor 210 210 210 255 # Delirium Text
-	SetBackgroundColor 100 100 100 240 # Delirium Background
+	SetBackgroundColor 100 100 100 240 # Delirium Highlight Background
 	SetBorderColor 210 210 210 255 # Delirium Border
 	SetFontSize 45 # Yuge
 	CustomAlertSound "gfT15.mp3" 200
@@ -662,14 +662,15 @@ Show
 
 # Simulacrum Splinter Stack20
 Show
-	StackSize >= 20
+	StackSize >= 12
 	Class = "Stackable Currency"
 	BaseType = "Simulacrum Splinter"
 	SetTextColor 210 210 210 255 # Delirium Text
-	SetBackgroundColor 100 100 100 240 # Delirium Background
+	SetBackgroundColor 100 100 100 240 # Delirium Highlight Background
 	SetFontSize 45 # Yuge
 	CustomAlertSound "gfT2.mp3" 200
 	MinimapIcon 1 Yellow Circle
+	PlayEffect Yellow 
 
 # Simulacrum Splinter Stack
 Show
@@ -677,28 +678,30 @@ Show
 	Class = "Stackable Currency"
 	BaseType = "Simulacrum Splinter"
 	SetTextColor 210 210 210 255 # Delirium Text
-	SetBackgroundColor 100 100 100 240 # Delirium Background
+	SetBackgroundColor 100 100 100 240 # Delirium Highlight Background
 	SetFontSize 45 # Yuge
 	CustomAlertSound "gfT3.mp3" 200
 	MinimapIcon 2 White Circle
+	PlayEffect White 
 
 # Simulacrum Splinter
 Show
 	Class = "Stackable Currency"
 	BaseType = "Simulacrum Splinter"
 	SetTextColor 210 210 210 255 # Delirium Text
-	SetBackgroundColor 100 100 100 240 # Delirium Background
-	SetFontSize 41 # Big
+	SetBackgroundColor 100 100 100 240 # Delirium Highlight Background
+	SetFontSize 45 # Yuge
+	PlayEffect White 
 
 # Simulacrum Map
 Show
 	Class = "Map Fragments"
 	BaseType = "Simulacrum"
 	SetTextColor 210 210 210 255 # Delirium Text
-	SetBackgroundColor 100 100 100 240 # Delirium Background
+	SetBackgroundColor 100 100 100 240 # Delirium Highlight Background
 	SetBorderColor 0 0 0 255 # Map Border
 	SetFontSize 45 # Yuge
-	PlayAlertSound 4 150 # Map
+	CustomAlertSound "gfT1.mp3" 100
 	MinimapIcon 0 Red Square
 	PlayEffect Red 
 
@@ -1398,7 +1401,6 @@ Show
 #	Class = "Currency"
 #	BaseType = "Prophecy"
 #	BaseType = "Prophecy"
-#	BaseType = "Prophecy"
 #	SetTextColor 125 0 175 255 # Prophecy Text
 #	SetBackgroundColor 255 255 255 255 # Tier0 Background
 #	SetBorderColor 125 0 175 255 # Prophecy Border
@@ -1409,7 +1411,6 @@ Show
 # BaseType = "Prophecy"
 #Show
 #	Class = "Currency"
-#	BaseType = "Prophecy"
 #	BaseType = "Prophecy"
 #	BaseType = "Prophecy"
 #	SetTextColor 0 0 0 255 # Tier1 Text
@@ -1424,7 +1425,6 @@ Show
 #	Class = "Currency"
 #	BaseType = "Prophecy"
 #	BaseType = "Prophecy"
-#	BaseType = "Prophecy"
 #	SetTextColor 0 0 0 255 # Tier1 Text
 #	SetBackgroundColor 125 0 175 255 # Prophecy Background
 #	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -1435,7 +1435,6 @@ Show
 # BaseType = "Prophecy"
 #Hide
 #	Class = "Currency"
-#	BaseType = "Prophecy"
 #	BaseType = "Prophecy"
 #	BaseType = "Prophecy"
 #	SetTextColor 125 0 175 255 # Prophecy Text
@@ -1774,14 +1773,33 @@ Show
 	CustomAlertSound "gfT2.mp3" 200
 	MinimapIcon 1 Yellow Circle
 
+# Scouting Report T2
 Show
 	Class = "Stackable Currency"
-	BaseType = "Scouting Report"
+	BaseType = "Delirious Scouting Report" "Influenced Scouting Report"
 	SetTextColor 255 233 200 255 # Atlas Text
 	SetBackgroundColor 40 35 30 255 # Atlas Highlight Background
 	SetFontSize 45 # Yuge
 	CustomAlertSound "gfT3.mp3" 200
-	MinimapIcon 1 White Circle
+	MinimapIcon 1 Yellow Circle
+
+#Show
+#	Class = "Stackable Currency"
+#	BaseType = "Scouting Report"
+#	SetTextColor 255 233 200 255 # Atlas Text
+#	SetBackgroundColor 40 35 30 255 # Atlas Highlight Background
+#	SetFontSize 45 # Yuge
+#	CustomAlertSound "gfT3.mp3" 200
+#	MinimapIcon 1 White Circle
+#	#BlockStrictness 2 Disable
+
+Hide
+	Class = "Stackable Currency"
+	BaseType = "Scouting Report"
+	SetTextColor 255 233 200 255 # Atlas Text
+	SetBackgroundColor 40 35 30 255 # Atlas Highlight Background
+	SetFontSize 41 # Big
+	#BlockStrictness 3 Hide
 
 # Currency Eater T1.5
 Show
@@ -4261,7 +4279,7 @@ Show
 	EnchantmentPassiveNode = "Trap and Mine Damage"
 	EnchantmentPassiveNum <= 5
 	SetTextColor 255 255 255 255 # Normal Highlight Text
-	SetBackgroundColor 100 100 100 240 # Delirium Background
+	SetBackgroundColor 100 100 100 240 # Delirium Highlight Background
 	SetBorderColor 210 210 210 255 # Delirium Border
 	SetFontSize 45 # Yuge
 	CustomAlertSound "gfT15.mp3" 100
