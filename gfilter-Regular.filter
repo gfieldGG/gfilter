@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.17.9
+# VERSION:       3.17.11
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -48,6 +48,30 @@ Show
 	SetBorderColor 124 178 156 255 # Ascendancy Border
 	SetFontSize 41 # Big
 
+# Archnemesis Recipe T1
+Show
+	Class = "Archnemesis Mod"
+	ArchnemesisMod = "Kitava-touched" "Innocence-touched" "Shakari-touched" "Abberath-touched" "Tukohama-touched" "Brine King-touched" "Arakaali-touched" "Solaris-touched" "Lunaris-touched"
+	SetTextColor 217 177 102 255 # Archnemesis Text
+	SetBackgroundColor 92 90 81 255 # Archnemesis Highlight Background
+	SetBorderColor 217 177 102 255 # Archnemesis Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT15.mp3" 150
+	MinimapIcon 0 Red Moon
+	PlayEffect Yellow 
+
+# Archnemesis Recipe T2
+Show
+	Class = "Archnemesis Mod"
+	ArchnemesisMod = "Heralding Minions" "Empowering Minions" "Assassin" "Trickster" "Necromancer" "Rejuvenating" "Executioner" "Hexer" "Drought Bringer" "Entangler" "Temporal Bubble" "Treant Horde" "Frost Strider" "Ice Prison" "Soul Eater" "Flame Strider" "Corpse Detonator" "Evocationist" "Magma Barrier" "Mirror Image" "Storm Strider" "Mana Siphoner" "Corrupter" "Invulnerable" "Crystal-skinned" "Empowered Elements" "Effigy"
+	SetTextColor 217 177 102 255 # Archnemesis Text
+	SetBackgroundColor 92 90 81 255 # Archnemesis Highlight Background
+	SetBorderColor 217 177 102 255 # Archnemesis Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT2.mp3" 150
+	MinimapIcon 0 Red Moon
+	PlayEffect Yellow 
+
 # Archnemesis Strat
 Show
 	Class = "Archnemesis Mod"
@@ -56,17 +80,8 @@ Show
 	SetBackgroundColor 92 90 81 255 # Archnemesis Highlight Background
 	SetBorderColor 217 177 102 255 # Archnemesis Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3" 150
+	CustomAlertSound "gfT3.mp3" 150
 	MinimapIcon 1 Yellow Moon
-
-# Archnemesis Trash
-Show
-	Class = "Archnemesis Mod"
-	ArchnemesisMod = "Hasted" "Bonebreaker" "Flameweaver" "Stormweaver" "Frostweaver" "Permafrost" "Bombardier" "Overcharged"
-	SetTextColor 217 177 102 255 # Archnemesis Text
-	SetBackgroundColor 92 90 81 255 # Archnemesis Highlight Background
-	SetFontSize 41 # Big
-	#BlockStrictness 3 Hide
 
 # Archnemesis Organ i mean Mod
 Show
@@ -76,6 +91,15 @@ Show
 	SetBorderColor 217 177 102 255 # Archnemesis Border
 	SetFontSize 41 # Big
 	MinimapIcon 2 White Moon
+	#BlockStrictness 2 Disable
+
+# Archnemesis low
+Show
+	Class = "Archnemesis Mod"
+	SetTextColor 217 177 102 255 # Archnemesis Text
+	SetBackgroundColor 92 90 81 255 # Archnemesis Highlight Background
+	SetFontSize 41 # Big
+	#BlockStrictness 3 Hide
 
 # Warband Item
 #Show
@@ -4201,7 +4225,7 @@ Show
 	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
 	SetBorderColor 200 186 153 255 # Currency Border
 	SetFontSize 45 # Yuge
-	#BlockStrictness 4 Hide
+	#BlockStrictness 3 Hide
 
 #===============================================================================
 # Section: 5 Links
@@ -5465,6 +5489,7 @@ Show
 	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
 	SetFontSize 45 # Yuge
 	PlayEffect White Temp
+	#BlockStrictness 3 Hide
 
 Show
 	ItemLevel >= 84
@@ -5473,7 +5498,7 @@ Show
 	SetTextColor 255 255 255 255 # Normal Highlight Text
 	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
 	SetFontSize 45 # Yuge
-	PlayEffect White Temp
+	#BlockStrictness 3 Hide
 
 Show
 	ItemLevel >= 82
@@ -5482,7 +5507,7 @@ Show
 	SetTextColor 255 255 255 255 # Normal Highlight Text
 	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
 	SetFontSize 45 # Yuge
-	#BlockStrictness 3 Hide
+	#BlockStrictness 2 Hide
 
 Show
 	ItemLevel >= 82
@@ -5491,7 +5516,6 @@ Show
 	SetTextColor 255 255 255 255 # Normal Highlight Text
 	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
 	SetFontSize 45 # Yuge
-	PlayEffect White Temp
 	#BlockStrictness 2 Hide
 
 #-------------------------------------------------------------------------------
