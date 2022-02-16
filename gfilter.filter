@@ -5485,6 +5485,7 @@ Show
 	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
 	SetFontSize 45 # Yuge
 	PlayEffect White Temp
+	#BlockStrictness 3 Hide
 
 Show
 	ItemLevel >= 84
@@ -5493,7 +5494,7 @@ Show
 	SetTextColor 255 255 255 255 # Normal Highlight Text
 	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
 	SetFontSize 45 # Yuge
-	PlayEffect White Temp
+	#BlockStrictness 3 Hide
 
 Show
 	ItemLevel >= 82
@@ -5502,7 +5503,7 @@ Show
 	SetTextColor 255 255 255 255 # Normal Highlight Text
 	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
 	SetFontSize 45 # Yuge
-	#BlockStrictness 3 Hide
+	#BlockStrictness 2 Hide
 
 Show
 	ItemLevel >= 82
@@ -5511,7 +5512,6 @@ Show
 	SetTextColor 255 255 255 255 # Normal Highlight Text
 	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
 	SetFontSize 45 # Yuge
-	PlayEffect White Temp
 	#BlockStrictness 2 Hide
 
 #-------------------------------------------------------------------------------
