@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.17.11
+# VERSION:       3.17.12
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -98,7 +98,7 @@ Hide
 	Class = "Archnemesis Mod"
 	SetTextColor 217 177 102 255 # Archnemesis Text
 	SetBackgroundColor 92 90 81 255 # Archnemesis Highlight Background
-	SetFontSize 41 # Big
+	SetFontSize 32 # Regular
 	#BlockStrictness 3 Hide
 
 # Warband Item
@@ -2690,7 +2690,7 @@ Show
 	MinimapIcon 1 Yellow Square
 	PlayEffect Yellow 
 
-# Corrupted Normal Map
+# Corrupted Map Normal/Magic
 Hide
 	Corrupted = True
 	Rarity <= Magic
@@ -2709,19 +2709,6 @@ Hide
 #	SetBackgroundColor 200 200 200 255 # Map White Background
 #	SetBorderColor 0 0 0 255 # Map Border
 #	#BlockStrictness 3 Hide
-
-# Nice Map
-#Show
-#	MapTier <= 10
-#	Class = "Maps"
-#	BaseType = "Iceberg Map" "Spider Forest Map" "Vault Map" "Burial Chambers Map" "Canyon Map" "Strand Map" "Toxic Sewer Map" "Fields Map" "Racecourse Map" "Lookout Map" "Jungle Valley Map" "Mesa Map" "Phantasmagoria Map" "Beach Map" "City Square Map" "Alleyways Map" "Arid Lake Map" "Shore Map" "Ashen Wood Map" "Caldera" "Defiled Cathedral" "Fungal Hollow" "Promenade" "Ramparts" "Atoll" "Sepulchre" "Belfry"
-#	SetTextColor 0 0 0 255 # Map Text
-#	SetBackgroundColor 255 200 0 255 # Map Yellow Background
-#	SetBorderColor 127 100 0 255 # Map Yellow Border
-#	SetFontSize 45 # Yuge
-#	PlayAlertSound 4 150 # Map
-#	MinimapIcon 1 Yellow Square
-#	PlayEffect Yellow 
 
 # Map Yellow Override
 Hide
@@ -3059,11 +3046,67 @@ Show
 	MinimapIcon 1 Red Square
 	PlayEffect Red 
 
+# Map Beyond T14+
+Show
+	MapTier >= 14
+	Rarity = Rare
+	Class = "Maps"
+	HasExplicitMod = "Otherworldly"
+	SetTextColor 255 255 255 255 # Normal Highlight Text
+	SetBackgroundColor 243 40 29 255 # Map Red Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45 # Yuge
+	PlayAlertSound 4 150 # Map
+	MinimapIcon 0 Red Square
+	PlayEffect Red 
+
+# Map T14+ 8mod
+Show
+	MapTier >= 14
+	Rarity = Rare
+	Class = "Maps"
+	HasExplicitMod >=4 "Enthralled" "Oppressive" "Buffered" "Ceremonial" "Antagonist's" "Anarchic" "Skeletal" "Capricious" "Slithering" "Undead" "Emanant" "Feral" "Demonic" "Bipedal" "Solar" "Lunar" "Haunting" "Feasting" "Multifarious" "Chaining" "Otherworldly" "Twinned" "Splitting" "Abhorrent" "Unstoppable" "Conflagrating" "Hexproof" "Unwavering" "Armoured" "Fecund" "Savage" "Burning" "Freezing" "Shocking" "Fleet" "Punishing" "Mirrored" "Overlord's" "Titan's" "Hexwarded" "Empowered" "Resistant" "Impaling" "Impervious"
+	HasExplicitMod >=4 "of Bloodlines" "of Venom" "of Balance" "of Skirmishing" "of Frenzy" "of Endurance" "of Power" "of Giants" "of Deadliness" "of Smothering" "of Flames" "of Ice" "of Lightning" "of Desecration" "of Elemental Weakness" "of Vulnerability" "of Enfeeblement" "of Temporal Chains" "of Stasis" "of Exposure" "of Congealment" "of Insulation" "of Toughness" "of Drought" "of Rust" "of Miring" "of Impotence" "of Blinding" "of Carnage" "of Impedance" "of Doubt" "of Consecration" "of Enervation" "of Imprecision" "of Fatigue"
+	SetTextColor 255 255 255 255 # Normal Highlight Text
+	SetBackgroundColor 243 40 29 255 # Map Red Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45 # Yuge
+	PlayAlertSound 4 150 # Map
+	MinimapIcon 0 Red Square
+	PlayEffect Red 
+
+# Map T14+ 6mod
+Show
+	MapTier >= 14
+	Rarity = Rare
+	Class = "Maps"
+	HasExplicitMod >=3 "Enthralled" "Oppressive" "Buffered" "Ceremonial" "Antagonist's" "Anarchic" "Skeletal" "Capricious" "Slithering" "Undead" "Emanant" "Feral" "Demonic" "Bipedal" "Solar" "Lunar" "Haunting" "Feasting" "Multifarious" "Chaining" "Otherworldly" "Twinned" "Splitting" "Abhorrent" "Unstoppable" "Conflagrating" "Hexproof" "Unwavering" "Armoured" "Fecund" "Savage" "Burning" "Freezing" "Shocking" "Fleet" "Punishing" "Mirrored" "Overlord's" "Titan's" "Hexwarded" "Empowered" "Resistant" "Impaling" "Impervious"
+	HasExplicitMod >=3 "of Bloodlines" "of Venom" "of Balance" "of Skirmishing" "of Frenzy" "of Endurance" "of Power" "of Giants" "of Deadliness" "of Smothering" "of Flames" "of Ice" "of Lightning" "of Desecration" "of Elemental Weakness" "of Vulnerability" "of Enfeeblement" "of Temporal Chains" "of Stasis" "of Exposure" "of Congealment" "of Insulation" "of Toughness" "of Drought" "of Rust" "of Miring" "of Impotence" "of Blinding" "of Carnage" "of Impedance" "of Doubt" "of Consecration" "of Enervation" "of Imprecision" "of Fatigue"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 243 40 29 255 # Map Red Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45 # Yuge
+	PlayAlertSound 4 150 # Map
+	MinimapIcon 0 Red Square
+	PlayEffect Red 
+
+# Corrupted Map T14+ Rare
+Hide
+	Corrupted = True
+	MapTier >= 14
+	Rarity = Rare
+	Class = "Maps"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 243 40 29 255 # Map Red Background
+	SetBorderColor 122 20 15 255 # Map Red Border
+	SetFontSize 37 # Medium
+	#BlockStrictness 3 Disable
+
 # Map Red 14+ Nice
 Show
 	MapTier >= 14
 	Class = "Maps"
-	BaseType == "Tropical Island Map" "Underground Sea Map" "City Square Map" "Jungle Valley Map" "Alleyways Map" "Port Map" "Lair Map" "Tower Map" "Burial Chambers Map" "Canyon Map" "Crimson Temple Map" "Atoll Map" "Cemetery Map" "Estuary Map" "Precinct Map" "Toxic Sewer Map" "Acid Caverns Map" "Haunted Mansion Map" "Silo Map" "Iceberg Map"
+	BaseType == "Tropical Island Map" "Underground Sea Map" "City Square Map" "Jungle Valley Map" "Alleyways Map" "Port Map" "Lair Map" "Tower Map" "Burial Chambers Map" "Canyon Map" "Crimson Temple Map" "Atoll Map" "Cemetery Map" "Estuary Map" "Strand Map" "Precinct Map" "Toxic Sewer Map" "Acid Caverns Map" "Haunted Mansion Map" "Silo Map" "Iceberg Map" "Lookout Map"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 243 40 29 255 # Map Red Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -3084,6 +3127,16 @@ Show
 #	MinimapIcon 1 Red Square
 #	PlayEffect Red 
 #	#BlockStrictness 3 Disable
+
+# Map Red T14+ low
+Show
+	MapTier >= 14
+	Class = "Maps"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 243 40 29 255 # Map Red Background
+	SetBorderColor 122 20 15 255 # Map Red Border
+	SetFontSize 45 # Yuge
+	#BlockStrictness 3 Disable
 
 # Map Red low
 Show
