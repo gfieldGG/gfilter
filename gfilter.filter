@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.17.13
+# VERSION:       3.18.0
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -45,7 +45,7 @@ Show
 	Rarity <= Rare
 	Class = "Helmets"
 	SetBackgroundColor 0 0 0 255 # Default Background
-	SetBorderColor 124 178 156 255 # Ascendancy Border
+	SetBorderColor 80 191 108 255 # Ascendancy Border
 	SetFontSize 41 # Big
 
 # Archnemesis Recipe T1
@@ -116,6 +116,10 @@ Show
 	HasExplicitMod = "Tacati" "Citaqualotl" "Matatl" "Topotante" "Xopec" "Guatelitzi" "Puhuarte"
 	SetFontSize 41 # Big
 	#BlockStrictness 3 Disable
+
+#===============================================================================
+# Section: Betrayal
+#===============================================================================
 
 # Betrayal Veiled Specific
 Show
@@ -501,8 +505,8 @@ Show
 	Class = "Map Fragments"
 	BaseType = "Gift to the Goddess"
 	SetTextColor 0 0 0 255 # Tier1 Text
-	SetBackgroundColor 74 230 58 255 # Quest Background
-	SetBorderColor 67 162 230 255 # Harvest Border
+	SetBackgroundColor 80 191 108 255 # Ascendancy Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
 	CustomAlertSound "gfT15.mp3" 200
 	MinimapIcon 0 Red Diamond
@@ -513,8 +517,8 @@ Show
 	Class = "Map Fragments"
 	BaseType = "Tribute to the Goddess" "Dedication to the Goddess"
 	SetTextColor 0 0 0 255 # Tier1 Text
-	SetBackgroundColor 74 230 58 255 # Quest Background
-	SetBorderColor 67 162 230 255 # Harvest Border
+	SetBackgroundColor 80 191 108 255 # Ascendancy Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
 	CustomAlertSound "gfT2.mp3" 200
 	MinimapIcon 1 Yellow Diamond
@@ -2518,13 +2522,13 @@ Show
 # Offering to the Goddess
 Show
 	BaseType = "Offering to the Goddess"
-	SetTextColor 0 0 0 255 # Tier1 Text
-	SetBackgroundColor 74 230 58 255 # Quest Background
-	SetBorderColor 0 0 0 255 # Map Border
+	SetTextColor 80 191 108 255 # Ascendancy Text
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBorderColor 80 191 108 255 # Ascendancy Border
 	SetFontSize 45 # Yuge
 	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 1 Yellow Diamond
-	PlayEffect Green 
+	PlayEffect Green Temp
 
 # Divine Vessel
 Show
