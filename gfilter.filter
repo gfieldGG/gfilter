@@ -1,4 +1,4 @@
-#===============================================================================
+﻿#===============================================================================
 # GFILTER
 #===============================================================================
 #
@@ -48,59 +48,6 @@ Show
 	SetBorderColor 80 191 108 255 # Ascendancy Border
 	SetFontSize 41 # Big
 
-# Archnemesis Recipe T1
-Show
-	Class = "Archnemesis Mod"
-	ArchnemesisMod = "Kitava-touched" "Innocence-touched" "Shakari-touched" "Abberath-touched" "Tukohama-touched" "Brine King-touched" "Arakaali-touched" "Solaris-touched" "Lunaris-touched"
-	SetTextColor 217 177 102 255 # Archnemesis Text
-	SetBackgroundColor 92 90 81 255 # Archnemesis Highlight Background
-	SetBorderColor 217 177 102 255 # Archnemesis Border
-	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3" 150
-	MinimapIcon 0 Red Moon
-	PlayEffect Yellow 
-
-# Archnemesis Recipe T2
-Show
-	Class = "Archnemesis Mod"
-	ArchnemesisMod = "Heralding Minions" "Empowering Minions" "Assassin" "Trickster" "Necromancer" "Rejuvenating" "Executioner" "Hexer" "Drought Bringer" "Entangler" "Temporal Bubble" "Treant Horde" "Frost Strider" "Ice Prison" "Soul Eater" "Flame Strider" "Corpse Detonator" "Evocationist" "Magma Barrier" "Mirror Image" "Storm Strider" "Mana Siphoner" "Corrupter" "Invulnerable" "Crystal-skinned" "Empowered Elements" "Effigy"
-	SetTextColor 217 177 102 255 # Archnemesis Text
-	SetBackgroundColor 92 90 81 255 # Archnemesis Highlight Background
-	SetBorderColor 217 177 102 255 # Archnemesis Border
-	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3" 150
-	MinimapIcon 0 Red Moon
-	PlayEffect Yellow 
-
-# Archnemesis Strat
-Show
-	Class = "Archnemesis Mod"
-	ArchnemesisMod = "Echoist" "Soul Conduit" "Toxic" "Sentinel" "Steel-infused" "Deadeye" "Vampiric" "Gargantuan"
-	SetTextColor 217 177 102 255 # Archnemesis Text
-	SetBackgroundColor 92 90 81 255 # Archnemesis Highlight Background
-	SetBorderColor 217 177 102 255 # Archnemesis Border
-	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT3.mp3" 150
-	MinimapIcon 1 Yellow Moon
-
-# Archnemesis Organ i mean Mod
-Show
-	Class = "Archnemesis Mod"
-	SetTextColor 217 177 102 255 # Archnemesis Text
-	SetBackgroundColor 92 90 81 255 # Archnemesis Highlight Background
-	SetBorderColor 217 177 102 255 # Archnemesis Border
-	SetFontSize 41 # Big
-	MinimapIcon 2 White Moon
-	#BlockStrictness 2 Disable
-
-# Archnemesis low
-Show
-	Class = "Archnemesis Mod"
-	SetTextColor 217 177 102 255 # Archnemesis Text
-	SetBackgroundColor 92 90 81 255 # Archnemesis Highlight Background
-	SetFontSize 32 # Regular
-	#BlockStrictness 3 Hide
-
 # Warband Item
 #Show
 #	Identified = True
@@ -116,6 +63,86 @@ Show
 	HasExplicitMod = "Tacati" "Citaqualotl" "Matatl" "Topotante" "Xopec" "Guatelitzi" "Puhuarte"
 	SetFontSize 41 # Big
 	#BlockStrictness 3 Disable
+
+#===============================================================================
+# Section: Sentinel
+#===============================================================================
+
+Show
+	Class = "Quest"
+	BaseType == "Sentinel Controller"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 5 84 252 255 # Sentinel Background
+	SetBorderColor 65 174 242 255 # Sentinel Light
+	SetFontSize 45 # Yuge
+	MinimapIcon 0 Blue Triangle
+	PlayEffect Blue 
+
+#-------------------------------------------------------------------------------
+# Subsection: Power Cores
+#-------------------------------------------------------------------------------
+
+# Power Core
+Show
+	Class == "Stackable Currency"
+	BaseType = "Power Core"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 26 25 38 255 # Sentinel Highlight Background
+	SetBorderColor 5 84 242 255 # Sentinel Border
+	SetFontSize 41 # Big
+
+#-------------------------------------------------------------------------------
+# Subsection: Recombinators
+#-------------------------------------------------------------------------------
+
+# Recombinator
+Show
+	Class == "Stackable Currency"
+	BaseType = "Recombinator"
+	SetTextColor 255 255 255 255 # Normal Highlight Text
+	SetBackgroundColor 26 25 38 255 # Sentinel Highlight Background
+	SetBorderColor 5 84 242 255 # Sentinel Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT3.mp3" 100
+	MinimapIcon 1 Blue Circle
+	PlayEffect Blue Temp
+
+#-------------------------------------------------------------------------------
+# Subsection: Sentinel Drones
+#-------------------------------------------------------------------------------
+
+# Apex Sentinel
+Show
+	Class = "Sentinel Drone"
+	BaseType = "Apex Sentinel"
+	SetTextColor 65 174 242 255 # Sentinel Text
+	SetBackgroundColor 26 25 38 255 # Sentinel Highlight Background
+	SetBorderColor 5 84 242 255 # Sentinel Border
+	SetFontSize 41 # Big
+	MinimapIcon 1 Blue Diamond
+	PlayEffect Yellow 
+
+# Pandemonium Sentinel
+Show
+	Class = "Sentinel Drone"
+	BaseType = "Pandemonium Sentinel"
+	SetTextColor 65 174 242 255 # Sentinel Text
+	SetBackgroundColor 26 25 38 255 # Sentinel Highlight Background
+	SetBorderColor 5 84 242 255 # Sentinel Border
+	SetFontSize 41 # Big
+	MinimapIcon 1 Blue Diamond
+	PlayEffect Blue 
+
+# Stalker Sentinel
+Show
+	Class = "Sentinel Drone"
+	BaseType = "Stalker Sentinel"
+	SetTextColor 65 174 242 255 # Sentinel Text
+	SetBackgroundColor 26 25 38 255 # Sentinel Highlight Background
+	SetBorderColor 5 84 242 255 # Sentinel Border
+	SetFontSize 41 # Big
+	MinimapIcon 1 Blue Diamond
+	PlayEffect Red 
 
 #===============================================================================
 # Section: Betrayal
@@ -139,7 +166,7 @@ Show
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 80 80 80 255 # Veiled Background
 	SetBorderColor 0 0 0 255 # Map Border
-	SetFontSize 45 # Yuge
+	SetFontSize 41 # Big
 	#BlockStrictness 3 Hide
 
 #===============================================================================
