@@ -5289,8 +5289,8 @@ Show
 
 # Gem Tier0
 Show
-	Class = "Skill Gems"
-	BaseType = "Item Quantity Support"
+	Class == "Support Skill Gem"
+	BaseType == "Item Quantity Support" "Awakened Enlighten Support" "Awakened Empower Support"
 	SetTextColor 26 162 155 255 # Gem Text
 	SetBackgroundColor 255 255 255 255 # Tier0 Background
 	SetBorderColor 26 162 155 255 # Gem Border
@@ -5301,8 +5301,8 @@ Show
 
 # Awakened Gem Tier0
 Show
-	Class = "Skill Gems"
-	BaseType = "Awakened Added Cold Damage Support" "Awakened Brutality Support" "Awakened Cast On Critical Strike Support" "Awakened Chain Support" "Awakened Cold Penetration Support" "Awakened Elemental Damage with Attacks Support" "Awakened Fork Support" "Awakened Generosity Support" "Awakened Greater Multiple Projectiles Support" "Awakened Hextouch Support" "Awakened Melee Physical Damage Support" "Awakened Minion Damage Support" "Awakened Multistrike Support" "Awakened Spell Cascade Support" "Awakened Spell Echo Support" "Awakened Swift Affliction Support" "Awakened Vicious Projectiles Support" "Awakened Void Manipulation Support"
+	Class == "Support Skill Gem"
+	BaseType == "Awakened Added Cold Damage Support" "Awakened Brutality Support" "Awakened Cast On Critical Strike Support" "Awakened Chain Support" "Awakened Cold Penetration Support" "Awakened Elemental Damage with Attacks Support" "Awakened Fork Support" "Awakened Generosity Support" "Awakened Greater Multiple Projectiles Support" "Awakened Hextouch Support" "Awakened Melee Physical Damage Support" "Awakened Minion Damage Support" "Awakened Multistrike Support" "Awakened Spell Cascade Support" "Awakened Spell Echo Support" "Awakened Swift Affliction Support" "Awakened Vicious Projectiles Support" "Awakened Void Manipulation Support" "Awakened Enhance Support"
 	SetTextColor 26 162 155 255 # Gem Text
 	SetBackgroundColor 255 255 255 255 # Tier0 Background
 	SetBorderColor 26 162 155 255 # Gem Border
