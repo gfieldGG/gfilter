@@ -3470,7 +3470,7 @@ Show
 # Unique Jewel
 Show
 	Rarity = Unique
-	Class == "Cobalt Jewel" "Crimson Jewel" "Ghastly Eye Jewel" "Hypnotic Eye Jewel" "Murderous Eye Jewel" "Searching Eye Jewel" "Viridian Jewel"
+	BaseType == "Cobalt Jewel" "Crimson Jewel" "Ghastly Eye Jewel" "Hypnotic Eye Jewel" "Murderous Eye Jewel" "Searching Eye Jewel" "Viridian Jewel"
 	SetTextColor 175 96 37 255 # Unique Text
 	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
 	SetFontSize 45 # Yuge
