@@ -5299,7 +5299,7 @@ Show
 
 # Gem Tier0
 Show
-	Class == "Support Skill Gem"
+	Class == "Support Skill Gems"
 	BaseType == "Item Quantity Support" "Awakened Enlighten Support" "Awakened Empower Support"
 	SetTextColor 26 162 155 255 # Gem Text
 	SetBackgroundColor 255 255 255 255 # Tier0 Background
@@ -5311,7 +5311,7 @@ Show
 
 # Awakened Gem Tier0
 Show
-	Class == "Support Skill Gem"
+	Class == "Support Skill Gems"
 	BaseType == "Awakened Added Cold Damage Support" "Awakened Brutality Support" "Awakened Cast On Critical Strike Support" "Awakened Chain Support" "Awakened Cold Penetration Support" "Awakened Elemental Damage with Attacks Support" "Awakened Fork Support" "Awakened Generosity Support" "Awakened Greater Multiple Projectiles Support" "Awakened Hextouch Support" "Awakened Melee Physical Damage Support" "Awakened Minion Damage Support" "Awakened Multistrike Support" "Awakened Spell Cascade Support" "Awakened Spell Echo Support" "Awakened Swift Affliction Support" "Awakened Vicious Projectiles Support" "Awakened Void Manipulation Support" "Awakened Enhance Support"
 	SetTextColor 26 162 155 255 # Gem Text
 	SetBackgroundColor 255 255 255 255 # Tier0 Background
@@ -5362,7 +5362,7 @@ Show
 Show
 	Corrupted = True
 	GemLevel >= 21
-	Class = "Active Skill Gems" "Support Skill Gems"
+	Class == "Active Skill Gems" "Support Skill Gems"
 	BaseType = "Vaal"
 	SetTextColor 26 162 155 255 # Gem Text
 	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
@@ -5375,7 +5375,7 @@ Show
 Show
 	Corrupted = True
 	Quality >= 12
-	Class = "Active Skill Gems" "Support Skill Gems"
+	Class == "Active Skill Gems" "Support Skill Gems"
 	BaseType = "Vaal"
 	SetTextColor 26 162 155 255 # Gem Text
 	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
@@ -5387,7 +5387,7 @@ Show
 # Gem Vaal T2
 Show
 	Corrupted = True
-	Class = "Active Skill Gems" "Support Skill Gems"
+	Class == "Active Skill Gems" "Support Skill Gems"
 	BaseType = "Vaal Discipline" "Vaal Haste" "Vaal Grace"
 	SetTextColor 26 162 155 255 # Gem Text
 	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
@@ -5399,7 +5399,7 @@ Show
 # Gem Vaal
 Show
 	Corrupted = True
-	Class = "Active Skill Gems" "Support Skill Gems"
+	Class == "Active Skill Gems" "Support Skill Gems"
 	BaseType = "Vaal"
 	SetTextColor 26 162 155 255 # Gem Text
 	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
@@ -5414,7 +5414,7 @@ Show
 # Gem lvl21
 Show
 	GemLevel >= 21
-	Class = "Active Skill Gems" "Support Skill Gems"
+	Class == "Active Skill Gems" "Support Skill Gems"
 	SetTextColor 26 162 155 255 # Gem Text
 	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
 	SetBorderColor 26 162 155 255 # Gem Border
@@ -5425,7 +5425,7 @@ Show
 # Gem Quality 20
 Show
 	Quality >= 20
-	Class = "Active Skill Gems" "Support Skill Gems"
+	Class == "Active Skill Gems" "Support Skill Gems"
 	SetTextColor 26 162 155 255 # Gem Text
 	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
 	SetBorderColor 26 162 155 255 # Gem Border
@@ -5436,7 +5436,7 @@ Show
 # Portal Gem Quality
 Show
 	Quality >= 10
-	Class = "Gem"
+	Class = "Gems"
 	BaseType = "Portal"
 	SetTextColor 26 162 155 255 # Gem Text
 	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
@@ -5447,7 +5447,7 @@ Show
 
 # Portal Gem
 Show
-	Class = "Gem"
+	Class = "Gems"
 	BaseType = "Portal"
 	SetTextColor 26 162 155 255 # Gem Text
 	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
@@ -5460,7 +5460,7 @@ Show
 # Gem Quality High
 Show
 	Quality >= 12
-	Class = "Active Skill Gems" "Support Skill Gems"
+	Class == "Active Skill Gems" "Support Skill Gems"
 	SetTextColor 26 162 155 255 # Gem Text
 	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
 	SetFontSize 41 # Big
@@ -5469,7 +5469,7 @@ Show
 # Gem Quality
 Show
 	Quality > 0
-	Class = "Active Skill Gems" "Support Skill Gems"
+	Class == "Active Skill Gems" "Support Skill Gems"
 	SetTextColor 26 162 155 255 # Gem Text
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetFontSize 41 # Big
@@ -5477,7 +5477,7 @@ Show
 
 # Gem Support
 Show
-	Class = "Support Skill Gems"
+	Class == "Support Skill Gems"
 	SetTextColor 26 162 155 255 # Gem Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
 	SetFontSize 37 # Medium
@@ -5485,7 +5485,7 @@ Show
 
 # Gem
 Show
-	Class = "Active Skill Gems"
+	Class == "Active Skill Gems"
 	SetTextColor 26 162 155 255 # Gem Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
 	SetFontSize 37 # Medium
