@@ -3215,7 +3215,7 @@ Show
 Show
 	Replica = True
 	Rarity = Unique
-	BaseType == "Blood Raiment" "Chain Belt" "Cloth Belt" "Great Crown" "Leather Belt" "Maelström Staff" "Ornate Quiver" "Relic Chambers Map" "Siege Axe" "Soldier Boots" "Synthesised Map" "Triumphant Lamellar"
+	BaseType == "Chain Belt" "Cloth Belt" "Great Crown" "Leather Belt" "Maelström Staff" "Ornate Quiver" "Paua Amulet" "Relic Chambers Map" "Soldier Boots" "Synthesised Map" "Triumphant Lamellar"
 	SetTextColor 175 96 37 255 # Unique Text
 	SetBackgroundColor 255 255 255 255 # Tier0 Background
 	SetBorderColor 242 93 39 255 # Heist Border
@@ -3228,7 +3228,7 @@ Show
 Show
 	Replica = True
 	Rarity = Unique
-	BaseType == "Assassin's Boots" "Ezomyte Burgonet" "Ezomyte Dagger" "Glorious Plate" "Granite Flask" "Great Mallet" "Lacquered Buckler" "Nailed Fist" "Ornate Mace" "Paua Amulet" "Ruby Ring" "Temple Map" "Terror Maul" "Vaal Gauntlets" "Vaal Rapier" "Void Sceptre"
+	BaseType == "Arcanist Slippers" "Assassin's Boots" "Blood Raiment" "Boot Knife" "Dunes Map" "Ebony Tower Shield" "Elegant Ringmail" "Engraved Wand" "Eternal Sword" "Ezomyte Burgonet" "Ezomyte Dagger" "Glorious Plate" "Granite Flask" "Great Mallet" "Grinning Fetish" "Heavy Belt" "Imperial Bow" "Infernal Sword" "Jade Amulet" "Lacquered Buckler" "Laminated Kite Shield" "Murder Boots" "Nailed Fist" "Ornate Mace" "Paua Ring" "Royal Skean" "Ruby Ring" "Rustic Sash" "Sapphire Ring" "Shadow Sceptre" "Short Bow" "Siege Axe" "Silk Slippers" "Sorcerer Gloves" "Spike-Point Arrow Quiver" "Stiletto" "Temple Map" "Terror Maul" "Titan Greaves" "Tornado Wand" "Vaal Claw" "Vaal Gauntlets" "Vaal Rapier" "Void Sceptre" "War Sword" "Zealot Gloves" "Zodiac Leather"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 175 96 37 255 # Unique Background
 	SetBorderColor 242 93 39 255 # Heist Border
@@ -3241,7 +3241,7 @@ Show
 Show
 	Replica = True
 	Rarity = Unique
-	BaseType == "Carnal Armour" "Cobalt Jewel" "Crimson Jewel" "Jade Amulet" "Viridian Jewel"
+	BaseType == "Carnal Armour" "Cobalt Jewel" "Crimson Jewel" "Viridian Jewel"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 175 96 37 255 # Unique Background
 	SetBorderColor 242 93 39 255 # Heist Border
@@ -3254,7 +3254,7 @@ Show
 Show
 	Replica = True
 	Rarity = Unique
-	BaseType == "Arcanist Gloves" "Arcanist Slippers" "Boot Knife" "Bronzescale Boots" "Crusader Chainmail" "Death Bow" "Decimation Bow" "Dunes Map" "Ebony Tower Shield" "Elder Sword" "Elegant Ringmail" "Engraved Wand" "Eternal Sword" "Ezomyte Axe" "Festival Mask" "Gnarled Branch" "Gold Amulet" "Great Helmet" "Grinning Fetish" "Gut Ripper" "Heavy Belt" "Imperial Bow" "Infernal Sword" "Jasper Chopper" "Laminated Kite Shield" "Murder Boots" "Paua Ring" "Royal Skean" "Rustic Sash" "Sage Wand" "Samite Gloves" "Sanctified Mana Flask" "Sapphire Ring" "Shadow Sceptre" "Shagreen Boots" "Short Bow" "Silk Slippers" "Sinner Tricorne" "Sorcerer Gloves" "Spike-Point Arrow Quiver" "Stiletto" "Sulphur Flask" "Titan Greaves" "Tornado Wand" "Unset Ring" "Vaal Claw" "War Sword" "Zealot Gloves" "Zodiac Leather"
+	BaseType == "Arcanist Gloves" "Bronzescale Boots" "Crusader Chainmail" "Death Bow" "Decimation Bow" "Elder Sword" "Ezomyte Axe" "Festival Mask" "Gnarled Branch" "Gold Amulet" "Great Helmet" "Gut Ripper" "Jasper Chopper" "Sage Wand" "Samite Gloves" "Sanctified Mana Flask" "Shagreen Boots" "Sinner Tricorne" "Sulphur Flask" "Unset Ring"
 	SetTextColor 175 96 37 255 # Unique Text
 	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
 	SetBorderColor 242 93 39 255 # Heist Border
