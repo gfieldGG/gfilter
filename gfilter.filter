@@ -1656,12 +1656,12 @@ Show
 #-------------------------------------------------------------------------------
 
 # Divination Card Trash Currency
-Show
-	Class = "Divination Card"
-	BaseType == "Her Mask" "Loyalty" "Rain of Chaos" "The Catalyst" "The Flora's Gift" "The Gambler" "The Puzzle" "The Scholar"
-	SetTextColor 14 186 255 255 # Divination Card Text
-	SetBackgroundColor 0 0 0 0 # Hidden Background
-	#BlockStrictness 1 Hide
+#Show
+#	Class = "Divination Card"
+#	BaseType == "Her Mask" "Loyalty" "Rain of Chaos" "The Catalyst" "The Flora's Gift" "The Gambler" "The Puzzle" "The Scholar"
+#	SetTextColor 14 186 255 255 # Divination Card Text
+#	SetBackgroundColor 0 0 0 0 # Hidden Background
+#	#BlockStrictness 1 Hide
 
 # Divination Card Trash
 Show
@@ -1684,6 +1684,7 @@ Show
 	Class = "Divination Card"
 	SetTextColor 14 186 255 255 # Divination Card Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
+	SetFontSize 45 # Yuge
 	#BlockStrictness 2 Hide
 
 #===============================================================================
