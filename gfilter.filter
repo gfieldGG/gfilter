@@ -1,9 +1,9 @@
-﻿#===============================================================================
+#===============================================================================
 # GFILTER
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.18.0
+# VERSION:       3.18.1
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -2477,8 +2477,21 @@ Show
 	SetTextColor 255 255 119 255
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 255 255 119 255
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT2.mp3" 100
+	MinimapIcon 1 Yellow Circle
+	PlayEffect Yellow Temp
+	#BlockStrictness 3 Disable
+
+# Divine Vessel low
+Show
+	Class = "Map Fragments"
+	BaseType = "Divine Vessel"
+	SetTextColor 255 255 119 255
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBorderColor 255 255 119 255
 	SetFontSize 41 # Big
-	#BlockStrictness 3 Hide
+	#BlockStrictness 4 Hide
 
 # Map Fragments
 Show
