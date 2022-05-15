@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.18.1
+# VERSION:       3.18.2
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -140,7 +140,7 @@ Show
 # Stalker Sentinel decorator
 Show
 	Class == "Sentinel Drone"
-	BaseType = "Apex Sentinel"
+	BaseType = "Stalker Sentinel"
 	SetTextColor 242 27 27 255
 	Continue
 
@@ -159,7 +159,6 @@ Show
 	Rarity = Magic
 	Class == "Sentinel Drone"
 	SetBackgroundColor 26 25 38 255 # Sentinel Highlight Background
-	SetBorderColor 5 84 242 255 # Sentinel Border
 	SetFontSize 41 # Big
 	PlayEffect Blue Temp
 
