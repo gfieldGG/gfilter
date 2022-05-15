@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.18.0
+# VERSION:       3.18.1
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -111,38 +111,65 @@ Show
 # Subsection: Sentinel Drones
 #-------------------------------------------------------------------------------
 
-# Apex Sentinel
+# Sentinel Drone Unique
 Show
-	Class = "Sentinel Drone"
+	Rarity = Unique
+	Class == "Sentinel Drone"
+	SetTextColor 175 96 37 255 # Unique Text
+	SetBackgroundColor 26 25 38 255 # Sentinel Highlight Background
+	SetBorderColor 5 84 242 255 # Sentinel Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT15.mp3" 100
+	MinimapIcon 1 Red Diamond
+	PlayEffect Brown 
+
+# Apex Sentinel decorator
+Show
+	Class == "Sentinel Drone"
 	BaseType = "Apex Sentinel"
-	SetTextColor 65 174 242 255 # Sentinel Text
+	SetTextColor 242 227 12 255 # Sentinel Apex Text
+	Continue
+
+# Pandemonium Sentinel decorator
+Show
+	Class == "Sentinel Drone"
+	BaseType = "Pandemonium Sentinel"
+	SetTextColor 5 17 242 255
+	Continue
+
+# Stalker Sentinel decorator
+Show
+	Class == "Sentinel Drone"
+	BaseType = "Apex Sentinel"
+	SetTextColor 242 27 27 255
+	Continue
+
+# Sentinel Drone Rare
+Show
+	Rarity = Rare
+	Class == "Sentinel Drone"
 	SetBackgroundColor 26 25 38 255 # Sentinel Highlight Background
 	SetBorderColor 5 84 242 255 # Sentinel Border
 	SetFontSize 41 # Big
 	MinimapIcon 1 Blue Diamond
 	PlayEffect Yellow 
 
-# Pandemonium Sentinel
+# Sentinel Drone Magic
 Show
-	Class = "Sentinel Drone"
-	BaseType = "Pandemonium Sentinel"
-	SetTextColor 65 174 242 255 # Sentinel Text
+	Rarity = Magic
+	Class == "Sentinel Drone"
 	SetBackgroundColor 26 25 38 255 # Sentinel Highlight Background
 	SetBorderColor 5 84 242 255 # Sentinel Border
 	SetFontSize 41 # Big
-	MinimapIcon 1 Blue Diamond
-	PlayEffect Blue 
+	PlayEffect Blue Temp
 
-# Stalker Sentinel
+# Sentinel Drone Magic
 Show
-	Class = "Sentinel Drone"
-	BaseType = "Stalker Sentinel"
-	SetTextColor 65 174 242 255 # Sentinel Text
+	Rarity = Normal
+	Class == "Sentinel Drone"
 	SetBackgroundColor 26 25 38 255 # Sentinel Highlight Background
-	SetBorderColor 5 84 242 255 # Sentinel Border
-	SetFontSize 41 # Big
-	MinimapIcon 1 Blue Diamond
-	PlayEffect Red 
+	SetFontSize 37 # Medium
+	PlayEffect White Temp
 
 #===============================================================================
 # Section: Betrayal
@@ -2477,8 +2504,21 @@ Show
 	SetTextColor 255 255 119 255
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 255 255 119 255
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT2.mp3" 100
+	MinimapIcon 1 Yellow Circle
+	PlayEffect Yellow Temp
+	#BlockStrictness 3 Disable
+
+# Divine Vessel low
+Show
+	Class = "Map Fragments"
+	BaseType = "Divine Vessel"
+	SetTextColor 255 255 119 255
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBorderColor 255 255 119 255
 	SetFontSize 41 # Big
-	#BlockStrictness 3 Hide
+	#BlockStrictness 4 Hide
 
 # Map Fragments
 Show
