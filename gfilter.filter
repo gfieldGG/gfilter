@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.18.2
+# VERSION:       3.18.3
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -316,6 +316,15 @@ Show
 	CustomAlertSound "gfT15.mp3" 100
 	MinimapIcon 1 Yellow Square
 	PlayEffect Grey 
+
+# Expedition Bases
+Show
+	Rarity <= Magic
+	BaseType == "Iron Flask" "Runic Crest" "Runic Crown" "Runic Gages" "Runic Gauntlets" "Runic Gloves" "Runic Greaves" "Runic Helm" "Runic Sabatons" "Runic Sollerets"
+	SetTextColor 255 255 255 255 # Normal Highlight Text
+	SetBackgroundColor 40 50 60 255 # Expedition Highlight Background
+	SetFontSize 41 # Big
+	#BlockStrictness 2 Hide
 
 #===============================================================================
 # Section: Ultimatum
@@ -5003,7 +5012,7 @@ Show
 	Rarity = Rare
 	BaseType == "Iron Flask" "Runic Crest" "Runic Crown" "Runic Gages" "Runic Gauntlets" "Runic Gloves" "Runic Greaves" "Runic Helm" "Runic Sabatons" "Runic Sollerets"
 	SetTextColor 255 255 119 255 # Rare Text
-	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+	SetBackgroundColor 40 50 60 255 # Expedition Highlight Background
 	SetFontSize 41 # Big
 
 # Talisman Rares
