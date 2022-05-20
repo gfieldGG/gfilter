@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.18.3
+# VERSION:       3.18.4
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -75,6 +75,7 @@ Show
 	SetBackgroundColor 5 84 252 255 # Sentinel Background
 	SetBorderColor 65 174 242 255 # Sentinel Light
 	SetFontSize 45 # Yuge
+	PlayAlertSound 2 150 # Quest
 	MinimapIcon 0 Blue Triangle
 	PlayEffect Blue 
 
@@ -103,9 +104,9 @@ Show
 	SetBackgroundColor 26 25 38 255 # Sentinel Highlight Background
 	SetBorderColor 5 84 242 255 # Sentinel Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT3.mp3" 100
+	CustomAlertSound "gfT2.mp3" 100
 	MinimapIcon 1 Blue Circle
-	PlayEffect Blue Temp
+	PlayEffect Blue 
 
 #-------------------------------------------------------------------------------
 # Subsection: Sentinel Drones
@@ -144,31 +145,40 @@ Show
 	SetTextColor 242 27 27 255
 	Continue
 
+# Sentinel low base tier
+Hide
+	AreaLevel >= 68
+	Class == "Sentinel Drone"
+	BaseType = "Rusted" "Bronze" "Brimstone" "Emberstone" "Cobalt"
+	SetBackgroundColor 26 25 38 255 # Sentinel Highlight Background
+	SetFontSize 32 # Regular
+	#BlockStrictness 2 Disable
+
 # Sentinel Drone Rare
 Show
 	Rarity = Rare
 	Class == "Sentinel Drone"
 	SetBackgroundColor 26 25 38 255 # Sentinel Highlight Background
 	SetBorderColor 5 84 242 255 # Sentinel Border
-	SetFontSize 41 # Big
-	MinimapIcon 1 Blue Diamond
-	PlayEffect Yellow 
-
-# Sentinel Drone Magic
-Show
-	Rarity = Magic
-	Class == "Sentinel Drone"
-	SetBackgroundColor 26 25 38 255 # Sentinel Highlight Background
-	SetFontSize 41 # Big
+	SetFontSize 45 # Yuge
+	MinimapIcon 2 Blue Diamond
 	PlayEffect Blue Temp
 
 # Sentinel Drone Magic
-Show
-	Rarity = Normal
+#Show
+#	Rarity = Magic
+#	Class == "Sentinel Drone"
+#	SetBackgroundColor 26 25 38 255 # Sentinel Highlight Background
+#	SetFontSize 41 # Big
+#	PlayEffect Blue Temp
+#	#BlockStrictness 3 Disable
+
+# Sentinel Drone Junk
+Hide
 	Class == "Sentinel Drone"
 	SetBackgroundColor 26 25 38 255 # Sentinel Highlight Background
 	SetFontSize 37 # Medium
-	PlayEffect White Temp
+	#BlockStrictness 1 Hide
 
 #===============================================================================
 # Section: Betrayal
@@ -278,8 +288,8 @@ Show
 
 # Expedition Reroll Currency T2
 Show
-	Class = "Stackable Currency"
-	BaseType = "Exotic Coinage" "Burial Medallion"
+	Class == "Stackable Currency"
+	BaseType == "Exotic Coinage" "Burial Medallion" "Astragali" "Scrap Metal"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 40 50 60 255 # Expedition Highlight Background
 	SetBorderColor 200 186 153 255 # Currency Border
@@ -289,12 +299,12 @@ Show
 	PlayEffect Yellow 
 
 # Expedition Reroll Currency
-Show
-	Class = "Stackable Currency"
-	BaseType = "Scrap Metal" "Exotic Coinage" "Astragali" "Burial Medallion"
-	SetTextColor 200 186 153 255 # Currency Text
-	SetBackgroundColor 40 50 60 255 # Expedition Highlight Background
-	SetFontSize 45 # Yuge
+#Show
+#	Class == "Stackable Currency"
+#	BaseType == "Scrap Metal" "Exotic Coinage" "Astragali" "Burial Medallion"
+#	SetTextColor 200 186 153 255 # Currency Text
+#	SetBackgroundColor 40 50 60 255 # Expedition Highlight Background
+#	SetFontSize 45 # Yuge
 
 # Expedition Artifact
 Show
@@ -324,7 +334,7 @@ Hide
 	SetTextColor 255 255 255 255 # Normal Highlight Text
 	SetBackgroundColor 40 50 60 255 # Expedition Highlight Background
 	SetFontSize 41 # Big
-	#BlockStrictness 2 Hide
+	#BlockStrictness 3 Hide
 
 #===============================================================================
 # Section: Ultimatum
