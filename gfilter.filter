@@ -1,4 +1,4 @@
-﻿#===============================================================================
+#===============================================================================
 # GFILTER
 #===============================================================================
 #
@@ -2381,7 +2381,7 @@ Show
 # Shaper Guardian Fragments
 Show
 	Class = "Map Fragments"
-	BaseType = "Fragment of the Chimera" "Fragment of the Hydra" "Fragment of the Minotaur" "Fragment of the Phoenix"
+	BaseType == "Fragment of the Chimera" "Fragment of the Hydra" "Fragment of the Minotaur" "Fragment of the Phoenix"
 	SetTextColor 0 38 66 255
 	SetBackgroundColor 255 233 200 255 # Atlas Background
 	SetBorderColor 0 38 66 255
@@ -2393,7 +2393,7 @@ Show
 # Elder Guardian Fragments
 Show
 	Class = "Map Fragments"
-	BaseType = "Fragment of Enslavement" "Fragment of Eradication" "Fragment of Constriction" "Fragment of Purification"
+	BaseType == "Fragment of Enslavement" "Fragment of Eradication" "Fragment of Constriction" "Fragment of Purification"
 	SetTextColor 50 0 0 255
 	SetBackgroundColor 180 180 180 255
 	SetBorderColor 50 0 50 255
@@ -2405,7 +2405,7 @@ Show
 # Uber Elder Fragments
 Show
 	Class = "Map Fragments"
-	BaseType = "Fragment of Emptiness" "Fragment of Shape" "Fragment of Terror" "Fragment of Knowledge"
+	BaseType == "Fragment of Emptiness" "Fragment of Shape" "Fragment of Terror" "Fragment of Knowledge"
 	SetTextColor 50 0 0 255
 	SetBackgroundColor 180 180 180 255
 	SetBorderColor 50 0 50 255
@@ -2416,7 +2416,8 @@ Show
 
 # Offering to the Goddess
 Show
-	BaseType = "Offering to the Goddess"
+	Class = "Map Fragments"
+	BaseType == "Offering to the Goddess"
 	SetTextColor 80 191 108 255 # Ascendancy Text
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 80 191 108 255 # Ascendancy Border
@@ -2425,10 +2426,34 @@ Show
 	MinimapIcon 1 Yellow Diamond
 	PlayEffect Green Temp
 
+# Harvest Offering
+Show
+	Class = "Map Fragments"
+	BaseType == "Tribute to the Goddess" "Dedication to the Goddess"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 80 191 108 255 # Ascendancy Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT2.mp3" 200
+	MinimapIcon 1 Yellow Diamond
+	PlayEffect Green Temp
+
+# Harvest Offering T1
+Show
+	Class = "Map Fragments"
+	BaseType == "Gift to the Goddess"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 80 191 108 255 # Ascendancy Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT15.mp3" 200
+	MinimapIcon 0 Red Diamond
+	PlayEffect Red 
+
 # Divine Vessel
 Show
 	Class = "Map Fragments"
-	BaseType = "Divine Vessel"
+	BaseType == "Divine Vessel"
 	SetTextColor 255 255 119 255
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 255 255 119 255
@@ -2441,7 +2466,7 @@ Show
 # Divine Vessel low
 Show
 	Class = "Map Fragments"
-	BaseType = "Divine Vessel"
+	BaseType == "Divine Vessel"
 	SetTextColor 255 255 119 255
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 255 255 119 255
