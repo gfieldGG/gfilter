@@ -65,6 +65,22 @@ Show
 	#BlockStrictness 3 Disable
 
 #===============================================================================
+# Section: Lake of Kalandra
+#===============================================================================
+
+# Kalandra Tablet
+Show
+	Class = "Misc Map Items"
+	BaseType = "Mirrored Tablet"
+	SetTextColor 21 38 37 255 # Kalandra Dark Text
+	SetBackgroundColor 176 217 213 240 # Kalandra Background
+	SetBorderColor 21 38 37 255 # Kalandra Dark Border
+	SetFontSize 45 # Yuge
+	PlayAlertSound 2 150 # Quest
+	MinimapIcon 0 Red Diamond
+	PlayEffect White 
+
+#===============================================================================
 # Section: Sentinel
 #===============================================================================
 
