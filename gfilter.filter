@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.18.4
+# VERSION:       3.19.0
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -68,30 +68,6 @@ Show
 # Section: Sentinel
 #===============================================================================
 
-Show
-	Class = "Quest"
-	BaseType == "Sentinel Controller"
-	SetTextColor 0 0 0 255 # Tier1 Text
-	SetBackgroundColor 5 84 252 255 # Sentinel Background
-	SetBorderColor 65 174 242 255 # Sentinel Light
-	SetFontSize 45 # Yuge
-	PlayAlertSound 2 150 # Quest
-	MinimapIcon 0 Blue Triangle
-	PlayEffect Blue 
-
-#-------------------------------------------------------------------------------
-# Subsection: Power Cores
-#-------------------------------------------------------------------------------
-
-# Power Core
-Show
-	Class == "Stackable Currency"
-	BaseType = "Power Core"
-	SetTextColor 200 186 153 255 # Currency Text
-	SetBackgroundColor 26 25 38 255 # Sentinel Highlight Background
-	SetBorderColor 5 84 242 255 # Sentinel Border
-	SetFontSize 41 # Big
-
 #-------------------------------------------------------------------------------
 # Subsection: Recombinators
 #-------------------------------------------------------------------------------
@@ -107,78 +83,6 @@ Show
 	CustomAlertSound "gfT2.mp3" 100
 	MinimapIcon 1 Blue Circle
 	PlayEffect Blue 
-
-#-------------------------------------------------------------------------------
-# Subsection: Sentinel Drones
-#-------------------------------------------------------------------------------
-
-# Sentinel Drone Unique
-Show
-	Rarity = Unique
-	Class == "Sentinel Drone"
-	SetTextColor 175 96 37 255 # Unique Text
-	SetBackgroundColor 26 25 38 255 # Sentinel Highlight Background
-	SetBorderColor 5 84 242 255 # Sentinel Border
-	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3" 100
-	MinimapIcon 1 Red Diamond
-	PlayEffect Brown 
-
-# Apex Sentinel decorator
-Show
-	Class == "Sentinel Drone"
-	BaseType = "Apex Sentinel"
-	SetTextColor 242 227 12 255 # Sentinel Apex Text
-	Continue
-
-# Pandemonium Sentinel decorator
-Show
-	Class == "Sentinel Drone"
-	BaseType = "Pandemonium Sentinel"
-	SetTextColor 5 17 242 255
-	Continue
-
-# Stalker Sentinel decorator
-Show
-	Class == "Sentinel Drone"
-	BaseType = "Stalker Sentinel"
-	SetTextColor 242 27 27 255
-	Continue
-
-# Sentinel low base tier
-#Hide
-#	AreaLevel >= 68
-#	Class == "Sentinel Drone"
-#	BaseType = "Rusted" "Bronze" "Brimstone" "Emberstone" "Cobalt"
-#	SetBackgroundColor 26 25 38 255 # Sentinel Highlight Background
-#	SetFontSize 32 # Regular
-#	#BlockStrictness 2 Disable
-
-# Sentinel Drone Rare
-Show
-	Rarity = Rare
-	Class == "Sentinel Drone"
-	SetBackgroundColor 26 25 38 255 # Sentinel Highlight Background
-	SetBorderColor 5 84 242 255 # Sentinel Border
-	SetFontSize 45 # Yuge
-	MinimapIcon 2 Blue Diamond
-	PlayEffect Blue Temp
-
-# Sentinel Drone Magic
-Show
-	Rarity = Magic
-	Class == "Sentinel Drone"
-	SetBackgroundColor 26 25 38 255 # Sentinel Highlight Background
-	SetFontSize 41 # Big
-	PlayEffect Blue Temp
-	#BlockStrictness 3 Disable
-
-# Sentinel Drone Junk
-Show
-	Class == "Sentinel Drone"
-	SetBackgroundColor 26 25 38 255 # Sentinel Highlight Background
-	SetFontSize 37 # Medium
-	#BlockStrictness 1 Hide
 
 #===============================================================================
 # Section: Betrayal
