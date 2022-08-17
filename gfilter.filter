@@ -479,7 +479,7 @@ Show
 	SetBorderColor 0 0 0 255 # Map Border
 	SetFontSize 45 # Yuge
 	PlayAlertSound 4 150 # Map
-	MinimapIcon 1 Blue Diamond
+	MinimapIcon 0 Blue Diamond
 	PlayEffect Blue 
 
 Show
@@ -492,29 +492,47 @@ Show
 	CustomAlertSound "gfT15.mp3" 200
 	MinimapIcon 0 Red Diamond
 
-# Harvest Offering T1
-Show
-	Class = "Map Fragments"
-	BaseType = "Gift to the Goddess"
-	SetTextColor 0 0 0 255 # Tier1 Text
-	SetBackgroundColor 80 191 108 255 # Ascendancy Background
-	SetBorderColor 255 255 255 255 # Tier1 Border
-	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3" 200
-	MinimapIcon 0 Red Diamond
-	PlayEffect Red 
+#-------------------------------------------------------------------------------
+# Subsection: Lifeforce
+#-------------------------------------------------------------------------------
 
-# Harvest Offering
+# Primal Lifeforce
 Show
-	Class = "Map Fragments"
-	BaseType = "Tribute to the Goddess" "Dedication to the Goddess"
-	SetTextColor 0 0 0 255 # Tier1 Text
-	SetBackgroundColor 80 191 108 255 # Ascendancy Background
-	SetBorderColor 255 255 255 255 # Tier1 Border
+	Class = "Stackable Currency"
+	BaseType == "Primal Crystallised Lifeforce"
+	SetTextColor 78 203 217 255 # Primal Text
+	SetBackgroundColor 0 41 41 255 # Primal Highlight Background
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3" 200
-	MinimapIcon 1 Yellow Diamond
-	PlayEffect Green Temp
+	MinimapIcon 2 White Raindrop
+
+# Vivid Lifeforce
+Show
+	Class = "Stackable Currency"
+	BaseType == "Vivid Crystallised Lifeforce"
+	SetTextColor 242 216 87 255 # Vivid Text
+	SetBackgroundColor 41 41 0 255 # Vivid Highlight Background
+	SetFontSize 45 # Yuge
+	MinimapIcon 2 White Raindrop
+
+# Wild Lifeforce
+Show
+	Class = "Stackable Currency"
+	BaseType == "Wild Crystallised Lifeforce"
+	SetTextColor 201 82 217 255 # Wild Text
+	SetBackgroundColor 41 0 41 255 # Wild Highlight Background
+	SetFontSize 45 # Yuge
+	MinimapIcon 2 White Raindrop
+
+# Sacred Lifeforce
+Show
+	Class = "Stackable Currency"
+	BaseType == "Sacred Crystallised Lifeforce"
+	SetTextColor 67 162 230 255 # Harvest Text
+	SetBackgroundColor 25 35 50 255 # Harvest Highlight Background
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT2.mp3" 150
+	MinimapIcon 1 Yellow Raindrop
+	PlayEffect Blue 
 
 #-------------------------------------------------------------------------------
 # Subsection: Flowers
@@ -564,7 +582,7 @@ Show
 #Show
 #	Class = "Harvest Seed"
 #	BaseType = "Primal"
-#	SetTextColor 0 252 252 255 # Primal Text
+#	SetTextColor 78 203 217 255 # Primal Text
 #	SetBackgroundColor 0 41 41 255 # Primal Highlight Background
 #	SetBorderColor 0 252 252 255 # Primal Border
 #	PlayEffect Cyan Temp
@@ -574,7 +592,7 @@ Show
 #Show
 #	Class = "Harvest Seed"
 #	BaseType = "Vivid"
-#	SetTextColor 252 252 0 255 # Vivid Text
+#	SetTextColor 242 216 87 255 # Vivid Text
 #	SetBackgroundColor 41 41 0 255 # Vivid Highlight Background
 #	SetBorderColor 252 252 0 255 # Vivid Border
 #	PlayEffect Yellow Temp
@@ -584,7 +602,7 @@ Show
 #Show
 #	Class = "Harvest Seed"
 #	BaseType = "Wild"
-#	SetTextColor 252 0 252 255 # Wild Text
+#	SetTextColor 201 82 217 255 # Wild Text
 #	SetBackgroundColor 41 0 41 255 # Wild Highlight Background
 #	SetBorderColor 252 0 252 255 # Wild Border
 #	PlayEffect Pink Temp
