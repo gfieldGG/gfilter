@@ -2502,6 +2502,21 @@ Show
 	MinimapIcon 0 Red Diamond
 
 #===============================================================================
+# Section: Memory
+#===============================================================================
+
+Show
+	Class = "Memory"
+	BaseType = "Memory"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 255 233 200 255 # Atlas Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT15.mp3" 100
+	MinimapIcon 0 Red Kite
+	PlayEffect Red 
+
+#===============================================================================
 # Section: General
 #===============================================================================
 
@@ -6085,4 +6100,3 @@ Show
 	SetFontSize 45 # Yuge
 	PlayAlertSound 15 300 # wat
 	MinimapIcon 0 Red Star
-
