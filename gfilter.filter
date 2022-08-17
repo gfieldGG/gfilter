@@ -266,7 +266,7 @@ Show
 	BaseType = "Inscribed Ultimatum"
 	SetTextColor 200 200 200 255 # Normal Text
 	SetBackgroundColor 40 4 0 255 # Breach Red Highlight Background
-	SetBorderColor 182 20 0 255 # Breach Border
+	SetBorderColor 166 13 26 255 # Ultimatum Border
 	SetFontSize 41 # Big
 	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 1 Yellow Circle
@@ -2500,6 +2500,17 @@ Show
 #-------------------------------------------------------------------------------
 # Subsection: Map Unique
 #-------------------------------------------------------------------------------
+
+Show
+	Class = "Maps"
+	BaseType = "Engraved Ultimatum"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 175 96 37 255 # Unique Background
+	SetBorderColor 166 13 26 255 # Ultimatum Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT15.mp3" 100
+	MinimapIcon 0 Red Square
+	PlayEffect Red 
 
 # Map Unique Tier1
 Show
