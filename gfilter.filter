@@ -809,7 +809,7 @@ Show
 
 # T1 Oil
 Show
-	BaseType = "Golden Oil" "Tainted Oil"
+	BaseType == "Golden Oil" "Tainted Oil" "Reflective Oil"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 200 200 75 255 # Blight Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
