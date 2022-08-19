@@ -3198,11 +3198,11 @@ Show
 # Subsection: Replica
 #-------------------------------------------------------------------------------
 
-# Replica Unique Tier1
+# Replica Unique Tier1 $type->uniques->replicas $tier->t1
 Show
 	Replica = True
 	Rarity = Unique
-	BaseType == "Blood Raiment" "Chain Belt" "Cloth Belt" "Great Crown" "Leather Belt" "Maelström Staff" "Ornate Quiver" "Relic Chambers Map" "Siege Axe" "Soldier Boots" "Synthesised Map" "Triumphant Lamellar"
+	BaseType == "Chain Belt" "Cloth Belt" "Great Crown" "Leather Belt" "Ornate Quiver" "Relic Chambers Map" "Soldier Boots" "Synthesised Map" "Triumphant Lamellar"
 	SetTextColor 175 96 37 255 # Unique Text
 	SetBackgroundColor 255 255 255 255 # Tier0 Background
 	SetBorderColor 242 93 39 255 # Heist Border
@@ -3211,11 +3211,11 @@ Show
 	MinimapIcon 0 Red Hexagon
 	PlayEffect Brown 
 
-# Replica Unique Tier2
+# Replica Unique Tier2 $type->uniques->replicas $tier->t2
 Show
 	Replica = True
 	Rarity = Unique
-	BaseType == "Assassin's Boots" "Ezomyte Burgonet" "Ezomyte Dagger" "Glorious Plate" "Granite Flask" "Great Mallet" "Lacquered Buckler" "Nailed Fist" "Ornate Mace" "Paua Amulet" "Ruby Ring" "Temple Map" "Terror Maul" "Vaal Gauntlets" "Vaal Rapier" "Void Sceptre"
+	BaseType == "Arcanist Gloves" "Arcanist Slippers" "Assassin's Boots" "Blood Raiment" "Boot Knife" "Bronzescale Boots" "Carnal Armour" "Death Bow" "Decimation Bow" "Dunes Map" "Ebony Tower Shield" "Elegant Ringmail" "Engraved Wand" "Eternal Sword" "Ezomyte Axe" "Ezomyte Burgonet" "Ezomyte Dagger" "Glorious Plate" "Gnarled Branch" "Gold Amulet" "Granite Flask" "Great Helmet" "Great Mallet" "Grinning Fetish" "Gut Ripper" "Heavy Belt" "Imperial Bow" "Jade Amulet" "Jasper Chopper" "Lacquered Buckler" "Laminated Kite Shield" "Maelström Staff" "Murder Boots" "Nailed Fist" "Ornate Mace" "Paua Amulet" "Paua Ring" "Ruby Ring" "Rustic Sash" "Samite Gloves" "Sanctified Mana Flask" "Sapphire Ring" "Shadow Sceptre" "Shagreen Boots" "Short Bow" "Siege Axe" "Silk Slippers" "Sinner Tricorne" "Sorcerer Gloves" "Spike-Point Arrow Quiver" "Sulphur Flask" "Temple Map" "Terror Maul" "Titan Greaves" "Tornado Wand" "Unset Ring" "Vaal Claw" "Vaal Gauntlets" "Vaal Rapier" "Void Sceptre" "War Sword" "Zealot Gloves" "Zodiac Leather"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 175 96 37 255 # Unique Background
 	SetBorderColor 242 93 39 255 # Heist Border
@@ -3224,11 +3224,11 @@ Show
 	MinimapIcon 0 Red Hexagon
 	PlayEffect Brown 
 
-# Replica Unique Tier?
+# Replica Unique Tier? $type->uniques->replicas $tier->multi
 Show
 	Replica = True
 	Rarity = Unique
-	BaseType == "Carnal Armour" "Cobalt Jewel" "Crimson Jewel" "Jade Amulet" "Viridian Jewel"
+	BaseType == "Cobalt Jewel" "Crimson Jewel" "Viridian Jewel"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 175 96 37 255 # Unique Background
 	SetBorderColor 242 93 39 255 # Heist Border
@@ -3237,11 +3237,11 @@ Show
 	MinimapIcon 1 Red Hexagon
 	PlayEffect Brown 
 
-# Replica Unique Tier3
+# Replica Unique Tier3 $type->uniques->replicas $tier->t3
 Show
 	Replica = True
 	Rarity = Unique
-	BaseType == "Arcanist Gloves" "Arcanist Slippers" "Boot Knife" "Bronzescale Boots" "Crusader Chainmail" "Death Bow" "Decimation Bow" "Dunes Map" "Ebony Tower Shield" "Elder Sword" "Elegant Ringmail" "Engraved Wand" "Eternal Sword" "Ezomyte Axe" "Festival Mask" "Gnarled Branch" "Gold Amulet" "Great Helmet" "Grinning Fetish" "Gut Ripper" "Heavy Belt" "Imperial Bow" "Infernal Sword" "Jasper Chopper" "Laminated Kite Shield" "Murder Boots" "Paua Ring" "Royal Skean" "Rustic Sash" "Sage Wand" "Samite Gloves" "Sanctified Mana Flask" "Sapphire Ring" "Shadow Sceptre" "Shagreen Boots" "Short Bow" "Silk Slippers" "Sinner Tricorne" "Sorcerer Gloves" "Spike-Point Arrow Quiver" "Stiletto" "Sulphur Flask" "Titan Greaves" "Tornado Wand" "Unset Ring" "Vaal Claw" "War Sword" "Zealot Gloves" "Zodiac Leather"
+	BaseType == "Crusader Chainmail" "Elder Sword" "Festival Mask" "Infernal Sword" "Royal Skean" "Sage Wand" "Stiletto"
 	SetTextColor 175 96 37 255 # Unique Text
 	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
 	SetBorderColor 242 93 39 255 # Heist Border
