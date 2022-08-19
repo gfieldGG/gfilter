@@ -4965,7 +4965,7 @@ Show # Sceptre Levelling | Disable
 # Subsection: Breach Rings
 #-------------------------------------------------------------------------------
 
-# Breach Ring ilvl82
+# Breach Ring ilvl82 $type->rare->exotic->breachrings $tier->high
 Show
 	ItemLevel >= 82
 	Class = "Rings"
@@ -4975,7 +4975,7 @@ Show
 	SetBorderColor 182 20 0 255 # Breach Border
 	SetFontSize 41 # Big
 
-# Breach Ring
+# Breach Ring $type->rare->exotic->breachrings $tier->any
 Show
 	Class = "Rings"
 	BaseType = "Breach Ring"
@@ -4989,80 +4989,63 @@ Show
 # Subsection: Talismans
 #-------------------------------------------------------------------------------
 
-# Talisman Attack T1
-Show
-	AnyEnchantment = True
-	ItemLevel >= 68
-	Rarity = Rare
-	Class = "Amulets"
-	BaseType = "Avian Twins Talisman" "Fangjaw Talisman" "Hexclaw Talisman" "Longtooth Talisman" "Mandible Talisman" "Rotfeather Talisman" "Spinefuse Talisman" "Three Rat Talisman" "Wereclaw Talisman" "Writhing Talisman"
-	HasExplicitMod = "Athlete's" "Virile" "Dazzling" "Resplendent"
-	HasExplicitMod >=3 "of Tzteosh" "of the Magma" "of Ephij" "of the Lightning" "of Haast" "of the Ice" "of Bameth" "of Exile" "of the Godslayer" "of the Gods" "of the Titan" "of the Blur" "of the Wind" "of the Phantom" "of the Polymath" "of the Genius" "of the Virtuoso" "of the Ranger" "of the Marksman" "Devastating" "Overpowering" "Unleashed" "Cremating" "Entombing" "Electrocuting" "Flaring" "Tempered" "of the Span" "of the Rainbow" "of the Multiverse" "of the Infinite" "of Incision" "of Penetrating" "of Destruction" "of Ferocity"
-	SetTextColor 0 0 0 255 # Tier1 Text
-	SetBackgroundColor 255 255 119 255 # Rare Background
-	SetBorderColor 50 230 100 255 # Talisman Border
-	SetFontSize 45 # Yuge
-	PlayAlertSound 7 300 # Tier1.5
-	MinimapIcon 1 Yellow Hexagon
-
-# Talisman Caster T1
-Show
-	AnyEnchantment = True
-	ItemLevel >= 68
-	Rarity = Rare
-	Class = "Amulets"
-	BaseType = "Avian Twins Talisman" "Bonespire Talisman" "Chrysalis Talisman" "Clutching Talisman" "Fangjaw Talisman" "Hexclaw Talisman" "Longtooth Talisman" "Mandible Talisman" "Rotfeather Talisman" "Spinefuse Talisman" "Three Rat Talisman" "Wereclaw Talisman"
-	HasExplicitMod = "Athlete's" "Virile" "Dazzling" "Resplendent"
-	HasExplicitMod >=3 "of Tzteosh" "of the Magma" "of Ephij" "of the Lightning" "of Haast" "of the Ice" "of Bameth" "of Exile" "of the Godslayer" "of the Gods" "of the Titan" "of the Blur" "of the Wind" "of the Phantom" "of the Polymath" "of the Genius" "of the Virtuoso" "of Expertise" "of Nimbleness" "Zaffre" "Blue" "of Nirvana" "of Euphoria" "Wizard's" "Thaumaturgist's" "of Immolation" "of Flames" "of Floe" "of Rime" "of Discharge" "of Voltage" "of the Span" "of the Rainbow" "of the Multiverse" "of the Infinite" "of Incision" "of Penetrating" "of Destruction" "of Ferocity" "Unassailable" "Indomitable"
-	SetTextColor 0 0 0 255 # Tier1 Text
-	SetBackgroundColor 255 255 119 255 # Rare Background
-	SetBorderColor 50 230 100 255 # Talisman Border
-	SetFontSize 45 # Yuge
-	PlayAlertSound 7 300 # Tier1.5
-	MinimapIcon 1 Yellow Hexagon
-
-# Talisman Attack T2
+# Talisman Attack T1 $type->rare->exotic->talisman $tier->t1attacktalisman
 Show
 	AnyEnchantment = True
 	ItemLevel >= 68
 	Rarity = Rare
 	Class = "Amulets"
 	BaseType = "Ashscale Talisman" "Avian Twins Talisman" "Breakrib Talisman" "Deadhand Talisman" "Deep One Talisman" "Fangjaw Talisman" "Hexclaw Talisman" "Lone Antler Talisman" "Longtooth Talisman" "Mandible Talisman" "Rotfeather Talisman" "Spinefuse Talisman" "Three Rat Talisman" "Wereclaw Talisman" "Writhing Talisman"
-	HasExplicitMod = "Athlete's" "Virile" "Rotund" "Dazzling" "Resplendent"
-	HasExplicitMod >=3 "of Tzteosh" "of the Magma" "of the Volcano" "of Ephij" "of the Lightning" "of the Maelstrom" "of Haast" "of the Ice" "of the Polar Bear" "of Bameth" "of Exile" "of Expulsion" "of the Godslayer" "of the Gods" "of the Titan" "of the Leviathan" "of the Blur" "of the Wind" "of the Phantom" "of the Jaguar" "of the Polymath" "of the Genius" "of the Virtuoso" "of the Savant" "of the Ranger" "of the Marksman" "of the Sniper" "Devastating" "Overpowering" "Unleashed" "Empowering" "Cremating" "Blasting" "Entombing" "Polar" "Electrocuting" "Discharging" "Flaring" "Tempered" "Razor-sharp" "of the Span" "of the Rainbow" "of Variegation" "of the Multiverse" "of the Infinite" "of the Universe" "of Incision" "of Penetrating" "of Puncturing" "of Destruction" "of Ferocity" "of Fury"
-	SetTextColor 255 255 119 255 # Rare Text
-	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+	HasExplicitMod = "of the Essence" "Essences" "Veiled" "of the Veil" "Athlete's" "Virile" "Rotund" "Robust" "Dazzling" "Resplendent" "Incandescent" "of the Underground" "Subterranean" "of Puhuarte" "Guatelitzi's" "Exalter's" "Vulcanist's" "Rimedweller's" "Stormbrewer's" "Behemoth's" "Provocateur's" "of Destruction" "of Ferocity" "of Dissolution" "of Melting" "of the Multiverse" "of the Infinite" "Unassailable" "Indomitable"
+	HasExplicitMod >=4 "of the Essence" "Essences" "Veiled" "of the Veil" "of the Underground" "Subterranean" "of Puhuarte" "Guatelitzi's" "Exalter's" "Vulcanist's" "Rimedweller's" "Stormbrewer's" "Behemoth's" "Provocateur's" "of the Godslayer" "of the Gods" "of the Titan" "of the Leviathan" "of the Blur" "of the Wind" "of the Phantom" "of the Jaguar" "of the Polymath" "of the Genius" "of the Virtuoso" "of the Savant" "of Bameth" "of Exile" "of Expulsion" "of Eviction" "of Tzteosh" "of the Magma" "of the Volcano" "of the Furnace" "of Haast" "of the Ice" "of the Polar Bear" "of the Walrus" "of Ephij" "of the Lightning" "of the Maelstrom" "of the Tempest" "of the Span" "of the Rainbow" "of Variegation" "of the Multiverse" "of the Infinite" "of the Universe" "of Nirvana" "of Euphoria" "Impregnable" "Vaporous" "Unassailable" "Athlete's" "Virile" "Rotund" "Ultramarine" "Dazzling" "Resplendent" "of Destruction" "of Ferocity" "of Fury" "of Rage" "of Incision" "of Penetrating" "Cremating" "Entombing" "Electrocuting" "of the Ranger" "of the Marksman" "Devastating" "Overpowering" "Unleashed" "Flaring" "Tempered"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 255 255 119 255 # Rare Background
 	SetBorderColor 50 230 100 255 # Talisman Border
-	SetFontSize 41 # Big
-	PlayAlertSound 3 200 # Tier2
+	SetFontSize 45 # Yuge
+	PlayAlertSound 7 300 # Tier1.5
 	MinimapIcon 1 Yellow Hexagon
 
-# Talisman Caster T2
+# Talisman Caster T1 $type->rare->exotic->talisman $tier->t1castertalisman
 Show
 	AnyEnchantment = True
 	ItemLevel >= 68
 	Rarity = Rare
 	Class = "Amulets"
 	BaseType = "Ashscale Talisman" "Avian Twins Talisman" "Bonespire Talisman" "Breakrib Talisman" "Chrysalis Talisman" "Clutching Talisman" "Deadhand Talisman" "Deep One Talisman" "Fangjaw Talisman" "Hexclaw Talisman" "Lone Antler Talisman" "Longtooth Talisman" "Mandible Talisman" "Rotfeather Talisman" "Spinefuse Talisman" "Three Rat Talisman" "Wereclaw Talisman"
-	HasExplicitMod = "Athlete's" "Virile" "Rotund" "Dazzling" "Resplendent"
-	HasExplicitMod >=3 "of Tzteosh" "of the Magma" "of the Volcano" "of Ephij" "of the Lightning" "of the Maelstrom" "of Haast" "of the Ice" "of the Polar Bear" "of Bameth" "of Exile" "of Expulsion" "of the Godslayer" "of the Gods" "of the Titan" "of the Leviathan" "of the Blur" "of the Wind" "of the Phantom" "of the Jaguar" "of the Polymath" "of the Genius" "of the Virtuoso" "of the Savant" "of Expertise" "of Nimbleness" "Zaffre" "Blue" "Mazarine" "of Nirvana" "of Euphoria" "of Bliss" "Wizard's" "Thaumaturgist's" "of Immolation" "of Flames" "of Cinders" "of Floe" "of Rime" "of Ice" "of Discharge" "of Voltage" "of Electricity" "of the Span" "of the Rainbow" "of Variegation" "of the Multiverse" "of the Infinite" "of the Universe" "of Incision" "of Penetrating" "of Puncturing" "of Destruction" "of Ferocity" "of Fury" "Unassailable" "Indomitable"
-	SetTextColor 255 255 119 255 # Rare Text
-	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+	HasExplicitMod = "of the Essence" "Essences" "Veiled" "of the Veil" "Athlete's" "Virile" "Rotund" "Robust" "Dazzling" "Resplendent" "Incandescent" "of the Underground" "Subterranean" "of Puhuarte" "Guatelitzi's" "Exalter's" "Vulcanist's" "Rimedweller's" "Stormbrewer's" "Behemoth's" "Provocateur's" "of Destruction" "of Ferocity" "of Dissolution" "of Melting" "of the Multiverse" "of the Infinite" "Unassailable" "Indomitable"
+	HasExplicitMod >=4 "of the Essence" "Essences" "Veiled" "of the Veil" "of the Underground" "Subterranean" "of Puhuarte" "Guatelitzi's" "Exalter's" "Vulcanist's" "Rimedweller's" "Stormbrewer's" "Behemoth's" "Provocateur's" "of the Godslayer" "of the Gods" "of the Titan" "of the Leviathan" "of the Blur" "of the Wind" "of the Phantom" "of the Jaguar" "of the Polymath" "of the Genius" "of the Virtuoso" "of the Savant" "of Bameth" "of Exile" "of Expulsion" "of Eviction" "of Tzteosh" "of the Magma" "of the Volcano" "of the Furnace" "of Haast" "of the Ice" "of the Polar Bear" "of the Walrus" "of Ephij" "of the Lightning" "of the Maelstrom" "of the Tempest" "of the Span" "of the Rainbow" "of Variegation" "of the Multiverse" "of the Infinite" "of the Universe" "of Nirvana" "of Euphoria" "Impregnable" "Vaporous" "Unassailable" "Athlete's" "Virile" "Rotund" "Ultramarine" "Dazzling" "Resplendent" "of Legerdemain" "of Expertise" "Wizard's" "Thaumaturgist's" "Zaffre" "of Immolation" "of Flames" "of Floe" "of Rime" "of Discharge" "of Voltage" "of Dissolution" "of Melting" "of Destruction" "of Ferocity" "of Fury" "of Incision" "of Penetrating"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 255 255 119 255 # Rare Background
 	SetBorderColor 50 230 100 255 # Talisman Border
-	SetFontSize 41 # Big
-	PlayAlertSound 3 200 # Tier2
+	SetFontSize 45 # Yuge
+	PlayAlertSound 7 300 # Tier1.5
 	MinimapIcon 1 Yellow Hexagon
 
-# Talisman Stats
+# Talisman DoT T1 $type->rare->exotic->talisman $tier->t1dottalisman
+Show
+	AnyEnchantment = True
+	ItemLevel >= 68
+	Rarity = Rare
+	Class = "Amulets"
+	BaseType = "Ashscale Talisman" "Avian Twins Talisman" "Bonespire Talisman" "Breakrib Talisman" "Chrysalis Talisman" "Clutching Talisman" "Deadhand Talisman" "Deep One Talisman" "Fangjaw Talisman" "Hexclaw Talisman" "Lone Antler Talisman" "Longtooth Talisman" "Mandible Talisman" "Rotfeather Talisman" "Spinefuse Talisman" "Three Rat Talisman" "Wereclaw Talisman"
+	HasExplicitMod = "of the Essence" "Essences" "Veiled" "of the Veil" "Athlete's" "Virile" "Rotund" "Robust" "Dazzling" "Resplendent" "Incandescent" "of the Underground" "Subterranean" "of Puhuarte" "Guatelitzi's" "Exalter's" "Vulcanist's" "Rimedweller's" "Stormbrewer's" "Behemoth's" "Provocateur's" "of Destruction" "of Ferocity" "of Dissolution" "of Melting" "of the Multiverse" "of the Infinite" "Unassailable" "Indomitable"
+	HasExplicitMod >=4 "of the Essence" "Essences" "Veiled" "of the Veil" "of the Underground" "Subterranean" "of Puhuarte" "Guatelitzi's" "Exalter's" "Vulcanist's" "Rimedweller's" "Stormbrewer's" "Behemoth's" "Provocateur's" "of the Godslayer" "of the Gods" "of the Titan" "of the Leviathan" "of the Blur" "of the Wind" "of the Phantom" "of the Jaguar" "of the Polymath" "of the Genius" "of the Virtuoso" "of the Savant" "of Bameth" "of Exile" "of Expulsion" "of Eviction" "of Tzteosh" "of the Magma" "of the Volcano" "of the Furnace" "of Haast" "of the Ice" "of the Polar Bear" "of the Walrus" "of Ephij" "of the Lightning" "of the Maelstrom" "of the Tempest" "of the Span" "of the Rainbow" "of Variegation" "of the Multiverse" "of the Infinite" "of the Universe" "of Nirvana" "of Euphoria" "Impregnable" "Vaporous" "Unassailable" "Athlete's" "Virile" "Rotund" "Ultramarine" "Dazzling" "Resplendent" "of Destruction" "of Legerdemain" "Wizard's" "Thaumaturgist's" "Devastating" "Overpowering" "of the Ranger" "of the Marksman" "of Immolation" "of Floe" "of Dissolution" "of Melting" "of Liquefaction"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 255 255 119 255 # Rare Background
+	SetBorderColor 50 230 100 255 # Talisman Border
+	SetFontSize 45 # Yuge
+	PlayAlertSound 7 300 # Tier1.5
+	MinimapIcon 1 Yellow Hexagon
+
+# Talisman Stats $type->rare->exotic->talisman $tier->t2stattalisman
 Show
 	AnyEnchantment = True
 	ItemLevel >= 68
 	Rarity = Rare
 	Class = "Amulets"
 	BaseType = "Avian Twins Talisman" "Three Rat Talisman"
-	HasExplicitMod = "Athlete's" "Virile"
 	HasExplicitMod = "of the Multiverse" "of the Infinite" "of the Universe"
-	HasExplicitMod = "of the Godslayer" "of the Gods" "of the Blur" "of the Wind" "of the Polymath" "of the Genius"
+	HasExplicitMod = "of the Godslayer" "of the Gods" "of the Titan" "of the Blur" "of the Wind" "of the Phantom" "of the Polymath" "of the Genius" "of the Virtuoso"
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 	SetBorderColor 50 230 100 255 # Talisman Border
@@ -5070,14 +5053,13 @@ Show
 	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 1 Yellow Hexagon
 
-# Talisman Decent Mods
+# Talisman Decent Type $type->rare->exotic->talisman $tier->t3decenttypetalisman
 Show
 	AnyEnchantment = True
 	ItemLevel >= 68
 	Rarity = Rare
 	Class = "Amulets"
-	BaseType = "Talisman"
-	HasExplicitMod >=3 "Athlete's" "Virile" "Rotund" "of Tzteosh" "of the Magma" "of Ephij" "of the Lightning" "of Haast" "of the Ice" "of Bameth" "of Exile" "of the Godslayer" "of the Gods" "of the Titan" "of the Blur" "of the Wind" "of the Phantom" "of the Polymath" "of the Genius" "of the Virtuoso" "of the Ranger" "of the Marksman" "of the Sniper" "Devastating" "Overpowering" "Unleashed" "Empowering" "Cremating" "Blasting" "Entombing" "Polar" "Electrocuting" "Discharging" "Flaring" "Tempered" "Razor-sharp" "of Expertise" "of Nimbleness" "Zaffre" "Blue" "Mazarine" "of Nirvana" "of Euphoria" "of Bliss" "Wizard's" "Thaumaturgist's" "of Immolation" "of Flames" "of Cinders" "of Floe" "of Rime" "of Ice" "of Discharge" "of Voltage" "of Electricity" "of the Span" "of the Rainbow" "of the Multiverse" "of the Infinite" "of Incision" "of Penetrating" "of Destruction" "of Ferocity" "Unassailable" "Impregnable" "Vaporous" "Dazzling" "Resplendent"
+	BaseType = "Avian Twins Talisman" "Fangjaw Talisman" "Hexclaw Talisman" "Longtooth Talisman" "Mandible Talisman" "Rotfeather Talisman" "Spinefuse Talisman" "Three Rat Talisman" "Wereclaw Talisman"
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 	SetBorderColor 50 230 100 255 # Talisman Border
