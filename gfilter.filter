@@ -4414,6 +4414,136 @@ Show
 # Section: Jewels
 #===============================================================================
 
+#-------------------------------------------------------------------------------
+# Subsection: Identified
+#-------------------------------------------------------------------------------
+
+# Jewel id minion $type->rareid $tier->idjewel_minion
+Show
+	Identified = True
+	Rarity = Rare
+	Class = "Jewel"
+	BaseType = "Cobalt Jewel" "Crimson Jewel" "Viridian Jewel"
+	HasExplicitMod >=2 "Vivid" "Shimmering" "Leadership" "Master's" "of Resilience"
+	HasExplicitMod >=3 "Vivid" "Shimmering" "Leadership" "Master's" "of Resilience" "of Order" "of Resistance" "of Insulation" "of the Hearth" "of Shelter" "of Spirit" "of Athletics" "of Cunning" "of Adaptation" "of Wounding" "Thwarting" "of Training" "Enlightened" "of Efficiency"
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+	SetFontSize 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Hexagon
+	PlayEffect Yellow Temp
+
+# Jewel id dot $type->rareid $tier->idjewel_dot
+Show
+	Identified = True
+	Rarity = Rare
+	Class = "Jewel"
+	BaseType = "Cobalt Jewel" "Crimson Jewel" "Viridian Jewel"
+	HasExplicitMod = ">=1" "Vivid" "Shimmering" "of Acrimony"
+	HasExplicitMod = "<=1" "of Exsanguinating" "of Zealousness" "of Atrophy" "of Gelidity"
+	HasExplicitMod >=3 "Vivid" "Shimmering" "of Order" "of Resistance" "of Insulation" "of the Hearth" "of Shelter" "of Spirit" "of Athletics" "of Cunning" "of Adaptation" "of Wounding" "Thwarting" "of Entropy" "Decrepifying" "of Acrimony" "of Exsanguinating" "of Zealousness" "of Atrophy" "of Gelidity"
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+	SetFontSize 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Hexagon
+	PlayEffect Yellow Temp
+
+# Jewel id crit attack $type->rareid $tier->idjewel_critattack
+Show
+	Identified = True
+	Rarity = Rare
+	Class = "Jewel"
+	BaseType = "Cobalt Jewel" "Crimson Jewel" "Viridian Jewel"
+	HasExplicitMod = ">=1" "of Potency" "of the Elements" "Vivid" "Shimmering" "of Demolishing"
+	HasExplicitMod >=2 "of Potency" "of the Elements" "Vivid" "Shimmering" "of Demolishing" "Piercing" "Rupturing" "of Menace" "Arctic" "Surging" "Infernal" "Puncturing" "of Order" "of Resistance" "of Insulation" "of the Hearth" "of Shelter" "of Spirit" "of Athletics" "of Cunning" "of Adaptation" "of Wounding" "Thwarting"
+	HasExplicitMod >=3 "of Potency" "of the Elements" "Vivid" "Shimmering" "of Demolishing" "Piercing" "Rupturing" "of Menace" "Arctic" "Surging" "Infernal" "Puncturing" "of Order" "of Resistance" "of Insulation" "of the Hearth" "of Shelter" "of Spirit" "of Athletics" "of Cunning" "of Adaptation" "of Wounding" "Thwarting" "of Berserking" "Sharpened" "Humming" "Chaotic" "Flaming" "Chilling" "of Zeal"
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+	SetFontSize 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Hexagon
+	PlayEffect Yellow Temp
+
+# Jewel id crit spell $type->rareid $tier->idjewel_critspell
+Show
+	Identified = True
+	Rarity = Rare
+	Class = "Jewel"
+	BaseType = "Cobalt Jewel" "Crimson Jewel" "Viridian Jewel"
+	HasExplicitMod = ">=1" "of Potency" "of the Elements" "Vivid" "Shimmering" "of Unmaking"
+	HasExplicitMod >=2 "of Potency" "of the Elements" "Vivid" "Shimmering" "of Unmaking" "of Menace" "Arctic" "Surging" "Infernal" "Puncturing" "of Order" "of Resistance" "of Insulation" "of the Hearth" "of Shelter" "of Spirit" "of Athletics" "of Cunning" "of Adaptation" "of Wounding" "Thwarting"
+	HasExplicitMod >=3 "of Potency" "of the Elements" "Vivid" "Shimmering" "of Unmaking" "of Menace" "Arctic" "Surging" "Infernal" "Puncturing" "of Order" "of Resistance" "of Insulation" "of the Hearth" "of Shelter" "of Spirit" "of Athletics" "of Cunning" "of Adaptation" "of Wounding" "Thwarting" "of Mysticism" "of Blasting" "of Archery" "Chilling" "Trapping" "Sharpened" "Humming" "Chaotic" "Flaming" "Battlemage's" "Warding" "Sorcerer's"
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+	SetFontSize 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Hexagon
+	PlayEffect Yellow Temp
+
+# Jewel id attack $type->rareid $tier->idaj_attack
+Show
+	Identified = True
+	Rarity = Rare
+	Class = "Jewel"
+	BaseType == "Murderous Eye Jewel" "Searching Eye Jewel"
+	HasExplicitMod = ">=1" "Sanguine" "Stalwart" "Resplendent" "Incandescent" "of the Deadeye" "Acuminate" "Flaring" "Electrocuting" "Discharging" "Cremating" "Blasting" "Entombing" "Polar" "Vile"
+	HasExplicitMod >=3 "Sanguine" "Stalwart" "Resplendent" "Incandescent" "of the Deadeye" "Acuminate" "Flaring" "Electrocuting" "Discharging" "Cremating" "Blasting" "Entombing" "Polar" "Vile" "Healthy" "Sapphire" "Carapaced" "Encased" "Beclouded" "Vaporous" "Expediting" "of Athletics" "of Spirit" "of Cunning" "of Adaption" "of Shelter" "of Grounding" "of the Hearth" "of Resistance" "of Order" "of Unwavering" "of Potency" "of the Inquisitor" "of Menace" "of Blinding" "of the Assassin" "of Taunting" "of Phasing" "of Ashes" "of Glaciation" "of Arcing" "of Collision" "of the Inferno" "of Opportunity" "of Berserking" "of the Ranger" "Lancing" "of Unholy Might"
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+	SetFontSize 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Hexagon
+	PlayEffect Yellow Temp
+
+# Jewel id attack $type->rareid $tier->idaj_caster
+Show
+	Identified = True
+	Rarity = Rare
+	Class = "Jewel"
+	BaseType == "Hypnotic Eye Jewel"
+	HasExplicitMod = ">=1" "Sanguine" "Stalwart" "Resplendent" "Incandescent" "of the Deadeye" "Acuminate" "Flaring" "Electrocuting" "Discharging" "Cremating" "Blasting" "Entombing" "Polar" "Vile"
+	HasExplicitMod >=3 "Sanguine" "Stalwart" "Resplendent" "Incandescent" "of the Deadeye" "Acuminate" "Flaring" "Electrocuting" "Discharging" "Cremating" "Blasting" "Entombing" "Polar" "Vile" "Healthy" "Sapphire" "Carapaced" "Encased" "Beclouded" "Vaporous" "Expediting" "of Athletics" "of Spirit" "of Cunning" "of Adaption" "of Shelter" "of Grounding" "of the Hearth" "of Resistance" "of Order" "of Unwavering" "of Potency" "of the Inquisitor" "of Menace" "of Blinding" "of the Assassin" "of Taunting" "of Phasing" "of Ashes" "of Glaciation" "of Arcing" "of Collision" "of the Inferno" "of Abuse" "of Enchanting" "of Hindering"
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+	SetFontSize 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Hexagon
+	PlayEffect Yellow Temp
+
+# Jewel id minion $type->rareid $tier->idaj_minion
+Show
+	Identified = True
+	Rarity = Rare
+	Class = "Jewel"
+	BaseType == "Ghastly Eye Jewel"
+	HasExplicitMod = ">=1" "Sanguine" "Stalwart" "Resplendent" "Incandescent" "of the Deadeye" "Acuminate" "Flaring" "Electrocuting" "Discharging" "Cremating" "Blasting" "Entombing" "Polar" "Vile"
+	HasExplicitMod >=3 "Sanguine" "Stalwart" "Resplendent" "Incandescent" "of the Deadeye" "Acuminate" "Flaring" "Electrocuting" "Discharging" "Cremating" "Blasting" "Entombing" "Polar" "Vile" "Healthy" "Sapphire" "Carapaced" "Encased" "Beclouded" "Vaporous" "Expediting" "of Athletics" "of Spirit" "of Cunning" "of Adaption" "of Shelter" "of Grounding" "of the Hearth" "of Resistance" "of Order" "of Unwavering" "of Potency" "of the Inquisitor" "of Menace" "of Blinding" "of the Assassin" "of Taunting" "of Phasing" "of Ashes" "of Glaciation" "of Arcing" "of Collision" "of the Inferno" "of Stifling" "of Distraction" "of Delaying" "of Training" "of Vampirism" "of Command" "of Acclimatisation" "of Authority" "of Shocking" "of Chilling" "Resonating" "Motivating" "Foul-tongued"
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+	SetFontSize 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Hexagon
+	PlayEffect Yellow Temp
+
+# Jewel id something $type->rareid $tier->idaj_mixer
+Show
+	Identified = True
+	Rarity = Rare
+	Class = "Jewel"
+	BaseType == "Ghastly Eye Jewel" "Hypnotic Eye Jewel" "Murderous Eye Jewel" "Searching Eye Jewel"
+	HasExplicitMod >=4 "Sanguine" "Stalwart" "Resplendent" "Incandescent" "of the Deadeye" "Acuminate" "Flaring" "Electrocuting" "Discharging" "Cremating" "Blasting" "Entombing" "Polar" "Vile" "Healthy" "Sapphire" "Carapaced" "Encased" "Beclouded" "Vaporous" "Expediting" "of Athletics" "of Spirit" "of Cunning" "of Adaption" "of Shelter" "of Grounding" "of the Hearth" "of Resistance" "of Order" "of Unwavering" "of Potency" "of the Inquisitor" "of Menace" "of Blinding" "of the Assassin" "of Taunting" "of Phasing" "of Ashes" "of Glaciation" "of Arcing" "of Collision" "of the Inferno" "of Opportunity" "of Berserking" "of the Ranger" "Lancing" "of Unholy Might" "of Abuse" "of Enchanting" "of Hindering" "of Stifling" "of Distraction" "of Delaying" "of Training" "of Vampirism" "of Command" "of Acclimatisation" "of Authority" "of Shocking" "of Chilling" "Resonating" "Motivating" "Foul-tongued"
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+	SetFontSize 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Hexagon
+	PlayEffect Yellow Temp
+
+#-------------------------------------------------------------------------------
+# Subsection: General
+#-------------------------------------------------------------------------------
+
 # Jewel Normal
 Show
 	Rarity = Normal
@@ -6081,4 +6211,3 @@ Show
 	SetFontSize 45 # Yuge
 	PlayAlertSound 15 300 # wat
 	MinimapIcon 0 Red Star
-
