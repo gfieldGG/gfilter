@@ -1297,7 +1297,7 @@ Show
 
 # Stygian Vise Endgame
 Show
-	ItemLevel >= 65
+	ItemLevel >= 67
 	Rarity <= Rare
 	BaseType = "Stygian Vise"
 	SetTextColor 169 189 149 255 # Abyss Text
@@ -4156,95 +4156,135 @@ Show
 	#BlockStrictness 2 Hide
 
 #===============================================================================
-# Section: Crafting Bases
+# Section: Endgame Bases
 #===============================================================================
+
+#-------------------------------------------------------------------------------
+# Subsection: Decorators
+#-------------------------------------------------------------------------------
+
+# Endgame Base Decorator
+Show
+	Corrupted = False
+	ItemLevel >= 68
+	Rarity <= Magic
+	SetTextColor 255 255 255 255 # Normal Highlight Text
+	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
+	SetBorderColor 0 0 254 255 # Crafting Border
+	Continue
+
+# Endgame Base Decorator Rare
+Show
+	Corrupted = False
+	ItemLevel >= 68
+	Rarity = Rare
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+	SetBorderColor 255 255 119 255 # Rare Border
+	Continue
 
 #-------------------------------------------------------------------------------
 # Subsection: ilvl 86
 #-------------------------------------------------------------------------------
 
-# Tier0 Crafting Bases ilvl86
+# Bases T0 ilvl86 $type->crafting->expensive $tier->any
 Show
+	Corrupted = False
 	ItemLevel >= 86
-	Rarity <= Magic
-	BaseType = "Steel Ring" "Opal Ring" "Vermillion Ring"
-	SetTextColor 255 255 255 255 # Normal Highlight Text
-	SetBackgroundColor 0 0 254 255 # Crafting Background
-	SetBorderColor 255 255 255 255 # Tier1 Border
+	Rarity <= Rare
+	BaseType == "Bone Helmet" "Fugitive Boots" "Iolite Ring" "Sacrificial Garb" "Stygian Vise" "Two-Toned Boots"
 	SetFontSize 45 # Yuge
 	CustomAlertSound "gfT15.mp3" 200
 	MinimapIcon 1 Red Hexagon
 
-# Tier0 Crafting Bases
+# Bases T1 ilvl86 $type->normalcraft->i86 $tier->t1
 Show
-	Rarity <= Magic
-	BaseType = "Steel Ring" "Opal Ring" "Vermillion Ring"
-	SetTextColor 255 255 255 255 # Normal Highlight Text
-	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
-	SetBorderColor 0 0 254 255 # Crafting Border
+	Corrupted = False
+	ItemLevel >= 86
+	Rarity <= Rare
+	BaseType == "Apothecary's Gloves" "Blue Pearl Amulet" "Bone Helmet" "Cerulean Ring" "Convoking Wand" "Crystal Belt" "Fingerless Silk Gloves" "Fugitive Boots" "Gripped Gloves" "Iolite Ring" "Marble Amulet" "Opal Ring" "Sacrificial Garb" "Seaglass Amulet" "Spiked Gloves" "Steel Ring" "Stygian Vise" "Two-Toned Boots" "Vermillion Ring" "Imperial Claw"
 	SetFontSize 45 # Yuge
-	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 1 Yellow Hexagon
+	PlayAlertSound 6 150 # Tier3
+	MinimapIcon 2 White Hexagon
+
+# Bases T2 ilvl86 $type->normalcraft->i86 $tier->t2
+Show
+	Corrupted = False
+	ItemLevel >= 86
+	Rarity <= Rare
+	BaseType == "Amethyst Ring" "Astral Plate" "Bone Ring" "Broadhead Arrow Quiver" "Cardinal Round Shield" "Colossal Tower Shield" "Copper Kris" "Diamond Ring" "Dragonscale Boots" "Dragonscale Gauntlets" "Eclipse Staff" "Eternal Burgonet" "Fossilised Spirit Shield" "Full Dragonscale" "Gemini Claw" "Glorious Plate" "Golden Kris" "Hubris Circlet" "Imbued Wand" "Jewelled Foil" "Judgement Staff" "Karui Chopper" "Lacquered Buckler" "Lion Pelt" "Onyx Amulet" "Opal Sceptre" "Opal Wand" "Pig-Faced Bascinet" "Piledriver" "Platinum Kris" "Primal Arrow Quiver" "Prismatic Ring" "Profane Wand" "Royal Burgonet" "Sambar Sceptre" "Short Bow" "Siege Axe" "Slink Boots" "Slink Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Spine Bow" "Thicket Bow" "Titan Gauntlets" "Titan Greaves" "Titanium Spirit Shield" "Two-Stone Ring" "Vaal Regalia" "Vanguard Belt" "Void Sceptre" "Zodiac Leather"
+	SetFontSize 45 # Yuge
+
+# Bases T3 ilvl86 $type->normalcraft->i86 $tier->t3
+Show
+	Corrupted = False
+	ItemLevel >= 86
+	Rarity <= Rare
+	BaseType == "Agate Amulet" "Ambusher" "Archon Kite Shield" "Artillery Quiver" "Assassin's Garb" "Behemoth Mace" "Champion Kite Shield" "Citadel Bow" "Citrine Amulet" "Coronal Maul" "Corsair Sword" "Crusader Boots" "Crusader Buckler" "Crusader Gloves" "Deicide Mask" "Despot Axe" "Elegant Round Shield" "Eternal Sword" "Exquisite Blade" "Ezomyte Blade" "Ezomyte Tower Shield" "Fleshripper" "Harmonic Spirit Shield" "Heavy Arrow Quiver" "Imperial Buckler" "Karui Maul" "Leather Belt" "Maraketh Bow" "Moonstone Ring" "Murder Boots" "Murder Mitts" "Nightmare Bascinet" "Pinnacle Tower Shield" "Praetor Crown" "Runic Hatchet" "Rustic Sash" "Sadist Garb" "Saintly Chainmail" "Spiraled Foil" "Supreme Spiked Shield" "Triumphant Lamellar" "Turquoise Amulet" "Unset Ring" "Vaal Axe" "Vile Arrow Quiver"
+	SetBorderColor 255 255 255 0 # Hidden Border
+	SetFontSize 41 # Big
 	#BlockStrictness 3 Disable
 
-# Tier1 Crafting Bases ilvl86
-Show
-	ItemLevel >= 86
-	Rarity <= Magic
-	BaseType = "Blue Pearl Amulet" "Bone Helmet" "Cerulean Ring" "Convoking Wand" "Crystal Belt" "Fingerless Silk Gloves" "Gripped Gloves" "Marble Amulet" "Opal Ring" "Spiked Gloves" "Steel Ring" "Stygian Vise" "Two-Toned Boots" "Vanguard Belt" "Vermillion Ring"
-	SetTextColor 255 255 255 255 # Normal Highlight Text
-	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
-	SetBorderColor 0 0 254 255 # Crafting Border
-	SetFontSize 45 # Yuge
-	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 1 Yellow Hexagon
+#-------------------------------------------------------------------------------
+# Subsection: ilvl 84
+#-------------------------------------------------------------------------------
 
-# Tier2 Crafting Bases ilvl86
+# Bases T1 ilvl84 $type->normalcraft->i84 $tier->t1
 Show
-	ItemLevel >= 86
-	Rarity <= Magic
-	BaseType = "Diamond Ring" "Eternal Burgonet" "Hubris Circlet" "Lion Pelt" "Onyx Amulet" "Royal Burgonet" "Sacrificial Garb" "Sorcerer Boots" "Sorcerer Gloves" "Titanium Spirit Shield" "Two-Stone Ring"
-	SetTextColor 255 255 255 255 # Normal Highlight Text
-	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
-	SetBorderColor 0 0 254 255 # Crafting Border
+	Corrupted = False
+	ItemLevel >= 84
+	Rarity <= Rare
+	BaseType == "Apothecary's Gloves" "Blue Pearl Amulet" "Bone Helmet" "Cerulean Ring" "Convoking Wand" "Crystal Belt" "Fingerless Silk Gloves" "Fugitive Boots" "Gripped Gloves" "Iolite Ring" "Marble Amulet" "Opal Ring" "Sacrificial Garb" "Seaglass Amulet" "Spiked Gloves" "Steel Ring" "Stygian Vise" "Two-Toned Boots" "Vermillion Ring" "Imperial Claw"
 	SetFontSize 45 # Yuge
-
-# Tier3 Crafting Bases ilvl86
-Show
-	ItemLevel >= 86
-	Rarity <= Magic
-	BaseType = "Ambusher" "Archon Kite Shield" "Assassin's Garb" "Astral Plate" "Colossal Tower Shield" "Coronal Maul" "Deicide Mask" "Demon Dagger" "Exquisite Blade" "Fossilised Spirit Shield" "Gemini Claw" "Harbinger Bow" "Harmonic Spirit Shield" "Harpy Rapier" "Heavy Belt" "Imbued Wand" "Imperial Maul" "Jewelled Foil" "Kris" "Lion Sword" "Opal Sceptre" "Opal Wand" "Pinnacle Tower Shield" "Profane Wand" "Sadist Garb" "Saintly Chainmail" "Sambar Sceptre" "Siege Axe" "Skean" "Slink Boots" "Slink Gloves" "Spine Bow" "Spiraled Foil" "Sundering Axe" "Thicket Bow" "Titan Gauntlets" "Titan Greaves" "Vaal Axe" "Vaal Regalia" "Void Sceptre"
-	SetTextColor 255 255 255 255 # Normal Highlight Text
-	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
-	SetBorderColor 0 0 254 255 # Crafting Border
-	SetFontSize 41 # Big
 	#BlockStrictness 3 Disable
 
 #-------------------------------------------------------------------------------
 # Subsection: Other
 #-------------------------------------------------------------------------------
 
-# Tier1 Crafting Bases ilvl84
+# Bases T1 $type->normalcraft->rest $tier->t1
 Show
-	ItemLevel >= 84
-	Rarity <= Magic
-	BaseType = "Blue Pearl Amulet" "Bone Helmet" "Cerulean Ring" "Convoking Wand" "Crystal Belt" "Fingerless Silk Gloves" "Gripped Gloves" "Marble Amulet" "Opal Ring" "Spiked Gloves" "Steel Ring" "Stygian Vise" "Two-Toned Boots" "Vanguard Belt" "Vermillion Ring"
-	SetTextColor 255 255 255 255 # Normal Highlight Text
-	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
-	SetBorderColor 0 0 254 255 # Crafting Border
-	SetFontSize 41 # Big
-	#BlockStrictness 3 Disable
-
-# Tier1 Crafting Bases
-Show
+	Corrupted = False
 	ItemLevel >= 67
-	Rarity <= Magic
-	BaseType = "Blue Pearl Amulet" "Bone Helmet" "Cerulean Ring" "Convoking Wand" "Crystal Belt" "Fingerless Silk Gloves" "Gripped Gloves" "Marble Amulet" "Opal Ring" "Spiked Gloves" "Steel Ring" "Stygian Vise" "Two-Toned Boots" "Vanguard Belt" "Vermillion Ring"
-	SetTextColor 255 255 255 255 # Normal Highlight Text
-	SetBackgroundColor 30 30 30 255 # Normal Highlight Background
-	SetBorderColor 0 0 254 255 # Crafting Border
-	SetFontSize 37 # Medium
+	ItemLevel <= 83
+	Rarity <= Rare
+	BaseType == "Apothecary's Gloves" "Blue Pearl Amulet" "Bone Helmet" "Cerulean Ring" "Convoking Wand" "Crystal Belt" "Fingerless Silk Gloves" "Fugitive Boots" "Gripped Gloves" "Iolite Ring" "Marble Amulet" "Opal Ring" "Sacrificial Garb" "Seaglass Amulet" "Spiked Gloves" "Steel Ring" "Stygian Vise" "Two-Toned Boots" "Vermillion Ring" "Imperial Claw"
+	SetBorderColor 255 255 255 0 # Hidden Border
+	SetFontSize 41 # Big
 	#BlockStrictness 2 Disable
+
+#-------------------------------------------------------------------------------
+# Subsection: Decorator Remove
+#-------------------------------------------------------------------------------
+
+# Base Decorator Normal Remover
+Show
+	Corrupted = False
+	ItemLevel >= 67
+	Rarity = Normal
+	SetTextColor 200 200 200 255 # Normal Text
+	SetBackgroundColor 0 0 0 210 # Junk Background
+	SetBorderColor 255 255 255 0 # Hidden Border
+	Continue
+
+# Base Decorator Magic Remover
+Show
+	Corrupted = False
+	ItemLevel >= 67
+	Rarity = Magic
+	SetTextColor 136 136 255 255 # Magic Text
+	SetBackgroundColor 0 0 0 210 # Junk Background
+	SetBorderColor 255 255 255 0 # Hidden Border
+	Continue
+
+# Base Decorator Rare Remover
+Show
+	Corrupted = False
+	ItemLevel >= 67
+	Rarity = Rare
+	SetBackgroundColor 0 0 0 210 # Junk Background
+	SetBorderColor 255 255 255 0 # Hidden Border
+	Continue
 
 #===============================================================================
 # Section: 6 Sockets
@@ -4936,13 +4976,13 @@ Show # Rune Dagger Levelling | Disable
 #	SetFontSize 41 # Big
 
 # Claw Rare Levelling
-#Show # Claw Levelling | Disable
-#	ItemLevel < 67
-#	Rarity = Rare
-#	Class = "Claws"
-#	SetTextColor 255 255 119 255 # Rare Text
-#	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
-#	SetFontSize 41 # Big
+Show # Claw Levelling | Disable
+	ItemLevel < 67
+	Rarity = Rare
+	Class = "Claws"
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
+	SetFontSize 41 # Big
 
 # Sceptre Rare Levelling
 Show # Sceptre Levelling | Disable
@@ -5127,131 +5167,57 @@ Show
 # Subsection: T0
 #-------------------------------------------------------------------------------
 
-# Rare Atlas T0 ilvl86
-Show
-	ItemLevel >= 86
-	Rarity = Rare
-	BaseType = "Steel Ring" "Opal Ring" "Vermillion Ring"
-	SetTextColor 0 0 0 255 # Tier1 Text
-	SetBackgroundColor 255 255 119 255 # Rare Background
-	SetBorderColor 255 255 255 255 # Tier1 Border
-	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3" 200
-	MinimapIcon 1 Red Hexagon
-	PlayEffect Yellow 
-
-# Rare Atlas T0
-Show
-	Rarity = Rare
-	BaseType = "Steel Ring" "Opal Ring" "Vermillion Ring"
-	SetTextColor 255 255 119 255 # Rare Text
-	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
-	SetBorderColor 255 255 119 255 # Rare Border
-	SetFontSize 45 # Yuge
-	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 1 Yellow Hexagon
-
-#-------------------------------------------------------------------------------
-# Subsection: High ilvl
-#-------------------------------------------------------------------------------
-
-# Rare T1 ilvl86 Craft
-Show
-	ItemLevel >= 86
-	Rarity = Rare
-	BaseType = "Blue Pearl Amulet" "Bone Helmet" "Cerulean Ring" "Convoking Wand" "Crystal Belt" "Fingerless Silk Gloves" "Gripped Gloves" "Marble Amulet" "Opal Ring" "Spiked Gloves" "Steel Ring" "Stygian Vise" "Two-Toned Boots" "Vanguard Belt" "Vermillion Ring"
-	SetTextColor 255 255 119 255 # Rare Text
-	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
-	SetBorderColor 255 255 255 255 # Tier1 Border
-	SetFontSize 45 # Yuge
-	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 1 Yellow Hexagon
-
-# Rare T1 ilvl84 Craft
-Show
-	ItemLevel >= 84
-	Rarity = Rare
-	BaseType = "Blue Pearl Amulet" "Bone Helmet" "Cerulean Ring" "Convoking Wand" "Crystal Belt" "Fingerless Silk Gloves" "Gripped Gloves" "Marble Amulet" "Opal Ring" "Spiked Gloves" "Steel Ring" "Stygian Vise" "Two-Toned Boots" "Vanguard Belt" "Vermillion Ring"
-	SetTextColor 255 255 119 255 # Rare Text
-	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
-	SetFontSize 45 # Yuge
-
-# Rare T1
-Show
-	ItemLevel >= 67
-	Rarity = Rare
-	BaseType = "Blue Pearl Amulet" "Bone Helmet" "Cerulean Ring" "Convoking Wand" "Crystal Belt" "Fingerless Silk Gloves" "Gripped Gloves" "Marble Amulet" "Opal Ring" "Spiked Gloves" "Steel Ring" "Stygian Vise" "Two-Toned Boots" "Vanguard Belt" "Vermillion Ring"
-	SetTextColor 255 255 119 255 # Rare Text
-	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
-	SetFontSize 45 # Yuge
-	#BlockStrictness 3 Hide
-
-# Rare T2 Craft ilvl86
-Show
-	ItemLevel >= 86
-	Rarity = Rare
-	BaseType = "Diamond Ring" "Eternal Burgonet" "Hubris Circlet" "Lion Pelt" "Onyx Amulet" "Royal Burgonet" "Sacrificial Garb" "Sorcerer Boots" "Sorcerer Gloves" "Titanium Spirit Shield" "Two-Stone Ring"
-	SetTextColor 255 255 119 255 # Rare Text
-	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
-	SetBorderColor 255 255 119 255 # Rare Border
-	SetFontSize 45 # Yuge
-
-# Rare T3 Craft ilvl86
-Show
-	ItemLevel >= 86
-	Rarity = Rare
-	BaseType = "Ambusher" "Archon Kite Shield" "Assassin's Garb" "Astral Plate" "Colossal Tower Shield" "Coronal Maul" "Deicide Mask" "Demon Dagger" "Exquisite Blade" "Fossilised Spirit Shield" "Gemini Claw" "Harbinger Bow" "Harmonic Spirit Shield" "Harpy Rapier" "Heavy Belt" "Imbued Wand" "Imperial Maul" "Jewelled Foil" "Kris" "Lion Sword" "Opal Sceptre" "Opal Wand" "Pinnacle Tower Shield" "Profane Wand" "Sadist Garb" "Saintly Chainmail" "Sambar Sceptre" "Siege Axe" "Skean" "Slink Boots" "Slink Gloves" "Spine Bow" "Spiraled Foil" "Sundering Axe" "Thicket Bow" "Titan Gauntlets" "Titan Greaves" "Vaal Axe" "Vaal Regalia" "Void Sceptre"
-	SetTextColor 255 255 119 255 # Rare Text
-	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
-	SetFontSize 41 # Big
-
 #-------------------------------------------------------------------------------
 # Subsection: Jewelry
 #-------------------------------------------------------------------------------
 
-# Rare Belt T2
+# Rare T1 AmuRing $type->rr->amuring $tier->t1
 Show
 	ItemLevel >= 67
 	Rarity = Rare
-	BaseType = "Heavy Belt" "Leather Belt" "Rustic Sash"
+	Class = "Amulets" "Rings"
+	BaseType = "Agate Amulet" "Amethyst Ring" "Blue Pearl Amulet" "Bone Ring" "Cerulean Ring" "Citrine Amulet" "Iolite Ring" "Marble Amulet" "Onyx Amulet" "Opal Ring" "Prismatic Ring" "Seaglass Amulet" "Steel Ring" "Turquoise Amulet" "Two-Stone Ring" "Vermillion Ring"
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetFontSize 37 # Medium
 	#BlockStrictness 3 Hide
 
-# Rare Belt T3
+# Rare T2 AmuRing $type->rr->amuring $tier->t2
 Show
 	ItemLevel >= 67
 	Rarity = Rare
-	BaseType = "Chain Belt" "Cloth Belt" "Studded Belt"
+	Class = "Amulets" "Rings"
+	BaseType = "Amber Amulet" "Coral Ring" "Diamond Ring" "Jade Amulet" "Lapis Amulet" "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Unset Ring"
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 0 0 0 210 # Junk Background
 	SetFontSize 37 # Medium
 	#BlockStrictness 3 Hide
 
-# Rare Jewelry T2
+# Rare T1 Belt $type->rr->belts $tier->t1
 Show
 	ItemLevel >= 67
 	Rarity = Rare
-	BaseType = "Agate Amulet" "Citrine Amulet" "Coral Ring" "Diamond Ring" "Onyx Amulet" "Prismatic Ring" "Turquoise Amulet" "Two-Stone Ring"
-	SetTextColor 255 255 119 255 # Rare Text
-	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
-	SetFontSize 41 # Big
-	#BlockStrictness 3 Hide
-
-# Rare Jewelry T3
-Show
-	ItemLevel >= 67
-	Rarity = Rare
-	BaseType = "Amber Amulet" "Amethyst Ring" "Jade Amulet" "Lapis Amulet" "Moonstone Ring" "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Unset Ring"
+	Class = "Belts"
+	BaseType = "Crystal Belt" "Stygian Vise"
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 41 # Big
+	SetFontSize 37 # Medium
+	#BlockStrictness 3 Hide
+
+# Rare T2 Belt $type->rr->amuring $tier->t2
+Show
+	ItemLevel >= 67
+	Rarity = Rare
+	Class = "Belts"
+	BaseType = "Heavy Belt" "Leather Belt" "Rustic Sash" "Vanguard Belt"
+	SetTextColor 255 255 119 255 # Rare Text
+	SetBackgroundColor 0 0 0 210 # Junk Background
+	SetFontSize 37 # Medium
 	#BlockStrictness 3 Hide
 
 # Rare Jewelry Junk
 Show
-	ItemLevel >= 65
+	ItemLevel >= 67
 	Rarity = Rare
 	BaseType = "Coral Amulet" "Gold Amulet" "Gold Ring" "Iron Ring" "Paua Amulet" "Paua Ring"
 	SetTextColor 255 255 119 255 # Rare Text
@@ -5263,89 +5229,49 @@ Show
 # Subsection: T1
 #-------------------------------------------------------------------------------
 
-# Rare Base Weapon Small Tier1
+# Rare T1 Weapon $type->rr $tier->t1weapons
 Show
 	ItemLevel >= 67
 	Rarity = Rare
-	BaseType = "Convoking Wand" "Imbued Wand" "Opal Sceptre" "Opal Wand" "Ornate Quiver" "Profane Wand"
+	BaseType = "Convoking Wand" "Copper Kris" "Gemini Claw" "Golden Kris" "Imbued Wand" "Imperial Claw" "Opal Sceptre" "Opal Wand" "Platinum Kris" "Primal Arrow Quiver" "Profane Wand" "Short Bow" "Spine Bow" "Thicket Bow" "Void Sceptre"
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 	SetFontSize 45 # Yuge
 	#BlockStrictness 3 Hide
 
-# Rare Base Armor Small Tier1
+# Rare T1 Armor $type->rr $tier->t1armours
 Show
 	ItemLevel >= 67
 	Rarity = Rare
-	BaseType = "Apothecary's Gloves" "Arcanist Slippers" "Bone Helmet" "Colossal Tower Shield" "Crusader Boots" "Deicide Mask" "Dragonscale Boots" "Dragonscale Gauntlets" "Eternal Burgonet" "Fingerless Silk Gloves" "Fossilised Spirit Shield" "Fugitive Boots" "Gripped Gloves" "Hubris Circlet" "Imperial Buckler" "Lion Pelt" "Murder Boots" "Murder Mitts" "Nightmare Bascinet" "Royal Burgonet" "Slink Boots" "Slink Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Spiked Gloves" "Stealth Boots" "Titan Gauntlets" "Titan Greaves" "Titanium Spirit Shield" "Two-Toned Boots" "Vaal Greaves"
+	BaseType = "Apothecary's Gloves" "Bone Helmet" "Colossal Tower Shield" "Crusader Boots" "Deicide Mask" "Dragonscale Boots" "Dragonscale Gauntlets" "Eternal Burgonet" "Fingerless Silk Gloves" "Fugitive Boots" "Gripped Gloves" "Hubris Circlet" "Hydrascale Boots" "Lacquered Buckler" "Lion Pelt" "Murder Boots" "Murder Mitts" "Nightmare Bascinet" "Pig-Faced Bascinet" "Royal Burgonet" "Sinner Tricorne" "Slink Boots" "Slink Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Spiked Gloves" "Stealth Boots" "Titan Gauntlets" "Titan Greaves" "Titanium Spirit Shield" "Two-Toned Boots" "Vaal Greaves"
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 	SetFontSize 45 # Yuge
 	#BlockStrictness 3 Hide
-
-# Rare Base Weapon Big Tier1
-#Show
-#	ItemLevel >= 67
-#	Rarity = Rare
-#	BaseType = "Imperial Maul" "Vaal Axe"
-#	SetTextColor 255 255 119 255 # Rare Text
-#	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
-#	SetFontSize 41 # Big
-#	#BlockStrictness 3 Hide
-
-# Rare Base Armor Big Tier1
-#Show
-#	ItemLevel >= 67
-#	Rarity = Rare
-#	BaseType = "Astral Plate" "Vaal Regalia"
-#	SetTextColor 255 255 119 255 # Rare Text
-#	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
-#	SetFontSize 41 # Big
-#	#BlockStrictness 3 Hide
 
 #-------------------------------------------------------------------------------
 # Subsection: T2
 #-------------------------------------------------------------------------------
 
-# Rare Base Weapon Small Tier2
+# Rare T2 Weapon $type->rr $tier->t2weapons
 Show
 	ItemLevel >= 67
 	Rarity = Rare
-	BaseType = "Citadel Bow" "Copper Kris" "Demon's Horn" "Eclipse Staff" "Gemini Claw" "Golden Kris" "Grappler" "Jewelled Foil" "Karui Chopper" "Penetrating Arrow Quiver" "Platinum Kris" "Prophecy Wand" "Sambar Sceptre" "Siege Axe" "Spike-Point Arrow Quiver" "Spiraled Foil" "Thicket Bow" "Tornado Wand" "Vaal Sceptre" "Void Sceptre"
+	BaseType = "Broadhead Arrow Quiver" "Citadel Bow" "Corsair Sword" "Demon Dagger" "Demon's Horn" "Eclipse Staff" "Eye Gouger" "Fiend Dagger" "Heavy Arrow Quiver" "Imperial Bow" "Jewelled Foil" "Maraketh Bow" "Prophecy Wand" "Sambar Sceptre" "Spiraled Foil" "Tornado Wand" "Vaal Sceptre"
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
 	SetFontSize 41 # Big
 	#BlockStrictness 3 Hide
 
-# Rare Base Armor Small Tier2
+# Rare T2 Armor $type->rr $tier->t2armours
 Show
 	ItemLevel >= 67
 	Rarity = Rare
-	BaseType = "Ambush Boots" "Ancient Greaves" "Antique Greaves" "Arcanist Gloves" "Archon Kite Shield" "Assassin's Boots" "Assassin's Garb" "Assassin's Mitts" "Astral Plate" "Carnal Boots" "Conjurer Boots" "Conjurer Gloves" "Crusader Buckler" "Crusader Gloves" "Elegant Round Shield" "Ezomyte Burgonet" "Fluted Bascinet" "Goliath Gauntlets" "Goliath Greaves" "Harmonic Spirit Shield" "Hydrascale Boots" "Hydrascale Gauntlets" "Legion Boots" "Mind Cage" "Pig-Faced Bascinet" "Pinnacle Tower Shield" "Praetor Crown" "Sadist Garb" "Samite Slippers" "Serpentscale Boots" "Shagreen Boots" "Shagreen Gloves" "Sharkskin Boots" "Sinner Tricorne" "Soldier Boots" "Stealth Gloves" "Vaal Gauntlets" "Vaal Mask" "Vaal Regalia" "Vaal Spirit Shield" "Wyrmscale Boots" "Wyrmscale Gauntlets"
+	BaseType = "Ancient Greaves" "Arcanist Gloves" "Arcanist Slippers" "Archon Kite Shield" "Assassin's Boots" "Assassin's Garb" "Assassin's Mitts" "Astral Plate" "Cardinal Round Shield" "Champion Kite Shield" "Conjurer Boots" "Crusader Buckler" "Crusader Gloves" "Eelskin Boots" "Ezomyte Burgonet" "Ezomyte Tower Shield" "Fluted Bascinet" "Fossilised Spirit Shield" "Full Dragonscale" "Goliath Gauntlets" "Goliath Greaves" "Harmonic Spirit Shield" "Hydrascale Gauntlets" "Imperial Buckler" "Lacquered Helmet" "Legion Boots" "Mind Cage" "Mirrored Spiked Shield" "Pinnacle Tower Shield" "Praetor Crown" "Serpentscale Boots" "Shagreen Boots" "Shagreen Gloves" "Sharkskin Boots" "Silken Hood" "Stealth Gloves" "Supreme Spiked Shield" "Ursine Pelt" "Vaal Gauntlets" "Vaal Mask" "Vaal Regalia" "Wyrmscale Boots" "Wyrmscale Gauntlets"
 	SetTextColor 255 255 119 255 # Rare Text
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetFontSize 41 # Big
 	#BlockStrictness 3 Hide
-
-# Rare Base Weapon Big Tier2
-#Show
-#	ItemLevel >= 67
-#	Rarity = Rare
-#	BaseType = "Coronal Maul" "Eclipse Staff" "Harbinger Bow" "Lion Sword" "Opal Sceptre" "Penetrating Arrow Quiver" "Runic Hatchet" "Sambar Sceptre" "Siege Axe" "Spike-Point Arrow Quiver" "Sundering Axe" "Thicket Bow" "Void Sceptre" "Despot Axe"
-#	SetTextColor 255 255 119 255 # Rare Text
-#	SetBackgroundColor 23 23 0 255 # Rare Highlight Background
-#	SetFontSize 37 # Medium
-#	#BlockStrictness 3 Hide
-
-# Rare Base Armor Big Tier2
-#Show
-#	ItemLevel >= 67
-#	Rarity = Rare
-#	BaseType = "Archon Kite Shield" "Assassin's Garb" "Colossal Tower Shield" "Glorious Plate" "Mosaic Kite Shield" "Pinnacle Tower Shield" "Widowsilk Robe"
-#	SetTextColor 255 255 119 255 # Rare Text
-#	SetBackgroundColor 0 0 0 255 # Default Background
-#	SetFontSize 37 # Medium
-#	#BlockStrictness 3 Hide
 
 #-------------------------------------------------------------------------------
 # Subsection: Other
