@@ -1,9 +1,9 @@
-﻿#===============================================================================
+#===============================================================================
 # GFILTER
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.19.0
+# VERSION:       3.19.1
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -1978,7 +1978,7 @@ Show
 Show
 	StackSize >= 3
 	Class = "Currency"
-	BaseType = "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Orb of Scouring" "Orb of Binding" "Orb of Horizons" "Enkindling Orb" "Instilling Orb"
+	BaseType = "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Orb of Scouring" "Orb of Binding" "Orb of Horizons" "Enkindling Orb" "Instilling Orb" "Exalted Shard"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetBorderColor 200 186 153 255 # Currency Border
@@ -1990,7 +1990,7 @@ Show
 # Currency Tier3
 Show
 	Class = "Currency"
-	BaseType = "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Orb of Scouring" "Orb of Binding" "Orb of Horizons" "Enkindling Orb" "Instilling Orb"
+	BaseType = "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Orb of Scouring" "Orb of Binding" "Orb of Horizons" "Enkindling Orb" "Instilling Orb" "Exalted Shard"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetFontSize 45 # Yuge
@@ -2015,7 +2015,7 @@ Show
 Show
 	StackSize >= 6
 	Class = "Currency"
-	BaseType = "Chaos Orb" "Orb of Regret" "Regal Orb" "Gemcutter's Prism" "Vaal Orb" "Exalted Shard" "Veiled Chaos Orb" "Enkindling Orb" "Instilling Orb" "Orb of Unmaking"
+	BaseType = "Chaos Orb" "Orb of Regret" "Regal Orb" "Gemcutter's Prism" "Vaal Orb" "Veiled Chaos Orb" "Enkindling Orb" "Instilling Orb" "Orb of Unmaking"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 200 186 153 255 # Currency Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -2027,7 +2027,7 @@ Show
 # Currency Tier2
 Show
 	Class = "Currency"
-	BaseType = "Chaos Orb" "Orb of Regret" "Regal Orb" "Gemcutter's Prism" "Vaal Orb" "Exalted Shard" "Veiled Chaos Orb" "Orb of Unmaking"
+	BaseType = "Chaos Orb" "Orb of Regret" "Regal Orb" "Gemcutter's Prism" "Vaal Orb" "Veiled Chaos Orb" "Orb of Unmaking"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetBorderColor 200 186 153 255 # Currency Border
@@ -2039,7 +2039,7 @@ Show
 # Currency Tier1.5
 Show
 	Class = "Currency"
-	BaseType = "Orb of Annulment" "Ancient Orb" "Harbinger's Orb"
+	BaseType = "Orb of Annulment" "Ancient Orb" "Harbinger's Orb" "Exalted Orb"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 200 186 153 255 # Currency Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -2063,7 +2063,7 @@ Show
 # Currency Tier1
 Show
 	Class = "Currency"
-	BaseType = "Mirror Shard" "Awakener's Orb" "Sacred Orb" "Divine Orb" "Exalted Orb"
+	BaseType = "Mirror Shard" "Awakener's Orb" "Sacred Orb" "Divine Orb"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 200 186 153 255 # Currency Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
