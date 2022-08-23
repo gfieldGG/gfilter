@@ -4161,7 +4161,7 @@ Hide
 
 # Hide Endgame Base NormalMagic
 Hide
-	Corrupted = True
+	Corrupted = False
 	ItemLevel >= 68
 	Rarity <= Magic
 	SetBackgroundColor 0 0 0 0 # Hidden Background
