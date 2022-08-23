@@ -4159,6 +4159,15 @@ Show
 # Section: Endgame Bases
 #===============================================================================
 
+# Hide Endgame Base NormalMagic
+#Hide
+#	Corrupted = True
+#	ItemLevel >= 68
+#	Rarity <= Magic
+#	SetBackgroundColor 0 0 0 0 # Hidden Background
+#	SetFontSize 18
+#	#BlockStrictness 2 Disable
+
 #-------------------------------------------------------------------------------
 # Subsection: Decorators
 #-------------------------------------------------------------------------------
