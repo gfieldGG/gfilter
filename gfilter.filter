@@ -1,4 +1,4 @@
-﻿#===============================================================================
+#===============================================================================
 # GFILTER
 #===============================================================================
 #
@@ -2011,7 +2011,7 @@ Show
 # Currency Tier3
 Show
 	Class = "Currency"
-	BaseType = "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Orb of Scouring" "Orb of Binding" "Orb of Horizons" "Enkindling Orb" "Instilling Orb" "Exalted Shard"
+	BaseType = "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Orb of Scouring" "Orb of Binding" "Orb of Horizons" "Enkindling Orb" "Instilling Orb" "Exalted Shard" "Fracturing Shard"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetFontSize 45 # Yuge
@@ -2020,17 +2020,17 @@ Show
 	PlayEffect White Temp
 
 # Currency ExShard Stack
-Show
-	StackSize >= 2
-	Class = "Currency"
-	BaseType = "Exalted Shard"
-	SetTextColor 0 0 0 255 # Tier1 Text
-	SetBackgroundColor 200 186 153 255 # Currency Background
-	SetBorderColor 255 255 255 255 # Tier1 Border
-	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3" 200
-	MinimapIcon 1 Red Circle
-	PlayEffect Yellow 
+#Show
+#	StackSize >= 2
+#	Class = "Currency"
+#	BaseType = "Exalted Shard" "Fracturing Shard"
+#	SetTextColor 0 0 0 255 # Tier1 Text
+#	SetBackgroundColor 200 186 153 255 # Currency Background
+#	SetBorderColor 255 255 255 255 # Tier1 Border
+#	SetFontSize 45 # Yuge
+#	CustomAlertSound "gfT15.mp3" 200
+#	MinimapIcon 1 Red Circle
+#	PlayEffect Yellow 
 
 # Currency Tier2 Stack
 Show
@@ -2048,7 +2048,7 @@ Show
 # Currency Tier2
 Show
 	Class = "Currency"
-	BaseType = "Chaos Orb" "Orb of Regret" "Regal Orb" "Gemcutter's Prism" "Vaal Orb" "Veiled Chaos Orb" "Orb of Unmaking" "Fracturing Shard"
+	BaseType = "Chaos Orb" "Orb of Regret" "Regal Orb" "Gemcutter's Prism" "Vaal Orb" "Veiled Chaos Orb" "Orb of Unmaking"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetBorderColor 200 186 153 255 # Currency Border
@@ -2060,7 +2060,7 @@ Show
 # Currency Tier1.5
 Show
 	Class = "Currency"
-	BaseType = "Orb of Annulment" "Ancient Orb" "Harbinger's Orb" "Exalted Orb"
+	BaseType = "Orb of Annulment" "Ancient Orb" "Harbinger's Orb" "Exalted Orb" "Fracturing Orb"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 200 186 153 255 # Currency Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -2084,7 +2084,7 @@ Show
 # Currency Tier1
 Show
 	Class = "Currency"
-	BaseType = "Mirror Shard" "Awakener's Orb" "Sacred Orb" "Divine Orb" "Fracturing Orb"
+	BaseType = "Mirror Shard" "Awakener's Orb" "Sacred Orb" "Divine Orb"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 200 186 153 255 # Currency Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
