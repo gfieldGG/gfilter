@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.19.1
+# VERSION:       3.20.0
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -2027,7 +2027,7 @@ Show
 # Currency Tier2
 Show
 	Class = "Currency"
-	BaseType = "Chaos Orb" "Orb of Regret" "Regal Orb" "Gemcutter's Prism" "Vaal Orb" "Veiled Chaos Orb" "Orb of Unmaking"
+	BaseType = "Chaos Orb" "Orb of Regret" "Regal Orb" "Gemcutter's Prism" "Vaal Orb" "Veiled Chaos Orb" "Orb of Unmaking" "Fracturing Shard"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetBorderColor 200 186 153 255 # Currency Border
@@ -2063,7 +2063,7 @@ Show
 # Currency Tier1
 Show
 	Class = "Currency"
-	BaseType = "Mirror Shard" "Awakener's Orb" "Sacred Orb" "Divine Orb"
+	BaseType = "Mirror Shard" "Awakener's Orb" "Sacred Orb" "Divine Orb" "Fracturing Orb"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 200 186 153 255 # Currency Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
