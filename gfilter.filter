@@ -65,6 +65,27 @@ Show
 	#BlockStrictness 3 Disable
 
 #===============================================================================
+# Section: Forbidden Sanctum
+#===============================================================================
+
+# Sanctified Relic
+Show
+	Class == "Sanctified Relic"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 242 214 162 255
+	SetBorderColor 191 143 101 255
+	SetFontSize 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Hexagon
+
+# Sanctum Relic
+Show
+	Class = "Relic"
+	SetTextColor 242 214 162 255
+	SetBackgroundColor 64 37 22 255
+	SetFontSize 41 # Big
+
+#===============================================================================
 # Section: Lake of Kalandra
 #===============================================================================
 
