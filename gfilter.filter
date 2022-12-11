@@ -3242,7 +3242,7 @@ Show
 Show
 	Replica = True
 	Rarity = Unique
-	BaseType == "Chain Belt" "Great Crown" "Leather Belt" "Ornate Quiver" "Paua Amulet" "Relic Chambers Map" "Soldier Boots" "Synthesised Map" "Triumphant Lamellar" "Vaal Rapier"
+	BaseType == "Chain Belt" "Ezomyte Dagger" "Great Crown" "Heavy Belt" "Leather Belt" "Maelström Staff" "Ornate Quiver" "Relic Chambers Map" "Ruby Ring" "Soldier Boots" "Synthesised Map" "Terror Maul" "Triumphant Lamellar" "Vaal Gauntlets"
 	SetTextColor 175 96 37 255 # Unique Text
 	SetBackgroundColor 255 255 255 255 # Tier0 Background
 	SetBorderColor 242 93 39 255 # Heist Border
@@ -3255,7 +3255,7 @@ Show
 Show
 	Replica = True
 	Rarity = Unique
-	BaseType == "Assassin's Boots" "Blood Raiment" "Cloth Belt" "Ebony Tower Shield" "Elegant Ringmail" "Eternal Sword" "Ezomyte Burgonet" "Ezomyte Dagger" "Glorious Plate" "Heavy Belt" "Maelström Staff" "Nailed Fist" "Ornate Mace" "Ruby Ring" "Rustic Sash" "Sapphire Ring" "Shadow Sceptre" "Siege Axe" "Sinner Tricorne" "Sorcerer Gloves" "Temple Map" "Vaal Gauntlets" "Void Sceptre" "Zodiac Leather"
+	BaseType == "Assassin's Boots" "Blood Raiment" "Cloth Belt" "Ebony Tower Shield" "Elegant Ringmail" "Eternal Sword" "Ezomyte Axe" "Ezomyte Burgonet" "Glorious Plate" "Great Mallet" "Imperial Bow" "Lacquered Buckler" "Nailed Fist" "Ornate Mace" "Paua Amulet" "Rustic Sash" "Sapphire Ring" "Shadow Sceptre" "Siege Axe" "Sinner Tricorne" "Sorcerer Gloves" "Temple Map" "Vaal Rapier" "Void Sceptre" "Zodiac Leather"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 175 96 37 255 # Unique Background
 	SetBorderColor 242 93 39 255 # Heist Border
@@ -3281,7 +3281,7 @@ Show
 Show
 	Replica = True
 	Rarity = Unique
-	BaseType == "Arcanist Gloves" "Arcanist Slippers" "Boot Knife" "Bronzescale Boots" "Crusader Chainmail" "Death Bow" "Decimation Bow" "Dunes Map" "Elder Sword" "Engraved Wand" "Ezomyte Axe" "Festival Mask" "Gnarled Branch" "Gold Amulet" "Granite Flask" "Great Helmet" "Great Mallet" "Grinning Fetish" "Gut Ripper" "Imperial Bow" "Infernal Sword" "Jasper Chopper" "Lacquered Buckler" "Laminated Kite Shield" "Murder Boots" "Paua Ring" "Royal Skean" "Sage Wand" "Samite Gloves" "Sanctified Mana Flask" "Satin Gloves" "Shagreen Boots" "Short Bow" "Silk Slippers" "Spike-Point Arrow Quiver" "Stiletto" "Sulphur Flask" "Terror Maul" "Titan Greaves" "Tornado Wand" "Unset Ring" "Vaal Claw" "War Sword" "Zealot Gloves"
+	BaseType == "Arcanist Gloves" "Arcanist Slippers" "Boot Knife" "Bronzescale Boots" "Crusader Chainmail" "Death Bow" "Decimation Bow" "Dunes Map" "Elder Sword" "Engraved Wand" "Festival Mask" "Gnarled Branch" "Gold Amulet" "Granite Flask" "Great Helmet" "Grinning Fetish" "Gut Ripper" "Infernal Sword" "Jasper Chopper" "Laminated Kite Shield" "Murder Boots" "Paua Ring" "Royal Skean" "Sage Wand" "Samite Gloves" "Sanctified Mana Flask" "Satin Gloves" "Shagreen Boots" "Short Bow" "Silk Slippers" "Spike-Point Arrow Quiver" "Stiletto" "Sulphur Flask" "Titan Greaves" "Tornado Wand" "Unset Ring" "Vaal Claw" "War Sword" "Zealot Gloves"
 	SetTextColor 175 96 37 255 # Unique Text
 	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
 	SetBorderColor 242 93 39 255 # Heist Border
@@ -3399,7 +3399,7 @@ Show
 # Unique Tier1 $type->uniques $tier->t1
 Show
 	Rarity = Unique
-	BaseType == "Champion Kite Shield" "Crusader Boots" "Crusader Helmet" "Ezomyte Tower Shield" "Fire Arrow Quiver" "Gladiator Plate" "Golden Buckler" "Greatwolf Talisman" "Jewelled Foil" "Prismatic Jewel" "Prophecy Wand" "Rawhide Boots" "Ring" "Riveted Boots" "Sapphire Flask" "Siege Axe" "Unset Amulet" "Vaal Rapier" "Wyrmscale Doublet"
+	BaseType == "Ambush Mitts" "Blood Raiment" "Blue Pearl Amulet" "Champion Kite Shield" "Crusader Helmet" "Ezomyte Dagger" "Ezomyte Tower Shield" "Fire Arrow Quiver" "Fluted Bascinet" "Gladiator Plate" "Golden Buckler" "Greatwolf Talisman" "Karui Maul" "Occultist's Vestment" "Prismatic Jewel" "Prophecy Wand" "Raven Mask" "Rawhide Boots" "Ring" "Riveted Boots" "Ruby Flask" "Sapphire Flask" "Siege Axe" "Silk Gloves" "Slaughter Knife" "Studded Belt" "Unset Amulet" "Vaal Rapier" "Wyrmscale Boots" "Zodiac Leather"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 175 96 37 255 # Unique Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -3411,7 +3411,7 @@ Show
 # Unique Tier2 $type->uniques $tier->t2
 Show
 	Rarity = Unique
-	BaseType == "Archon Kite Shield Piece" "Bismuth Flask" "Blue Pearl Amulet" "Burnished Spiked Shield" "Dusk Blade" "Elegant Foil" "Fluted Bascinet" "Full Scale Armour" "Iron Sceptre" "Jingling Spirit Shield" "Karui Maul" "Large Cluster Jewel" "Large Hybrid Flask" "Occultist's Vestment" "Ornate Quiver" "Painted Tower Shield" "Raven Mask" "Reinforced Greaves" "Runic Sabatons" "Savant's Robe" "Serpentscale Gauntlets" "Silk Gloves" "Slaughter Knife" "Steel Kite Shield" "Studded Belt" "Timeless Jewel" "Zodiac Leather"
+	BaseType == "Amethyst Ring" "Archon Kite Shield Piece" "Assassin's Boots" "Bismuth Flask" "Branded Kite Shield" "Burnished Spiked Shield" "Carnal Boots" "Crimson Round Shield" "Crusader Boots" "Cutlass" "Deicide Mask" "Dusk Blade" "Elegant Foil" "Full Scale Armour" "Hellion's Paw" "Highborn Staff" "Iron Sceptre" "Jewelled Foil" "Jingling Spirit Shield" "Large Cluster Jewel" "Large Hybrid Flask" "Ornate Quiver" "Painted Tower Shield" "Reinforced Greaves" "Riveted Gloves" "Runic Sabatons" "Savant's Robe" "Serpentscale Gauntlets" "Steel Kite Shield" "Steel Ring" "Timeless Jewel" "Topaz Flask" "Void Axe" "Wyrmscale Doublet"
 	SetTextColor 175 96 37 255 # Unique Text
 	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
 	SetBorderColor 175 96 37 255 # Unique Border
@@ -3461,7 +3461,7 @@ Show
 # Unique Tier? $type->uniques $tier->multispecial
 Show
 	Rarity = Unique
-	BaseType == "Amethyst Ring" "Archon Kite Shield" "Assassin Bow" "Carved Wand" "Citrine Amulet" "Coral Ring" "Crusader Plate" "Crystal Sceptre" "Fiend Dagger" "Gavel" "Glorious Plate" "Goathide Boots" "Gold Amulet" "Gold Ring" "Heavy Belt" "Hellion's Paw" "Highborn Staff" "Hubris Circlet" "Hydrascale Gauntlets" "Imperial Bow" "Imperial Skean" "Iron Circlet" "Jade Amulet" "Lacquered Helmet" "Leather Belt" "Long Staff" "Medium Cluster Jewel" "Moonstone Ring" "Murder Mitts" "Necromancer Silks" "Onyx Amulet" "Paua Amulet" "Paua Ring" "Prophet Crown" "Sadist Garb" "Sage's Robe" "Saint's Hauberk" "Small Cluster Jewel" "Spidersilk Robe" "Spine Bow" "Stealth Boots" "Stibnite Flask" "Titan Gauntlets" "Titanium Spirit Shield" "Turquoise Amulet" "Two-Point Arrow Quiver" "Vaal Blade"
+	BaseType == "Amber Amulet" "Archon Kite Shield" "Assassin Bow" "Carved Wand" "Citrine Amulet" "Coral Ring" "Crusader Plate" "Crystal Sceptre" "Fiend Dagger" "Gavel" "Glorious Plate" "Goathide Boots" "Gold Amulet" "Gold Ring" "Heavy Belt" "Hubris Circlet" "Hydrascale Gauntlets" "Imperial Bow" "Imperial Skean" "Iron Circlet" "Jade Amulet" "Lacquered Helmet" "Leather Belt" "Long Staff" "Medium Cluster Jewel" "Moonstone Ring" "Murder Mitts" "Necromancer Silks" "Onyx Amulet" "Paua Amulet" "Paua Ring" "Praetor Crown" "Prophet Crown" "Sadist Garb" "Sage's Robe" "Saint's Hauberk" "Small Cluster Jewel" "Sorcerer Boots" "Spidersilk Robe" "Spine Bow" "Stealth Boots" "Stibnite Flask" "Titan Gauntlets" "Titanium Spirit Shield" "Turquoise Amulet" "Two-Point Arrow Quiver" "Two-Stone Ring" "Vaal Blade" "Vaal Claw" "Varnished Coat"
 	SetTextColor 175 96 37 255 # Unique Text
 	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
 	SetBorderColor 175 96 37 255 # Unique Border
@@ -3473,7 +3473,7 @@ Show
 # Unique Early Prediction $type->uniques $tier->earlyleague
 Show
 	Rarity = Unique
-	BaseType == "Ambush Mitts" "Amethyst Flask" "Assassin's Garb" "Assassin's Mitts" "Astral Plate" "Blood Sceptre" "Branded Kite Shield" "Bronzescale Boots" "Bronzescale Gauntlets" "Callous Mask" "Cutthroat's Garb" "Deicide Mask" "Demon's Horn" "Destiny Leather" "Exquisite Leather" "Ezomyte Burgonet" "Ezomyte Dagger" "Ezomyte Staff" "Festival Mask" "Granite Flask" "Imperial Claw" "Imperial Maul" "Ivory Spirit Shield" "Judgement Staff" "Lacquered Garb" "Leather Cap" "Mind Cage" "Mirrored Spiked Shield" "Nightmare Bascinet" "Nubuck Boots" "Opal Ring" "Pinnacle Tower Shield" "Platinum Sceptre" "Prismatic Ring" "Quartz Flask" "Rawhide Tower Shield" "Sapphire Ring" "Short Bow" "Silken Vest" "Sinner Tricorne" "Spiraled Wand" "Stygian Vise" "Titan Greaves" "Triumphant Lamellar" "Vaal Claw" "Vanguard Belt" "Varnished Coat" "Void Axe"
+	BaseType == "Amethyst Flask" "Assassin's Garb" "Assassin's Mitts" "Astral Plate" "Blood Sceptre" "Bronzescale Boots" "Bronzescale Gauntlets" "Callous Mask" "Cutthroat's Garb" "Demon's Horn" "Destiny Leather" "Exquisite Leather" "Ezomyte Burgonet" "Ezomyte Staff" "Festival Mask" "Granite Flask" "Imperial Claw" "Imperial Maul" "Ivory Spirit Shield" "Judgement Staff" "Lacquered Garb" "Leather Cap" "Mind Cage" "Mirrored Spiked Shield" "Nightmare Bascinet" "Nubuck Boots" "Opal Ring" "Pinnacle Tower Shield" "Platinum Sceptre" "Prismatic Ring" "Quartz Flask" "Rawhide Tower Shield" "Sapphire Ring" "Short Bow" "Silken Vest" "Sinner Tricorne" "Spiraled Wand" "Stygian Vise" "Titan Greaves" "Triumphant Lamellar" "Vanguard Belt"
 	SetTextColor 175 96 37 255 # Unique Text
 	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
 	SetBorderColor 175 96 37 255 # Unique Border
