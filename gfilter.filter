@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.20.0
+# VERSION:       3.20.1
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -2258,27 +2258,39 @@ Show
 #-------------------------------------------------------------------------------
 
 # T1.5 Scarab
-Show
-	Class = "Map Fragments"
-	BaseType = "Gilded Cartography Scarab" "Gilded Breach Scarab" "Gilded Ambush Scarab" "Gilded Sulphite Scarab" "Polished Sulphite Scarab" "Rusted Sulphite Scarab" "Gilded Bestiary Scarab" "Gilded Divination Scarab" "Polished Divination Scarab" "Polished Cartography Scarab" "Gilded Harbinger Scarab" "Gilded Elder Scarab" "Rusted Cartography Scarab"
-	SetTextColor 255 200 0 255 # Legacy Text
-	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
-	SetBorderColor 255 200 0 255 # Legacy Border
-	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3" 200
-	MinimapIcon 1 Red Diamond
-	PlayEffect Yellow 
+#Show
+#	Class = "Map Fragments"
+#	BaseType = "Gilded Cartography Scarab" "Gilded Breach Scarab" "Gilded Ambush Scarab" "Gilded Sulphite Scarab" "Polished Sulphite Scarab" "Rusted Sulphite Scarab" "Gilded Bestiary Scarab" "Gilded Divination Scarab" "Polished Divination Scarab" "Polished Cartography Scarab" "Gilded Harbinger Scarab" "Gilded Elder Scarab" "Rusted Cartography Scarab"
+#	SetTextColor 255 200 0 255 # Legacy Text
+#	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
+#	SetBorderColor 255 200 0 255 # Legacy Border
+#	SetFontSize 45 # Yuge
+#	CustomAlertSound "gfT15.mp3" 200
+#	MinimapIcon 1 Red Diamond
+#	PlayEffect Yellow 
+
+# T2 Scarab
+#Show
+#	Class = "Map Fragments"
+#	BaseType = "Polished Breach Scarab" "Gilded Reliquary Scarab" "Polished Bestiary Scarab" "Polished Ambush Scarab" "Rusted Divination Scarab" "Polished Harbinger Scarab" "Polished Elder Scarab"
+#	SetTextColor 255 200 0 255 # Legacy Text
+#	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
+#	SetBorderColor 0 0 0 0 # No Border
+#	SetFontSize 45 # Yuge
+#	CustomAlertSound "gfT3.mp3" 200
+#	MinimapIcon 1 Yellow Diamond
+#	PlayEffect Yellow Temp
 
 # T2 Scarab
 Show
 	Class = "Map Fragments"
-	BaseType = "Polished Breach Scarab" "Gilded Reliquary Scarab" "Polished Bestiary Scarab" "Polished Ambush Scarab" "Rusted Divination Scarab" "Polished Harbinger Scarab" "Polished Elder Scarab"
+	BaseType = "Expedition Scarab" "Ambush Scarab" "Breach Scarab" "Blight Scarab" "Legion Scarab" "Divination Scarab"
 	SetTextColor 255 200 0 255 # Legacy Text
 	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
 	SetBorderColor 0 0 0 0 # No Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3" 200
-	MinimapIcon 1 Yellow Diamond
+	CustomAlertSound "gfT3.mp3" 200
+	MinimapIcon 1 White Diamond
 	PlayEffect Yellow Temp
 
 # Scarab
@@ -2289,8 +2301,7 @@ Show
 	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
 	SetBorderColor 0 0 0 0 # No Border
 	SetFontSize 41 # Big
-	CustomAlertSound "gfT3.mp3" 100
-	MinimapIcon 2 White Diamond
+	#BlockStrictness 3 Hide
 
 #-------------------------------------------------------------------------------
 # Subsection: Lure
@@ -6149,3 +6160,4 @@ Show
 	SetFontSize 45 # Yuge
 	PlayAlertSound 15 300 # wat
 	MinimapIcon 0 Red Star
+
