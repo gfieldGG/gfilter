@@ -1,4 +1,4 @@
-#===============================================================================
+﻿#===============================================================================
 # GFILTER
 #===============================================================================
 #
@@ -703,8 +703,8 @@ Show
 	SetBackgroundColor 100 100 100 240 # Delirium Highlight Background
 	SetBorderColor 210 210 210 255 # Delirium Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3" 200
-	MinimapIcon 0 Red Circle
+	CustomAlertSound "gfT2.mp3" 200
+	MinimapIcon 1 Yellow Circle
 	PlayEffect White 
 
 # Delirium Orb
@@ -715,8 +715,8 @@ Show
 	SetBackgroundColor 100 100 100 240 # Delirium Highlight Background
 	SetBorderColor 210 210 210 255 # Delirium Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3" 200
-	MinimapIcon 1 Red Circle
+	CustomAlertSound "gfT3.mp3" 200
+	MinimapIcon 1 White Circle
 	PlayEffect White Temp
 
 # Simulacrum Splinter Stack20
@@ -6160,4 +6160,3 @@ Show
 	SetFontSize 45 # Yuge
 	PlayAlertSound 15 300 # wat
 	MinimapIcon 0 Red Star
-
