@@ -1,4 +1,4 @@
-﻿#===============================================================================
+#===============================================================================
 # GFILTER
 #===============================================================================
 #
@@ -1948,7 +1948,7 @@ Show
 Show
 	StackSize >= 4
 	Class = "Currency"
-	BaseType = "Jeweller's Orb" "Orb of Chance" "Chromatic Orb" "Engineer's Orb"
+	BaseType = "Jeweller's Orb" "Orb of Chance" "Chromatic Orb" "Engineer's Orb" "Orb of Alteration"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetFontSize 45 # Yuge
@@ -1958,31 +1958,31 @@ Show
 # Currency Tier4
 Show
 	Class = "Currency"
-	BaseType = "Jeweller's Orb" "Orb of Chance" "Chromatic Orb" "Engineer's Orb"
+	BaseType = "Jeweller's Orb" "Orb of Chance" "Chromatic Orb" "Engineer's Orb" "Orb of Alteration"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetFontSize 41 # Big
 	#BlockStrictness 3 Hide
 
 # Currency Tier3.5 Stack
-Show
-	StackSize >= 3
-	Class = "Currency"
-	BaseType = "Orb of Alteration"
-	SetTextColor 200 186 153 255 # Currency Text
-	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
-	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT3.mp3" 200
-	MinimapIcon 2 White Circle
+#Show
+#	StackSize >= 3
+#	Class = "Currency"
+#	BaseType = "Orb of Alteration"
+#	SetTextColor 200 186 153 255 # Currency Text
+#	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
+#	SetFontSize 45 # Yuge
+#	CustomAlertSound "gfT3.mp3" 200
+#	MinimapIcon 2 White Circle
 
 # Currency Tier3.5
-Show
-	Class = "Currency"
-	BaseType = "Orb of Alteration"
-	SetTextColor 200 186 153 255 # Currency Text
-	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
-	SetFontSize 45 # Yuge
-	#BlockStrictness 3 Hide
+#Show
+#	Class = "Currency"
+#	BaseType = "Orb of Alteration"
+#	SetTextColor 200 186 153 255 # Currency Text
+#	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
+#	SetFontSize 45 # Yuge
+#	#BlockStrictness 3 Hide
 
 # Orb of Binding leveling
 Show
