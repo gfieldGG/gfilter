@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.20.2
+# VERSION:       3.21.0
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -63,6 +63,26 @@ Show
 	HasExplicitMod = "Tacati" "Citaqualotl" "Matatl" "Topotante" "Xopec" "Guatelitzi" "Puhuarte"
 	SetFontSize 41 # Big
 	#BlockStrictness 3 Disable
+
+#===============================================================================
+# Section: Crucible
+#===============================================================================
+
+# crucible i dunno
+Show
+	BaseType == "Crystalline Geode" "Igneous Geode" "Magmatic Ore"
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBorderColor 242 155 48 255
+	SetFontSize 41 # Big
+	MinimapIcon 2 Orange Circle
+
+# crucible tree items
+Show
+	HasCruciblePassiveTree = True
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBorderColor 242 155 48 255
+	SetFontSize 41 # Big
+	MinimapIcon 1 Orange Hexagon
 
 #===============================================================================
 # Section: Forbidden Sanctum
@@ -1400,8 +1420,7 @@ Show
 
 # Breachstone
 Show
-	Class = "Map Fragments"
-	BaseType = "Breachstone"
+	Class == "Breachstone"
 	SetTextColor 166 95 244 255 # Breach Text
 	SetBackgroundColor 21 12 30 255 # Breach Highlight Background
 	SetBorderColor 182 20 0 255 # Breach Border
