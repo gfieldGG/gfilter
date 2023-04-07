@@ -3355,7 +3355,7 @@ Show
 	MinimapIcon 1 Yellow Hexagon
 	PlayEffect Blue 
 
-# Uber Impresence
+# Uber Impresence $type->uniques $tier->exuberimpresence
 Show
 	HasInfluence = "Shaper"
 	HasInfluence = "Elder"
@@ -3407,7 +3407,7 @@ Show
 #	MinimapIcon 0 Red Hexagon
 #	PlayEffect Brown 
 
-# The Squire (probably)
+# The Squire (probably) $type->uniques $tier->exsquire
 Show
 	Sockets = "WWW"
 	Rarity = Unique
@@ -3420,10 +3420,23 @@ Show
 	MinimapIcon 0 Red Hexagon
 	PlayEffect Brown 
 
-# Tabula Rasa
+# Tabula Rasa $type->uniques $tier->extabula
 Show
 	SocketGroup >= "WWWWWW"
 	BaseType == "Simple Robe"
+	SetTextColor 175 96 37 255 # Unique Text
+	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
+	SetBorderColor 175 96 37 255 # Unique Border
+	SetFontSize 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 1 Yellow Hexagon
+	PlayEffect Brown 
+
+# Rational Doctrine $type->uniques $tier->exrationaljewel
+Show
+	SynthesisedItem True
+	Rarity Unique
+	Class "Jewel"
 	SetTextColor 175 96 37 255 # Unique Text
 	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
 	SetBorderColor 175 96 37 255 # Unique Border
