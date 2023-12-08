@@ -5485,12 +5485,13 @@ Show
 #	CustomAlertSound "gfT15.mp3" 200
 #	MinimapIcon 0 Red Hexagon
 
-# Tranfigured Gem
+# Transfigured Gem
 Show
+	TransfiguredGem = True
 	Class = "Skill Gem" "Support Gem"
 	SetTextColor 26 162 155 255 # Gem Text
 	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
-	SetBorderColor 242 93 39 255 # Heist Border
+	SetBorderColor 80 191 108 255 # Ascendancy Border
 	SetFontSize 41 # Big
 	CustomAlertSound "gfT3.mp3" 200
 	MinimapIcon 1 Yellow Hexagon
