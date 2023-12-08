@@ -1,4 +1,4 @@
-﻿#===============================================================================
+#===============================================================================
 # GFILTER
 #===============================================================================
 #
@@ -63,6 +63,29 @@ Show
 	HasExplicitMod = "Tacati" "Citaqualotl" "Matatl" "Topotante" "Xopec" "Guatelitzi" "Puhuarte"
 	SetFontSize 41 # Big
 	#BlockStrictness 3 Disable
+
+#===============================================================================
+# Section: Affliction
+#===============================================================================
+
+# T1 Omen
+Show
+	Class == "Stackable Currency"
+	BaseType = "Omen of Blanching" "Omen of Connections" "Omen of Fortune" "Omen of the Jeweller"
+	SetTextColor 23 38 40 255
+	SetBackgroundColor 125 154 193 255
+	SetBorderColor 23 38 40 255
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT15.mp3" 100
+	MinimapIcon 1 Red Circle
+
+# Omen
+Show
+	Class == "Stackable Currency"
+	BaseType = "Omen of"
+	SetTextColor 125 154 193 255
+	SetBackgroundColor 23 38 40 255
+	SetFontSize 41 # Big
 
 #===============================================================================
 # Section: Crucible
