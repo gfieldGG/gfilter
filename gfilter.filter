@@ -865,7 +865,7 @@ Show
 # Catalyst
 Show
 	Class = "Stackable Currency"
-	BaseType = "Fertile Catalyst" "Intrinsic Catalyst" "Prismatic Catalyst" "Tempering Catalyst"
+	BaseType = "Fertile Catalyst" "Intrinsic Catalyst" "Prismatic Catalyst" "Tempering Catalyst" "Tainted Catalyst"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 15 27 15 255 # Metamorph Highlight Background
 	SetBorderColor 125 180 50 255 # Metamorph Border
