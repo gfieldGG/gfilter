@@ -1,4 +1,4 @@
-#===============================================================================
+﻿#===============================================================================
 # GFILTER
 #===============================================================================
 #
@@ -112,19 +112,26 @@ Show
 #	PlayEffect Yellow Temp
 
 # Selected Relics $type->artefact->sanctifiedrelics $tier->selectedrelics
-#Show
-#	Class = "Relic"
-#	BaseType == "Candlestick Relic" "Censer Relic" "Coffer Relic" "Papyrus Relic" "Processional Relic" "Tome Relic" "Urn Relic"
-#	SetTextColor 242 214 162 255
-#	SetBackgroundColor 64 37 22 255
-#	SetFontSize 45 # Big
+Show
+	Class = "Relic"
+	BaseType == "Candlestick Relic" "Censer Relic" "Coffer Relic" "Papyrus Relic" "Processional Relic" "Tome Relic" "Urn Relic"
+	SetTextColor 242 214 162 255
+	SetBackgroundColor 64 37 22 255
+	SetFontSize 45 # Big
 
 # Sanctum Relic
-#Show
-#	Class = "Relic"
-#	SetTextColor 242 214 162 255
-#	SetBackgroundColor 64 37 22 255
-#	SetFontSize 41 # Big
+Show
+	Class = "Relic"
+	SetTextColor 242 214 162 255
+	SetBackgroundColor 64 37 22 255
+	SetFontSize 41 # Big
+
+# Sanctum Research
+Show
+	Class = "Sanctum Research"
+	SetTextColor 242 214 162 255
+	SetBackgroundColor 64 37 22 255
+	SetFontSize 41 # Big
 
 #===============================================================================
 # Section: Lake of Kalandra
