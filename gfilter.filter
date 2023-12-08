@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.21.2
+# VERSION:       3.23.0
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -810,23 +810,23 @@ Show
 #===============================================================================
 
 # Unique Metamorph Sample
-Show
-	Rarity = Unique
-	Class = "Metamorph Sample"
-	SetTextColor 125 180 50 255 # Metamorph Text
-	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
-	SetFontSize 45 # Yuge
-	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 0 Green Diamond
-	PlayEffect Green 
+# Show
+# 	Rarity = Unique
+# 	Class = "Metamorph Sample"
+# 	SetTextColor 125 180 50 255 # Metamorph Text
+# 	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
+# 	SetFontSize 45 # Yuge
+# 	PlayAlertSound 3 200 # Tier2
+# 	MinimapIcon 0 Green Diamond
+# 	PlayEffect Green 
 
 # Metamorph Sample
-Show
-	Class = "Metamorph Sample"
-	SetTextColor 125 180 50 255 # Metamorph Text
-	SetBackgroundColor 15 27 15 255 # Metamorph Highlight Background
-	SetFontSize 45 # Yuge
-	PlayEffect Green Temp
+# Show
+# 	Class = "Metamorph Sample"
+# 	SetTextColor 125 180 50 255 # Metamorph Text
+# 	SetBackgroundColor 15 27 15 255 # Metamorph Highlight Background
+# 	SetFontSize 45 # Yuge
+# 	PlayEffect Green Temp
 
 #-------------------------------------------------------------------------------
 # Subsection: Catalysts
