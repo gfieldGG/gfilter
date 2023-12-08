@@ -1,4 +1,4 @@
-﻿#===============================================================================
+#===============================================================================
 # GFILTER
 #===============================================================================
 #
@@ -69,20 +69,20 @@ Show
 #===============================================================================
 
 # crucible i dunno
-Show
-	BaseType == "Crystalline Geode" "Igneous Geode" "Magmatic Ore"
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetBorderColor 242 155 48 255
-	SetFontSize 41 # Big
-	MinimapIcon 2 Orange Circle
+# Show
+# 	BaseType == "Crystalline Geode" "Igneous Geode" "Magmatic Ore"
+# 	SetBackgroundColor 0 0 0 255 # Default Background
+# 	SetBorderColor 242 155 48 255
+# 	SetFontSize 41 # Big
+# 	MinimapIcon 2 Orange Circle
 
 # crucible tree items
-Show
-	HasCruciblePassiveTree = True
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetBorderColor 242 155 48 255
-	SetFontSize 41 # Big
-	MinimapIcon 1 Orange Hexagon
+# Show
+# 	HasCruciblePassiveTree = True
+# 	SetBackgroundColor 0 0 0 255 # Default Background
+# 	SetBorderColor 242 155 48 255
+# 	SetFontSize 41 # Big
+# 	MinimapIcon 1 Orange Hexagon
 
 #===============================================================================
 # Section: Forbidden Sanctum
@@ -4256,17 +4256,6 @@ Show
 #===============================================================================
 # Section: Endgame Bases
 #===============================================================================
-
-# Bases Crucible junk
-Hide
-	Corrupted = False
-	ItemLevel >= 68
-	Rarity <= Magic
-	BaseType == "Despot Axe"
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetBorderColor 242 155 48 255
-	SetFontSize 45 # Yuge
-	#BlockStrictness 3 Disable
 
 # Hide Endgame Base NormalMagic
 #Hide
