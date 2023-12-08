@@ -68,6 +68,30 @@ Show
 # Section: Affliction
 #===============================================================================
 
+# Charm
+Show
+	Class = "Charm"
+	SetTextColor 66 94 2 255
+	SetBackgroundColor 41 27 14 255
+	SetBorderColor 58 83 2 255
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT15.mp3" 200
+	MinimapIcon 1 Red Hexagon
+
+# Tincture
+Show
+	Class = "Tincture"
+	SetTextColor 43 70 0 255
+	SetBackgroundColor 140 146 157 255
+	SetBorderColor 43 73 0 255
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT15.mp3" 200
+	MinimapIcon 1 Red Hexagon
+
+#-------------------------------------------------------------------------------
+# Subsection: Omens
+#-------------------------------------------------------------------------------
+
 # T1 Omen
 Show
 	Class == "Stackable Currency"
@@ -76,7 +100,7 @@ Show
 	SetBackgroundColor 125 154 193 255
 	SetBorderColor 23 38 40 255
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3" 100
+	CustomAlertSound "gfT15.mp3" 200
 	MinimapIcon 1 Red Circle
 
 # Omen
@@ -254,7 +278,7 @@ Show
 # Tainted T1.5
 Show
 	Class = "Stackable Currency"
-	BaseType = "Tainted Mythic Orb" "Tainted Blessing" "Tainted Exalted Orb" "Tainted Orb of Fusing"
+	BaseType = "Tainted Blessing" "Tainted Exalted Orb" "Tainted Mythic Orb" "Tainted Orb of Fusing"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 200 186 153 255 # Currency Background
 	SetBorderColor 45 0 0 255 # Scourge Border
