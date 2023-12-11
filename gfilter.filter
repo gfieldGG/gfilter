@@ -73,29 +73,53 @@ Show
 	Class = "Charm"
 	SetTextColor 66 94 2 255
 	SetBackgroundColor 41 27 14 255
-	SetBorderColor 58 83 2 255
+	SetBorderColor 15 21 0 255
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3" 200
-	MinimapIcon 1 Red Hexagon
+	CustomAlertSound "gfT3.mp3" 200
+	MinimapIcon 2 White Hexagon
 
 # Tincture
 Show
 	Class = "Tincture"
-	SetTextColor 43 70 0 255
-	SetBackgroundColor 140 146 157 255
+	SetTextColor 66 94 2 255
+	SetBackgroundColor 152 157 167 255
 	SetBorderColor 43 73 0 255
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3" 200
-	MinimapIcon 1 Red Hexagon
+	CustomAlertSound "gfT3.mp3" 200
+	MinimapIcon 2 White Hexagon
 
 #-------------------------------------------------------------------------------
 # Subsection: Omens
 #-------------------------------------------------------------------------------
 
+# Hinekoras Lock
+Show
+	Class == "Stackable Currency"
+	BaseType == "Hinekora's Lock"
+	SetTextColor 98 128 0 255
+	SetBackgroundColor 255 255 255 255 # Tier0 Background
+	SetBorderColor 0 73 0 255
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT0.mp3" 200
+	MinimapIcon 0 Red Circle
+	PlayEffect Green 
+
+# T0 Omen
+Show
+	Class == "Stackable Currency"
+	BaseType = "Omen of Connections" "Omen of Fortune"
+	SetTextColor 125 154 255 255
+	SetBackgroundColor 255 255 255 255 # Tier0 Background
+	SetBorderColor 125 154 255 255
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT0.mp3" 200
+	MinimapIcon 0 Red Circle
+	PlayEffect Blue 
+
 # T1 Omen
 Show
 	Class == "Stackable Currency"
-	BaseType = "Omen of Blanching" "Omen of Connections" "Omen of Fortune" "Omen of the Jeweller"
+	BaseType = "Omen of Blanching" "Omen of the Jeweller"
 	SetTextColor 23 38 40 255
 	SetBackgroundColor 125 154 193 255
 	SetBorderColor 23 38 40 255
@@ -110,6 +134,7 @@ Show
 	SetTextColor 125 154 193 255
 	SetBackgroundColor 23 38 40 255
 	SetFontSize 41 # Big
+	#BlockStrictness 3 Hide
 
 #===============================================================================
 # Section: Crucible
@@ -136,16 +161,16 @@ Show
 #===============================================================================
 
 # Unique Relic
-#Show
-#	Rarity = Unique
-#	Class = "Relic"
-#	SetTextColor 175 96 37 255 # Unique Text
-#	SetBackgroundColor 242 214 162 255
-#	SetBorderColor 175 96 37 255 # Unique Border
-#	SetFontSize 45 # Yuge
-#	PlayAlertSound 3 200 # Tier2
-#	MinimapIcon 0 Yellow Hexagon
-#	PlayEffect Brown 
+Show
+	Rarity = Unique
+	Class = "Relic"
+	SetTextColor 175 96 37 255 # Unique Text
+	SetBackgroundColor 242 214 162 255
+	SetBorderColor 175 96 37 255 # Unique Border
+	SetFontSize 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 0 Yellow Hexagon
+	PlayEffect Brown 
 
 # Sanctified Relic
 #Show
@@ -173,12 +198,25 @@ Show
 	SetBackgroundColor 64 37 22 255
 	SetFontSize 41 # Big
 
-# Sanctum Research
+# Sanctum Forbidden Tome
 Show
-	Class = "Sanctum Research"
+	Class == "Sanctum Research"
+	BaseType == "Forbidden Tome"
+	SetTextColor 242 214 162 255
+	SetBackgroundColor 64 37 22 255
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT2.mp3" 100
+	MinimapIcon 1 Yellow Diamond
+
+# Sanctum Research wat
+Show
+	Class == "Sanctum Research"
 	SetTextColor 242 214 162 255
 	SetBackgroundColor 64 37 22 255
 	SetFontSize 41 # Big
+	PlayAlertSound 15 300 # wat
+	MinimapIcon 1 Pink Diamond
+	PlayEffect Pink 
 
 #===============================================================================
 # Section: Lake of Kalandra
@@ -3661,10 +3699,10 @@ Show
 
 # Unique Corrupted Implicit $type->uniques $tier->corrupteduniques
 Show
-	Corrupted True
+	Corrupted = True
 	CorruptedMods >= 1
 	Rarity = Unique
-	BaseType == "Amulets" "Belts" "Boots" "Gloves" "Helmets" "Quivers" "Rings" "Shields"
+	Class == "Amulets" "Belts" "Boots" "Gloves" "Helmets" "Quivers" "Rings" "Shields"
 	SetTextColor 175 96 37 255 # Unique Text
 	SetBackgroundColor 30 15 0 255 # Unique Highlight Background
 	SetFontSize 45 # Yuge
@@ -5499,42 +5537,6 @@ Show
 #-------------------------------------------------------------------------------
 # Subsection: Alt Quality Gems
 #-------------------------------------------------------------------------------
-
-# Divergent Gem T1 $type->gems-exceptional $tier->divt1
-#Show
-#	GemQualityType = Divergent
-#	Class = "Gem"
-#	BaseType = "Additional Accuracy Support" "Ancestral Cry" "Animate Guardian" "Arcane Cloak" "Artillery Ballista" "Assassin's Mark" "Ballista Totem Support" "Bone Offering" "Bonechill Support" "Boneshatter" "Cast when Damage Taken Support" "Chance to Bleed Support" "Combustion Support" "Creeping Frost" "Cyclone" "Dash" "Desecrate" "Determination" "Discharge" "Discipline" "Divine Blessing Support" "Dual Strike" "Energy Blade" "Eternal Blessing Support" "Explosive Concoction" "Explosive Trap" "Fireball" "Flammability" "Greater Volley Support" "Ground Slam" "Haste" "Hatred" "Herald of Agony" "Herald of Ash" "Herald of Ice" "Hexblast" "Immortal Call" "Innervate Support" "Inspiration Support" "Iron Will Support" "Life Leech Support" "Lifetap Support" "Lightning Arrow" "Lightning Penetration Support" "Lightning Warp" "Maim Support" "Mark On Hit Support" "Melee Splash Support" "Minion Damage Support" "Minion Speed Support" "Molten Strike" "Multiple Totems Support" "Multistrike Support" "Petrified Blood" "Plague Bearer" "Poisonous Concoction" "Power Charge On Critical Support" "Pulverise Support" "Purity of Elements" "Purity of Fire" "Rage Support" "Rain of Arrows" "Raise Zombie" "Reap" "Righteous Fire" "Scourge Arrow" "Seismic Trap" "Shield Crush" "Shockwave Support" "Shockwave Totem" "Spark" "Spell Totem Support" "Split Arrow" "Static Strike" "Storm Rain" "Summon Holy Relic" "Summon Raging Spirit" "Summon Skitterbots" "Swiftbrand Support" "Tempest Shield" "Temporal Chains" "Trap and Mine Damage Support" "Unearth" "Venom Gyre" "Void Manipulation Support" "Volatile Dead" "Vortex" "Wild Strike" "Withering Step" "Withering Touch Support" "Wrath"
-#	SetTextColor 0 0 0 255 # Tier1 Text
-#	SetBackgroundColor 26 162 155 255 # Gem Background
-#	SetBorderColor 242 93 39 255 # Heist Border
-#	SetFontSize 45 # Yuge
-#	CustomAlertSound "gfT15.mp3" 200
-#	MinimapIcon 0 Red Hexagon
-
-# Anomalous Gem T1 $type->gems-exceptional $tier->anot1
-#Show
-#	GemQualityType = Anomalous
-#	Class = "Gem"
-#	BaseType = "Anger" "Arrogance Support" "Artillery Ballista" "Assassin's Mark" "Ballista Totem Support" "Bane" "Berserk" "Blade Vortex" "Blastchain Mine Support" "Blood and Sand" "Blood Rage" "Bonechill Support" "Cast on Death Support" "Cast when Damage Taken Support" "Charged Traps Support" "Clarity" "Cold to Fire Support" "Concentrated Effect Support" "Conductivity" "Crackling Lance" "Cyclone" "Damage on Full Life Support" "Dark Pact" "Defiance Banner" "Despair" "Elemental Army Support" "Elemental Focus Support" "Elemental Hit" "Elemental Proliferation Support" "Empower Support" "Endurance Charge on Melee Stun Support" "Enhance Support" "Enlighten Support" "Essence Drain" "Eternal Blessing Support" "Explosive Concoction" "Feeding Frenzy Support" "Fist of War Support" "Flame Dash" "Flame Surge" "Flamethrower Trap" "Flammability" "Forbidden Rite" "Fortify Support" "Freezing Pulse" "Frost Shield" "Frostbite" "Frostbolt" "Grace" "Greater Multiple Projectiles Support" "Haste" "Herald of Ice" "Hex Bloom Support" "Ice Bite Support" "Ice Nova" "Ice Spear" "Ice Trap" "Immortal Call" "Increased Critical Damage Support" "Increased Critical Strikes Support" "Increased Duration Support" "Infernal Cry" "Inspiration Support" "Intimidating Cry" "Kinetic Blast" "Kinetic Bolt" "Less Duration Support" "Lifetap Support" "Lightning Penetration Support" "Malevolence" "Minion Speed Support" "Mirage Archer Support" "Multiple Traps Support" "Multistrike Support" "Nightblade Support" "Petrified Blood" "Phase Run" "Pierce Support" "Power Siphon" "Precision" "Puncture" "Purity of Elements" "Pyroclast Mine" "Rage Vortex" "Raise Spectre" "Reckoning" "Righteous Fire" "Shockwave Totem" "Sniper's Mark" "Spell Cascade Support" "Spell Echo Support" "Split Arrow" "Steelskin" "Storm Burst" "Summon Holy Relic" "Summon Skeletons" "Summon Stone Golem" "Temporal Chains" "Tornado Shot" "Toxic Rain" "Trap and Mine Damage Support" "Unbound Ailments Support" "Unleash Support" "Vengeance" "Vitality" "Void Manipulation Support" "War Banner" "Withering Step"
-#	SetTextColor 0 0 0 255 # Tier1 Text
-#	SetBackgroundColor 26 162 155 255 # Gem Background
-#	SetBorderColor 242 93 39 255 # Heist Border
-#	SetFontSize 45 # Yuge
-#	CustomAlertSound "gfT15.mp3" 200
-#	MinimapIcon 0 Red Hexagon
-
-# Phantasmal Gem T1
-#Show
-#	GemQualityType = Phantasmal
-#	Class = "Gem"
-#	BaseType = "Ancestral Protector" "Ballista Totem Support" "Barrage" "Creeping Frost" "Cremation" "Discharge" "Dominating Blow" "Fireball" "Flame Wall" "Frostbolt" "Ice Crash" "Leap Slam" "Lightning Arrow" "Lightning Strike" "Lightning Warp" "Raise Spectre" "Sigil of Power" "Smite" "Soulrend" "Spark" "Spectral Shield Throw" "Summon Raging Spirit" "Toxic Rain" "Unearth" "Wave of Conviction"
-#	SetTextColor 0 0 0 255 # Tier1 Text
-#	SetBackgroundColor 26 162 155 255 # Gem Background
-#	SetBorderColor 242 93 39 255 # Heist Border
-#	SetFontSize 45 # Yuge
-#	CustomAlertSound "gfT15.mp3" 200
-#	MinimapIcon 0 Red Hexagon
 
 # Transfigured Gem
 Show
