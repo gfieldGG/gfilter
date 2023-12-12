@@ -1,9 +1,9 @@
-#===============================================================================
+﻿#===============================================================================
 # GFILTER
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.23.1
+# VERSION:       3.23.2
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -2393,7 +2393,7 @@ Show
 # T1.5 Scarab
 #Show
 #	Class = "Map Fragments"
-#	BaseType = "Gilded Cartography Scarab" "Gilded Breach Scarab" "Gilded Ambush Scarab" "Gilded Sulphite Scarab" "Polished Sulphite Scarab" "Rusted Sulphite Scarab" "Gilded Bestiary Scarab" "Gilded Divination Scarab" "Polished Divination Scarab" "Polished Cartography Scarab" "Gilded Harbinger Scarab" "Gilded Elder Scarab" "Rusted Cartography Scarab"
+#	BaseType = "Gilded Ambush Scarab" "Gilded Bestiary Scarab" "Gilded Breach Scarab" "Gilded Cartography Scarab" "Gilded Divination Scarab" "Gilded Elder Scarab" "Gilded Harbinger Scarab" "Gilded Sulphite Scarab" "Polished Cartography Scarab" "Polished Divination Scarab" "Polished Sulphite Scarab" "Rusted Cartography Scarab" "Rusted Sulphite Scarab"
 #	SetTextColor 255 200 0 255 # Legacy Text
 #	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
 #	SetBorderColor 255 200 0 255 # Legacy Border
@@ -2434,7 +2434,6 @@ Show
 	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
 	SetBorderColor 0 0 0 0 # No Border
 	SetFontSize 41 # Big
-	#BlockStrictness 3 Hide
 
 #-------------------------------------------------------------------------------
 # Subsection: Lure
@@ -3266,7 +3265,7 @@ Show
 Show
 	MapTier >= 14
 	Class = "Maps"
-	BaseType == "Tropical Island Map" "Underground Sea Map" "City Square Map" "Jungle Valley Map" "Alleyways Map" "Port Map" "Lair Map" "Tower Map" "Burial Chambers Map" "Canyon Map" "Crimson Temple Map" "Atoll Map" "Cemetery Map" "Estuary Map" "Strand Map" "Precinct Map" "Toxic Sewer Map" "Acid Caverns Map" "Haunted Mansion Map" "Silo Map" "Iceberg Map" "Lookout Map"
+	BaseType == "Acid Caverns Map" "Alleyways Map" "Atoll Map" "Burial Chambers Map" "Canyon Map" "Cemetery Map" "City Square Map" "Crimson Temple Map" "Estuary Map" "Haunted Mansion Map" "Iceberg Map" "Jungle Valley Map" "Lair Map" "Lookout Map" "Park Map" "Port Map" "Precinct Map" "Silo Map" "Strand Map" "Tower Map" "Toxic Sewer Map" "Tropical Island Map" "Underground Sea Map"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 243 40 29 255 # Map Red Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
