@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.23.2
+# VERSION:       3.23.3
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -78,15 +78,25 @@ Show
 	CustomAlertSound "gfT3.mp3" 200
 	MinimapIcon 2 White Hexagon
 
-# Tincture
+# Tincture Poison
 Show
 	Class = "Tincture"
+	BaseType == "Poisonberry Tincture"
 	SetTextColor 66 94 2 255
 	SetBackgroundColor 152 157 167 255
 	SetBorderColor 43 73 0 255
 	SetFontSize 45 # Yuge
 	CustomAlertSound "gfT3.mp3" 200
 	MinimapIcon 2 White Hexagon
+
+# Tincture
+Hide
+	Class = "Tincture"
+	SetTextColor 66 94 2 255
+	SetBackgroundColor 152 157 167 255
+	SetBorderColor 43 73 0 255
+	SetFontSize 41 # Big
+	#BlockStrictness 3 Hide
 
 #-------------------------------------------------------------------------------
 # Subsection: Omens
@@ -198,6 +208,18 @@ Show
 	SetBackgroundColor 64 37 22 255
 	SetFontSize 41 # Big
 
+# Sanctum Forbidden Tome ilvl
+Show
+	ItemLevel >= 78
+	Class == "Sanctum Research"
+	BaseType == "Forbidden Tome"
+	SetTextColor 64 37 22 255
+	SetBackgroundColor 242 214 162 255
+	SetBorderColor 64 37 22 255
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT15.mp3" 100
+	MinimapIcon 1 Red Diamond
+
 # Sanctum Forbidden Tome
 Show
 	Class == "Sanctum Research"
@@ -213,7 +235,7 @@ Show
 	Class == "Sanctum Research"
 	SetTextColor 242 214 162 255
 	SetBackgroundColor 64 37 22 255
-	SetFontSize 41 # Big
+	SetFontSize 45 # Yuge
 	PlayAlertSound 15 300 # wat
 	MinimapIcon 1 Pink Diamond
 	PlayEffect Pink 
@@ -363,7 +385,7 @@ Show
 # Expedition Reroll Currency T2
 Show
 	Class == "Stackable Currency"
-	BaseType == "Exotic Coinage" "Burial Medallion" "Astragali" "Scrap Metal"
+	BaseType == "Burial Medallion" "Exotic Coinage" "Scrap Metal"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 40 50 60 255 # Expedition Highlight Background
 	SetBorderColor 200 186 153 255 # Currency Border
@@ -373,12 +395,12 @@ Show
 	PlayEffect Yellow 
 
 # Expedition Reroll Currency
-#Show
-#	Class == "Stackable Currency"
-#	BaseType == "Scrap Metal" "Exotic Coinage" "Astragali" "Burial Medallion"
-#	SetTextColor 200 186 153 255 # Currency Text
-#	SetBackgroundColor 40 50 60 255 # Expedition Highlight Background
-#	SetFontSize 45 # Yuge
+Show
+	Class == "Stackable Currency"
+	BaseType == "Astragali" "Burial Medallion" "Exotic Coinage" "Scrap Metal"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 40 50 60 255 # Expedition Highlight Background
+	SetFontSize 45 # Yuge
 
 # Expedition Artifact
 Show
@@ -421,7 +443,7 @@ Show
 	SetTextColor 200 200 200 255 # Normal Text
 	SetBackgroundColor 40 4 0 255 # Breach Red Highlight Background
 	SetBorderColor 166 13 26 255 # Ultimatum Border
-	SetFontSize 41 # Big
+	SetFontSize 45 # Yuge
 	PlayAlertSound 3 200 # Tier2
 	MinimapIcon 1 Yellow Circle
 	PlayEffect Red Temp
@@ -434,15 +456,15 @@ Show
 Show
 	BaseType = "Ritual Splinter"
 	SetTextColor 150 0 0 255 # Ritual Text
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	SetFontSize 37 # Medium
+	SetBackgroundColor 0 0 0 140 # Faded Background
+	SetFontSize 41 # Big
 
 # Ritual Vessel
 Show
 	BaseType = "Ritual Vessel"
 	SetTextColor 150 0 0 255 # Ritual Text
 	SetBackgroundColor 40 4 0 255 # Breach Red Highlight Background
-	SetFontSize 37 # Medium
+	SetFontSize 41 # Big
 	CustomAlertSound "gfT2.mp3" 200
 	MinimapIcon 2 Yellow Circle
 	PlayEffect Red Temp
@@ -452,7 +474,7 @@ Show
 	BaseType = "Blood-filled Vessel"
 	SetTextColor 150 0 0 255 # Ritual Text
 	SetBackgroundColor 40 4 0 255 # Breach Red Highlight Background
-	SetFontSize 41 # Big
+	SetFontSize 45 # Yuge
 	CustomAlertSound "gfT2.mp3" 200
 	MinimapIcon 1 Yellow Diamond
 	PlayEffect Red 
@@ -657,7 +679,8 @@ Show
 	SetTextColor 78 203 217 255 # Primal Text
 	SetBackgroundColor 0 41 41 255 # Primal Highlight Background
 	SetFontSize 45 # Yuge
-	MinimapIcon 2 White Raindrop
+	MinimapIcon 1 Cyan Raindrop
+	PlayEffect Cyan Temp
 
 # Vivid Lifeforce
 Show
@@ -666,7 +689,8 @@ Show
 	SetTextColor 242 216 87 255 # Vivid Text
 	SetBackgroundColor 41 41 0 255 # Vivid Highlight Background
 	SetFontSize 45 # Yuge
-	MinimapIcon 2 White Raindrop
+	MinimapIcon 1 Yellow Raindrop
+	PlayEffect Yellow Temp
 
 # Wild Lifeforce
 Show
@@ -675,7 +699,8 @@ Show
 	SetTextColor 201 82 217 255 # Wild Text
 	SetBackgroundColor 41 0 41 255 # Wild Highlight Background
 	SetFontSize 45 # Yuge
-	MinimapIcon 2 White Raindrop
+	MinimapIcon 1 Pink Raindrop
+	PlayEffect Pink Temp
 
 # Sacred Lifeforce
 Show
@@ -684,8 +709,8 @@ Show
 	SetTextColor 67 162 230 255 # Harvest Text
 	SetBackgroundColor 25 35 50 255 # Harvest Highlight Background
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3" 150
-	MinimapIcon 1 Yellow Raindrop
+	CustomAlertSound "gfT15.mp3" 150
+	MinimapIcon 1 Red Raindrop
 	PlayEffect Blue 
 
 #-------------------------------------------------------------------------------
@@ -1099,14 +1124,14 @@ Show
 	SetBackgroundColor 28 16 40 255 # Legion Background
 	SetBorderColor 88 52 126 255 # Legion Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3" 200
-	MinimapIcon 1 Yellow Circle
-	PlayEffect Yellow Temp
+	CustomAlertSound "gfT3.mp3" 200
+	MinimapIcon 1 White Circle
+	PlayEffect White Temp
 
 # Incubator T2
 Show
 	Class = "Incubator"
-	BaseType = "Thaumaturge's Incubator" "Time-Lost Incubator" "Gemcutter's Incubator" "Foreboding Incubator" "Otherworldly Incubator" "Enchanted Incubator" "Diviner's Incubator" "Skittering Incubator" "Maddening Incubator"
+	BaseType = "Diviner's Incubator" "Enchanted Incubator" "Fine Incubator" "Foreboding Incubator" "Gemcutter's Incubator" "Maddening Incubator" "Ornate Incubator" "Otherworldly Incubator" "Skittering Incubator" "Thaumaturge's Incubator" "Time-Lost Incubator"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 28 16 40 255 # Legion Background
 	SetBorderColor 88 52 126 255 # Legion Border
@@ -3265,7 +3290,7 @@ Hide
 Show
 	MapTier >= 14
 	Class = "Maps"
-	BaseType == "Acid Caverns Map" "Alleyways Map" "Atoll Map" "Burial Chambers Map" "Canyon Map" "Cemetery Map" "City Square Map" "Crimson Temple Map" "Estuary Map" "Haunted Mansion Map" "Iceberg Map" "Jungle Valley Map" "Lair Map" "Lookout Map" "Park Map" "Port Map" "Precinct Map" "Silo Map" "Strand Map" "Tower Map" "Toxic Sewer Map" "Tropical Island Map" "Underground Sea Map"
+	BaseType == "Acid Caverns Map" "Alleyways Map" "Atoll Map" "Bog Map" "Burial Chambers Map" "Canyon Map" "Cemetery Map" "City Square Map" "Crimson Temple Map" "Estuary Map" "Haunted Mansion Map" "Iceberg Map" "Jungle Valley Map" "Lair Map" "Lookout Map" "Park Map" "Port Map" "Precinct Map" "Silo Map" "Strand Map" "Tower Map" "Toxic Sewer Map" "Tropical Island Map" "Underground Sea Map"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 243 40 29 255 # Map Red Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
