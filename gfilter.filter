@@ -1,4 +1,4 @@
-﻿#===============================================================================
+#===============================================================================
 # GFILTER
 #===============================================================================
 #
@@ -1177,9 +1177,7 @@ Show
 	Rarity <= Rare
 	SetBackgroundColor 45 45 45 255 # Fractured Background
 	SetBorderColor 0 0 176 255 # Synthesis Border
-	SetFontSize 45 # Yuge
-	PlayAlertSound 7 300 # Tier1.5
-	MinimapIcon 1 Red Hexagon
+	SetFontSize 41 # Big
 	PlayEffect White 
 
 # Fractured Jewelry ilvl82
@@ -1187,25 +1185,21 @@ Show
 	FracturedItem = True
 	ItemLevel >= 82
 	Rarity <= Rare
-	BaseType = "Titanium Spirit Shield" "Sorcerer Boots" "Sorcerer Gloves" "Vaal Regalia" "Hubris Circlet"
+	BaseType = "Hubris Circlet" "Sorcerer Boots" "Sorcerer Gloves" "Titanium Spirit Shield" "Vaal Regalia"
 	SetBackgroundColor 45 45 45 255 # Fractured Background
 	SetBorderColor 0 0 176 255 # Synthesis Border
-	SetFontSize 45 # Yuge
-	PlayAlertSound 7 300 # Tier1.5
-	MinimapIcon 1 Red Hexagon
-	PlayEffect White 
+	SetFontSize 41 # Big
+	#BlockStrictness 3 Hide
 
 # Fractured T1 Base
 Show
 	FracturedItem = True
 	Rarity <= Rare
-	BaseType = "Titanium Spirit Shield" "Sorcerer Boots" "Sorcerer Gloves" "Vaal Regalia" "Hubris Circlet"
+	BaseType = "Hubris Circlet" "Sorcerer Boots" "Sorcerer Gloves" "Titanium Spirit Shield" "Vaal Regalia"
 	SetBackgroundColor 45 45 45 255 # Fractured Background
 	SetBorderColor 0 0 176 255 # Synthesis Border
-	SetFontSize 45 # Yuge
-	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 1 Yellow Hexagon
-	PlayEffect White 
+	SetFontSize 41 # Big
+	#BlockStrictness 3 Hide
 
 # Fractured Jewel
 Show
@@ -1214,10 +1208,7 @@ Show
 	Class = "Jewel"
 	SetBackgroundColor 45 45 45 255 # Fractured Background
 	SetBorderColor 0 0 176 255 # Synthesis Border
-	SetFontSize 41 # Big
-	PlayAlertSound 6 150 # Tier3
-	MinimapIcon 2 White Hexagon
-	PlayEffect White 
+	SetFontSize 45 # Yuge
 
 # Fractured Item Small
 Show
@@ -1250,9 +1241,7 @@ Show
 	Rarity <= Rare
 	SetBackgroundColor 0 0 64 255 # Synthesis Highlight Background
 	SetFontSize 45 # Yuge
-	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 0 Blue Hexagon
-	PlayEffect Blue 
+	PlayEffect Blue Temp
 
 # Synthesised Item
 Show
