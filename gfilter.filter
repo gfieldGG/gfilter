@@ -3220,18 +3220,18 @@ Show
 	PlayEffect Red 
 
 # Map Beyond T14+
-Show
-	MapTier >= 14
-	Rarity = Rare
-	Class = "Maps"
-	HasExplicitMod = "Otherworldly"
-	SetTextColor 255 255 255 255 # Normal Highlight Text
-	SetBackgroundColor 243 40 29 255 # Map Red Background
-	SetBorderColor 255 255 255 255 # Tier1 Border
-	SetFontSize 45 # Yuge
-	PlayAlertSound 4 150 # Map
-	MinimapIcon 0 Red Square
-	PlayEffect Red 
+#Show
+#	MapTier >= 14
+#	Rarity = Rare
+#	Class = "Maps"
+#	HasExplicitMod = "Otherworldly"
+#	SetTextColor 255 255 255 255 # Normal Highlight Text
+#	SetBackgroundColor 243 40 29 255 # Map Red Background
+#	SetBorderColor 255 255 255 255 # Tier1 Border
+#	SetFontSize 45 # Yuge
+#	PlayAlertSound 4 150 # Map
+#	MinimapIcon 0 Red Square
+#	PlayEffect Red 
 
 # Map T14+ 8mod
 Show
@@ -3279,7 +3279,7 @@ Show
 Show
 	MapTier >= 14
 	Class = "Maps"
-	BaseType == "Acid Caverns Map" "Alleyways Map" "Atoll Map" "Bog Map" "Burial Chambers Map" "Canyon Map" "Cemetery Map" "City Square Map" "Crimson Temple Map" "Estuary Map" "Haunted Mansion Map" "Iceberg Map" "Jungle Valley Map" "Lair Map" "Lookout Map" "Park Map" "Port Map" "Precinct Map" "Silo Map" "Strand Map" "Tower Map" "Toxic Sewer Map" "Tropical Island Map" "Underground Sea Map"
+	BaseType == "Acid Caverns Map" "Alleyways Map" "Atoll Map" "Bog Map" "Burial Chambers Map" "Canyon Map" "Cemetery Map" "City Square Map" "Crimson Temple Map" "Dunes Map" "Estuary Map" "Haunted Mansion Map" "Iceberg Map" "Jungle Valley Map" "Lair Map" "Lookout Map" "Park Map" "Port Map" "Precinct Map" "Silo Map" "Strand Map" "Tower Map" "Toxic Sewer Map" "Tropical Island Map" "Underground Sea Map"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 243 40 29 255 # Map Red Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -3300,6 +3300,21 @@ Show
 	MinimapIcon 1 Red Square
 	PlayEffect Red 
 	#BlockStrictness 3 Disable
+
+# Map Exception Dunes TODO DELETE ME
+#Show
+#	AreaLevel >= 81
+#	MapTier = 13
+#	Class = "Maps"
+#	BaseType == "Dunes Map"
+#	SetTextColor 0 0 0 255 # Map Text
+#	SetBackgroundColor 243 40 29 255 # Map Red Background
+#	SetBorderColor 122 20 15 255 # Map Red Border
+#	SetFontSize 45 # Yuge
+#	PlayAlertSound 4 150 # Map
+#	MinimapIcon 1 Red Square
+#	PlayEffect Red Temp
+#	#BlockStrictness 3 Disable
 
 # Map Red T14+ low
 #Show
