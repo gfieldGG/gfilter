@@ -1,4 +1,4 @@
-﻿#===============================================================================
+#===============================================================================
 # GFILTER
 #===============================================================================
 #
@@ -167,7 +167,7 @@ Show
 #	MinimapIcon 1 Orange Hexagon
 
 #===============================================================================
-# Section: Forbidden Sanctum
+# Section: Sanctum
 #===============================================================================
 
 # Unique Relic
@@ -210,7 +210,7 @@ Show
 
 # Sanctum Forbidden Tome ilvl
 Show
-	ItemLevel >= 78
+	ItemLevel >= 81
 	Class == "Sanctum Research"
 	BaseType == "Forbidden Tome"
 	SetTextColor 64 37 22 255
@@ -219,6 +219,7 @@ Show
 	SetFontSize 45 # Yuge
 	CustomAlertSound "gfT15.mp3" 100
 	MinimapIcon 1 Red Diamond
+	PlayEffect Yellow 
 
 # Sanctum Forbidden Tome
 Show
@@ -229,16 +230,18 @@ Show
 	SetFontSize 45 # Yuge
 	CustomAlertSound "gfT2.mp3" 100
 	MinimapIcon 1 Yellow Diamond
+	PlayEffect Yellow 
 
-# Sanctum Research wat
+# Sanctum Research in-progress
 Show
 	Class == "Sanctum Research"
 	SetTextColor 242 214 162 255
 	SetBackgroundColor 64 37 22 255
+	SetBorderColor 242 214 162 255
 	SetFontSize 45 # Yuge
-	PlayAlertSound 15 300 # wat
-	MinimapIcon 1 Pink Diamond
-	PlayEffect Pink 
+	PlayAlertSound 4 150 # Map
+	MinimapIcon 1 Yellow Diamond
+	PlayEffect Yellow 
 
 #===============================================================================
 # Section: Lake of Kalandra
