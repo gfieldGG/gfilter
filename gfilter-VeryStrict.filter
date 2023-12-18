@@ -1070,7 +1070,7 @@ Show
 
 # Legion Emblem
 Show
-	BaseType = "Timeless Eternal Empire Emblem" "Timeless Karui Emblem" "Timeless Maraketh Emblem" "Timeless Templar Emblem" "Timeless Vaal Emblem"
+	BaseType = "Timeless Eternal Emblem" "Timeless Karui Emblem" "Timeless Maraketh Emblem" "Timeless Templar Emblem" "Timeless Vaal Emblem"
 	SetTextColor 88 52 126 255 # Legion Text
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 88 52 126 255 # Legion Border
