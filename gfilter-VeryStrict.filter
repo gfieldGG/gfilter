@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.23.4
+# VERSION:       3.23.5
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -1057,15 +1057,27 @@ Hide
 # Section: Legion
 #===============================================================================
 
+# Legion Emblem T15
 Show
-	BaseType = "Timeless Karui Emblem" "Timeless Maraketh Emblem" "Timeless Templar Emblem" "Timeless Vaal Emblem" "Timeless Eternal Emblem"
+	BaseType = "Timeless Maraketh Emblem" "Timeless Templar Emblem" "Unrelenting Timeless Eternal Emblem" "Unrelenting Timeless Karui Emblem" "Unrelenting Timeless Maraketh Emblem" "Unrelenting Timeless Templar Emblem" "Unrelenting Timeless Vaal Emblem"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 88 52 126 255
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT15.mp3" 200
+	MinimapIcon 1 Red Diamond
+	PlayEffect Red 
+
+# Legion Emblem
+Show
+	BaseType = "Timeless Eternal Empire Emblem" "Timeless Karui Emblem" "Timeless Maraketh Emblem" "Timeless Templar Emblem" "Timeless Vaal Emblem"
 	SetTextColor 88 52 126 255 # Legion Text
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetBorderColor 88 52 126 255 # Legion Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3" 200
-	MinimapIcon 0 Red Diamond
-	PlayEffect Red 
+	CustomAlertSound "gfT2.mp3" 200
+	MinimapIcon 1 Yellow Diamond
+	PlayEffect Yellow 
 
 # Legion Splinter nice stack
 Show
@@ -1105,18 +1117,6 @@ Hide
 #-------------------------------------------------------------------------------
 # Subsection: Incubators
 #-------------------------------------------------------------------------------
-
-# Incubator T1
-Show
-	Class = "Incubator"
-	BaseType = "Geomancer's Incubator"
-	SetTextColor 200 186 153 255 # Currency Text
-	SetBackgroundColor 28 16 40 255 # Legion Background
-	SetBorderColor 88 52 126 255 # Legion Border
-	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3" 200
-	MinimapIcon 1 Red Circle
-	PlayEffect Red 
 
 # Incubator high ilvl
 Show
@@ -1424,13 +1424,25 @@ Show
 #	MinimapIcon 2 White Hexagon
 #	#BlockStrictness 3 Disable
 
-# Abyss Jewel ilvl83 low
+# Abyss Jewel corrupted
 Show
+	Corrupted = True
+	Class = "Abyss Jewel"
+	SetTextColor 169 189 149 255 # Abyss Text
+	SetBackgroundColor 30 0 15 255 # Vaal Highlight Background
+	SetBorderColor 169 189 149 255 # Abyss Border
+	SetFontSize 45 # Yuge
+	PlayAlertSound 6 150 # Tier3
+	MinimapIcon 2 White Hexagon
+
+# Abyss Jewel ilvl83 low
+Hide
 	ItemLevel >= 83
 	Class = "Abyss Jewel"
 	SetTextColor 169 189 149 255 # Abyss Text
 	SetBackgroundColor 30 34 26 255 # Abyss Highlight Background
 	SetFontSize 41 # Big
+	#BlockStrictness 3 Hide
 
 # Abyss Jewel Magic
 Hide
@@ -1455,16 +1467,17 @@ Hide
 #-------------------------------------------------------------------------------
 
 # Stygian Vise ilvl84
-Show
-	ItemLevel >= 84
-	Rarity <= Rare
-	BaseType = "Stygian Vise"
-	SetTextColor 169 189 149 255 # Abyss Text
-	SetBackgroundColor 30 34 26 255 # Abyss Highlight Background
-	SetBorderColor 169 189 149 255 # Abyss Border
-	SetFontSize 45 # Yuge
-	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 1 Yellow Hexagon
+#Show
+#	ItemLevel >= 84
+#	Rarity <= Rare
+#	BaseType = "Stygian Vise"
+#	SetTextColor 169 189 149 255 # Abyss Text
+#	SetBackgroundColor 30 34 26 255 # Abyss Highlight Background
+#	SetBorderColor 169 189 149 255 # Abyss Border
+#	SetFontSize 45 # Yuge
+#	PlayAlertSound 3 200 # Tier2
+#	MinimapIcon 1 Yellow Hexagon
+#	#BlockStrictness 3 Disable
 
 # Stygian Vise Endgame
 Hide
@@ -1488,7 +1501,7 @@ Hide
 	#BlockStrictness 3 Hide
 
 #-------------------------------------------------------------------------------
-# Subsection: Splinter
+# Subsection: Breach Splinter
 #-------------------------------------------------------------------------------
 
 # Breach Splinter Stack
