@@ -1,4 +1,4 @@
-﻿#===============================================================================
+#===============================================================================
 # GFILTER
 #===============================================================================
 #
@@ -54,6 +54,19 @@ Show
 	HasExplicitMod = "Tacati" "Citaqualotl" "Matatl" "Topotante" "Xopec" "Guatelitzi" "Puhuarte"
 	SetFontSize 41 # Big
 	#BlockStrictness 3 Disable
+
+Show
+	Class == "Stackable Currency"
+	BaseType = "Tattoo"
+	SetFontSize 45 # Yuge
+
+#===============================================================================
+# Section: Necropolis
+#===============================================================================
+
+Show
+	Class == "Embers of the Allflame"
+	SetFontSize 45 # Yuge
 
 #===============================================================================
 # Section: Affliction
