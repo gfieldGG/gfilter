@@ -2348,6 +2348,18 @@ Show
 # Subsection: Other
 #-------------------------------------------------------------------------------
 
+# Uber Fragment
+Show
+	Class = "Map Fragments"
+	BaseType == "Awakening Fragment" "Blazing Fragment" "Cosmic Fragment" "Decaying Fragment" "Devouring Fragment" "Devouring Fragment" "Reality Fragment" "Synthesising Fragment"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 255 233 200 255 # Atlas Background
+	SetBorderColor 255 200 0 255 # Melvin Border
+	SetFontSize 45 # Yuge
+	PlayAlertSound 7 300 # Tier1.5
+	MinimapIcon 0 Red Diamond
+	PlayEffect Red 
+
 # Shaper Guardian Fragments
 Show
 	Class = "Map Fragments"
