@@ -2486,7 +2486,7 @@ Show
 
 # Reliquary Key
 Show
-	BaseType == "Ancient Reliquary Key" "Archive Reliquary Key" "Cosmic Reliquary Key" "Decaying Reliquary Key" "Forgotten Reliquary Key" "Oubliette Reliquary Key" "Reliquary Key" "Shiny Reliquary Key" "Timeworn Reliquary Key" "Vaal Reliquary Key" "Visceral Reliquary Key"
+	BaseType = "Ancient Reliquary Key" "Archive Reliquary Key" "Cosmic Reliquary Key" "Decaying Reliquary Key" "Forgotten Reliquary Key" "Oubliette Reliquary Key" "Reliquary Key" "Shiny Reliquary Key" "Timeworn Reliquary Key" "Vaal Reliquary Key" "Visceral Reliquary Key"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 200 0 255 # Legacy Background
 	SetBorderColor 255 255 255 255 # Tier1 Border

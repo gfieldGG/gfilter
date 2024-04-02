@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.23.5
+# VERSION:       3.24.0
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -48,21 +48,25 @@ Show
 	SetBorderColor 80 191 108 255 # Ascendancy Border
 	SetFontSize 41 # Big
 
-# Warband Item
-#Hide
-#	Identified = True
-#	HasExplicitMod = "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's"
-#	SetTextColor 136 136 255 255 # Magic Text
-#	SetBackgroundColor 0 15 30 255 # Magic Highlight Background
-#	SetFontSize 41
-#	#BlockStrictness 2 Hide
-
 # Incursion Item
 Show
 	Identified = True
 	HasExplicitMod = "Tacati" "Citaqualotl" "Matatl" "Topotante" "Xopec" "Guatelitzi" "Puhuarte"
 	SetFontSize 41 # Big
 	#BlockStrictness 3 Disable
+
+Show
+	Class == "Stackable Currency"
+	BaseType = "Tattoo"
+	SetFontSize 45 # Yuge
+
+#===============================================================================
+# Section: Necropolis
+#===============================================================================
+
+Show
+	Class == "Embers of the Allflame"
+	SetFontSize 45 # Yuge
 
 #===============================================================================
 # Section: Affliction
@@ -146,25 +150,11 @@ Show
 	SetFontSize 41 # Big
 	#BlockStrictness 3 Hide
 
-#===============================================================================
-# Section: Crucible
-#===============================================================================
-
-# crucible i dunno
-#Show
-#	BaseType == "Crystalline Geode" "Igneous Geode" "Magmatic Ore"
-#	SetBackgroundColor 0 0 0 255 # Default Background
-#	SetBorderColor 242 155 48 255
-#	SetFontSize 41 # Big
-#	MinimapIcon 2 Orange Circle
-
-# crucible tree items
-#Show
-#	HasCruciblePassiveTree = True
-#	SetBackgroundColor 0 0 0 255 # Default Background
-#	SetBorderColor 242 155 48 255
-#	SetFontSize 41 # Big
-#	MinimapIcon 1 Orange Hexagon
+# Tattoo Catchall
+Show
+	Class == "Stackable Currency"
+	BaseType = "Tattoo"
+	SetFontSize 45 # Yuge
 
 #===============================================================================
 # Section: Sanctum
@@ -715,142 +705,6 @@ Show
 	CustomAlertSound "gfT15.mp3" 150
 	MinimapIcon 1 Red Raindrop
 	PlayEffect Blue 
-
-#-------------------------------------------------------------------------------
-# Subsection: Flowers
-#-------------------------------------------------------------------------------
-
-# Seed Enhancer T1
-#Show
-#	Class = "Seed Enhancer"
-#	BaseType = "Horticrafting Blossom" "Fortune Blossom"
-#	SetTextColor 0 0 0 255 # Tier1 Text
-#	SetBackgroundColor 67 162 255 255 # Harvest Background
-#	SetBorderColor 255 255 255 255 # Tier1 Border
-#	SetFontSize 45 # Yuge
-#	CustomAlertSound "gfT1.mp3" 200
-#	MinimapIcon 0 Red Raindrop
-#	PlayEffect Red 
-
-# Seed Enhancer T1.5
-#Show
-#	Class = "Seed Enhancer"
-#	BaseType = "Horticrafting Flower" "Fortune Flower" "Lifeforce Blossom" "Fortune Bud" "Lifeforce Flower"
-#	SetTextColor 0 0 0 255 # Tier1 Text
-#	SetBackgroundColor 67 162 255 255 # Harvest Background
-#	SetBorderColor 255 255 255 255 # Tier1 Border
-#	SetFontSize 45 # Yuge
-#	CustomAlertSound "gfT15.mp3" 200
-#	MinimapIcon 1 Red Raindrop
-#	PlayEffect Blue 
-
-# Seed Enhancer T2
-#Show
-#	Class = "Seed Enhancer"
-#	BaseType = "Lifeforce Bud" "Horticrafting Bud"
-#	SetTextColor 67 162 230 255 # Harvest Text
-#	SetBackgroundColor 25 35 50 255 # Harvest Highlight Background
-#	SetBorderColor 67 162 230 255 # Harvest Border
-#	SetFontSize 45 # Yuge
-#	CustomAlertSound "gfT2.mp3" 200
-#	MinimapIcon 1 Yellow Raindrop
-#	PlayEffect Blue Temp
-
-#-------------------------------------------------------------------------------
-# Subsection: Seeds
-#-------------------------------------------------------------------------------
-
-# Primal Seed
-#Show
-#	Class = "Harvest Seed"
-#	BaseType = "Primal"
-#	SetTextColor 78 203 217 255 # Primal Text
-#	SetBackgroundColor 0 41 41 255 # Primal Highlight Background
-#	SetBorderColor 0 252 252 255 # Primal Border
-#	PlayEffect Cyan Temp
-#	Continue
-
-# Vivid Seed
-#Show
-#	Class = "Harvest Seed"
-#	BaseType = "Vivid"
-#	SetTextColor 242 216 87 255 # Vivid Text
-#	SetBackgroundColor 41 41 0 255 # Vivid Highlight Background
-#	SetBorderColor 252 252 0 255 # Vivid Border
-#	PlayEffect Yellow Temp
-#	Continue
-
-# Wild Seed
-#Show
-#	Class = "Harvest Seed"
-#	BaseType = "Wild"
-#	SetTextColor 201 82 217 255 # Wild Text
-#	SetBackgroundColor 41 0 41 255 # Wild Highlight Background
-#	SetBorderColor 252 0 252 255 # Wild Border
-#	PlayEffect Pink Temp
-#	Continue
-
-# Seed
-#Show
-#	Class = "Harvest Seed"
-#	BaseType = "Seed"
-#	SetBackgroundColor 0 0 0 210 # Junk Background
-#	SetBorderColor 0 0 0 0 # No Border
-#	SetFontSize 41 # Big
-#	MinimapIcon 2 White Raindrop
-
-# Grain
-#Show
-#	Class = "Harvest Seed"
-#	BaseType = "Grain"
-#	SetBorderColor 0 0 0 0 # No Border
-#	SetFontSize 45 # Yuge
-#	CustomAlertSound "gfT3.mp3" 200
-#	MinimapIcon 1 Yellow Raindrop
-
-# Seed
-#Show
-#	Class = "Harvest Seed"
-#	BaseType = "Bulb"
-#	SetFontSize 45 # Yuge
-#	CustomAlertSound "gfT2.mp3" 200
-#	MinimapIcon 1 Red Raindrop
-
-# Fruits
-#Show
-#	Class = "Harvest Seed"
-#	BaseType = "Primal Blisterfruit"
-#	SetTextColor 0 0 0 255 # Tier1 Text
-#	SetBackgroundColor 0 252 252 255 # Primal Background
-#	SetBorderColor 255 255 255 255 # Tier1 Border
-#	SetFontSize 45 # Yuge
-#	CustomAlertSound "gfT15.mp3" 200
-#	MinimapIcon 0 Red Raindrop
-#	PlayEffect Cyan 
-
-# Fruits
-#Show
-#	Class = "Harvest Seed"
-#	BaseType = "Vivid Scalefruit"
-#	SetTextColor 0 0 0 255 # Tier1 Text
-#	SetBackgroundColor 252 252 0 255 # Vivid Background
-#	SetBorderColor 255 255 255 255 # Tier1 Border
-#	SetFontSize 45 # Yuge
-#	CustomAlertSound "gfT15.mp3" 200
-#	MinimapIcon 0 Red Raindrop
-#	PlayEffect Yellow 
-
-# Fruits
-#Show
-#	Class = "Harvest Seed"
-#	BaseType = "Wild Thornfruit"
-#	SetTextColor 0 0 0 255 # Tier1 Text
-#	SetBackgroundColor 252 0 252 255 # Wild Background
-#	SetBorderColor 255 255 255 255 # Tier1 Border
-#	SetFontSize 45 # Yuge
-#	CustomAlertSound "gfT15.mp3" 200
-#	MinimapIcon 0 Red Raindrop
-#	PlayEffect Pink 
 
 #===============================================================================
 # Section: Delirium
@@ -1862,16 +1716,6 @@ Hide
 
 Show
 	Class = "Stackable Currency"
-	BaseType = "Compass"
-	SetTextColor 255 233 200 255 # Atlas Text
-	SetBackgroundColor 40 35 30 255 # Atlas Highlight Background
-	SetBorderColor 255 233 200 255 # Atlas Border
-	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3" 200
-	MinimapIcon 1 Yellow Circle
-
-Show
-	Class = "Stackable Currency"
 	BaseType = "Orb of Conflict"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 200 186 153 255 # Currency Background
@@ -2199,7 +2043,7 @@ Show
 Show
 	StackSize >= 6
 	Class = "Currency"
-	BaseType = "Chaos Orb" "Orb of Regret" "Regal Orb" "Gemcutter's Prism" "Vaal Orb" "Veiled Chaos Orb" "Enkindling Orb" "Instilling Orb" "Orb of Unmaking"
+	BaseType = "Chaos Orb" "Orb of Regret" "Regal Orb" "Gemcutter's Prism" "Vaal Orb" "Veiled Orb" "Enkindling Orb" "Instilling Orb" "Orb of Unmaking"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 200 186 153 255 # Currency Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -2211,7 +2055,7 @@ Show
 # Currency Tier2
 Show
 	Class = "Currency"
-	BaseType = "Chaos Orb" "Orb of Regret" "Regal Orb" "Gemcutter's Prism" "Vaal Orb" "Veiled Chaos Orb" "Orb of Unmaking"
+	BaseType = "Chaos Orb" "Orb of Regret" "Regal Orb" "Gemcutter's Prism" "Vaal Orb" "Veiled Orb" "Orb of Unmaking"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetBorderColor 200 186 153 255 # Currency Border
@@ -2266,101 +2110,6 @@ Show
 	CustomAlertSound "gfT0.mp3" 200
 	MinimapIcon 0 Red Circle
 	PlayEffect Yellow 
-
-# Perandus Coin Stack big
-#Show
-#	StackSize >= 100
-#	Class = "Currency"
-#	BaseType = "Perandus"
-#	SetTextColor 254 213 0 255 # Perandus Text
-#	SetBackgroundColor 112 88 2 255 # Perandus Background
-#	SetFontSize 41 # Big
-
-# Perandus Coin Stack small
-#Hide
-#	StackSize >= 10
-#	Class = "Currency"
-#	BaseType = "Perandus"
-#	SetTextColor 254 213 0 255 # Perandus Text
-#	SetBackgroundColor 112 88 2 255 # Perandus Background
-#	SetFontSize 41 # Big
-#	#BlockStrictness 2 Hide
-
-# Perandus Coin
-#Hide
-#	Class = "Currency"
-#	BaseType = "Perandus"
-#	SetTextColor 254 213 0 255 # Perandus Text
-#	SetBackgroundColor 112 88 2 255 # Perandus Background
-#	SetFontSize 37 # Medium
-#	#BlockStrictness 1 Hide
-
-#-------------------------------------------------------------------------------
-# Subsection: Sextants
-#-------------------------------------------------------------------------------
-
-# Apprentice Cartographer
-#Show
-#	Class = "Currency"
-#	BaseType = "Apprentice Cartographer's Seal" "Simple Sextant"
-#	SetTextColor 200 186 153 255 # Currency Text
-#	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
-#	SetBorderColor 200 200 200 255 # Apprentice Border
-#	SetFontSize 45 # Yuge
-#	CustomAlertSound "gfT2.mp3" 200
-#	MinimapIcon 0 Yellow Circle
-#	PlayEffect Yellow Temp
-
-# Journeyman Cartographer
-#Show
-#	Class = "Currency"
-#	BaseType = "Journeyman Cartographer's Seal" "Prime Sextant"
-#	SetTextColor 200 186 153 255 # Currency Text
-#	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
-#	SetBorderColor 254 170 0 255 # Journeyman Border
-#	SetFontSize 45 # Yuge
-#	CustomAlertSound "gfT2.mp3" 200
-#	MinimapIcon 1 Yellow Circle
-#	PlayEffect Yellow Temp
-
-# Master Cartographer
-Show
-	Class = "Currency"
-	BaseType = "Master Cartographer's Seal" "Awakened Sextant"
-	SetTextColor 200 186 153 255 # Currency Text
-	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
-	SetBorderColor 191 0 0 255 # Master Border
-	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3" 200
-	MinimapIcon 1 Yellow Circle
-	PlayEffect Yellow Temp
-
-# Elevated Sextant
-Show
-	Class = "Currency"
-	BaseType = "Elevated Sextant"
-	SetTextColor 200 186 153 255 # Currency Text
-	SetBackgroundColor 0 0 64 255 # Synthesis Highlight Background
-	SetBorderColor 255 200 0 255 # Legacy Border
-	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3" 200
-	MinimapIcon 0 Red Circle
-	PlayEffect Yellow 
-
-#-------------------------------------------------------------------------------
-# Subsection: wat
-#-------------------------------------------------------------------------------
-
-# Forgotten Currency
-#Show
-#	Class = "Currency"
-#	SetTextColor 255 0 255 255 # wat
-#	SetBackgroundColor 255 255 255 255 # Tier0 Background
-#	SetBorderColor 255 0 255 255 # wat
-#	SetFontSize 45 # Yuge
-#	PlayAlertSound 15 300 # wat
-#	MinimapIcon 0 Red Circle
-#	PlayEffect Yellow 
 
 #===============================================================================
 # Section: Map Fragments
@@ -2420,6 +2169,18 @@ Show
 # Subsection: Scarabs
 #-------------------------------------------------------------------------------
 
+# Veiled Scarab
+Show
+	Class = "Stackable Currency"
+	BaseType = "Veiled Scarab"
+	SetTextColor 255 200 0 255 # Legacy Text
+	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
+	SetBorderColor 200 186 153 255 # Currency Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT3.mp3" 200
+	MinimapIcon 1 White Circle
+	PlayEffect White Temp
+
 # T1.5 Scarab
 #Show
 #	Class = "Map Fragments"
@@ -2435,7 +2196,7 @@ Show
 # T2 Scarab
 #Show
 #	Class = "Map Fragments"
-#	BaseType = "Polished Breach Scarab" "Gilded Reliquary Scarab" "Polished Bestiary Scarab" "Polished Ambush Scarab" "Rusted Divination Scarab" "Polished Harbinger Scarab" "Polished Elder Scarab"
+#	BaseType = "Gilded Reliquary Scarab" "Polished Ambush Scarab" "Polished Bestiary Scarab" "Polished Breach Scarab" "Polished Elder Scarab" "Polished Harbinger Scarab" "Rusted Divination Scarab"
 #	SetTextColor 255 200 0 255 # Legacy Text
 #	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
 #	SetBorderColor 0 0 0 0 # No Border
@@ -2445,16 +2206,27 @@ Show
 #	PlayEffect Yellow Temp
 
 # T2 Scarab
+#Show
+#	Class = "Map Fragments"
+#	BaseType = "Expedition Scarab" "Ambush Scarab" "Breach Scarab" "Blight Scarab" "Legion Scarab" "Divination Scarab"
+#	SetTextColor 255 200 0 255 # Legacy Text
+#	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
+#	SetBorderColor 0 0 0 0 # No Border
+#	SetFontSize 45 # Yuge
+#	CustomAlertSound "gfT3.mp3" 200
+#	MinimapIcon 1 White Diamond
+#	PlayEffect Yellow Temp
+
+# Temp Scarab Catchall
 Show
 	Class = "Map Fragments"
-	BaseType = "Expedition Scarab" "Ambush Scarab" "Breach Scarab" "Blight Scarab" "Legion Scarab" "Divination Scarab"
+	BaseType = "Scarab"
 	SetTextColor 255 200 0 255 # Legacy Text
 	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
 	SetBorderColor 0 0 0 0 # No Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT3.mp3" 200
-	MinimapIcon 1 White Diamond
-	PlayEffect Yellow Temp
+	CustomAlertSound "gfT3.mp3" 100
+	MinimapIcon 2 White Diamond
 
 # Scarab
 Show
@@ -2561,17 +2333,6 @@ Show
 # Subsection: Watchstones
 #-------------------------------------------------------------------------------
 
-# Ivory Watchstone
-#Show
-#	BaseType = "Ivory Watchstone"
-#	SetTextColor 175 96 37 255 # Unique Text
-#	SetBackgroundColor 0 0 0 255 # Default Background
-#	SetBorderColor 255 255 255 255 # Tier1 Border
-#	SetFontSize 45 # Yuge
-#	CustomAlertSound "gfT15.mp3" 200
-#	MinimapIcon 0 White Diamond
-#	PlayEffect White 
-
 # Voidstone
 Show
 	Class = "Atlas Upgrade Item"
@@ -2583,20 +2344,21 @@ Show
 	MinimapIcon 0 Green Diamond
 	PlayEffect White 
 
-# Watchstone
-#Show
-#	BaseType = "Watchstone"
-#	SetTextColor 74 230 58 255 # Quest Text
-#	SetBackgroundColor 0 0 0 255 # Default Background
-#	SetBorderColor 255 255 255 255 # Tier1 Border
-#	SetFontSize 45 # Yuge
-#	PlayAlertSound 2 150 # Quest
-#	MinimapIcon 0 White Diamond
-#	PlayEffect White 
-
 #-------------------------------------------------------------------------------
 # Subsection: Other
 #-------------------------------------------------------------------------------
+
+# Uber Fragment
+Show
+	Class = "Map Fragments"
+	BaseType == "Awakening Fragment" "Blazing Fragment" "Cosmic Fragment" "Decaying Fragment" "Devouring Fragment" "Devouring Fragment" "Reality Fragment" "Synthesising Fragment"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 255 233 200 255 # Atlas Background
+	SetBorderColor 255 200 0 255 # Melvin Border
+	SetFontSize 45 # Yuge
+	PlayAlertSound 7 300 # Tier1.5
+	MinimapIcon 0 Red Diamond
+	PlayEffect Red 
 
 # Shaper Guardian Fragments
 Show
@@ -2724,7 +2486,17 @@ Show
 
 # Reliquary Key
 Show
-	BaseType = "Ancient Reliquary Key" "Timeworn Reliquary Key" "Vaal Reliquary Key" "Forgotten Reliquary Key" "Visceral Reliquary Key" "Shiny Reliquary Key" "Archive Reliquary Key" "Oubliette Reliquary Key" "Cosmic Reliquary Key" "Decaying Reliquary Key" "Reliquary Key"
+	BaseType = "Ancient Reliquary Key" "Archive Reliquary Key" "Cosmic Reliquary Key" "Decaying Reliquary Key" "Forgotten Reliquary Key" "Oubliette Reliquary Key" "Reliquary Key" "Shiny Reliquary Key" "Timeworn Reliquary Key" "Vaal Reliquary Key" "Visceral Reliquary Key"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 255 200 0 255 # Legacy Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT0.mp3" 200
+	MinimapIcon 0 Red Diamond
+
+# Valdo's Puzzle Box
+Show
+	BaseType == "Valdo's Puzzle Box"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 200 0 255 # Legacy Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
