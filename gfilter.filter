@@ -150,6 +150,12 @@ Show
 	SetFontSize 41 # Big
 	#BlockStrictness 3 Hide
 
+# Tattoo Catchall
+Show
+	Class == "Stackable Currency"
+	BaseType = "Tattoo"
+	SetFontSize 45 # Yuge
+
 #===============================================================================
 # Section: Sanctum
 #===============================================================================
@@ -2037,7 +2043,7 @@ Show
 Show
 	StackSize >= 6
 	Class = "Currency"
-	BaseType = "Chaos Orb" "Orb of Regret" "Regal Orb" "Gemcutter's Prism" "Vaal Orb" "Veiled Chaos Orb" "Enkindling Orb" "Instilling Orb" "Orb of Unmaking"
+	BaseType = "Chaos Orb" "Orb of Regret" "Regal Orb" "Gemcutter's Prism" "Vaal Orb" "Veiled Orb" "Enkindling Orb" "Instilling Orb" "Orb of Unmaking"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 200 186 153 255 # Currency Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -2049,7 +2055,7 @@ Show
 # Currency Tier2
 Show
 	Class = "Currency"
-	BaseType = "Chaos Orb" "Orb of Regret" "Regal Orb" "Gemcutter's Prism" "Vaal Orb" "Veiled Chaos Orb" "Orb of Unmaking"
+	BaseType = "Chaos Orb" "Orb of Regret" "Regal Orb" "Gemcutter's Prism" "Vaal Orb" "Veiled Orb" "Orb of Unmaking"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetBorderColor 200 186 153 255 # Currency Border
@@ -2104,21 +2110,6 @@ Show
 	CustomAlertSound "gfT0.mp3" 200
 	MinimapIcon 0 Red Circle
 	PlayEffect Yellow 
-
-#-------------------------------------------------------------------------------
-# Subsection: wat
-#-------------------------------------------------------------------------------
-
-# Forgotten Currency
-#Show
-#	Class = "Currency"
-#	SetTextColor 255 0 255 255 # wat
-#	SetBackgroundColor 255 255 255 255 # Tier0 Background
-#	SetBorderColor 255 0 255 255 # wat
-#	SetFontSize 45 # Yuge
-#	PlayAlertSound 15 300 # wat
-#	MinimapIcon 0 Red Circle
-#	PlayEffect Yellow 
 
 #===============================================================================
 # Section: Map Fragments
@@ -2178,6 +2169,18 @@ Show
 # Subsection: Scarabs
 #-------------------------------------------------------------------------------
 
+# Veiled Scarab
+Show
+	Class = "Stackable Currency"
+	BaseType = "Veiled Scarab"
+	SetTextColor 255 200 0 255 # Legacy Text
+	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
+	SetBorderColor 200 186 153 255 # Currency Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT3.mp3" 200
+	MinimapIcon 1 White Circle
+	PlayEffect White Temp
+
 # T1.5 Scarab
 #Show
 #	Class = "Map Fragments"
@@ -2193,7 +2196,7 @@ Show
 # T2 Scarab
 #Show
 #	Class = "Map Fragments"
-#	BaseType = "Polished Breach Scarab" "Gilded Reliquary Scarab" "Polished Bestiary Scarab" "Polished Ambush Scarab" "Rusted Divination Scarab" "Polished Harbinger Scarab" "Polished Elder Scarab"
+#	BaseType = "Gilded Reliquary Scarab" "Polished Ambush Scarab" "Polished Bestiary Scarab" "Polished Breach Scarab" "Polished Elder Scarab" "Polished Harbinger Scarab" "Rusted Divination Scarab"
 #	SetTextColor 255 200 0 255 # Legacy Text
 #	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
 #	SetBorderColor 0 0 0 0 # No Border
@@ -2203,16 +2206,27 @@ Show
 #	PlayEffect Yellow Temp
 
 # T2 Scarab
+#Show
+#	Class = "Map Fragments"
+#	BaseType = "Expedition Scarab" "Ambush Scarab" "Breach Scarab" "Blight Scarab" "Legion Scarab" "Divination Scarab"
+#	SetTextColor 255 200 0 255 # Legacy Text
+#	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
+#	SetBorderColor 0 0 0 0 # No Border
+#	SetFontSize 45 # Yuge
+#	CustomAlertSound "gfT3.mp3" 200
+#	MinimapIcon 1 White Diamond
+#	PlayEffect Yellow Temp
+
+# Temp Scarab Catchall
 Show
 	Class = "Map Fragments"
-	BaseType = "Expedition Scarab" "Ambush Scarab" "Breach Scarab" "Blight Scarab" "Legion Scarab" "Divination Scarab"
+	BaseType = "Scarab"
 	SetTextColor 255 200 0 255 # Legacy Text
 	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
 	SetBorderColor 0 0 0 0 # No Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT3.mp3" 200
-	MinimapIcon 1 White Diamond
-	PlayEffect Yellow Temp
+	CustomAlertSound "gfT3.mp3" 100
+	MinimapIcon 2 White Diamond
 
 # Scarab
 Show
@@ -2460,7 +2474,17 @@ Show
 
 # Reliquary Key
 Show
-	BaseType = "Ancient Reliquary Key" "Timeworn Reliquary Key" "Vaal Reliquary Key" "Forgotten Reliquary Key" "Visceral Reliquary Key" "Shiny Reliquary Key" "Archive Reliquary Key" "Oubliette Reliquary Key" "Cosmic Reliquary Key" "Decaying Reliquary Key" "Reliquary Key"
+	BaseType == "Ancient Reliquary Key" "Archive Reliquary Key" "Cosmic Reliquary Key" "Decaying Reliquary Key" "Forgotten Reliquary Key" "Oubliette Reliquary Key" "Reliquary Key" "Shiny Reliquary Key" "Timeworn Reliquary Key" "Vaal Reliquary Key" "Visceral Reliquary Key"
+	SetTextColor 0 0 0 255 # Map Text
+	SetBackgroundColor 255 200 0 255 # Legacy Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT0.mp3" 200
+	MinimapIcon 0 Red Diamond
+
+# Valdo's Puzzle Box
+Show
+	BaseType == "Valdo's Puzzle Box"
 	SetTextColor 0 0 0 255 # Map Text
 	SetBackgroundColor 255 200 0 255 # Legacy Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
