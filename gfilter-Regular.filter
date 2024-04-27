@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.24.0
+# VERSION:       3.24.1
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -64,9 +64,50 @@ Show
 # Section: Necropolis
 #===============================================================================
 
+#-------------------------------------------------------------------------------
+# Subsection: Allflame Embers
+#-------------------------------------------------------------------------------
+
+# Allflame Ember T1
 Show
 	Class == "Embers of the Allflame"
+	BaseType == "Allflame Ember of Manifested Wealth" "Allflame Ember of The Shaper" "Flaring Allflame Ember of Kalguurans"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 168 180 193 255
+	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT1.mp3" 100
+	MinimapIcon 0 Red Diamond
+	PlayEffect Red 
+
+# Allflame Ember T2
+Show
+	Class == "Embers of the Allflame"
+	BaseType == "Allflame Ember of Frogs" "Allflame Ember of Meatsacks" "Allflame Ember of Ramako" "Allflame Ember of Rats" "Allflame Ember of Syndicate Assassins" "Allflame Ember of Syndicate Escorts" "Allflame Ember of Syndicate Guards" "Allflame Ember of Syndicate Researchers" "Flaring Allflame Ember of Wildwood Cultists" "Flaring Allflame Ember of Scientists"
+	SetTextColor 168 180 193 255 # Necropolis Text
+	SetBackgroundColor 51 57 65 255 # Necropolis Background
+	SetBorderColor 168 180 193 255 # Necropolis Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT15.mp3" 100
+	MinimapIcon 1 Red Diamond
+	PlayEffect White 
+
+# Allflame Ember Flaring
+Show
+	Class == "Embers of the Allflame"
+	BaseType = "Flaring Allflame Ember"
+	SetTextColor 168 180 193 255 # Necropolis Text
+	SetBackgroundColor 51 57 65 255 # Necropolis Background
+	SetFontSize 45 # Yuge
+	PlayEffect White Temp
+
+# Allflame Ember
+Show
+	Class == "Embers of the Allflame"
+	SetTextColor 168 180 193 255 # Necropolis Text
+	SetBackgroundColor 0 0 0 210 # Junk Background
+	SetFontSize 41 # Big
+	#BlockStrictness 3 Hide
 
 #===============================================================================
 # Section: Affliction
@@ -1469,7 +1510,6 @@ Show
 	SetBackgroundColor 25 36 51 255 # Essence Highlight Background
 	SetFontSize 41 # Big
 	PlayEffect Blue Temp
-	#BlockStrictness 3 Hide
 
 # Essence
 Show
