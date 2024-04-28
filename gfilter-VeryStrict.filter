@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.24.2
+# VERSION:       3.24.3
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -1407,6 +1407,18 @@ Show
 	SetTextColor 166 95 244 255 # Breach Text
 	SetBackgroundColor 40 4 0 255 # Breach Red Highlight Background
 	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT3.mp3" 100
+	MinimapIcon 1 White Circle
+
+# Breach Splinter low
+Show
+	StackSize >= 2
+	Class = "Stackable Currency"
+	BaseType = "Splinter of Esh" "Splinter of Tul" "Splinter of Xoph"
+	SetTextColor 166 95 244 255 # Breach Text
+	SetBackgroundColor 0 0 0 210 # Junk Background
+	SetFontSize 45 # Yuge
+	#BlockStrictness 3 Disable
 
 # Breach Splinter
 Hide
@@ -1414,36 +1426,56 @@ Hide
 	BaseType = "Splinter of Esh" "Splinter of Tul" "Splinter of Xoph"
 	SetTextColor 166 95 244 255 # Breach Text
 	SetBackgroundColor 40 4 0 255 # Breach Red Highlight Background
-	SetFontSize 41 # Big
+	SetFontSize 45 # Yuge
 	#BlockStrictness 3 Hide
 
-# Breach Splinter
+# Breach Splinter Uul >=2
 Show
+	StackSize >= 2
 	Class = "Stackable Currency"
 	BaseType = "Splinter of Uul-Netol"
 	SetTextColor 166 95 244 255 # Breach Text
 	SetBackgroundColor 40 4 0 255 # Breach Red Highlight Background
-	SetFontSize 41 # Big
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT3.mp3" 100
+	MinimapIcon 2 White Circle
 
-# Breach Splinter
+# Breach Splinter Uul
+#Show
+#	Class = "Stackable Currency"
+#	BaseType = "Splinter of Uul-Netol"
+#	SetTextColor 166 95 244 255 # Breach Text
+#	SetBackgroundColor 40 4 0 255 # Breach Red Highlight Background
+#	SetFontSize 45 # Yuge
+#	#BlockStrictness 3 Disable
+
+# Breach Splinter Uul low
+Show
+	Class = "Stackable Currency"
+	BaseType = "Splinter of Uul-Netol"
+	SetTextColor 166 95 244 255 # Breach Text
+	SetBackgroundColor 0 0 0 210 # Junk Background
+	SetFontSize 45 # Yuge
+
+# Breach Splinter Chayubli
 Show
 	Class = "Stackable Currency"
 	BaseType = "Splinter of Chayula"
 	SetTextColor 166 95 244 255 # Breach Text
 	SetBackgroundColor 40 4 0 255 # Breach Red Highlight Background
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3" 200
-	MinimapIcon 2 Yellow Circle
+	CustomAlertSound "gfT3.mp3" 200
+	MinimapIcon 2 White Circle
 
 # Breachstone
 Show
 	Class == "Breachstone"
-	SetTextColor 166 95 244 255 # Breach Text
-	SetBackgroundColor 21 12 30 255 # Breach Highlight Background
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 167 95 244 255 # Breach Background
 	SetBorderColor 182 20 0 255 # Breach Border
 	SetFontSize 45 # Yuge
-	PlayAlertSound 3 200 # Tier2
-	MinimapIcon 0 Yellow Diamond
+	CustomAlertSound "gfT15.mp3" 100
+	MinimapIcon 1 Yellow Diamond
 	PlayEffect Red Temp
 
 #-------------------------------------------------------------------------------
@@ -2256,6 +2288,17 @@ Show
 	CustomAlertSound "gfT2.mp3" 200
 	MinimapIcon 1 Yellow Diamond
 	PlayEffect Yellow Temp
+
+# Scarab T3
+Show
+	Class == "Map Fragment"
+	BaseType == "Ambush Scarab" "Breach Scarab" "Breach Scarab of Snares" "Delirium Scarab of Paranoia" "Domination Scarab" "Legion Scarab" "Sulphite Scarab"
+	SetTextColor 255 200 0 255 # Legacy Text
+	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
+	SetBorderColor 0 0 0 0 # No Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT3.mp3" 100
+	MinimapIcon 2 White Diamond
 
 # Scarab
 #Show
