@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.24.1
+# VERSION:       3.24.2
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -91,6 +91,15 @@ Show
 	CustomAlertSound "gfT15.mp3" 100
 	MinimapIcon 1 Red Diamond
 	PlayEffect White 
+
+# Allflame Ember Flaring
+Show
+	Class == "Embers of the Allflame"
+	BaseType = "Flaring Allflame Ember"
+	SetTextColor 168 180 193 255 # Necropolis Text
+	SetBackgroundColor 51 57 65 255 # Necropolis Background
+	SetFontSize 45 # Yuge
+	PlayEffect White Temp
 
 # Allflame Ember
 Hide
@@ -2212,61 +2221,63 @@ Show
 	MinimapIcon 1 White Circle
 	PlayEffect White Temp
 
-# T1.5 Scarab
-#Show
-#	Class = "Map Fragments"
-#	BaseType = "Gilded Ambush Scarab" "Gilded Bestiary Scarab" "Gilded Breach Scarab" "Gilded Cartography Scarab" "Gilded Divination Scarab" "Gilded Elder Scarab" "Gilded Harbinger Scarab" "Gilded Sulphite Scarab" "Polished Cartography Scarab" "Polished Divination Scarab" "Polished Sulphite Scarab" "Rusted Cartography Scarab" "Rusted Sulphite Scarab"
-#	SetTextColor 255 200 0 255 # Legacy Text
-#	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
-#	SetBorderColor 255 200 0 255 # Legacy Border
-#	SetFontSize 45 # Yuge
-#	CustomAlertSound "gfT15.mp3" 200
-#	MinimapIcon 1 Red Diamond
-#	PlayEffect Yellow 
-
-# T2 Scarab
-#Show
-#	Class = "Map Fragments"
-#	BaseType = "Gilded Reliquary Scarab" "Polished Ambush Scarab" "Polished Bestiary Scarab" "Polished Breach Scarab" "Polished Elder Scarab" "Polished Harbinger Scarab" "Rusted Divination Scarab"
-#	SetTextColor 255 200 0 255 # Legacy Text
-#	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
-#	SetBorderColor 0 0 0 0 # No Border
-#	SetFontSize 45 # Yuge
-#	CustomAlertSound "gfT3.mp3" 200
-#	MinimapIcon 1 Yellow Diamond
-#	PlayEffect Yellow Temp
-
-# T2 Scarab
-#Show
-#	Class = "Map Fragments"
-#	BaseType = "Expedition Scarab" "Ambush Scarab" "Breach Scarab" "Blight Scarab" "Legion Scarab" "Divination Scarab"
-#	SetTextColor 255 200 0 255 # Legacy Text
-#	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
-#	SetBorderColor 0 0 0 0 # No Border
-#	SetFontSize 45 # Yuge
-#	CustomAlertSound "gfT3.mp3" 200
-#	MinimapIcon 1 White Diamond
-#	PlayEffect Yellow Temp
-
-# Temp Scarab Catchall
+# T1 Scarab
 Show
 	Class = "Map Fragments"
-	BaseType = "Scarab"
+	BaseType == "Divination Scarab of Curation" "Horned Scarab of Preservation"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 255 200 0 255 # Legacy Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT1.mp3" 200
+	MinimapIcon 0 Red Diamond
+	PlayEffect Red 
+
+# T1.5 Scarab
+Show
+	Class = "Map Fragments"
+	BaseType == "Ambush Scarab of Containment" "Divination Scarab of Completion" "Domination Scarab of Terrors" "Essence Scarab of Calcification" "Harvest Scarab of Cornucopia" "Horned Scarab of Awakening" "Horned Scarab of Bloodlines" "Horned Scarab of Glittering" "Horned Scarab of Pandemonium" "Reliquary Scarab of Vision" "Ultimatum Scarab of Catalysing"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 255 200 0 255 # Legacy Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT15.mp3" 200
+	MinimapIcon 1 Red Diamond
+	PlayEffect Yellow 
+
+# T2 Scarab
+Show
+	Class = "Map Fragments"
+	BaseType == "Blight Scarab of Blooming" "Breach Scarab of the Dreamer" "Cartography Scarab of Duplication" "Domination Scarab of Teachings" "Harvest Scarab of Doubling" "Incursion Scarab of Timelines" "Legion Scarab of Eternal Conflict"
 	SetTextColor 255 200 0 255 # Legacy Text
 	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
-	SetBorderColor 0 0 0 0 # No Border
+	SetBorderColor 255 200 0 255 # Legacy Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT3.mp3" 100
-	MinimapIcon 2 White Diamond
+	CustomAlertSound "gfT2.mp3" 200
+	MinimapIcon 1 Yellow Diamond
+	PlayEffect Yellow Temp
 
 # Scarab
+#Show
+#	Class == "Map Fragment"
+#	BaseType = "Scarab"
+#	SetTextColor 255 200 0 255 # Legacy Text
+#	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
+#	SetBorderColor 0 0 0 0 # No Border
+#	SetFontSize 45 # Yuge
+#	CustomAlertSound "gfT3.mp3" 100
+#	MinimapIcon 2 White Diamond
+#	#BlockStrictness 3 Disable
+
+# Scarab low
 Show
-	Class = "Map Fragments"
+	Class == "Map Fragment"
 	BaseType = "Scarab"
 	SetTextColor 255 200 0 255 # Legacy Text
-	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
+	SetBackgroundColor 0 0 0 210 # Junk Background
 	SetBorderColor 0 0 0 0 # No Border
-	SetFontSize 41 # Big
+	SetFontSize 45 # Yuge
+	#BlockStrictness 3 Disable
 
 #-------------------------------------------------------------------------------
 # Subsection: Lure
