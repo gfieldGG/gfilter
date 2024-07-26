@@ -1573,6 +1573,132 @@ Show
 	PlayEffect Red 
 
 #===============================================================================
+# Section: Early Levelling
+#===============================================================================
+
+# Show first Gems Twilight Strand
+Show
+	AreaLevel = 1
+	Class = "Skill Gem" "Support Gem"
+	SetTextColor 26 162 155 255 # Gem Text
+	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfA.mp3" 300
+
+# Early Quicksilver
+Show
+	AreaLevel <= 36
+	Class = "Utility Flasks"
+	BaseType = "Quicksilver Flask"
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBorderColor 192 255 203 255 # Levelling Border
+	SetFontSize 45 # Yuge
+	PlayAlertSound 6 150 # Tier3
+	MinimapIcon 1 White Hexagon
+	PlayEffect White 
+	#BlockStrictness 3 Disable
+
+# Early Resist Flasks
+Show
+	AreaLevel <= 67
+	Class = "Utility Flasks"
+	BaseType = "Bismuth Flask"
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetFontSize 41 # Big
+	#BlockStrictness 3 Disable
+
+# Merveil Ring
+Show
+	AreaLevel <= 12
+	BaseType = "Sapphire Ring"
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBorderColor 192 255 203 255 # Levelling Border
+	SetFontSize 45 # Yuge
+	#BlockStrictness 3 Disable
+
+# 4 Links Specific Colors
+#Show
+#	ItemLevel < 67
+#	LinkedSockets = 4
+#	SocketGroup >= "BBGG"
+#	Class = "Gloves" "Helmets" "Body Armours" "Boots"
+#	SetBackgroundColor 0 0 0 255 # Default Background
+#	SetBorderColor 192 255 203 255 # Levelling Border
+#	SetFontSize 45 # Yuge
+#	PlayAlertSound 6 150 # Tier3
+#	MinimapIcon 1 White Hexagon
+
+# Early 4 Link
+Show
+	ItemLevel <= 38
+	LinkedSockets = 4
+	Class = "Helmets" "Body Armours" "Boots" "Gloves"
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBorderColor 192 255 203 255 # Levelling Border
+	SetFontSize 41 # Big
+	#BlockStrictness 3 Disable
+
+# Early 4 Link
+Show
+	ItemLevel <= 67
+	LinkedSockets = 4
+	Class = "Helmets" "Body Armours" "Boots" "Gloves"
+	SetBorderColor 192 255 203 255 # Levelling Border
+	Continue
+	#BlockStrictness 3 Disable
+
+# MS Boots
+Show
+	ItemLevel <= 28
+	Rarity >= Magic
+	Rarity <= Rare
+	Class = "Boots"
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetBorderColor 192 255 203 255 # Levelling Border
+	SetFontSize 45 # Yuge
+	#BlockStrictness 3 Disable
+
+# Early 3 Link
+Show
+	ItemLevel <= 18
+	LinkedSockets >= 3
+	Class = "Helm" "Body" "Boots" "Gloves"
+	SetBackgroundColor 0 0 0 255 # Default Background
+	SetFontSize 41 # Big
+	#BlockStrictness 3 Disable
+
+# Early Magic Jewelry
+Show
+	ItemLevel < 28
+	Rarity = Magic
+	Class = "Ring" "Amulet" "Belt"
+	SetBackgroundColor 0 0 0 210 # Junk Background
+	SetFontSize 37 # Medium
+	#BlockStrictness 2 Disable
+
+# Orb of Binding leveling
+Show
+	AreaLevel < 67
+	Class = "Currency"
+	BaseType = "Orb of Binding"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT3.mp3" 200
+	MinimapIcon 1 White Circle
+	#BlockStrictness 3 Disable
+
+# Whetstones early leveling
+Show
+	AreaLevel <= 28
+	Class == "Currency"
+	BaseType == "Blacksmith's Whetstone"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
+	SetFontSize 45 # Yuge
+	#BlockStrictness 3 Disable
+
+#===============================================================================
 # Section: Essences
 #===============================================================================
 
@@ -2066,7 +2192,7 @@ Show
 	AreaLevel <= 74
 	StackSize >= 4
 	Class = "Currency"
-	BaseType = "Orb of Transmutation" "Orb of Augmentation" "Blacksmith's Whetstone" "Armourer's Scrap" "Scroll of Wisdom" "Portal Scroll"
+	BaseType = "Armourer's Scrap" "Blacksmith's Whetstone" "Orb of Augmentation" "Orb of Transmutation" "Portal Scroll" "Scroll of Wisdom"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 0 0 0 140 # Faded Background
 	SetFontSize 41 # Big
@@ -2140,17 +2266,6 @@ Show
 #	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 #	SetFontSize 45 # Yuge
 #	#BlockStrictness 3 Hide
-
-# Orb of Binding leveling
-Show
-	AreaLevel < 67
-	Class = "Currency"
-	BaseType = "Orb of Binding"
-	SetTextColor 200 186 153 255 # Currency Text
-	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
-	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT3.mp3" 200
-	MinimapIcon 1 White Circle
 
 # Currency Tier3 Stack
 Show
@@ -4697,109 +4812,6 @@ Hide
 	SetBackgroundColor 0 0 0 0 # Hidden Background
 
 #===============================================================================
-# Section: Early Levelling
-#===============================================================================
-
-# Show first Gems Twilight Strand
-Show
-	AreaLevel = 1
-	Class = "Skill Gem" "Support Gem"
-	SetTextColor 26 162 155 255 # Gem Text
-	SetBackgroundColor 0 25 15 255 # Gem Highlight Background
-	SetFontSize 45 # Yuge
-
-# Early Quicksilver
-Show
-	ItemLevel <= 28
-	Class = "Utility Flasks"
-	BaseType = "Quicksilver Flask"
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetBorderColor 192 255 203 255 # Levelling Border
-	SetFontSize 45 # Yuge
-	PlayAlertSound 6 150 # Tier3
-	MinimapIcon 1 White Hexagon
-	PlayEffect White 
-	#BlockStrictness 3 Disable
-
-# Early Resist Flasks
-Show
-	ItemLevel <= 28
-	Class = "Utility Flasks"
-	BaseType = "Sapphire Flask" "Ruby Flask" "Amethyst Flask" "Topaz Flask" "Bismuth Flask"
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 41 # Big
-	#BlockStrictness 3 Disable
-
-# Merveil Ring
-Show
-	ItemLevel <= 12
-	BaseType = "Sapphire Ring"
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetBorderColor 192 255 203 255 # Levelling Border
-	SetFontSize 45 # Yuge
-	#BlockStrictness 3 Disable
-
-# 4 Links Specific Colors
-#Show
-#	ItemLevel < 67
-#	LinkedSockets = 4
-#	SocketGroup >= "BBGG"
-#	Class = "Gloves" "Helmets" "Body Armours" "Boots"
-#	SetBackgroundColor 0 0 0 255 # Default Background
-#	SetBorderColor 192 255 203 255 # Levelling Border
-#	SetFontSize 45 # Yuge
-#	PlayAlertSound 6 150 # Tier3
-#	MinimapIcon 1 White Hexagon
-
-# Early 4 Link
-Show
-	ItemLevel <= 38
-	LinkedSockets = 4
-	Class = "Helmets" "Body Armours" "Boots" "Gloves"
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetBorderColor 192 255 203 255 # Levelling Border
-	SetFontSize 41 # Big
-	#BlockStrictness 3 Disable
-
-# Early 4 Link
-Show
-	ItemLevel <= 67
-	LinkedSockets = 4
-	Class = "Helmets" "Body Armours" "Boots" "Gloves"
-	SetBorderColor 192 255 203 255 # Levelling Border
-	Continue
-	#BlockStrictness 3 Disable
-
-# MS Boots
-Show
-	ItemLevel <= 28
-	Rarity >= Magic
-	Rarity <= Rare
-	Class = "Boots"
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetBorderColor 192 255 203 255 # Levelling Border
-	SetFontSize 45 # Yuge
-	#BlockStrictness 3 Disable
-
-# Early 3 Link
-Show
-	ItemLevel < 12
-	LinkedSockets >= 3
-	Class = "Helm" "Body" "Boots" "Gloves"
-	SetBackgroundColor 0 0 0 255 # Default Background
-	SetFontSize 41 # Big
-	#BlockStrictness 3 Disable
-
-# Early Magic Jewelry
-Show
-	ItemLevel < 28
-	Rarity = Magic
-	Class = "Ring" "Amulet" "Belt"
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	SetFontSize 37 # Medium
-	#BlockStrictness 3 Disable
-
-#===============================================================================
 # Section: Levelling Rares
 #===============================================================================
 
@@ -6187,4 +6199,3 @@ Show
 	SetFontSize 45 # Yuge
 	PlayAlertSound 15 300 # wat
 	MinimapIcon 0 Red Star
-
