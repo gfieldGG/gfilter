@@ -39,6 +39,23 @@ Show
 # Section: League Stuff
 #===============================================================================
 
+# Gold stack
+Show
+	StackSize >= 2
+	Class == "Gold"
+	BaseType == "Gold"
+	SetTextColor 254 213 0 255 # Perandus Text
+	SetBackgroundColor 112 88 2 255 # Perandus Background
+	SetFontSize 37 # Medium
+
+# Gold
+Show
+	Class == "Gold"
+	BaseType == "Gold"
+	SetTextColor 254 213 0 255 # Perandus Text
+	SetBackgroundColor 0 0 0 0 # Hidden Background
+	SetFontSize 32 # Regular
+
 # Enchanted Helmet
 Show
 	AnyEnchantment = True
@@ -69,74 +86,74 @@ Show
 #-------------------------------------------------------------------------------
 
 # Allflame Ember T1
-Show
-	Class == "Embers of the Allflame"
-	BaseType == "Allflame Ember of Manifested Wealth" "Allflame Ember of The Shaper" "Flaring Allflame Ember of Kalguurans"
-	SetTextColor 0 0 0 255 # Tier1 Text
-	SetBackgroundColor 168 180 193 255
-	SetBorderColor 255 255 255 255 # Tier1 Border
-	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT1.mp3" 100
-	MinimapIcon 0 Red Diamond
-	PlayEffect Red 
+#Show
+#	Class == "Embers of the Allflame"
+#	BaseType == "Allflame Ember of Manifested Wealth" "Allflame Ember of The Shaper" "Flaring Allflame Ember of Kalguurans"
+#	SetTextColor 0 0 0 255 # Tier1 Text
+#	SetBackgroundColor 168 180 193 255
+#	SetBorderColor 255 255 255 255 # Tier1 Border
+#	SetFontSize 45 # Yuge
+#	CustomAlertSound "gfT1.mp3" 100
+#	MinimapIcon 0 Red Diamond
+#	PlayEffect Red 
 
 # Allflame Ember T2
-Show
-	Class == "Embers of the Allflame"
-	BaseType == "Allflame Ember of Frogs" "Allflame Ember of Meatsacks" "Allflame Ember of Ramako" "Allflame Ember of Rats" "Allflame Ember of Syndicate Assassins" "Allflame Ember of Syndicate Escorts" "Allflame Ember of Syndicate Guards" "Allflame Ember of Syndicate Researchers" "Flaring Allflame Ember of Wildwood Cultists" "Flaring Allflame Ember of Scientists"
-	SetTextColor 168 180 193 255 # Necropolis Text
-	SetBackgroundColor 51 57 65 255 # Necropolis Background
-	SetBorderColor 168 180 193 255 # Necropolis Border
-	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3" 100
-	MinimapIcon 1 Red Diamond
-	PlayEffect White 
+#Show
+#	Class == "Embers of the Allflame"
+#	BaseType == "Allflame Ember of Frogs" "Allflame Ember of Meatsacks" "Allflame Ember of Ramako" "Allflame Ember of Rats" "Allflame Ember of Syndicate Assassins" "Allflame Ember of Syndicate Escorts" "Allflame Ember of Syndicate Guards" "Allflame Ember of Syndicate Researchers" "Flaring Allflame Ember of Wildwood Cultists" "Flaring Allflame Ember of Scientists"
+#	SetTextColor 168 180 193 255 # Necropolis Text
+#	SetBackgroundColor 51 57 65 255 # Necropolis Background
+#	SetBorderColor 168 180 193 255 # Necropolis Border
+#	SetFontSize 45 # Yuge
+#	CustomAlertSound "gfT15.mp3" 100
+#	MinimapIcon 1 Red Diamond
+#	PlayEffect White 
 
 # Allflame Ember Flaring
-Show
-	Class == "Embers of the Allflame"
-	BaseType = "Flaring Allflame Ember"
-	SetTextColor 168 180 193 255 # Necropolis Text
-	SetBackgroundColor 51 57 65 255 # Necropolis Background
-	SetFontSize 45 # Yuge
-	PlayEffect White Temp
+#Show
+#	Class == "Embers of the Allflame"
+#	BaseType = "Flaring Allflame Ember"
+#	SetTextColor 168 180 193 255 # Necropolis Text
+#	SetBackgroundColor 51 57 65 255 # Necropolis Background
+#	SetFontSize 45 # Yuge
+#	PlayEffect White Temp
 
 # Allflame Ember
-Show
-	Class == "Embers of the Allflame"
-	SetTextColor 168 180 193 255 # Necropolis Text
-	SetBackgroundColor 0 0 0 210 # Junk Background
-	SetFontSize 41 # Big
-	#BlockStrictness 3 Hide
+#Show
+#	Class == "Embers of the Allflame"
+#	SetTextColor 168 180 193 255 # Necropolis Text
+#	SetBackgroundColor 0 0 0 210 # Junk Background
+#	SetFontSize 41 # Big
+#	#BlockStrictness 3 Hide
 
 #===============================================================================
 # Section: Affliction
 #===============================================================================
 
 # Charm
-Show
-	Class = "Charm"
-	SetTextColor 66 94 2 255
-	SetBackgroundColor 41 27 14 255
-	SetBorderColor 15 21 0 255
-	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT3.mp3" 200
-	MinimapIcon 2 White Hexagon
+#Show
+#	Class = "Charm"
+#	SetTextColor 66 94 2 255
+#	SetBackgroundColor 41 27 14 255
+#	SetBorderColor 15 21 0 255
+#	SetFontSize 45 # Yuge
+#	CustomAlertSound "gfT3.mp3" 200
+#	MinimapIcon 2 White Hexagon
 
 # Tincture Poison
-Show
-	Class = "Tincture"
-	BaseType == "Poisonberry Tincture"
-	SetTextColor 66 94 2 255
-	SetBackgroundColor 152 157 167 255
-	SetBorderColor 43 73 0 255
-	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT3.mp3" 200
-	MinimapIcon 2 White Hexagon
+#Show
+#	Class == "Tinctures"
+#	BaseType == "Poisonberry Tincture"
+#	SetTextColor 66 94 2 255
+#	SetBackgroundColor 152 157 167 255
+#	SetBorderColor 43 73 0 255
+#	SetFontSize 45 # Yuge
+#	CustomAlertSound "gfT3.mp3" 200
+#	MinimapIcon 2 White Hexagon
 
 # Tincture
 Show
-	Class = "Tincture"
+	Class == "Tinctures"
 	SetTextColor 66 94 2 255
 	SetBackgroundColor 152 157 167 255
 	SetBorderColor 43 73 0 255
@@ -1221,7 +1238,7 @@ Show
 # T2 Fossil
 Show
 	Class = "Currency"
-	BaseType = "Glyphic Fossil" "Bound Fossil" "Shuddering Fossil" "Corroded Fossil" "Hollow Fossil"
+	BaseType = "Bound Fossil" "Corroded Fossil" "Glyphic Fossil" "Hollow Fossil" "Shuddering Fossil"
 	SetTextColor 102 193 245 255 # Delve Text
 	SetBackgroundColor 5 18 36 255 # Delve Highlight Background
 	SetBorderColor 102 193 245 255 # Delve Border
@@ -1812,15 +1829,15 @@ Show
 	MinimapIcon 0 Red Circle
 	PlayEffect Yellow 
 
-Show
-	Class = "Stackable Currency"
-	BaseType = "Oil Extractor"
-	SetTextColor 200 200 75 255 # Blight Text
-	SetBackgroundColor 30 30 0 255 # Blight Highlight Background
-	SetBorderColor 200 186 153 255 # Currency Border
-	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3" 200
-	MinimapIcon 1 Yellow Circle
+#Show
+#	Class = "Stackable Currency"
+#	BaseType = "Oil Extractor"
+#	SetTextColor 200 200 75 255 # Blight Text
+#	SetBackgroundColor 30 30 0 255 # Blight Highlight Background
+#	SetBorderColor 200 186 153 255 # Currency Border
+#	SetFontSize 45 # Yuge
+#	CustomAlertSound "gfT2.mp3" 200
+#	MinimapIcon 1 Yellow Circle
 
 # Scouting Report T2
 Show
