@@ -153,6 +153,17 @@ Show
 # Section: Affliction
 #===============================================================================
 
+Show
+	Class == "Map Fragment"
+	BaseType == "An Audience With The King"
+	SetTextColor 67 48 191 255
+	SetBackgroundColor 12 14 40 255
+	SetBorderColor 62 46 166 255
+	SetFontSize 45 # Yuge
+	PlayAlertSound 3 200 # Tier2
+	MinimapIcon 0 Red Diamond
+	PlayEffect Red 
+
 # Charm
 #Show
 #	Class = "Charm"
@@ -944,7 +955,7 @@ Show
 
 # T1 Oil
 Show
-	BaseType == "Golden Oil" "Tainted Oil" "Reflective Oil"
+	BaseType == "Golden Oil" "Prismatic Oil" "Reflective Oil" "Tainted Oil"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 200 200 75 255 # Blight Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -2238,7 +2249,7 @@ Show
 # Uber Atziri Fragments Tier2
 Show
 	Class = "Map Fragments"
-	BaseType = "Mortal Rage" "Mortal Grief"
+	BaseType = "Mortal Grief" "Mortal Rage"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 161 27 123 255 # Vaal Background
 	SetBorderColor 0 0 0 255 # Map Border
