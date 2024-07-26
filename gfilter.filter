@@ -39,23 +39,6 @@ Show
 # Section: League Stuff
 #===============================================================================
 
-# Gold stack
-Show
-	StackSize >= 2
-	Class == "Gold"
-	BaseType == "Gold"
-	SetTextColor 254 213 0 255 # Perandus Text
-	SetBackgroundColor 112 88 2 255 # Perandus Background
-	SetFontSize 37 # Medium
-
-# Gold
-Show
-	Class == "Gold"
-	BaseType == "Gold"
-	SetTextColor 254 213 0 255 # Perandus Text
-	SetBackgroundColor 0 0 0 0 # Hidden Background
-	SetFontSize 32 # Regular
-
 # Enchanted Helmet
 Show
 	AnyEnchantment = True
@@ -76,6 +59,46 @@ Show
 	Class == "Stackable Currency"
 	BaseType = "Tattoo"
 	SetFontSize 45 # Yuge
+
+#===============================================================================
+# Section: Settlers
+#===============================================================================
+
+#-------------------------------------------------------------------------------
+# Subsection: Runes
+#-------------------------------------------------------------------------------
+
+# Runes
+Show
+	Class == "Stackable Currency"
+	BaseType == "Bound Rune" "Bound Rune" "Bounty Rune" "Journey Rune" "Life Rune" "Mountain Rune" "Power Rune" "River Rune" "Sun Rune" "Time Rune" "War Rune"
+	SetTextColor 122 145 191 255 # Expedition Text
+	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
+	SetBorderColor 200 186 153 255 # Currency Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT2.mp3" 100
+	MinimapIcon 1 Yellow Circle
+
+#-------------------------------------------------------------------------------
+# Subsection: Jold
+#-------------------------------------------------------------------------------
+
+# Gold stack
+Show
+	StackSize >= 2
+	Class == "Gold"
+	BaseType == "Gold"
+	SetTextColor 254 213 0 255 # Perandus Text
+	SetBackgroundColor 112 88 2 255 # Perandus Background
+	SetFontSize 37 # Medium
+
+# Gold
+Show
+	Class == "Gold"
+	BaseType == "Gold"
+	SetTextColor 254 213 0 255 # Perandus Text
+	SetBackgroundColor 0 0 0 0 # Hidden Background
+	SetFontSize 32 # Regular
 
 #===============================================================================
 # Section: Necropolis
