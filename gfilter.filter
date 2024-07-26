@@ -1,9 +1,9 @@
-﻿#===============================================================================
+#===============================================================================
 # GFILTER
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.24.3
+# VERSION:       3.25.0
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -1395,6 +1395,10 @@ Show
 	SetFontSize 41 # Big
 	#BlockStrictness 3 Hide
 
+#===============================================================================
+# Section: Breach
+#===============================================================================
+
 #-------------------------------------------------------------------------------
 # Subsection: Breach Splinter
 #-------------------------------------------------------------------------------
@@ -2586,7 +2590,7 @@ Show
 	SetBackgroundColor 255 200 0 255 # Legacy Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT0.mp3" 200
+	CustomAlertSound "gfT1.mp3" 200
 	MinimapIcon 0 Red Diamond
 
 # Game Items
@@ -2595,7 +2599,8 @@ Show
 	SetTextColor 74 230 58 255 # Quest Text
 	SetBackgroundColor 0 0 0 255 # Default Background
 	SetFontSize 45 # Yuge
-	PlayAlertSound 2 150 # Quest
+	DisableDropSound
+	CustomAlertSound "gfA.mp3" 300
 	MinimapIcon 0 Green Triangle
 	PlayEffect Green 
 
@@ -2606,7 +2611,8 @@ Show
 	SetBackgroundColor 255 255 119 255
 	SetBorderColor 255 255 255 255 # Tier1 Border
 	SetFontSize 45 # Yuge
-	PlayAlertSound 2 150 # Quest
+	DisableDropSound
+	CustomAlertSound "gfA.mp3" 300
 	MinimapIcon 0 Green Triangle
 	PlayEffect Yellow 
 

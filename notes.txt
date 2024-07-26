@@ -17,7 +17,7 @@ Style Tiers
 Sounds should be strict, visuals can be adjusted depending on item type (e.g. Font Size for easier pickup)
 Everything with a sound should have a Minimap Icon I think maybe.
 Beams are weird. Try to match Item Color to Beam Color maybe?
-	T0 ]5ex
+	T0 ]5div
 		Solid White Background
 		Color Border
 		Color Text
@@ -25,7 +25,7 @@ Beams are weird. Try to match Item Color to Beam Color maybe?
 		CustomSound gfT0
 		MapIcon Red 0
 
-	T1 [50c-5ex]
+	T1 [50c-5div]
 		Solid Color Background
 		White Border
 		Dark Text (Color Text when fitting)
@@ -33,7 +33,7 @@ Beams are weird. Try to match Item Color to Beam Color maybe?
 		CustomSound gfT1
 		MapIcon Red 0
 
-	T1.5 [10c-50c]
+	T1.5 [1ex-50c]
 		Solid Color Background
 		White Border
 		Dark Text (Color Text when fitting)
@@ -41,14 +41,14 @@ Beams are weird. Try to match Item Color to Beam Color maybe?
 		Sound 7 300 / gfT15
 		MapIcon Red 1
 
-	T2 [1c-10c[
+	T2 [1c-1ex[
 		Highlight Background
 		Color Border
 		Color Text
 		Size 41
 		Sound 3 200 / gfT2
 		MapIcon Yellow 1
-		
+
 	T3 [1alch-1c[
 		Highlight Background
 		Color Text
