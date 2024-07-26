@@ -3425,8 +3425,8 @@ Show
 # Section: 6 Links
 #===============================================================================
 
-# 6 Link T1 base high ilvl
-Show # $type->6l $tier->hightier | Hide
+# 6 Link T1 base high ilvl $type->6l $tier->hightier
+Show
 	Corrupted = False
 	Mirrored = False
 	ItemLevel >= 75
@@ -4011,7 +4011,7 @@ Show
 	PlayEffect Red 
 
 # Redeemer T1 $type->rare->redeemer $tier->t12
-Show #  | Hide
+Show
 	HasInfluence = "Redeemer"
 	ItemLevel >= 85
 	Rarity = Rare
@@ -4700,7 +4700,7 @@ Show
 #===============================================================================
 
 # Chance Bases
-Show # Ugrouped Customizable Items | Disable
+Show
 	Rarity = Normal
 	BaseType = "Leather Belt"
 	SetTextColor 200 200 200 255 # Normal Text
@@ -6273,4 +6273,3 @@ Show
 	SetFontSize 45 # Yuge
 	PlayAlertSound 15 300 # wat
 	MinimapIcon 0 Red Star
-
