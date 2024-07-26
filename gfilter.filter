@@ -595,7 +595,7 @@ Show
 
 # Ritual BaseTypes
 Show
-	BaseType = "Aetherwind Gloves" "Archdemon Crown" "Atonement Mask" "Basemetal Treads" "Blizzard Crown" "Brimstone Treads" "Cloudwhisper Boots" "Darksteel Treads" "Debilitation Gauntlets" "Demon Crown" "Dreamquest Slippers" "Duskwalk Slippers" "Gale Crown" "Gauche Gloves" "Gruelling Gauntlets" "Imp Crown" "Leyline Gloves" "Nexus Gloves" "Nightwind Slippers" "Penitent Mask" "Sinistral Gloves" "Sorrow Mask" "Southswing Gloves" "Stormrider Boots" "Taxing Gauntlets" "Windbreak Boots" "Winter Crown"
+	BaseType = "Aetherwind Gloves" "Apprentice Gloves" "Archdemon Crown" "Atonement Mask" "Basemetal Treads" "Blizzard Crown" "Brimstone Treads" "Cloudwhisper Boots" "Darksteel Treads" "Demon Crown" "Dreamquest Slippers" "Duskwalk Slippers" "Gale Crown" "Guarding Gauntlets" "Imp Crown" "Leyline Gloves" "Nexus Gloves" "Nightwind Slippers" "Penitent Mask" "Preserving Gauntlets" "Sorrow Mask" "Stormrider Boots" "Thwarting Gauntlets" "Tinker Gloves" "Trapsetter Gloves" "Windbreak Boots" "Winter Crown"
 	SetBackgroundColor 0 0 0 255 # Default Background
 
 #===============================================================================
@@ -1808,6 +1808,7 @@ Show
 #-------------------------------------------------------------------------------
 # Subsection: Tier1
 #-------------------------------------------------------------------------------
+
 # Divination Card Tier1 stack $type->divination $tier->excustomstack
 Show
 	StackSize >= 3
@@ -1820,7 +1821,6 @@ Show
 	CustomAlertSound "gfT1.mp3" 200
 	MinimapIcon 0 Red Star
 	PlayEffect Blue 
-
 
 # Divination Card Tier1 $type->divination $tier->t1
 Show
@@ -2439,52 +2439,63 @@ Show
 	MinimapIcon 1 White Circle
 	PlayEffect White Temp
 
-# T1 Scarab
-#Show
-#	Class = "Map Fragments"
-#	BaseType == "Divination Scarab of Curation" "Horned Scarab of Preservation"
-#	SetTextColor 0 0 0 255 # Tier1 Text
-#	SetBackgroundColor 255 200 0 255 # Legacy Background
-#	SetBorderColor 255 255 255 255 # Tier1 Border
-#	SetFontSize 45 # Yuge
-#	CustomAlertSound "gfT1.mp3" 200
-#	MinimapIcon 0 Red Diamond
-#	PlayEffect Red 
+# T1 Scarab $type->fragments->scarabs $tier->t1
+Show
+	Class = "Map Fragments"
+	BaseType == "Ambush Scarab of Containment" "Bestiary Scarab of the Shadowed Crow" "Breach Scarab of the Dreamer" "Essence Scarab of Calcification" "Harvest Scarab of Cornucopia" "Horned Scarab of Awakening" "Horned Scarab of Bloodlines" "Horned Scarab of Glittering" "Horned Scarab of Preservation" "Ultimatum Scarab of Catalysing"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 255 200 0 255 # Legacy Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT1.mp3" 200
+	MinimapIcon 0 Red Diamond
+	PlayEffect Red 
 
-# T1.5 Scarab
-#Show
-#	Class = "Map Fragments"
-#	BaseType == "Ambush Scarab of Containment" "Divination Scarab of Completion" "Domination Scarab of Terrors" "Essence Scarab of Calcification" "Harvest Scarab of Cornucopia" "Horned Scarab of Awakening" "Horned Scarab of Bloodlines" "Horned Scarab of Glittering" "Horned Scarab of Pandemonium" "Reliquary Scarab of Vision" "Ultimatum Scarab of Catalysing"
-#	SetTextColor 0 0 0 255 # Tier1 Text
-#	SetBackgroundColor 255 200 0 255 # Legacy Background
-#	SetBorderColor 255 255 255 255 # Tier1 Border
-#	SetFontSize 45 # Yuge
-#	CustomAlertSound "gfT15.mp3" 200
-#	MinimapIcon 1 Red Diamond
-#	PlayEffect Yellow 
+# T1.5 Scarab $type->fragments->scarabs $tier->t2
+Show
+	Class = "Map Fragments"
+	BaseType == "Ambush Scarab of Discernment" "Bestiary Scarab of Duplicating" "Blight Scarab of Blooming" "Breach Scarab of Snares" "Divination Scarab of Pilfering" "Domination Scarab of Terrors" "Essence Scarab of Ascent" "Expedition Scarab of Archaeology" "Harvest Scarab of Doubling" "Horned Scarab of Nemeses" "Horned Scarab of Pandemonium" "Horned Scarab of Tradition" "Incursion Scarab of Timelines" "Ritual Scarab of Abundance" "Ultimatum Scarab of Dueling"
+	SetTextColor 0 0 0 255 # Tier1 Text
+	SetBackgroundColor 255 200 0 255 # Legacy Background
+	SetBorderColor 255 255 255 255 # Tier1 Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT15.mp3" 200
+	MinimapIcon 1 Red Diamond
+	PlayEffect Yellow 
 
-# T2 Scarab
-#Show
-#	Class = "Map Fragments"
-#	BaseType == "Blight Scarab of Blooming" "Breach Scarab of the Dreamer" "Cartography Scarab of Duplication" "Domination Scarab of Teachings" "Harvest Scarab of Doubling" "Incursion Scarab of Timelines" "Legion Scarab of Eternal Conflict"
-#	SetTextColor 255 200 0 255 # Legacy Text
-#	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
-#	SetBorderColor 255 200 0 255 # Legacy Border
-#	SetFontSize 45 # Yuge
-#	CustomAlertSound "gfT2.mp3" 200
-#	MinimapIcon 1 Yellow Diamond
-#	PlayEffect Yellow Temp
+# T2 Scarab $type->fragments->scarabs $tier->t3
+Show
+	Class = "Map Fragments"
+	BaseType == "Ambush Scarab" "Anarchy Scarab of Partnership" "Blight Scarab of Bounty" "Cartography Scarab of Singularity" "Divination Scarab of Plenty" "Divination Scarab of The Cloister" "Expedition Scarab of Runefinding" "Expedition Scarab of the Skald" "Harbinger Scarab" "Harbinger Scarab of Obelisks" "Harbinger Scarab of Regency" "Harbinger Scarab of Warhoards" "Influencing Scarab of Conversion" "Legion Scarab" "Legion Scarab of Eternal Conflict" "Legion Scarab of Officers" "Scarab of Stability"
+	SetTextColor 255 200 0 255 # Legacy Text
+	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
+	SetBorderColor 255 200 0 255 # Legacy Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT2.mp3" 200
+	MinimapIcon 1 Yellow Diamond
+	PlayEffect Yellow Temp
 
-# Scarab T3
-#Show
-#	Class == "Map Fragment"
-#	BaseType == "Ambush Scarab" "Breach Scarab" "Breach Scarab of Snares" "Delirium Scarab of Paranoia" "Domination Scarab" "Legion Scarab" "Sulphite Scarab"
-#	SetTextColor 255 200 0 255 # Legacy Text
-#	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
-#	SetBorderColor 0 0 0 0 # No Border
-#	SetFontSize 45 # Yuge
-#	CustomAlertSound "gfT3.mp3" 100
-#	MinimapIcon 2 White Diamond
+# Scarab T3 $type->fragments->scarabs $tier->t4
+Show
+	Class == "Map Fragment"
+	BaseType == "Abyss Scarab of Edifice" "Abyss Scarab of Profound Depth" "Ambush Scarab of Hidden Compartments" "Betrayal Scarab of Perpetuation" "Beyond Scarab of Resurgence" "Blight Scarab of Invigoration" "Blight Scarab of the Blightheart" "Breach Scarab of Lordship" "Cartography Scarab of Corruption" "Cartography Scarab of Escalation" "Cartography Scarab of Risk" "Cartography Scarab of the Multitude" "Delirium Scarab of Mania" "Delirium Scarab of Neuroses" "Delirium Scarab of Paranoia" "Domination Scarab of Apparitions" "Domination Scarab of Evolution" "Essence Scarab" "Ritual Scarab of Selectiveness" "Ritual Scarab of Wisps" "Scarab of Divinity" "Scarab of Hunted Traitors" "Scarab of Monstrous Lineage" "Titanic Scarab" "Titanic Scarab of Legend" "Titanic Scarab of Treasures"
+	SetTextColor 255 200 0 255 # Legacy Text
+	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
+	SetBorderColor 0 0 0 0 # No Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT3.mp3" 100
+	MinimapIcon 2 White Diamond
+
+# Scarab T4 $type->fragments->scarabs $tier->t5
+Show
+	Class == "Map Fragment"
+	BaseType == "Abyss Scarab" "Abyss Scarab of Emptiness" "Abyss Scarab of Multitudes" "Ambush Scarab of Potency" "Anarchy Scarab" "Anarchy Scarab of Gigantification" "Bestiary Scarab" "Bestiary Scarab of the Herd" "Betrayal Scarab" "Betrayal Scarab of Intelligence" "Betrayal Scarab of Reinforcements" "Beyond Scarab" "Beyond Scarab of Corruption" "Beyond Scarab of the Invasion" "Blight Scarab" "Breach Scarab" "Breach Scarab of Resonant Cascade" "Delirium Scarab" "Delirium Scarab of Delusions" "Domination Scarab" "Essence Scarab of Adaptation" "Essence Scarab of Stability" "Expedition Scarab" "Expedition Scarab of Verisium Powder" "Harvest Scarab" "Incursion Scarab of Champions" "Influencing Scarab of Hordes" "Legion Scarab of Command" "Legion Scarab of The Sekhema" "Scarab of Adversaries" "Scarab of Radiant Storms" "Sulphite Scarab" "Sulphite Scarab of Fumes" "Torment Scarab of Release" "Ultimatum Scarab of Bribing" "Ultimatum Scarab of Inscription"
+	SetTextColor 255 200 0 255 # Legacy Text
+	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
+	SetBorderColor 0 0 0 0 # No Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfNYUN.mp3" 200
+	MinimapIcon 2 White Diamond
 
 # Scarab
 Show
@@ -2494,8 +2505,6 @@ Show
 	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
 	SetBorderColor 0 0 0 0 # No Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfNYUN.mp3" 200
-	MinimapIcon 2 White Diamond
 	#BlockStrictness 3 Disable
 
 # Scarab low
@@ -6264,3 +6273,4 @@ Show
 	SetFontSize 45 # Yuge
 	PlayAlertSound 15 300 # wat
 	MinimapIcon 0 Red Star
+
