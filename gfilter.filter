@@ -2309,51 +2309,51 @@ Show
 	PlayEffect White Temp
 
 # T1 Scarab
-Show
-	Class = "Map Fragments"
-	BaseType == "Divination Scarab of Curation" "Horned Scarab of Preservation"
-	SetTextColor 0 0 0 255 # Tier1 Text
-	SetBackgroundColor 255 200 0 255 # Legacy Background
-	SetBorderColor 255 255 255 255 # Tier1 Border
-	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT1.mp3" 200
-	MinimapIcon 0 Red Diamond
-	PlayEffect Red 
+#Show
+#	Class = "Map Fragments"
+#	BaseType == "Divination Scarab of Curation" "Horned Scarab of Preservation"
+#	SetTextColor 0 0 0 255 # Tier1 Text
+#	SetBackgroundColor 255 200 0 255 # Legacy Background
+#	SetBorderColor 255 255 255 255 # Tier1 Border
+#	SetFontSize 45 # Yuge
+#	CustomAlertSound "gfT1.mp3" 200
+#	MinimapIcon 0 Red Diamond
+#	PlayEffect Red 
 
 # T1.5 Scarab
-Show
-	Class = "Map Fragments"
-	BaseType == "Ambush Scarab of Containment" "Divination Scarab of Completion" "Domination Scarab of Terrors" "Essence Scarab of Calcification" "Harvest Scarab of Cornucopia" "Horned Scarab of Awakening" "Horned Scarab of Bloodlines" "Horned Scarab of Glittering" "Horned Scarab of Pandemonium" "Reliquary Scarab of Vision" "Ultimatum Scarab of Catalysing"
-	SetTextColor 0 0 0 255 # Tier1 Text
-	SetBackgroundColor 255 200 0 255 # Legacy Background
-	SetBorderColor 255 255 255 255 # Tier1 Border
-	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT15.mp3" 200
-	MinimapIcon 1 Red Diamond
-	PlayEffect Yellow 
+#Show
+#	Class = "Map Fragments"
+#	BaseType == "Ambush Scarab of Containment" "Divination Scarab of Completion" "Domination Scarab of Terrors" "Essence Scarab of Calcification" "Harvest Scarab of Cornucopia" "Horned Scarab of Awakening" "Horned Scarab of Bloodlines" "Horned Scarab of Glittering" "Horned Scarab of Pandemonium" "Reliquary Scarab of Vision" "Ultimatum Scarab of Catalysing"
+#	SetTextColor 0 0 0 255 # Tier1 Text
+#	SetBackgroundColor 255 200 0 255 # Legacy Background
+#	SetBorderColor 255 255 255 255 # Tier1 Border
+#	SetFontSize 45 # Yuge
+#	CustomAlertSound "gfT15.mp3" 200
+#	MinimapIcon 1 Red Diamond
+#	PlayEffect Yellow 
 
 # T2 Scarab
-Show
-	Class = "Map Fragments"
-	BaseType == "Blight Scarab of Blooming" "Breach Scarab of the Dreamer" "Cartography Scarab of Duplication" "Domination Scarab of Teachings" "Harvest Scarab of Doubling" "Incursion Scarab of Timelines" "Legion Scarab of Eternal Conflict"
-	SetTextColor 255 200 0 255 # Legacy Text
-	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
-	SetBorderColor 255 200 0 255 # Legacy Border
-	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT2.mp3" 200
-	MinimapIcon 1 Yellow Diamond
-	PlayEffect Yellow Temp
+#Show
+#	Class = "Map Fragments"
+#	BaseType == "Blight Scarab of Blooming" "Breach Scarab of the Dreamer" "Cartography Scarab of Duplication" "Domination Scarab of Teachings" "Harvest Scarab of Doubling" "Incursion Scarab of Timelines" "Legion Scarab of Eternal Conflict"
+#	SetTextColor 255 200 0 255 # Legacy Text
+#	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
+#	SetBorderColor 255 200 0 255 # Legacy Border
+#	SetFontSize 45 # Yuge
+#	CustomAlertSound "gfT2.mp3" 200
+#	MinimapIcon 1 Yellow Diamond
+#	PlayEffect Yellow Temp
 
 # Scarab T3
-Show
-	Class == "Map Fragment"
-	BaseType == "Ambush Scarab" "Breach Scarab" "Breach Scarab of Snares" "Delirium Scarab of Paranoia" "Domination Scarab" "Legion Scarab" "Sulphite Scarab"
-	SetTextColor 255 200 0 255 # Legacy Text
-	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
-	SetBorderColor 0 0 0 0 # No Border
-	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT3.mp3" 100
-	MinimapIcon 2 White Diamond
+#Show
+#	Class == "Map Fragment"
+#	BaseType == "Ambush Scarab" "Breach Scarab" "Breach Scarab of Snares" "Delirium Scarab of Paranoia" "Domination Scarab" "Legion Scarab" "Sulphite Scarab"
+#	SetTextColor 255 200 0 255 # Legacy Text
+#	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
+#	SetBorderColor 0 0 0 0 # No Border
+#	SetFontSize 45 # Yuge
+#	CustomAlertSound "gfT3.mp3" 100
+#	MinimapIcon 2 White Diamond
 
 # Scarab
 Show
@@ -2363,7 +2363,7 @@ Show
 	SetBackgroundColor 30 24 0 255 # Legacy Highlight Background
 	SetBorderColor 0 0 0 0 # No Border
 	SetFontSize 45 # Yuge
-	CustomAlertSound "gfT3.mp3" 100
+	CustomAlertSound "gfNYUN.mp3" 200
 	MinimapIcon 2 White Diamond
 	#BlockStrictness 3 Disable
 
