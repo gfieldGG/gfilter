@@ -1848,6 +1848,18 @@ Show
 # Section: Currency
 #===============================================================================
 
+# Maven's Chisel
+Show
+	Class == "Stackable Currency"
+	BaseType == "Maven's Chisel of Avarice" "Maven's Chisel of Divination" "Maven's Chisel of Procurement" "Maven's Chisel of Proliferation" "Maven's Chisel of Scarabs"
+	SetTextColor 200 186 153 255 # Currency Text
+	SetBackgroundColor 0 0 64 255 # Melvin Highlight Border
+	SetBorderColor 255 200 0 255 # Melvin Border
+	SetFontSize 45 # Yuge
+	CustomAlertSound "gfT15.mp3" 200
+	MinimapIcon 1 Red Circle
+	PlayEffect Red 
+
 #-------------------------------------------------------------------------------
 # Subsection: Siege of the Atlas
 #-------------------------------------------------------------------------------
@@ -6175,3 +6187,4 @@ Show
 	SetFontSize 45 # Yuge
 	PlayAlertSound 15 300 # wat
 	MinimapIcon 0 Red Star
+
