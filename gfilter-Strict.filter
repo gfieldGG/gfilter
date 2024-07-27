@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.25.1
+# VERSION:       3.25.2
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -98,7 +98,7 @@ Show
 	Class == "Gold"
 	BaseType == "Gold"
 	SetTextColor 254 213 0 255 # Perandus Text
-	SetBackgroundColor 0 0 0 210 # Junk Background
+	SetBackgroundColor 0 0 0 140 # Faded Background
 	SetFontSize 41 # Big
 
 # Gold stack small
@@ -207,8 +207,8 @@ Show
 Show
 	Class == "Tinctures"
 	SetTextColor 66 94 2 255
-	SetBackgroundColor 152 157 167 255
-	SetBorderColor 43 73 0 255
+	SetBackgroundColor 41 27 14 255
+	SetBorderColor 15 21 0 255
 	SetFontSize 41 # Big
 	#BlockStrictness 3 Hide
 
@@ -2165,7 +2165,7 @@ Show
 Show
 	StackSize >= 10
 	Class = "Currency"
-	BaseType = "Orb of Transmutation" "Orb of Augmentation" "Blacksmith's Whetstone" "Armourer's Scrap" "Scroll of Wisdom" "Portal Scroll"
+	BaseType = "Orb of Transmutation" "Orb of Augmentation" "Scroll of Wisdom" "Portal Scroll"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 0 0 0 140 # Faded Background
 	SetFontSize 41 # Big
@@ -2174,7 +2174,7 @@ Show
 Show
 	StackSize >= 6
 	Class = "Currency"
-	BaseType = "Orb of Transmutation" "Orb of Augmentation" "Blacksmith's Whetstone" "Armourer's Scrap" "Scroll of Wisdom" "Portal Scroll"
+	BaseType = "Orb of Transmutation" "Orb of Augmentation" "Scroll of Wisdom" "Portal Scroll"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 0 0 0 140 # Faded Background
 	SetFontSize 41 # Big
@@ -2195,7 +2195,7 @@ Show
 Hide
 	StackSize >= 4
 	Class = "Currency"
-	BaseType = "Orb of Transmutation" "Orb of Augmentation" "Blacksmith's Whetstone" "Armourer's Scrap" "Scroll of Wisdom" "Portal Scroll"
+	BaseType = "Orb of Transmutation" "Orb of Augmentation" "Scroll of Wisdom" "Portal Scroll"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 0 0 0 140 # Faded Background
 	SetFontSize 41 # Big
@@ -2205,7 +2205,7 @@ Hide
 Hide
 	AreaLevel >= 50
 	Class = "Currency"
-	BaseType = "Orb of Transmutation" "Orb of Augmentation" "Blacksmith's Whetstone" "Armourer's Scrap" "Scroll of Wisdom" "Portal Scroll"
+	BaseType = "Orb of Transmutation" "Orb of Augmentation" "Scroll of Wisdom" "Portal Scroll"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 0 0 0 140 # Faded Background
 	SetFontSize 41 # Big
@@ -2214,7 +2214,7 @@ Hide
 # Currency Tier5
 Hide
 	Class = "Currency"
-	BaseType = "Orb of Transmutation" "Orb of Augmentation" "Blacksmith's Whetstone" "Armourer's Scrap" "Scroll of Wisdom" "Portal Scroll"
+	BaseType = "Orb of Transmutation" "Orb of Augmentation" "Scroll of Wisdom" "Portal Scroll"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 0 0 0 140 # Faded Background
 	SetFontSize 41 # Big
@@ -2224,7 +2224,7 @@ Hide
 Show
 	StackSize >= 4
 	Class = "Currency"
-	BaseType = "Jeweller's Orb" "Orb of Chance" "Chromatic Orb" "Engineer's Orb" "Orb of Alteration"
+	BaseType = "Jeweller's Orb" "Orb of Chance" "Chromatic Orb" "Engineer's Orb" "Orb of Alteration" "Blacksmith's Whetstone" "Armourer's Scrap"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetFontSize 45 # Yuge
@@ -2234,7 +2234,7 @@ Show
 # Currency Tier4
 Show
 	Class = "Currency"
-	BaseType = "Jeweller's Orb" "Orb of Chance" "Chromatic Orb" "Engineer's Orb" "Orb of Alteration"
+	BaseType = "Armourer's Scrap" "Blacksmith's Whetstone" "Chromatic Orb" "Engineer's Orb" "Jeweller's Orb" "Orb of Alteration" "Orb of Chance"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetFontSize 41 # Big
@@ -2276,7 +2276,7 @@ Show
 # Currency Tier3
 Show
 	Class = "Currency"
-	BaseType = "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Orb of Scouring" "Orb of Binding" "Orb of Horizons" "Enkindling Orb" "Instilling Orb" "Exalted Shard" "Fracturing Shard"
+	BaseType = "Blessed Orb" "Cartographer's Chisel" "Enkindling Orb" "Exalted Shard" "Fracturing Shard" "Glassblower's Bauble" "Instilling Orb" "Orb of Alchemy" "Orb of Binding" "Orb of Fusing" "Orb of Horizons" "Orb of Scouring"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetFontSize 45 # Yuge
