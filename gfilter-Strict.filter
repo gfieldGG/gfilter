@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.25.0
+# VERSION:       3.25.1
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -90,15 +90,15 @@ Show
 	BaseType == "Gold"
 	SetTextColor 254 213 0 255 # Perandus Text
 	SetBackgroundColor 112 88 2 255 # Perandus Background
-	SetFontSize 45 # Yuge
+	SetFontSize 41 # Big
 
 # Gold stack medium
 Show
-	StackSize >= 500
+	StackSize >= 300
 	Class == "Gold"
 	BaseType == "Gold"
 	SetTextColor 254 213 0 255 # Perandus Text
-	SetBackgroundColor 112 88 2 255 # Perandus Background
+	SetBackgroundColor 0 0 0 210 # Junk Background
 	SetFontSize 41 # Big
 
 # Gold stack small
@@ -107,7 +107,7 @@ Show
 	Class == "Gold"
 	BaseType == "Gold"
 	SetTextColor 254 213 0 255 # Perandus Text
-	SetBackgroundColor 0 0 0 210 # Junk Background
+	SetBackgroundColor 0 0 0 0 # Hidden Background
 	SetFontSize 37 # Medium
 
 # Gold
@@ -3425,12 +3425,12 @@ Show
 # Section: 6 Links
 #===============================================================================
 
-# 6 Link T1 base high ilvl
-Show # $type->6l $tier->hightier | Hide
+# 6 Link T1 base high ilvl $type->6l $tier->hightier
+Show
 	Corrupted = False
 	Mirrored = False
 	ItemLevel >= 75
-	LinkedSockets <= 6
+	LinkedSockets = 6
 	Rarity <= Rare
 	BaseType == "Apex Cleaver" "Arcane Vestment" "Assassin's Garb" "Astral Leather" "Banishing Blade" "Battery Staff" "Carnal Armour" "Conquest Lamellar" "Despot Axe" "Destiny Leather" "Eventuality Rod" "Exquisite Leather" "Full Dragonscale" "Full Wyvernscale" "General's Brigandine" "Gladiator Plate" "Glorious Plate" "Grand Ringmail" "Grove Bow" "Harbinger Bow" "Impact Force Propagator" "Imperial Bow" "Ivory Bow" "Legion Plate" "Maraketh Bow" "Marshall's Brigandine" "Necrotic Armour" "Nightweave Robe" "Paladin's Hauberk" "Royal Plate" "Sacred Chainmail" "Sadist Garb" "Saintly Chainmail" "Saint's Hauberk" "Sanguine Raiment" "Short Bow" "Solarine Bow" "Spine Bow" "Supreme Leather" "Syndicate's Garb" "Thicket Bow" "Titan Plate" "Torturer Garb" "Triumphant Lamellar" "Twilight Regalia" "Vaal Regalia" "Zodiac Leather"
 	SetTextColor 0 0 0 255 # Tier1 Text
@@ -4011,7 +4011,7 @@ Show
 	PlayEffect Red 
 
 # Redeemer T1 $type->rare->redeemer $tier->t12
-Show #  | Hide
+Show
 	HasInfluence = "Redeemer"
 	ItemLevel >= 85
 	Rarity = Rare
@@ -4700,7 +4700,7 @@ Show
 #===============================================================================
 
 # Chance Bases
-#Show # Ugrouped Customizable Items | Disable
+#Show
 #	Rarity = Normal
 #	BaseType = "Leather Belt"
 #	SetTextColor 200 200 200 255 # Normal Text
