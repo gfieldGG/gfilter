@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.25.3
+# VERSION:       3.25.4
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -59,6 +59,8 @@ Show
 	Class == "Stackable Currency"
 	BaseType = "Tattoo"
 	SetFontSize 45 # Yuge
+	CustomAlertSound "gfNYUN.mp3" 100
+	MinimapIcon 1 White Hexagon
 
 #===============================================================================
 # Section: Settlers
@@ -2165,7 +2167,7 @@ Show
 Show
 	StackSize >= 10
 	Class = "Currency"
-	BaseType = "Orb of Transmutation" "Orb of Augmentation" "Scroll of Wisdom" "Portal Scroll"
+	BaseType = "Orb of Augmentation" "Orb of Transmutation" "Portal Scroll" "Scroll of Wisdom"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 0 0 0 140 # Faded Background
 	SetFontSize 41 # Big
@@ -2174,7 +2176,7 @@ Show
 Show
 	StackSize >= 6
 	Class = "Currency"
-	BaseType = "Orb of Transmutation" "Orb of Augmentation" "Scroll of Wisdom" "Portal Scroll"
+	BaseType = "Orb of Augmentation" "Orb of Transmutation" "Portal Scroll" "Scroll of Wisdom"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 0 0 0 140 # Faded Background
 	SetFontSize 41 # Big
@@ -2195,7 +2197,7 @@ Show
 Show
 	StackSize >= 4
 	Class = "Currency"
-	BaseType = "Orb of Transmutation" "Orb of Augmentation" "Scroll of Wisdom" "Portal Scroll"
+	BaseType = "Orb of Augmentation" "Orb of Transmutation" "Portal Scroll" "Scroll of Wisdom"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 0 0 0 140 # Faded Background
 	SetFontSize 41 # Big
@@ -2205,7 +2207,7 @@ Show
 Show
 	AreaLevel >= 50
 	Class = "Currency"
-	BaseType = "Orb of Transmutation" "Orb of Augmentation" "Scroll of Wisdom" "Portal Scroll"
+	BaseType = "Orb of Augmentation" "Orb of Transmutation" "Portal Scroll" "Scroll of Wisdom"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 0 0 0 140 # Faded Background
 	SetFontSize 41 # Big
@@ -2214,7 +2216,7 @@ Show
 # Currency Tier5
 Show
 	Class = "Currency"
-	BaseType = "Orb of Transmutation" "Orb of Augmentation" "Scroll of Wisdom" "Portal Scroll"
+	BaseType = "Orb of Augmentation" "Orb of Transmutation" "Portal Scroll" "Scroll of Wisdom"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 0 0 0 140 # Faded Background
 	SetFontSize 41 # Big
@@ -2224,7 +2226,7 @@ Show
 Show
 	StackSize >= 4
 	Class = "Currency"
-	BaseType = "Jeweller's Orb" "Orb of Chance" "Chromatic Orb" "Engineer's Orb" "Orb of Alteration" "Blacksmith's Whetstone" "Armourer's Scrap"
+	BaseType = "Armourer's Scrap" "Blacksmith's Whetstone" "Chromatic Orb" "Engineer's Orb" "Jeweller's Orb" "Orb of Alteration" "Orb of Chance"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetFontSize 45 # Yuge
@@ -2234,7 +2236,7 @@ Show
 # Currency Tier4
 Show
 	Class = "Currency"
-	BaseType = "Jeweller's Orb" "Orb of Chance" "Chromatic Orb" "Engineer's Orb" "Orb of Alteration" "Blacksmith's Whetstone" "Armourer's Scrap"
+	BaseType = "Armourer's Scrap" "Blacksmith's Whetstone" "Chromatic Orb" "Engineer's Orb" "Jeweller's Orb" "Orb of Alteration" "Orb of Chance"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetFontSize 41 # Big
@@ -2264,7 +2266,7 @@ Show
 Show
 	StackSize >= 3
 	Class = "Currency"
-	BaseType = "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Orb of Scouring" "Orb of Binding" "Orb of Horizons" "Enkindling Orb" "Instilling Orb" "Exalted Shard"
+	BaseType = "Blessed Orb" "Cartographer's Chisel" "Enkindling Orb" "Exalted Shard" "Instilling Orb" "Orb of Alchemy" "Orb of Binding" "Orb of Fusing" "Orb of Horizons" "Orb of Scouring"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetBorderColor 200 186 153 255 # Currency Border
@@ -2276,7 +2278,7 @@ Show
 # Currency Tier3
 Show
 	Class = "Currency"
-	BaseType = "Orb of Alchemy" "Orb of Fusing" "Cartographer's Chisel" "Glassblower's Bauble" "Blessed Orb" "Orb of Scouring" "Orb of Binding" "Orb of Horizons" "Enkindling Orb" "Instilling Orb" "Exalted Shard" "Fracturing Shard"
+	BaseType = "Blessed Orb" "Cartographer's Chisel" "Enkindling Orb" "Exalted Shard" "Fracturing Shard" "Instilling Orb" "Orb of Alchemy" "Orb of Binding" "Orb of Fusing" "Orb of Horizons" "Orb of Scouring"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetFontSize 45 # Yuge
@@ -2300,8 +2302,8 @@ Show
 # Currency Tier2 Stack
 Show
 	StackSize >= 6
-	Class = "Currency"
-	BaseType = "Chaos Orb" "Orb of Regret" "Regal Orb" "Gemcutter's Prism" "Vaal Orb" "Veiled Orb" "Enkindling Orb" "Instilling Orb" "Orb of Unmaking"
+	Class == "Currency"
+	BaseType == "Chaos Orb" "Enkindling Orb" "Gemcutter's Prism" "Glassblower's Bauble" "Instilling Orb" "Orb of Regret" "Orb of Unmaking" "Regal Orb" "Vaal Orb" "Veiled Orb"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 200 186 153 255 # Currency Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -2312,8 +2314,8 @@ Show
 
 # Currency Tier2
 Show
-	Class = "Currency"
-	BaseType = "Chaos Orb" "Orb of Regret" "Regal Orb" "Gemcutter's Prism" "Vaal Orb" "Veiled Orb" "Orb of Unmaking"
+	Class == "Currency"
+	BaseType == "Chaos Orb" "Gemcutter's Prism" "Glassblower's Bauble" "Orb of Regret" "Orb of Unmaking" "Regal Orb" "Vaal Orb"
 	SetTextColor 200 186 153 255 # Currency Text
 	SetBackgroundColor 35 30 20 255 # Currency Highlight Background
 	SetBorderColor 200 186 153 255 # Currency Border
@@ -2325,7 +2327,7 @@ Show
 # Currency Tier1.5
 Show
 	Class = "Currency"
-	BaseType = "Orb of Annulment" "Ancient Orb" "Harbinger's Orb" "Exalted Orb" "Fracturing Orb"
+	BaseType = "Ancient Orb" "Exalted Orb" "Fracturing Orb" "Harbinger's Orb" "Orb of Annulment" "Sacred Orb"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 200 186 153 255 # Currency Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
@@ -2349,7 +2351,7 @@ Show
 # Currency Tier1
 Show
 	Class = "Currency"
-	BaseType = "Mirror Shard" "Awakener's Orb" "Sacred Orb" "Divine Orb"
+	BaseType = "Awakener's Orb" "Divine Orb" "Mirror Shard" "Veiled Orb"
 	SetTextColor 0 0 0 255 # Tier1 Text
 	SetBackgroundColor 200 186 153 255 # Currency Background
 	SetBorderColor 255 255 255 255 # Tier1 Border
