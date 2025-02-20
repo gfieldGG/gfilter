@@ -3,7 +3,7 @@
 #===============================================================================
 #
 # NAME:          gfilter
-# VERSION:       3.25.5
+# VERSION:       3.25.6
 # AUTHOR:        gfield
 # CONTACT:       
 # LINK:          https://github.com/gfieldGG/gfilter/
@@ -60,6 +60,27 @@ Show
 	BaseType = "Tattoo"
 	SetFontSize 45 # Yuge
 	CustomAlertSound "gfNYUN.mp3" 100
+	MinimapIcon 1 White Hexagon
+
+#===============================================================================
+# Section: Phrecia
+#===============================================================================
+
+# Unique Idol
+Show
+	Rarity = Unique
+	Class == "Idol"
+	SetTextColor 175 96 37 255 # Unique Text
+	SetBackgroundColor 29 35 35 240
+	SetBorderColor 175 96 37 255 # Unique Border
+	SetFontSize 45 # Yuge
+	MinimapIcon 1 Yellow Hexagon
+
+# Idol
+Show
+	Class == "Idol"
+	SetBackgroundColor 29 35 35 240
+	SetFontSize 41 # Big
 	MinimapIcon 1 White Hexagon
 
 #===============================================================================
